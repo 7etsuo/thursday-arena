@@ -1,0 +1,42 @@
+{
+  "fp": "haggle bot | x brief | seo aeo desk",
+  "seats": [
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 6,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "folktechai"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__company-docs-q-a__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": 0,
+      "last": "2026-09-19T05:05:29.032Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__company-docs-q-a__writing-bot",
+  "plays": 1,
+  "updated": "2026-09-19T05:05:29.032Z"
+}

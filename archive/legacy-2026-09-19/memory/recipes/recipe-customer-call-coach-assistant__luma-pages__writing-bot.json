@@ -1,0 +1,38 @@
+{
+  "id": "recipe-customer-call-coach-assistant__luma-pages__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "customer call coach assistant",
+      "kit": "peacock",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "peacock",
+    "hype",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 2,
+  "last": "2026-09-19T00:07:49.609Z"
+}

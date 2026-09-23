@@ -1,0 +1,38 @@
+{
+  "id": "recipe-stills-clips-desk__apple-search-ads-review__apple-search-ads-review",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "stills clips desk",
+      "kit": "wake",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "wake",
+    "grow",
+    "grow"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 8,
+  "last": "2026-09-18T21:54:25.386Z"
+}

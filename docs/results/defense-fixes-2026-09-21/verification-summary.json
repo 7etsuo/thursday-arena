@@ -1,0 +1,47 @@
+{
+  "tests": {
+    "passed": 247,
+    "failed": 0
+  },
+  "newSeason3": {
+    "before": {
+      "total": 2751,
+      "winners": 2745,
+      "frames": 2686
+    },
+    "after": {
+      "total": 2751,
+      "winners": 2751,
+      "frames": 2751
+    }
+  },
+  "priorSeason3": {
+    "total": 337,
+    "winners": 337,
+    "frames": 337
+  },
+  "historicalCorpus": {
+    "total": 10748,
+    "winners": 10748
+  },
+  "historicalArchive": {
+    "total": 7121,
+    "winners": 7121,
+    "frames": 7121
+  },
+  "defensiveLearning": {
+    "matches": 129,
+    "roundReceipts": 330,
+    "uniqueSeatReconstructions": 326,
+    "ambiguous": 4
+  },
+  "lifecycleMatches": 900,
+  "pairedMatchesPerSeason": 100,
+  "pairedMatchScoreDelta": {
+    "1": 0,
+    "2": 0,
+    "3": 0
+  },
+  "ratedGamesPlayed": 0,
+  "liveMemoryChanged": false
+}

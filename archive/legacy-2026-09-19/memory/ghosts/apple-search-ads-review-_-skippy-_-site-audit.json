@@ -1,0 +1,33 @@
+{
+  "fp": "apple search ads review | skippy | site audit",
+  "seats": [
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "site audit",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "alfredojrayos"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-18T20:48:53.802Z"
+}

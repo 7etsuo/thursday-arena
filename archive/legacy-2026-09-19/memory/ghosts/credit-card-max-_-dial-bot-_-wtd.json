@@ -1,0 +1,33 @@
+{
+  "fp": "credit card max | dial bot | wtd",
+  "seats": [
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thefieldpass"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-18T21:27:31.735Z"
+}

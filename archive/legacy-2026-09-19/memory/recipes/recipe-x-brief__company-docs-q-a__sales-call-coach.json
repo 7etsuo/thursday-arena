@@ -1,0 +1,38 @@
+{
+  "id": "recipe-x-brief__company-docs-q-a__sales-call-coach",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "sales call coach",
+      "kit": "peacock",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "guard",
+    "peacock"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 15,
+  "last": "2026-09-19T05:14:07.345Z"
+}

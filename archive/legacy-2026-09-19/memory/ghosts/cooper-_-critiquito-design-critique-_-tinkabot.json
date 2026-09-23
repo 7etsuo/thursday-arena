@@ -1,0 +1,58 @@
+{
+  "fp": "cooper | critiquito design critique | tinkabot",
+  "seats": [
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "tinkabot",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "valince_crypto"
+  ],
+  "matchups": {
+    "recipe-nightly-audit-engineer__company-docs-q-a__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:52:49.031Z",
+      "lastResult": "win"
+    },
+    "recipe-love__site-audit__executive-assistant": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-18T20:53:09.557Z",
+      "lastResult": "draw"
+    },
+    "recipe-the-morning-newspaper__apple-search-ads-review__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:53:27.850Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__apple-search-ads-review__wtd",
+  "plays": 3,
+  "updated": "2026-09-18T20:53:27.850Z"
+}

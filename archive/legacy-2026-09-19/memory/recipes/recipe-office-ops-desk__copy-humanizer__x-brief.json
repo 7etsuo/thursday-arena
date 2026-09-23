@@ -1,0 +1,38 @@
+{
+  "id": "recipe-office-ops-desk__copy-humanizer__x-brief",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "hold_the_line",
+    "flamingo",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 2,
+  "losses": 0,
+  "elo": 7,
+  "last": "2026-09-19T01:32:11.835Z"
+}

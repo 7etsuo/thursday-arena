@@ -1,0 +1,42 @@
+{
+  "fp": "call follow ups | the morning newspaper | imogen",
+  "seats": [
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "xrealtimeeng"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__nightly-audit-engineer__executive-assistant": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "elo": -52,
+      "last": "2026-09-19T04:25:50.225Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__nightly-audit-engineer__executive-assistant",
+  "plays": 2,
+  "updated": "2026-09-19T04:25:50.225Z"
+}

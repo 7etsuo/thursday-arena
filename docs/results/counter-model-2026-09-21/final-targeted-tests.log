@@ -1,0 +1,20 @@
+✔ robust expectation agrees with exhaustive distributions on a probability grid (1.680902ms)
+✔ safety is measured on payoff differences, not two separately minimized scores (0.167865ms)
+✔ counter profiles honor defensive orientation and scenario captain/seat context (21.831241ms)
+✔ all 1,358 new complete-input fights reproduce server frames and winners (211.554739ms)
+✔ version benchmark defaults reproduce the historical 20-seed, 1,000-match sample per season (0.77677ms)
+✔ clustered interval is centered on the seed means (0.154865ms)
+✔ the paired runner has zero delta when both arms load the same version (308.278404ms)
+✔ late-ID pairing preserves one book write per battle with the current driver (206.207462ms)
+✔ parallel result summary validates every score and clusters by seed (0.996543ms)
+✔ alternative reroll estimates share draws and remain deterministic with a fixed work budget (1100.774042ms)
+✔ bounded combination search escapes a recorded final-shop local optimum with legal actions (1426.913491ms)
+✔ combination search respects its node limit and rejects unresolved random branches (0.428341ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1476.925453

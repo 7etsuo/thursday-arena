@@ -1,0 +1,50 @@
+{
+  "fp": "deal hunting | love | hiring signals",
+  "seats": [
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "theusinnovator"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 6,
+      "losses": 0,
+      "draws": 4,
+      "elo": 107,
+      "last": "2026-09-19T06:56:08.415Z",
+      "lastResult": "draw"
+    },
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 3,
+      "losses": 0,
+      "draws": 1,
+      "elo": 51,
+      "last": "2026-09-19T06:57:03.324Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__writing-bot__wtd",
+  "plays": 14,
+  "updated": "2026-09-19T06:57:03.324Z"
+}

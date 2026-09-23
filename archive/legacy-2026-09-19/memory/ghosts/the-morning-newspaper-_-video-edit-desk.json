@@ -1,0 +1,26 @@
+{
+  "fp": "the morning newspaper | video edit desk",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "dlsusco"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-18T11:47:49.083Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-love__meeting-recap-deck__luma-pages",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "patch",
+    "echo",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 3,
+  "wins": 3,
+  "losses": 0,
+  "elo": 14,
+  "last": "2026-09-19T00:43:56.916Z"
+}

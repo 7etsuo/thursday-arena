@@ -1,0 +1,38 @@
+{
+  "id": "recipe-partnerships-call-coach__video-edit-desk__meeting-recap-deck",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "video edit desk",
+      "kit": "wake",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "spotlight",
+    "wake",
+    "echo"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -27,
+  "last": "2026-09-18T21:13:59.347Z"
+}

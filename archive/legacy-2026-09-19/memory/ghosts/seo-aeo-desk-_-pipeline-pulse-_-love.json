@@ -1,0 +1,66 @@
+{
+  "fp": "seo aeo desk | pipeline pulse | love",
+  "seats": [
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "meangoldfish"
+  ],
+  "matchups": {
+    "recipe-imogen__credit-card-max__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:48:19.474Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__event-request-desk__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:48:26.767Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__cooper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:48:34.320Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__signal-prospector__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:48:41.027Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__event-request-desk__projects-manager",
+  "plays": 4,
+  "updated": "2026-09-18T23:48:41.028Z"
+}

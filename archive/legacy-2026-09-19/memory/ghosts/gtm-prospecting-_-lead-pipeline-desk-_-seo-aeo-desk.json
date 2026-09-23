@@ -1,0 +1,90 @@
+{
+  "fp": "gtm prospecting | lead pipeline desk | seo aeo desk",
+  "seats": [
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "focamother22028"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__copy-humanizer__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T22:39:00.423Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__meeting-recap-deck__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T22:39:20.015Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__webby__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:39:27.911Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__x-brief__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:39:35.802Z",
+      "lastResult": "win"
+    },
+    "recipe-call-follow-ups__talent-discovery__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:39:43.675Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__deal-hunting__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:39:49.027Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:39:55.053Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__meeting-recap-deck__cooper",
+  "plays": 7,
+  "updated": "2026-09-18T22:40:01.335Z"
+}

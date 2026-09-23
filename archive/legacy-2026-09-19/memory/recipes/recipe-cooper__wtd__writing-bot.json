@@ -1,0 +1,39 @@
+{
+  "id": "recipe-cooper__wtd__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "hype",
+    "hype"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 0,
+  "elo": 17,
+  "last": "2026-09-19T06:56:08.414Z"
+}

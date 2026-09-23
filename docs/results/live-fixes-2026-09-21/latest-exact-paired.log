@@ -1,0 +1,9 @@
+S3 paired mock: 39 complete trajectories, 5 handle-disjoint folds, 5 seeds × 4 games/fold; budget=1500; baseline vs frequency vs latest opponent board
+fold 0: held-out 8 trajectories / 2 handles; train 426 boards
+fold 1: held-out 8 trajectories / 4 handles; train 426 boards
+fold 2: held-out 8 trajectories / 5 handles; train 405 boards
+fold 3: held-out 8 trajectories / 5 handles; train 361 boards
+fold 4: held-out 7 trajectories / 5 handles; train 412 boards
+baseline W91 L6 D3 score=0.9250; candidate W91 L6 D3 score=0.9250
+paired delta=0.0000 seed-clustered 95% interval [0.0000, 0.0000] n=100 better=0 worse=0 same=100
+illegal 0/0; fillable-short shops 0/0; 942.7s

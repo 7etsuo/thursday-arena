@@ -1,0 +1,66 @@
+{
+  "fp": "outbound prospecting | critiquito design critique | wtd",
+  "seats": [
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "poteto_clanker"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__the-morning-newspaper__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:27:22.730Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:27:33.976Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__gtm-loop-closer__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:27:54.254Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__webby__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:28:37.642Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__webby__credit-card-max",
+  "plays": 4,
+  "updated": "2026-09-19T01:28:37.642Z"
+}

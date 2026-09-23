@@ -1,0 +1,82 @@
+{
+  "fp": "wtd | meeting recap deck | love",
+  "seats": [
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 6,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "arazjera"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__webby__recruiting-coordinator": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-19T00:54:16.325Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__ad-spend-watch__tradbot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-19T00:54:27.230Z",
+      "lastResult": "draw"
+    },
+    "recipe-recruiting-coordinator__seo-aeo-desk__alfred": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T00:54:36.874Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__gtm-loop-closer__event-request-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:54:49.334Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__ebr-value-deck-builder__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-19T00:55:22.844Z",
+      "lastResult": "draw"
+    },
+    "recipe-flora-plant-care-log__dr-eggbot__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T00:55:34.170Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__gtm-loop-closer__event-request-desk",
+  "plays": 6,
+  "updated": "2026-09-19T00:55:34.170Z"
+}

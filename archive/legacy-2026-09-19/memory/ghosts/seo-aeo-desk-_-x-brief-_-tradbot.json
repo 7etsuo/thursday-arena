@@ -1,0 +1,42 @@
+{
+  "fp": "seo aeo desk | x brief | tradbot",
+  "seats": [
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "tradbot",
+      "kit": "guard",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jon_rose_"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__writing-bot__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-19T02:33:16.508Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__writing-bot__writing-bot",
+  "plays": 1,
+  "updated": "2026-09-19T02:33:16.508Z"
+}

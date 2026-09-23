@@ -1,0 +1,82 @@
+{
+  "fp": "nyc parent | seo aeo desk | stills clips desk",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mikegyvergarcia"
+  ],
+  "matchups": {
+    "recipe-figma-bro__credit-card-max__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:23:07.980Z",
+      "lastResult": "win"
+    },
+    "recipe-sales-call-coach__cooper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:23:17.033Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__apple-search-ads-review__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:23:22.646Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__writing-bot__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:23:45.218Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__pipeline-pulse__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:24:00.926Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:24:18.549Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__apple-search-ads-review__writing-bot",
+  "plays": 6,
+  "updated": "2026-09-19T00:24:24.229Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-cooper__copy-humanizer__lead-pipeline-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "flamingo",
+    "snowball"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -17,
+  "last": "2026-09-19T06:12:22.521Z"
+}

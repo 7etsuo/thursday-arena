@@ -1,0 +1,38 @@
+{
+  "id": "recipe-x-brief__account-research-desk__apple-search-ads-review",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "account research desk",
+      "kit": "last_word",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "echo",
+    "last_word",
+    "grow"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -13,
+  "last": "2026-09-19T02:50:02.871Z"
+}

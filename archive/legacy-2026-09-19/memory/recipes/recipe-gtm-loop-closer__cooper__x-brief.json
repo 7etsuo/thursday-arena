@@ -1,0 +1,38 @@
+{
+  "id": "recipe-gtm-loop-closer__cooper__x-brief",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "cover",
+    "echo",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-18T12:34:05.151Z"
+}

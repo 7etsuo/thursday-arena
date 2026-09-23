@@ -1,0 +1,38 @@
+{
+  "id": "recipe-imogen__the-morning-newspaper__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "flamingo",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 5,
+  "wins": 5,
+  "losses": 0,
+  "elo": 31,
+  "last": "2026-09-19T00:11:05.599Z"
+}

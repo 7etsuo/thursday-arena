@@ -1,0 +1,38 @@
+{
+  "id": "recipe-company-docs-q-a__webby__deal-hunting",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "deal hunting",
+      "kit": "drain",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "guard",
+    "bulk",
+    "drain"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -28,
+  "last": "2026-09-19T00:39:49.722Z"
+}

@@ -1,0 +1,33 @@
+{
+  "fp": "gtm connections | stills clips desk | meeting recap deck",
+  "seats": [
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "slash9nine9"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T00:09:27.838Z"
+}

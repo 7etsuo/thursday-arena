@@ -1,0 +1,66 @@
+{
+  "fp": "copy humanizer | x brief | deal inspector",
+  "seats": [
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "deal inspector",
+      "kit": "cover",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "devarminas"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__lead-pipeline-desk__pipeline-pulse": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -4,
+      "last": "2026-09-18T21:49:29.747Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__customer-call-coach-assistant__gtm-prospecting": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -5,
+      "last": "2026-09-18T21:49:48.987Z",
+      "lastResult": "draw"
+    },
+    "recipe-company-docs-q-a__luma-pages__researchy": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 11,
+      "last": "2026-09-18T21:50:11.683Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__figma-bro__luma-pages": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -4,
+      "last": "2026-09-18T21:50:28.681Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__luma-pages__researchy",
+  "plays": 4,
+  "updated": "2026-09-18T21:50:28.681Z"
+}

@@ -1,0 +1,7 @@
+eval_versions games/seed=20 seeds=211 season=3 budget=Infinity mock=current book=cold
+before=/tmp/arena-counter-model-20260921/before
+  S3 seed=211: before={"win":15,"loss":5,"draw":0} current={"win":15,"loss":5,"draw":0} score=0.750/0.750 pairedDelta=0.0000 bookRecords=49/49 rounds=49/49 elapsed=88.2s
+S3 n=20: before W15 L5 D0 winRate=0.7500 matchScore=0.7500; current W15 L5 D0 winRate=0.7500 matchScore=0.7500
+  paired score delta current-before=0.0000 95% seed-clustered CI [NaN, NaN] (exploratory match-level CI [0.0000, 0.0000]) better=0 worse=0 same=20
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /tmp/arena-counter-model-20260921/rules-only-pairs/seed-211.csv

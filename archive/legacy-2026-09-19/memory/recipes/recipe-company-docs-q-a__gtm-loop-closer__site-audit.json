@@ -1,0 +1,38 @@
+{
+  "id": "recipe-company-docs-q-a__gtm-loop-closer__site-audit",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "site audit",
+      "kit": "pin",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "guard",
+    "cover",
+    "pin"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -30,
+  "last": "2026-09-19T00:12:42.441Z"
+}

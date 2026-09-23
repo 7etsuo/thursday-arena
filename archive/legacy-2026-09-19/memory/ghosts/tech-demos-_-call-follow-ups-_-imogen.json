@@ -1,0 +1,74 @@
+{
+  "fp": "tech demos | call follow ups | imogen",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "skdonkor672"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__love__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T11:53:20.769Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__company-docs-q-a__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T11:53:32.377Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__copy-humanizer__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T11:53:46.883Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__site-audit__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T11:54:46.944Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__webby__copy-humanizer": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T11:55:36.140Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__copy-humanizer__luma-pages",
+  "plays": 5,
+  "updated": "2026-09-18T11:55:36.140Z"
+}

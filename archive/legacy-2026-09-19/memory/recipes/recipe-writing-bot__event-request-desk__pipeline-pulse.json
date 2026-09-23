@@ -1,0 +1,38 @@
+{
+  "id": "recipe-writing-bot__event-request-desk__pipeline-pulse",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "event request desk",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hype",
+    "sidestep",
+    "sidestep"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -16,
+  "last": "2026-09-19T05:32:21.097Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "recipe-cooper__call-follow-ups__imogen",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "echo",
+    "bulk"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 0,
+  "elo": 5,
+  "last": "2026-09-19T05:52:38.039Z"
+}

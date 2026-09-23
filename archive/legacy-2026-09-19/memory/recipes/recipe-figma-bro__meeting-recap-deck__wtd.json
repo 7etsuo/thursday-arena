@@ -1,0 +1,38 @@
+{
+  "id": "recipe-figma-bro__meeting-recap-deck__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "figma bro",
+      "kit": "wake",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "wake",
+    "echo",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -16,
+  "last": "2026-09-18T21:27:59.480Z"
+}

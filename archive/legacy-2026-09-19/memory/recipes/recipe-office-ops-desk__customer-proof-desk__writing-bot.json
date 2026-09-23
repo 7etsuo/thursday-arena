@@ -1,0 +1,38 @@
+{
+  "id": "recipe-office-ops-desk__customer-proof-desk__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "customer proof desk",
+      "kit": "dump",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "hold_the_line",
+    "dump",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -21,
+  "last": "2026-09-18T23:09:39.259Z"
+}

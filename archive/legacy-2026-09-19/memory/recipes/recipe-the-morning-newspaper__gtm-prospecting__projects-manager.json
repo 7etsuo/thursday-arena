@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__gtm-prospecting__projects-manager",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "projects manager",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "flamingo",
+    "mosquito",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 2,
+  "losses": 0,
+  "elo": 19,
+  "last": "2026-09-19T06:09:37.929Z"
+}

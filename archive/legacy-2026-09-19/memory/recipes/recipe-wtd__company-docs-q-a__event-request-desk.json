@@ -1,0 +1,38 @@
+{
+  "id": "recipe-wtd__company-docs-q-a__event-request-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "event request desk",
+      "kit": "sidestep",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hype",
+    "guard",
+    "sidestep"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -16,
+  "last": "2026-09-19T06:50:42.567Z"
+}

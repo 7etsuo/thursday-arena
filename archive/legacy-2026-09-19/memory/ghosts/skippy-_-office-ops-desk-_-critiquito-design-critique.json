@@ -1,0 +1,42 @@
+{
+  "fp": "skippy | office ops desk | critiquito design critique",
+  "seats": [
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thatretireddude"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__the-morning-newspaper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T07:08:01.728Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__the-morning-newspaper__writing-bot",
+  "plays": 1,
+  "updated": "2026-09-19T07:08:01.728Z"
+}

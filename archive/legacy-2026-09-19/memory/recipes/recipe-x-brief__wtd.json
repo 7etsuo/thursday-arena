@@ -1,0 +1,31 @@
+{
+  "id": "recipe-x-brief__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -29,
+  "last": "2026-09-19T01:48:29.599Z"
+}

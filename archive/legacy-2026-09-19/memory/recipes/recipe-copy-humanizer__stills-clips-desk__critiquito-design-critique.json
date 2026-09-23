@@ -1,0 +1,38 @@
+{
+  "id": "recipe-copy-humanizer__stills-clips-desk__critiquito-design-critique",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "stills clips desk",
+      "kit": "wake",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "flamingo",
+    "wake",
+    "sting"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 6,
+  "last": "2026-09-19T01:03:57.243Z"
+}

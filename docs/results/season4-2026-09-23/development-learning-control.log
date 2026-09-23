@@ -1,0 +1,9 @@
+eval_versions games/seed=20 seeds=197,199,211 season=4 budget=Infinity mock=current book=cold
+before=/home/tetsuo/grok/thursday-arena
+  S4 seed=197: before={"win":19,"loss":0,"draw":1} current={"win":19,"loss":1,"draw":0} score=0.975/0.950 pairedDelta=-0.0250 bookRecords=45/44 rounds=45/44 elapsed=703.0s
+  S4 seed=199: before={"win":18,"loss":1,"draw":1} current={"win":19,"loss":0,"draw":1} score=0.925/0.975 pairedDelta=0.0500 bookRecords=44/45 rounds=44/45 elapsed=1395.0s
+  S4 seed=211: before={"win":20,"loss":0,"draw":0} current={"win":19,"loss":1,"draw":0} score=1.000/0.950 pairedDelta=-0.0500 bookRecords=43/44 rounds=43/44 elapsed=2116.1s
+S4 n=60: before W57 L1 D2 winRate=0.9500 matchScore=0.9667; current W57 L2 D1 winRate=0.9500 matchScore=0.9583
+  paired score delta current-before=-0.0083 95% seed-clustered CI [-0.1376, 0.1210] (exploratory match-level CI [-0.0721, 0.0554]) better=3 worse=3 same=54
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /tmp/arena-fixes-20260923/s4/learning-paired.csv

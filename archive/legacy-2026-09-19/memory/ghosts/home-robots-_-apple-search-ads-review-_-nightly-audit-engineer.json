@@ -1,0 +1,50 @@
+{
+  "fp": "home robots | apple search ads review | nightly audit engineer",
+  "seats": [
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mayanksagar26"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__writing-bot__wtd": {
+      "wins": 1,
+      "losses": 1,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-19T07:18:14.736Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 17,
+      "last": "2026-09-19T07:19:22.891Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 3,
+  "updated": "2026-09-19T07:19:30.048Z"
+}

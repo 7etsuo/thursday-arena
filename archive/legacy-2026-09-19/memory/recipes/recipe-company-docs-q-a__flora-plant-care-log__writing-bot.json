@@ -1,0 +1,38 @@
+{
+  "id": "recipe-company-docs-q-a__flora-plant-care-log__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "flora plant care log",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "guard",
+    "patch",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 5,
+  "last": "2026-09-18T12:21:08.939Z"
+}

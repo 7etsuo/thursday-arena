@@ -1,0 +1,38 @@
+{
+  "id": "recipe-call-follow-ups__wtd__luma-pages",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "echo",
+    "hype",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-18T23:26:56.693Z"
+}

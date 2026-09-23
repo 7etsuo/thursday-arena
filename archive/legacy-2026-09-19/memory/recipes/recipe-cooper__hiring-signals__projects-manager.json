@@ -1,0 +1,38 @@
+{
+  "id": "recipe-cooper__hiring-signals__projects-manager",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "hiring signals",
+      "kit": "backtap",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "projects manager",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "echo",
+    "backtap",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-18T23:59:51.552Z"
+}

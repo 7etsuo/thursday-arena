@@ -1,0 +1,38 @@
+{
+  "id": "recipe-gtm-loop-closer__writing-bot__alfred",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "alfred",
+      "kit": "last_word",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "cover",
+    "hype",
+    "last_word"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-19T02:40:10.917Z"
+}

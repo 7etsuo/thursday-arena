@@ -1,0 +1,42 @@
+{
+  "fp": "gtm prospecting | deal hunting | event producer",
+  "seats": [
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 5,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "default_vpc"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__writing-bot__credit-card-max": {
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "elo": -13,
+      "last": "2026-09-19T07:20:12.715Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__writing-bot__credit-card-max",
+  "plays": 3,
+  "updated": "2026-09-19T07:20:12.715Z"
+}

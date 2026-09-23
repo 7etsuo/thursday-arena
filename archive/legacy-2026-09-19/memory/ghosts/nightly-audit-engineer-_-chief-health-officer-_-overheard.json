@@ -1,0 +1,58 @@
+{
+  "fp": "nightly audit engineer | chief health officer | overheard",
+  "seats": [
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "chief health officer",
+      "kit": "patch",
+      "atk": 3,
+      "hp": 8,
+      "honey": false
+    },
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "skelliskel"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__luma-pages__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:33:10.010Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__cooper__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:33:28.333Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__x-brief__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:33:40.123Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__x-brief__writing-bot",
+  "plays": 3,
+  "updated": "2026-09-18T23:33:40.123Z"
+}

@@ -1,0 +1,33 @@
+{
+  "fp": "imogen | event producer | cooper",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "dc_zj"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T01:54:37.700Z"
+}

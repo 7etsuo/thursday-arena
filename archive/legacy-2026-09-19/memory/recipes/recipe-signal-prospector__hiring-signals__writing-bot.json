@@ -1,0 +1,38 @@
+{
+  "id": "recipe-signal-prospector__hiring-signals__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "hiring signals",
+      "kit": "backtap",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "mosquito",
+    "backtap",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-18T22:25:58.584Z"
+}

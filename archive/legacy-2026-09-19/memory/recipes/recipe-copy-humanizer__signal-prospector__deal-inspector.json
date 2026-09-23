@@ -1,0 +1,38 @@
+{
+  "id": "recipe-copy-humanizer__signal-prospector__deal-inspector",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "deal inspector",
+      "kit": "cover",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "flamingo",
+    "mosquito",
+    "cover"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-19T01:49:18.917Z"
+}

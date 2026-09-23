@@ -1,0 +1,66 @@
+{
+  "fp": "clip bot | account research desk | luma pages",
+  "seats": [
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "account research desk",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "pepsifan013"
+  ],
+  "matchups": {
+    "recipe-paid-media-report-desk__meeting-recap-deck__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:04:11.504Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__nyc-parent__pitch-deck-coach": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-18T22:04:23.188Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__company-docs-q-a__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:04:34.715Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__writing-bot__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:04:48.964Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__writing-bot__wtd",
+  "plays": 4,
+  "updated": "2026-09-18T22:04:48.964Z"
+}

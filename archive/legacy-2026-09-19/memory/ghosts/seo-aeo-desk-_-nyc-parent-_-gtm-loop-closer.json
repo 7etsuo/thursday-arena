@@ -1,0 +1,42 @@
+{
+  "fp": "seo aeo desk | nyc parent | gtm loop closer",
+  "seats": [
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "guskaloti"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__copy-humanizer__stalk-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:46:50.457Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__copy-humanizer__stalk-bot",
+  "plays": 1,
+  "updated": "2026-09-19T00:46:50.457Z"
+}

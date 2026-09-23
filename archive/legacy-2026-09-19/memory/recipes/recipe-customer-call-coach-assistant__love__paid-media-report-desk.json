@@ -1,0 +1,38 @@
+{
+  "id": "recipe-customer-call-coach-assistant__love__paid-media-report-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "customer call coach assistant",
+      "kit": "peacock",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "paid media report desk",
+      "kit": "grow",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "peacock",
+    "patch",
+    "grow"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 6,
+  "last": "2026-09-19T01:59:15.410Z"
+}

@@ -1,0 +1,42 @@
+{
+  "fp": "love | signal prospector | deal hunting",
+  "seats": [
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "yaseenhq"
+  ],
+  "matchups": {
+    "recipe-imogen__copy-humanizer__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T11:59:09.159Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__copy-humanizer__luma-pages",
+  "plays": 1,
+  "updated": "2026-09-18T11:59:20.182Z"
+}

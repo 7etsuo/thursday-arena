@@ -1,0 +1,60 @@
+{
+  "fp": "dial bot | clip bot | home robots",
+  "seats": [
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "taxzy920",
+    "focamother22028",
+    "stephen_novesai"
+  ],
+  "matchups": {
+    "recipe-webby__webby__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:11:09.703Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:15:16.874Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:15:45.326Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-flora-plant-care-log__call-follow-ups__wtd",
+  "plays": 3,
+  "updated": "2026-09-19T00:58:26.352Z"
+}

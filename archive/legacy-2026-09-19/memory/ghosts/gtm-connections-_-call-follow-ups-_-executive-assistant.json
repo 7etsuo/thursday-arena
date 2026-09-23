@@ -1,0 +1,74 @@
+{
+  "fp": "gtm connections | call follow ups | executive assistant",
+  "seats": [
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "executive assistant",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 8,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "chopper_threads"
+  ],
+  "matchups": {
+    "recipe-imogen__copy-humanizer__pitch-deck-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T20:55:12.335Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__company-docs-q-a__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T20:55:21.556Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__call-follow-ups__nyc-parent": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T20:55:48.058Z",
+      "lastResult": "draw"
+    },
+    "recipe-ebr-value-deck-builder__outbound-prospecting__the-morning-newspaper": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T20:55:58.922Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__stills-clips-desk__last30days": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T20:56:24.632Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__stills-clips-desk__last30days",
+  "plays": 5,
+  "updated": "2026-09-18T20:56:24.632Z"
+}

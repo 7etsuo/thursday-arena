@@ -1,0 +1,90 @@
+{
+  "fp": "cooper | signal prospector | critiquito design critique",
+  "seats": [
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "valince_crypto"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__projects-manager__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:52:06.823Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__copy-humanizer__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:52:13.277Z",
+      "lastResult": "win"
+    },
+    "recipe-ebr-value-deck-builder__wtd__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T20:52:24.354Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__site-audit__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:52:31.098Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__office-ops-desk__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:52:38.133Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__video-edit-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:52:56.847Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:53:16.495Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__the-morning-newspaper__gtm-loop-closer",
+  "plays": 7,
+  "updated": "2026-09-18T20:53:23.412Z"
+}

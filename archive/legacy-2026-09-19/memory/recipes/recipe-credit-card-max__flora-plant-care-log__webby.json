@@ -1,0 +1,38 @@
+{
+  "id": "recipe-credit-card-max__flora-plant-care-log__webby",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "flora plant care log",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "grow",
+    "patch",
+    "bulk"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-19T00:22:20.641Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-wtd__cooper__gtm-loop-closer",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hype",
+    "echo",
+    "cover"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 15,
+  "last": "2026-09-19T05:25:55.215Z"
+}

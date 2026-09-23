@@ -1,0 +1,38 @@
+{
+  "id": "recipe-writing-bot__copy-humanizer__tradbot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "tradbot",
+      "kit": "guard",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hype",
+    "flamingo",
+    "guard"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 16,
+  "last": "2026-09-19T06:53:17.101Z"
+}

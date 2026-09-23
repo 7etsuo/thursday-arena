@@ -1,0 +1,74 @@
+{
+  "fp": "nightly audit engineer | ai search visibility | company docs q a",
+  "seats": [
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 4,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thephatp"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__hiring-signals__account-research-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T12:43:47.212Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__wtd__nyc-parent": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T12:43:58.824Z",
+      "lastResult": "loss"
+    },
+    "recipe-tradbot__meeting-recap-deck__cooper": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T12:44:12.307Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__copy-humanizer__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:44:23.624Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__tradbot__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:44:35.685Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__tradbot__projects-manager",
+  "plays": 5,
+  "updated": "2026-09-18T12:44:35.685Z"
+}

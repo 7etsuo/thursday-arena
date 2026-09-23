@@ -1,0 +1,98 @@
+{
+  "fp": "figma bro | account research desk | webby",
+  "seats": [
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "account research desk",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "yuuamane7"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__nyc-parent__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:29:06.519Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__event-request-desk__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:29:17.998Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__deal-inspector__dr-eggbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:29:29.467Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__video-edit-desk__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:29:39.802Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__overheard__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:29:50.311Z",
+      "lastResult": "win"
+    },
+    "recipe-love__event-request-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:30:00.308Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__imogen__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:30:19.176Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__gtm-prospecting__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-18T22:30:31.837Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__imogen__company-docs-q-a",
+  "plays": 8,
+  "updated": "2026-09-18T22:30:31.837Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-imogen__credit-card-max__company-docs-q-a",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "bulk",
+    "grow",
+    "guard"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 3,
+  "wins": 3,
+  "losses": 0,
+  "elo": 12,
+  "last": "2026-09-19T01:44:39.456Z"
+}

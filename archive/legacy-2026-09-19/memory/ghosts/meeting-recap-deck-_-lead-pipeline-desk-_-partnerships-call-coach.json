@@ -1,0 +1,82 @@
+{
+  "fp": "meeting recap deck | lead pipeline desk | partnerships call coach",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "atk": 5,
+      "hp": 7,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "domcanada"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__credit-card-max__chief-health-officer": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T00:29:10.319Z",
+      "lastResult": "loss"
+    },
+    "recipe-company-docs-q-a__luma-pages__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T00:29:37.618Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__writing-bot__pitch-deck-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T00:29:51.615Z",
+      "lastResult": "win"
+    },
+    "recipe-writing-bot__account-research-desk__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-19T00:30:19.644Z",
+      "lastResult": "draw"
+    },
+    "recipe-alfred__apple-search-ads-review__hiring-signals": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-19T00:30:29.116Z",
+      "lastResult": "draw"
+    },
+    "recipe-paid-media-report-desk__pipeline-pulse__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T00:30:40.315Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__pipeline-pulse__writing-bot",
+  "plays": 6,
+  "updated": "2026-09-19T00:30:40.315Z"
+}

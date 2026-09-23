@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__webby__projects-manager",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "projects manager",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "flamingo",
+    "bulk",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 5,
+  "last": "2026-09-19T01:33:24.432Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-pipeline-pulse__hiring-signals__luma-pages",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "hiring signals",
+      "kit": "backtap",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "sidestep",
+    "backtap",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -26,
+  "last": "2026-09-18T11:32:59.582Z"
+}

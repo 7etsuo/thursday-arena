@@ -1,0 +1,33 @@
+{
+  "fp": "credit card max | webby | site audit",
+  "seats": [
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "site audit",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "realvkarthik"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T00:53:39.088Z"
+}

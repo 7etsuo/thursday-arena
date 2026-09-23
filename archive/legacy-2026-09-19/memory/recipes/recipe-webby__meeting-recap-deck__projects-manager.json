@@ -1,0 +1,38 @@
+{
+  "id": "recipe-webby__meeting-recap-deck__projects-manager",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "projects manager",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "echo",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 3,
+  "wins": 3,
+  "losses": 0,
+  "elo": 30,
+  "last": "2026-09-19T04:36:48.739Z"
+}

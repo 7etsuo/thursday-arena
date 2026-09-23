@@ -1,0 +1,38 @@
+{
+  "id": "recipe-product-support-inbox-assistant__meeting-recap-deck__cooper",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "patch",
+    "echo",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 6,
+  "last": "2026-09-19T04:34:41.852Z"
+}

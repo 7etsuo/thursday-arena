@@ -1,0 +1,16 @@
+{
+  "matches": 100,
+  "rounds": 258,
+  "winnerMatches": 258,
+  "frameExact": 257,
+  "note": "Seat and fight captain metadata inferred from these same battle frames; diagnostic replay only.",
+  "differences": [
+    {
+      "id": "bb1df549-c881-44f3-a77f-d91a69a6d705",
+      "round": 0,
+      "at": 7,
+      "got": "NYC Parent gains +2 HP",
+      "expected": "NYC Parent bulks up: +2 HP"
+    }
+  ]
+}

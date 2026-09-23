@@ -1,0 +1,14 @@
+/workspace/thursday-arena/driver/play_loop.js:918
+      const kitMirrorDump = (matchCtx.theirKits || []).includes(String(kitIdOf(board[i])||"").toLowerCase()) && ["flamingo","wake","sting","peacock","echo"].includes(String(kitIdOf(board[i])||"").toLowerCase()) ? -6.0 : 0;
+            ^
+
+SyntaxError: Identifier 'kitMirrorDump' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49
+
+Node.js v20.19.2

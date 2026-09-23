@@ -1,0 +1,59 @@
+{
+  "id": "win-20260917-study10",
+  "name": "clone-kanuma368-copyhumani-callfollow",
+  "result": "win",
+  "plan": "tempo",
+  "rating_delta": 16,
+  "opponent_tier": "unknown",
+  "rounds": "2-0",
+  "curve": {
+    "r1": [
+      "Copy Humanizer 2/5",
+      "Call Follow-Ups 3/4",
+      "Call Follow-Ups 3/4"
+    ],
+    "r2": [
+      "Copy Humanizer 2/5 potato tmp+2",
+      "Call Follow-Ups 3/4 potato tmp+2"
+    ]
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "Copy Humanizer",
+      "atk": 2,
+      "hp": 5,
+      "food": "potato",
+      "kit": "Pass it back"
+    },
+    {
+      "seat": 2,
+      "name": "Call Follow-Ups",
+      "atk": 3,
+      "hp": 4,
+      "food": "potato",
+      "kit": "Echo"
+    }
+  ],
+  "keys": [
+    "pass_back",
+    "echo",
+    "potato",
+    "copy_humanizer",
+    "call_follow_ups"
+  ],
+  "why": "cloned from @kanuma368 win vs @notabot: pass-back faint buffs trail; echo rode friend-ahead attacks",
+  "reuse": "when shop offers similar tempo pieces: Copy Humanizer, Call Follow-Ups",
+  "avoid": "do not force if shop misses core kits; public clone may lack freeze/buy order fidelity",
+  "plays": 0,
+  "wins": 0,
+  "losses": 0,
+  "last_used": null,
+  "meta": {
+    "player": "kanuma368",
+    "source_match": "9c529bf9-c1f3-4b5e-ad1b-fc948f332352",
+    "source_url": "https://thursdayarena.com/matches/9c529bf9-c1f3-4b5e-ad1b-fc948f332352",
+    "cloned_at": "2026-09-17",
+    "inferred": true
+  }
+}

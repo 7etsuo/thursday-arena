@@ -1,0 +1,38 @@
+{
+  "id": "recipe-ebr-value-deck-builder__cooper__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "dump",
+    "echo",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -27,
+  "last": "2026-09-18T22:45:31.709Z"
+}

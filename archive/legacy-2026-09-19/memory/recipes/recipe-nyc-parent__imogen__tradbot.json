@@ -1,0 +1,38 @@
+{
+  "id": "recipe-nyc-parent__imogen__tradbot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "tradbot",
+      "kit": "guard",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "bulk",
+    "guard"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 2,
+  "losses": 0,
+  "elo": 8,
+  "last": "2026-09-19T00:32:04.976Z"
+}

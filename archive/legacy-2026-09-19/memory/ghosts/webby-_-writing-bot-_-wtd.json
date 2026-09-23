@@ -1,0 +1,90 @@
+{
+  "fp": "webby | writing bot | wtd",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ethanamitchell"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__copy-humanizer__recruiting-coordinator": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T12:24:57.324Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__apple-search-ads-review__company-docs-q-a": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T12:25:08.095Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-18T12:25:19.614Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__credit-card-max__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-18T12:25:27.468Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__company-docs-q-a__imogen": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T12:25:36.293Z",
+      "lastResult": "loss"
+    },
+    "recipe-nightly-audit-engineer__seo-aeo-desk__outbound-prospecting": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -22,
+      "last": "2026-09-18T12:25:43.931Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__event-request-desk__deal-inspector": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -21,
+      "last": "2026-09-18T12:25:52.176Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__credit-card-max__gtm-loop-closer",
+  "plays": 7,
+  "updated": "2026-09-18T12:25:52.176Z"
+}

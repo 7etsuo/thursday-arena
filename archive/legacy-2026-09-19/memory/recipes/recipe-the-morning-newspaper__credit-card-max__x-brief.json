@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__credit-card-max__x-brief",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "flamingo",
+    "grow",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 2,
+  "losses": 0,
+  "elo": 9,
+  "last": "2026-09-19T02:21:00.441Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-sales-call-coach__webby__site-audit",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "sales call coach",
+      "kit": "peacock",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "site audit",
+      "kit": "pin",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "peacock",
+    "bulk",
+    "pin"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-18T23:55:38.860Z"
+}

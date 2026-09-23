@@ -1,0 +1,74 @@
+{
+  "fp": "hiring signals | love | signal prospector",
+  "seats": [
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "theretardedelon"
+  ],
+  "matchups": {
+    "recipe-product-support-inbox-assistant__credit-card-max__love": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 11,
+      "last": "2026-09-19T04:50:44.462Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__nyc-parent__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 11,
+      "last": "2026-09-19T04:50:51.737Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__webby__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-19T04:51:10.583Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__webby__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-19T04:51:18.610Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-19T04:51:27.999Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__nyc-parent__x-brief",
+  "plays": 5,
+  "updated": "2026-09-19T04:51:28.000Z"
+}

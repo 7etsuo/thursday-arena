@@ -1,0 +1,26 @@
+{
+  "fp": "company docs q a | imogen",
+  "seats": [
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "laceyintech"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T00:18:15.470Z"
+}

@@ -1,0 +1,107 @@
+{
+  "fp": "imogen | meeting recap deck | signal prospector",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "cryptrader_vpsr",
+    "mexicanwoody"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__apple-search-ads-review__video-edit-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:43:24.519Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__x-brief__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:43:32.220Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__webby__office-ops-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -30,
+      "last": "2026-09-18T23:43:41.919Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__writing-bot__account-research-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T02:24:18.260Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__writing-bot__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T02:24:35.761Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__office-ops-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:24:47.057Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__writing-bot__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:24:59.289Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__event-request-desk__credit-card-max": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T02:25:10.507Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__projects-manager__gtm-account-research": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-19T02:25:37.659Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__writing-bot__office-ops-desk",
+  "plays": 9,
+  "updated": "2026-09-19T02:25:37.659Z"
+}

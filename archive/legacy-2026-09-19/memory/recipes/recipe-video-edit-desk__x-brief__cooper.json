@@ -1,0 +1,38 @@
+{
+  "id": "recipe-video-edit-desk__x-brief__cooper",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "video edit desk",
+      "kit": "wake",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "wake",
+    "echo",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-19T01:12:11.720Z"
+}

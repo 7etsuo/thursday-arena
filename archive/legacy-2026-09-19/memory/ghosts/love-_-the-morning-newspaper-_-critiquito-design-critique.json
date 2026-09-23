@@ -1,0 +1,42 @@
+{
+  "fp": "love | the morning newspaper | critiquito design critique",
+  "seats": [
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "stevca369"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T04:55:15.721Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__company-docs-q-a__writing-bot",
+  "plays": 1,
+  "updated": "2026-09-19T04:55:15.721Z"
+}

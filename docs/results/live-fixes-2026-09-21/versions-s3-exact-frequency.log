@@ -1,0 +1,11 @@
+eval_versions games/seed=20 seeds=101,103,107,109,113 season=3 budget=1500 mock=current book=cold
+before=/tmp/arena-fixes-20260921/before
+  S3 seed=101: before={"win":14,"loss":3,"draw":3} current={"win":14,"loss":3,"draw":3} score=0.775/0.775 pairedDelta=0.0000 bookRecords=50/50 rounds=50/50 elapsed=65.4s
+  S3 seed=103: before={"win":17,"loss":2,"draw":1} current={"win":17,"loss":2,"draw":1} score=0.875/0.875 pairedDelta=0.0000 bookRecords=50/50 rounds=50/50 elapsed=137.4s
+  S3 seed=107: before={"win":15,"loss":4,"draw":1} current={"win":14,"loss":5,"draw":1} score=0.775/0.725 pairedDelta=-0.0500 bookRecords=48/51 rounds=48/51 elapsed=205.8s
+  S3 seed=109: before={"win":16,"loss":4,"draw":0} current={"win":16,"loss":4,"draw":0} score=0.800/0.800 pairedDelta=0.0000 bookRecords=49/49 rounds=49/49 elapsed=276.5s
+  S3 seed=113: before={"win":15,"loss":4,"draw":1} current={"win":15,"loss":4,"draw":1} score=0.775/0.775 pairedDelta=0.0000 bookRecords=48/48 rounds=48/48 elapsed=353.7s
+S3 n=100: before W77 L17 D6 winRate=0.7700 matchScore=0.8000; current W76 L18 D6 winRate=0.7600 matchScore=0.7900
+  paired score delta current-before=-0.0100 95% seed-clustered CI [-0.0378, 0.0178] (exploratory match-level CI [-0.0296, 0.0096]) better=0 worse=1 same=99
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /tmp/arena-fixes-20260921/versions-s3-exact-frequency.csv

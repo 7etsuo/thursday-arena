@@ -1,0 +1,38 @@
+{
+  "id": "recipe-wtd__meeting-recap-deck__deal-inspector",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "deal inspector",
+      "kit": "cover",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hype",
+    "echo",
+    "cover"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 17,
+  "last": "2026-09-19T06:54:15.764Z"
+}

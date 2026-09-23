@@ -1,0 +1,38 @@
+{
+  "id": "recipe-webby__love__cooper",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "bulk",
+    "patch",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-18T21:21:32.726Z"
+}

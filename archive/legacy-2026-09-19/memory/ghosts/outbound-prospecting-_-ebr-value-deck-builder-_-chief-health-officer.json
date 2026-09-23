@@ -1,0 +1,74 @@
+{
+  "fp": "outbound prospecting | ebr value deck builder | chief health officer",
+  "seats": [
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "chief health officer",
+      "kit": "patch",
+      "atk": 5,
+      "hp": 8,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "megied"
+  ],
+  "matchups": {
+    "recipe-apple-search-ads-review__wtd__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:23:50.478Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__credit-card-max__video-edit-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:24:25.606Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__gtm-loop-closer__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:24:35.424Z",
+      "lastResult": "win"
+    },
+    "recipe-sales-call-coach__pipeline-pulse__dr-eggbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:24:55.657Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__webby__office-ops-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T23:25:08.144Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-sales-call-coach__pipeline-pulse__dr-eggbot",
+  "plays": 5,
+  "updated": "2026-09-18T23:25:08.144Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-nyc-parent__flora-plant-care-log__product-idea-stress-test",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "flora plant care log",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "product idea stress test",
+      "kit": "dump",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "patch",
+    "dump"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -10,
+  "last": "2026-09-18T11:52:29.934Z"
+}

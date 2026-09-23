@@ -1,0 +1,82 @@
+{
+  "fp": "seo aeo desk | haggle bot | recruiting coordinator",
+  "seats": [
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "m0n0cr0m0"
+  ],
+  "matchups": {
+    "recipe-pipeline-pulse__apple-search-ads-review__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T11:17:30.484Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__deal-inspector__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T11:17:54.337Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__webby__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T11:18:06.373Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__credit-card-max__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T11:18:15.977Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T11:18:26.027Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__flora-plant-care-log__flora-plant-care-log": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T11:18:47.191Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__flora-plant-care-log__flora-plant-care-log",
+  "plays": 6,
+  "updated": "2026-09-18T11:18:47.191Z"
+}

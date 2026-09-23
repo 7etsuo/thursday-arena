@@ -1,0 +1,38 @@
+{
+  "id": "recipe-deal-inspector__credit-card-max__love",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "deal inspector",
+      "kit": "cover",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "cover",
+    "grow",
+    "patch"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 5,
+  "last": "2026-09-18T23:05:18.529Z"
+}

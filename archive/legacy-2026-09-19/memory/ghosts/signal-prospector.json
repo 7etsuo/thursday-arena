@@ -1,0 +1,22 @@
+{
+  "fp": "signal prospector",
+  "seats": [
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "savanc",
+    "prakash__pun",
+    "wwihser",
+    "clawbuddy69"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T05:43:39.817Z"
+}

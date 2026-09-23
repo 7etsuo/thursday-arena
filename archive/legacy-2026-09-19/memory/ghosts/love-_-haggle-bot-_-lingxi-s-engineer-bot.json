@@ -1,0 +1,58 @@
+{
+  "fp": "love | haggle bot | lingxi s engineer bot",
+  "seats": [
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "lingxi s engineer bot",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "cibaru"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 3,
+      "losses": 10,
+      "draws": 6,
+      "elo": -119,
+      "last": "2026-09-19T06:51:55.296Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 1,
+      "losses": 4,
+      "draws": 1,
+      "elo": -50,
+      "last": "2026-09-19T06:08:49.151Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__wtd__copy-humanizer": {
+      "wins": 1,
+      "losses": 4,
+      "draws": 2,
+      "elo": -51,
+      "last": "2026-09-19T06:53:33.520Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 32,
+  "updated": "2026-09-19T06:53:33.520Z"
+}

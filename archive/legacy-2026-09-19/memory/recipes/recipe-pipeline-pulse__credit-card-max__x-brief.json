@@ -1,0 +1,38 @@
+{
+  "id": "recipe-pipeline-pulse__credit-card-max__x-brief",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "sidestep",
+    "grow",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 2,
+  "losses": 0,
+  "elo": 7,
+  "last": "2026-09-19T01:46:28.190Z"
+}

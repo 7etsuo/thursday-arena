@@ -1,0 +1,50 @@
+{
+  "fp": "nyc parent | gtm connections | clip bot",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 5,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "heydenpaul"
+  ],
+  "matchups": {
+    "recipe-webby__meeting-recap-deck__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:20:52.852Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__love__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:21:32.726Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__love__cooper",
+  "plays": 2,
+  "updated": "2026-09-18T21:21:44.207Z"
+}

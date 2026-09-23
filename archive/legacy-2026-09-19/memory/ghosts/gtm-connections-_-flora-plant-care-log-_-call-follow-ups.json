@@ -1,0 +1,98 @@
+{
+  "fp": "gtm connections | flora plant care log | call follow ups",
+  "seats": [
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "bala_muppala"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__apple-search-ads-review__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T22:47:53.997Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__lingxi-s-engineer-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T22:48:06.080Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__partnerships-call-coach__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T22:48:20.686Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__deal-hunting__stills-clips-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T22:48:27.424Z",
+      "lastResult": "loss"
+    },
+    "recipe-company-docs-q-a__lead-pipeline-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T22:48:38.330Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__call-follow-ups__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T22:48:49.923Z",
+      "lastResult": "win"
+    },
+    "recipe-pipeline-pulse__deal-inspector__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T22:49:01.890Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__flora-plant-care-log__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T22:49:13.837Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__flora-plant-care-log__company-docs-q-a",
+  "plays": 8,
+  "updated": "2026-09-18T22:49:13.837Z"
+}

@@ -1,0 +1,221 @@
+[
+  {
+    "id": "training-1",
+    "matchId": "528fd2f6-6655-4788-afe2-7ad85c417d91",
+    "us": [
+      {
+        "name": "AI influencer carousels",
+        "kitId": "swipe",
+        "atk": 4,
+        "hp": 6,
+        "honey": true,
+        "crew": "marketing",
+        "item": "muteButton"
+      },
+      {
+        "name": "Site Audit",
+        "kitId": "pin",
+        "atk": 3,
+        "hp": 3,
+        "honey": false,
+        "crew": "marketing",
+        "item": "laserPointer"
+      },
+      {
+        "name": "Stack Sentinel",
+        "kitId": "on_call",
+        "atk": 2,
+        "hp": 5,
+        "honey": true,
+        "crew": "builders",
+        "item": "energyDrink"
+      }
+    ],
+    "them": [
+      {
+        "name": "Cue",
+        "kitId": "standby",
+        "atk": 4,
+        "hp": 7,
+        "honey": false,
+        "crew": "ops",
+        "item": "echoChip"
+      },
+      {
+        "name": "Vigil",
+        "kitId": "defuse",
+        "atk": 2,
+        "hp": 6,
+        "honey": false,
+        "crew": "ops",
+        "item": null
+      },
+      {
+        "name": "Product Builder CoS",
+        "kitId": "checklist",
+        "atk": 3,
+        "hp": 4,
+        "honey": false,
+        "crew": "ops",
+        "item": "megaphone"
+      }
+    ],
+    "options": {
+      "season": 3,
+      "round": 2,
+      "seats": {
+        "front": "hot_seat",
+        "middle": "hard_hat",
+        "back": "warm_up"
+      },
+      "ourCaptain": "recruiter",
+      "theirCaptain": "scout"
+    }
+  },
+  {
+    "id": "training-2",
+    "matchId": "4f7fce11-8f48-4a25-841b-81c31a66228d",
+    "us": [
+      {
+        "name": "Pipeline Pulse",
+        "kitId": "sidestep",
+        "atk": 4,
+        "hp": 5,
+        "honey": true,
+        "crew": "sales",
+        "item": "coldBrew"
+      },
+      {
+        "name": "Company Docs Q&A",
+        "kitId": "guard",
+        "atk": 2,
+        "hp": 6,
+        "honey": false,
+        "crew": "sales",
+        "item": null
+      },
+      {
+        "name": "Maya",
+        "kitId": "on_hold",
+        "atk": 3,
+        "hp": 5,
+        "honey": false,
+        "crew": "personal",
+        "item": null
+      }
+    ],
+    "them": [
+      {
+        "name": "repost X posts everywhere",
+        "kitId": "crosspost",
+        "atk": 5,
+        "hp": 5,
+        "honey": false,
+        "crew": "marketing",
+        "item": "shredder"
+      },
+      {
+        "name": "Interview Prep",
+        "kitId": "next_question",
+        "atk": 1,
+        "hp": 5,
+        "honey": false,
+        "crew": "builders",
+        "item": null
+      },
+      {
+        "name": "Grip",
+        "kitId": "clamp",
+        "atk": 2,
+        "hp": 3,
+        "honey": false,
+        "crew": "builders",
+        "item": "teamBadge"
+      }
+    ],
+    "options": {
+      "season": 3,
+      "round": 2,
+      "seats": {
+        "front": "hard_hat",
+        "middle": "pit_stop",
+        "back": "encore"
+      },
+      "ourCaptain": "banker",
+      "theirCaptain": "drill"
+    }
+  },
+  {
+    "id": "training-3",
+    "matchId": "2b1515cd-ab53-4f92-8098-5028f75469ee",
+    "us": [
+      {
+        "name": "Speed Lab",
+        "kitId": "first_paint",
+        "atk": 6,
+        "hp": 7,
+        "honey": false,
+        "crew": "builders",
+        "item": "firewall"
+      },
+      {
+        "name": "WTD",
+        "kitId": "hype",
+        "atk": 3,
+        "hp": 4,
+        "honey": false,
+        "crew": "marketing",
+        "item": null
+      },
+      {
+        "name": "Projects Manager",
+        "kitId": "hype",
+        "atk": 3,
+        "hp": 5,
+        "honey": false,
+        "crew": "builders",
+        "item": null
+      }
+    ],
+    "them": [
+      {
+        "name": "The Morning Newspaper",
+        "kitId": "flamingo",
+        "atk": 2,
+        "hp": 6,
+        "honey": false,
+        "crew": "personal",
+        "item": null
+      },
+      {
+        "name": "Announcr Voice",
+        "kitId": "shout_out",
+        "atk": 4,
+        "hp": 5,
+        "honey": false,
+        "crew": "personal",
+        "item": null
+      },
+      {
+        "name": "Be Happier",
+        "kitId": "safe_week",
+        "atk": 7,
+        "hp": 5,
+        "honey": false,
+        "crew": "personal",
+        "item": null
+      }
+    ],
+    "options": {
+      "season": 3,
+      "round": 2,
+      "seats": {
+        "front": "hard_hat",
+        "middle": "pit_stop",
+        "back": "hot_seat"
+      },
+      "ourCaptain": "banker",
+      "theirCaptain": "drill"
+    }
+  }
+]

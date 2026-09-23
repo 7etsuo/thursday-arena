@@ -1,0 +1,38 @@
+{
+  "id": "recipe-copy-humanizer__cooper__the-morning-newspaper",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "flamingo",
+    "echo",
+    "flamingo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 17,
+  "last": "2026-09-19T06:56:27.052Z"
+}

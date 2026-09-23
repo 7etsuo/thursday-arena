@@ -1,0 +1,74 @@
+{
+  "fp": "webby | gtm prospecting | office ops desk",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "heydenpaul"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__pipeline-pulse__gtm-loop-closer": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-18T21:20:25.587Z",
+      "lastResult": "draw"
+    },
+    "recipe-webby__meeting-recap-deck__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:20:35.172Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__stills-clips-desk__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:20:44.336Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__apple-search-ads-review__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:21:02.793Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__video-edit-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:21:14.037Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-gtm-loop-closer__video-edit-desk__wtd",
+  "plays": 5,
+  "updated": "2026-09-18T21:21:14.037Z"
+}

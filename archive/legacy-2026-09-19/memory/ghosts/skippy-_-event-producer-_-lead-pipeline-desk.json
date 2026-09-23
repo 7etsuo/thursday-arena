@@ -1,0 +1,114 @@
+{
+  "fp": "skippy | event producer | lead pipeline desk",
+  "seats": [
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "anbulibabulia"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__video-edit-desk__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:12:23.014Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__luma-pages__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:12:31.144Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:12:41.388Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:12:52.878Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__copy-humanizer__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:12:59.137Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:13:05.893Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__credit-card-max__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:13:12.685Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:13:20.496Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__cooper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:14:12.159Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__nightly-audit-engineer__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:14:20.113Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__nightly-audit-engineer__wtd",
+  "plays": 10,
+  "updated": "2026-09-18T12:14:20.113Z"
+}

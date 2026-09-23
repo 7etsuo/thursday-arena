@@ -1,0 +1,38 @@
+{
+  "id": "recipe-critiquito-design-critique__seo-aeo-desk__meeting-recap-deck",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "sting",
+    "pin",
+    "echo"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -29,
+  "last": "2026-09-19T01:13:47.683Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-pipeline-pulse__signal-prospector__lingxi-s-engineer-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "lingxi s engineer bot",
+      "kit": "first_seat",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "sidestep",
+    "mosquito",
+    "first_seat"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-19T01:25:39.297Z"
+}

@@ -1,0 +1,82 @@
+{
+  "fp": "company docs q a | haggle bot | talent discovery",
+  "seats": [
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "talent discovery",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "hisstoricalpoet"
+  ],
+  "matchups": {
+    "recipe-imogen__office-ops-desk__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:33:23.219Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__writing-bot__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:33:31.785Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__webby__sales-call-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:33:40.010Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__apple-search-ads-review__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:33:47.165Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__luma-pages__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:33:55.769Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__webby__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:34:03.342Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__luma-pages__credit-card-max",
+  "plays": 6,
+  "updated": "2026-09-18T21:34:03.343Z"
+}

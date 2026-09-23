@@ -1,0 +1,38 @@
+{
+  "id": "recipe-love__deal-hunting__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "deal hunting",
+      "kit": "drain",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "patch",
+    "drain",
+    "hype"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": 0,
+  "last": "2026-09-19T05:38:26.590Z"
+}

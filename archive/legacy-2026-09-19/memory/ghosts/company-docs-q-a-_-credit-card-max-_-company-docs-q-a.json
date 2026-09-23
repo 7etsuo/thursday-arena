@@ -1,0 +1,33 @@
+{
+  "fp": "company docs q a | credit card max | company docs q a",
+  "seats": [
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sunix_s"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T07:03:40.926Z"
+}

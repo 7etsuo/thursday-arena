@@ -1,0 +1,33 @@
+{
+  "fp": "signal prospector | tradbot | copy humanizer",
+  "seats": [
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "tradbot",
+      "kit": "guard",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "as42tsx"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T07:16:01.546Z"
+}

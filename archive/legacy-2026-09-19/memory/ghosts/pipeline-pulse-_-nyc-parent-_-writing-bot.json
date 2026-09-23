@@ -1,0 +1,98 @@
+{
+  "fp": "pipeline pulse | nyc parent | writing bot",
+  "seats": [
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 6,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "shymicron"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__paid-media-report-desk__researchy": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T23:05:44.219Z",
+      "lastResult": "loss"
+    },
+    "recipe-credit-card-max__cooper__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:06:03.032Z",
+      "lastResult": "win"
+    },
+    "recipe-stills-clips-desk__call-follow-ups__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T23:06:12.056Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__seo-aeo-desk__credit-card-max": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T23:06:24.331Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__cooper__projects-manager": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -9,
+      "last": "2026-09-18T23:06:35.392Z",
+      "lastResult": "draw"
+    },
+    "recipe-flora-plant-care-log__tradbot__customer-call-coach-assistant": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T23:06:44.331Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__meeting-recap-deck__critiquito-design-critique": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T23:06:55.797Z",
+      "lastResult": "win"
+    },
+    "recipe-dr-eggbot__flora-plant-care-log__webby": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T23:07:06.863Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__meeting-recap-deck__critiquito-design-critique",
+  "plays": 8,
+  "updated": "2026-09-18T23:07:06.863Z"
+}

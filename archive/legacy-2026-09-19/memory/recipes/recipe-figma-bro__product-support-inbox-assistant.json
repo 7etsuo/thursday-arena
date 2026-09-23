@@ -1,0 +1,31 @@
+{
+  "id": "recipe-figma-bro__product-support-inbox-assistant",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "figma bro",
+      "kit": "wake",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "wake",
+    "patch"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -6,
+  "last": "2026-09-19T07:27:25.647Z"
+}

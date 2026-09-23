@@ -1,0 +1,38 @@
+{
+  "id": "recipe-seo-aeo-desk__love__seo-aeo-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "pin",
+    "patch",
+    "pin"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -22,
+  "last": "2026-09-18T21:01:16.399Z"
+}

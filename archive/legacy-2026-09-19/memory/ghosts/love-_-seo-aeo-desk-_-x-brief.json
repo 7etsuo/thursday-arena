@@ -1,0 +1,66 @@
+{
+  "fp": "love | seo aeo desk | x brief",
+  "seats": [
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "c2mlouro"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__writing-bot__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:59:19.321Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__flora-plant-care-log__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:59:38.367Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__company-docs-q-a__ebr-value-deck-builder": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T20:59:45.608Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__cooper__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:59:53.342Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__projects-manager",
+  "plays": 4,
+  "updated": "2026-09-18T20:59:53.342Z"
+}

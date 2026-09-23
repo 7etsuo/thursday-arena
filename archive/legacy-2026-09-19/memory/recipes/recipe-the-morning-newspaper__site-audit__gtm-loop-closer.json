@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__site-audit__gtm-loop-closer",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "site audit",
+      "kit": "pin",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "flamingo",
+    "pin",
+    "cover"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-19T02:52:35.163Z"
+}

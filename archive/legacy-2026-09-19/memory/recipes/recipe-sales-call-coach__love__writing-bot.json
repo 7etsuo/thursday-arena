@@ -1,0 +1,38 @@
+{
+  "id": "recipe-sales-call-coach__love__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "sales call coach",
+      "kit": "peacock",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "peacock",
+    "patch",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -25,
+  "last": "2026-09-18T11:18:37.947Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-flora-plant-care-log__seo-aeo-desk__call-follow-ups",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "flora plant care log",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "patch",
+    "pin",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-19T03:23:38.458Z"
+}

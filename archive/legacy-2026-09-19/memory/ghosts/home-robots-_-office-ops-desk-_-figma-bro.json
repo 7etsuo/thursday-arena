@@ -1,0 +1,42 @@
+{
+  "fp": "home robots | office ops desk | figma bro",
+  "seats": [
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "as42tsx"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__writing-bot__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T07:16:15.306Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__writing-bot__wtd",
+  "plays": 1,
+  "updated": "2026-09-19T07:16:15.306Z"
+}

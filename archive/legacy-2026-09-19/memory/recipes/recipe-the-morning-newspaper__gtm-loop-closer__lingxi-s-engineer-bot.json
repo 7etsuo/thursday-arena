@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__gtm-loop-closer__lingxi-s-engineer-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "lingxi s engineer bot",
+      "kit": "first_seat",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "flamingo",
+    "cover",
+    "first_seat"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 5,
+  "last": "2026-09-19T01:56:44.029Z"
+}

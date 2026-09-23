@@ -1,0 +1,38 @@
+{
+  "id": "recipe-nyc-parent__stills-clips-desk__tradbot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "stills clips desk",
+      "kit": "wake",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "tradbot",
+      "kit": "guard",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "wake",
+    "guard"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -9,
+  "last": "2026-09-18T12:01:37.509Z"
+}

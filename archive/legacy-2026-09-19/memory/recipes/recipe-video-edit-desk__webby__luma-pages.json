@@ -1,0 +1,38 @@
+{
+  "id": "recipe-video-edit-desk__webby__luma-pages",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "video edit desk",
+      "kit": "wake",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "wake",
+    "bulk",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 11,
+  "last": "2026-09-18T21:31:55.290Z"
+}

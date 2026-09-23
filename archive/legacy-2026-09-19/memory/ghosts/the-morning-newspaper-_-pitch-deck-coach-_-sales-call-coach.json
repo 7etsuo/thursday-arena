@@ -1,0 +1,50 @@
+{
+  "fp": "the morning newspaper | pitch deck coach | sales call coach",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "pitch deck coach",
+      "kit": "last_word",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "pajuuuuuuu"
+  ],
+  "matchups": {
+    "recipe-lingxi-s-engineer-bot__stills-clips-desk__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:52:26.657Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__ai-search-visibility__alfred": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T22:52:35.664Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-lingxi-s-engineer-bot__stills-clips-desk__cooper",
+  "plays": 2,
+  "updated": "2026-09-18T22:52:35.664Z"
+}

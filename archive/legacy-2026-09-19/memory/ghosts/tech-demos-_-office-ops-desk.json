@@ -1,0 +1,26 @@
+{
+  "fp": "tech demos | office ops desk",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 7,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ai"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T07:00:05.101Z"
+}

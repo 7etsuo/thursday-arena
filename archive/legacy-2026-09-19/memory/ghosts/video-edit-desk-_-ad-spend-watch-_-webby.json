@@ -1,0 +1,33 @@
+{
+  "fp": "video edit desk | ad spend watch | webby",
+  "seats": [
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "ad spend watch",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "as42tsx"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T07:14:28.101Z"
+}

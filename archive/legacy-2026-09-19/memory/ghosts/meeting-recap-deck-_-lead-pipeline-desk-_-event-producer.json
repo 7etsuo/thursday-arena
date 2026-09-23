@@ -1,0 +1,50 @@
+{
+  "fp": "meeting recap deck | lead pipeline desk | event producer",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "irsthaeth"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__call-follow-ups__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 12,
+      "last": "2026-09-18T11:57:40.783Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__ebr-value-deck-builder__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -21,
+      "last": "2026-09-18T11:57:58.428Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__call-follow-ups__luma-pages",
+  "plays": 2,
+  "updated": "2026-09-18T11:58:37.404Z"
+}

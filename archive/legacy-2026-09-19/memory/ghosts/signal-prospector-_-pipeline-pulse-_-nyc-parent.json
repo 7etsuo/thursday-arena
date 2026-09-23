@@ -1,0 +1,42 @@
+{
+  "fp": "signal prospector | pipeline pulse | nyc parent",
+  "seats": [
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "codrinteiu"
+  ],
+  "matchups": {
+    "recipe-tradbot__flora-plant-care-log__recruiting-coordinator": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:20:52.671Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-tradbot__flora-plant-care-log__recruiting-coordinator",
+  "plays": 1,
+  "updated": "2026-09-18T23:20:52.671Z"
+}

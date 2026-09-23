@@ -1,0 +1,33 @@
+{
+  "fp": "signal prospector | wtd | skippy",
+  "seats": [
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "dannyholland"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T00:27:13.081Z"
+}

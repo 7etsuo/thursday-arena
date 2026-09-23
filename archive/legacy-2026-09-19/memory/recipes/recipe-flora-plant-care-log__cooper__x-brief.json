@@ -1,0 +1,38 @@
+{
+  "id": "recipe-flora-plant-care-log__cooper__x-brief",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "flora plant care log",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "patch",
+    "echo",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 2,
+  "last": "2026-09-19T00:24:43.053Z"
+}

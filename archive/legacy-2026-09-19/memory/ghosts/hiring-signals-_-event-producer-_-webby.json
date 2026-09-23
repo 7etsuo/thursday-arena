@@ -1,0 +1,74 @@
+{
+  "fp": "hiring signals | event producer | webby",
+  "seats": [
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "candinasf"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__love__product-support-inbox-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:51:48.869Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__flora-plant-care-log": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:52:05.620Z",
+      "lastResult": "win"
+    },
+    "recipe-meeting-recap-deck__flora-plant-care-log__sales-call-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:52:13.377Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__webby__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:52:19.638Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__office-ops-desk__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:52:27.479Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__office-ops-desk__tradbot",
+  "plays": 5,
+  "updated": "2026-09-18T23:52:27.479Z"
+}

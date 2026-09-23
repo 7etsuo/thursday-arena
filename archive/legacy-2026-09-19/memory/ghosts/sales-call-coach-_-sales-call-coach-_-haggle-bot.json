@@ -1,0 +1,66 @@
+{
+  "fp": "sales call coach | sales call coach | haggle bot",
+  "seats": [
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sean64805703"
+  ],
+  "matchups": {
+    "recipe-credit-card-max__recruiting-coordinator__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:48:49.873Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__love__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T23:49:09.513Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__gtm-loop-closer": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T23:49:50.494Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__company-docs-q-a__tradbot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T23:49:57.978Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__recruiting-coordinator__x-brief",
+  "plays": 4,
+  "updated": "2026-09-18T23:50:05.836Z"
+}

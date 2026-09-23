@@ -1,0 +1,38 @@
+{
+  "id": "recipe-paid-media-report-desk__nyc-parent__x-brief",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "paid media report desk",
+      "kit": "grow",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "grow",
+    "bulk",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 7,
+  "last": "2026-09-18T22:39:11.685Z"
+}

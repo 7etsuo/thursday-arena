@@ -1,0 +1,26 @@
+{
+  "fp": "love | company docs q a",
+  "seats": [
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "selfluencer_io"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-18T23:53:30.902Z"
+}

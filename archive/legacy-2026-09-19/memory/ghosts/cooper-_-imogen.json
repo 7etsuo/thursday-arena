@@ -1,0 +1,91 @@
+{
+  "fp": "cooper | imogen",
+  "seats": [
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "shoeheart"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__wtd__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 11,
+      "last": "2026-09-18T23:09:50.229Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__credit-card-max__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-18T23:09:58.859Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__seo-aeo-desk__overheard": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-18T23:10:04.252Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__pipeline-pulse__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-18T23:10:12.679Z",
+      "lastResult": "win"
+    },
+    "recipe-writing-bot__credit-card-max__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T23:10:20.710Z",
+      "lastResult": "win"
+    },
+    "recipe-call-follow-ups__hiring-signals__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T23:10:30.965Z",
+      "lastResult": "win"
+    },
+    "recipe-meeting-recap-deck__deal-hunting__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T23:10:36.620Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__stills-clips-desk__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T23:10:44.592Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__wtd__luma-pages",
+  "plays": 8,
+  "updated": "2026-09-18T23:10:44.592Z"
+}

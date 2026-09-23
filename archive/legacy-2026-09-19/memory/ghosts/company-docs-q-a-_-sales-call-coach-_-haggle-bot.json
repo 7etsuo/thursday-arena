@@ -1,0 +1,50 @@
+{
+  "fp": "company docs q a | sales call coach | haggle bot",
+  "seats": [
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jmckenzie122"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__company-docs-q-a__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:41:48.632Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__nyc-parent__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:42:08.468Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__nyc-parent__x-brief",
+  "plays": 2,
+  "updated": "2026-09-18T22:42:08.468Z"
+}

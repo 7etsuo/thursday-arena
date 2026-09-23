@@ -1,0 +1,38 @@
+{
+  "id": "recipe-copy-humanizer__stills-clips-desk__recruiting-coordinator",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "stills clips desk",
+      "kit": "wake",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "flamingo",
+    "wake",
+    "dodo"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -27,
+  "last": "2026-09-19T01:02:30.811Z"
+}

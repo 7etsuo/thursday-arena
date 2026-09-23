@@ -1,0 +1,42 @@
+{
+  "fp": "ai search visibility | ebr value deck builder | the morning newspaper",
+  "seats": [
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "torstenbremeyer"
+  ],
+  "matchups": {
+    "recipe-deal-inspector__outbound-prospecting__executive-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T21:54:09.340Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-deal-inspector__outbound-prospecting__executive-assistant",
+  "plays": 1,
+  "updated": "2026-09-18T21:54:09.340Z"
+}

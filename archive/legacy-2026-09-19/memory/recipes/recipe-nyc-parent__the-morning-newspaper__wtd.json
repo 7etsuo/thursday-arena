@@ -1,0 +1,38 @@
+{
+  "id": "recipe-nyc-parent__the-morning-newspaper__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "flamingo",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 4,
+  "wins": 4,
+  "losses": 0,
+  "elo": 24,
+  "last": "2026-09-19T04:33:23.884Z"
+}

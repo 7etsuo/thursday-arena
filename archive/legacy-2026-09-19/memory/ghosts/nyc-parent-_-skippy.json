@@ -1,0 +1,99 @@
+{
+  "fp": "nyc parent | skippy",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "gui_deferreira"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__copy-humanizer__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:20:55.325Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:21:02.272Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__flora-plant-care-log__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:21:08.940Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__video-edit-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:21:16.748Z",
+      "lastResult": "win"
+    },
+    "recipe-call-follow-ups__wtd__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:21:23.310Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__call-follow-ups__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:21:33.580Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__the-morning-newspaper__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:21:40.603Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__love__video-edit-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:21:50.771Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__signal-prospector__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:21:58.302Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__video-edit-desk__writing-bot",
+  "plays": 9,
+  "updated": "2026-09-18T12:21:58.302Z"
+}

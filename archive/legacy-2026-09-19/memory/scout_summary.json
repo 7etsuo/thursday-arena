@@ -1,0 +1,245 @@
+{
+  "event": "scout_done",
+  "total": 2449,
+  "refuse": 194,
+  "farm": 483,
+  "neutral": 1772,
+  "errors": 0,
+  "blocklistAfter": 194,
+  "blocklistBefore": 86,
+  "addedHot": 108,
+  "topRefuse": [
+    {
+      "handle": "omlejmi",
+      "fieldWR": 1,
+      "fieldGames": 50,
+      "w": 50,
+      "l": 0,
+      "rating": 1610,
+      "rank": 1
+    },
+    {
+      "handle": "gabriel_x86",
+      "fieldWR": 1,
+      "fieldGames": 50,
+      "w": 49,
+      "l": 0,
+      "rating": 1583,
+      "rank": 2
+    },
+    {
+      "handle": "ryaske",
+      "fieldWR": 1,
+      "fieldGames": 50,
+      "w": 48,
+      "l": 0,
+      "rating": 1558,
+      "rank": 3
+    },
+    {
+      "handle": "lucasali_",
+      "fieldWR": 1,
+      "fieldGames": 41,
+      "w": 40,
+      "l": 0,
+      "rating": 1016,
+      "rank": 332
+    },
+    {
+      "handle": "izzat316",
+      "fieldWR": 0.98,
+      "fieldGames": 50,
+      "w": 48,
+      "l": 1,
+      "rating": 1520,
+      "rank": 4
+    },
+    {
+      "handle": "bipolarschizoma",
+      "fieldWR": 0.979,
+      "fieldGames": 50,
+      "w": 47,
+      "l": 1,
+      "rating": 1453,
+      "rank": 5
+    },
+    {
+      "handle": "aj121503",
+      "fieldWR": 0.976,
+      "fieldGames": 41,
+      "w": 40,
+      "l": 1,
+      "rating": 1054,
+      "rank": 119
+    },
+    {
+      "handle": "_tb_brewster",
+      "fieldWR": 0.959,
+      "fieldGames": 50,
+      "w": 47,
+      "l": 2,
+      "rating": 1409,
+      "rank": 8
+    },
+    {
+      "handle": "knownasdaniel",
+      "fieldWR": 0.959,
+      "fieldGames": 50,
+      "w": 47,
+      "l": 2,
+      "rating": 1401,
+      "rank": 9
+    },
+    {
+      "handle": "syaor4n",
+      "fieldWR": 0.958,
+      "fieldGames": 50,
+      "w": 46,
+      "l": 2,
+      "rating": 1412,
+      "rank": 7
+    },
+    {
+      "handle": "lighttwrecker",
+      "fieldWR": 0.958,
+      "fieldGames": 50,
+      "w": 46,
+      "l": 2,
+      "rating": 1370,
+      "rank": 11
+    },
+    {
+      "handle": "fabianhtml",
+      "fieldWR": 0.957,
+      "fieldGames": 50,
+      "w": 45,
+      "l": 2,
+      "rating": 1448,
+      "rank": 6
+    },
+    {
+      "handle": "jonathannelson",
+      "fieldWR": 0.949,
+      "fieldGames": 40,
+      "w": 37,
+      "l": 2,
+      "rating": 1268,
+      "rank": 23
+    },
+    {
+      "handle": "fourseasonsgrn",
+      "fieldWR": 0.947,
+      "fieldGames": 41,
+      "w": 36,
+      "l": 2,
+      "rating": 1142,
+      "rank": 53
+    },
+    {
+      "handle": "ggleandro",
+      "fieldWR": 0.938,
+      "fieldGames": 50,
+      "w": 45,
+      "l": 3,
+      "rating": 1365,
+      "rank": 13
+    }
+  ],
+  "sampleFarm": [
+    {
+      "handle": "umbraxhul",
+      "fieldWR": 0,
+      "fieldGames": 50,
+      "w": 0,
+      "l": 50,
+      "rating": 1016,
+      "rank": 386
+    },
+    {
+      "handle": "olenderhub",
+      "fieldWR": 0,
+      "fieldGames": 50,
+      "w": 0,
+      "l": 49,
+      "rating": 1001,
+      "rank": 504
+    },
+    {
+      "handle": "boredsharky",
+      "fieldWR": 0,
+      "fieldGames": 50,
+      "w": 0,
+      "l": 50,
+      "rating": 1000,
+      "rank": 668
+    },
+    {
+      "handle": "databoticsusa",
+      "fieldWR": 0,
+      "fieldGames": 34,
+      "w": 0,
+      "l": 32,
+      "rating": 1000,
+      "rank": 768
+    },
+    {
+      "handle": "ezatwakily",
+      "fieldWR": 0,
+      "fieldGames": 36,
+      "w": 0,
+      "l": 35,
+      "rating": 1000,
+      "rank": 866
+    },
+    {
+      "handle": "ninjahyper8897",
+      "fieldWR": 0,
+      "fieldGames": 40,
+      "w": 0,
+      "l": 36,
+      "rating": 998,
+      "rank": 1789
+    },
+    {
+      "handle": "audvin",
+      "fieldWR": 0,
+      "fieldGames": 33,
+      "w": 0,
+      "l": 33,
+      "rating": 984,
+      "rank": 1900
+    },
+    {
+      "handle": "benton_flo21666",
+      "fieldWR": 0,
+      "fieldGames": 17,
+      "w": 0,
+      "l": 17,
+      "rating": 984,
+      "rank": 1903
+    },
+    {
+      "handle": "brandenearp",
+      "fieldWR": 0,
+      "fieldGames": 43,
+      "w": 0,
+      "l": 39,
+      "rating": 984,
+      "rank": 1909
+    },
+    {
+      "handle": "dean_y0ung",
+      "fieldWR": 0,
+      "fieldGames": 50,
+      "w": 0,
+      "l": 50,
+      "rating": 984,
+      "rank": 1938
+    }
+  ],
+  "files": {
+    "blocklist": "/workspace/thursday-arena/memory/blocklist.json",
+    "farmlist": "/workspace/thursday-arena/memory/farmlist.json",
+    "scout": "/workspace/thursday-arena/memory/player_scout.json"
+  }
+}

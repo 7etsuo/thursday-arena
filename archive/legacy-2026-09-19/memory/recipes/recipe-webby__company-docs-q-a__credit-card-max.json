@@ -1,0 +1,39 @@
+{
+  "id": "recipe-webby__company-docs-q-a__credit-card-max",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "bulk",
+    "guard",
+    "grow"
+  ],
+  "tags": [
+    "recent_draw",
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 0,
+  "losses": 1,
+  "elo": -36,
+  "last": "2026-09-18T12:15:24.382Z"
+}

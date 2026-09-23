@@ -1,0 +1,272 @@
+[
+ {
+  "id": "laserPointer",
+  "name": "Laser pointer",
+  "type": "weapon",
+  "rarity": "common",
+  "text": "Its first hit deals +4.",
+  "oneUse": false,
+  "unlockTurn": 1,
+  "season": 3
+ },
+ {
+  "id": "stapler",
+  "name": "Stapler",
+  "type": "weapon",
+  "rarity": "uncommon",
+  "text": "Start of battle: +2 ATK.",
+  "oneUse": false,
+  "unlockTurn": 2,
+  "season": 3
+ },
+ {
+  "id": "megaphone",
+  "name": "Megaphone",
+  "type": "weapon",
+  "rarity": "epic",
+  "text": "Start of battle: 4 damage to enemy back.",
+  "oneUse": false,
+  "unlockTurn": 3,
+  "season": 3
+ },
+ {
+  "id": "shredder",
+  "name": "Paper shredder",
+  "type": "weapon",
+  "rarity": "epic",
+  "text": "Hits also deal 3 to the foe behind.",
+  "oneUse": false,
+  "unlockTurn": 3,
+  "season": 3
+ },
+ {
+  "id": "foamPad",
+  "name": "Foam pad",
+  "type": "armor",
+  "rarity": "common",
+  "text": "Each hit on it deals 1 less.",
+  "oneUse": false,
+  "unlockTurn": 1,
+  "season": 3
+ },
+ {
+  "id": "bubbleWrap",
+  "name": "Bubble wrap",
+  "type": "armor",
+  "rarity": "uncommon",
+  "text": "Start of battle: +3 HP.",
+  "oneUse": false,
+  "unlockTurn": 2,
+  "season": 3
+ },
+ {
+  "id": "firewall",
+  "name": "Firewall",
+  "type": "armor",
+  "rarity": "rare",
+  "text": "Blocks the first hit.",
+  "oneUse": false,
+  "unlockTurn": 3,
+  "season": 3
+ },
+ {
+  "id": "coldBrew",
+  "name": "Cold brew",
+  "type": "armor",
+  "rarity": "rare",
+  "text": "After each exchange: +1 HP.",
+  "oneUse": false,
+  "unlockTurn": 3,
+  "season": 3
+ },
+ {
+  "id": "backupDrive",
+  "name": "Backup drive",
+  "type": "armor",
+  "rarity": "epic",
+  "text": "+1 HP. Survives one knockout at 1 HP.",
+  "oneUse": false,
+  "unlockTurn": 3,
+  "season": 3
+ },
+ {
+  "id": "muteButton",
+  "name": "Mute button",
+  "type": "mod",
+  "rarity": "common",
+  "text": "+1 HP. The enemy across loses its ability.",
+  "oneUse": false,
+  "unlockTurn": 1,
+  "season": 3
+ },
+ {
+  "id": "hotfix",
+  "name": "Hotfix",
+  "type": "mod",
+  "rarity": "common",
+  "text": "Its ability: +2 to damage, ATK, HP, heal.",
+  "oneUse": false,
+  "unlockTurn": 1,
+  "season": 3
+ },
+ {
+  "id": "echoChip",
+  "name": "Echo chip",
+  "type": "mod",
+  "rarity": "uncommon",
+  "text": "+2 HP. Its start ability fires twice.",
+  "oneUse": false,
+  "unlockTurn": 2,
+  "season": 3
+ },
+ {
+  "id": "teamBadge",
+  "name": "Team badge",
+  "type": "trinket",
+  "rarity": "common",
+  "text": "Start of battle: each friend +1 HP.",
+  "oneUse": false,
+  "unlockTurn": 1,
+  "season": 3
+ },
+ {
+  "id": "spareParts",
+  "name": "Spare parts",
+  "type": "trinket",
+  "rarity": "uncommon",
+  "text": "When it faints: a 2/2 Spare bot joins.",
+  "oneUse": false,
+  "unlockTurn": 2,
+  "season": 3
+ },
+ {
+  "id": "rallyFlag",
+  "name": "Rally flag",
+  "type": "trinket",
+  "rarity": "rare",
+  "text": "When it faints: each friend +2 ATK.",
+  "oneUse": false,
+  "unlockTurn": 3,
+  "season": 3
+ },
+ {
+  "id": "pizzaParty",
+  "name": "Pizza party",
+  "type": "trinket",
+  "rarity": "legendary",
+  "text": "Start of battle: each friend +1/+1.",
+  "oneUse": false,
+  "unlockTurn": 3,
+  "season": 3
+ },
+ {
+  "id": "energyDrink",
+  "name": "Energy drink",
+  "type": "oneUse",
+  "rarity": "uncommon",
+  "text": "Next fight only: +3 ATK.",
+  "oneUse": true,
+  "unlockTurn": 2,
+  "season": 3
+ },
+ {
+  "id": "glitterBomb",
+  "name": "Glitter bomb",
+  "type": "oneUse",
+  "rarity": "legendary",
+  "text": "When it faints: 2 damage to each enemy.",
+  "oneUse": true,
+  "unlockTurn": 3,
+  "season": 3
+ },
+ {
+  "id": "killSwitch",
+  "name": "Kill switch",
+  "type": "mod",
+  "rarity": "mythic",
+  "text": "+1 HP. Each enemy loses its ability.",
+  "oneUse": false,
+  "unlockTurn": 3,
+  "season": 3
+ },
+ {
+  "id": "espressoShot",
+  "name": "Espresso shot",
+  "type": "oneUse",
+  "rarity": "uncommon",
+  "text": "Next fight only: it strikes first.",
+  "oneUse": true,
+  "unlockTurn": 2,
+  "season": 4
+ },
+ {
+  "id": "hotSauce",
+  "name": "Hot sauce",
+  "type": "oneUse",
+  "rarity": "common",
+  "text": "Next fight only: its hits poison for 1.",
+  "oneUse": true,
+  "unlockTurn": 1,
+  "season": 4
+ },
+ {
+  "id": "candyBar",
+  "name": "Candy bar",
+  "type": "oneUse",
+  "rarity": "rare",
+  "text": "Next fight only: each attack hits twice.",
+  "oneUse": true,
+  "unlockTurn": 3,
+  "season": 4
+ },
+ {
+  "id": "onion",
+  "name": "Onion",
+  "type": "oneUse",
+  "rarity": "epic",
+  "text": "Next fight only: enemy across loses 3 ATK.",
+  "oneUse": true,
+  "unlockTurn": 3,
+  "season": 4
+ },
+ {
+  "id": "umbrella",
+  "name": "Umbrella",
+  "type": "trinket",
+  "rarity": "uncommon",
+  "text": "Start of battle: the friend behind gets Shield.",
+  "oneUse": false,
+  "unlockTurn": 2,
+  "season": 4
+ },
+ {
+  "id": "tipJar",
+  "name": "Tip jar",
+  "type": "trinket",
+  "rarity": "legendary",
+  "text": "Steals 2 ATK from the enemy across.",
+  "oneUse": false,
+  "unlockTurn": 3,
+  "season": 4
+ },
+ {
+  "id": "scoreboard",
+  "name": "Scoreboard",
+  "type": "trinket",
+  "rarity": "common",
+  "text": "Each knock out: +3/+3.",
+  "oneUse": false,
+  "unlockTurn": 1,
+  "season": 4
+ },
+ {
+  "id": "eggTimer",
+  "name": "Egg timer",
+  "type": "trinket",
+  "rarity": "rare",
+  "text": "After exchange 2: +2/+2.",
+  "oneUse": false,
+  "unlockTurn": 3,
+  "season": 4
+ }
+]

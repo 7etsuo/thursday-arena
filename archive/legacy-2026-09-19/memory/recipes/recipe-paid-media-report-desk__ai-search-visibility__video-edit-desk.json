@@ -1,0 +1,38 @@
+{
+  "id": "recipe-paid-media-report-desk__ai-search-visibility__video-edit-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "paid media report desk",
+      "kit": "grow",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "ai search visibility",
+      "kit": "pin",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "video edit desk",
+      "kit": "wake",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "grow",
+    "pin",
+    "wake"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 5,
+  "last": "2026-09-18T23:04:25.124Z"
+}

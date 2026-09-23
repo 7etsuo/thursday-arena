@@ -1,0 +1,38 @@
+{
+  "id": "recipe-credit-card-max__flora-plant-care-log__stalk-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "flora plant care log",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "stalk bot",
+      "kit": "snowball",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "grow",
+    "patch",
+    "snowball"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 6,
+  "last": "2026-09-18T12:24:01.604Z"
+}

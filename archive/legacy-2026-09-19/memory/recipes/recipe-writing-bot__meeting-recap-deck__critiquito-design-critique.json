@@ -1,0 +1,38 @@
+{
+  "id": "recipe-writing-bot__meeting-recap-deck__critiquito-design-critique",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hype",
+    "echo",
+    "sting"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 15,
+  "last": "2026-09-19T05:06:21.030Z"
+}

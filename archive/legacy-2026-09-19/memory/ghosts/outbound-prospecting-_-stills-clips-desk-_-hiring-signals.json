@@ -1,0 +1,82 @@
+{
+  "fp": "outbound prospecting | stills clips desk | hiring signals",
+  "seats": [
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "lowguathwa"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__meeting-recap-deck__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:06:52.147Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__event-request-desk__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:06:58.961Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__webby__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:07:19.962Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__writing-bot__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:07:28.290Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-call-coach-assistant__luma-pages__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:07:49.610Z",
+      "lastResult": "win"
+    },
+    "recipe-love__x-brief__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:07:57.213Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__writing-bot__office-ops-desk",
+  "plays": 6,
+  "updated": "2026-09-19T00:07:57.213Z"
+}

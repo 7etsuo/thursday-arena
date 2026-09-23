@@ -1,0 +1,98 @@
+{
+  "fp": "love | company docs q a | clip bot",
+  "seats": [
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "selfluencer_io"
+  ],
+  "matchups": {
+    "recipe-call-follow-ups__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T23:52:34.756Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__cooper__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T23:52:45.099Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__credit-card-max__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T23:52:52.801Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__recruiting-coordinator__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T23:53:02.415Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__pipeline-pulse__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T23:53:13.090Z",
+      "lastResult": "win"
+    },
+    "recipe-signal-prospector__credit-card-max__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:53:20.160Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__call-follow-ups__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:53:27.803Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__gtm-loop-closer__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:53:34.825Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__pipeline-pulse__cooper",
+  "plays": 8,
+  "updated": "2026-09-18T23:53:34.825Z"
+}

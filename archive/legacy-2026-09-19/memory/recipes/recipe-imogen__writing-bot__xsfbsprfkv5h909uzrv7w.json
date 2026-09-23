@@ -1,0 +1,37 @@
+{
+  "id": "recipe-imogen__writing-bot__xsfbsprfkv5h909uzrv7w",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "xsfbsprfkv5h909uzrv7w",
+      "kit": "",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 26,
+  "last": "2026-09-19T07:25:34.047Z"
+}

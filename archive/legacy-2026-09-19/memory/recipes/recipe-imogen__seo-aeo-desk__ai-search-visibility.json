@@ -1,0 +1,38 @@
+{
+  "id": "recipe-imogen__seo-aeo-desk__ai-search-visibility",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "ai search visibility",
+      "kit": "pin",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "bulk",
+    "pin",
+    "pin"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 16,
+  "last": "2026-09-19T05:19:18.634Z"
+}

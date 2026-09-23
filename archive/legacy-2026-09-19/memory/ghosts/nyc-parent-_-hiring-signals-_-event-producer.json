@@ -1,0 +1,100 @@
+{
+  "fp": "nyc parent | hiring signals | event producer",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "iamphilmichaels",
+    "a_g_e_n_c",
+    "carlosramirez"
+  ],
+  "matchups": {
+    "recipe-imogen__nyc-parent__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:19:30.029Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__meeting-recap-deck__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:19:39.436Z",
+      "lastResult": "win"
+    },
+    "recipe-seo-aeo-desk__love__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:19:46.560Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__call-follow-ups__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:19:57.762Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__copy-humanizer__flora-plant-care-log": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:20:19.813Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__site-audit__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:20:29.566Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__flora-plant-care-log__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:56:45.852Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__credit-card-max__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:56:54.904Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-tradbot__credit-card-max__x-brief",
+  "plays": 8,
+  "updated": "2026-09-19T05:16:56.131Z"
+}

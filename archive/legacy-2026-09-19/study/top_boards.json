@@ -1,0 +1,6593 @@
+[
+  {
+    "player": "starz_zps",
+    "rating": 1153,
+    "record": "21-9",
+    "match_id": "c98dbc3b-210e-4ec9-bb0d-72fc86d209ad",
+    "elo_delta": 16,
+    "opponent": "jeremymlucy",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "gadc3bVOsg9iIwmzAGRve",
+        "name": "Apple Search Ads Review",
+        "atk": 3,
+        "hp": 3,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "gj3IlHOOpzecm6xpmPJOt",
+        "name": "GTM Loop Closer",
+        "atk": 5,
+        "hp": 8,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "AZKaQOsjrAa51Nb4xvTur",
+        "name": "Projects Manager",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Apple Search Ads Review 3/3 honey",
+        "X Brief 2/4"
+      ],
+      "r2": [
+        "Apple Search Ads Review 3/3 honey",
+        "GTM Loop Closer 4/7",
+        "WTD 3/4"
+      ],
+      "r3": [
+        "Apple Search Ads Review 3/3 honey",
+        "GTM Loop Closer 5/8 honey",
+        "Projects Manager 3/5"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Grow', 'Cover', 'Hype']; foods=['honey', 'honey']; seats=['Apple Search Ads Review', 'GTM Loop Closer', 'Projects Manager']",
+    "source_url": "https://thursdayarena.com/matches/c98dbc3b-210e-4ec9-bb0d-72fc86d209ad"
+  },
+  {
+    "player": "prshannon_",
+    "rating": 1220,
+    "record": "26-7",
+    "match_id": "83adcc24-8ba9-48e4-85ec-3b7ad17333b6",
+    "elo_delta": 7,
+    "opponent": "bibekgh",
+    "rounds": "2-0",
+    "round_winners": [
+      "draw",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 6,
+        "hp": 10,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "afZj-XnYkThA4MB7GfZK6",
+        "name": "Office Ops Desk",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hold the line",
+        "kitId": "hold_the_line",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "RpAQeGjhzaiO6_Rq_4fyC",
+        "name": "GTM Prospecting",
+        "atk": 4,
+        "hp": 3,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Poke",
+        "kitId": "mosquito",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "NYC Parent 2/6",
+        "Office Ops Desk 3/5",
+        "GTM Prospecting 4/3"
+      ],
+      "r2": [
+        "NYC Parent 4/8",
+        "Office Ops Desk 3/5",
+        "GTM Prospecting 4/3"
+      ],
+      "r3": [
+        "NYC Parent 6/10",
+        "Office Ops Desk 3/5",
+        "GTM Prospecting 4/3"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Bulk', 'Hold the line', 'Poke']; foods=none; seats=['NYC Parent', 'Office Ops Desk', 'GTM Prospecting']",
+    "source_url": "https://thursdayarena.com/matches/83adcc24-8ba9-48e4-85ec-3b7ad17333b6"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "f79bf933-0974-49ca-ae8f-fc95cd256318",
+    "elo_delta": 4,
+    "opponent": "gunner15522830",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "YklttiPpAHweKbOLV1TSF",
+        "name": "Meeting Recap Deck",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "BX4-kOUI2CzphgiYLZ1hb",
+        "name": "Webby",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Webby 3/5",
+        "Meeting Recap Deck 3/4",
+        "NYC Parent 2/6"
+      ],
+      "r2": [
+        "NYC Parent 2/6 potato tmp+2",
+        "Meeting Recap Deck 3/4",
+        "Webby 3/5 honey"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Bulk', 'Echo', 'Bulk']; foods=['potato', 'honey']; seats=['NYC Parent', 'Meeting Recap Deck', 'Webby']",
+    "source_url": "https://thursdayarena.com/matches/f79bf933-0974-49ca-ae8f-fc95cd256318"
+  },
+  {
+    "player": "jsduren",
+    "rating": 1158,
+    "record": "20-6",
+    "match_id": "9f392ee9-c3f4-4a7b-9edf-c4c3a66a7bc5",
+    "elo_delta": 12,
+    "opponent": "silent_tom5",
+    "rounds": "1-0",
+    "round_winners": [
+      "draw",
+      "draw",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "yZ5MFQFdl32vHt6fcIJAc",
+        "name": "Sales Call Coach",
+        "atk": 4,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Brace",
+        "kitId": "peacock",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "PwWb6fJXpeG857af6tEYi",
+        "name": "Chief Health Officer",
+        "atk": 3,
+        "hp": 8,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "rare",
+        "cost": 5,
+        "unlockTurn": 3
+      },
+      {
+        "seat": 3,
+        "botId": "B6nsTFJlkGP4R-BbdIzeV",
+        "name": "GTM Account Research",
+        "atk": 3,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Scout",
+        "kitId": "last_word",
+        "rarity": "rare",
+        "cost": 5,
+        "unlockTurn": 3
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Event Producer 3/3",
+        "Writing Bot 2/5",
+        "WTD 3/4"
+      ],
+      "r2": [
+        "Sales Call Coach 4/5",
+        "Writing Bot 2/5",
+        "WTD 3/4 honey"
+      ],
+      "r3": [
+        "Sales Call Coach 4/5",
+        "Chief Health Officer 3/8",
+        "GTM Account Research 3/7"
+      ]
+    },
+    "plan_inferred": "late_spike",
+    "notes": "kits=['Brace', 'Patch', 'Scout']; foods=none; seats=['Sales Call Coach', 'Chief Health Officer', 'GTM Account Research']",
+    "source_url": "https://thursdayarena.com/matches/9f392ee9-c3f4-4a7b-9edf-c4c3a66a7bc5"
+  },
+  {
+    "player": "izzat316",
+    "rating": 1298,
+    "record": "87-34",
+    "match_id": "347f094e-3b9a-4526-a0f5-92178c6a9173",
+    "elo_delta": 5,
+    "opponent": "gunner15522830",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "afZj-XnYkThA4MB7GfZK6",
+        "name": "Office Ops Desk",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Hold the line",
+        "kitId": "hold_the_line",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "qDtCI8WZgVJKbN3rogL8j",
+        "name": "Love \u2764\ufe0f",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "gj3IlHOOpzecm6xpmPJOt",
+        "name": "GTM Loop Closer",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Office Ops Desk 3/5",
+        "X Brief 2/4",
+        "Signal Prospector 3/4"
+      ],
+      "r2": [
+        "Office Ops Desk 3/5 potato tmp+2",
+        "Love \u2764\ufe0f 2/5",
+        "GTM Loop Closer 3/6"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Hold the line', 'Patch', 'Cover']; foods=['potato']; seats=['Office Ops Desk', 'Love \u2764\ufe0f', 'GTM Loop Closer']",
+    "source_url": "https://thursdayarena.com/matches/347f094e-3b9a-4526-a0f5-92178c6a9173"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "8e44b27d-c597-4385-9d2c-aea877581c1d",
+    "elo_delta": 4,
+    "opponent": "silent_tom5",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "Eeu5NZp62OzQjtlY4ons2",
+        "name": "Imogen",
+        "atk": 3,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "8hhdYqfvRzigWstUtcmBZ",
+        "name": "Cooper",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "O3iqVd_ZrdRtrDJpxcKss",
+        "name": "Account Research Desk",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Scout",
+        "kitId": "last_word",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Imogen 2/6",
+        "Cooper 2/5",
+        "NYC Parent 2/6"
+      ],
+      "r2": [
+        "Imogen 3/7",
+        "Cooper 2/5",
+        "Account Research Desk 3/5 honey"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Bulk', 'Echo', 'Scout']; foods=['honey']; seats=['Imogen', 'Cooper', 'Account Research Desk']",
+    "source_url": "https://thursdayarena.com/matches/8e44b27d-c597-4385-9d2c-aea877581c1d"
+  },
+  {
+    "player": "ryanmcadams",
+    "rating": 1262,
+    "record": "326-79",
+    "match_id": "698fd64f-dd07-4ce9-be2c-4e91bf7d2104",
+    "elo_delta": 4,
+    "opponent": "martin91975",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "afZj-XnYkThA4MB7GfZK6",
+        "name": "Office Ops Desk",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Hold the line",
+        "kitId": "hold_the_line",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "q4u8YgzGQqCAOUZcg0Lgt",
+        "name": "Credit Card Max",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "V8XugyLxzbQXLM9o5b3B-",
+        "name": "Stills & Clips Desk",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Wake",
+        "kitId": "wake",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Office Ops Desk 3/5",
+        "Credit Card Max 3/4",
+        "Stills & Clips Desk 2/5"
+      ],
+      "r2": [
+        "Office Ops Desk 3/5 honey",
+        "Credit Card Max 3/4",
+        "Stills & Clips Desk 2/5"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Hold the line', 'Grow', 'Wake']; foods=['honey']; seats=['Office Ops Desk', 'Credit Card Max', 'Stills & Clips Desk']",
+    "source_url": "https://thursdayarena.com/matches/698fd64f-dd07-4ce9-be2c-4e91bf7d2104"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "8b1a9a4a-2490-4a34-8ece-b95c08f59807",
+    "elo_delta": 3,
+    "opponent": "sw413sg",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "q4u8YgzGQqCAOUZcg0Lgt",
+        "name": "Credit Card Max",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "wtEIGNZ8oipDDVQTDHMPB",
+        "name": "Event Producer",
+        "atk": 3,
+        "hp": 3,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Spite",
+        "kitId": "spite",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "Rw8d83KAzTYQWBAtAscin",
+        "name": "Product Support Inbox Assistant",
+        "atk": 4,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Event Producer 3/3",
+        "Site Audit 3/3",
+        "Stills & Clips Desk 2/5"
+      ],
+      "r2": [
+        "Event Producer 3/3",
+        "Event Producer 3/3",
+        "Product Support Inbox Assistant 3/6 honey"
+      ],
+      "r3": [
+        "Credit Card Max 3/4",
+        "Event Producer 3/3 potato tmp+2",
+        "Product Support Inbox Assistant 4/7 honey"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Grow', 'Spite', 'Patch']; foods=['potato', 'honey']; seats=['Credit Card Max', 'Event Producer', 'Product Support Inbox Assistant']",
+    "source_url": "https://thursdayarena.com/matches/8b1a9a4a-2490-4a34-8ece-b95c08f59807"
+  },
+  {
+    "player": "starz_zps",
+    "rating": 1153,
+    "record": "21-9",
+    "match_id": "c0f45e85-6b87-46a5-987b-6c623c3012f5",
+    "elo_delta": 15,
+    "opponent": "sothionx",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "RO8GwQZFXL9O95i13epqF",
+        "name": "X Brief",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "0LLQmzk-yzwHi0zuiV0lC",
+        "name": "Nightly Audit Engineer",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "NYC Parent 2/6",
+        "X Brief 2/4",
+        "Apple Search Ads Review 3/3"
+      ],
+      "r2": [
+        "NYC Parent 2/6",
+        "X Brief 4/6",
+        "Nightly Audit Engineer 3/6"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Bulk', 'Echo', 'Cover']; foods=none; seats=['NYC Parent', 'X Brief', 'Nightly Audit Engineer']",
+    "source_url": "https://thursdayarena.com/matches/c0f45e85-6b87-46a5-987b-6c623c3012f5"
+  },
+  {
+    "player": "prshannon_",
+    "rating": 1220,
+    "record": "26-7",
+    "match_id": "a4b01a2d-e4fb-4924-94d3-a0c95a1c02e9",
+    "elo_delta": 9,
+    "opponent": "silent_tom5",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 3,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "RO8GwQZFXL9O95i13epqF",
+        "name": "X Brief",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "wtq-j01kD7o8gQFx7E9zv",
+        "name": "Writing Bot",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "SEO & AEO Desk 2/5",
+        "X Brief 2/4",
+        "Writing Bot 2/5"
+      ],
+      "r2": [
+        "NYC Parent 3/7 honey",
+        "X Brief 2/4",
+        "Writing Bot 2/5"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Bulk', 'Echo', 'Hype']; foods=['honey']; seats=['NYC Parent', 'X Brief', 'Writing Bot']",
+    "source_url": "https://thursdayarena.com/matches/a4b01a2d-e4fb-4924-94d3-a0c95a1c02e9"
+  },
+  {
+    "player": "kanuma368",
+    "rating": 1206,
+    "record": "50-23",
+    "match_id": "9c529bf9-c1f3-4b5e-ad1b-fc948f332352",
+    "elo_delta": 16,
+    "opponent": "notabot",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "YwxIbVEWqXN-HYCxiMCoB",
+        "name": "Copy Humanizer",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Copy Humanizer 2/5",
+        "Call Follow-Ups 3/4",
+        "Call Follow-Ups 3/4"
+      ],
+      "r2": [
+        "Copy Humanizer 2/5 potato tmp+2",
+        "Call Follow-Ups 3/4 potato tmp+2"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Pass it back', 'Echo']; foods=['potato', 'potato']; seats=['Copy Humanizer', 'Call Follow-Ups']",
+    "source_url": "https://thursdayarena.com/matches/9c529bf9-c1f3-4b5e-ad1b-fc948f332352"
+  },
+  {
+    "player": "roostercogdick",
+    "rating": 1138,
+    "record": "13-2",
+    "match_id": "5d1b40b6-6e5e-455d-8e6a-db4262b2b6c7",
+    "elo_delta": 14,
+    "opponent": "gunner15522830",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "dGYdqS9vLSXpxoNCPBHys",
+        "name": "Flora: Plant Care Log",
+        "atk": 3,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "Q3VCc_x0Y8lWd4m-rung2",
+        "name": "WTD",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "YwxIbVEWqXN-HYCxiMCoB",
+        "name": "Copy Humanizer",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Flora: Plant Care Log 2/6",
+        "WTD 3/4",
+        "Copy Humanizer 2/5"
+      ],
+      "r2": [
+        "Flora: Plant Care Log 3/7",
+        "WTD 3/4",
+        "Copy Humanizer 2/5"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Patch', 'Hype', 'Pass it back']; foods=none; seats=['Flora: Plant Care Log', 'WTD', 'Copy Humanizer']",
+    "source_url": "https://thursdayarena.com/matches/5d1b40b6-6e5e-455d-8e6a-db4262b2b6c7"
+  },
+  {
+    "player": "prshannon_",
+    "rating": 1220,
+    "record": "26-7",
+    "match_id": "9dd23f0e-e01f-4908-b5bf-936889eeb83e",
+    "elo_delta": 11,
+    "opponent": "toryteach",
+    "rounds": "2-1",
+    "round_winners": [
+      "you",
+      "them",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "YwxIbVEWqXN-HYCxiMCoB",
+        "name": "Copy Humanizer",
+        "atk": 5,
+        "hp": 8,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "dGYdqS9vLSXpxoNCPBHys",
+        "name": "Flora: Plant Care Log",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "BX4-kOUI2CzphgiYLZ1hb",
+        "name": "Webby",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Copy Humanizer 2/5",
+        "Flora: Plant Care Log 2/6",
+        "dial bot 3/3"
+      ],
+      "r2": [
+        "Copy Humanizer 3/6 honey",
+        "Flora: Plant Care Log 2/6",
+        "dial bot 3/3"
+      ],
+      "r3": [
+        "Copy Humanizer 5/8 honey",
+        "Flora: Plant Care Log 2/6",
+        "Webby 3/5"
+      ]
+    },
+    "plan_inferred": "faint",
+    "notes": "kits=['Pass it back', 'Patch', 'Bulk']; foods=['honey']; seats=['Copy Humanizer', 'Flora: Plant Care Log', 'Webby']",
+    "source_url": "https://thursdayarena.com/matches/9dd23f0e-e01f-4908-b5bf-936889eeb83e"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "e7e74f38-83a0-4a13-9be3-08a0e1679bbc",
+    "elo_delta": 3,
+    "opponent": "bibekgh",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "1xAJYJPes3X7dUM2mk9Di",
+        "name": "The Morning Newspaper",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "KDahOjiDbbAvxqx9KaGcq",
+        "name": "Recruiting Coordinator",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Spot",
+        "kitId": "dodo",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "BX4-kOUI2CzphgiYLZ1hb",
+        "name": "Webby",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Credit Card Max 3/4",
+        "Pipeline Pulse 3/4",
+        "Webby 3/5"
+      ],
+      "r2": [
+        "The Morning Newspaper 2/6",
+        "Recruiting Coordinator 4/6",
+        "Webby 3/5"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Pass it back', 'Spot', 'Bulk']; foods=none; seats=['The Morning Newspaper', 'Recruiting Coordinator', 'Webby']",
+    "source_url": "https://thursdayarena.com/matches/e7e74f38-83a0-4a13-9be3-08a0e1679bbc"
+  },
+  {
+    "player": "ryanmcadams",
+    "rating": 1262,
+    "record": "326-79",
+    "match_id": "e53706ed-6be2-414e-adf4-3f08e151d403",
+    "elo_delta": 4,
+    "opponent": "shen_stone623",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "yTeKCLayahHnMdHFG9GJg",
+        "name": "Deal Hunting",
+        "atk": 4,
+        "hp": 2,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Drain",
+        "kitId": "drain",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "0LLQmzk-yzwHi0zuiV0lC",
+        "name": "Nightly Audit Engineer",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "wOE4e95HNxhSbrzyLkSI-",
+        "name": "Tradbot",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Guard",
+        "kitId": "guard",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Tech Demos 4/2",
+        "Deal Hunting 4/2",
+        "GTM Connections 2/5"
+      ],
+      "r2": [
+        "Deal Hunting 4/2 honey",
+        "Nightly Audit Engineer 3/6",
+        "Tradbot 3/6"
+      ],
+      "r3": [
+        "Deal Hunting 4/2 honey",
+        "Nightly Audit Engineer 3/6 honey",
+        "Tradbot 3/6 honey"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Drain', 'Cover', 'Guard']; foods=['honey', 'honey', 'honey']; seats=['Deal Hunting', 'Nightly Audit Engineer', 'Tradbot']",
+    "source_url": "https://thursdayarena.com/matches/e53706ed-6be2-414e-adf4-3f08e151d403"
+  },
+  {
+    "player": "breezeeoo",
+    "rating": 1224,
+    "record": "51-22",
+    "match_id": "b7e809c4-3d97-4584-a618-6b2a176b04c7",
+    "elo_delta": 12,
+    "opponent": "shirai3des",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "afZj-XnYkThA4MB7GfZK6",
+        "name": "Office Ops Desk",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Hold the line",
+        "kitId": "hold_the_line",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "YklttiPpAHweKbOLV1TSF",
+        "name": "Meeting Recap Deck",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "AZKaQOsjrAa51Nb4xvTur",
+        "name": "Projects Manager",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Office Ops Desk 3/5",
+        "Meeting Recap Deck 3/4",
+        "SEO & AEO Desk 2/5"
+      ],
+      "r2": [
+        "Office Ops Desk 4/6",
+        "Meeting Recap Deck 3/4",
+        "Projects Manager 3/5"
+      ],
+      "r3": [
+        "Office Ops Desk 4/6 potato tmp+2",
+        "Meeting Recap Deck 3/4 potato tmp+2",
+        "Projects Manager 3/5"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Hold the line', 'Echo', 'Hype']; foods=['potato', 'potato']; seats=['Office Ops Desk', 'Meeting Recap Deck', 'Projects Manager']",
+    "source_url": "https://thursdayarena.com/matches/b7e809c4-3d97-4584-a618-6b2a176b04c7"
+  },
+  {
+    "player": "jsduren",
+    "rating": 1158,
+    "record": "20-6",
+    "match_id": "27551d08-8222-4b24-bf05-f458646d0cc6",
+    "elo_delta": 14,
+    "opponent": "shirai3des",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "BX4-kOUI2CzphgiYLZ1hb",
+        "name": "Webby",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "wtq-j01kD7o8gQFx7E9zv",
+        "name": "Writing Bot",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "yTeKCLayahHnMdHFG9GJg",
+        "name": "Deal Hunting",
+        "atk": 4,
+        "hp": 2,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Drain",
+        "kitId": "drain",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Webby 3/5",
+        "Writing Bot 2/5",
+        "Deal Hunting 4/2"
+      ],
+      "r2": [
+        "Webby 4/6",
+        "Writing Bot 2/5",
+        "Deal Hunting 4/2"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Bulk', 'Hype', 'Drain']; foods=none; seats=['Webby', 'Writing Bot', 'Deal Hunting']",
+    "source_url": "https://thursdayarena.com/matches/27551d08-8222-4b24-bf05-f458646d0cc6"
+  },
+  {
+    "player": "roostercogdick",
+    "rating": 1138,
+    "record": "13-2",
+    "match_id": "e54986be-5dbf-4626-bac4-92972ce5e3b4",
+    "elo_delta": 15,
+    "opponent": "gunner15522830",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "q4u8YgzGQqCAOUZcg0Lgt",
+        "name": "Credit Card Max",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "NYC Parent 2/6",
+        "NYC Parent 2/6",
+        "Credit Card Max 3/4"
+      ],
+      "r2": [
+        "NYC Parent 2/6",
+        "NYC Parent 2/6",
+        "Credit Card Max 3/4"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Bulk', 'Bulk', 'Grow']; foods=none; seats=['NYC Parent', 'NYC Parent', 'Credit Card Max']",
+    "source_url": "https://thursdayarena.com/matches/e54986be-5dbf-4626-bac4-92972ce5e3b4"
+  },
+  {
+    "player": "izzat316",
+    "rating": 1298,
+    "record": "87-34",
+    "match_id": "f36e147c-6628-46a0-8edc-215a26253ffa",
+    "elo_delta": 5,
+    "opponent": "sw413sg",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "YwxIbVEWqXN-HYCxiMCoB",
+        "name": "Copy Humanizer",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "q4u8YgzGQqCAOUZcg0Lgt",
+        "name": "Credit Card Max",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "V8XugyLxzbQXLM9o5b3B-",
+        "name": "Stills & Clips Desk",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Wake",
+        "kitId": "wake",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Copy Humanizer 2/5",
+        "Stills & Clips Desk 2/5",
+        "Pipeline Pulse 3/4"
+      ],
+      "r2": [
+        "Copy Humanizer 2/5 honey",
+        "Credit Card Max 3/4 honey",
+        "Stills & Clips Desk 2/5"
+      ]
+    },
+    "plan_inferred": "faint",
+    "notes": "kits=['Pass it back', 'Grow', 'Wake']; foods=['honey', 'honey']; seats=['Copy Humanizer', 'Credit Card Max', 'Stills & Clips Desk']",
+    "source_url": "https://thursdayarena.com/matches/f36e147c-6628-46a0-8edc-215a26253ffa"
+  },
+  {
+    "player": "breezeeoo",
+    "rating": 1224,
+    "record": "51-22",
+    "match_id": "eba116c7-629d-49da-a081-0797eb0c33c8",
+    "elo_delta": 8,
+    "opponent": "orahonx",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "YwxIbVEWqXN-HYCxiMCoB",
+        "name": "Copy Humanizer",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 5,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "jHT5FLhpCMx7JeIq9BEHY",
+        "name": "Luma Pages",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Copy Humanizer 2/5",
+        "Call Follow-Ups 3/4",
+        "skippy 2/4"
+      ],
+      "r2": [
+        "Copy Humanizer 2/5",
+        "Call Follow-Ups 4/5",
+        "Luma Pages 2/4"
+      ],
+      "r3": [
+        "Copy Humanizer 2/5 honey",
+        "Call Follow-Ups 5/6",
+        "Luma Pages 2/4"
+      ]
+    },
+    "plan_inferred": "faint",
+    "notes": "kits=['Pass it back', 'Echo', 'Hype']; foods=['honey']; seats=['Copy Humanizer', 'Call Follow-Ups', 'Luma Pages']",
+    "source_url": "https://thursdayarena.com/matches/eba116c7-629d-49da-a081-0797eb0c33c8"
+  },
+  {
+    "player": "ryanmcadams",
+    "rating": 1262,
+    "record": "326-79",
+    "match_id": "dcc886ea-f75c-4089-b737-e751d8f25ef3",
+    "elo_delta": 4,
+    "opponent": "martin91975",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "Eeu5NZp62OzQjtlY4ons2",
+        "name": "Imogen",
+        "atk": 4,
+        "hp": 8,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "kGiyk73f5CF8XtBMIh0gW",
+        "name": "Video Edit Desk",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Wake",
+        "kitId": "wake",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "YklttiPpAHweKbOLV1TSF",
+        "name": "Meeting Recap Deck",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Imogen 2/6",
+        "Event Request Desk 3/4",
+        "Video Edit Desk 3/4"
+      ],
+      "r2": [
+        "Imogen 4/8",
+        "Video Edit Desk 3/4",
+        "Meeting Recap Deck 3/4"
+      ],
+      "r3": [
+        "Imogen 4/8 potato tmp+2",
+        "Video Edit Desk 3/4",
+        "Meeting Recap Deck 3/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Bulk', 'Wake', 'Echo']; foods=['potato']; seats=['Imogen', 'Video Edit Desk', 'Meeting Recap Deck']",
+    "source_url": "https://thursdayarena.com/matches/dcc886ea-f75c-4089-b737-e751d8f25ef3"
+  },
+  {
+    "player": "prshannon_",
+    "rating": 1220,
+    "record": "26-7",
+    "match_id": "34a7adaf-7147-4661-916a-8fe1ce563f28",
+    "elo_delta": 7,
+    "opponent": "orahonx",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 3,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "wOE4e95HNxhSbrzyLkSI-",
+        "name": "Tradbot",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Guard",
+        "kitId": "guard",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "q4u8YgzGQqCAOUZcg0Lgt",
+        "name": "Credit Card Max",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "NYC Parent 2/6",
+        "Credit Card Max 3/4",
+        "Event Request Desk 3/4"
+      ],
+      "r2": [
+        "NYC Parent 3/7 honey",
+        "Tradbot 3/6",
+        "Credit Card Max 3/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Bulk', 'Guard', 'Grow']; foods=['honey']; seats=['NYC Parent', 'Tradbot', 'Credit Card Max']",
+    "source_url": "https://thursdayarena.com/matches/34a7adaf-7147-4661-916a-8fe1ce563f28"
+  },
+  {
+    "player": "jsduren",
+    "rating": 1158,
+    "record": "20-6",
+    "match_id": "0695833d-3a73-46fa-956f-784c928b0cc8",
+    "elo_delta": 11,
+    "opponent": "yujules44768",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "Eeu5NZp62OzQjtlY4ons2",
+        "name": "Imogen",
+        "atk": 3,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "X4NHZvN9cvBBS5EgdjsLx",
+        "name": "skippy",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Sidestep",
+        "kitId": "sidestep",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Imogen 2/6",
+        "Call Follow-Ups 3/4",
+        "skippy 2/4"
+      ],
+      "r2": [
+        "Imogen 3/7",
+        "Call Follow-Ups 3/4",
+        "skippy 2/4"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Bulk', 'Echo', 'Sidestep']; foods=none; seats=['Imogen', 'Call Follow-Ups', 'skippy']",
+    "source_url": "https://thursdayarena.com/matches/0695833d-3a73-46fa-956f-784c928b0cc8"
+  },
+  {
+    "player": "roostercogdick",
+    "rating": 1138,
+    "record": "13-2",
+    "match_id": "e3cbaf18-636a-43ae-9048-f82ed7cb4875",
+    "elo_delta": 13,
+    "opponent": "silent_tom5",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "0LLQmzk-yzwHi0zuiV0lC",
+        "name": "Nightly Audit Engineer",
+        "atk": 5,
+        "hp": 8,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "Q3VCc_x0Y8lWd4m-rung2",
+        "name": "WTD",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Call Follow-Ups 3/4",
+        "WTD 3/4",
+        "Apple Search Ads Review 3/3"
+      ],
+      "r2": [
+        "Nightly Audit Engineer 4/7",
+        "WTD 3/4",
+        "Call Follow-Ups 3/4"
+      ],
+      "r3": [
+        "Nightly Audit Engineer 5/8",
+        "WTD 3/4",
+        "Call Follow-Ups 3/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Cover', 'Hype', 'Echo']; foods=none; seats=['Nightly Audit Engineer', 'WTD', 'Call Follow-Ups']",
+    "source_url": "https://thursdayarena.com/matches/e3cbaf18-636a-43ae-9048-f82ed7cb4875"
+  },
+  {
+    "player": "jsduren",
+    "rating": 1158,
+    "record": "20-6",
+    "match_id": "9e73417d-6011-418a-b4fb-53d2fed3c6e6",
+    "elo_delta": 11,
+    "opponent": "sw413sg",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "GVAnpUah1K6PzJtG9EuG9",
+        "name": "Company Docs Q&A",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Guard",
+        "kitId": "guard",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "Q3VCc_x0Y8lWd4m-rung2",
+        "name": "WTD",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "jHT5FLhpCMx7JeIq9BEHY",
+        "name": "Luma Pages",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Company Docs Q&A 2/6",
+        "WTD 3/4",
+        "Luma Pages 2/4"
+      ],
+      "r2": [
+        "Company Docs Q&A 2/6 honey",
+        "WTD 3/4",
+        "Luma Pages 2/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Guard', 'Hype', 'Hype']; foods=['honey']; seats=['Company Docs Q&A', 'WTD', 'Luma Pages']",
+    "source_url": "https://thursdayarena.com/matches/9e73417d-6011-418a-b4fb-53d2fed3c6e6"
+  },
+  {
+    "player": "starz_zps",
+    "rating": 1153,
+    "record": "21-9",
+    "match_id": "ad442cf5-7a74-49c2-a029-45aa8092eb13",
+    "elo_delta": 17,
+    "opponent": "breezeeoo",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "YklttiPpAHweKbOLV1TSF",
+        "name": "Meeting Recap Deck",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "q4u8YgzGQqCAOUZcg0Lgt",
+        "name": "Credit Card Max",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "NYC Parent 2/6",
+        "Credit Card Max 3/4",
+        "Flora: Plant Care Log 2/6"
+      ],
+      "r2": [
+        "NYC Parent 2/6 honey",
+        "Meeting Recap Deck 3/4 potato tmp+2",
+        "Credit Card Max 3/4"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Bulk', 'Echo', 'Grow']; foods=['honey', 'potato']; seats=['NYC Parent', 'Meeting Recap Deck', 'Credit Card Max']",
+    "source_url": "https://thursdayarena.com/matches/ad442cf5-7a74-49c2-a029-45aa8092eb13"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "3a0095df-16e6-4850-8111-716b2ab04bff",
+    "elo_delta": 3,
+    "opponent": "nobitoshii",
+    "rounds": "2-1",
+    "round_winners": [
+      "you",
+      "them",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "PwWb6fJXpeG857af6tEYi",
+        "name": "Chief Health Officer",
+        "atk": 3,
+        "hp": 8,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "rare",
+        "cost": 5,
+        "unlockTurn": 3
+      },
+      {
+        "seat": 2,
+        "botId": "YklttiPpAHweKbOLV1TSF",
+        "name": "Meeting Recap Deck",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "MK5zStpj_As8CsRwg3r6w",
+        "name": "Ad Spend Watch",
+        "atk": 4,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Sting",
+        "kitId": "sting",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Apple Search Ads Review 3/3",
+        "Apple Search Ads Review 3/3",
+        "Tech Demos 4/2"
+      ],
+      "r2": [
+        "Apple Search Ads Review 3/3",
+        "Meeting Recap Deck 3/4",
+        "Ad Spend Watch 4/4 honey"
+      ],
+      "r3": [
+        "Chief Health Officer 3/8 honey",
+        "Meeting Recap Deck 3/4",
+        "Ad Spend Watch 4/4 honey"
+      ]
+    },
+    "plan_inferred": "late_spike",
+    "notes": "kits=['Patch', 'Echo', 'Sting']; foods=['honey', 'honey']; seats=['Chief Health Officer', 'Meeting Recap Deck', 'Ad Spend Watch']",
+    "source_url": "https://thursdayarena.com/matches/3a0095df-16e6-4850-8111-716b2ab04bff"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "9de83bf0-8611-4151-90e0-06a0bb16fd25",
+    "elo_delta": 4,
+    "opponent": "silent_tom5",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "1xAJYJPes3X7dUM2mk9Di",
+        "name": "The Morning Newspaper",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "pXNvc_U2cGyZmheYrUuF_",
+        "name": "figma bro",
+        "atk": 4,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Wake",
+        "kitId": "wake",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "The Morning Newspaper 2/6",
+        "Call Follow-Ups 3/4",
+        "Luma Pages 2/4"
+      ],
+      "r2": [
+        "The Morning Newspaper 2/6 potato tmp+2",
+        "Call Follow-Ups 3/4",
+        "figma bro 4/4 honey"
+      ]
+    },
+    "plan_inferred": "faint",
+    "notes": "kits=['Pass it back', 'Echo', 'Wake']; foods=['potato', 'honey']; seats=['The Morning Newspaper', 'Call Follow-Ups', 'figma bro']",
+    "source_url": "https://thursdayarena.com/matches/9de83bf0-8611-4151-90e0-06a0bb16fd25"
+  },
+  {
+    "player": "roostercogdick",
+    "rating": 1138,
+    "record": "13-2",
+    "match_id": "3a8cd506-bc16-4995-9b4a-ee158d48f8d8",
+    "elo_delta": 12,
+    "opponent": "puppythick16",
+    "rounds": "2-0",
+    "round_winners": [
+      "draw",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "qBFjPRQ3IbHG69qIFHblE",
+        "name": "Paid Media Report Desk",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "YklttiPpAHweKbOLV1TSF",
+        "name": "Meeting Recap Deck",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "qDtCI8WZgVJKbN3rogL8j",
+        "name": "Love \u2764\ufe0f",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Event Request Desk 3/4",
+        "Meeting Recap Deck 3/4",
+        "Signal Prospector 3/4"
+      ],
+      "r2": [
+        "Event Request Desk 3/4 honey",
+        "Meeting Recap Deck 3/4",
+        "Paid Media Report Desk 3/5"
+      ],
+      "r3": [
+        "Paid Media Report Desk 4/6",
+        "Meeting Recap Deck 3/4",
+        "Love \u2764\ufe0f 2/5"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Grow', 'Echo', 'Patch']; foods=none; seats=['Paid Media Report Desk', 'Meeting Recap Deck', 'Love \u2764\ufe0f']",
+    "source_url": "https://thursdayarena.com/matches/3a8cd506-bc16-4995-9b4a-ee158d48f8d8"
+  },
+  {
+    "player": "jsduren",
+    "rating": 1158,
+    "record": "20-6",
+    "match_id": "850b5637-eca6-4323-b0b4-e0b97473443f",
+    "elo_delta": 13,
+    "opponent": "gunner15522830",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "hp7QlVUPuYUp09kc6IFAA",
+        "name": "Event Request Desk",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Sidestep",
+        "kitId": "sidestep",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "GVAnpUah1K6PzJtG9EuG9",
+        "name": "Company Docs Q&A",
+        "atk": 3,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Guard",
+        "kitId": "guard",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "qDtCI8WZgVJKbN3rogL8j",
+        "name": "Love \u2764\ufe0f",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Event Request Desk 3/4",
+        "Company Docs Q&A 2/6",
+        "Love \u2764\ufe0f 2/5"
+      ],
+      "r2": [
+        "Event Request Desk 3/4",
+        "Company Docs Q&A 3/7",
+        "Love \u2764\ufe0f 2/5"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Sidestep', 'Guard', 'Patch']; foods=none; seats=['Event Request Desk', 'Company Docs Q&A', 'Love \u2764\ufe0f']",
+    "source_url": "https://thursdayarena.com/matches/850b5637-eca6-4323-b0b4-e0b97473443f"
+  },
+  {
+    "player": "jsduren",
+    "rating": 1158,
+    "record": "20-6",
+    "match_id": "6521e067-f625-484e-9cc0-8f5478a81eb8",
+    "elo_delta": 11,
+    "opponent": "orahonx",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "v1lSvhJCo4UrNGZxc5Fw8",
+        "name": "Customer Call Coach & Assistant",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Brace",
+        "kitId": "peacock",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "qDtCI8WZgVJKbN3rogL8j",
+        "name": "Love \u2764\ufe0f",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "wsbOPOkHApmIYLrErnC4e",
+        "name": "Signal Prospector",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Poke",
+        "kitId": "mosquito",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Deal Hunting 4/2",
+        "Love \u2764\ufe0f 2/5",
+        "Signal Prospector 3/4"
+      ],
+      "r2": [
+        "Customer Call Coach & Assistant 3/5",
+        "Love \u2764\ufe0f 2/5",
+        "Signal Prospector 3/4 honey"
+      ]
+    },
+    "plan_inferred": "hybrid",
+    "notes": "kits=['Brace', 'Patch', 'Poke']; foods=['honey']; seats=['Customer Call Coach & Assistant', 'Love \u2764\ufe0f', 'Signal Prospector']",
+    "source_url": "https://thursdayarena.com/matches/6521e067-f625-484e-9cc0-8f5478a81eb8"
+  },
+  {
+    "player": "prshannon_",
+    "rating": 1220,
+    "record": "26-7",
+    "match_id": "41a6dc45-af1a-49c2-8436-275c6fe59915",
+    "elo_delta": 9,
+    "opponent": "jewei",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "YwxIbVEWqXN-HYCxiMCoB",
+        "name": "Copy Humanizer",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "vZfC76-4UC1XU7qC4m726",
+        "name": "Deal Inspector",
+        "atk": 4,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "wtq-j01kD7o8gQFx7E9zv",
+        "name": "Writing Bot",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Copy Humanizer 2/5",
+        "Office Ops Desk 3/5",
+        "Writing Bot 2/5"
+      ],
+      "r2": [
+        "Copy Humanizer 3/6 potato tmp+2",
+        "Deal Inspector 4/4",
+        "Writing Bot 2/5"
+      ]
+    },
+    "plan_inferred": "faint",
+    "notes": "kits=['Pass it back', 'Cover', 'Hype']; foods=['potato']; seats=['Copy Humanizer', 'Deal Inspector', 'Writing Bot']",
+    "source_url": "https://thursdayarena.com/matches/41a6dc45-af1a-49c2-8436-275c6fe59915"
+  },
+  {
+    "player": "kanuma368",
+    "rating": 1206,
+    "record": "50-23",
+    "match_id": "bf7e8809-8b64-461d-b31d-3a662068ad14",
+    "elo_delta": 16,
+    "opponent": "izzat316",
+    "rounds": "2-0",
+    "round_winners": [
+      "draw",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "qBFjPRQ3IbHG69qIFHblE",
+        "name": "Paid Media Report Desk",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "0LLQmzk-yzwHi0zuiV0lC",
+        "name": "Nightly Audit Engineer",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "PwWb6fJXpeG857af6tEYi",
+        "name": "Chief Health Officer",
+        "atk": 3,
+        "hp": 8,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "rare",
+        "cost": 5,
+        "unlockTurn": 3
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Credit Card Max 3/4",
+        "Credit Card Max 3/4",
+        "Outbound Prospecting 3/4"
+      ],
+      "r2": [
+        "Paid Media Report Desk 3/5",
+        "Nightly Audit Engineer 3/6",
+        "GTM Loop Closer 3/6"
+      ],
+      "r3": [
+        "Paid Media Report Desk 3/5 honey",
+        "Nightly Audit Engineer 3/6",
+        "Chief Health Officer 3/8"
+      ]
+    },
+    "plan_inferred": "late_spike",
+    "notes": "kits=['Grow', 'Cover', 'Patch']; foods=['honey']; seats=['Paid Media Report Desk', 'Nightly Audit Engineer', 'Chief Health Officer']",
+    "source_url": "https://thursdayarena.com/matches/bf7e8809-8b64-461d-b31d-3a662068ad14"
+  },
+  {
+    "player": "starz_zps",
+    "rating": 1153,
+    "record": "21-9",
+    "match_id": "dde15830-34a2-4f7f-b0d7-d05ba38dee2e",
+    "elo_delta": 15,
+    "opponent": "sothionx",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "YwxIbVEWqXN-HYCxiMCoB",
+        "name": "Copy Humanizer",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "YklttiPpAHweKbOLV1TSF",
+        "name": "Meeting Recap Deck",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "qBFjPRQ3IbHG69qIFHblE",
+        "name": "Paid Media Report Desk",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Copy Humanizer 2/5",
+        "Meeting Recap Deck 3/4",
+        "Credit Card Max 3/4"
+      ],
+      "r2": [
+        "Copy Humanizer 2/5 honey",
+        "Meeting Recap Deck 3/4",
+        "Paid Media Report Desk 3/5"
+      ]
+    },
+    "plan_inferred": "faint",
+    "notes": "kits=['Pass it back', 'Echo', 'Grow']; foods=['honey']; seats=['Copy Humanizer', 'Meeting Recap Deck', 'Paid Media Report Desk']",
+    "source_url": "https://thursdayarena.com/matches/dde15830-34a2-4f7f-b0d7-d05ba38dee2e"
+  },
+  {
+    "player": "izzat316",
+    "rating": 1298,
+    "record": "87-34",
+    "match_id": "adf6eb9d-0cc8-402a-a582-b161763efe45",
+    "elo_delta": 6,
+    "opponent": "ggleandro",
+    "rounds": "2-0",
+    "round_winners": [
+      "draw",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "yZ5MFQFdl32vHt6fcIJAc",
+        "name": "Sales Call Coach",
+        "atk": 6,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Brace",
+        "kitId": "peacock",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "RO8GwQZFXL9O95i13epqF",
+        "name": "X Brief",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "jHT5FLhpCMx7JeIq9BEHY",
+        "name": "Luma Pages",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Imogen 2/6",
+        "SEO & AEO Desk 2/5",
+        "Luma Pages 2/4"
+      ],
+      "r2": [
+        "Sales Call Coach 5/6",
+        "Luma Pages 2/4",
+        "Imogen 2/6"
+      ],
+      "r3": [
+        "Sales Call Coach 6/7 honey",
+        "X Brief 2/4",
+        "Luma Pages 2/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Brace', 'Echo', 'Hype']; foods=['honey']; seats=['Sales Call Coach', 'X Brief', 'Luma Pages']",
+    "source_url": "https://thursdayarena.com/matches/adf6eb9d-0cc8-402a-a582-b161763efe45"
+  },
+  {
+    "player": "breezeeoo",
+    "rating": 1224,
+    "record": "51-22",
+    "match_id": "753baa4e-dd16-46e3-b776-cc1f3521e094",
+    "elo_delta": 8,
+    "opponent": "sw413sg",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "q4u8YgzGQqCAOUZcg0Lgt",
+        "name": "Credit Card Max",
+        "atk": 7,
+        "hp": 8,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "-L1yFJ5mtwPgn3O_iYUo_",
+        "name": "Clip Bot",
+        "atk": 3,
+        "hp": 3,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Second look",
+        "kitId": "wake",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "wOE4e95HNxhSbrzyLkSI-",
+        "name": "Tradbot",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Guard",
+        "kitId": "guard",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Credit Card Max 4/5",
+        "Clip Bot 3/3"
+      ],
+      "r2": [
+        "Credit Card Max 5/6",
+        "Clip Bot 3/3",
+        "Tradbot 3/6"
+      ],
+      "r3": [
+        "Credit Card Max 7/8",
+        "Clip Bot 3/3",
+        "Tradbot 3/6"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Grow', 'Second look', 'Guard']; foods=none; seats=['Credit Card Max', 'Clip Bot', 'Tradbot']",
+    "source_url": "https://thursdayarena.com/matches/753baa4e-dd16-46e3-b776-cc1f3521e094"
+  },
+  {
+    "player": "starz_zps",
+    "rating": 1153,
+    "record": "21-9",
+    "match_id": "9ce38bc0-41b5-4208-bc6b-3b1819e0662b",
+    "elo_delta": 14,
+    "opponent": "gabriel_x86",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "YwxIbVEWqXN-HYCxiMCoB",
+        "name": "Copy Humanizer",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "gj3IlHOOpzecm6xpmPJOt",
+        "name": "GTM Loop Closer",
+        "atk": 5,
+        "hp": 8,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "jHT5FLhpCMx7JeIq9BEHY",
+        "name": "Luma Pages",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Copy Humanizer 2/5",
+        "Love \u2764\ufe0f 2/5",
+        "Imogen 2/6"
+      ],
+      "r2": [
+        "Copy Humanizer 2/5 honey",
+        "GTM Loop Closer 4/7",
+        "Imogen 2/6"
+      ],
+      "r3": [
+        "Copy Humanizer 2/5 honey",
+        "GTM Loop Closer 5/8 honey",
+        "Luma Pages 2/4"
+      ]
+    },
+    "plan_inferred": "faint",
+    "notes": "kits=['Pass it back', 'Cover', 'Hype']; foods=['honey', 'honey']; seats=['Copy Humanizer', 'GTM Loop Closer', 'Luma Pages']",
+    "source_url": "https://thursdayarena.com/matches/9ce38bc0-41b5-4208-bc6b-3b1819e0662b"
+  },
+  {
+    "player": "izzat316",
+    "rating": 1298,
+    "record": "87-34",
+    "match_id": "fb7462aa-9418-4441-83d5-630ba01eef78",
+    "elo_delta": 6,
+    "opponent": "ggleandro",
+    "rounds": "2-0",
+    "round_winners": [
+      "draw",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "afZj-XnYkThA4MB7GfZK6",
+        "name": "Office Ops Desk",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Hold the line",
+        "kitId": "hold_the_line",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "0LLQmzk-yzwHi0zuiV0lC",
+        "name": "Nightly Audit Engineer",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "wtq-j01kD7o8gQFx7E9zv",
+        "name": "Writing Bot",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Office Ops Desk 3/5",
+        "Stills & Clips Desk 2/5",
+        "GTM Prospecting 4/3"
+      ],
+      "r2": [
+        "Office Ops Desk 4/6",
+        "Nightly Audit Engineer 3/6",
+        "Writing Bot 2/5"
+      ],
+      "r3": [
+        "Office Ops Desk 4/6 honey",
+        "Nightly Audit Engineer 3/6 honey",
+        "Writing Bot 2/5"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Hold the line', 'Cover', 'Hype']; foods=['honey', 'honey']; seats=['Office Ops Desk', 'Nightly Audit Engineer', 'Writing Bot']",
+    "source_url": "https://thursdayarena.com/matches/fb7462aa-9418-4441-83d5-630ba01eef78"
+  },
+  {
+    "player": "ryanmcadams",
+    "rating": 1262,
+    "record": "326-79",
+    "match_id": "b8e41da8-c54c-406b-b3d2-7a87bec81f80",
+    "elo_delta": 4,
+    "opponent": "martin91975",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "afZj-XnYkThA4MB7GfZK6",
+        "name": "Office Ops Desk",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Hold the line",
+        "kitId": "hold_the_line",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "qBFjPRQ3IbHG69qIFHblE",
+        "name": "Paid Media Report Desk",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "PwWb6fJXpeG857af6tEYi",
+        "name": "Chief Health Officer",
+        "atk": 3,
+        "hp": 8,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "rare",
+        "cost": 5,
+        "unlockTurn": 3
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Office Ops Desk 3/5",
+        "Apple Search Ads Review 3/3",
+        "GTM Connections 2/5"
+      ],
+      "r2": [
+        "Office Ops Desk 4/6",
+        "Paid Media Report Desk 3/5",
+        "Apple Search Ads Review 3/3"
+      ],
+      "r3": [
+        "Office Ops Desk 4/6 honey",
+        "Paid Media Report Desk 3/5",
+        "Chief Health Officer 3/8"
+      ]
+    },
+    "plan_inferred": "late_spike",
+    "notes": "kits=['Hold the line', 'Grow', 'Patch']; foods=['honey']; seats=['Office Ops Desk', 'Paid Media Report Desk', 'Chief Health Officer']",
+    "source_url": "https://thursdayarena.com/matches/b8e41da8-c54c-406b-b3d2-7a87bec81f80"
+  },
+  {
+    "player": "izzat316",
+    "rating": 1298,
+    "record": "87-34",
+    "match_id": "77c821cc-5ea2-4248-ab9a-adabeae728eb",
+    "elo_delta": 6,
+    "opponent": "shirai3des",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "BX4-kOUI2CzphgiYLZ1hb",
+        "name": "Webby",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "YklttiPpAHweKbOLV1TSF",
+        "name": "Meeting Recap Deck",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "jHT5FLhpCMx7JeIq9BEHY",
+        "name": "Luma Pages",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Outbound Prospecting 3/4",
+        "Meeting Recap Deck 3/4",
+        "Luma Pages 2/4"
+      ],
+      "r2": [
+        "Webby 3/5 honey",
+        "Meeting Recap Deck 3/4",
+        "Luma Pages 2/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Bulk', 'Echo', 'Hype']; foods=['honey']; seats=['Webby', 'Meeting Recap Deck', 'Luma Pages']",
+    "source_url": "https://thursdayarena.com/matches/77c821cc-5ea2-4248-ab9a-adabeae728eb"
+  },
+  {
+    "player": "ryanmcadams",
+    "rating": 1262,
+    "record": "326-79",
+    "match_id": "a2fadb34-ffdf-4640-b5e9-b6ff19e83245",
+    "elo_delta": 4,
+    "opponent": "martin91975",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "BX4-kOUI2CzphgiYLZ1hb",
+        "name": "Webby",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "oPDkINUfpUXhJDdsfRZht",
+        "name": "Lead Pipeline Desk",
+        "atk": 4,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Snowball",
+        "kitId": "snowball",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "pXNvc_U2cGyZmheYrUuF_",
+        "name": "figma bro",
+        "atk": 4,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Wake",
+        "kitId": "wake",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Imogen 2/6",
+        "Site Audit 3/3",
+        "dial bot 3/3"
+      ],
+      "r2": [
+        "Imogen 2/6 potato tmp+2",
+        "Webby 3/5",
+        "figma bro 4/4"
+      ],
+      "r3": [
+        "Webby 3/5 honey",
+        "Lead Pipeline Desk 4/4",
+        "figma bro 4/4 honey"
+      ]
+    },
+    "plan_inferred": "late_spike",
+    "notes": "kits=['Bulk', 'Snowball', 'Wake']; foods=['honey', 'honey']; seats=['Webby', 'Lead Pipeline Desk', 'figma bro']",
+    "source_url": "https://thursdayarena.com/matches/a2fadb34-ffdf-4640-b5e9-b6ff19e83245"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "c5bac27c-5ff6-416e-9ee3-e24801f7bea6",
+    "elo_delta": 3,
+    "opponent": "sw413sg",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "Eeu5NZp62OzQjtlY4ons2",
+        "name": "Imogen",
+        "atk": 4,
+        "hp": 8,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "RO8GwQZFXL9O95i13epqF",
+        "name": "X Brief",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "wtq-j01kD7o8gQFx7E9zv",
+        "name": "Writing Bot",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Imogen 2/6",
+        "X Brief 2/4",
+        "NYC Parent 2/6"
+      ],
+      "r2": [
+        "Imogen 4/8",
+        "X Brief 2/4",
+        "Writing Bot 2/5"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Bulk', 'Echo', 'Hype']; foods=none; seats=['Imogen', 'X Brief', 'Writing Bot']",
+    "source_url": "https://thursdayarena.com/matches/c5bac27c-5ff6-416e-9ee3-e24801f7bea6"
+  },
+  {
+    "player": "blacksheepjav",
+    "rating": 1210,
+    "record": "27-4",
+    "match_id": "2f20f96c-947e-4e49-a52b-50aca202feb4",
+    "elo_delta": 15,
+    "opponent": "breezeeoo",
+    "rounds": "2-1",
+    "round_winners": [
+      "you",
+      "them",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "Y7iWVNiPdorgu6oFY-PRG",
+        "name": "Stalk Bot",
+        "atk": 6,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Snowball",
+        "kitId": "snowball",
+        "rarity": "epic",
+        "cost": 6,
+        "unlockTurn": 3
+      },
+      {
+        "seat": 2,
+        "botId": "Rw8d83KAzTYQWBAtAscin",
+        "name": "Product Support Inbox Assistant",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "AZKaQOsjrAa51Nb4xvTur",
+        "name": "Projects Manager",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "GTM Prospecting 4/3",
+        "skippy 2/4",
+        "X Brief 2/4"
+      ],
+      "r2": [
+        "skippy 2/4 honey",
+        "Product Support Inbox Assistant 3/6",
+        "Projects Manager 3/5"
+      ],
+      "r3": [
+        "Stalk Bot 6/6 honey",
+        "Product Support Inbox Assistant 3/6",
+        "Projects Manager 3/5"
+      ]
+    },
+    "plan_inferred": "late_spike",
+    "notes": "kits=['Snowball', 'Patch', 'Hype']; foods=['honey']; seats=['Stalk Bot', 'Product Support Inbox Assistant', 'Projects Manager']",
+    "source_url": "https://thursdayarena.com/matches/2f20f96c-947e-4e49-a52b-50aca202feb4"
+  },
+  {
+    "player": "roostercogdick",
+    "rating": 1138,
+    "record": "13-2",
+    "match_id": "da1e9b5e-b534-4ba1-96ad-4e6003e936f3",
+    "elo_delta": 12,
+    "opponent": "orahonx",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "Eeu5NZp62OzQjtlY4ons2",
+        "name": "Imogen",
+        "atk": 3,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "0IhyZWxwbf2cFmsmroZQL",
+        "name": "SEO & AEO Desk",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Pin",
+        "kitId": "pin",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "v1lSvhJCo4UrNGZxc5Fw8",
+        "name": "Customer Call Coach & Assistant",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Brace",
+        "kitId": "peacock",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Imogen 2/6",
+        "Pipeline Pulse 3/4",
+        "SEO & AEO Desk 2/5"
+      ],
+      "r2": [
+        "Imogen 3/7",
+        "SEO & AEO Desk 2/5",
+        "Customer Call Coach & Assistant 3/5"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Bulk', 'Pin', 'Brace']; foods=none; seats=['Imogen', 'SEO & AEO Desk', 'Customer Call Coach & Assistant']",
+    "source_url": "https://thursdayarena.com/matches/da1e9b5e-b534-4ba1-96ad-4e6003e936f3"
+  },
+  {
+    "player": "prshannon_",
+    "rating": 1220,
+    "record": "26-7",
+    "match_id": "be65cdca-a93a-4b41-8026-d97fdd59c0c5",
+    "elo_delta": 9,
+    "opponent": "gunner15522830",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "Eeu5NZp62OzQjtlY4ons2",
+        "name": "Imogen",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "Q3VCc_x0Y8lWd4m-rung2",
+        "name": "WTD",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "jHT5FLhpCMx7JeIq9BEHY",
+        "name": "Luma Pages",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Copy Humanizer 2/5",
+        "Imogen 2/6",
+        "Luma Pages 2/4"
+      ],
+      "r2": [
+        "Imogen 2/6 honey",
+        "WTD 3/4 honey",
+        "Luma Pages 2/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Bulk', 'Hype', 'Hype']; foods=['honey', 'honey']; seats=['Imogen', 'WTD', 'Luma Pages']",
+    "source_url": "https://thursdayarena.com/matches/be65cdca-a93a-4b41-8026-d97fdd59c0c5"
+  },
+  {
+    "player": "jsduren",
+    "rating": 1158,
+    "record": "20-6",
+    "match_id": "a6e34f5e-2d97-4063-8b73-c9464c903040",
+    "elo_delta": 10,
+    "opponent": "bibekgh",
+    "rounds": "1-0",
+    "round_winners": [
+      "draw",
+      "you",
+      "draw"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "YwxIbVEWqXN-HYCxiMCoB",
+        "name": "Copy Humanizer",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "wtq-j01kD7o8gQFx7E9zv",
+        "name": "Writing Bot",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "AZKaQOsjrAa51Nb4xvTur",
+        "name": "Projects Manager",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Copy Humanizer 2/5",
+        "Writing Bot 2/5",
+        "Signal Prospector 3/4"
+      ],
+      "r2": [
+        "Copy Humanizer 2/5 honey",
+        "Writing Bot 2/5",
+        "Signal Prospector 3/4"
+      ],
+      "r3": [
+        "Copy Humanizer 2/5 potato tmp+2",
+        "Writing Bot 2/5",
+        "Projects Manager 3/5"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Pass it back', 'Hype', 'Hype']; foods=['potato']; seats=['Copy Humanizer', 'Writing Bot', 'Projects Manager']",
+    "source_url": "https://thursdayarena.com/matches/a6e34f5e-2d97-4063-8b73-c9464c903040"
+  },
+  {
+    "player": "izzat316",
+    "rating": 1298,
+    "record": "87-34",
+    "match_id": "bc0040de-d335-4944-bc9b-ee48579e675c",
+    "elo_delta": 6,
+    "opponent": "yujules44768",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "1xAJYJPes3X7dUM2mk9Di",
+        "name": "The Morning Newspaper",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "AZKaQOsjrAa51Nb4xvTur",
+        "name": "Projects Manager",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "The Morning Newspaper 2/6",
+        "Call Follow-Ups 3/4",
+        "Company Docs Q&A 2/6"
+      ],
+      "r2": [
+        "The Morning Newspaper 2/6 honey",
+        "Call Follow-Ups 3/4 honey",
+        "Projects Manager 3/5"
+      ]
+    },
+    "plan_inferred": "faint",
+    "notes": "kits=['Pass it back', 'Echo', 'Hype']; foods=['honey', 'honey']; seats=['The Morning Newspaper', 'Call Follow-Ups', 'Projects Manager']",
+    "source_url": "https://thursdayarena.com/matches/bc0040de-d335-4944-bc9b-ee48579e675c"
+  },
+  {
+    "player": "izzat316",
+    "rating": 1298,
+    "record": "87-34",
+    "match_id": "3f3dec3c-7ee8-4aca-a205-7ae2d356501e",
+    "elo_delta": 5,
+    "opponent": "nobitoshii",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "AZKaQOsjrAa51Nb4xvTur",
+        "name": "Projects Manager",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "GVAnpUah1K6PzJtG9EuG9",
+        "name": "Company Docs Q&A",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Guard",
+        "kitId": "guard",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "Q3VCc_x0Y8lWd4m-rung2",
+        "name": "WTD",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Writing Bot 2/5",
+        "WTD 3/4",
+        "WTD 3/4"
+      ],
+      "r2": [
+        "Projects Manager 4/6",
+        "Company Docs Q&A 2/6",
+        "WTD 3/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Hype', 'Guard', 'Hype']; foods=none; seats=['Projects Manager', 'Company Docs Q&A', 'WTD']",
+    "source_url": "https://thursdayarena.com/matches/3f3dec3c-7ee8-4aca-a205-7ae2d356501e"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "cddce070-74ba-459e-b167-3fa8356e8d54",
+    "elo_delta": 4,
+    "opponent": "gunner15522830",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "q4u8YgzGQqCAOUZcg0Lgt",
+        "name": "Credit Card Max",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "q4u8YgzGQqCAOUZcg0Lgt",
+        "name": "Credit Card Max",
+        "atk": 4,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Office Ops Desk 3/5",
+        "Call Follow-Ups 3/4",
+        "GTM Connections 2/5"
+      ],
+      "r2": [
+        "Credit Card Max 3/4",
+        "Call Follow-Ups 3/4",
+        "Credit Card Max 4/5"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Grow', 'Echo', 'Grow']; foods=none; seats=['Credit Card Max', 'Call Follow-Ups', 'Credit Card Max']",
+    "source_url": "https://thursdayarena.com/matches/cddce070-74ba-459e-b167-3fa8356e8d54"
+  },
+  {
+    "player": "prshannon_",
+    "rating": 1220,
+    "record": "26-7",
+    "match_id": "d593c64f-bdf8-4924-98c1-b025b50ba667",
+    "elo_delta": 10,
+    "opponent": "roostercogdick",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "1xAJYJPes3X7dUM2mk9Di",
+        "name": "The Morning Newspaper",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "0LLQmzk-yzwHi0zuiV0lC",
+        "name": "Nightly Audit Engineer",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "jHT5FLhpCMx7JeIq9BEHY",
+        "name": "Luma Pages",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Copy Humanizer 2/5",
+        "The Morning Newspaper 2/6",
+        "Luma Pages 2/4"
+      ],
+      "r2": [
+        "The Morning Newspaper 2/6 honey",
+        "Nightly Audit Engineer 3/6",
+        "Luma Pages 2/4"
+      ]
+    },
+    "plan_inferred": "faint",
+    "notes": "kits=['Pass it back', 'Cover', 'Hype']; foods=['honey']; seats=['The Morning Newspaper', 'Nightly Audit Engineer', 'Luma Pages']",
+    "source_url": "https://thursdayarena.com/matches/d593c64f-bdf8-4924-98c1-b025b50ba667"
+  },
+  {
+    "player": "breezeeoo",
+    "rating": 1224,
+    "record": "51-22",
+    "match_id": "416d8b31-0824-4f2f-a5fe-d0e2f3965d9e",
+    "elo_delta": 9,
+    "opponent": "nobitoshii",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "wsbOPOkHApmIYLrErnC4e",
+        "name": "Signal Prospector",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Poke",
+        "kitId": "mosquito",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "V8XugyLxzbQXLM9o5b3B-",
+        "name": "Stills & Clips Desk",
+        "atk": 4,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Wake",
+        "kitId": "wake",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "wOE4e95HNxhSbrzyLkSI-",
+        "name": "Tradbot",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Guard",
+        "kitId": "guard",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Signal Prospector 3/4",
+        "Clip Bot 3/3",
+        "Stills & Clips Desk 2/5"
+      ],
+      "r2": [
+        "Signal Prospector 3/4 honey",
+        "Stills & Clips Desk 3/6",
+        "Tradbot 3/6"
+      ],
+      "r3": [
+        "Signal Prospector 3/4 honey",
+        "Stills & Clips Desk 4/7 honey",
+        "Tradbot 3/6"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Poke', 'Wake', 'Guard']; foods=['honey', 'honey']; seats=['Signal Prospector', 'Stills & Clips Desk', 'Tradbot']",
+    "source_url": "https://thursdayarena.com/matches/416d8b31-0824-4f2f-a5fe-d0e2f3965d9e"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "424edcdf-0946-4fa1-b99a-1c195776b30e",
+    "elo_delta": 3,
+    "opponent": "orahonx",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "AZKaQOsjrAa51Nb4xvTur",
+        "name": "Projects Manager",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "YklttiPpAHweKbOLV1TSF",
+        "name": "Meeting Recap Deck",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "NYC Parent 2/6",
+        "Call Follow-Ups 3/4",
+        "Office Ops Desk 3/5"
+      ],
+      "r2": [
+        "Projects Manager 3/5",
+        "Call Follow-Ups 3/4 honey",
+        "Meeting Recap Deck 3/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Hype', 'Echo', 'Echo']; foods=['honey']; seats=['Projects Manager', 'Call Follow-Ups', 'Meeting Recap Deck']",
+    "source_url": "https://thursdayarena.com/matches/424edcdf-0946-4fa1-b99a-1c195776b30e"
+  },
+  {
+    "player": "breezeeoo",
+    "rating": 1224,
+    "record": "51-22",
+    "match_id": "25c97011-0413-450d-bd0a-946d67aabfb7",
+    "elo_delta": 9,
+    "opponent": "itsmattreichard",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "Eeu5NZp62OzQjtlY4ons2",
+        "name": "Imogen",
+        "atk": 5,
+        "hp": 9,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "gj3IlHOOpzecm6xpmPJOt",
+        "name": "GTM Loop Closer",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "aUF_wTHXGWKU3-QPm6PmN",
+        "name": "GTM Connections",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Spot",
+        "kitId": "dodo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Imogen 3/7",
+        "GTM Connections 2/5"
+      ],
+      "r2": [
+        "Imogen 4/8",
+        "GTM Loop Closer 3/6",
+        "GTM Connections 2/5"
+      ],
+      "r3": [
+        "Imogen 5/9",
+        "GTM Loop Closer 3/6",
+        "GTM Connections 2/5 potato tmp+2"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Bulk', 'Cover', 'Spot']; foods=['potato']; seats=['Imogen', 'GTM Loop Closer', 'GTM Connections']",
+    "source_url": "https://thursdayarena.com/matches/25c97011-0413-450d-bd0a-946d67aabfb7"
+  },
+  {
+    "player": "ryanmcadams",
+    "rating": 1262,
+    "record": "326-79",
+    "match_id": "380ed488-7496-4d79-ba71-035919bbaf66",
+    "elo_delta": 4,
+    "opponent": "shen_stone623",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "0IhyZWxwbf2cFmsmroZQL",
+        "name": "SEO & AEO Desk",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Pin",
+        "kitId": "pin",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "wtq-j01kD7o8gQFx7E9zv",
+        "name": "Writing Bot",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "jHT5FLhpCMx7JeIq9BEHY",
+        "name": "Luma Pages",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "SEO & AEO Desk 2/5",
+        "Writing Bot 2/5",
+        "Luma Pages 2/4"
+      ],
+      "r2": [
+        "SEO & AEO Desk 3/6",
+        "Writing Bot 2/5",
+        "Luma Pages 2/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Pin', 'Hype', 'Hype']; foods=none; seats=['SEO & AEO Desk', 'Writing Bot', 'Luma Pages']",
+    "source_url": "https://thursdayarena.com/matches/380ed488-7496-4d79-ba71-035919bbaf66"
+  },
+  {
+    "player": "roostercogdick",
+    "rating": 1138,
+    "record": "13-2",
+    "match_id": "e043bc5a-7fb6-4bd4-884a-48f98e235b94",
+    "elo_delta": 10,
+    "opponent": "martin91975",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "BX4-kOUI2CzphgiYLZ1hb",
+        "name": "Webby",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "RO8GwQZFXL9O95i13epqF",
+        "name": "X Brief",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "jHT5FLhpCMx7JeIq9BEHY",
+        "name": "Luma Pages",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Webby 3/5",
+        "X Brief 2/4",
+        "Luma Pages 2/4"
+      ],
+      "r2": [
+        "Webby 4/6",
+        "X Brief 2/4",
+        "Luma Pages 2/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Bulk', 'Echo', 'Hype']; foods=none; seats=['Webby', 'X Brief', 'Luma Pages']",
+    "source_url": "https://thursdayarena.com/matches/e043bc5a-7fb6-4bd4-884a-48f98e235b94"
+  },
+  {
+    "player": "roostercogdick",
+    "rating": 1138,
+    "record": "13-2",
+    "match_id": "c41f93b6-77a5-4d7f-82e8-f2345ffdd30d",
+    "elo_delta": 13,
+    "opponent": "silent_tom5",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "qDtCI8WZgVJKbN3rogL8j",
+        "name": "Love \u2764\ufe0f",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "NYC Parent 2/6",
+        "Call Follow-Ups 3/4",
+        "Love \u2764\ufe0f 2/5"
+      ],
+      "r2": [
+        "NYC Parent 2/6 honey",
+        "Call Follow-Ups 3/4",
+        "Love \u2764\ufe0f 2/5"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Bulk', 'Echo', 'Patch']; foods=['honey']; seats=['NYC Parent', 'Call Follow-Ups', 'Love \u2764\ufe0f']",
+    "source_url": "https://thursdayarena.com/matches/c41f93b6-77a5-4d7f-82e8-f2345ffdd30d"
+  },
+  {
+    "player": "prshannon_",
+    "rating": 1220,
+    "record": "26-7",
+    "match_id": "545c88f5-d35c-4e1f-b80c-00d126a5223e",
+    "elo_delta": 10,
+    "opponent": "toryteach",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "qBFjPRQ3IbHG69qIFHblE",
+        "name": "Paid Media Report Desk",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "YklttiPpAHweKbOLV1TSF",
+        "name": "Meeting Recap Deck",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "NYC Parent 2/6",
+        "Meeting Recap Deck 3/4",
+        "Signal Prospector 3/4"
+      ],
+      "r2": [
+        "Paid Media Report Desk 4/6 honey",
+        "NYC Parent 2/6",
+        "Meeting Recap Deck 3/4"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Grow', 'Bulk', 'Echo']; foods=['honey']; seats=['Paid Media Report Desk', 'NYC Parent', 'Meeting Recap Deck']",
+    "source_url": "https://thursdayarena.com/matches/545c88f5-d35c-4e1f-b80c-00d126a5223e"
+  },
+  {
+    "player": "breezeeoo",
+    "rating": 1224,
+    "record": "51-22",
+    "match_id": "a7646cff-d570-4be3-8c4a-4a44b2cfa5ca",
+    "elo_delta": 7,
+    "opponent": "sw413sg",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "v1lSvhJCo4UrNGZxc5Fw8",
+        "name": "Customer Call Coach & Assistant",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Brace",
+        "kitId": "peacock",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "-L1yFJ5mtwPgn3O_iYUo_",
+        "name": "Clip Bot",
+        "atk": 3,
+        "hp": 3,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Second look",
+        "kitId": "wake",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "jHT5FLhpCMx7JeIq9BEHY",
+        "name": "Luma Pages",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Signal Prospector 3/4",
+        "Clip Bot 3/3"
+      ],
+      "r2": [
+        "Customer Call Coach & Assistant 3/5",
+        "Clip Bot 3/3",
+        "Luma Pages 2/4"
+      ],
+      "r3": [
+        "Customer Call Coach & Assistant 3/5 honey",
+        "Clip Bot 3/3 potato tmp+2",
+        "Luma Pages 2/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Brace', 'Second look', 'Hype']; foods=['honey', 'potato']; seats=['Customer Call Coach & Assistant', 'Clip Bot', 'Luma Pages']",
+    "source_url": "https://thursdayarena.com/matches/a7646cff-d570-4be3-8c4a-4a44b2cfa5ca"
+  },
+  {
+    "player": "ryanmcadams",
+    "rating": 1262,
+    "record": "326-79",
+    "match_id": "7b95f2c9-d661-492f-8733-4bcce011977c",
+    "elo_delta": 4,
+    "opponent": "shen_stone623",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "Eeu5NZp62OzQjtlY4ons2",
+        "name": "Imogen",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "gj3IlHOOpzecm6xpmPJOt",
+        "name": "GTM Loop Closer",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "8hhdYqfvRzigWstUtcmBZ",
+        "name": "Cooper",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Imogen 2/6",
+        "SEO & AEO Desk 2/5",
+        "Cooper 2/5"
+      ],
+      "r2": [
+        "Imogen 2/6 honey",
+        "GTM Loop Closer 3/6",
+        "Cooper 2/5 honey"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Bulk', 'Cover', 'Echo']; foods=['honey', 'honey']; seats=['Imogen', 'GTM Loop Closer', 'Cooper']",
+    "source_url": "https://thursdayarena.com/matches/7b95f2c9-d661-492f-8733-4bcce011977c"
+  },
+  {
+    "player": "jsduren",
+    "rating": 1158,
+    "record": "20-6",
+    "match_id": "963267fa-64e0-43bd-966c-fa846a7fdeee",
+    "elo_delta": 13,
+    "opponent": "ryaske",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "aUF_wTHXGWKU3-QPm6PmN",
+        "name": "GTM Connections",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Spot",
+        "kitId": "dodo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "kGiyk73f5CF8XtBMIh0gW",
+        "name": "Video Edit Desk",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Wake",
+        "kitId": "wake",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "GTM Connections 2/5",
+        "Call Follow-Ups 3/4",
+        "Video Edit Desk 3/4"
+      ],
+      "r2": [
+        "GTM Connections 3/6",
+        "Call Follow-Ups 3/4",
+        "Video Edit Desk 3/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Spot', 'Echo', 'Wake']; foods=none; seats=['GTM Connections', 'Call Follow-Ups', 'Video Edit Desk']",
+    "source_url": "https://thursdayarena.com/matches/963267fa-64e0-43bd-966c-fa846a7fdeee"
+  },
+  {
+    "player": "jsduren",
+    "rating": 1158,
+    "record": "20-6",
+    "match_id": "8bc1d660-1884-47a0-af71-e9ba805bee27",
+    "elo_delta": 11,
+    "opponent": "puppythick16",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "q4u8YgzGQqCAOUZcg0Lgt",
+        "name": "Credit Card Max",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "wOE4e95HNxhSbrzyLkSI-",
+        "name": "Tradbot",
+        "atk": 4,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Guard",
+        "kitId": "guard",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "GVAnpUah1K6PzJtG9EuG9",
+        "name": "Company Docs Q&A",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Guard",
+        "kitId": "guard",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Credit Card Max 3/4",
+        "Signal Prospector 3/4",
+        "Home robots 3/3"
+      ],
+      "r2": [
+        "Credit Card Max 3/4",
+        "Tradbot 3/6",
+        "Company Docs Q&A 2/6 honey"
+      ],
+      "r3": [
+        "Credit Card Max 3/4",
+        "Tradbot 4/7",
+        "Company Docs Q&A 2/6 honey"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Grow', 'Guard', 'Guard']; foods=['honey']; seats=['Credit Card Max', 'Tradbot', 'Company Docs Q&A']",
+    "source_url": "https://thursdayarena.com/matches/8bc1d660-1884-47a0-af71-e9ba805bee27"
+  },
+  {
+    "player": "ryanmcadams",
+    "rating": 1262,
+    "record": "326-79",
+    "match_id": "d2b35ab3-dfe8-421f-b105-e79aa0ecbd76",
+    "elo_delta": 4,
+    "opponent": "shen_stone623",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "qBFjPRQ3IbHG69qIFHblE",
+        "name": "Paid Media Report Desk",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "YwxIbVEWqXN-HYCxiMCoB",
+        "name": "Copy Humanizer",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "X-hZf_AreWNt-ZQPYs0Ev",
+        "name": "Pipeline Pulse",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Sidestep",
+        "kitId": "sidestep",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Copy Humanizer 2/5",
+        "Event Request Desk 3/4",
+        "Pipeline Pulse 3/4"
+      ],
+      "r2": [
+        "Paid Media Report Desk 3/5 potato tmp+2",
+        "Copy Humanizer 2/5",
+        "Pipeline Pulse 3/4"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Grow', 'Pass it back', 'Sidestep']; foods=['potato']; seats=['Paid Media Report Desk', 'Copy Humanizer', 'Pipeline Pulse']",
+    "source_url": "https://thursdayarena.com/matches/d2b35ab3-dfe8-421f-b105-e79aa0ecbd76"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "91d0556e-9043-42de-a776-5dbe5fa26273",
+    "elo_delta": 4,
+    "opponent": "nobitoshii",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "gadc3bVOsg9iIwmzAGRve",
+        "name": "Apple Search Ads Review",
+        "atk": 3,
+        "hp": 3,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 3,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "8hhdYqfvRzigWstUtcmBZ",
+        "name": "Cooper",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "NYC Parent 2/6",
+        "Cooper 2/5",
+        "Cooper 2/5"
+      ],
+      "r2": [
+        "Apple Search Ads Review 3/3",
+        "NYC Parent 3/7 honey",
+        "Cooper 2/5"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Grow', 'Bulk', 'Echo']; foods=['honey']; seats=['Apple Search Ads Review', 'NYC Parent', 'Cooper']",
+    "source_url": "https://thursdayarena.com/matches/91d0556e-9043-42de-a776-5dbe5fa26273"
+  },
+  {
+    "player": "breezeeoo",
+    "rating": 1224,
+    "record": "51-22",
+    "match_id": "9b4b003e-b694-40c5-8897-4bd443abcac6",
+    "elo_delta": 11,
+    "opponent": "roostercogdick",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "RpAQeGjhzaiO6_Rq_4fyC",
+        "name": "GTM Prospecting",
+        "atk": 7,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Poke",
+        "kitId": "mosquito",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "gadc3bVOsg9iIwmzAGRve",
+        "name": "Apple Search Ads Review",
+        "atk": 5,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "GTM Prospecting 5/4",
+        "Apple Search Ads Review 3/3"
+      ],
+      "r2": [
+        "GTM Prospecting 6/5",
+        "Apple Search Ads Review 4/4",
+        "Call Follow-Ups 3/4"
+      ],
+      "r3": [
+        "GTM Prospecting 7/6",
+        "Apple Search Ads Review 5/5",
+        "Call Follow-Ups 3/4"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Poke', 'Grow', 'Echo']; foods=none; seats=['GTM Prospecting', 'Apple Search Ads Review', 'Call Follow-Ups']",
+    "source_url": "https://thursdayarena.com/matches/9b4b003e-b694-40c5-8897-4bd443abcac6"
+  },
+  {
+    "player": "ryanmcadams",
+    "rating": 1262,
+    "record": "326-79",
+    "match_id": "604f9c7d-d1c0-40c6-8d10-fbe3f8856a59",
+    "elo_delta": 6,
+    "opponent": "yujules44768",
+    "rounds": "2-0",
+    "round_winners": [
+      "draw",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "Y7iWVNiPdorgu6oFY-PRG",
+        "name": "Stalk Bot",
+        "atk": 6,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Snowball",
+        "kitId": "snowball",
+        "rarity": "epic",
+        "cost": 6,
+        "unlockTurn": 3
+      },
+      {
+        "seat": 2,
+        "botId": "qBFjPRQ3IbHG69qIFHblE",
+        "name": "Paid Media Report Desk",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "qBFjPRQ3IbHG69qIFHblE",
+        "name": "Paid Media Report Desk",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Apple Search Ads Review 3/3",
+        "SEO & AEO Desk 2/5",
+        "SEO & AEO Desk 2/5"
+      ],
+      "r2": [
+        "Paid Media Report Desk 4/6",
+        "Apple Search Ads Review 3/3",
+        "SEO & AEO Desk 2/5"
+      ],
+      "r3": [
+        "Stalk Bot 6/6",
+        "Paid Media Report Desk 4/6",
+        "Paid Media Report Desk 3/5"
+      ]
+    },
+    "plan_inferred": "late_spike",
+    "notes": "kits=['Snowball', 'Grow', 'Grow']; foods=none; seats=['Stalk Bot', 'Paid Media Report Desk', 'Paid Media Report Desk']",
+    "source_url": "https://thursdayarena.com/matches/604f9c7d-d1c0-40c6-8d10-fbe3f8856a59"
+  },
+  {
+    "player": "roostercogdick",
+    "rating": 1138,
+    "record": "13-2",
+    "match_id": "835ff287-cd3d-40f2-8ef7-7328891e1d6c",
+    "elo_delta": 13,
+    "opponent": "nobitoshii",
+    "rounds": "2-0",
+    "round_winners": [
+      "draw",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "GVAnpUah1K6PzJtG9EuG9",
+        "name": "Company Docs Q&A",
+        "atk": 3,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Guard",
+        "kitId": "guard",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "aUF_wTHXGWKU3-QPm6PmN",
+        "name": "GTM Connections",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Spot",
+        "kitId": "dodo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "jHT5FLhpCMx7JeIq9BEHY",
+        "name": "Luma Pages",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Company Docs Q&A 2/6",
+        "GTM Connections 2/5",
+        "Luma Pages 2/4"
+      ],
+      "r2": [
+        "Company Docs Q&A 3/7",
+        "GTM Connections 2/5",
+        "Luma Pages 2/4"
+      ],
+      "r3": [
+        "Company Docs Q&A 3/7 honey",
+        "GTM Connections 2/5",
+        "Luma Pages 2/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Guard', 'Spot', 'Hype']; foods=['honey']; seats=['Company Docs Q&A', 'GTM Connections', 'Luma Pages']",
+    "source_url": "https://thursdayarena.com/matches/835ff287-cd3d-40f2-8ef7-7328891e1d6c"
+  },
+  {
+    "player": "izzat316",
+    "rating": 1298,
+    "record": "87-34",
+    "match_id": "62363fe6-4d2d-4839-9456-75daf44642b5",
+    "elo_delta": 5,
+    "opponent": "yujules44768",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "qBFjPRQ3IbHG69qIFHblE",
+        "name": "Paid Media Report Desk",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "Rw8d83KAzTYQWBAtAscin",
+        "name": "Product Support Inbox Assistant",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "qDtCI8WZgVJKbN3rogL8j",
+        "name": "Love \u2764\ufe0f",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Signal Prospector 3/4",
+        "Stills & Clips Desk 2/5",
+        "Signal Prospector 3/4"
+      ],
+      "r2": [
+        "Paid Media Report Desk 3/5",
+        "Product Support Inbox Assistant 3/6",
+        "Love \u2764\ufe0f 2/5"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Grow', 'Patch', 'Patch']; foods=none; seats=['Paid Media Report Desk', 'Product Support Inbox Assistant', 'Love \u2764\ufe0f']",
+    "source_url": "https://thursdayarena.com/matches/62363fe6-4d2d-4839-9456-75daf44642b5"
+  },
+  {
+    "player": "prshannon_",
+    "rating": 1220,
+    "record": "26-7",
+    "match_id": "e7d16c09-9aba-48f2-a1ad-a50d784c90d2",
+    "elo_delta": 8,
+    "opponent": "yujules44768",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "BX4-kOUI2CzphgiYLZ1hb",
+        "name": "Webby",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "V8XugyLxzbQXLM9o5b3B-",
+        "name": "Stills & Clips Desk",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Wake",
+        "kitId": "wake",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "jHT5FLhpCMx7JeIq9BEHY",
+        "name": "Luma Pages",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Site Audit 3/3",
+        "Stills & Clips Desk 2/5",
+        "Signal Prospector 3/4"
+      ],
+      "r2": [
+        "Webby 3/5 honey",
+        "Stills & Clips Desk 2/5",
+        "Luma Pages 2/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Bulk', 'Wake', 'Hype']; foods=['honey']; seats=['Webby', 'Stills & Clips Desk', 'Luma Pages']",
+    "source_url": "https://thursdayarena.com/matches/e7d16c09-9aba-48f2-a1ad-a50d784c90d2"
+  },
+  {
+    "player": "izzat316",
+    "rating": 1298,
+    "record": "87-34",
+    "match_id": "537f3101-f25e-4877-987d-6648fcdce7a9",
+    "elo_delta": 5,
+    "opponent": "roostercogdick",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "afZj-XnYkThA4MB7GfZK6",
+        "name": "Office Ops Desk",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Hold the line",
+        "kitId": "hold_the_line",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "gj3IlHOOpzecm6xpmPJOt",
+        "name": "GTM Loop Closer",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "Q3VCc_x0Y8lWd4m-rung2",
+        "name": "WTD",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Office Ops Desk 3/5",
+        "WTD 3/4",
+        "Luma Pages 2/4"
+      ],
+      "r2": [
+        "Office Ops Desk 4/6",
+        "GTM Loop Closer 3/6",
+        "WTD 3/4"
+      ],
+      "r3": [
+        "Office Ops Desk 4/6 honey",
+        "GTM Loop Closer 3/6",
+        "WTD 3/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Hold the line', 'Cover', 'Hype']; foods=['honey']; seats=['Office Ops Desk', 'GTM Loop Closer', 'WTD']",
+    "source_url": "https://thursdayarena.com/matches/537f3101-f25e-4877-987d-6648fcdce7a9"
+  },
+  {
+    "player": "roostercogdick",
+    "rating": 1138,
+    "record": "13-2",
+    "match_id": "5ed10c64-e2f6-4063-aa71-4b834ce0e977",
+    "elo_delta": 12,
+    "opponent": "nicolascheck",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "1xAJYJPes3X7dUM2mk9Di",
+        "name": "The Morning Newspaper",
+        "atk": 3,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "kGiyk73f5CF8XtBMIh0gW",
+        "name": "Video Edit Desk",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Wake",
+        "kitId": "wake",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "The Morning Newspaper 2/6",
+        "Video Edit Desk 3/4",
+        "NYC Parent 2/6"
+      ],
+      "r2": [
+        "The Morning Newspaper 3/7",
+        "Video Edit Desk 3/4",
+        "NYC Parent 2/6"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Pass it back', 'Wake', 'Bulk']; foods=none; seats=['The Morning Newspaper', 'Video Edit Desk', 'NYC Parent']",
+    "source_url": "https://thursdayarena.com/matches/5ed10c64-e2f6-4063-aa71-4b834ce0e977"
+  },
+  {
+    "player": "ryanmcadams",
+    "rating": 1262,
+    "record": "326-79",
+    "match_id": "2c3a3bbc-3dc8-4fbe-bf83-df9fd1283e6f",
+    "elo_delta": 5,
+    "opponent": "yujules44768",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "qBFjPRQ3IbHG69qIFHblE",
+        "name": "Paid Media Report Desk",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "YwxIbVEWqXN-HYCxiMCoB",
+        "name": "Copy Humanizer",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "gj3IlHOOpzecm6xpmPJOt",
+        "name": "GTM Loop Closer",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Copy Humanizer 2/5",
+        "Tech Demos 4/2",
+        "dial bot 3/3"
+      ],
+      "r2": [
+        "Paid Media Report Desk 4/6",
+        "Copy Humanizer 2/5",
+        "GTM Loop Closer 3/6"
+      ]
+    },
+    "plan_inferred": "faint",
+    "notes": "kits=['Grow', 'Pass it back', 'Cover']; foods=none; seats=['Paid Media Report Desk', 'Copy Humanizer', 'GTM Loop Closer']",
+    "source_url": "https://thursdayarena.com/matches/2c3a3bbc-3dc8-4fbe-bf83-df9fd1283e6f"
+  },
+  {
+    "player": "breezeeoo",
+    "rating": 1224,
+    "record": "51-22",
+    "match_id": "9e2c2b9e-b5bc-400a-9436-f82aa4fb8152",
+    "elo_delta": 7,
+    "opponent": "shen_stone623",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "YwxIbVEWqXN-HYCxiMCoB",
+        "name": "Copy Humanizer",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "X4NHZvN9cvBBS5EgdjsLx",
+        "name": "skippy",
+        "atk": 5,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Sidestep",
+        "kitId": "sidestep",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "qBFjPRQ3IbHG69qIFHblE",
+        "name": "Paid Media Report Desk",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Copy Humanizer 2/5",
+        "skippy 3/5"
+      ],
+      "r2": [
+        "Copy Humanizer 2/5",
+        "skippy 4/6",
+        "Paid Media Report Desk 3/5"
+      ],
+      "r3": [
+        "Copy Humanizer 2/5",
+        "skippy 5/7",
+        "Paid Media Report Desk 4/6"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Pass it back', 'Sidestep', 'Grow']; foods=none; seats=['Copy Humanizer', 'skippy', 'Paid Media Report Desk']",
+    "source_url": "https://thursdayarena.com/matches/9e2c2b9e-b5bc-400a-9436-f82aa4fb8152"
+  },
+  {
+    "player": "ryanmcadams",
+    "rating": 1262,
+    "record": "326-79",
+    "match_id": "b8829459-4939-4d39-8f65-cf2edeb90ed6",
+    "elo_delta": 4,
+    "opponent": "martin91975",
+    "rounds": "2-0",
+    "round_winners": [
+      "draw",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "qBFjPRQ3IbHG69qIFHblE",
+        "name": "Paid Media Report Desk",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "Eeu5NZp62OzQjtlY4ons2",
+        "name": "Imogen",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Imogen 2/6",
+        "NYC Parent 2/6",
+        "Luma Pages 2/4"
+      ],
+      "r2": [
+        "Imogen 2/6 honey",
+        "NYC Parent 2/6",
+        "Paid Media Report Desk 3/5 potato tmp+2"
+      ],
+      "r3": [
+        "Paid Media Report Desk 4/6",
+        "Imogen 2/6 honey",
+        "NYC Parent 2/6"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Grow', 'Bulk', 'Bulk']; foods=['honey']; seats=['Paid Media Report Desk', 'Imogen', 'NYC Parent']",
+    "source_url": "https://thursdayarena.com/matches/b8829459-4939-4d39-8f65-cf2edeb90ed6"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "99c3b9bd-e367-424c-9c43-a60a81d50b84",
+    "elo_delta": 3,
+    "opponent": "sw413sg",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "YwxIbVEWqXN-HYCxiMCoB",
+        "name": "Copy Humanizer",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "vZfC76-4UC1XU7qC4m726",
+        "name": "Deal Inspector",
+        "atk": 4,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Copy Humanizer 2/5",
+        "Event Request Desk 3/4",
+        "NYC Parent 2/6"
+      ],
+      "r2": [
+        "Copy Humanizer 2/5 honey",
+        "Deal Inspector 4/4",
+        "NYC Parent 2/6 honey"
+      ]
+    },
+    "plan_inferred": "faint",
+    "notes": "kits=['Pass it back', 'Cover', 'Bulk']; foods=['honey', 'honey']; seats=['Copy Humanizer', 'Deal Inspector', 'NYC Parent']",
+    "source_url": "https://thursdayarena.com/matches/99c3b9bd-e367-424c-9c43-a60a81d50b84"
+  },
+  {
+    "player": "ryanmcadams",
+    "rating": 1262,
+    "record": "326-79",
+    "match_id": "5a499968-83be-4716-ba99-e533c9d613c7",
+    "elo_delta": 4,
+    "opponent": "shen_stone623",
+    "rounds": "2-0",
+    "round_winners": [
+      "draw",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 3,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "PwWb6fJXpeG857af6tEYi",
+        "name": "Chief Health Officer",
+        "atk": 4,
+        "hp": 9,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "rare",
+        "cost": 5,
+        "unlockTurn": 3
+      },
+      {
+        "seat": 3,
+        "botId": "8hhdYqfvRzigWstUtcmBZ",
+        "name": "Cooper",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "NYC Parent 2/6",
+        "Outbound Prospecting 3/4",
+        "Cooper 2/5"
+      ],
+      "r2": [
+        "NYC Parent 3/7 honey",
+        "Ad Spend Watch 4/4",
+        "Cooper 2/5"
+      ],
+      "r3": [
+        "NYC Parent 3/7 honey",
+        "Chief Health Officer 4/9",
+        "Cooper 2/5"
+      ]
+    },
+    "plan_inferred": "late_spike",
+    "notes": "kits=['Bulk', 'Patch', 'Echo']; foods=['honey']; seats=['NYC Parent', 'Chief Health Officer', 'Cooper']",
+    "source_url": "https://thursdayarena.com/matches/5a499968-83be-4716-ba99-e533c9d613c7"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "9e954113-82d9-47eb-af93-e9a42b7c40a5",
+    "elo_delta": 4,
+    "opponent": "silent_tom5",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 3,
+        "hp": 7,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "8hhdYqfvRzigWstUtcmBZ",
+        "name": "Cooper",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "Q3VCc_x0Y8lWd4m-rung2",
+        "name": "WTD",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "NYC Parent 2/6",
+        "The Morning Newspaper 2/6",
+        "WTD 3/4"
+      ],
+      "r2": [
+        "NYC Parent 3/7 potato tmp+2",
+        "Cooper 2/5",
+        "WTD 3/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Bulk', 'Echo', 'Hype']; foods=['potato']; seats=['NYC Parent', 'Cooper', 'WTD']",
+    "source_url": "https://thursdayarena.com/matches/9e954113-82d9-47eb-af93-e9a42b7c40a5"
+  },
+  {
+    "player": "izzat316",
+    "rating": 1298,
+    "record": "87-34",
+    "match_id": "384e214e-7055-4062-9d64-8b81a2ceb1e7",
+    "elo_delta": 5,
+    "opponent": "grokhero69",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "kGiyk73f5CF8XtBMIh0gW",
+        "name": "Video Edit Desk",
+        "atk": 4,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Wake",
+        "kitId": "wake",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "Q3VCc_x0Y8lWd4m-rung2",
+        "name": "WTD",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "NYC Parent 2/6",
+        "Video Edit Desk 3/4",
+        "WTD 3/4"
+      ],
+      "r2": [
+        "NYC Parent 2/6 honey",
+        "Video Edit Desk 4/5",
+        "WTD 3/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Bulk', 'Wake', 'Hype']; foods=['honey']; seats=['NYC Parent', 'Video Edit Desk', 'WTD']",
+    "source_url": "https://thursdayarena.com/matches/384e214e-7055-4062-9d64-8b81a2ceb1e7"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "27d017cb-d1b7-4a4a-99c0-1ae1e7c4e0e5",
+    "elo_delta": 3,
+    "opponent": "bibekgh",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "BX4-kOUI2CzphgiYLZ1hb",
+        "name": "Webby",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "8hhdYqfvRzigWstUtcmBZ",
+        "name": "Cooper",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "Q3VCc_x0Y8lWd4m-rung2",
+        "name": "WTD",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "The Morning Newspaper 2/6",
+        "WTD 3/4",
+        "Webby 3/5"
+      ],
+      "r2": [
+        "Webby 4/6 honey",
+        "Cooper 2/5",
+        "WTD 3/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Bulk', 'Echo', 'Hype']; foods=['honey']; seats=['Webby', 'Cooper', 'WTD']",
+    "source_url": "https://thursdayarena.com/matches/27d017cb-d1b7-4a4a-99c0-1ae1e7c4e0e5"
+  },
+  {
+    "player": "breezeeoo",
+    "rating": 1224,
+    "record": "51-22",
+    "match_id": "2f8c0830-3818-46e4-b841-618544f86e39",
+    "elo_delta": 8,
+    "opponent": "yujules44768",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "yTeKCLayahHnMdHFG9GJg",
+        "name": "Deal Hunting",
+        "atk": 5,
+        "hp": 3,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Drain",
+        "kitId": "drain",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "aUF_wTHXGWKU3-QPm6PmN",
+        "name": "GTM Connections",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Spot",
+        "kitId": "dodo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Deal Hunting 4/2",
+        "GTM Connections 2/5",
+        "Call Follow-Ups 3/4"
+      ],
+      "r2": [
+        "Deal Hunting 5/3",
+        "GTM Connections 2/5 potato tmp+2",
+        "Call Follow-Ups 3/4"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Drain', 'Spot', 'Echo']; foods=['potato']; seats=['Deal Hunting', 'GTM Connections', 'Call Follow-Ups']",
+    "source_url": "https://thursdayarena.com/matches/2f8c0830-3818-46e4-b841-618544f86e39"
+  },
+  {
+    "player": "ryanmcadams",
+    "rating": 1262,
+    "record": "326-79",
+    "match_id": "6b982c45-5001-4730-9612-93b803696a09",
+    "elo_delta": 5,
+    "opponent": "yujules44768",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "afZj-XnYkThA4MB7GfZK6",
+        "name": "Office Ops Desk",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hold the line",
+        "kitId": "hold_the_line",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "qDtCI8WZgVJKbN3rogL8j",
+        "name": "Love \u2764\ufe0f",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "qDtCI8WZgVJKbN3rogL8j",
+        "name": "Love \u2764\ufe0f",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Home robots 3/3",
+        "Love \u2764\ufe0f 2/5",
+        "Love \u2764\ufe0f 2/5"
+      ],
+      "r2": [
+        "Office Ops Desk 4/6",
+        "Love \u2764\ufe0f 2/5 honey",
+        "Love \u2764\ufe0f 2/5"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Hold the line', 'Patch', 'Patch']; foods=['honey']; seats=['Office Ops Desk', 'Love \u2764\ufe0f', 'Love \u2764\ufe0f']",
+    "source_url": "https://thursdayarena.com/matches/6b982c45-5001-4730-9612-93b803696a09"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "adad9883-6bec-409a-96c6-e766e04e4aac",
+    "elo_delta": 3,
+    "opponent": "ryaske",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "Q3VCc_x0Y8lWd4m-rung2",
+        "name": "WTD",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "qBFjPRQ3IbHG69qIFHblE",
+        "name": "Paid Media Report Desk",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "WTD 3/4",
+        "Call Follow-Ups 3/4",
+        "Cooper 2/5"
+      ],
+      "r2": [
+        "WTD 3/4",
+        "Paid Media Report Desk 3/5 honey",
+        "Call Follow-Ups 3/4 honey"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Hype', 'Grow', 'Echo']; foods=['honey', 'honey']; seats=['WTD', 'Paid Media Report Desk', 'Call Follow-Ups']",
+    "source_url": "https://thursdayarena.com/matches/adad9883-6bec-409a-96c6-e766e04e4aac"
+  },
+  {
+    "player": "breezeeoo",
+    "rating": 1224,
+    "record": "51-22",
+    "match_id": "efe3934f-3586-462b-8b1b-7386b48c7f45",
+    "elo_delta": 9,
+    "opponent": "nobitoshii",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "1xAJYJPes3X7dUM2mk9Di",
+        "name": "The Morning Newspaper",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Pass it back",
+        "kitId": "flamingo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "afZj-XnYkThA4MB7GfZK6",
+        "name": "Office Ops Desk",
+        "atk": 4,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hold the line",
+        "kitId": "hold_the_line",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "The Morning Newspaper 2/6",
+        "Office Ops Desk 3/5",
+        "Call Follow-Ups 3/4"
+      ],
+      "r2": [
+        "The Morning Newspaper 2/6 honey",
+        "Office Ops Desk 4/6",
+        "Call Follow-Ups 3/4"
+      ]
+    },
+    "plan_inferred": "faint",
+    "notes": "kits=['Pass it back', 'Hold the line', 'Echo']; foods=['honey']; seats=['The Morning Newspaper', 'Office Ops Desk', 'Call Follow-Ups']",
+    "source_url": "https://thursdayarena.com/matches/efe3934f-3586-462b-8b1b-7386b48c7f45"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "c21d9118-efca-4e82-afc3-ac9cabd00f0d",
+    "elo_delta": 3,
+    "opponent": "orahonx",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "q4u8YgzGQqCAOUZcg0Lgt",
+        "name": "Credit Card Max",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 2,
+        "food": "potato",
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "kGiyk73f5CF8XtBMIh0gW",
+        "name": "Video Edit Desk",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Wake",
+        "kitId": "wake",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Credit Card Max 3/4",
+        "Flora: Plant Care Log 2/6",
+        "Video Edit Desk 3/4"
+      ],
+      "r2": [
+        "Credit Card Max 3/4 potato tmp+2",
+        "Video Edit Desk 3/4 honey",
+        "Call Follow-Ups 3/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Grow', 'Wake', 'Echo']; foods=['potato', 'honey']; seats=['Credit Card Max', 'Video Edit Desk', 'Call Follow-Ups']",
+    "source_url": "https://thursdayarena.com/matches/c21d9118-efca-4e82-afc3-ac9cabd00f0d"
+  },
+  {
+    "player": "roostercogdick",
+    "rating": 1138,
+    "record": "13-2",
+    "match_id": "b8de1880-90af-4df0-97f9-74bca22b51d5",
+    "elo_delta": 11,
+    "opponent": "bibekgh",
+    "rounds": "2-1",
+    "round_winners": [
+      "them",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "dGYdqS9vLSXpxoNCPBHys",
+        "name": "Flora: Plant Care Log",
+        "atk": 3,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Patch",
+        "kitId": "patch",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "gj3IlHOOpzecm6xpmPJOt",
+        "name": "GTM Loop Closer",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Cover",
+        "kitId": "cover",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 3,
+        "botId": "SxqbG1NT5qEw7ggmHqQu_",
+        "name": "Lingxi's Engineer Bot",
+        "atk": 5,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "First seat",
+        "kitId": "first_seat",
+        "rarity": "epic",
+        "cost": 6,
+        "unlockTurn": 3
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Flora: Plant Care Log 2/6",
+        "Pipeline Pulse 3/4",
+        "Signal Prospector 3/4"
+      ],
+      "r2": [
+        "Flora: Plant Care Log 2/6 honey",
+        "GTM Loop Closer 3/6",
+        "Signal Prospector 3/4"
+      ],
+      "r3": [
+        "Flora: Plant Care Log 3/7 honey",
+        "GTM Loop Closer 3/6",
+        "Lingxi's Engineer Bot 5/6"
+      ]
+    },
+    "plan_inferred": "late_spike",
+    "notes": "kits=['Patch', 'Cover', 'First seat']; foods=['honey']; seats=['Flora: Plant Care Log', 'GTM Loop Closer', \"Lingxi's Engineer Bot\"]",
+    "source_url": "https://thursdayarena.com/matches/b8de1880-90af-4df0-97f9-74bca22b51d5"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "41b0f5be-8699-4193-85db-7e05ed367368",
+    "elo_delta": 3,
+    "opponent": "nobitoshii",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "q4u8YgzGQqCAOUZcg0Lgt",
+        "name": "Credit Card Max",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Grow",
+        "kitId": "grow",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "wtq-j01kD7o8gQFx7E9zv",
+        "name": "Writing Bot",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "NqdH9qGvrq-yWRaXhJGM-",
+        "name": "Critiquito: Design Critique",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Sting",
+        "kitId": "sting",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Writing Bot 2/5",
+        "Apple Search Ads Review 3/3",
+        "Credit Card Max 3/4"
+      ],
+      "r2": [
+        "Credit Card Max 3/4 honey",
+        "Writing Bot 2/5",
+        "Critiquito: Design Critique 3/5 honey"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Grow', 'Hype', 'Sting']; foods=['honey', 'honey']; seats=['Credit Card Max', 'Writing Bot', 'Critiquito: Design Critique']",
+    "source_url": "https://thursdayarena.com/matches/41b0f5be-8699-4193-85db-7e05ed367368"
+  },
+  {
+    "player": "prshannon_",
+    "rating": 1220,
+    "record": "26-7",
+    "match_id": "6b842dce-7571-467e-bb68-084aed3663cb",
+    "elo_delta": 9,
+    "opponent": "nobitoshii",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "afZj-XnYkThA4MB7GfZK6",
+        "name": "Office Ops Desk",
+        "atk": 5,
+        "hp": 7,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hold the line",
+        "kitId": "hold_the_line",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "Q3VCc_x0Y8lWd4m-rung2",
+        "name": "WTD",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "Q3VCc_x0Y8lWd4m-rung2",
+        "name": "WTD",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Office Ops Desk 3/5",
+        "WTD 3/4",
+        "WTD 3/4"
+      ],
+      "r2": [
+        "Office Ops Desk 5/7",
+        "WTD 3/4",
+        "WTD 3/4"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Hold the line', 'Hype', 'Hype']; foods=none; seats=['Office Ops Desk', 'WTD', 'WTD']",
+    "source_url": "https://thursdayarena.com/matches/6b842dce-7571-467e-bb68-084aed3663cb"
+  },
+  {
+    "player": "jsduren",
+    "rating": 1158,
+    "record": "20-6",
+    "match_id": "fe286151-0b31-4f88-9fd0-2532b2645c18",
+    "elo_delta": 14,
+    "opponent": "roostercogdick",
+    "rounds": "2-0",
+    "round_winners": [
+      "draw",
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "0IhyZWxwbf2cFmsmroZQL",
+        "name": "SEO & AEO Desk",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Pin",
+        "kitId": "pin",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "estQ8HWdKqhheDNmOGjcy",
+        "name": "Call Follow-Ups",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "SEO & AEO Desk 2/5",
+        "Call Follow-Ups 3/4",
+        "Call Follow-Ups 3/4"
+      ],
+      "r2": [
+        "SEO & AEO Desk 2/5 honey",
+        "Call Follow-Ups 3/4",
+        "Call Follow-Ups 3/4"
+      ],
+      "r3": [
+        "SEO & AEO Desk 2/5 honey",
+        "Call Follow-Ups 3/4 honey",
+        "Call Follow-Ups 3/4"
+      ]
+    },
+    "plan_inferred": "tempo",
+    "notes": "kits=['Pin', 'Echo', 'Echo']; foods=['honey', 'honey']; seats=['SEO & AEO Desk', 'Call Follow-Ups', 'Call Follow-Ups']",
+    "source_url": "https://thursdayarena.com/matches/fe286151-0b31-4f88-9fd0-2532b2645c18"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "26a2b7d2-4337-432c-9ec0-9ba01d28a4d1",
+    "elo_delta": 3,
+    "opponent": "nobitoshii",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "AZKaQOsjrAa51Nb4xvTur",
+        "name": "Projects Manager",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      },
+      {
+        "seat": 2,
+        "botId": "wtq-j01kD7o8gQFx7E9zv",
+        "name": "Writing Bot",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Hype",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "8hhdYqfvRzigWstUtcmBZ",
+        "name": "Cooper",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      }
+    ],
+    "curve": {
+      "r1": [
+        "Writing Bot 2/5",
+        "Cooper 2/5",
+        "Flora: Plant Care Log 2/6"
+      ],
+      "r2": [
+        "Projects Manager 3/5",
+        "Writing Bot 3/6 honey",
+        "Cooper 2/5"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Hype', 'Hype', 'Echo']; foods=['honey']; seats=['Projects Manager', 'Writing Bot', 'Cooper']",
+    "source_url": "https://thursdayarena.com/matches/26a2b7d2-4337-432c-9ec0-9ba01d28a4d1"
+  },
+  {
+    "player": "omlejmi",
+    "rating": 1400,
+    "record": "95-21",
+    "match_id": "9be23997-b99a-49f3-aacc-85184a317956",
+    "elo_delta": 3,
+    "opponent": "bibekgh",
+    "rounds": "2-0",
+    "round_winners": [
+      "you",
+      "you"
+    ],
+    "board": [
+      {
+        "seat": 1,
+        "botId": "cht7ytAhe3euOQy2wnEg9",
+        "name": "NYC Parent",
+        "atk": 2,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Bulk",
+        "kitId": "bulk",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 2,
+        "botId": "8hhdYqfvRzigWstUtcmBZ",
+        "name": "Cooper",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "food": null,
+        "kit": "Echo",
+        "kitId": "echo",
+        "rarity": "common",
+        "cost": 3,
+        "unlockTurn": 1
+      },
+      {
+        "seat": 3,
+        "botId": "wOE4e95HNxhSbrzyLkSI-",
+        "name": "Tradbot",
+        "atk": 3,
+        "hp": 6,
+        "tempAtk": 0,
+        "food": "honey",
+        "kit": "Guard",
+        "kitId": "guard",
+        "rarity": "uncommon",
+        "cost": 4,
+        "unlockTurn": 2
+      }
+    ],
+    "curve": {
+      "r1": [
+        "NYC Parent 2/6",
+        "Cooper 2/5",
+        "NYC Parent 2/6"
+      ],
+      "r2": [
+        "NYC Parent 2/6 honey",
+        "Cooper 2/5",
+        "Tradbot 3/6 honey"
+      ]
+    },
+    "plan_inferred": "buff",
+    "notes": "kits=['Bulk', 'Echo', 'Guard']; foods=['honey', 'honey']; seats=['NYC Parent', 'Cooper', 'Tradbot']",
+    "source_url": "https://thursdayarena.com/matches/9be23997-b99a-49f3-aacc-85184a317956"
+  }
+]

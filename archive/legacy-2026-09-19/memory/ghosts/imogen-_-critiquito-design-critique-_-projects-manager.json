@@ -1,0 +1,42 @@
+{
+  "fp": "imogen | critiquito design critique | projects manager",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "pplbrief"
+  ],
+  "matchups": {
+    "recipe-flora-plant-care-log__call-follow-ups__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:38:08.567Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-flora-plant-care-log__call-follow-ups__x-brief",
+  "plays": 1,
+  "updated": "2026-09-19T00:38:08.567Z"
+}

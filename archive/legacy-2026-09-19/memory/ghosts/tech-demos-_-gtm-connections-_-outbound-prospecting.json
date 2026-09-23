@@ -1,0 +1,83 @@
+{
+  "fp": "tech demos | gtm connections | outbound prospecting",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "funnycrown42",
+    "mexicanwoody"
+  ],
+  "matchups": {
+    "recipe-webby__call-follow-ups__dr-eggbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:40:20.283Z",
+      "lastResult": "win"
+    },
+    "recipe-love__x-brief__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:40:27.458Z",
+      "lastResult": "win"
+    },
+    "recipe-luma-pages__apple-search-ads-review__gtm-prospecting": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:40:32.025Z",
+      "lastResult": "win"
+    },
+    "recipe-love__call-follow-ups__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:40:44.684Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__imogen__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:40:51.606Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:41:02.057Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__call-follow-ups__dr-eggbot",
+  "plays": 6,
+  "updated": "2026-09-19T02:25:40.943Z"
+}

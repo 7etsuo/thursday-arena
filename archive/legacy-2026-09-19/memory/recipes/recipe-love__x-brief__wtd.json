@@ -1,0 +1,38 @@
+{
+  "id": "recipe-love__x-brief__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "patch",
+    "echo",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 2,
+  "last": "2026-09-19T00:07:57.212Z"
+}

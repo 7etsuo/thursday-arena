@@ -1,0 +1,38 @@
+{
+  "id": "recipe-imogen__office-ops-desk__nyc-parent",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "bulk",
+    "hold_the_line",
+    "bulk"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 0,
+  "losses": 2,
+  "elo": -41,
+  "last": "2026-09-19T07:02:42.703Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-office-ops-desk__credit-card-max__luma-pages",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "hold_the_line",
+    "grow",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 16,
+  "last": "2026-09-19T04:48:59.212Z"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "win-20260917-2001",
+  "name": "hold-hype-poke",
+  "result": "win",
+  "plan": "buff",
+  "rating_delta": 3,
+  "opponent_tier": "gold",
+  "rounds": "2-0",
+  "curve": {
+    "r1": null,
+    "r2": null,
+    "r3": null
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "Office Ops Desk",
+      "atk": 3,
+      "hp": 5,
+      "food": null,
+      "kit": "Hold the line"
+    },
+    {
+      "seat": 2,
+      "name": "Writing Bot",
+      "atk": 2,
+      "hp": 5,
+      "food": null,
+      "kit": "Hype"
+    },
+    {
+      "seat": 3,
+      "name": "Outbound Prospecting",
+      "atk": 3,
+      "hp": 4,
+      "food": null,
+      "kit": "Poke"
+    }
+  ],
+  "keys": [
+    "hold_front",
+    "hype",
+    "front_poke"
+  ],
+  "why": "hold front pumped by hype with poke chip",
+  "reuse": "gold ladder vs similar elo",
+  "avoid": "skip if no hold/hype",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "last_used": "2026-09-17"
+}

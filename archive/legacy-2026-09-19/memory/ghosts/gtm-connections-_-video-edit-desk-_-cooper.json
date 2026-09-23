@@ -1,0 +1,74 @@
+{
+  "fp": "gtm connections | video edit desk | cooper",
+  "seats": [
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "danilopinhobr"
+  ],
+  "matchups": {
+    "recipe-credit-card-max__gtm-loop-closer__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:20:19.470Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__copy-humanizer__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:20:27.587Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__seo-aeo-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:20:35.878Z",
+      "lastResult": "win"
+    },
+    "recipe-sales-call-coach__gtm-loop-closer__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:20:48.731Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__customer-call-coach-assistant__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:21:01.883Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__customer-call-coach-assistant__imogen",
+  "plays": 5,
+  "updated": "2026-09-19T00:21:01.883Z"
+}

@@ -1,0 +1,8 @@
+eval_versions games/seed=10 seeds=181,191 season=3 budget=Infinity mock=current book=cold
+before=/tmp/arena-fixes-20260923/s3-fixed
+  S3 seed=181: before={"win":7,"loss":3,"draw":0} current={"win":7,"loss":3,"draw":0} score=0.700/0.700 pairedDelta=0.0000 bookRecords=23/23 rounds=23/23 elapsed=104.4s
+  S3 seed=191: before={"win":5,"loss":2,"draw":3} current={"win":5,"loss":2,"draw":3} score=0.650/0.650 pairedDelta=0.0000 bookRecords=25/25 rounds=25/25 elapsed=200.3s
+S3 n=20: before W12 L5 D3 winRate=0.6000 matchScore=0.6750; current W12 L5 D3 winRate=0.6000 matchScore=0.6750
+  paired score delta current-before=0.0000 95% seed-clustered CI [0.0000, 0.0000] (exploratory match-level CI [0.0000, 0.0000]) better=0 worse=0 same=20
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /tmp/arena-fixes-20260923/s4/s3-compat-paired.csv

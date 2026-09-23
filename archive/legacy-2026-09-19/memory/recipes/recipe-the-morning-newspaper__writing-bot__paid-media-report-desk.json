@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__writing-bot__paid-media-report-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "paid media report desk",
+      "kit": "grow",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "flamingo",
+    "hype",
+    "grow"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 3,
+  "wins": 3,
+  "losses": 0,
+  "elo": 26,
+  "last": "2026-09-19T05:41:51.858Z"
+}

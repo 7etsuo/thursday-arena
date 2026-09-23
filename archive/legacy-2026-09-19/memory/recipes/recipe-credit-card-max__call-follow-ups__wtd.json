@@ -1,0 +1,38 @@
+{
+  "id": "recipe-credit-card-max__call-follow-ups__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "grow",
+    "echo",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 12,
+  "last": "2026-09-18T21:49:58.353Z"
+}

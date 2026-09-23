@@ -1,0 +1,135 @@
+{
+  "fp": "nyc parent | tech demos | signal prospector",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "incpo_",
+    "webjuice_ie",
+    "limegpt",
+    "jeffp2662",
+    "glitxches",
+    "devonphp"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__company-docs-q-a__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:06:01.980Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__pipeline-pulse__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:06:13.392Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__call-follow-ups__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:06:20.053Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:06:27.514Z",
+      "lastResult": "win"
+    },
+    "recipe-outbound-prospecting__meeting-recap-deck__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:06:33.347Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__tradbot__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 11,
+      "last": "2026-09-19T04:38:07.550Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__flora-plant-care-log__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 11,
+      "last": "2026-09-19T04:38:40.276Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-19T04:38:59.086Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-19T04:39:17.339Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__the-morning-newspaper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-19T04:39:25.706Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__webby__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-19T04:39:53.056Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__luma-pages__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-19T04:40:01.819Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__flora-plant-care-log__company-docs-q-a",
+  "plays": 12,
+  "updated": "2026-09-19T04:40:08.992Z"
+}

@@ -1,0 +1,26 @@
+{
+  "fp": "event request desk | the morning newspaper",
+  "seats": [
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "default_vpc"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T07:21:18.379Z"
+}

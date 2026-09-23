@@ -1,0 +1,98 @@
+{
+  "fp": "pipeline pulse | account research desk | critiquito design critique",
+  "seats": [
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "account research desk",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "pwnedfarm"
+  ],
+  "matchups": {
+    "recipe-flora-plant-care-log__call-follow-ups__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:52:21.710Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__luma-pages__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:52:28.225Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__site-audit__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:52:35.164Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__meeting-recap-deck__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:52:42.509Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__writing-bot__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:52:53.829Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:53:00.955Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__video-edit-desk__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:53:21.786Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:53:28.382Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__copy-humanizer__cooper",
+  "plays": 8,
+  "updated": "2026-09-19T02:53:28.382Z"
+}

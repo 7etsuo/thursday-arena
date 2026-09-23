@@ -1,0 +1,13 @@
+eval_versions games/seed=10 seeds=181,191 season=both budget=Infinity mock=current book=cold
+before=/tmp/arena-fixes-20260923/s3-fixed
+  S1 seed=181: before={"win":8,"loss":0,"draw":2} current={"win":8,"loss":0,"draw":2} score=0.900/0.900 pairedDelta=0.0000 bookRecords=24/24 rounds=24/24 elapsed=3.2s
+  S1 seed=191: before={"win":7,"loss":1,"draw":2} current={"win":7,"loss":1,"draw":2} score=0.800/0.800 pairedDelta=0.0000 bookRecords=23/23 rounds=23/23 elapsed=6.1s
+S1 n=20: before W15 L1 D4 winRate=0.7500 matchScore=0.8500; current W15 L1 D4 winRate=0.7500 matchScore=0.8500
+  paired score delta current-before=0.0000 95% seed-clustered CI [0.0000, 0.0000] (exploratory match-level CI [0.0000, 0.0000]) better=0 worse=0 same=20
+  illegal before=0 current=0; fillable short shops before=0 current=0
+  S2 seed=181: before={"win":7,"loss":3,"draw":0} current={"win":7,"loss":3,"draw":0} score=0.700/0.700 pairedDelta=0.0000 bookRecords=23/23 rounds=23/23 elapsed=3.3s
+  S2 seed=191: before={"win":9,"loss":1,"draw":0} current={"win":9,"loss":1,"draw":0} score=0.900/0.900 pairedDelta=0.0000 bookRecords=21/21 rounds=23/23 elapsed=6.4s
+S2 n=20: before W16 L4 D0 winRate=0.8000 matchScore=0.8000; current W16 L4 D0 winRate=0.8000 matchScore=0.8000
+  paired score delta current-before=0.0000 95% seed-clustered CI [0.0000, 0.0000] (exploratory match-level CI [0.0000, 0.0000]) better=0 worse=0 same=20
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /tmp/arena-fixes-20260923/s4/legacy-paired.csv

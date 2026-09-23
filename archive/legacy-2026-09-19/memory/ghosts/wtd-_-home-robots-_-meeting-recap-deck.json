@@ -1,0 +1,58 @@
+{
+  "fp": "wtd | home robots | meeting recap deck",
+  "seats": [
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "pierre_hulsebus"
+  ],
+  "matchups": {
+    "recipe-dr-eggbot__luma-pages__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:36:07.211Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__tradbot__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:36:27.126Z",
+      "lastResult": "win"
+    },
+    "recipe-projects-manager__apple-search-ads-review__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:36:40.346Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-projects-manager__apple-search-ads-review__credit-card-max",
+  "plays": 3,
+  "updated": "2026-09-18T22:36:40.346Z"
+}

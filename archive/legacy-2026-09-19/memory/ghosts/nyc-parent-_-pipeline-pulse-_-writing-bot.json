@@ -1,0 +1,42 @@
+{
+  "fp": "nyc parent | pipeline pulse | writing bot",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "shymicron"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__copy-humanizer__figma-bro": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:05:51.745Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__copy-humanizer__figma-bro",
+  "plays": 1,
+  "updated": "2026-09-18T23:07:02.785Z"
+}

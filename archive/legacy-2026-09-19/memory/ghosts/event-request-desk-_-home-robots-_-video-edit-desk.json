@@ -1,0 +1,33 @@
+{
+  "fp": "event request desk | home robots | video edit desk",
+  "seats": [
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ushitora57"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-18T23:03:53.205Z"
+}

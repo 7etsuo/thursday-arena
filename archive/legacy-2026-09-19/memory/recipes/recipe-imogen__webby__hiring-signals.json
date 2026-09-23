@@ -1,0 +1,38 @@
+{
+  "id": "recipe-imogen__webby__hiring-signals",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "hiring signals",
+      "kit": "backtap",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "bulk",
+    "backtap"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -2,
+  "last": "2026-09-19T05:22:39.638Z"
+}

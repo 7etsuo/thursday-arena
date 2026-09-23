@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__outbound-prospecting__lead-pipeline-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "flamingo",
+    "mosquito",
+    "snowball"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -29,
+  "last": "2026-09-19T01:25:29.049Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-ebr-value-deck-builder__writing-bot__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "dump",
+    "hype",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -27,
+  "last": "2026-09-19T00:57:23.158Z"
+}

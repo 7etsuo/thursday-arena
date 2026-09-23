@@ -1,0 +1,38 @@
+{
+  "id": "recipe-flora-plant-care-log__x-brief__gtm-prospecting",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "flora plant care log",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "patch",
+    "echo",
+    "mosquito"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -16,
+  "last": "2026-09-19T05:48:27.597Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-stills-clips-desk__gtm-loop-closer__office-ops-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "stills clips desk",
+      "kit": "wake",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "wake",
+    "cover",
+    "hold_the_line"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 0,
+  "losses": 0,
+  "elo": -20,
+  "last": "2026-09-19T02:01:07.526Z"
+}

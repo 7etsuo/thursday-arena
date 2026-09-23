@@ -1,0 +1,38 @@
+{
+  "id": "recipe-tradbot__company-docs-q-a__cooper",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "tradbot",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "guard",
+    "guard",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-19T01:46:51.917Z"
+}

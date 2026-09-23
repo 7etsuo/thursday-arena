@@ -1,0 +1,74 @@
+{
+  "fp": "signal prospector | x brief | gtm loop closer",
+  "seats": [
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "javaskrr"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__webby__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:39:33.938Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__copy-humanizer__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:39:41.481Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__flora-plant-care-log__flora-plant-care-log": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:40:03.557Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__apple-search-ads-review__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:40:43.594Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__copy-humanizer__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:40:52.080Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__apple-search-ads-review__tradbot",
+  "plays": 5,
+  "updated": "2026-09-18T21:41:00.818Z"
+}

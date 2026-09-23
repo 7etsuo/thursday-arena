@@ -1,0 +1,38 @@
+{
+  "id": "recipe-wtd__customer-call-coach-assistant__cooper",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "customer call coach assistant",
+      "kit": "peacock",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hype",
+    "peacock",
+    "echo"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": 0,
+  "last": "2026-09-19T07:06:16.075Z"
+}

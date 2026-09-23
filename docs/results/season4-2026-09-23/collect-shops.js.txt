@@ -1,0 +1,38 @@
+'use strict';
+const fs=require('fs'),crypto=require('crypto'),base='/tmp/arena-fixes-20260923/s4',s4=require('/home/tetsuo/grok/thursday-arena/lib/season4');
+const bots=JSON.parse(fs.readFileSync(base+'/catalog.json')),start=JSON.parse(fs.readFileSync(base+'/simple-0.json')).reply.state;
+const caps=['drill','medic','banker','scout','chef','recruiter',...s4.CAPTAINS];
+const unit=(kit,uid,extra={})=>({uid,botId:bots.find(b=>b.kitId===kit).id,atk:3,hp:5,tempAtk:0,honey:false,...extra});
+const setup=()=>({...structuredClone(start),board:[unit('routine',1),unit('hand_off',2)],nextUid:3,captain:'trainer',gold:10});
+const file=base+'/shop-cases.jsonl',seen=new Set(fs.existsSync(file)?fs.readFileSync(file,'utf8').trim().split('\n').filter(Boolean).map(l=>JSON.parse(l).label):[]);
+const session=crypto.randomUUID(),sleep=ms=>new Promise(r=>setTimeout(r,ms));
+async function act(label,before,action){
+ if(seen.has(label))return JSON.parse(fs.readFileSync(file,'utf8').trim().split('\n').find(l=>JSON.parse(l).label===label)).after;
+ for(let i=0;i<8;i++){
+  await sleep(1100);const r=await fetch('https://thursdayarena.com/api/arena/practice',{method:'POST',headers:{'content-type':'application/json','x-practice-session':session},body:JSON.stringify({state:before,action}),signal:AbortSignal.timeout(20000)});
+  const raw=await r.text();if(r.status===429){await sleep(Number(r.headers.get('retry-after')||5)*1000);continue;}
+  if(!r.ok)throw Error(label+' '+r.status+' '+raw);const after=JSON.parse(raw).state;
+  fs.appendFileSync(file,JSON.stringify({label,before,action,after})+'\n');return after;
+ }throw Error('rate limit');
+}
+(async()=>{
+ for(const captain of caps){
+  let state=setup();state.board=[];delete state.captain;delete state.captainShop;state.captainOffer=[captain,...caps.filter(c=>c!==captain).slice(0,2)];
+  state=await act('captain:'+captain,state,{type:'pickCaptain',captain});
+  state=await act('buy:'+captain,state,{type:'buy',shopIndex:0});
+  state.shop.food='apple';state=await act('feed:'+captain,state,{type:'feed',boardIndex:0});
+ }
+ for(const relic of s4.RELICS){
+  let state=setup();state.phase={kind:'shop',round:1};state.results=['them'];state.wins={you:0,them:1};state.relicOffer=[relic,...s4.RELICS.filter(r=>r!==relic).slice(0,2)];state.relics=[];
+  state=await act('relic:'+relic,state,{type:'pickRelic',relic});
+  if(relic==='freshStock')for(let i=0;i<4;i++)state=await act('fresh:'+i,state,{type:'reroll'});
+  if(relic==='loyaltyCard')await act('loyalty:sell',state,{type:'sell',boardIndex:0});
+  if(relic==='itemHoarder')await act('hoarder:equip',state,{type:'equip',boardIndex:0});
+  if(relic==='bulkOrder')await act('bulk:buy',state,{type:'buy',shopIndex:0});
+ }
+ for(const f of s4.FUSIONS){let state=setup();const a=bots.find(b=>b.crew===f.crews[0]),b=bots.find(b=>b.crew===f.crews[1]);state.board=[{...unit('routine',1),botId:a.id,item:'hotfix',potato:true,tempAtk:2},{...unit('routine',2),botId:b.id,atk:5,hp:7,honey:true}];await act('fusion:'+f.name,state,{type:'fuse',boardIndex:0,withIndex:1});}
+ for(const modifier of ['plain','hotfix-item','hotfix-relic','both']){let state=setup();if(modifier.includes('item')||modifier==='both')state.board[0].item='hotfix';if(modifier.includes('relic')||modifier==='both'){state.phase={kind:'shop',round:1};state.results=['them'];state.wins={you:0,them:1};state.relics=['hotfix'];}await act('reroll:'+modifier,state,{type:'reroll'});}
+ const fought=JSON.parse(fs.readFileSync(base+'/simple-2.json')).reply.state;
+ for(const captain of caps){const state=structuredClone(fought);state.captain=captain;state.gold=4;state.phase.winner='them';state.shop.pets[1].frozen=true;await act('next-shop:'+captain,state,{type:'battleDone'});}
+ console.log('complete',fs.readFileSync(file,'utf8').trim().split('\n').length);
+})().catch(e=>{console.error(e);process.exitCode=1});

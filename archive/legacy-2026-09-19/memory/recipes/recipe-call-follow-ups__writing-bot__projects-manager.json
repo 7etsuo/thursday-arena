@@ -1,0 +1,38 @@
+{
+  "id": "recipe-call-follow-ups__writing-bot__projects-manager",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "projects manager",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "hype",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -16,
+  "last": "2026-09-18T21:30:33.308Z"
+}

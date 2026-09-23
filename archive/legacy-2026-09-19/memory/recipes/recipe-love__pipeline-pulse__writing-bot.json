@@ -1,0 +1,38 @@
+{
+  "id": "recipe-love__pipeline-pulse__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "patch",
+    "sidestep",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 2,
+  "losses": 0,
+  "elo": 14,
+  "last": "2026-09-18T23:50:49.170Z"
+}

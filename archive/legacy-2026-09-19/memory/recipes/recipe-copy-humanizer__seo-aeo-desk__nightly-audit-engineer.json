@@ -1,0 +1,38 @@
+{
+  "id": "recipe-copy-humanizer__seo-aeo-desk__nightly-audit-engineer",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "flamingo",
+    "pin",
+    "cover"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 2,
+  "losses": 0,
+  "elo": 6,
+  "last": "2026-09-19T01:51:55.006Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-luma-pages__apple-search-ads-review__gtm-prospecting",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hype",
+    "grow",
+    "mosquito"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-18T22:40:32.024Z"
+}

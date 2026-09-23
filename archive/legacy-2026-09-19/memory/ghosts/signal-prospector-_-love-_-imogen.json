@@ -1,0 +1,146 @@
+{
+  "fp": "signal prospector | love | imogen",
+  "seats": [
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 7,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "reyneill_"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__hiring-signals__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:11:18.802Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__wtd__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:11:27.815Z",
+      "lastResult": "win"
+    },
+    "recipe-lingxi-s-engineer-bot__nightly-audit-engineer__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:11:38.118Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__seo-aeo-desk__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:11:49.432Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__projects-manager__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:12:01.309Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__credit-card-max__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:12:09.320Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:12:16.653Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__stills-clips-desk__dr-eggbot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T12:13:29.568Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__video-edit-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:13:36.776Z",
+      "lastResult": "win"
+    },
+    "recipe-stalk-bot__stills-clips-desk__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:13:46.661Z",
+      "lastResult": "win"
+    },
+    "recipe-call-follow-ups__writing-bot__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T12:14:00.605Z",
+      "lastResult": "loss"
+    },
+    "recipe-event-request-desk__credit-card-max__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:14:27.543Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-call-coach-assistant__call-follow-ups__competitor-watch": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:14:38.131Z",
+      "lastResult": "win"
+    },
+    "recipe-partnerships-call-coach__wtd__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T12:14:53.623Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-customer-call-coach-assistant__call-follow-ups__competitor-watch",
+  "plays": 14,
+  "updated": "2026-09-18T12:14:53.623Z"
+}

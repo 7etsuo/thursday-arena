@@ -1,0 +1,413 @@
+{
+  "source": "https://thursdayarena.com/api/arena/practice",
+  "description": "Anonymous Season 3 practice match, seed 12345, observed 2026-09-20; actions were restart, pick chef, buy first offer, equip foamPad, endShop, battleDone.",
+  "enemyInputInference": "The practice response omits enemy bot IDs and items. Names and base stats came from battle frame 0 and the public catalog; Sales crew came from the catalog; Mute button came from the battle caption. This input reproduces the observed frames.",
+  "enemyBoard": [
+    { "name": "Meeting Recap Deck" },
+    { "name": "Renewals Invoice Bot", "item": "muteButton" }
+  ],
+  "initial": {
+    "phase": {
+      "kind": "shop",
+      "round": 0
+    },
+    "gold": 10,
+    "board": [],
+    "shop": {
+      "pets": [
+        {
+          "botId": "tIas6udS9kSXpcAz6LFd1",
+          "atk": 3,
+          "hp": 3,
+          "cost": 3,
+          "rarity": "common"
+        },
+        {
+          "botId": "cht7ytAhe3euOQy2wnEg9",
+          "atk": 2,
+          "hp": 6,
+          "cost": 3,
+          "rarity": "common"
+        },
+        {
+          "botId": "4VEl6mp1QrsvvjTFR-qE_",
+          "atk": 4,
+          "hp": 3,
+          "cost": 3,
+          "rarity": "common"
+        }
+      ],
+      "food": "honey",
+      "item": {
+        "item": "foamPad",
+        "cost": 2,
+        "rarity": "common"
+      }
+    },
+    "wins": {
+      "you": 0,
+      "them": 0
+    },
+    "results": [],
+    "lastSeen": null,
+    "seed": -1895494665,
+    "nextUid": 1,
+    "opponentKind": "ai",
+    "opponentHandle": "AI",
+    "season": 3,
+    "seats": {
+      "front": "hotSeat",
+      "middle": "pitStop",
+      "back": "encore"
+    },
+    "seatShop": [
+      {
+        "seat": "front",
+        "revealed": true,
+        "name": "Hot seat",
+        "text": "Loses 1 HP after each exchange."
+      },
+      {
+        "seat": "middle",
+        "revealed": false
+      },
+      {
+        "seat": "back",
+        "revealed": false
+      }
+    ],
+    "captainOffer": [
+      "medic",
+      "drill",
+      "chef"
+    ],
+    "captainShop": {
+      "offer": [
+        {
+          "captain": "medic",
+          "name": "Medic",
+          "text": "Each fight: your back bot gets +3 HP."
+        },
+        {
+          "captain": "drill",
+          "name": "Drill",
+          "text": "Each fight: your front bot gets +2 ATK."
+        },
+        {
+          "captain": "chef",
+          "name": "Chef",
+          "text": "Food costs 1 token less."
+        }
+      ]
+    }
+  },
+  "actions": [
+    {
+      "action": {
+        "type": "pickCaptain",
+        "captain": "chef"
+      },
+      "observed": {
+        "gold": 10,
+        "captain": "chef",
+        "shopCosts": {
+          "reroll": 1,
+          "food": 2
+        },
+        "board": [],
+        "shopItem": {
+          "item": "foamPad",
+          "cost": 2,
+          "rarity": "common"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "buy",
+        "shopIndex": 0
+      },
+      "observed": {
+        "gold": 7,
+        "captain": "chef",
+        "shopCosts": {
+          "reroll": 1,
+          "food": 2
+        },
+        "board": [
+          {
+            "uid": 1,
+            "botId": "tIas6udS9kSXpcAz6LFd1",
+            "atk": 3,
+            "hp": 3,
+            "tempAtk": 0,
+            "honey": false
+          }
+        ],
+        "shopItem": {
+          "item": "foamPad",
+          "cost": 2,
+          "rarity": "common"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "equip",
+        "boardIndex": 0
+      },
+      "observed": {
+        "gold": 5,
+        "captain": "chef",
+        "shopCosts": {
+          "reroll": 1,
+          "food": 2
+        },
+        "board": [
+          {
+            "uid": 1,
+            "botId": "tIas6udS9kSXpcAz6LFd1",
+            "atk": 3,
+            "hp": 3,
+            "tempAtk": 0,
+            "honey": false,
+            "item": "foamPad"
+          }
+        ],
+        "shopItem": null
+      }
+    }
+  ],
+  "battle": {
+    "phase": {
+      "kind": "battle",
+      "round": 0,
+      "frames": [
+        {
+          "you": [
+            {
+              "name": "dial bot",
+              "atk": 3,
+              "hp": 3
+            }
+          ],
+          "them": [
+            {
+              "name": "Meeting Recap Deck",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Renewals Invoice Bot",
+              "atk": 1,
+              "hp": 5
+            }
+          ],
+          "caption": "The fight starts"
+        },
+        {
+          "you": [
+            {
+              "name": "dial bot",
+              "atk": 3,
+              "hp": 3
+            }
+          ],
+          "them": [
+            {
+              "name": "Meeting Recap Deck",
+              "atk": 5,
+              "hp": 4
+            },
+            {
+              "name": "Renewals Invoice Bot",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "Enemy Sales crew: +2 ATK to 2 of their bots"
+        },
+        {
+          "you": [
+            {
+              "name": "dial bot",
+              "atk": 3,
+              "hp": 3
+            }
+          ],
+          "them": [
+            {
+              "name": "Meeting Recap Deck",
+              "atk": 7,
+              "hp": 4
+            },
+            {
+              "name": "Renewals Invoice Bot",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "Enemy Drill: +2 ATK to their front bot"
+        },
+        {
+          "you": [
+            {
+              "name": "dial bot",
+              "atk": 3,
+              "hp": 3
+            }
+          ],
+          "them": [
+            {
+              "name": "Meeting Recap Deck",
+              "atk": 7,
+              "hp": 4
+            },
+            {
+              "name": "Renewals Invoice Bot",
+              "atk": 3,
+              "hp": 6
+            }
+          ],
+          "caption": "Mute button: Renewals Invoice Bot +1 HP"
+        },
+        {
+          "you": [
+            {
+              "name": "dial bot",
+              "atk": 3,
+              "hp": 3
+            }
+          ],
+          "them": [
+            {
+              "name": "Meeting Recap Deck",
+              "atk": 7,
+              "hp": 4
+            },
+            {
+              "name": "Renewals Invoice Bot",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "dial bot snipes Renewals Invoice Bot for 1"
+        },
+        {
+          "you": [
+            {
+              "name": "dial bot",
+              "atk": 3,
+              "hp": -3
+            }
+          ],
+          "them": [
+            {
+              "name": "Meeting Recap Deck",
+              "atk": 7,
+              "hp": 1
+            },
+            {
+              "name": "Renewals Invoice Bot",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "dial bot and Meeting Recap Deck trade: -7 HP / -3 HP"
+        },
+        {
+          "you": [
+            {
+              "name": "dial bot",
+              "atk": 3,
+              "hp": -3
+            }
+          ],
+          "them": [
+            {
+              "name": "Meeting Recap Deck",
+              "atk": 7,
+              "hp": 1
+            },
+            {
+              "name": "Renewals Invoice Bot",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "dial bot's armor: 1 less"
+        },
+        {
+          "you": [],
+          "them": [
+            {
+              "name": "Meeting Recap Deck",
+              "atk": 7,
+              "hp": 1
+            },
+            {
+              "name": "Renewals Invoice Bot",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "dial bot is knocked out"
+        },
+        {
+          "you": [],
+          "them": [
+            {
+              "name": "Meeting Recap Deck",
+              "atk": 7,
+              "hp": 1
+            },
+            {
+              "name": "Renewals Invoice Bot",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "The enemy side holds the floor"
+        }
+      ],
+      "winner": "them"
+    },
+    "rivalCaptain": "drill",
+    "lastSeen": [
+      {
+        "name": "Meeting Recap Deck",
+        "atk": 3,
+        "hp": 4
+      },
+      {
+        "name": "Renewals Invoice Bot",
+        "atk": 1,
+        "hp": 5
+      }
+    ]
+  },
+  "nextShop": {
+    "round": 1,
+    "gold": 10,
+    "shopCosts": {
+      "reroll": 1,
+      "food": 2
+    },
+    "shopItem": {
+      "item": "muteButton",
+      "cost": 2,
+      "rarity": "common"
+    },
+    "board": [
+      {
+        "uid": 1,
+        "botId": "tIas6udS9kSXpcAz6LFd1",
+        "atk": 3,
+        "hp": 3,
+        "tempAtk": 0,
+        "honey": false,
+        "item": "foamPad"
+      }
+    ]
+  }
+}

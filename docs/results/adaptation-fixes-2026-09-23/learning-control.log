@@ -1,0 +1,9 @@
+eval_versions games/seed=20 seeds=163,167,173 season=3 budget=Infinity mock=current book=cold
+before=/tmp/arena-fixes-20260923/frozen-control
+  S3 seed=163: before={"win":16,"loss":2,"draw":2} current={"win":17,"loss":2,"draw":1} score=0.850/0.875 pairedDelta=0.0250 bookRecords=52/53 rounds=52/53 elapsed=512.0s
+  S3 seed=167: before={"win":13,"loss":5,"draw":2} current={"win":16,"loss":4,"draw":0} score=0.700/0.800 pairedDelta=0.1000 bookRecords=51/52 rounds=51/52 elapsed=1016.1s
+  S3 seed=173: before={"win":12,"loss":6,"draw":2} current={"win":14,"loss":5,"draw":1} score=0.650/0.725 pairedDelta=0.0750 bookRecords=52/49 rounds=52/49 elapsed=1529.4s
+S3 n=60: before W41 L13 D6 winRate=0.6833 matchScore=0.7333; current W47 L11 D2 winRate=0.7833 matchScore=0.8000
+  paired score delta current-before=0.0667 95% seed-clustered CI [-0.0282, 0.1615] (exploratory match-level CI [-0.0437, 0.1771]) better=11 worse=5 same=44
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /tmp/arena-fixes-20260923/learning-control.csv

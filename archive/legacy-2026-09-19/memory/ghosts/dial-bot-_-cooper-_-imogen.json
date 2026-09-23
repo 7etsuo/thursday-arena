@@ -1,0 +1,33 @@
+{
+  "fp": "dial bot | cooper | imogen",
+  "seats": [
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "haraldandertun"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T02:55:00.967Z"
+}

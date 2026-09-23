@@ -1,0 +1,98 @@
+{
+  "fp": "the morning newspaper | stills clips desk | ebr value deck builder",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "pr0ftrader"
+  ],
+  "matchups": {
+    "recipe-stalk-bot__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:58:09.744Z",
+      "lastResult": "win"
+    },
+    "recipe-luma-pages__apple-search-ads-review__talent-discovery": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:58:28.909Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__luma-pages__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:58:39.372Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__signal-prospector__overheard": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:58:58.729Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__flora-plant-care-log__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:59:09.713Z",
+      "lastResult": "win"
+    },
+    "recipe-partnerships-call-coach__webby__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:59:21.223Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__writing-bot__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:59:34.270Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__video-edit-desk__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:59:45.206Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__signal-prospector__overheard",
+  "plays": 8,
+  "updated": "2026-09-18T22:59:45.206Z"
+}

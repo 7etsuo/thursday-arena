@@ -1,0 +1,66 @@
+{
+  "fp": "deal inspector | ai search visibility | nightly audit engineer",
+  "seats": [
+    {
+      "name": "deal inspector",
+      "kit": "cover",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "deedizard"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__the-morning-newspaper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:11:18.678Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__call-follow-ups__researchy": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:11:29.237Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__tradbot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T00:11:40.074Z",
+      "lastResult": "draw"
+    },
+    "recipe-office-ops-desk__writing-bot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:11:56.720Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__writing-bot__writing-bot",
+  "plays": 4,
+  "updated": "2026-09-19T00:11:56.720Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-imogen__wtd__office-ops-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "bulk",
+    "hype",
+    "hold_the_line"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 6,
+  "wins": 6,
+  "losses": 0,
+  "elo": 36,
+  "last": "2026-09-19T00:55:42.399Z"
+}

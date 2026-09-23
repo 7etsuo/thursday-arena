@@ -1,0 +1,38 @@
+{
+  "id": "recipe-alfred__apple-search-ads-review__hiring-signals",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "alfred",
+      "kit": "last_word",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "hiring signals",
+      "kit": "backtap",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "last_word",
+    "grow",
+    "backtap"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -10,
+  "last": "2026-09-19T00:30:29.115Z"
+}

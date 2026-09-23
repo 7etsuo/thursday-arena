@@ -1,0 +1,66 @@
+{
+  "fp": "company docs q a | ai search visibility | nightly audit engineer",
+  "seats": [
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thephatp"
+  ],
+  "matchups": {
+    "recipe-flora-plant-care-log__site-audit__call-follow-ups": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T12:43:36.599Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__pipeline-pulse__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:44:42.218Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__flora-plant-care-log__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:44:48.798Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__tradbot__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:44:57.075Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__tradbot__meeting-recap-deck",
+  "plays": 4,
+  "updated": "2026-09-18T12:45:24.224Z"
+}

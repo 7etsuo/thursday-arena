@@ -1,0 +1,33 @@
+{
+  "fp": "call follow ups | dial bot | call follow ups",
+  "seats": [
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "alfredmrp2"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T00:16:48.495Z"
+}

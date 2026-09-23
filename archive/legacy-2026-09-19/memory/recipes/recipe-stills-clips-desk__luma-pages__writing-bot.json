@@ -1,0 +1,38 @@
+{
+  "id": "recipe-stills-clips-desk__luma-pages__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "stills clips desk",
+      "kit": "wake",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "wake",
+    "hype",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-18T12:42:52.552Z"
+}

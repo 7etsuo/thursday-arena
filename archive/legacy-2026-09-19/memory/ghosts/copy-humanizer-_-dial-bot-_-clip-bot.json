@@ -1,0 +1,33 @@
+{
+  "fp": "copy humanizer | dial bot | clip bot",
+  "seats": [
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sanskar57627477"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T02:22:19.587Z"
+}

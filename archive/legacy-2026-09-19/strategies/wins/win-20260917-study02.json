@@ -1,0 +1,74 @@
+{
+  "id": "win-20260917-study02",
+  "name": "clone-starz_zps-applesearc-gtmloopclo-projectsma",
+  "result": "win",
+  "plan": "buff",
+  "rating_delta": 16,
+  "opponent_tier": "unknown",
+  "rounds": "2-1",
+  "curve": {
+    "r1": [
+      "Apple Search Ads Review 3/3 honey",
+      "X Brief 2/4"
+    ],
+    "r2": [
+      "Apple Search Ads Review 3/3 honey",
+      "GTM Loop Closer 4/7",
+      "WTD 3/4"
+    ],
+    "r3": [
+      "Apple Search Ads Review 3/3 honey",
+      "GTM Loop Closer 5/8 honey",
+      "Projects Manager 3/5"
+    ]
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "Apple Search Ads Review",
+      "atk": 3,
+      "hp": 3,
+      "food": "honey",
+      "kit": "Grow"
+    },
+    {
+      "seat": 2,
+      "name": "GTM Loop Closer",
+      "atk": 5,
+      "hp": 8,
+      "food": "honey",
+      "kit": "Cover"
+    },
+    {
+      "seat": 3,
+      "name": "Projects Manager",
+      "atk": 3,
+      "hp": 5,
+      "food": null,
+      "kit": "Hype"
+    }
+  ],
+  "keys": [
+    "hype",
+    "grow",
+    "cover",
+    "honey_front",
+    "apple_search_ads_review",
+    "gtm_loop_closer",
+    "projects_manager"
+  ],
+  "why": "cloned from @starz_zps win vs @jeremymlucy: honey sting on Apple Search Ads Review; hype juiced front; grow snowball before-attack",
+  "reuse": "when shop offers similar buff pieces: Apple Search Ads Review, GTM Loop Closer, Projects Manager",
+  "avoid": "do not force if shop misses core kits; public clone may lack freeze/buy order fidelity",
+  "plays": 0,
+  "wins": 0,
+  "losses": 0,
+  "last_used": null,
+  "meta": {
+    "player": "starz_zps",
+    "source_match": "c98dbc3b-210e-4ec9-bb0d-72fc86d209ad",
+    "source_url": "https://thursdayarena.com/matches/c98dbc3b-210e-4ec9-bb0d-72fc86d209ad",
+    "cloned_at": "2026-09-17",
+    "inferred": true
+  }
+}

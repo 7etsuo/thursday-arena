@@ -1,0 +1,38 @@
+{
+  "id": "recipe-signal-prospector__credit-card-max__x-brief",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "mosquito",
+    "grow",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-19T02:23:46.587Z"
+}

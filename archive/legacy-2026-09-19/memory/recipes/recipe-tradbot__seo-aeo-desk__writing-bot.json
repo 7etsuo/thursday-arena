@@ -1,0 +1,39 @@
+{
+  "id": "recipe-tradbot__seo-aeo-desk__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "tradbot",
+      "kit": "guard",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "guard",
+    "pin",
+    "hype"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 0,
+  "elo": -9,
+  "last": "2026-09-19T01:18:07.098Z"
+}

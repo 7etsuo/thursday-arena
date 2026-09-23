@@ -1,0 +1,42 @@
+{
+  "fp": "meeting recap deck | imogen | wtd",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "lyanlab"
+  ],
+  "matchups": {
+    "recipe-paid-media-report-desk__flora-plant-care-log__overheard": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T11:19:41.731Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__flora-plant-care-log__overheard",
+  "plays": 1,
+  "updated": "2026-09-18T11:19:41.731Z"
+}

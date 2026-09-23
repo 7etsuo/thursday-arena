@@ -1,0 +1,50 @@
+{
+  "fp": "writing bot | luma pages | deal hunting",
+  "seats": [
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sherryslatosky"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 2,
+      "losses": 1,
+      "draws": 2,
+      "elo": 16,
+      "last": "2026-09-19T05:56:35.976Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 2,
+      "losses": 1,
+      "draws": 2,
+      "elo": 16,
+      "last": "2026-09-19T05:59:48.205Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__writing-bot__wtd",
+  "plays": 10,
+  "updated": "2026-09-19T05:59:48.205Z"
+}

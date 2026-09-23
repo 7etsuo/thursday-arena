@@ -1,0 +1,38 @@
+{
+  "id": "recipe-gtm-loop-closer__credit-card-max__meeting-recap-deck",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "cover",
+    "grow",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 6,
+  "last": "2026-09-19T01:37:23.904Z"
+}

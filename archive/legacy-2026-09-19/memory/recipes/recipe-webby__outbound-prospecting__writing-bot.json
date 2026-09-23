@@ -1,0 +1,38 @@
+{
+  "id": "recipe-webby__outbound-prospecting__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "mosquito",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 2,
+  "last": "2026-09-18T22:23:39.923Z"
+}

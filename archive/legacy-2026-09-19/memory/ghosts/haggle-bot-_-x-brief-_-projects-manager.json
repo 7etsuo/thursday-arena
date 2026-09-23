@@ -1,0 +1,50 @@
+{
+  "fp": "haggle bot | x brief | projects manager",
+  "seats": [
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "novagamingx4"
+  ],
+  "matchups": {
+    "recipe-imogen__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:22:54.973Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__lead-pipeline-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:23:13.814Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__lead-pipeline-desk__writing-bot",
+  "plays": 2,
+  "updated": "2026-09-18T21:23:13.814Z"
+}

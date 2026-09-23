@@ -1,0 +1,38 @@
+{
+  "id": "recipe-copy-humanizer__overheard__gtm-loop-closer",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "overheard",
+      "kit": "backtap",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "flamingo",
+    "backtap",
+    "cover"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-19T01:01:08.513Z"
+}

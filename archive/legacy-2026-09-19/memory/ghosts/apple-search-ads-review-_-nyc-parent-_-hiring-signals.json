@@ -1,0 +1,74 @@
+{
+  "fp": "apple search ads review | nyc parent | hiring signals",
+  "seats": [
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ryanduncan"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__account-research-desk__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T03:20:34.565Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T03:20:43.684Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__copy-humanizer": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T03:21:09.336Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__copy-humanizer__signal-prospector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T03:21:40.100Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__site-audit__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T03:22:18.671Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__site-audit__writing-bot",
+  "plays": 5,
+  "updated": "2026-09-19T03:22:24.058Z"
+}

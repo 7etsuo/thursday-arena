@@ -1,0 +1,33 @@
+{
+  "fp": "seo aeo desk | credit card max | event producer",
+  "seats": [
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "alexdotcom"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-18T22:57:49.880Z"
+}

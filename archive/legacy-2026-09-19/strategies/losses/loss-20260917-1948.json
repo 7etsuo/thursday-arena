@@ -1,0 +1,52 @@
+{
+  "id": "loss-20260917-1948",
+  "name": "dump-honey mid fail",
+  "result": "loss",
+  "plan": "faint",
+  "rating_delta": -16,
+  "opponent_tier": "gold",
+  "rounds": "0-2",
+  "curve": {
+    "r1": null,
+    "r2": null,
+    "r3": null
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "Stills & Clips Desk",
+      "atk": 2,
+      "hp": 5,
+      "food": null,
+      "kit": "Wake"
+    },
+    {
+      "seat": 2,
+      "name": "EBR & Value Deck Builder",
+      "atk": 2,
+      "hp": 6,
+      "food": "honey",
+      "kit": "Dump"
+    },
+    {
+      "seat": 3,
+      "name": "Apple Search Ads Review",
+      "atk": 3,
+      "hp": 3,
+      "food": null,
+      "kit": "Grow"
+    }
+  ],
+  "keys": [
+    "honey_mid",
+    "dump",
+    "wake_front"
+  ],
+  "why": "dump mid without strong enough carry; 0-2 vs ghost",
+  "reuse": "never force dump mid without apple'd front carry",
+  "avoid": "dump + honey mid with weak flanks",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "last_used": "2026-09-17"
+}

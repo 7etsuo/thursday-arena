@@ -1,0 +1,98 @@
+{
+  "fp": "site audit | pipeline pulse | stills clips desk",
+  "seats": [
+    {
+      "name": "site audit",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "kennychoww1"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__event-request-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:49:35.082Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__love__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:49:40.751Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__webby__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:49:47.399Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__webby__seo-aeo-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:49:54.361Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__call-follow-ups__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:50:01.167Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:50:09.167Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__webby__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:50:30.191Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__call-follow-ups__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:50:37.118Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__call-follow-ups__writing-bot",
+  "plays": 8,
+  "updated": "2026-09-19T03:50:56.325Z"
+}

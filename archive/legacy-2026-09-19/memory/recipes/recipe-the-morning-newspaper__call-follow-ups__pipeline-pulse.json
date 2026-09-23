@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__call-follow-ups__pipeline-pulse",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "flamingo",
+    "echo",
+    "sidestep"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 8,
+  "last": "2026-09-18T12:32:14.058Z"
+}

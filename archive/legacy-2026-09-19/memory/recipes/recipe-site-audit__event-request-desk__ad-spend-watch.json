@@ -1,0 +1,38 @@
+{
+  "id": "recipe-site-audit__event-request-desk__ad-spend-watch",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "site audit",
+      "kit": "pin",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "event request desk",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "ad spend watch",
+      "kit": "sting",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "pin",
+    "sidestep",
+    "sting"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -16,
+  "last": "2026-09-19T05:53:36.751Z"
+}

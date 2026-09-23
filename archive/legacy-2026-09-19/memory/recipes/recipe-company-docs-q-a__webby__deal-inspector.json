@@ -1,0 +1,38 @@
+{
+  "id": "recipe-company-docs-q-a__webby__deal-inspector",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "deal inspector",
+      "kit": "cover",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "guard",
+    "bulk",
+    "cover"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 2,
+  "last": "2026-09-19T00:24:28.786Z"
+}

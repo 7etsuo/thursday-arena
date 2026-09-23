@@ -1,0 +1,38 @@
+{
+  "id": "recipe-paid-media-report-desk__luma-pages__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "paid media report desk",
+      "kit": "grow",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "grow",
+    "hype",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-18T11:25:24.046Z"
+}

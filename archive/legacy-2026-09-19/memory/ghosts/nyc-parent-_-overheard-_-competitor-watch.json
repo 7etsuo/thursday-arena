@@ -1,0 +1,74 @@
+{
+  "fp": "nyc parent | overheard | competitor watch",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "darkwidowxx"
+  ],
+  "matchups": {
+    "recipe-imogen__nyc-parent__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:14:10.975Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__ai-search-visibility__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:14:36.585Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__pipeline-pulse__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:14:47.810Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__pipeline-pulse__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:14:58.962Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__video-edit-desk__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:15:15.662Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__video-edit-desk__account-research-desk",
+  "plays": 5,
+  "updated": "2026-09-18T22:15:15.662Z"
+}

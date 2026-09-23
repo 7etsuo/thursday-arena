@@ -1,0 +1,38 @@
+{
+  "id": "recipe-nightly-audit-engineer__pipeline-pulse__cooper",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "cover",
+    "sidestep",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-19T02:28:12.506Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-nyc-parent__apple-search-ads-review__copy-humanizer",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "grow",
+    "flamingo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 8,
+  "last": "2026-09-18T12:05:26.536Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-deal-inspector__apple-search-ads-review__call-follow-ups",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "deal inspector",
+      "kit": "cover",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "cover",
+    "grow",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-19T00:12:49.868Z"
+}

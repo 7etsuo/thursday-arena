@@ -1,0 +1,50 @@
+{
+  "fp": "hiring signals | love | seo aeo desk",
+  "seats": [
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 6,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sodiumhyrdride"
+  ],
+  "matchups": {
+    "recipe-nightly-audit-engineer__wtd__webby": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": 1,
+      "last": "2026-09-19T07:13:29.418Z",
+      "lastResult": "draw"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__cooper": {
+      "wins": 4,
+      "losses": 0,
+      "draws": 0,
+      "elo": 63,
+      "last": "2026-09-19T07:15:09.309Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__the-morning-newspaper__cooper",
+  "plays": 5,
+  "updated": "2026-09-19T07:15:09.309Z"
+}

@@ -1,0 +1,50 @@
+{
+  "fp": "researchy | partnerships call coach | office ops desk",
+  "seats": [
+    {
+      "name": "researchy",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "nehood45"
+  ],
+  "matchups": {
+    "recipe-deal-inspector__luma-pages__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:18:41.463Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__event-request-desk__projects-manager": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-18T12:19:20.125Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-deal-inspector__luma-pages__alfred",
+  "plays": 2,
+  "updated": "2026-09-18T12:19:20.126Z"
+}

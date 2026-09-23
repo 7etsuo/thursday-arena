@@ -1,0 +1,60 @@
+{
+  "fp": "event producer",
+  "seats": [
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "will_elevantixc"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__call-follow-ups__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-19T04:08:13.461Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__office-ops-desk__love": {
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "elo": 14,
+      "last": "2026-09-19T04:08:29.157Z",
+      "lastResult": "win"
+    },
+    "recipe-love__x-brief__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T04:08:35.538Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T04:08:41.674Z",
+      "lastResult": "win"
+    },
+    "recipe-pipeline-pulse__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T04:12:11.335Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__office-ops-desk__love",
+  "plays": 6,
+  "updated": "2026-09-19T04:12:11.335Z"
+}

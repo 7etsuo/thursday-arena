@@ -1,0 +1,38 @@
+{
+  "id": "recipe-call-follow-ups__credit-card-max__luma-pages",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "grow",
+    "hype"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": 0,
+  "last": "2026-09-19T05:49:14.613Z"
+}

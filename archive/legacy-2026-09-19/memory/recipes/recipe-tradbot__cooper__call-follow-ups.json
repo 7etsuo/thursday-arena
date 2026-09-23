@@ -1,0 +1,38 @@
+{
+  "id": "recipe-tradbot__cooper__call-follow-ups",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "tradbot",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "guard",
+    "echo",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 2,
+  "losses": 0,
+  "elo": 11,
+  "last": "2026-09-19T04:33:36.020Z"
+}

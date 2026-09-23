@@ -1,0 +1,38 @@
+{
+  "id": "recipe-cooper__luma-pages__gtm-account-research",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "gtm account research",
+      "kit": "last_word",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "echo",
+    "hype",
+    "last_word"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -16,
+  "last": "2026-09-19T04:45:34.295Z"
+}

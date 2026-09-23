@@ -1,0 +1,38 @@
+{
+  "id": "recipe-stills-clips-desk__gtm-prospecting__overheard",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "stills clips desk",
+      "kit": "wake",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "overheard",
+      "kit": "backtap",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "wake",
+    "mosquito",
+    "backtap"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -24,
+  "last": "2026-09-18T21:23:44.021Z"
+}

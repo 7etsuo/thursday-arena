@@ -1,0 +1,38 @@
+{
+  "id": "recipe-wtd__hiring-signals__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "hiring signals",
+      "kit": "backtap",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hype",
+    "backtap",
+    "hype"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -5,
+  "last": "2026-09-19T05:11:27.649Z"
+}

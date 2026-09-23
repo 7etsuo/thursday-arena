@@ -1,0 +1,82 @@
+{
+  "fp": "event producer | nyc parent | signal prospector",
+  "seats": [
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "michaldzidziela"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:41:26.673Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__sales-call-coach__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:41:39.315Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__webby__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:41:55.300Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__writing-bot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:42:15.711Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__figma-bro__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:42:27.473Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__x-brief__hiring-signals": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T23:42:39.318Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__figma-bro__luma-pages",
+  "plays": 6,
+  "updated": "2026-09-18T23:42:39.318Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-webby__deal-hunting__seo-aeo-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "deal hunting",
+      "kit": "drain",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "bulk",
+    "drain",
+    "pin"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -26,
+  "last": "2026-09-18T21:04:05.391Z"
+}

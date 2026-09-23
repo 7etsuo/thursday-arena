@@ -1,0 +1,38 @@
+{
+  "id": "recipe-seo-aeo-desk__stills-clips-desk__account-research-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "stills clips desk",
+      "kit": "wake",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "account research desk",
+      "kit": "last_word",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "pin",
+    "wake",
+    "last_word"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 16,
+  "last": "2026-09-19T05:45:31.610Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-imogen__call-follow-ups__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "bulk",
+    "echo",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 4,
+  "wins": 4,
+  "losses": 0,
+  "elo": 22,
+  "last": "2026-09-18T22:52:43.505Z"
+}

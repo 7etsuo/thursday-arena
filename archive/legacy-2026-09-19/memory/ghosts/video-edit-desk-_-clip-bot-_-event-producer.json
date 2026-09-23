@@ -1,0 +1,33 @@
+{
+  "fp": "video edit desk | clip bot | event producer",
+  "seats": [
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sk1nl4b"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T00:03:21.693Z"
+}

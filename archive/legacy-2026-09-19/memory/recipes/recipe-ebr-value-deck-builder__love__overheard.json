@@ -1,0 +1,38 @@
+{
+  "id": "recipe-ebr-value-deck-builder__love__overheard",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "overheard",
+      "kit": "backtap",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "dump",
+    "patch",
+    "backtap"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -28,
+  "last": "2026-09-18T23:18:10.986Z"
+}

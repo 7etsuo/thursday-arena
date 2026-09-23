@@ -1,0 +1,19 @@
+{
+  "fp": "home robots",
+  "seats": [
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "vhalan"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T06:53:50.315Z"
+}

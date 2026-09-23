@@ -1,0 +1,90 @@
+{
+  "fp": "flora plant care log | seo aeo desk | event request desk",
+  "seats": [
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "brandenearp"
+  ],
+  "matchups": {
+    "recipe-paid-media-report-desk__love__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:08:27.000Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__webby__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:08:41.021Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__love__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:08:51.391Z",
+      "lastResult": "win"
+    },
+    "recipe-love__writing-bot__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:09:03.515Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__customer-call-coach-assistant__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:09:17.472Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__call-follow-ups__ad-spend-watch": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T11:17:09.792Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__credit-card-max__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T11:17:20.418Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__credit-card-max__paid-media-report-desk",
+  "plays": 7,
+  "updated": "2026-09-18T11:17:20.419Z"
+}

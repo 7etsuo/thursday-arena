@@ -1,0 +1,38 @@
+{
+  "id": "recipe-meeting-recap-deck__gtm-prospecting__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "mosquito",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -16,
+  "last": "2026-09-19T05:18:46.395Z"
+}

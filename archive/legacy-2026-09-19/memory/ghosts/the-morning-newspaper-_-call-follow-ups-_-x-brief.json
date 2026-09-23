@@ -1,0 +1,138 @@
+{
+  "fp": "the morning newspaper | call follow ups | x brief",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jaybosshq"
+  ],
+  "matchups": {
+    "recipe-imogen__company-docs-q-a__game-art-director": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T01:16:42.680Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:16:50.943Z",
+      "lastResult": "win"
+    },
+    "recipe-sales-call-coach__competitor-watch__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:17:04.032Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__nyc-parent__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:17:12.135Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__credit-card-max__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:17:21.682Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__partnerships-call-coach__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:17:33.951Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__deal-hunting__pitch-deck-coach": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T01:17:43.812Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__office-ops-desk__wtd": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-19T01:17:56.665Z",
+      "lastResult": "draw"
+    },
+    "recipe-tradbot__seo-aeo-desk__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-19T01:18:07.099Z",
+      "lastResult": "draw"
+    },
+    "recipe-webby__outbound-prospecting__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T01:18:13.497Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__nightly-audit-engineer__nyc-parent": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-19T01:18:24.377Z",
+      "lastResult": "draw"
+    },
+    "recipe-hiring-signals__writing-bot__executive-assistant": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T01:18:36.644Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__x-brief__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:18:46.480Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__x-brief__projects-manager",
+  "plays": 13,
+  "updated": "2026-09-19T01:18:46.480Z"
+}

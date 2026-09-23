@@ -1,0 +1,90 @@
+{
+  "fp": "love | event producer | lead pipeline desk",
+  "seats": [
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mlaneio"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__x-brief__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T13:04:09.755Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__call-follow-ups__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T13:04:16.578Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__company-docs-q-a__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T13:04:24.654Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__the-morning-newspaper__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T13:04:32.455Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__love__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T13:04:39.376Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__writing-bot__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T13:04:59.482Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__cooper__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T13:05:08.157Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__cooper__meeting-recap-deck",
+  "plays": 7,
+  "updated": "2026-09-18T13:05:08.157Z"
+}

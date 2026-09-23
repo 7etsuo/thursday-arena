@@ -1,0 +1,38 @@
+{
+  "id": "recipe-stills-clips-desk__meeting-recap-deck__deal-inspector",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "stills clips desk",
+      "kit": "wake",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "deal inspector",
+      "kit": "cover",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "wake",
+    "echo",
+    "cover"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -28,
+  "last": "2026-09-18T12:59:07.721Z"
+}

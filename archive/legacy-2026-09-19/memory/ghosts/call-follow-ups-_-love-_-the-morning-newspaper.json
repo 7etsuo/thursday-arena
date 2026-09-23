@@ -1,0 +1,204 @@
+{
+  "fp": "call follow ups | love | the morning newspaper",
+  "seats": [
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "otarotto",
+    "eldrinwaterdeep",
+    "sebastian_s"
+  ],
+  "matchups": {
+    "recipe-imogen__gtm-prospecting__talent-discovery": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:04:45.706Z",
+      "lastResult": "win"
+    },
+    "recipe-pipeline-pulse__company-docs-q-a__deal-inspector": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-18T21:04:57.755Z",
+      "lastResult": "draw"
+    },
+    "recipe-outbound-prospecting__figma-bro__pitch-deck-coach": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-18T21:05:16.805Z",
+      "lastResult": "draw"
+    },
+    "recipe-tradbot__writing-bot__executive-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:05:32.596Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__event-request-desk__gtm-account-research": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-18T21:05:42.572Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__stills-clips-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:05:54.042Z",
+      "lastResult": "win"
+    },
+    "recipe-seo-aeo-desk__apple-search-ads-review__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:57:50.101Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__pipeline-pulse__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:57:56.916Z",
+      "lastResult": "win"
+    },
+    "recipe-love__projects-manager__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:58:04.390Z",
+      "lastResult": "win"
+    },
+    "recipe-stills-clips-desk__hiring-signals__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:58:22.367Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__webby__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:58:40.243Z",
+      "lastResult": "win"
+    },
+    "recipe-outbound-prospecting__meeting-recap-deck__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:58:48.137Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__recruiting-coordinator__video-edit-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:37:35.116Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__company-docs-q-a__office-ops-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T01:37:46.806Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__office-ops-desk__deal-hunting": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:38:04.200Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__projects-manager__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:38:34.091Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__credit-card-max__nightly-audit-engineer": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-19T01:38:46.198Z",
+      "lastResult": "draw"
+    },
+    "recipe-credit-card-max__tradbot__account-research-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-19T01:38:57.691Z",
+      "lastResult": "draw"
+    },
+    "recipe-tradbot__flora-plant-care-log__love": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T01:39:13.648Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__credit-card-max__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:39:26.088Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__office-ops-desk__office-ops-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-19T01:39:37.166Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__credit-card-max__wtd",
+  "plays": 21,
+  "updated": "2026-09-19T01:39:37.166Z"
+}

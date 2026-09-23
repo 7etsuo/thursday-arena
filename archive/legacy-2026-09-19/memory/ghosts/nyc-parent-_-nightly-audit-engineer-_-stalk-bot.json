@@ -1,0 +1,74 @@
+{
+  "fp": "nyc parent | nightly audit engineer | stalk bot",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 4,
+      "hp": 8,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "stalk bot",
+      "kit": "snowball",
+      "atk": 6,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "fourseasonsgrn"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__dr-eggbot__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T21:00:46.980Z",
+      "lastResult": "win"
+    },
+    "recipe-dr-eggbot__hiring-signals__luma-pages": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -7,
+      "last": "2026-09-18T21:00:56.119Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__wtd__office-ops-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T21:01:09.163Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__writing-bot__copy-humanizer": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -6,
+      "last": "2026-09-18T21:06:44.897Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__webby__video-edit-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -21,
+      "last": "2026-09-18T21:07:00.453Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__dr-eggbot__account-research-desk",
+  "plays": 5,
+  "updated": "2026-09-18T21:07:00.453Z"
+}

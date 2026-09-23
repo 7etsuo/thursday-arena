@@ -1,0 +1,106 @@
+{
+  "fp": "the morning newspaper | love | stills clips desk",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "vibeversity"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__cooper__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:39:35.596Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__flora-plant-care-log__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:39:42.975Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__credit-card-max__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:39:49.850Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__love__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:39:56.237Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__webby__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:40:03.772Z",
+      "lastResult": "win"
+    },
+    "recipe-stills-clips-desk__meeting-recap-deck__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:40:11.620Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__writing-bot__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:40:30.130Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__wtd__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T23:40:40.022Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__love__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T23:40:47.443Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__writing-bot__copy-humanizer",
+  "plays": 9,
+  "updated": "2026-09-18T23:40:53.667Z"
+}

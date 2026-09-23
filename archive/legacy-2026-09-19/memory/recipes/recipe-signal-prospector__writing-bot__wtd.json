@@ -1,0 +1,38 @@
+{
+  "id": "recipe-signal-prospector__writing-bot__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "mosquito",
+    "hype",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -14,
+  "last": "2026-09-19T07:16:26.280Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "recipe-copy-humanizer__meeting-recap-deck__xsfbsprfkv5h909uzrv7w",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "xsfbsprfkv5h909uzrv7w",
+      "kit": "",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "flamingo",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 17,
+  "last": "2026-09-19T07:19:22.889Z"
+}

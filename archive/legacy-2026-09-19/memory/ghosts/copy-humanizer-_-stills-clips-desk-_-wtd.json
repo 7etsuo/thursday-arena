@@ -1,0 +1,42 @@
+{
+  "fp": "copy humanizer | stills clips desk | wtd",
+  "seats": [
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "poteto"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T07:22:11.810Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 2,
+  "updated": "2026-09-19T07:22:11.810Z"
+}

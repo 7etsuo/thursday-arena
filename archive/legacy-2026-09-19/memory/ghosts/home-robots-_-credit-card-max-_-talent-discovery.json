@@ -1,0 +1,58 @@
+{
+  "fp": "home robots | credit card max | talent discovery",
+  "seats": [
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "talent discovery",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "w_j_pratt"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__company-docs-q-a__writing-bot": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 1,
+      "elo": -26,
+      "last": "2026-09-19T05:05:59.902Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__the-morning-newspaper__wtd": {
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "elo": 18,
+      "last": "2026-09-19T05:09:09.075Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__x-brief__the-morning-newspaper": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 1,
+      "elo": -17,
+      "last": "2026-09-19T05:09:27.596Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__the-morning-newspaper__wtd",
+  "plays": 8,
+  "updated": "2026-09-19T05:09:27.596Z"
+}

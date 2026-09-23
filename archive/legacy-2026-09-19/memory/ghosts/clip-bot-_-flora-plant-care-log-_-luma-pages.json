@@ -1,0 +1,33 @@
+{
+  "fp": "clip bot | flora plant care log | luma pages",
+  "seats": [
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "pepsifan013"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-18T22:05:06.013Z"
+}

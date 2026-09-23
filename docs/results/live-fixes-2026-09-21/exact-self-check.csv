@@ -1,0 +1,3 @@
+fold,seed,match,handle,baseline,candidate,baseline_score,candidate_score,delta
+0,917,1,"default_vpc",win,win,1,1,0
+1,917,1,"lighttwrecker",win,win,1,1,0

@@ -1,0 +1,50 @@
+{
+  "fp": "credit card max | meeting recap deck | imogen",
+  "seats": [
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "egy_ee"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__company-docs-q-a__call-follow-ups": {
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "elo": -75,
+      "last": "2026-09-19T05:29:34.053Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__flora-plant-care-log__stills-clips-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -15,
+      "last": "2026-09-19T05:28:30.553Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__company-docs-q-a__call-follow-ups",
+  "plays": 6,
+  "updated": "2026-09-19T05:29:46.215Z"
+}

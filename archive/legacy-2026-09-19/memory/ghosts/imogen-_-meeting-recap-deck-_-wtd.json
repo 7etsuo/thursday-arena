@@ -1,0 +1,82 @@
+{
+  "fp": "imogen | meeting recap deck | wtd",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "bryan_skwirut"
+  ],
+  "matchups": {
+    "recipe-imogen__wtd__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T00:55:42.401Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__call-follow-ups__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:55:49.626Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__hiring-signals__deal-hunting": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T00:59:11.361Z",
+      "lastResult": "loss"
+    },
+    "recipe-company-docs-q-a__flora-plant-care-log__x-brief": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T00:59:35.367Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__copy-humanizer__the-morning-newspaper": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T01:02:02.803Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__stills-clips-desk__recruiting-coordinator": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T01:02:30.812Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__wtd__office-ops-desk",
+  "plays": 6,
+  "updated": "2026-09-19T01:02:55.480Z"
+}

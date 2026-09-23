@@ -1,0 +1,38 @@
+{
+  "id": "recipe-writing-bot__gtm-loop-closer__nyc-parent",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hype",
+    "cover",
+    "bulk"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 11,
+  "last": "2026-09-19T05:11:01.473Z"
+}

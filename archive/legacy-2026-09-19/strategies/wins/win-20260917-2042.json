@@ -1,0 +1,53 @@
+{
+  "id": "win-20260917-2042",
+  "name": "sidestep-bulk-lastword",
+  "result": "win",
+  "plan": "late_spike",
+  "rating_delta": 14,
+  "opponent_tier": "gold",
+  "rounds": "2-0",
+  "curve": {
+    "r1": null,
+    "r2": null,
+    "r3": null
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "Pipeline Pulse",
+      "atk": 3,
+      "hp": 4,
+      "food": null,
+      "kit": "Sidestep"
+    },
+    {
+      "seat": 2,
+      "name": "NYC Parent",
+      "atk": 2,
+      "hp": 6,
+      "food": null,
+      "kit": "Bulk"
+    },
+    {
+      "seat": 3,
+      "name": "Pitch Deck Coach",
+      "atk": 4,
+      "hp": 6,
+      "food": null,
+      "kit": "Last word"
+    }
+  ],
+  "keys": [
+    "sidestep",
+    "bulk_front",
+    "back_snipe",
+    "late_rare"
+  ],
+  "why": "late rare last-word in seat 3 closed out after r2 draw",
+  "reuse": "when pitch deck / last-word rare opens on t3 with bulk mid",
+  "avoid": "don't force without rare last-word piece",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "last_used": "2026-09-17"
+}

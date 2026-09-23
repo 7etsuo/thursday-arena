@@ -1,0 +1,32 @@
+{
+  "handle": "arithemonke",
+  "id": "61bd835d-8d84-48f2-8870-a82a619ade1b",
+  "outcome": "win",
+  "dom": {
+    "title": "Match replay",
+    "text": "THURSDAY ARENA\n@tetsuoai\nGOLD · 1061\nlog out\n\nNo replay here\n\nPLAY A MATCH\nWhat's new",
+    "cards": [
+      {
+        "cls": "h-full antialiased nunito_1108b859-module__PeczNG__variable",
+        "text": "THURSDAY ARENA\n@tetsuoai\nGOLD · 1061\nlog out\n\nNo replay here\n\nPLAY A MATCH\nWhat'",
+        "img": "https://thursdayarena.com/cupcake.png?dpl=dpl_5ZnaYmKCPvWSGZtFdLgnghbcjMfW",
+        "alt": ""
+      },
+      {
+        "cls": "animate-whats-new-in fixed inset-x-0 top-auto bottom-[var(--ticker-h)] m-0 max-h",
+        "text": ""
+      }
+    ],
+    "imgs": [
+      {
+        "src": "https://thursdayarena.com/cupcake.png?dpl=dpl_5ZnaYmKCPvWSGZtFdLgnghbcjMfW",
+        "alt": ""
+      },
+      {
+        "src": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL3Bicy50d2ltZy5jb20vcHJvZmlsZV9pbWFnZXMvMjAzNTI4OTU3MDU5ODkyNDI4OC9rQU9DeUtwVl9ub3JtYWwuanBnIiwicyI6InBRRnZYQzlMcHNTRTRuV0lScE1XS2N3QytvWk9XdVFvdE1PbWhycDIvSEUifQ",
+        "alt": ""
+      }
+    ],
+    "h1": "THURSDAY ARENA"
+  }
+}

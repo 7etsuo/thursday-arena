@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__flora-plant-care-log__lead-pipeline-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "flora plant care log",
+      "kit": "patch",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "flamingo",
+    "patch",
+    "snowball"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-19T01:10:13.937Z"
+}

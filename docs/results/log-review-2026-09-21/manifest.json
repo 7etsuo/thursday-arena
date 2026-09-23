@@ -1,0 +1,15 @@
+{
+  "defense-summary.json": "feb984b692b35c41f8665122228993379c613193a5c93b861f6db535324adb1c",
+  "INPUT_SHA256.txt": "971853643a72651b3ba46ea94df1eb89a9616ce4a493e10ed4bfa8700eb32f79",
+  "status-probe.json": "4d250a461be5d0d92709a76753b11ae012f484962b32b80036ec6f506ccc91b7",
+  "runtime-sha256.txt": "e393952c2732beb92d3acdfdfd48ac7f2a93b9c6695d950ce09cd9f6458dbe8c",
+  "README.md": "c13bc8ae1749608b07679e6d73278c5e124bbeac4337405164faec2c39b05492",
+  "evidence.tgz": "443d4fc6b8e114f5ef244fca53cbc8d983c2ae0f37071dc533c6785047c29df5",
+  "audit-summary.json": "a2c4bffa3a4286e7f8babe45aea46e619bc4f6dc4db4d22f4c8ef56e8588c5da",
+  "fetch-report.json": "292c077d71be68b46bc81dbb2cc8a0489c27bf442c69cfdd402b8ce77f9ee313",
+  "defense-fetch-report.json": "27574f85b209523199dd65286c10ba260e415470e93dde808ec3c8db039ff6a8",
+  "trace-classification.json": "f3e2c15b81c794a0caea4b32ec4b3fe6640e0b60f2e49c3a5bf7c899dc91a8a1",
+  "inventory.json": "202b9fbd74834b1d31b6842801646cdcc332e357c754ca23859986e987213047",
+  "decision-summary.json": "2243685d853f8988a4e023af2a81c5e5f976d225a87dfd6b32697ce734501e0d",
+  "evidence.tgz.sha256": "554f48255ddcc5575972f059b5b287103f9ad63650784872b857ba6e2ebcd0d9"
+}

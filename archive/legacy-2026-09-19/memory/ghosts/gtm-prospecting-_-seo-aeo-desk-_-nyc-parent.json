@@ -1,0 +1,107 @@
+{
+  "fp": "gtm prospecting | seo aeo desk | nyc parent",
+  "seats": [
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "rywelski",
+    "schuylercoleman"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__x-brief__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:35:04.221Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__video-edit-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:35:17.054Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__pipeline-pulse__deal-hunting": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T22:35:23.002Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__company-docs-q-a__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:35:31.609Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__recruiting-coordinator": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T22:35:42.334Z",
+      "lastResult": "loss"
+    },
+    "recipe-product-support-inbox-assistant__cooper__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:35:51.085Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__credit-card-max__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:37:22.416Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__imogen__writing-bot": {
+      "wins": 6,
+      "losses": 0,
+      "draws": 0,
+      "elo": 68,
+      "last": "2026-09-19T05:23:47.894Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__company-docs-q-a__imogen": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "elo": -41,
+      "last": "2026-09-19T05:24:23.303Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__imogen__writing-bot",
+  "plays": 15,
+  "updated": "2026-09-19T05:24:29.497Z"
+}

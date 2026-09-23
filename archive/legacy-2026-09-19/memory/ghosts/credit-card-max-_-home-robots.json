@@ -1,0 +1,26 @@
+{
+  "fp": "credit card max | home robots",
+  "seats": [
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "w_j_pratt"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T05:09:21.628Z"
+}

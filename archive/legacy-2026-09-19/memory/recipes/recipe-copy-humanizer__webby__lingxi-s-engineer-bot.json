@@ -1,0 +1,38 @@
+{
+  "id": "recipe-copy-humanizer__webby__lingxi-s-engineer-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "lingxi s engineer bot",
+      "kit": "first_seat",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "flamingo",
+    "bulk",
+    "first_seat"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 5,
+  "last": "2026-09-19T00:39:59.106Z"
+}

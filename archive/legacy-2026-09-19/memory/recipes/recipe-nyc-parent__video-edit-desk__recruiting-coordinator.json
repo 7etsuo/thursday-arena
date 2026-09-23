@@ -1,0 +1,38 @@
+{
+  "id": "recipe-nyc-parent__video-edit-desk__recruiting-coordinator",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "video edit desk",
+      "kit": "wake",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "bulk",
+    "wake",
+    "dodo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 7,
+  "last": "2026-09-18T21:38:56.052Z"
+}

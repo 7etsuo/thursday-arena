@@ -1,0 +1,38 @@
+{
+  "id": "recipe-company-docs-q-a__pipeline-pulse__product-idea-stress-test",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "product idea stress test",
+      "kit": "dump",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "guard",
+    "sidestep",
+    "dump"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -29,
+  "last": "2026-09-18T20:47:43.348Z"
+}

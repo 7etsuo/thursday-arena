@@ -1,0 +1,2 @@
+{"event":"batch_start","ts":"2026-09-18T23:45:41.010Z","gamesTarget":15,"pollMs":40}
+{"event":"error","ts":"2026-09-18T23:45:41.749Z","message":"arena HTTP 429: {\"error\":\"overloaded\"}\n","stack":"Error: arena HTTP 429: {\"error\":\"overloaded\"}\n\n    at unwrap (/workspace/thursday-arena/lib/arena.js:63:15)\n    at Object.observe (/workspace/thursday-arena/lib/arena.js:91:15)\n    at async main (/workspace/thursday-arena/driver/play_loop.js:1869:13)"}

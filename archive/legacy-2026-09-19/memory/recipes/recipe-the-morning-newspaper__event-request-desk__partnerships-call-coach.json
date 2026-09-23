@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__event-request-desk__partnerships-call-coach",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "event request desk",
+      "kit": "sidestep",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "flamingo",
+    "sidestep",
+    "spotlight"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -11,
+  "last": "2026-09-18T21:51:13.018Z"
+}

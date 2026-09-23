@@ -1,0 +1,38 @@
+{
+  "id": "recipe-ad-spend-watch__credit-card-max__apple-search-ads-review",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "ad spend watch",
+      "kit": "sting",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "sting",
+    "grow",
+    "grow"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-19T01:24:23.444Z"
+}

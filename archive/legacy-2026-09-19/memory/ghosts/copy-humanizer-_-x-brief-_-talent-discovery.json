@@ -1,0 +1,74 @@
+{
+  "fp": "copy humanizer | x brief | talent discovery",
+  "seats": [
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "talent discovery",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "devarminas"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__flora-plant-care-log__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -21,
+      "last": "2026-09-18T21:49:17.423Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__credit-card-max__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 12,
+      "last": "2026-09-18T21:49:37.548Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 12,
+      "last": "2026-09-18T21:49:58.354Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__site-audit__pipeline-pulse": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -21,
+      "last": "2026-09-18T21:50:18.086Z",
+      "lastResult": "loss"
+    },
+    "recipe-company-docs-q-a__webby__office-ops-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -20,
+      "last": "2026-09-18T21:50:36.926Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__call-follow-ups__wtd",
+  "plays": 5,
+  "updated": "2026-09-18T21:50:36.926Z"
+}

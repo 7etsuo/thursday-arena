@@ -1,0 +1,38 @@
+{
+  "id": "recipe-copy-humanizer__nightly-audit-engineer__executive-assistant",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "executive assistant",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "flamingo",
+    "cover",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 0,
+  "losses": 2,
+  "elo": -52,
+  "last": "2026-09-19T04:25:50.224Z"
+}

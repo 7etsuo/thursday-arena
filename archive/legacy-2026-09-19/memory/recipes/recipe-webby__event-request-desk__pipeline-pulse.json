@@ -1,0 +1,38 @@
+{
+  "id": "recipe-webby__event-request-desk__pipeline-pulse",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "event request desk",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "bulk",
+    "sidestep",
+    "sidestep"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -20,
+  "last": "2026-09-18T21:24:38.935Z"
+}

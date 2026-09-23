@@ -1,0 +1,74 @@
+{
+  "fp": "tech demos | meeting recap deck | home robots",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "cwmaguire"
+  ],
+  "matchups": {
+    "recipe-webby__pipeline-pulse__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:44:28.958Z",
+      "lastResult": "win"
+    },
+    "recipe-seo-aeo-desk__webby__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:44:48.229Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__seo-aeo-desk__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:45:05.743Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__company-docs-q-a__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:45:30.512Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__cooper__recruiting-coordinator": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:45:58.006Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__cooper__recruiting-coordinator",
+  "plays": 5,
+  "updated": "2026-09-18T23:45:58.006Z"
+}

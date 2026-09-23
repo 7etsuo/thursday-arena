@@ -1,0 +1,38 @@
+{
+  "id": "recipe-office-ops-desk__the-morning-newspaper__video-edit-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "video edit desk",
+      "kit": "wake",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "hold_the_line",
+    "flamingo",
+    "wake"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-19T01:50:10.751Z"
+}

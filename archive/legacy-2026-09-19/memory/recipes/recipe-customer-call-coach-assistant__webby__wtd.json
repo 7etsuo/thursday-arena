@@ -1,0 +1,38 @@
+{
+  "id": "recipe-customer-call-coach-assistant__webby__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "customer call coach assistant",
+      "kit": "peacock",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "peacock",
+    "bulk",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 16,
+  "last": "2026-09-19T05:15:33.855Z"
+}

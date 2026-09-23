@@ -1,0 +1,38 @@
+{
+  "id": "recipe-writing-bot__imogen__signal-prospector",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hype",
+    "bulk",
+    "mosquito"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 14,
+  "last": "2026-09-19T06:53:54.150Z"
+}

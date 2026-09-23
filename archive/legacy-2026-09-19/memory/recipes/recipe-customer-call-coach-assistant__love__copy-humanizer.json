@@ -1,0 +1,38 @@
+{
+  "id": "recipe-customer-call-coach-assistant__love__copy-humanizer",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "customer call coach assistant",
+      "kit": "peacock",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "peacock",
+    "patch",
+    "flamingo"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -10,
+  "last": "2026-09-18T11:27:34.285Z"
+}

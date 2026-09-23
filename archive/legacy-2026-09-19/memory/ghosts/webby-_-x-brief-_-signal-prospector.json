@@ -1,0 +1,42 @@
+{
+  "fp": "webby | x brief | signal prospector",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "s3xyfuture"
+  ],
+  "matchups": {
+    "recipe-customer-call-coach-assistant__outbound-prospecting__meeting-recap-deck": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T22:47:43.478Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-customer-call-coach-assistant__outbound-prospecting__meeting-recap-deck",
+  "plays": 1,
+  "updated": "2026-09-18T22:47:43.478Z"
+}

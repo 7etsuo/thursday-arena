@@ -1,0 +1,38 @@
+{
+  "id": "recipe-projects-manager__writing-bot__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "projects manager",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "hype",
+    "hype",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -25,
+  "last": "2026-09-19T02:06:06.419Z"
+}

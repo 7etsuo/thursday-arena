@@ -1,0 +1,38 @@
+{
+  "id": "recipe-imogen__call-follow-ups__site-audit",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "site audit",
+      "kit": "pin",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "bulk",
+    "echo",
+    "pin"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-19T00:22:26.699Z"
+}

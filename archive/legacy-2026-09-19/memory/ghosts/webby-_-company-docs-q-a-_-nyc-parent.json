@@ -1,0 +1,106 @@
+{
+  "fp": "webby | company docs q a | nyc parent",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "andyscott727"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__meeting-recap-deck__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-19T00:34:52.441Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__the-morning-newspaper__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-19T00:34:58.925Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__credit-card-max__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-19T00:35:07.208Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__seo-aeo-desk__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-19T00:35:15.836Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__customer-proof-desk__luma-pages": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -8,
+      "last": "2026-09-19T00:35:26.723Z",
+      "lastResult": "draw"
+    },
+    "recipe-the-morning-newspaper__wtd__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-19T00:35:33.823Z",
+      "lastResult": "win"
+    },
+    "recipe-love__x-brief__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-19T00:35:41.623Z",
+      "lastResult": "win"
+    },
+    "recipe-cooper__writing-bot__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-19T00:35:50.119Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__wtd__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-19T00:36:01.113Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__the-morning-newspaper__copy-humanizer",
+  "plays": 9,
+  "updated": "2026-09-19T00:36:01.113Z"
+}

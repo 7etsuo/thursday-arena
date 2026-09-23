@@ -1,0 +1,38 @@
+{
+  "id": "recipe-lingxi-s-engineer-bot__stills-clips-desk__lead-pipeline-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "lingxi s engineer bot",
+      "kit": "first_seat",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "stills clips desk",
+      "kit": "wake",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "first_seat",
+    "wake",
+    "snowball"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-18T12:55:55.273Z"
+}

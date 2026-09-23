@@ -1,0 +1,38 @@
+{
+  "id": "recipe-credit-card-max__lead-pipeline-desk__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "grow",
+    "snowball",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 2,
+  "losses": 0,
+  "elo": 11,
+  "last": "2026-09-19T01:04:50.856Z"
+}

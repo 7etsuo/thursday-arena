@@ -1,0 +1,75 @@
+{
+  "fp": "flora plant care log | luma pages",
+  "seats": [
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mytonlopez"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__meeting-recap-deck__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:28:20.519Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__webby__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:28:52.317Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__imogen__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:29:23.983Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__cooper__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:29:44.018Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__projects-manager__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:29:52.166Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__copy-humanizer__deal-hunting": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:29:59.650Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__copy-humanizer__deal-hunting",
+  "plays": 6,
+  "updated": "2026-09-19T02:30:18.426Z"
+}

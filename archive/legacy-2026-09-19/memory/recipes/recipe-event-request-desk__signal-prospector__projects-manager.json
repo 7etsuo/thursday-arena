@@ -1,0 +1,38 @@
+{
+  "id": "recipe-event-request-desk__signal-prospector__projects-manager",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "event request desk",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "projects manager",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "sidestep",
+    "mosquito",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 6,
+  "last": "2026-09-18T11:39:02.941Z"
+}

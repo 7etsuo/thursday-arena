@@ -1,0 +1,26 @@
+{
+  "fp": "tech demos | credit card max",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "as42tsx"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T07:00:17.663Z"
+}

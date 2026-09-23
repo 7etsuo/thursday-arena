@@ -1,0 +1,42 @@
+{
+  "fp": "event producer | gtm connections | hiring signals",
+  "seats": [
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "stevca369"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T04:55:43.974Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__company-docs-q-a__writing-bot",
+  "plays": 1,
+  "updated": "2026-09-19T04:55:43.974Z"
+}

@@ -1,0 +1,24 @@
+---
+description: Thursday Arena bot — canonical rules and architecture
+alwaysApply: true
+---
+
+Read `AGENTS.md` at the repo root before changing anything. It is the canonical handbook:
+architecture, hard rules, commands, invariants, how to verify a change, and where the evidence lives.
+
+The five that bite hardest:
+
+1. Never point a browser at `~/.config/google-chrome`. `lib/cdp.js` refuses it — Playwright's
+   `--use-mock-keychain` made Chrome wipe the user's cookies once already, unrecoverably. Use the
+   dedicated profile (`ARENA_PROFILE`).
+2. `npm test`, `npm run eval`, `tools/eval_matches.js`, `tools/merge_book.js`, and
+   `npm run book:build` use local data. `play:dry` reads the live account without an arena POST;
+   `rank` is live and read-only. Play and climb spend rating; MCP's `arena_act` can mutate.
+3. Never reintroduce heuristics — archetype labels, name ban/prefer lists, "recipes", threat
+   formulas. All were measured worse than the simulator and deleted. `lib/sim.js` is ground truth and
+   must keep matching all 10,748 recorded winners and the recorded frame checks.
+4. Don't edit code while rated games are running. Stop the loop, change, test, restart.
+5. A planner change ships only if `tools/eval_matches.js` beats the baseline on both seasons.
+
+`lib/planner.js` is the only module that decides anything. `driver/play_loop.js` turns its output
+into server actions safely and holds no strategy.

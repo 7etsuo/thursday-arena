@@ -1,0 +1,38 @@
+{
+  "id": "recipe-meeting-recap-deck__hiring-signals__executive-assistant",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "hiring signals",
+      "kit": "backtap",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "executive assistant",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "backtap",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 9,
+  "last": "2026-09-18T23:07:49.853Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-product-support-inbox-assistant__pipeline-pulse__call-follow-ups",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "patch",
+    "sidestep",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-18T23:59:07.437Z"
+}

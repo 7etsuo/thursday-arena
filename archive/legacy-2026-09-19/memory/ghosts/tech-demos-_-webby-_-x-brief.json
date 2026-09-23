@@ -1,0 +1,50 @@
+{
+  "fp": "tech demos | webby | x brief",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 6,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "bankkk_than"
+  ],
+  "matchups": {
+    "recipe-nightly-audit-engineer__flora-plant-care-log__cooper": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T04:46:11.152Z",
+      "lastResult": "loss"
+    },
+    "recipe-event-request-desk__writing-bot__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T04:48:18.677Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-event-request-desk__writing-bot__writing-bot",
+  "plays": 2,
+  "updated": "2026-09-19T04:48:18.677Z"
+}

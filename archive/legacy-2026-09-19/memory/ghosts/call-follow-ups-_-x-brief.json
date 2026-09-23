@@ -1,0 +1,164 @@
+{
+  "fp": "call follow ups | x brief",
+  "seats": [
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "audvin",
+    "vibeleiz"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__pipeline-pulse__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:58:39.027Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__outbound-prospecting__critiquito-design-critique": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:58:47.215Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__projects-manager__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:58:56.340Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__webby__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:59:41.838Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__stills-clips-desk__recruiting-coordinator": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:00:00.233Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__deal-hunting__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:00:14.496Z",
+      "lastResult": "win"
+    },
+    "recipe-writing-bot__luma-pages__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:00:25.075Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__imogen__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:00:33.294Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__event-request-desk__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:00:44.977Z",
+      "lastResult": "win"
+    },
+    "recipe-product-support-inbox-assistant__flora-plant-care-log__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:01:34.968Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:01:40.624Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__deal-hunting__product-support-inbox-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:01:47.927Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__x-brief__gtm-prospecting": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:01:55.299Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__office-ops-desk__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:02:24.074Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__luma-pages__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:02:46.325Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__deal-hunting__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:03:09.435Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__pipeline-pulse__recruiting-coordinator": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:03:26.047Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__deal-hunting__company-docs-q-a",
+  "plays": 17,
+  "updated": "2026-09-19T07:25:56.826Z"
+}

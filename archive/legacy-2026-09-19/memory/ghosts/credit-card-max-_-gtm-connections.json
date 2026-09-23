@@ -1,0 +1,26 @@
+{
+  "fp": "credit card max | gtm connections",
+  "seats": [
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ai"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T07:00:01.211Z"
+}

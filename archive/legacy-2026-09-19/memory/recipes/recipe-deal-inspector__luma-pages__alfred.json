@@ -1,0 +1,38 @@
+{
+  "id": "recipe-deal-inspector__luma-pages__alfred",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "deal inspector",
+      "kit": "cover",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "alfred",
+      "kit": "last_word",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "cover",
+    "hype",
+    "last_word"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 6,
+  "last": "2026-09-18T12:18:41.462Z"
+}

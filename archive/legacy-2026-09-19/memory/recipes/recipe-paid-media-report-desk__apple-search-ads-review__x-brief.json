@@ -1,0 +1,38 @@
+{
+  "id": "recipe-paid-media-report-desk__apple-search-ads-review__x-brief",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "paid media report desk",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "grow",
+    "grow",
+    "echo"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -18,
+  "last": "2026-09-18T21:26:44.048Z"
+}

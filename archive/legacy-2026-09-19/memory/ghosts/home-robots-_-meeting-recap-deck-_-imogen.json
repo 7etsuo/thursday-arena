@@ -1,0 +1,106 @@
+{
+  "fp": "home robots | meeting recap deck | imogen",
+  "seats": [
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sergiocastillop"
+  ],
+  "matchups": {
+    "recipe-webby__the-morning-newspaper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:39:40.055Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__pipeline-pulse__seo-aeo-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:39:46.829Z",
+      "lastResult": "win"
+    },
+    "recipe-stills-clips-desk__call-follow-ups__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:40:18.915Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__credit-card-max__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:41:02.612Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__hiring-signals__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:41:18.486Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__event-request-desk__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:41:26.844Z",
+      "lastResult": "win"
+    },
+    "recipe-outbound-prospecting__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:41:43.299Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__copy-humanizer__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:41:51.819Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__outbound-prospecting__event-request-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:42:00.976Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__event-request-desk__meeting-recap-deck",
+  "plays": 9,
+  "updated": "2026-09-18T12:42:00.976Z"
+}

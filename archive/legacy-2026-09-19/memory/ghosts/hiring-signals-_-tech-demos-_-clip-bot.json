@@ -1,0 +1,90 @@
+{
+  "fp": "hiring signals | tech demos | clip bot",
+  "seats": [
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sandramp"
+  ],
+  "matchups": {
+    "recipe-call-follow-ups__projects-manager__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:33:20.494Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__meeting-recap-deck__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:33:29.864Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__copy-humanizer__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:33:36.514Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__video-edit-desk__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:33:43.823Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__cooper__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:34:05.152Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__meeting-recap-deck__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:34:24.236Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__office-ops-desk__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:38:00.965Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__office-ops-desk__imogen",
+  "plays": 7,
+  "updated": "2026-09-18T12:38:00.965Z"
+}

@@ -1,0 +1,50 @@
+{
+  "fp": "seo aeo desk | executive assistant | flora plant care log",
+  "seats": [
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "executive assistant",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 9,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thatretireddude"
+  ],
+  "matchups": {
+    "recipe-ai-search-visibility__seo-aeo-desk__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -14,
+      "last": "2026-09-19T07:01:09.744Z",
+      "lastResult": "loss"
+    },
+    "recipe-meeting-recap-deck__researchy": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -13,
+      "last": "2026-09-19T07:01:21.600Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-meeting-recap-deck__researchy",
+  "plays": 2,
+  "updated": "2026-09-19T07:01:21.600Z"
+}

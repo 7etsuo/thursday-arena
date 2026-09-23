@@ -1,0 +1,38 @@
+{
+  "id": "recipe-paid-media-report-desk__apple-search-ads-review__gtm-loop-closer",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "paid media report desk",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "grow",
+    "grow",
+    "cover"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 5,
+  "last": "2026-09-18T12:10:09.483Z"
+}

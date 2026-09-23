@@ -1,0 +1,26 @@
+{
+  "fp": "webby | clip bot",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "irsthaeth"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-18T11:58:33.944Z"
+}

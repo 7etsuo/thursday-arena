@@ -1,0 +1,50 @@
+{
+  "fp": "office ops desk | stills clips desk | deal inspector",
+  "seats": [
+    {
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "deal inspector",
+      "kit": "cover",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "gavinodysseaus"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__video-edit-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T11:21:15.508Z",
+      "lastResult": "win"
+    },
+    "recipe-sales-call-coach__x-brief__video-edit-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T11:23:20.801Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-sales-call-coach__x-brief__video-edit-desk",
+  "plays": 2,
+  "updated": "2026-09-18T11:23:29.747Z"
+}

@@ -1,0 +1,106 @@
+{
+  "fp": "video edit desk | webby | office ops desk",
+  "seats": [
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "nehood45"
+  ],
+  "matchups": {
+    "recipe-imogen__credit-card-max__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:18:07.412Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__video-edit-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:18:14.487Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__writing-bot__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:18:21.331Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__hiring-signals__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:18:28.881Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__video-edit-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:18:48.967Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__copy-humanizer__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:18:55.967Z",
+      "lastResult": "win"
+    },
+    "recipe-signal-prospector__apple-search-ads-review__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:19:03.160Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__writing-bot__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:19:10.097Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__apple-search-ads-review__flora-plant-care-log": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:19:28.438Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__hiring-signals__luma-pages",
+  "plays": 9,
+  "updated": "2026-09-18T12:19:28.438Z"
+}

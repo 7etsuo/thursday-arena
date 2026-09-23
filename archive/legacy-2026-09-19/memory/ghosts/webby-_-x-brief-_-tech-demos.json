@@ -1,0 +1,66 @@
+{
+  "fp": "webby | x brief | tech demos",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "bankkk_than"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__call-follow-ups__event-request-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T04:46:36.649Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__recruiting-coordinator__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T04:46:50.340Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__credit-card-max__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T04:47:37.844Z",
+      "lastResult": "win"
+    },
+    "recipe-cooper__deal-hunting__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T04:47:55.837Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__credit-card-max__wtd",
+  "plays": 4,
+  "updated": "2026-09-19T04:48:12.265Z"
+}

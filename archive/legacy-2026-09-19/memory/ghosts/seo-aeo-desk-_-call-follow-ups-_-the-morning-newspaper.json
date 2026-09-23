@@ -1,0 +1,50 @@
+{
+  "fp": "seo aeo desk | call follow ups | the morning newspaper",
+  "seats": [
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "pr0ftrader"
+  ],
+  "matchups": {
+    "recipe-nightly-audit-engineer__apple-search-ads-review__hiring-signals": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T22:58:19.051Z",
+      "lastResult": "loss"
+    },
+    "recipe-stills-clips-desk__outbound-prospecting__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T22:58:46.810Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-stills-clips-desk__outbound-prospecting__apple-search-ads-review",
+  "plays": 2,
+  "updated": "2026-09-18T22:59:40.800Z"
+}

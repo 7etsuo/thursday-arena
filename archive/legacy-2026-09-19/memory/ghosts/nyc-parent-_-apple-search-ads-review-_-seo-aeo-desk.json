@@ -1,0 +1,42 @@
+{
+  "fp": "nyc parent | apple search ads review | seo aeo desk",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mitchellbwright"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__event-request-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:18:57.890Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__event-request-desk",
+  "plays": 1,
+  "updated": "2026-09-19T03:18:57.890Z"
+}

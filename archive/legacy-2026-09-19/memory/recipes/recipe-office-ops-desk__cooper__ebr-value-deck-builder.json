@@ -1,0 +1,38 @@
+{
+  "id": "recipe-office-ops-desk__cooper__ebr-value-deck-builder",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hold_the_line",
+    "echo",
+    "dump"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": 2,
+  "last": "2026-09-19T05:05:45.829Z"
+}

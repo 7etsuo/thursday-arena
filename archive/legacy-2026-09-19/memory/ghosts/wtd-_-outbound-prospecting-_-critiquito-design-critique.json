@@ -1,0 +1,74 @@
+{
+  "fp": "wtd | outbound prospecting | critiquito design critique",
+  "seats": [
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "muljat"
+  ],
+  "matchups": {
+    "recipe-paid-media-report-desk__gtm-loop-closer__signal-prospector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:04:12.507Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__ai-search-visibility__video-edit-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:04:25.125Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__copy-humanizer__copy-humanizer": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T23:04:34.875Z",
+      "lastResult": "draw"
+    },
+    "recipe-copy-humanizer__love__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:04:48.085Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__gtm-loop-closer__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:05:33.367Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__gtm-loop-closer__writing-bot",
+  "plays": 5,
+  "updated": "2026-09-18T23:05:33.367Z"
+}

@@ -1,0 +1,96 @@
+{
+  "rulesOnlyS3": {
+    "3": {
+      "n": 100,
+      "before": {
+        "win": 77,
+        "loss": 19,
+        "draw": 4
+      },
+      "after": {
+        "win": 77,
+        "loss": 19,
+        "draw": 4
+      },
+      "beforePoints": 79,
+      "afterPoints": 79,
+      "improved": 0,
+      "worsened": 0,
+      "equal": 100,
+      "seedDeltas": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "interval": [
+        0,
+        0
+      ],
+      "delta": 0
+    }
+  },
+  "historical": {
+    "1": {
+      "n": 100,
+      "before": {
+        "win": 87,
+        "loss": 9,
+        "draw": 4
+      },
+      "after": {
+        "win": 87,
+        "loss": 9,
+        "draw": 4
+      },
+      "beforePoints": 89,
+      "afterPoints": 89,
+      "improved": 0,
+      "worsened": 0,
+      "equal": 100,
+      "seedDeltas": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "interval": [
+        0,
+        0
+      ],
+      "delta": 0
+    },
+    "2": {
+      "n": 100,
+      "before": {
+        "win": 72,
+        "loss": 16,
+        "draw": 12
+      },
+      "after": {
+        "win": 72,
+        "loss": 16,
+        "draw": 12
+      },
+      "beforePoints": 78,
+      "afterPoints": 78,
+      "improved": 0,
+      "worsened": 0,
+      "equal": 100,
+      "seedDeltas": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "interval": [
+        0,
+        0
+      ],
+      "delta": 0
+    }
+  }
+}

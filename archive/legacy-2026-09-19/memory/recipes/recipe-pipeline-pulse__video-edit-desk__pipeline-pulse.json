@@ -1,0 +1,38 @@
+{
+  "id": "recipe-pipeline-pulse__video-edit-desk__pipeline-pulse",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "video edit desk",
+      "kit": "wake",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "sidestep",
+    "wake",
+    "sidestep"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-18T23:19:36.937Z"
+}

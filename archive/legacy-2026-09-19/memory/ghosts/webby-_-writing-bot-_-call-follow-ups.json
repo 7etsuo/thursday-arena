@@ -1,0 +1,82 @@
+{
+  "fp": "webby | writing bot | call follow ups",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "aj121503"
+  ],
+  "matchups": {
+    "recipe-customer-call-coach-assistant__pipeline-pulse__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T11:14:55.743Z",
+      "lastResult": "loss"
+    },
+    "recipe-luma-pages__customer-call-coach-assistant__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T11:15:21.134Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__copy-humanizer__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T11:15:45.035Z",
+      "lastResult": "loss"
+    },
+    "recipe-stills-clips-desk__hiring-signals__stills-clips-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T11:15:54.584Z",
+      "lastResult": "loss"
+    },
+    "recipe-love__company-docs-q-a__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T11:16:04.709Z",
+      "lastResult": "loss"
+    },
+    "recipe-pipeline-pulse__flora-plant-care-log__company-docs-q-a": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -22,
+      "last": "2026-09-18T11:16:38.704Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-pipeline-pulse__flora-plant-care-log__company-docs-q-a",
+  "plays": 6,
+  "updated": "2026-09-18T11:16:38.704Z"
+}

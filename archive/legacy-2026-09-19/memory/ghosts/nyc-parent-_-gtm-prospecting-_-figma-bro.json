@@ -1,0 +1,98 @@
+{
+  "fp": "nyc parent | gtm prospecting | figma bro",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "love2bnomads"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__apple-search-ads-review__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:05:16.094Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__apple-search-ads-review__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:05:35.485Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__luma-pages__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:05:43.904Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:05:52.285Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__credit-card-max__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:05:59.271Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__cooper__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:06:22.653Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__seo-aeo-desk__ai-search-visibility": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:06:29.465Z",
+      "lastResult": "win"
+    },
+    "recipe-apple-search-ads-review__cooper__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:06:37.292Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__credit-card-max__office-ops-desk",
+  "plays": 8,
+  "updated": "2026-09-18T22:06:37.292Z"
+}

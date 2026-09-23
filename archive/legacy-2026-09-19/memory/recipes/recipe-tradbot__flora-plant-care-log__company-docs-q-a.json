@@ -1,0 +1,38 @@
+{
+  "id": "recipe-tradbot__flora-plant-care-log__company-docs-q-a",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "tradbot",
+      "kit": "guard",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "flora plant care log",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "guard",
+    "patch",
+    "guard"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -14,
+  "last": "2026-09-19T01:11:40.476Z"
+}

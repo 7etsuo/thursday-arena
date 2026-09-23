@@ -1,0 +1,39 @@
+{
+  "id": "recipe-imogen__tradbot__nightly-audit-engineer",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "tradbot",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "guard",
+    "cover"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 1,
+  "elo": -3,
+  "last": "2026-09-19T07:25:08.887Z"
+}

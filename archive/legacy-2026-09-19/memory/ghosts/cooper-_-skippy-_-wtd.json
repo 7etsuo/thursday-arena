@@ -1,0 +1,66 @@
+{
+  "fp": "cooper | skippy | wtd",
+  "seats": [
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "kennychoww1"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__copy-humanizer__recruiting-coordinator": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:49:26.531Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:50:22.626Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__tradbot__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:50:49.617Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__tradbot__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:51:01.482Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__tradbot__company-docs-q-a",
+  "plays": 4,
+  "updated": "2026-09-19T03:51:01.482Z"
+}

@@ -1,0 +1,74 @@
+{
+  "fp": "dial bot | nyc parent | account research desk",
+  "seats": [
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "account research desk",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "akhadse26"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__video-edit-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:09:34.485Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__pipeline-pulse__ebr-value-deck-builder": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:09:44.581Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__nightly-audit-engineer__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:10:08.316Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:10:25.989Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__hiring-signals": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T21:10:35.177Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__copy-humanizer__webby",
+  "plays": 5,
+  "updated": "2026-09-18T21:10:35.177Z"
+}

@@ -1,0 +1,74 @@
+{
+  "fp": "account research desk | sales call coach | tradbot",
+  "seats": [
+    {
+      "name": "account research desk",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 7,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "tradbot",
+      "kit": "guard",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jst_icn71"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__stills-clips-desk__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:46:38.981Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__cooper__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:46:52.741Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__webby": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T12:47:02.986Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__copy-humanizer__x-brief": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T12:47:14.942Z",
+      "lastResult": "loss"
+    },
+    "recipe-stills-clips-desk__call-follow-ups__alfred": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-18T12:47:46.213Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__stills-clips-desk__call-follow-ups",
+  "plays": 5,
+  "updated": "2026-09-18T12:47:46.213Z"
+}

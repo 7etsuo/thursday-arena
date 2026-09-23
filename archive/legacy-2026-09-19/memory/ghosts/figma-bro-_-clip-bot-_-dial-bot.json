@@ -1,0 +1,98 @@
+{
+  "fp": "figma bro | clip bot | dial bot",
+  "seats": [
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "kristajoypalmer"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__deal-inspector__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:10:53.073Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__cooper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:11:00.804Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:11:08.575Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__video-edit-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:11:15.686Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:11:23.477Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__call-follow-ups__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:11:40.689Z",
+      "lastResult": "win"
+    },
+    "recipe-meeting-recap-deck__wtd__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:11:49.729Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__nightly-audit-engineer__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:11:57.183Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__deal-inspector__wtd",
+  "plays": 8,
+  "updated": "2026-09-18T21:12:03.288Z"
+}

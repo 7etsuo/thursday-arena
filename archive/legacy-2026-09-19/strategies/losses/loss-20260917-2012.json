@@ -1,0 +1,52 @@
+{
+  "id": "loss-20260917-2012",
+  "name": "firstseat-tempo-whiff",
+  "result": "loss",
+  "plan": "tempo",
+  "rating_delta": -3,
+  "opponent_tier": "gold",
+  "rounds": "0-2",
+  "curve": {
+    "r1": null,
+    "r2": null,
+    "r3": null
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "Tech Demos",
+      "atk": 4,
+      "hp": 5,
+      "food": null,
+      "kit": "First seat"
+    },
+    {
+      "seat": 2,
+      "name": "WTD",
+      "atk": 4,
+      "hp": 4,
+      "food": null,
+      "kit": "Hype"
+    },
+    {
+      "seat": 3,
+      "name": "Cooper",
+      "atk": 2,
+      "hp": 5,
+      "food": null,
+      "kit": "Echo"
+    }
+  ],
+  "keys": [
+    "first_seat",
+    "hype",
+    "echo"
+  ],
+  "why": "first-seat jumper + hype/echo failed to steal rounds",
+  "reuse": "do not reuse",
+  "avoid": "don't force first-seat tempo vs strong ghosts",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "last_used": "2026-09-17"
+}

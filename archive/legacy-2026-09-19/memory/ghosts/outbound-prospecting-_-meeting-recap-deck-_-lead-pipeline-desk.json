@@ -1,0 +1,66 @@
+{
+  "fp": "outbound prospecting | meeting recap deck | lead pipeline desk",
+  "seats": [
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "domcanada"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__the-morning-newspaper__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:29:00.550Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T00:29:17.345Z",
+      "lastResult": "win"
+    },
+    "recipe-sales-call-coach__company-docs-q-a__signal-prospector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T00:29:25.289Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T00:30:00.170Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__luma-pages",
+  "plays": 4,
+  "updated": "2026-09-19T00:30:35.924Z"
+}

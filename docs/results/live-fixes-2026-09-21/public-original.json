@@ -1,0 +1,23 @@
+{
+  "matches": 100,
+  "rounds": 239,
+  "winnerMatches": 239,
+  "frameExact": 237,
+  "note": "Seat and fight captain metadata inferred from these same battle frames; diagnostic replay only.",
+  "differences": [
+    {
+      "id": "eb9da821-bcb1-4e54-acaa-6a202a27c4fc",
+      "round": 0,
+      "at": 1,
+      "got": "Enemy Builders crew: +2/+3 to their front bot",
+      "expected": "Outbound Prospecting snipes Flora: Plant Care Log for 1"
+    },
+    {
+      "id": "eb9da821-bcb1-4e54-acaa-6a202a27c4fc",
+      "round": 1,
+      "at": 3,
+      "got": "Personal crew: +1/+1 to 2 of your bots",
+      "expected": "Energy drink: Icebreaker +3 ATK"
+    }
+  ]
+}

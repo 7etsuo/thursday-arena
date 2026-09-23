@@ -1,0 +1,50 @@
+{
+  "fp": "ad spend watch | credit card max | apple search ads review",
+  "seats": [
+    {
+      "name": "ad spend watch",
+      "kit": "sting",
+      "atk": 6,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jgabrielgruber"
+  ],
+  "matchups": {
+    "recipe-imogen__company-docs-q-a__company-docs-q-a": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T12:16:16.318Z",
+      "lastResult": "loss"
+    },
+    "recipe-tradbot__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:16:27.779Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-tradbot__call-follow-ups__wtd",
+  "plays": 2,
+  "updated": "2026-09-18T12:16:27.779Z"
+}

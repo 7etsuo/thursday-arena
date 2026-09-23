@@ -1,0 +1,38 @@
+{
+  "id": "recipe-imogen__meeting-recap-deck__account-research-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "account research desk",
+      "kit": "last_word",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "bulk",
+    "echo",
+    "last_word"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-19T02:52:42.508Z"
+}

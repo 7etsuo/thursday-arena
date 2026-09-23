@@ -1,0 +1,33 @@
+{
+  "fp": "copy humanizer | x brief | flora plant care log",
+  "seats": [
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "taxzy920"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-18T12:15:36.839Z"
+}

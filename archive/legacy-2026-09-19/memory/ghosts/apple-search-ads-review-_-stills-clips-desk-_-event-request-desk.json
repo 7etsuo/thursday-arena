@@ -1,0 +1,106 @@
+{
+  "fp": "apple search ads review | stills clips desk | event request desk",
+  "seats": [
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "kononovme"
+  ],
+  "matchups": {
+    "recipe-flora-plant-care-log__gtm-prospecting__hiring-signals": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-18T21:41:12.036Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__company-docs-q-a__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T21:41:21.599Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__customer-call-coach-assistant__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T21:41:32.572Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__product-support-inbox-assistant__account-research-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -8,
+      "last": "2026-09-18T21:41:42.879Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__webby__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T21:41:53.786Z",
+      "lastResult": "win"
+    },
+    "recipe-love__video-edit-desk__hiring-signals": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-18T21:42:01.276Z",
+      "lastResult": "loss"
+    },
+    "recipe-company-docs-q-a__webby__meeting-recap-deck": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T21:42:09.464Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__recruiting-coordinator__executive-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-18T21:42:22.921Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__signal-prospector__stalk-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-18T21:42:34.731Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-tradbot__signal-prospector__stalk-bot",
+  "plays": 9,
+  "updated": "2026-09-18T21:42:34.731Z"
+}

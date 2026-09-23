@@ -1,0 +1,98 @@
+{
+  "fp": "video edit desk | the morning newspaper | nyc parent",
+  "seats": [
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "pulsemotionhub1"
+  ],
+  "matchups": {
+    "recipe-imogen__ebr-value-deck-builder__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:56:34.773Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__tradbot__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:56:46.830Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__luma-pages__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:56:55.872Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__stills-clips-desk__projects-manager": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T20:57:07.148Z",
+      "lastResult": "draw"
+    },
+    "recipe-company-docs-q-a__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:57:21.392Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__meeting-recap-deck__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:57:30.194Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__company-docs-q-a__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:57:42.615Z",
+      "lastResult": "win"
+    },
+    "recipe-recruiting-coordinator__love__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:57:50.306Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-recruiting-coordinator__love__x-brief",
+  "plays": 8,
+  "updated": "2026-09-18T20:57:50.306Z"
+}

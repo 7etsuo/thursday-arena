@@ -1,0 +1,82 @@
+{
+  "fp": "projects manager | gtm prospecting | product idea stress test",
+  "seats": [
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "product idea stress test",
+      "kit": "dump",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "cybareth"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__copy-humanizer__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:36:08.985Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__imogen__lingxi-s-engineer-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:36:25.030Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__tradbot__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:36:36.425Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__seo-aeo-desk__stills-clips-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T01:36:52.201Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__the-morning-newspaper__recruiting-coordinator": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:37:00.597Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__credit-card-max__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:37:23.905Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-gtm-loop-closer__credit-card-max__meeting-recap-deck",
+  "plays": 6,
+  "updated": "2026-09-19T01:37:23.905Z"
+}

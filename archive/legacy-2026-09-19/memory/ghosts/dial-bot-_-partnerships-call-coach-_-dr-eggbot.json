@@ -1,0 +1,66 @@
+{
+  "fp": "dial bot | partnerships call coach | dr eggbot",
+  "seats": [
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "dr eggbot",
+      "kit": "spotlight",
+      "atk": 6,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "wowbaggerv2"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__x-brief__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 12,
+      "last": "2026-09-18T11:41:20.869Z",
+      "lastResult": "win"
+    },
+    "recipe-seo-aeo-desk__meeting-recap-deck__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 11,
+      "last": "2026-09-18T11:41:46.769Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__cooper__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T11:42:12.562Z",
+      "lastResult": "win"
+    },
+    "recipe-meeting-recap-deck__luma-pages__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T11:42:25.931Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__x-brief__luma-pages",
+  "plays": 4,
+  "updated": "2026-09-18T11:42:25.931Z"
+}

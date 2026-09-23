@@ -1,0 +1,38 @@
+{
+  "id": "recipe-gtm-loop-closer__lead-pipeline-desk__dr-eggbot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "dr eggbot",
+      "kit": "spotlight",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "cover",
+    "snowball",
+    "spotlight"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -28,
+  "last": "2026-09-18T12:45:16.803Z"
+}

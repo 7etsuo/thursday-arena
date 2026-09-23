@@ -1,0 +1,9 @@
+{"event":"batch_start","ts":"2026-09-19T03:26:18.259Z","gamesTarget":15,"pollMs":40}
+{"event":"scout_prior","ts":"2026-09-19T03:26:18.615Z","handle":"rdmsgl","sightings":2,"record":"1-0-0","eloSum":5,"topKits":[{"key":"grow","n":2},{"key":"hype","n":2},{"key":"flamingo","n":1}],"topArch":[{"key":"grow_hype","n":1},{"key":"flamingo_pass","n":1}],"lastArch":"flamingo_pass","lastFp":"credit card max | luma pages | the morning newspaper"}
+{"event":"observe","ts":"2026-09-19T03:26:18.615Z","phase":{"kind":"result"},"gold":0,"version":94101,"board":"0:Imogen 3/7 | 1:Pipeline Pulse 4/5 | 2:Nightly Audit Engineer 3/6","handle":"rdmsgl","ghostFp":"credit card max | luma pages | the morning newspaper"}
+{"event":"refuse_rematch","ts":"2026-09-19T03:26:18.618Z","handle":"rdmsgl","reason":"hot_field_wr","fieldWR":0.8666666666666667,"fieldGames":15,"losses":0,"wins":null,"draws":null,"cached":null}
+{"event":"refuse_rematch_batch_abort","ts":"2026-09-19T03:26:18.618Z","handle":"rdmsgl","reason":"hot_field_wr","fieldWR":0.8666666666666667}
+{"event":"refuse_rematch_wait_clear","ts":"2026-09-19T03:26:18.618Z","handle":"rdmsgl","reason":"hot_field_wr","maxMs":120000,"note":"poll_until_idle_or_new_handle_then_start"}
+{"event":"refuse_clear_poll","ts":"2026-09-19T03:26:18.849Z","phase":"result","handle":"rdmsgl","blocked":"rdmsgl","elapsedMs":231}
+{"event":"refuse_clear_timeout","ts":"2026-09-19T03:28:20.181Z","handle":"rdmsgl","reason":"hot_field_wr","elapsedMs":121563}
+{"event":"refuse_clear_timeout_still_stuck","ts":"2026-09-19T03:28:20.413Z","phase":"result","handle":"rdmsgl"}

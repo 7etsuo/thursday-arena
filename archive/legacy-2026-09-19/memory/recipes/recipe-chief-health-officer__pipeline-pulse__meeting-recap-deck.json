@@ -1,0 +1,38 @@
+{
+  "id": "recipe-chief-health-officer__pipeline-pulse__meeting-recap-deck",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "chief health officer",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "patch",
+    "sidestep",
+    "echo"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -8,
+  "last": "2026-09-18T11:51:05.992Z"
+}

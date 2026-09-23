@@ -1,0 +1,58 @@
+{
+  "fp": "gtm prospecting | event producer | seo aeo desk",
+  "seats": [
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 8,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jimmychickey"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__lead-pipeline-desk__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T21:38:42.192Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__stills-clips-desk__call-follow-ups": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -9,
+      "last": "2026-09-18T21:39:17.642Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__imogen__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:39:27.689Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__lead-pipeline-desk__webby",
+  "plays": 3,
+  "updated": "2026-09-18T21:39:27.689Z"
+}

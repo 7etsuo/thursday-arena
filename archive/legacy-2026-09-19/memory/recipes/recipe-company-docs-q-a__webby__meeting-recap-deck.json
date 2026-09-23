@@ -1,0 +1,39 @@
+{
+  "id": "recipe-company-docs-q-a__webby__meeting-recap-deck",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "guard",
+    "bulk",
+    "echo"
+  ],
+  "tags": [
+    "recent_loss",
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 4,
+  "wins": 3,
+  "losses": 1,
+  "elo": -13,
+  "last": "2026-09-19T01:14:19.318Z"
+}

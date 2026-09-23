@@ -1,0 +1,37 @@
+{
+  "id": "recipe-nyc-parent__xsfbsprfkv5h909uzrv7w__nightly-audit-engineer",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "xsfbsprfkv5h909uzrv7w",
+      "kit": "",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "cover"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 19,
+  "last": "2026-09-19T07:18:24.735Z"
+}

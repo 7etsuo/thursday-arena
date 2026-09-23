@@ -1,0 +1,38 @@
+{
+  "id": "recipe-recruiting-coordinator__call-follow-ups__outbound-prospecting",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "dodo",
+    "echo",
+    "mosquito"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -26,
+  "last": "2026-09-19T04:35:10.832Z"
+}

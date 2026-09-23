@@ -1,0 +1,38 @@
+{
+  "id": "recipe-imogen__pipeline-pulse__customer-call-coach-assistant",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "customer call coach assistant",
+      "kit": "peacock",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "sidestep",
+    "peacock"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": 0,
+  "last": "2026-09-19T05:45:54.166Z"
+}

@@ -1,0 +1,42 @@
+{
+  "fp": "stills clips desk | gtm loop closer | memento",
+  "seats": [
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "memento",
+      "kit": "",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mayanksagar26"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__writing-bot__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 19,
+      "last": "2026-09-19T07:16:32.892Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__writing-bot__wtd",
+  "plays": 1,
+  "updated": "2026-09-19T07:16:49.879Z"
+}

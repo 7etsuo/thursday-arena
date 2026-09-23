@@ -1,0 +1,50 @@
+{
+  "fp": "webby | figma bro | clip bot",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sandramp"
+  ],
+  "matchups": {
+    "recipe-call-follow-ups__projects-manager__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:33:57.226Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-call-coach-assistant__office-ops-desk__tinkabot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-18T12:34:17.597Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-call-follow-ups__projects-manager__projects-manager",
+  "plays": 2,
+  "updated": "2026-09-18T12:34:17.597Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__call-follow-ups__meeting-recap-deck",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "flamingo",
+    "echo",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 4,
+  "wins": 4,
+  "losses": 0,
+  "elo": 28,
+  "last": "2026-09-19T02:07:41.515Z"
+}

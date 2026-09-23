@@ -1,0 +1,38 @@
+{
+  "id": "recipe-pipeline-pulse__company-docs-q-a__deal-inspector",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "deal inspector",
+      "kit": "cover",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "sidestep",
+    "guard",
+    "cover"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -10,
+  "last": "2026-09-18T21:04:57.755Z"
+}

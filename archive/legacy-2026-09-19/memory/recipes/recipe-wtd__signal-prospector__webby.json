@@ -1,0 +1,39 @@
+{
+  "id": "recipe-wtd__signal-prospector__webby",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hype",
+    "mosquito",
+    "bulk"
+  ],
+  "tags": [
+    "recent_loss",
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 0,
+  "losses": 1,
+  "elo": -16,
+  "last": "2026-09-19T06:52:41.648Z"
+}

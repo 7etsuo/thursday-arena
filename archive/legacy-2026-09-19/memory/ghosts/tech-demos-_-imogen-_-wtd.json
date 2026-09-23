@@ -1,0 +1,99 @@
+{
+  "fp": "tech demos | imogen | wtd",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "uansett",
+    "wootini"
+  ],
+  "matchups": {
+    "recipe-imogen__the-morning-newspaper__outbound-prospecting": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:18:45.691Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__pipeline-pulse__luma-pages": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-18T23:19:19.768Z",
+      "lastResult": "draw"
+    },
+    "recipe-the-morning-newspaper__recruiting-coordinator__recruiting-coordinator": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:46:28.108Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__company-docs-q-a__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:47:02.250Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__cooper__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:47:15.317Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__alfred__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:47:25.905Z",
+      "lastResult": "win"
+    },
+    "recipe-meeting-recap-deck__writing-bot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:47:38.746Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__event-request-desk__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:47:50.390Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__event-request-desk__gtm-loop-closer",
+  "plays": 8,
+  "updated": "2026-09-19T02:47:50.391Z"
+}

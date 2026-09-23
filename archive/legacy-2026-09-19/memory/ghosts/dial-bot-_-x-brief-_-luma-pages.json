@@ -1,0 +1,67 @@
+{
+  "fp": "dial bot | x brief | luma pages",
+  "seats": [
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mexicanwoody",
+    "sodiumhyrdride"
+  ],
+  "matchups": {
+    "recipe-imogen__writing-bot__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:24:04.896Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__event-request-desk__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:25:17.273Z",
+      "lastResult": "win"
+    },
+    "recipe-recruiting-coordinator__cooper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:25:24.854Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__copy-humanizer__gtm-prospecting": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T02:25:46.055Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-recruiting-coordinator__cooper__wtd",
+  "plays": 4,
+  "updated": "2026-09-19T07:12:27.210Z"
+}

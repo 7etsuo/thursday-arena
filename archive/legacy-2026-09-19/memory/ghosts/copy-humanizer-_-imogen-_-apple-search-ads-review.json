@@ -1,0 +1,50 @@
+{
+  "fp": "copy humanizer | imogen | apple search ads review",
+  "seats": [
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 5,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "alenski_eth"
+  ],
+  "matchups": {
+    "recipe-event-request-desk__credit-card-max__account-research-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T02:13:28.676Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__office-ops-desk__nyc-parent": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-19T02:14:46.191Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__office-ops-desk__nyc-parent",
+  "plays": 2,
+  "updated": "2026-09-19T02:14:46.192Z"
+}

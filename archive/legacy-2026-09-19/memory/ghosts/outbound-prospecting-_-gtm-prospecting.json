@@ -1,0 +1,26 @@
+{
+  "fp": "outbound prospecting | gtm prospecting",
+  "seats": [
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "as42tsx"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T07:02:52.904Z"
+}

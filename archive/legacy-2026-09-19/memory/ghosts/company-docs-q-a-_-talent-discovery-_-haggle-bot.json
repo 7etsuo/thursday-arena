@@ -1,0 +1,74 @@
+{
+  "fp": "company docs q a | talent discovery | haggle bot",
+  "seats": [
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "talent discovery",
+      "kit": "snowball",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "realhameed"
+  ],
+  "matchups": {
+    "recipe-imogen__copy-humanizer__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:17:00.752Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__webby__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:17:21.707Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__game-art-director__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:17:31.888Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__love__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:17:43.512Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__writing-bot__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:18:21.420Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__writing-bot__office-ops-desk",
+  "plays": 5,
+  "updated": "2026-09-18T23:18:21.420Z"
+}

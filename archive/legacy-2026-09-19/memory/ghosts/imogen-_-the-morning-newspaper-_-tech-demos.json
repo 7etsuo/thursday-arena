@@ -1,0 +1,51 @@
+{
+  "fp": "imogen | the morning newspaper | tech demos",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "gematriuma",
+    "supbrice"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 11,
+      "losses": 0,
+      "draws": 0,
+      "elo": 176,
+      "last": "2026-09-19T05:46:36.332Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__wtd__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T05:42:15.689Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 12,
+  "updated": "2026-09-19T05:58:35.440Z"
+}

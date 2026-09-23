@@ -1,0 +1,50 @@
+{
+  "fp": "ad spend watch | shepherd | nightly audit engineer",
+  "seats": [
+    {
+      "name": "ad spend watch",
+      "kit": "sting",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "shepherd",
+      "kit": "",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "nozeheize"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__the-morning-newspaper__cooper": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T07:08:11.738Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 1,
+      "elo": -4,
+      "last": "2026-09-19T07:25:01.439Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 3,
+  "updated": "2026-09-19T07:25:01.439Z"
+}

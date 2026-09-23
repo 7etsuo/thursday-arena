@@ -1,0 +1,38 @@
+{
+  "id": "recipe-stills-clips-desk__hiring-signals__stills-clips-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "stills clips desk",
+      "kit": "wake",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "hiring signals",
+      "kit": "backtap",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "stills clips desk",
+      "kit": "wake",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "wake",
+    "backtap",
+    "wake"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -25,
+  "last": "2026-09-18T11:15:54.583Z"
+}

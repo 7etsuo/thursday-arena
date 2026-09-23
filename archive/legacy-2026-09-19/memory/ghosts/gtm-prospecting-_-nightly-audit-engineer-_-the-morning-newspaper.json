@@ -1,0 +1,42 @@
+{
+  "fp": "gtm prospecting | nightly audit engineer | the morning newspaper",
+  "seats": [
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "as42tsx"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T07:00:14.664Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__writing-bot__wtd",
+  "plays": 1,
+  "updated": "2026-09-19T07:00:14.664Z"
+}

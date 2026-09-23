@@ -1,0 +1,38 @@
+{
+  "id": "recipe-gtm-prospecting__hiring-signals__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "hiring signals",
+      "kit": "backtap",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "mosquito",
+    "backtap",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -17,
+  "last": "2026-09-19T05:09:17.909Z"
+}

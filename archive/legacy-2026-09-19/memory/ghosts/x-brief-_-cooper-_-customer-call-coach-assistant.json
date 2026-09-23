@@ -1,0 +1,106 @@
+{
+  "fp": "x brief | cooper | customer call coach assistant",
+  "seats": [
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "customer call coach assistant",
+      "kit": "peacock",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "richhar75378"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__company-docs-q-a__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T11:45:19.247Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__video-edit-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T11:45:27.040Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__webby__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T11:45:35.975Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__stills-clips-desk__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T11:45:43.941Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__video-edit-desk__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T11:45:53.746Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__credit-card-max__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T11:46:05.880Z",
+      "lastResult": "win"
+    },
+    "recipe-sales-call-coach__company-docs-q-a__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T11:46:13.965Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__love__video-edit-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T11:46:23.749Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T11:46:32.021Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__video-edit-desk__projects-manager",
+  "plays": 9,
+  "updated": "2026-09-18T11:46:32.021Z"
+}

@@ -1,0 +1,50 @@
+{
+  "fp": "overheard | nyc parent | writing bot",
+  "seats": [
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "husseinraoouf"
+  ],
+  "matchups": {
+    "recipe-paid-media-report-desk__paid-media-report-desk__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:31:29.268Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__luma-pages__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T02:32:01.996Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__paid-media-report-desk__cooper",
+  "plays": 2,
+  "updated": "2026-09-19T02:32:01.996Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "win-20260917-2010",
+  "name": "nyc-parent-faint",
+  "result": "win",
+  "plan": "faint",
+  "rating_delta": 2,
+  "opponent_tier": "gold",
+  "rounds": "2-0",
+  "curve": {
+    "r1": null,
+    "r2": null,
+    "r3": null
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "NYC Parent",
+      "atk": 3,
+      "hp": 5,
+      "food": null,
+      "kit": "Bulk"
+    }
+  ],
+  "keys": [
+    "bulk_front",
+    "faint"
+  ],
+  "why": "solo bulk front somehow held (sparse report)",
+  "reuse": "only if shop is garbage and NYC Parent open",
+  "avoid": "prefer 3-bot boards",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "last_used": "2026-09-17"
+}

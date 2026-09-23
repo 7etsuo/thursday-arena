@@ -1,0 +1,38 @@
+{
+  "id": "recipe-ebr-value-deck-builder__event-request-desk__projects-manager",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "event request desk",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "projects manager",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "dump",
+    "sidestep",
+    "hype"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -12,
+  "last": "2026-09-18T21:03:06.833Z"
+}

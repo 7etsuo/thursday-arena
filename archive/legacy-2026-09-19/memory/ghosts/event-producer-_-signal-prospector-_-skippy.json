@@ -1,0 +1,42 @@
+{
+  "fp": "event producer | signal prospector | skippy",
+  "seats": [
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "diamondhanddie"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 4,
+      "losses": 0,
+      "draws": 0,
+      "elo": 64,
+      "last": "2026-09-19T07:04:42.277Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 4,
+  "updated": "2026-09-19T07:05:33.789Z"
+}

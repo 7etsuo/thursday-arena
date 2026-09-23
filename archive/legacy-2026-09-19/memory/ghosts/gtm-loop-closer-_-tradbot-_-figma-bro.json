@@ -1,0 +1,66 @@
+{
+  "fp": "gtm loop closer | tradbot | figma bro",
+  "seats": [
+    {
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "atk": 4,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "tradbot",
+      "kit": "guard",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "seano1022"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__office-ops-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:37:49.335Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__meeting-recap-deck__ebr-value-deck-builder": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T22:38:03.024Z",
+      "lastResult": "loss"
+    },
+    "recipe-sales-call-coach__deal-hunting__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T22:38:39.477Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__office-ops-desk__seo-aeo-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -22,
+      "last": "2026-09-18T22:38:53.333Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__office-ops-desk__writing-bot",
+  "plays": 4,
+  "updated": "2026-09-18T22:38:53.333Z"
+}

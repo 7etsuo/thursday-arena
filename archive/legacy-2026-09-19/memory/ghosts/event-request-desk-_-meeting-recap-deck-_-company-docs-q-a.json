@@ -1,0 +1,50 @@
+{
+  "fp": "event request desk | meeting recap deck | company docs q a",
+  "seats": [
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "theusinnovator"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 7,
+      "draws": 0,
+      "elo": -110,
+      "last": "2026-09-19T06:56:17.353Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T06:56:34.103Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 8,
+  "updated": "2026-09-19T06:56:59.969Z"
+}

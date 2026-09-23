@@ -1,0 +1,38 @@
+{
+  "id": "recipe-nyc-parent__office-ops-desk__company-docs-q-a",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "bulk",
+    "hold_the_line",
+    "guard"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -9,
+  "last": "2026-09-19T04:06:50.034Z"
+}

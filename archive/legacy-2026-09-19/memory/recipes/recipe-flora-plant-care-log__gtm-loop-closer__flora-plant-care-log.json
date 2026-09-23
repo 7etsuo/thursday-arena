@@ -1,0 +1,38 @@
+{
+  "id": "recipe-flora-plant-care-log__gtm-loop-closer__flora-plant-care-log",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "flora plant care log",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "flora plant care log",
+      "kit": "patch",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "patch",
+    "cover",
+    "patch"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-19T03:56:30.263Z"
+}

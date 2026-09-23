@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__office-ops-desk__the-morning-newspaper",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "flamingo",
+    "hold_the_line",
+    "flamingo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 2,
+  "losses": 0,
+  "elo": 11,
+  "last": "2026-09-19T00:32:19.178Z"
+}

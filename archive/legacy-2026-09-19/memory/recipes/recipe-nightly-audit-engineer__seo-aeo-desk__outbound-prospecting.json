@@ -1,0 +1,38 @@
+{
+  "id": "recipe-nightly-audit-engineer__seo-aeo-desk__outbound-prospecting",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "cover",
+    "pin",
+    "mosquito"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -22,
+  "last": "2026-09-18T12:25:43.931Z"
+}

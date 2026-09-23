@@ -1,0 +1,90 @@
+{
+  "fp": "nyc parent | sales call coach | account research desk",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 4,
+      "hp": 8,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "account research desk",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "dlsusco"
+  ],
+  "matchups": {
+    "recipe-partnerships-call-coach__signal-prospector__x-brief": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T11:46:56.155Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__webby__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T11:47:09.831Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__nyc-parent__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T11:47:18.925Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__x-brief__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T11:47:28.309Z",
+      "lastResult": "win"
+    },
+    "recipe-meeting-recap-deck__projects-manager__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T11:47:37.843Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__webby__meeting-recap-deck": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -8,
+      "last": "2026-09-18T11:47:46.614Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__signal-prospector__imogen": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T11:47:57.837Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__x-brief__projects-manager",
+  "plays": 7,
+  "updated": "2026-09-18T11:47:57.837Z"
+}

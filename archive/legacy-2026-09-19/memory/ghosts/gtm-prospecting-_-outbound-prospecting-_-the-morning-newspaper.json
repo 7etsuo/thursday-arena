@@ -1,0 +1,74 @@
+{
+  "fp": "gtm prospecting | outbound prospecting | the morning newspaper",
+  "seats": [
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jasonleebedunah"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__x-brief__stills-clips-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:29:13.889Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__copy-humanizer__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:29:20.317Z",
+      "lastResult": "win"
+    },
+    "recipe-seo-aeo-desk__x-brief__overheard": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:29:40.928Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__webby__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:29:48.231Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__hiring-signals__haggle-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T12:29:54.692Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-webby__webby__deal-inspector",
+  "plays": 5,
+  "updated": "2026-09-18T12:30:11.057Z"
+}

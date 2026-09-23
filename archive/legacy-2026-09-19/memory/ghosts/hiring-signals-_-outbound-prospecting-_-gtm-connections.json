@@ -1,0 +1,42 @@
+{
+  "fp": "hiring signals | outbound prospecting | gtm connections",
+  "seats": [
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 8,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "edtadros"
+  ],
+  "matchups": {
+    "recipe-partnerships-call-coach__love__nightly-audit-engineer": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -30,
+      "last": "2026-09-18T23:23:36.036Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-partnerships-call-coach__love__nightly-audit-engineer",
+  "plays": 1,
+  "updated": "2026-09-18T23:23:36.036Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-seo-aeo-desk__ebr-value-deck-builder__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "pin",
+    "dump",
+    "hype"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -9,
+  "last": "2026-09-18T11:52:42.070Z"
+}

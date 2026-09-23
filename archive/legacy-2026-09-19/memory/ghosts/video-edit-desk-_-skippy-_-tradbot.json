@@ -1,0 +1,90 @@
+{
+  "fp": "video edit desk | skippy | tradbot",
+  "seats": [
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "tradbot",
+      "kit": "guard",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sk1nl4b"
+  ],
+  "matchups": {
+    "recipe-imogen__wtd__office-ops-desk": {
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-19T00:02:14.596Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__x-brief__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:02:32.334Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__webby__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T00:02:49.012Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__company-docs-q-a__recruiting-coordinator": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:02:56.979Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__imogen__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:03:05.363Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__copy-humanizer__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:03:11.910Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__x-brief__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:03:18.531Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__wtd__office-ops-desk",
+  "plays": 8,
+  "updated": "2026-09-19T00:03:25.396Z"
+}

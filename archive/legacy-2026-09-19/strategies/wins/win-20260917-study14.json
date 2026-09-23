@@ -1,0 +1,74 @@
+{
+  "id": "win-20260917-study14",
+  "name": "clone-izzat316-officeopsd-nightlyaud-writingbot",
+  "result": "win",
+  "plan": "buff",
+  "rating_delta": 6,
+  "opponent_tier": "unknown",
+  "rounds": "2-0",
+  "curve": {
+    "r1": [
+      "Office Ops Desk 3/5",
+      "Stills & Clips Desk 2/5",
+      "GTM Prospecting 4/3"
+    ],
+    "r2": [
+      "Office Ops Desk 4/6",
+      "Nightly Audit Engineer 3/6",
+      "Writing Bot 2/5"
+    ],
+    "r3": [
+      "Office Ops Desk 4/6 honey",
+      "Nightly Audit Engineer 3/6 honey",
+      "Writing Bot 2/5"
+    ]
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "Office Ops Desk",
+      "atk": 4,
+      "hp": 6,
+      "food": "honey",
+      "kit": "Hold the line"
+    },
+    {
+      "seat": 2,
+      "name": "Nightly Audit Engineer",
+      "atk": 3,
+      "hp": 6,
+      "food": "honey",
+      "kit": "Cover"
+    },
+    {
+      "seat": 3,
+      "name": "Writing Bot",
+      "atk": 2,
+      "hp": 5,
+      "food": null,
+      "kit": "Hype"
+    }
+  ],
+  "keys": [
+    "hype",
+    "cover",
+    "honey_front",
+    "office_ops_desk",
+    "nightly_audit_engineer",
+    "writing_bot"
+  ],
+  "why": "cloned from @izzat316 win vs @ggleandro: kits=['Hold the line', 'Cover', 'Hype']",
+  "reuse": "when shop offers similar buff pieces: Office Ops Desk, Nightly Audit Engineer, Writing Bot",
+  "avoid": "do not force if shop misses core kits; public clone may lack freeze/buy order fidelity",
+  "plays": 0,
+  "wins": 0,
+  "losses": 0,
+  "last_used": null,
+  "meta": {
+    "player": "izzat316",
+    "source_match": "fb7462aa-9418-4441-83d5-630ba01eef78",
+    "source_url": "https://thursdayarena.com/matches/fb7462aa-9418-4441-83d5-630ba01eef78",
+    "cloned_at": "2026-09-17",
+    "inferred": true
+  }
+}

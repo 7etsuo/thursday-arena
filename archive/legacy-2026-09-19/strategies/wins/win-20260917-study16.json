@@ -1,0 +1,74 @@
+{
+  "id": "win-20260917-study16",
+  "name": "clone-ryanmcadams-dealhuntin-nightlyaud-tradbot",
+  "result": "win",
+  "plan": "buff",
+  "rating_delta": 4,
+  "opponent_tier": "unknown",
+  "rounds": "2-1",
+  "curve": {
+    "r1": [
+      "Tech Demos 4/2",
+      "Deal Hunting 4/2",
+      "GTM Connections 2/5"
+    ],
+    "r2": [
+      "Deal Hunting 4/2 honey",
+      "Nightly Audit Engineer 3/6",
+      "Tradbot 3/6"
+    ],
+    "r3": [
+      "Deal Hunting 4/2 honey",
+      "Nightly Audit Engineer 3/6 honey",
+      "Tradbot 3/6 honey"
+    ]
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "Deal Hunting",
+      "atk": 4,
+      "hp": 2,
+      "food": "honey",
+      "kit": "Drain"
+    },
+    {
+      "seat": 2,
+      "name": "Nightly Audit Engineer",
+      "atk": 3,
+      "hp": 6,
+      "food": "honey",
+      "kit": "Cover"
+    },
+    {
+      "seat": 3,
+      "name": "Tradbot",
+      "atk": 3,
+      "hp": 6,
+      "food": "honey",
+      "kit": "Guard"
+    }
+  ],
+  "keys": [
+    "cover",
+    "guard",
+    "honey_front",
+    "deal_hunting",
+    "nightly_audit_engineer",
+    "tradbot"
+  ],
+  "why": "cloned from @ryanmcadams win vs @shen_stone623: kits=['Drain', 'Cover', 'Guard']",
+  "reuse": "when shop offers similar buff pieces: Deal Hunting, Nightly Audit Engineer, Tradbot",
+  "avoid": "do not force if shop misses core kits; public clone may lack freeze/buy order fidelity",
+  "plays": 0,
+  "wins": 0,
+  "losses": 0,
+  "last_used": null,
+  "meta": {
+    "player": "ryanmcadams",
+    "source_match": "e53706ed-6be2-414e-adf4-3f08e151d403",
+    "source_url": "https://thursdayarena.com/matches/e53706ed-6be2-414e-adf4-3f08e151d403",
+    "cloned_at": "2026-09-17",
+    "inferred": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "/api/matches": {
+    "status": 404,
+    "len": 19,
+    "head": "404 page not found\n"
+  },
+  "/api/matches?player=arithemonke": {
+    "status": 404,
+    "len": 19,
+    "head": "404 page not found\n"
+  },
+  "/api/player/arithemonke": {
+    "status": 404,
+    "len": 19,
+    "head": "404 page not found\n"
+  },
+  "/api/players/arithemonke": {
+    "status": 404,
+    "len": 19,
+    "head": "404 page not found\n"
+  },
+  "/api/users/arithemonke": {
+    "status": 404,
+    "len": 19,
+    "head": "404 page not found\n"
+  },
+  "/api/history?player=arithemonke": {
+    "status": 404,
+    "len": 19,
+    "head": "404 page not found\n"
+  },
+  "/api/replays?player=arithemonke": {
+    "status": 404,
+    "len": 19,
+    "head": "404 page not found\n"
+  }
+}

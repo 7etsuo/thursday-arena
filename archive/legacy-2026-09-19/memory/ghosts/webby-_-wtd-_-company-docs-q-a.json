@@ -1,0 +1,42 @@
+{
+  "fp": "webby | wtd | company docs q a",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "josephyangx"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 6,
+      "draws": 0,
+      "elo": -44,
+      "last": "2026-09-19T07:24:32.128Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 6,
+  "updated": "2026-09-19T07:24:32.128Z"
+}

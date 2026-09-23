@@ -1,0 +1,66 @@
+{
+  "fp": "wtd | meeting recap deck | signal prospector",
+  "seats": [
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "apshirokov"
+  ],
+  "matchups": {
+    "recipe-pipeline-pulse__gtm-prospecting__gtm-account-research": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-18T20:49:21.351Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__company-docs-q-a__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T20:49:31.786Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__gtm-loop-closer__game-art-director": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-18T20:49:59.572Z",
+      "lastResult": "draw"
+    },
+    "recipe-company-docs-q-a__luma-pages__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:50:20.101Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__luma-pages__luma-pages",
+  "plays": 4,
+  "updated": "2026-09-18T20:50:20.101Z"
+}

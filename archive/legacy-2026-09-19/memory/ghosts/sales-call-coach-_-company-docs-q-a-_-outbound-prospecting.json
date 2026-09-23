@@ -1,0 +1,50 @@
+{
+  "fp": "sales call coach | company docs q a | outbound prospecting",
+  "seats": [
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 5,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "regan_jeremy"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__company-docs-q-a__wtd": {
+      "wins": 0,
+      "losses": 6,
+      "draws": 0,
+      "elo": -111,
+      "last": "2026-09-19T05:12:18.223Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__x-brief__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T05:13:06.923Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__company-docs-q-a__wtd",
+  "plays": 7,
+  "updated": "2026-09-19T05:13:06.923Z"
+}

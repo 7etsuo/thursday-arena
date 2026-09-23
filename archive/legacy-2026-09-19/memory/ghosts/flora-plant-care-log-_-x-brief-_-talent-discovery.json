@@ -1,0 +1,42 @@
+{
+  "fp": "flora plant care log | x brief | talent discovery",
+  "seats": [
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "talent discovery",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "theretardedelon"
+  ],
+  "matchups": {
+    "recipe-imogen__office-ops-desk__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 15,
+      "last": "2026-09-19T04:48:31.194Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__office-ops-desk__office-ops-desk",
+  "plays": 1,
+  "updated": "2026-09-19T04:48:31.194Z"
+}

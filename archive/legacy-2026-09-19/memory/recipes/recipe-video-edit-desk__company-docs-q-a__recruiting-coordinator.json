@@ -1,0 +1,38 @@
+{
+  "id": "recipe-video-edit-desk__company-docs-q-a__recruiting-coordinator",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "video edit desk",
+      "kit": "wake",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "wake",
+    "guard",
+    "dodo"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -14,
+  "last": "2026-09-19T05:05:59.900Z"
+}

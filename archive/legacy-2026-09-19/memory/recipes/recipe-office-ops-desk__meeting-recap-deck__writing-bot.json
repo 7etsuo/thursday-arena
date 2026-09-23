@@ -1,0 +1,40 @@
+{
+  "id": "recipe-office-ops-desk__meeting-recap-deck__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "hold_the_line",
+    "echo",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss",
+    "recent_win",
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 5,
+  "wins": 3,
+  "losses": 1,
+  "elo": 2,
+  "last": "2026-09-19T07:11:11.857Z"
+}

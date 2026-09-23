@@ -1,0 +1,50 @@
+{
+  "fp": "webby | pipeline pulse | deal inspector",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "deal inspector",
+      "kit": "cover",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "josephm95500426"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__cooper__wtd": {
+      "wins": 3,
+      "losses": 3,
+      "draws": 0,
+      "elo": -8,
+      "last": "2026-09-19T05:31:12.307Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 1,
+      "losses": 1,
+      "draws": 0,
+      "elo": -2,
+      "last": "2026-09-19T05:31:38.253Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__cooper__wtd",
+  "plays": 8,
+  "updated": "2026-09-19T05:31:38.253Z"
+}

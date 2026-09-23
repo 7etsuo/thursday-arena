@@ -1,0 +1,66 @@
+{
+  "fp": "sales call coach | sales call coach | pitch deck coach",
+  "seats": [
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "pitch deck coach",
+      "kit": "last_word",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "slash9nine9"
+  ],
+  "matchups": {
+    "recipe-imogen__office-ops-desk__tradbot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T00:08:07.488Z",
+      "lastResult": "draw"
+    },
+    "recipe-credit-card-max__account-research-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:08:37.276Z",
+      "lastResult": "win"
+    },
+    "recipe-video-edit-desk__writing-bot__wtd": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T00:09:04.369Z",
+      "lastResult": "draw"
+    },
+    "recipe-office-ops-desk__lead-pipeline-desk__nyc-parent": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T00:09:23.080Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__account-research-desk__writing-bot",
+  "plays": 4,
+  "updated": "2026-09-19T00:09:23.080Z"
+}

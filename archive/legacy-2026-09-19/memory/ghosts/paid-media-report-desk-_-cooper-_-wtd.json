@@ -1,0 +1,106 @@
+{
+  "fp": "paid media report desk | cooper | wtd",
+  "seats": [
+    {
+      "name": "paid media report desk",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "novagamingx4"
+  ],
+  "matchups": {
+    "recipe-meeting-recap-deck__writing-bot__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T21:22:31.142Z",
+      "lastResult": "loss"
+    },
+    "recipe-wtd__apple-search-ads-review__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T21:22:36.377Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__outbound-prospecting__deal-hunting": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T21:22:43.792Z",
+      "lastResult": "loss"
+    },
+    "recipe-x-brief__deal-hunting__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T21:23:02.823Z",
+      "lastResult": "loss"
+    },
+    "recipe-stills-clips-desk__love__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T21:23:22.384Z",
+      "lastResult": "loss"
+    },
+    "recipe-flora-plant-care-log__deal-hunting__meeting-recap-deck": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T21:23:29.228Z",
+      "lastResult": "loss"
+    },
+    "recipe-seo-aeo-desk__luma-pages__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T21:23:36.638Z",
+      "lastResult": "loss"
+    },
+    "recipe-stills-clips-desk__gtm-prospecting__overheard": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-18T21:23:44.022Z",
+      "lastResult": "loss"
+    },
+    "recipe-call-follow-ups__gtm-prospecting__lead-pipeline-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T21:23:53.041Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-call-follow-ups__gtm-prospecting__lead-pipeline-desk",
+  "plays": 9,
+  "updated": "2026-09-18T21:23:53.041Z"
+}

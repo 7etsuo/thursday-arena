@@ -1,0 +1,74 @@
+{
+  "fp": "copy humanizer | deal inspector | writing bot",
+  "seats": [
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "deal inspector",
+      "kit": "cover",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "godviken"
+  ],
+  "matchups": {
+    "recipe-webby__stills-clips-desk__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:02:08.904Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__x-brief__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:02:44.580Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__call-follow-ups__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-18T22:02:54.279Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__paid-media-report-desk__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:03:25.389Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__pipeline-pulse__overheard": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:03:36.890Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__pipeline-pulse__overheard",
+  "plays": 5,
+  "updated": "2026-09-18T22:03:36.890Z"
+}

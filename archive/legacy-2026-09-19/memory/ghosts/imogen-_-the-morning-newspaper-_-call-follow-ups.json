@@ -1,0 +1,42 @@
+{
+  "fp": "imogen | the morning newspaper | call follow ups",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "_tech_lord"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 7,
+      "losses": 7,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T06:51:43.365Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 14,
+  "updated": "2026-09-19T06:53:06.933Z"
+}

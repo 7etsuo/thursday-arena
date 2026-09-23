@@ -1,0 +1,74 @@
+{
+  "fp": "clip bot | dial bot | product idea stress test",
+  "seats": [
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "product idea stress test",
+      "kit": "dump",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "damirdivkovic"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__tradbot__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:42:02.461Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__wtd__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:42:24.167Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__call-follow-ups__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:42:50.285Z",
+      "lastResult": "win"
+    },
+    "recipe-writing-bot__apple-search-ads-review__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:43:15.486Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__nightly-audit-engineer__lingxi-s-engineer-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:43:53.875Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-writing-bot__apple-search-ads-review__writing-bot",
+  "plays": 5,
+  "updated": "2026-09-19T01:43:53.875Z"
+}

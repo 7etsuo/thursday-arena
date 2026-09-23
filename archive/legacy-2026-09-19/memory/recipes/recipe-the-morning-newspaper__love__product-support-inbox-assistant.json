@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__love__product-support-inbox-assistant",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "flamingo",
+    "patch",
+    "patch"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 5,
+  "last": "2026-09-18T23:51:48.867Z"
+}

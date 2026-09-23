@@ -1,0 +1,38 @@
+{
+  "id": "recipe-seo-aeo-desk__signal-prospector__ebr-value-deck-builder",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "pin",
+    "mosquito",
+    "dump"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -20,
+  "last": "2026-09-18T21:25:54.699Z"
+}

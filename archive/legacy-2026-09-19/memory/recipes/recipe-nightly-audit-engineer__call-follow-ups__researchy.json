@@ -1,0 +1,38 @@
+{
+  "id": "recipe-nightly-audit-engineer__call-follow-ups__researchy",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "researchy",
+      "kit": "last_word",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "cover",
+    "echo",
+    "last_word"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -12,
+  "last": "2026-09-18T21:18:00.943Z"
+}

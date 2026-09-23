@@ -1,0 +1,66 @@
+{
+  "fp": "event request desk | love | chief health officer",
+  "seats": [
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "chief health officer",
+      "kit": "patch",
+      "atk": 3,
+      "hp": 8,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jmatthewleelee"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__the-morning-newspaper__pitch-deck-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:34:40.684Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__company-docs-q-a__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:35:06.428Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-call-coach-assistant__office-ops-desk__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:35:33.892Z",
+      "lastResult": "win"
+    },
+    "recipe-pipeline-pulse__luma-pages__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:35:53.519Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__company-docs-q-a__nyc-parent",
+  "plays": 4,
+  "updated": "2026-09-18T12:35:53.519Z"
+}

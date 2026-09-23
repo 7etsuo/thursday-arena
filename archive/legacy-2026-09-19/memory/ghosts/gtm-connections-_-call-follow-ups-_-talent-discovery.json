@@ -1,0 +1,74 @@
+{
+  "fp": "gtm connections | call follow ups | talent discovery",
+  "seats": [
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "talent discovery",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "chopper_threads"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__wtd__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T20:55:02.541Z",
+      "lastResult": "win"
+    },
+    "recipe-love__meeting-recap-deck__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T20:55:30.226Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__nyc-parent__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:55:36.804Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__cooper__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T20:56:06.722Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__call-follow-ups__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T20:56:13.666Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__call-follow-ups__projects-manager",
+  "plays": 5,
+  "updated": "2026-09-18T20:56:20.068Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-product-support-inbox-assistant__stills-clips-desk__apple-search-ads-review",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "stills clips desk",
+      "kit": "wake",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "patch",
+    "wake",
+    "grow"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -28,
+  "last": "2026-09-18T22:07:10.192Z"
+}

@@ -1,0 +1,50 @@
+{
+  "fp": "nyc parent | apple search ads review | gtm connections",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sodiumhyrdride"
+  ],
+  "matchups": {
+    "recipe-ai-search-visibility__seo-aeo-desk__writing-bot": {
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "elo": -12,
+      "last": "2026-09-19T07:00:47.604Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -15,
+      "last": "2026-09-19T07:00:58.012Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-ai-search-visibility__seo-aeo-desk__writing-bot",
+  "plays": 4,
+  "updated": "2026-09-19T07:00:58.012Z"
+}

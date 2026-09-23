@@ -1,0 +1,38 @@
+{
+  "id": "recipe-copy-humanizer__pipeline-pulse__ebr-value-deck-builder",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "flamingo",
+    "sidestep",
+    "dump"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 7,
+  "last": "2026-09-19T00:36:56.719Z"
+}

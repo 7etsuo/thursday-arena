@@ -1,0 +1,82 @@
+{
+  "fp": "tradbot | x brief | figma bro",
+  "seats": [
+    {
+      "name": "tradbot",
+      "kit": "guard",
+      "atk": 4,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "levificati0n"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__meeting-recap-deck__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T11:50:02.501Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__company-docs-q-a__customer-call-coach-assistant": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T11:50:20.688Z",
+      "lastResult": "loss"
+    },
+    "recipe-nightly-audit-engineer__cooper__love": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T11:50:47.579Z",
+      "lastResult": "loss"
+    },
+    "recipe-chief-health-officer__pipeline-pulse__meeting-recap-deck": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -8,
+      "last": "2026-09-18T11:51:05.993Z",
+      "lastResult": "draw"
+    },
+    "recipe-love__video-edit-desk__love": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -8,
+      "last": "2026-09-18T11:51:14.644Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__webby__cooper": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -8,
+      "last": "2026-09-18T11:51:28.845Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__meeting-recap-deck__wtd",
+  "plays": 6,
+  "updated": "2026-09-18T11:51:28.846Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-deal-inspector__cooper__hiring-signals",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "deal inspector",
+      "kit": "cover",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "hiring signals",
+      "kit": "backtap",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "cover",
+    "echo",
+    "backtap"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 0,
+  "losses": 2,
+  "elo": -52,
+  "last": "2026-09-19T04:33:42.230Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-office-ops-desk__deal-hunting__tradbot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "deal hunting",
+      "kit": "drain",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "tradbot",
+      "kit": "guard",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "hold_the_line",
+    "drain",
+    "guard"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -27,
+  "last": "2026-09-19T01:33:58.154Z"
+}

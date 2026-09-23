@@ -1,0 +1,38 @@
+{
+  "id": "recipe-apple-search-ads-review__product-support-inbox-assistant__product-idea-stress-test",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "product idea stress test",
+      "kit": "dump",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "grow",
+    "patch",
+    "dump"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -11,
+  "last": "2026-09-18T12:22:56.955Z"
+}

@@ -1,0 +1,74 @@
+{
+  "fp": "flora plant care log | imogen | critiquito design critique",
+  "seats": [
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "huntinglife"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__webby__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:32:19.108Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__luma-pages__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:32:35.651Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__wtd": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-18T22:32:50.321Z",
+      "lastResult": "draw"
+    },
+    "recipe-the-morning-newspaper__nyc-parent__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:33:09.779Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__pipeline-pulse__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:33:33.104Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__pipeline-pulse__lead-pipeline-desk",
+  "plays": 5,
+  "updated": "2026-09-18T22:33:33.104Z"
+}

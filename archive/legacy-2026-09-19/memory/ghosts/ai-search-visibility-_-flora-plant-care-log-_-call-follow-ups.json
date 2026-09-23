@@ -1,0 +1,82 @@
+{
+  "fp": "ai search visibility | flora plant care log | call follow ups",
+  "seats": [
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "misha_erm"
+  ],
+  "matchups": {
+    "recipe-imogen__webby__love": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -30,
+      "last": "2026-09-18T22:24:35.904Z",
+      "lastResult": "loss"
+    },
+    "recipe-gtm-loop-closer__webby__stills-clips-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -30,
+      "last": "2026-09-18T22:25:10.971Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__deal-hunting__recruiting-coordinator": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T22:25:17.971Z",
+      "lastResult": "loss"
+    },
+    "recipe-paid-media-report-desk__hiring-signals__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T22:25:42.710Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__wtd__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:25:51.376Z",
+      "lastResult": "win"
+    },
+    "recipe-signal-prospector__hiring-signals__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:25:58.585Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-signal-prospector__hiring-signals__writing-bot",
+  "plays": 6,
+  "updated": "2026-09-18T22:25:58.585Z"
+}

@@ -1,0 +1,42 @@
+{
+  "fp": "nyc parent | video edit desk | commitments",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "commitments",
+      "kit": "",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "josephyangx"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 7,
+      "draws": 0,
+      "elo": -68,
+      "last": "2026-09-19T07:23:46.521Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 7,
+  "updated": "2026-09-19T07:23:46.521Z"
+}

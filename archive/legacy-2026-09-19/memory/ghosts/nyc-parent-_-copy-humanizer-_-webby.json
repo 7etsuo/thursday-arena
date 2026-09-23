@@ -1,0 +1,50 @@
+{
+  "fp": "nyc parent | copy humanizer | webby",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "parli7"
+  ],
+  "matchups": {
+    "recipe-luma-pages__luma-pages__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T22:55:49.166Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__office-ops-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:55:57.737Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__office-ops-desk__wtd",
+  "plays": 2,
+  "updated": "2026-09-18T22:56:14.293Z"
+}

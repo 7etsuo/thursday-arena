@@ -1,0 +1,10 @@
+const fs=require('fs'),crypto=require('crypto'),cat=require('/home/tetsuo/grok/thursday-arena/lib/catalog');
+const base='/tmp/arena-fixes-20260923/s4',trace=fs.readFileSync('/tmp/user/1000/arena-live-practice-RHQXrF/requests.jsonl','utf8').trim().split('\n').map(JSON.parse),template=trace.at(-1).before;
+const session=crypto.randomUUID();
+(async()=>{for(const kit of ['misprice','pickpocket','sold_price','ghostwrite','repost','catalog','retouch','counteroffer','clawback','mute']){
+ const bot=cat.getCatalog().find(b=>b.kitId===kit);if(!bot)continue;
+ const before=structuredClone(template);before.board[2]={uid:4,botId:bot.id,atk:8,hp:30,tempAtk:0,honey:false};
+ await new Promise(r=>setTimeout(r,1200));const action={type:'endShop'},res=await fetch('https://thursdayarena.com/api/arena/practice',{method:'POST',headers:{'content-type':'application/json','x-practice-session':session},body:JSON.stringify({state:before,action})});
+ if(!res.ok)throw Error(await res.text());const after=(await res.json()).state;
+ fs.appendFileSync(base+'/across-cases.jsonl',JSON.stringify({label:'uneven-across:'+kit,before,action,after})+'\n');console.log(kit,after.phase.frames.filter(f=>f.caption.includes(bot.name)).slice(1,4).map(f=>f.caption));
+}})().catch(e=>{console.error(e);process.exitCode=1});

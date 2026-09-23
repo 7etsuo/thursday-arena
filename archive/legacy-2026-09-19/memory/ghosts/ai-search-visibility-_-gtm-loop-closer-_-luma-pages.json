@@ -1,0 +1,42 @@
+{
+  "fp": "ai search visibility | gtm loop closer | luma pages",
+  "seats": [
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ternquest_com"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T07:06:42.834Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 1,
+  "updated": "2026-09-19T07:06:42.834Z"
+}

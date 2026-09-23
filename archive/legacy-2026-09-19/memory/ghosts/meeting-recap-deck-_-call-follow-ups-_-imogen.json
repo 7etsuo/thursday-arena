@@ -1,0 +1,50 @@
+{
+  "fp": "meeting recap deck | call follow ups | imogen",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jakes_twitofmi"
+  ],
+  "matchups": {
+    "recipe-imogen__the-morning-newspaper__ebr-value-deck-builder": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T23:46:27.977Z",
+      "lastResult": "loss"
+    },
+    "recipe-company-docs-q-a__love__lead-pipeline-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T23:46:35.261Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__the-morning-newspaper__ebr-value-deck-builder",
+  "plays": 2,
+  "updated": "2026-09-18T23:47:15.349Z"
+}

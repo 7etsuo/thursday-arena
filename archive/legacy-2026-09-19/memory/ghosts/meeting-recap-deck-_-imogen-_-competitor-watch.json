@@ -1,0 +1,123 @@
+{
+  "fp": "meeting recap deck | imogen | competitor watch",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "philoctech",
+    "crawlzpace"
+  ],
+  "matchups": {
+    "recipe-paid-media-report-desk__company-docs-q-a__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T23:50:29.328Z",
+      "lastResult": "win"
+    },
+    "recipe-seo-aeo-desk__event-request-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T23:50:41.944Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__nightly-audit-engineer__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T23:51:14.048Z",
+      "lastResult": "win"
+    },
+    "recipe-call-follow-ups__wtd__researchy": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T23:51:31.713Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__event-request-desk__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:34:16.910Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__call-follow-ups__recruiting-coordinator": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:34:27.037Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:34:37.690Z",
+      "lastResult": "win"
+    },
+    "recipe-recruiting-coordinator__cooper__gtm-account-research": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:34:47.452Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__deal-inspector__hiring-signals": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:34:59.577Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__tradbot__outbound-prospecting": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:35:10.110Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__webby__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:35:43.538Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__webby__account-research-desk",
+  "plays": 11,
+  "updated": "2026-09-19T01:35:43.539Z"
+}

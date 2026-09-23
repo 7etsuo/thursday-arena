@@ -1,0 +1,58 @@
+{
+  "fp": "home robots | gtm connections | nightly audit engineer",
+  "seats": [
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "cirala"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__wtd__projects-manager": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-18T11:35:04.595Z",
+      "lastResult": "draw"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T11:35:28.801Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__deal-inspector__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T11:35:51.177Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__deal-inspector__the-morning-newspaper",
+  "plays": 3,
+  "updated": "2026-09-18T11:35:51.177Z"
+}

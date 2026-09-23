@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__gtm-loop-closer__executive-assistant",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "executive assistant",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "flamingo",
+    "cover",
+    "hype"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -12,
+  "last": "2026-09-18T12:36:20.824Z"
+}

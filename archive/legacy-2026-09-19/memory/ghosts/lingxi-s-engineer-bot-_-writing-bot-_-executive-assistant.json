@@ -1,0 +1,66 @@
+{
+  "fp": "lingxi s engineer bot | writing bot | executive assistant",
+  "seats": [
+    {
+      "name": "lingxi s engineer bot",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "executive assistant",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 8,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mm0000001"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__company-docs-q-a__imogen": {
+      "wins": 0,
+      "losses": 3,
+      "draws": 0,
+      "elo": -53,
+      "last": "2026-09-19T05:25:08.836Z",
+      "lastResult": "loss"
+    },
+    "recipe-company-docs-q-a__cooper__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -14,
+      "last": "2026-09-19T05:25:35.875Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__flora-plant-care-log__stills-clips-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -14,
+      "last": "2026-09-19T05:26:17.418Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__wtd__imogen": {
+      "wins": 0,
+      "losses": 3,
+      "draws": 0,
+      "elo": -43,
+      "last": "2026-09-19T05:27:15.527Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__wtd__imogen",
+  "plays": 8,
+  "updated": "2026-09-19T05:27:15.527Z"
+}

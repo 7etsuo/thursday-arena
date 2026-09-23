@@ -1,0 +1,106 @@
+{
+  "fp": "sales call coach | imogen | clip bot",
+  "seats": [
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 6,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "pajuuuuuuu"
+  ],
+  "matchups": {
+    "recipe-imogen__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:52:43.507Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:52:53.262Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__nightly-audit-engineer__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:53:00.759Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__deal-inspector__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:53:08.726Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__the-morning-newspaper__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:53:18.343Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__meeting-recap-deck__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:53:27.667Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__product-support-inbox-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:53:35.697Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__nyc-parent__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:53:41.508Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__wtd__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:53:50.532Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__deal-inspector__wtd",
+  "plays": 9,
+  "updated": "2026-09-18T22:53:50.532Z"
+}

@@ -1,0 +1,10 @@
+eval_versions games/seed=10 seeds=101,103,107,109 season=3 budget=Infinity mock=current book=cold
+before=/tmp/arena-counter-model-20260921/corrected-rules-baseline
+  S3 seed=101: before={"win":7,"loss":2,"draw":1} current={"win":7,"loss":2,"draw":1} score=0.750/0.750 pairedDelta=0.0000 bookRecords=27/27 rounds=27/27 elapsed=30.0s
+  S3 seed=103: before={"win":9,"loss":1,"draw":0} current={"win":9,"loss":1,"draw":0} score=0.900/0.900 pairedDelta=0.0000 bookRecords=24/24 rounds=24/24 elapsed=63.9s
+  S3 seed=107: before={"win":6,"loss":3,"draw":1} current={"win":6,"loss":3,"draw":1} score=0.650/0.650 pairedDelta=0.0000 bookRecords=26/25 rounds=26/25 elapsed=95.7s
+  S3 seed=109: before={"win":6,"loss":4,"draw":0} current={"win":6,"loss":4,"draw":0} score=0.600/0.600 pairedDelta=0.0000 bookRecords=25/25 rounds=25/25 elapsed=127.9s
+S3 n=40: before W28 L10 D2 winRate=0.7000 matchScore=0.7250; current W28 L10 D2 winRate=0.7000 matchScore=0.7250
+  paired score delta current-before=0.0000 95% seed-clustered CI [0.0000, 0.0000] (exploratory match-level CI [-0.0702, 0.0702]) better=1 worse=1 same=38
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /tmp/arena-counter-model-20260921/captain6-training.csv

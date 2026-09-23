@@ -1,0 +1,39 @@
+{
+  "id": "recipe-office-ops-desk__love__the-morning-newspaper",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hold_the_line",
+    "patch",
+    "flamingo"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 1,
+  "elo": -10,
+  "last": "2026-09-19T05:31:45.163Z"
+}

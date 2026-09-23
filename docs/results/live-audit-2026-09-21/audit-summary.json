@@ -1,0 +1,1199 @@
+{
+  "code": "2d2553e5fe48",
+  "session": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3",
+  "start": "2026-09-21T04:27:57.932Z",
+  "end": "2026-09-21T05:01:47.120Z",
+  "totalResultRows": 138,
+  "fullS3Matches": 137,
+  "results": {
+    "win": 119,
+    "loss": 14,
+    "draw": 4
+  },
+  "eloS3": 574,
+  "opponents": 20,
+  "byOpponent": {
+    "tcbxcee": {
+      "win": 1,
+      "loss": 0,
+      "draw": 0
+    },
+    "s3xyfuture": {
+      "win": 3,
+      "loss": 0,
+      "draw": 0
+    },
+    "luisjimnezcort5": {
+      "win": 2,
+      "loss": 0,
+      "draw": 1
+    },
+    "fabianhtml": {
+      "win": 15,
+      "loss": 1,
+      "draw": 0
+    },
+    "poteto": {
+      "win": 2,
+      "loss": 1,
+      "draw": 0
+    },
+    "gkwy": {
+      "win": 5,
+      "loss": 0,
+      "draw": 0
+    },
+    "lucataco": {
+      "win": 3,
+      "loss": 0,
+      "draw": 0
+    },
+    "devtony": {
+      "win": 20,
+      "loss": 1,
+      "draw": 0
+    },
+    "qsr_cg": {
+      "win": 19,
+      "loss": 4,
+      "draw": 1
+    },
+    "jusrelax": {
+      "win": 2,
+      "loss": 1,
+      "draw": 0
+    },
+    "_tb_brewster": {
+      "win": 3,
+      "loss": 0,
+      "draw": 0
+    },
+    "lighttwrecker": {
+      "win": 3,
+      "loss": 0,
+      "draw": 0
+    },
+    "eliancodex": {
+      "win": 4,
+      "loss": 0,
+      "draw": 0
+    },
+    "1bjax": {
+      "win": 3,
+      "loss": 0,
+      "draw": 0
+    },
+    "ternquest_com": {
+      "win": 22,
+      "loss": 6,
+      "draw": 2
+    },
+    "gabriel_x86": {
+      "win": 3,
+      "loss": 0,
+      "draw": 0
+    },
+    "ryansheng": {
+      "win": 3,
+      "loss": 0,
+      "draw": 0
+    },
+    "sodiumhyrdride": {
+      "win": 4,
+      "loss": 0,
+      "draw": 0
+    },
+    "syaor4n": {
+      "win": 1,
+      "loss": 0,
+      "draw": 0
+    },
+    "levificati0n": {
+      "win": 1,
+      "loss": 0,
+      "draw": 0
+    }
+  },
+  "phases": [
+    {
+      "from": 1,
+      "to": 25,
+      "win": 18,
+      "loss": 5,
+      "draw": 2
+    },
+    {
+      "from": 26,
+      "to": 50,
+      "win": 24,
+      "loss": 1
+    },
+    {
+      "from": 51,
+      "to": 75,
+      "win": 21,
+      "loss": 4
+    },
+    {
+      "from": 76,
+      "to": 100,
+      "draw": 1,
+      "loss": 2,
+      "win": 22
+    },
+    {
+      "from": 101,
+      "to": 125,
+      "win": 23,
+      "draw": 1,
+      "loss": 1
+    },
+    {
+      "from": 126,
+      "to": 137,
+      "win": 11,
+      "loss": 1
+    }
+  ],
+  "previousOpponentRepeats": 64,
+  "completeS3Battles": 337,
+  "simWinnerMatches": 333,
+  "frameMatches": 306,
+  "ourInputMatches": 337,
+  "publicFrameMatches": 337,
+  "sourceMismatches": [],
+  "memoryMismatches": [],
+  "bookBefore": {
+    "keys": 1295,
+    "boards": 1946,
+    "observations": 13396
+  },
+  "bookAfter": {
+    "keys": 1350,
+    "boards": 2029,
+    "observations": 13706
+  },
+  "newS3Writes": 338,
+  "shortBoards": [],
+  "seatRescues": [
+    {
+      "matchId": "729aae15-8d73-4e75-8c57-8b4562e6cb34",
+      "round": 1,
+      "opponent": "fabianhtml",
+      "result": "loss",
+      "winner": "them",
+      "bestSeatScore": 0.5
+    },
+    {
+      "matchId": "f2cee193-d884-4c46-a5b9-efae71cfd739",
+      "round": 1,
+      "opponent": "ternquest_com",
+      "result": "draw",
+      "winner": "draw",
+      "bestSeatScore": 1
+    },
+    {
+      "matchId": "f2cee193-d884-4c46-a5b9-efae71cfd739",
+      "round": 2,
+      "opponent": "ternquest_com",
+      "result": "draw",
+      "winner": "them",
+      "bestSeatScore": 1
+    },
+    {
+      "matchId": "352f6cf8-eb4a-4519-92c8-fe8e2251c71a",
+      "round": 0,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "winner": "them",
+      "bestSeatScore": 1
+    },
+    {
+      "matchId": "bc7eeb03-0496-41c7-b6be-602ef1a8f322",
+      "round": 0,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "winner": "draw",
+      "bestSeatScore": 1
+    },
+    {
+      "matchId": "a1d89071-c069-4c4a-af3d-2ff7810778f1",
+      "round": 1,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "winner": "draw",
+      "bestSeatScore": 1
+    },
+    {
+      "matchId": "2ae85eff-48ce-41a0-b3cd-bbdf7d286888",
+      "round": 0,
+      "opponent": "fabianhtml",
+      "result": "win",
+      "winner": "them",
+      "bestSeatScore": 0.5
+    },
+    {
+      "matchId": "40333b59-9a49-459a-8b15-98c168cca527",
+      "round": 0,
+      "opponent": "eliancodex",
+      "result": "win",
+      "winner": "them",
+      "bestSeatScore": 1
+    },
+    {
+      "matchId": "abec9617-3080-4572-864e-0567ce02ee47",
+      "round": 0,
+      "opponent": "luisjimnezcort5",
+      "result": "win",
+      "winner": "draw",
+      "bestSeatScore": 1
+    },
+    {
+      "matchId": "111da279-037f-4819-8e40-d675decb91c3",
+      "round": 1,
+      "opponent": "sodiumhyrdride",
+      "result": "win",
+      "winner": "them",
+      "bestSeatScore": 0.5
+    },
+    {
+      "matchId": "1cbc0487-6da8-43dc-9491-d1fc433fb597",
+      "round": 0,
+      "opponent": "devtony",
+      "result": "win",
+      "winner": "them",
+      "bestSeatScore": 0.5
+    },
+    {
+      "matchId": "448bc875-513d-4638-b1be-da5d5486454b",
+      "round": 0,
+      "opponent": "poteto",
+      "result": "win",
+      "winner": "draw",
+      "bestSeatScore": 1
+    },
+    {
+      "matchId": "c9f5ea6c-b771-4346-952e-574337f1381d",
+      "round": 2,
+      "opponent": "lucataco",
+      "result": "win",
+      "winner": "draw",
+      "bestSeatScore": 1
+    },
+    {
+      "matchId": "4b52c511-49c0-4e80-82b6-bde8000791dd",
+      "round": 0,
+      "opponent": "devtony",
+      "result": "win",
+      "winner": "draw",
+      "bestSeatScore": 1
+    },
+    {
+      "matchId": "28d89b21-0612-40d9-88c6-e8764503edfd",
+      "round": 0,
+      "opponent": "qsr_cg",
+      "result": "loss",
+      "winner": "them",
+      "bestSeatScore": 1
+    },
+    {
+      "matchId": "03a69f05-eb40-4c0e-985b-a3b9b807bf8a",
+      "round": 1,
+      "opponent": "levificati0n",
+      "result": "win",
+      "winner": "draw",
+      "bestSeatScore": 1
+    },
+    {
+      "matchId": "9f4f0a42-89d9-4538-9b01-5d8a06cd7122",
+      "round": 2,
+      "opponent": "ternquest_com",
+      "result": "loss",
+      "winner": "them",
+      "bestSeatScore": 1
+    },
+    {
+      "matchId": "8de9c33b-3cf5-4068-842c-d5010732f679",
+      "round": 0,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "winner": "them",
+      "bestSeatScore": 0.5
+    }
+  ],
+  "frameDifferences": [
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:4",
+      "matchId": "f5bb714c-bc9e-422f-bf7b-37613937010f",
+      "round": 1,
+      "opponent": "luisjimnezcort5",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 10,
+        "got": "The Accountant lights its aura",
+        "expected": "The Accountant lights its aura"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "warm_up",
+          "middle": "encore"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "drill"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:4",
+      "matchId": "f5bb714c-bc9e-422f-bf7b-37613937010f",
+      "round": 2,
+      "opponent": "luisjimnezcort5",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 11,
+        "got": "The Accountant lights its aura",
+        "expected": "The Accountant lights its aura"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "warm_up",
+          "middle": "encore",
+          "back": "hard_hat"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "drill"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:6",
+      "matchId": "334e6217-e979-4859-a2d3-8d802d302a5f",
+      "round": 1,
+      "opponent": "poteto",
+      "result": "loss",
+      "winner": "them",
+      "simWinner": "them",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 20,
+        "got": "Specialist joins the enemy side",
+        "expected": "Interview Prep gains +1/+1"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "encore",
+          "middle": "hot_seat"
+        },
+        "ourCaptain": "banker",
+        "theirCaptain": "banker"
+      },
+      "bestSeatScore": 0
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:7",
+      "matchId": "c99b06c1-f2ae-465c-969f-78dbbf8e440f",
+      "round": 1,
+      "opponent": "gkwy",
+      "result": "win",
+      "winner": "them",
+      "simWinner": "them",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 4,
+        "got": "Marketing crew: 2 damage to each enemy",
+        "expected": "Marketing crews: 2 damage to each enemy, 3 to each of your bots"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "spotlight",
+          "middle": "hard_hat"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "recruiter"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:8",
+      "matchId": "3ceff0c8-66a3-406c-927f-f597a675027c",
+      "round": 0,
+      "opponent": "lucataco",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 4,
+        "got": "Marketing crew: 3 damage to each enemy",
+        "expected": "Marketing crews: 3 damage to each enemy, 2 to each of your bots"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "warm_up"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "scout"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:8",
+      "matchId": "3ceff0c8-66a3-406c-927f-f597a675027c",
+      "round": 1,
+      "opponent": "lucataco",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 15,
+        "got": "Copywriter takes the spotlight: 1 to Homework Checker",
+        "expected": "Copywriter pins Homework Checker: 1"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "warm_up",
+          "middle": "encore"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "scout"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:11",
+      "matchId": "9041d7c1-913a-47b4-a8ce-9688d63d5c03",
+      "round": 1,
+      "opponent": "jusrelax",
+      "result": "loss",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 3,
+        "got": "Marketing crew: 2 damage to each enemy",
+        "expected": "Marketing crews: 2 damage to each enemy, 3 to each of your bots"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "chef"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:11",
+      "matchId": "9041d7c1-913a-47b4-a8ce-9688d63d5c03",
+      "round": 2,
+      "opponent": "jusrelax",
+      "result": "loss",
+      "winner": "them",
+      "simWinner": "them",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 21,
+        "got": "AIUsageBot's aura fades",
+        "expected": "AIUsageBot's aura fades"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "hard_hat"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "chef"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:16",
+      "matchId": "b81fb598-8a8e-43b9-8586-7dc60ae27fdc",
+      "round": 2,
+      "opponent": "qsr_cg",
+      "result": "win",
+      "winner": "draw",
+      "simWinner": "draw",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 30,
+        "got": "Hot seat: Product Builder CoS -1 HP",
+        "expected": "Testbench gains +2/+2"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "spotlight",
+          "middle": "hot_seat",
+          "back": "warm_up"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "scout"
+      },
+      "bestSeatScore": 0.5
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:21",
+      "matchId": "4c044ca3-90e3-4288-902b-ab80cbb26fff",
+      "round": 1,
+      "opponent": "qsr_cg",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 17,
+        "got": "Farm's armor: 1 less",
+        "expected": "Farm's armor: 2 less"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "pit_stop",
+          "middle": "spotlight"
+        },
+        "ourCaptain": "recruiter",
+        "theirCaptain": "scout"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:26",
+      "matchId": "4644112e-84f6-430b-90e2-e63e8585a1f5",
+      "round": 1,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 17,
+        "got": "Speed Lab strikes first: -12 HP to Forge",
+        "expected": "Speed Lab hits Forge: -12 HP"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "warm_up",
+          "middle": "spotlight"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "drill"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:28",
+      "matchId": "7b7476f2-fdba-4997-8d37-c9010ff6a38d",
+      "round": 1,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 11,
+        "got": "Speed Lab strikes first: -10 HP to Forge",
+        "expected": "Speed Lab hits Forge: -10 HP"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "warm_up",
+          "middle": "hard_hat"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "recruiter"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:30",
+      "matchId": "beb12f9d-05b3-4b8e-8e1b-5f8fbb021f12",
+      "round": 1,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 14,
+        "got": "Speed Lab strikes first: -9 HP to Imogen",
+        "expected": "Speed Lab hits Imogen: -9 HP"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "pit_stop"
+        },
+        "ourCaptain": "scout",
+        "theirCaptain": "recruiter"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:33",
+      "matchId": "db67c9e6-d718-448f-a3e2-0c5b4029b7d3",
+      "round": 0,
+      "opponent": "gabriel_x86",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 12,
+        "got": "Renewals Invoice Bot heals itself: +1 HP",
+        "expected": "Newsie clips Company Docs Q&A: 2"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "encore"
+        },
+        "ourCaptain": "recruiter",
+        "theirCaptain": "banker"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:46",
+      "matchId": "2ae85eff-48ce-41a0-b3cd-bbdf7d286888",
+      "round": 1,
+      "opponent": "fabianhtml",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 13,
+        "got": "Speed Lab strikes first: -9 HP to Writing Bot",
+        "expected": "Speed Lab hits Writing Bot: -9 HP"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "warm_up",
+          "middle": "hot_seat"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "medic"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:50",
+      "matchId": "04d6a8b3-b6fd-4ab3-bd6f-69e53aaee59a",
+      "round": 1,
+      "opponent": "fabianhtml",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 25,
+        "got": "Product Builder CoS's armor: 1 less",
+        "expected": "Product Builder CoS's armor: 2 less"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "hard_hat",
+          "middle": "hot_seat"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:61",
+      "matchId": "4d624a41-afa4-4751-adc9-0455df4ad581",
+      "round": 1,
+      "opponent": "qsr_cg",
+      "result": "win",
+      "winner": "draw",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 10,
+        "got": "Vigil mutes Spark: no ability this fight",
+        "expected": "Spark's aura fades"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "pit_stop",
+          "middle": "warm_up"
+        },
+        "ourCaptain": "recruiter",
+        "theirCaptain": "scout"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:67",
+      "matchId": "4e58774b-8fc1-46a6-9222-63a819854ea6",
+      "round": 2,
+      "opponent": "qsr_cg",
+      "result": "loss",
+      "winner": "them",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 10,
+        "got": "Megaphone: Product Builder CoS hits Devils Advocate for 4",
+        "expected": "Megaphone: Product Builder CoS hits Tally Desk for 4"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "pit_stop",
+          "middle": "hot_seat",
+          "back": "warm_up"
+        },
+        "ourCaptain": "recruiter",
+        "theirCaptain": "scout"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:72",
+      "matchId": "95098744-e207-4760-8184-5ccd3a4c6d21",
+      "round": 2,
+      "opponent": "qsr_cg",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 5,
+        "got": "Kill switch: ASC Skill mutes each enemy",
+        "expected": "ASC Skill mutes Cue: no ability this fight"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "hard_hat",
+          "back": "pit_stop"
+        },
+        "ourCaptain": "banker",
+        "theirCaptain": "scout"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:76",
+      "matchId": "5a75c6d6-dd00-4845-88dd-833aa1222f34",
+      "round": 2,
+      "opponent": "ternquest_com",
+      "result": "loss",
+      "winner": "them",
+      "simWinner": "draw",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 11,
+        "got": "Alchemist poisons Alfred: venom 1",
+        "expected": "Outbound Prospecting snipes Webby for 3"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "encore",
+          "middle": "hot_seat",
+          "back": "warm_up"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "bestSeatScore": 0.5
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:77",
+      "matchId": "d90d0143-b511-4042-971e-c0cdc2da837c",
+      "round": 0,
+      "opponent": "ternquest_com",
+      "result": "draw",
+      "winner": "them",
+      "simWinner": "them",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 4,
+        "got": "Marketing crew: 2 damage to each enemy",
+        "expected": "Marketing crews: 2 damage to each enemy, 3 to each of your bots"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "encore"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "bestSeatScore": 0.5
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:77",
+      "matchId": "d90d0143-b511-4042-971e-c0cdc2da837c",
+      "round": 2,
+      "opponent": "ternquest_com",
+      "result": "draw",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 7,
+        "got": "Bouncer's armor: 2 less",
+        "expected": "Bouncer's armor: 1 less"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "encore",
+          "middle": "hard_hat",
+          "back": "hot_seat"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:87",
+      "matchId": "f445ff71-2f5f-477d-9c68-6fbcf36dafc3",
+      "round": 0,
+      "opponent": "qsr_cg",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 5,
+        "got": "Root Agent copies Root Agent",
+        "expected": "AI VP Bot lights its aura"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "warm_up"
+        },
+        "ourCaptain": "scout",
+        "theirCaptain": "scout"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:101",
+      "matchId": "7911cfb5-8ae2-46cc-850e-4cc397a96911",
+      "round": 0,
+      "opponent": "fabianhtml",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 8,
+        "got": "Root Agent takes the spotlight: 1 to Writing Bot",
+        "expected": "Root Agent sideswipes Writing Bot: 1"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "pit_stop"
+        },
+        "ourCaptain": "recruiter",
+        "theirCaptain": "medic"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:106",
+      "matchId": "d26e60c9-a340-4aab-83fc-55091f360449",
+      "round": 2,
+      "opponent": "luisjimnezcort5",
+      "result": "draw",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 29,
+        "got": "Hot seat: SEOAgent -1 HP",
+        "expected": "SEOAgent gains +2/+2"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "encore",
+          "middle": "hard_hat",
+          "back": "hot_seat"
+        },
+        "ourCaptain": "recruiter",
+        "theirCaptain": "drill"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:118",
+      "matchId": "28d89b21-0612-40d9-88c6-e8764503edfd",
+      "round": 1,
+      "opponent": "qsr_cg",
+      "result": "loss",
+      "winner": "them",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 10,
+        "got": "The Accountant lights its aura",
+        "expected": "The Accountant lights its aura"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "warm_up",
+          "middle": "hot_seat"
+        },
+        "ourCaptain": "banker",
+        "theirCaptain": "scout"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:128",
+      "matchId": "9f4f0a42-89d9-4538-9b01-5d8a06cd7122",
+      "round": 0,
+      "opponent": "ternquest_com",
+      "result": "loss",
+      "winner": "them",
+      "simWinner": "them",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 8,
+        "got": "Vigil mutes Mother Ship: no ability this fight",
+        "expected": "Mother Ship's aura fades"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "warm_up"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "medic"
+      },
+      "bestSeatScore": 0
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:128",
+      "matchId": "9f4f0a42-89d9-4538-9b01-5d8a06cd7122",
+      "round": 1,
+      "opponent": "ternquest_com",
+      "result": "loss",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 12,
+        "got": "Vigil mutes Mother Ship: no ability this fight",
+        "expected": "Mother Ship's aura fades"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "warm_up",
+          "middle": "spotlight"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "medic"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:130",
+      "matchId": "2a62c429-3766-41b8-9417-420ec8127573",
+      "round": 2,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 24,
+        "got": "Grimoire's aura fades",
+        "expected": "Grimoire's aura fades"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "spotlight",
+          "middle": "hard_hat",
+          "back": "pit_stop"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "drill"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:133",
+      "matchId": "77b3370a-40c5-4f5b-96b9-a90c4bbb3f26",
+      "round": 2,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 29,
+        "got": "Grimoire's aura fades",
+        "expected": "Grimoire's aura fades"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "encore",
+          "middle": "hot_seat",
+          "back": "pit_stop"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "drill"
+      },
+      "bestSeatScore": 1
+    },
+    {
+      "matchKey": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3:134",
+      "matchId": "8de9c33b-3cf5-4068-842c-d5010732f679",
+      "round": 2,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "frameDifference": {
+        "at": 21,
+        "got": "Grimoire's aura fades",
+        "expected": "Grimoire's aura fades"
+      },
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "spotlight",
+          "middle": "hot_seat",
+          "back": "hard_hat"
+        },
+        "ourCaptain": "recruiter",
+        "theirCaptain": "drill"
+      },
+      "bestSeatScore": 1
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "fp": "writing bot | event producer | wtd",
+  "seats": [
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "shunshifuw"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__meeting-recap-deck__ai-search-visibility": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "elo": -50,
+      "last": "2026-09-18T12:00:17.320Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__copy-humanizer__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:00:44.956Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__copy-humanizer__webby",
+  "plays": 3,
+  "updated": "2026-09-18T12:00:51.038Z"
+}

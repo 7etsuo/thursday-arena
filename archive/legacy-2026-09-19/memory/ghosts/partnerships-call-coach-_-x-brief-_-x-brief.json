@@ -1,0 +1,90 @@
+{
+  "fp": "partnerships call coach | x brief | x brief",
+  "seats": [
+    {
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "bradvincent_"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__outbound-prospecting__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T00:33:28.584Z",
+      "lastResult": "loss"
+    },
+    "recipe-nightly-audit-engineer__outbound-prospecting__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-19T00:33:51.241Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__outbound-prospecting__office-ops-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-19T00:34:00.416Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__love__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-19T00:34:10.696Z",
+      "lastResult": "loss"
+    },
+    "recipe-wtd__sales-call-coach__imogen": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-19T00:34:23.318Z",
+      "lastResult": "loss"
+    },
+    "recipe-stills-clips-desk__alfred": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-19T00:34:34.936Z",
+      "lastResult": "loss"
+    },
+    "recipe-credit-card-max__site-audit__projects-manager": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -6,
+      "last": "2026-09-19T00:34:45.173Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__site-audit__projects-manager",
+  "plays": 7,
+  "updated": "2026-09-19T00:34:45.173Z"
+}

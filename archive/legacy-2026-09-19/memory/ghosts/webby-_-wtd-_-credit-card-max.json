@@ -1,0 +1,58 @@
+{
+  "fp": "webby | wtd | credit card max",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "scottmrisk"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__cooper__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T22:44:05.107Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__copy-humanizer__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T22:44:12.283Z",
+      "lastResult": "loss"
+    },
+    "recipe-love__flora-plant-care-log__hiring-signals": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T22:44:30.483Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-love__flora-plant-care-log__hiring-signals",
+  "plays": 3,
+  "updated": "2026-09-18T22:45:00.231Z"
+}

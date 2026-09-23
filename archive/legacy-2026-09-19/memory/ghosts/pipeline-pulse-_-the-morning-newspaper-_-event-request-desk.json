@@ -1,0 +1,50 @@
+{
+  "fp": "pipeline pulse | the morning newspaper | event request desk",
+  "seats": [
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "default_vpc"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__writing-bot__credit-card-max": {
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T07:21:04.555Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 19,
+      "last": "2026-09-19T07:21:33.199Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 5,
+  "updated": "2026-09-19T07:21:33.199Z"
+}

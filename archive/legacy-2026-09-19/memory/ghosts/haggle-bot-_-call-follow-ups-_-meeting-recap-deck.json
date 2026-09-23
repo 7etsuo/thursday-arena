@@ -1,0 +1,42 @@
+{
+  "fp": "haggle bot | call follow ups | meeting recap deck",
+  "seats": [
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "vibeleiz"
+  ],
+  "matchups": {
+    "recipe-imogen__office-ops-desk__xzze41svjdcq2w6zwjan": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -7,
+      "last": "2026-09-19T07:25:16.077Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__office-ops-desk__xzze41svjdcq2w6zwjan",
+  "plays": 1,
+  "updated": "2026-09-19T07:25:16.077Z"
+}

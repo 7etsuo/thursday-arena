@@ -1,0 +1,66 @@
+{
+  "fp": "ai search visibility | luma pages | meeting recap deck",
+  "seats": [
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "_ebfe"
+  ],
+  "matchups": {
+    "recipe-pipeline-pulse__company-docs-q-a__pipeline-pulse": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T21:07:08.816Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__wtd__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T21:07:48.301Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T21:07:55.777Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__cooper__ad-spend-watch": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T21:08:02.190Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__the-morning-newspaper__nightly-audit-engineer",
+  "plays": 4,
+  "updated": "2026-09-18T21:08:08.217Z"
+}

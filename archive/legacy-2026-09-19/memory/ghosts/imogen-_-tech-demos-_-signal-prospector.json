@@ -1,0 +1,58 @@
+{
+  "fp": "imogen | tech demos | signal prospector",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "uiuxax"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__call-follow-ups__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T11:13:18.612Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__company-docs-q-a__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T11:13:30.349Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__the-morning-newspaper__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T11:13:55.035Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__the-morning-newspaper__webby",
+  "plays": 3,
+  "updated": "2026-09-18T11:13:55.035Z"
+}

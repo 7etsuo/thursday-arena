@@ -1,0 +1,74 @@
+{
+  "fp": "nyc parent | x brief | recruiting coordinator",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "tubbt3"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__company-docs-q-a__webby": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -5,
+      "last": "2026-09-19T02:06:24.009Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__webby__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-19T02:07:22.415Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__apple-search-ads-review__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-19T02:07:33.987Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__product-support-inbox-assistant__site-audit": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-19T02:08:14.653Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__credit-card-max__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-19T02:08:29.375Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__apple-search-ads-review__writing-bot",
+  "plays": 5,
+  "updated": "2026-09-19T02:08:29.375Z"
+}

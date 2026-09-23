@@ -1,0 +1,58 @@
+{
+  "fp": "nyc parent | event producer | overheard",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "imerttoprak"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__copy-humanizer__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:54:51.986Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__flora-plant-care-log__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:55:10.803Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:55:18.806Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__flora-plant-care-log__cooper",
+  "plays": 3,
+  "updated": "2026-09-19T03:55:18.806Z"
+}

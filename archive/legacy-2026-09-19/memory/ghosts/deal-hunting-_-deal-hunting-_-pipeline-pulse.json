@@ -1,0 +1,98 @@
+{
+  "fp": "deal hunting | deal hunting | pipeline pulse",
+  "seats": [
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sai_vajra"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__the-morning-newspaper__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T21:08:22.189Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T21:08:30.413Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__love__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:08:37.218Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__gtm-prospecting": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:08:44.418Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:08:51.565Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__company-docs-q-a__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:09:03.680Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__cooper__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:09:12.035Z",
+      "lastResult": "win"
+    },
+    "recipe-haggle-bot__credit-card-max__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:09:22.792Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__the-morning-newspaper__cooper",
+  "plays": 8,
+  "updated": "2026-09-18T21:09:22.792Z"
+}

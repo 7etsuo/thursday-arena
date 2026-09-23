@@ -1,0 +1,38 @@
+{
+  "id": "recipe-imogen__copy-humanizer__apple-search-ads-review",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "flamingo",
+    "grow"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 0,
+  "losses": 2,
+  "elo": -49,
+  "last": "2026-09-18T21:24:01.707Z"
+}

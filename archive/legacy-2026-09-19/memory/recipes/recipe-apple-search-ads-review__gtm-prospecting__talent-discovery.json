@@ -1,0 +1,38 @@
+{
+  "id": "recipe-apple-search-ads-review__gtm-prospecting__talent-discovery",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "talent discovery",
+      "kit": "snowball",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "grow",
+    "mosquito",
+    "snowball"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 15,
+  "last": "2026-09-19T06:53:47.060Z"
+}

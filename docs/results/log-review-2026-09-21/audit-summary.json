@@ -1,0 +1,6244 @@
+{
+  "code": "5b818477d8cb",
+  "matches": 1150,
+  "results": {
+    "win": 998,
+    "loss": 112,
+    "draw": 40
+  },
+  "byOpponent": {
+    "qsr_cg": {
+      "win": 1,
+      "loss": 0,
+      "draw": 0,
+      "elo": 5
+    },
+    "izzat316": {
+      "win": 220,
+      "loss": 27,
+      "draw": 11,
+      "elo": 317
+    },
+    "gkwy": {
+      "win": 27,
+      "loss": 0,
+      "draw": 0,
+      "elo": 38
+    },
+    "thebeeduck": {
+      "win": 26,
+      "loss": 0,
+      "draw": 0,
+      "elo": 33
+    },
+    "circles_r_phun": {
+      "win": 20,
+      "loss": 1,
+      "draw": 2,
+      "elo": -19
+    },
+    "luisjimnezcort5": {
+      "win": 19,
+      "loss": 0,
+      "draw": 1,
+      "elo": 16
+    },
+    "sodiumhyrdride": {
+      "win": 33,
+      "loss": 4,
+      "draw": 0,
+      "elo": -84
+    },
+    "eliancodex": {
+      "win": 7,
+      "loss": 1,
+      "draw": 0,
+      "elo": -22
+    },
+    "s3xyfuture": {
+      "win": 17,
+      "loss": 0,
+      "draw": 1,
+      "elo": 19
+    },
+    "jusrelax": {
+      "win": 6,
+      "loss": 0,
+      "draw": 0,
+      "elo": 8
+    },
+    "_tb_brewster": {
+      "win": 6,
+      "loss": 0,
+      "draw": 0,
+      "elo": 8
+    },
+    "lighttwrecker": {
+      "win": 19,
+      "loss": 0,
+      "draw": 0,
+      "elo": 25
+    },
+    "1bjax": {
+      "win": 4,
+      "loss": 0,
+      "draw": 0,
+      "elo": 6
+    },
+    "levificati0n": {
+      "win": 7,
+      "loss": 0,
+      "draw": 0,
+      "elo": 7
+    },
+    "ternquest_com": {
+      "win": 342,
+      "loss": 66,
+      "draw": 19,
+      "elo": 776
+    },
+    "gabriel_x86": {
+      "win": 6,
+      "loss": 0,
+      "draw": 0,
+      "elo": 5
+    },
+    "ryansheng": {
+      "win": 6,
+      "loss": 0,
+      "draw": 0,
+      "elo": 2
+    },
+    "alexanderopalic": {
+      "win": 3,
+      "loss": 0,
+      "draw": 0,
+      "elo": 3
+    },
+    "safiahmad313": {
+      "win": 1,
+      "loss": 0,
+      "draw": 0,
+      "elo": 1
+    },
+    "syaor4n": {
+      "win": 75,
+      "loss": 7,
+      "draw": 2,
+      "elo": -128
+    },
+    "steve86sjm": {
+      "win": 4,
+      "loss": 0,
+      "draw": 0,
+      "elo": 4
+    },
+    "_solcat_": {
+      "win": 21,
+      "loss": 0,
+      "draw": 0,
+      "elo": 22
+    },
+    "cxrlosmonroy": {
+      "win": 4,
+      "loss": 0,
+      "draw": 0,
+      "elo": 4
+    },
+    "ryanjosebrosas": {
+      "win": 12,
+      "loss": 0,
+      "draw": 0,
+      "elo": 18
+    },
+    "nirajlovesfries": {
+      "win": 3,
+      "loss": 0,
+      "draw": 0,
+      "elo": 3
+    },
+    "cmoyyds": {
+      "win": 2,
+      "loss": 0,
+      "draw": 0,
+      "elo": 2
+    },
+    "roostercogdick": {
+      "win": 5,
+      "loss": 0,
+      "draw": 0,
+      "elo": 7
+    },
+    "bhootsumant": {
+      "win": 13,
+      "loss": 2,
+      "draw": 1,
+      "elo": -62
+    },
+    "sanwang39883": {
+      "win": 11,
+      "loss": 0,
+      "draw": 0,
+      "elo": 15
+    },
+    "cbschulz": {
+      "win": 9,
+      "loss": 2,
+      "draw": 1,
+      "elo": -67
+    },
+    "wenakita": {
+      "win": 11,
+      "loss": 0,
+      "draw": 1,
+      "elo": 0
+    },
+    "bourkefloyd": {
+      "win": 9,
+      "loss": 0,
+      "draw": 0,
+      "elo": 9
+    },
+    "iijanchan": {
+      "win": 2,
+      "loss": 0,
+      "draw": 1,
+      "elo": -13
+    },
+    "outtherefan": {
+      "win": 4,
+      "loss": 0,
+      "draw": 0,
+      "elo": 4
+    },
+    "darren_bryant": {
+      "win": 8,
+      "loss": 0,
+      "draw": 0,
+      "elo": 8
+    },
+    "amanverma235979": {
+      "win": 9,
+      "loss": 0,
+      "draw": 0,
+      "elo": 11
+    },
+    "devtony": {
+      "win": 11,
+      "loss": 0,
+      "draw": 0,
+      "elo": 15
+    },
+    "legacynical": {
+      "win": 7,
+      "loss": 1,
+      "draw": 0,
+      "elo": -23
+    },
+    "ms0242808": {
+      "win": 6,
+      "loss": 1,
+      "draw": 0,
+      "elo": -25
+    },
+    "qilir4": {
+      "win": 2,
+      "loss": 0,
+      "draw": 0,
+      "elo": 2
+    }
+  },
+  "first": "2026-09-21T07:17:56.003Z",
+  "last": "2026-09-21T13:09:12.777Z",
+  "completeFullMatches": 1148,
+  "battles": 2751,
+  "simWinners": 2745,
+  "simFrames": 2686,
+  "ourInputs": 2751,
+  "publicFrames": 2751,
+  "shops": 2755,
+  "sourceMismatches": [],
+  "legalityChecks": 15658,
+  "economyChecks": 15658,
+  "boardChecks": 13033,
+  "modelErrors": [],
+  "learning": {
+    "observations": 2753,
+    "source": {
+      "public_replay": 2749,
+      "battle_frames": 4
+    },
+    "missingLearn": [],
+    "duplicateLearn": [],
+    "errors": [],
+    "lossMatches": 112,
+    "lossRounds": 272,
+    "finalReconstructedStats": {
+      "keys": 1422,
+      "boards": 2193,
+      "observations": 14606
+    },
+    "finalDiskBookProvided": false
+  },
+  "frameDifferences": [
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:45",
+      "matchId": "fb4c886f-f068-4653-abf8-5b032f96d223",
+      "round": 1,
+      "ts": "2026-09-21T07:28:45.033Z",
+      "opponent": "ternquest_com",
+      "matchResult": "loss",
+      "winner": "draw",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "pit_stop"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 11,
+        "got": {
+          "you": [
+            {
+              "name": "SEO & AEO Desk",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 3,
+              "hp": 7
+            },
+            {
+              "name": "Copywriter",
+              "atk": 3,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Farm",
+              "atk": 11,
+              "hp": 9
+            },
+            {
+              "name": "Video Edit Desk",
+              "atk": 3,
+              "hp": 5
+            },
+            {
+              "name": "Call Follow-Ups",
+              "atk": 3,
+              "hp": 2
+            }
+          ],
+          "caption": "Homework Checker exposes Farm: +4 damage per hit"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "SEO & AEO Desk",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 3,
+              "hp": 7
+            },
+            {
+              "name": "Copywriter",
+              "atk": 3,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Farm",
+              "atk": 11,
+              "hp": 9
+            },
+            {
+              "name": "Video Edit Desk",
+              "atk": 3,
+              "hp": 5
+            },
+            {
+              "name": "Call Follow-Ups",
+              "atk": 3,
+              "hp": 2
+            }
+          ],
+          "caption": "Homework Checker exposes Farm: +2 damage per hit"
+        },
+        "gotFrames": 34,
+        "expectedFrames": 42
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:45",
+      "matchId": "fb4c886f-f068-4653-abf8-5b032f96d223",
+      "round": 2,
+      "ts": "2026-09-21T07:28:49.063Z",
+      "opponent": "ternquest_com",
+      "matchResult": "loss",
+      "winner": "them",
+      "simWinner": "them",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "pit_stop",
+          "back": "spotlight"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 14,
+        "got": {
+          "you": [
+            {
+              "name": "SEO & AEO Desk",
+              "atk": 2,
+              "hp": 2
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "Copywriter",
+              "atk": 6,
+              "hp": 1
+            }
+          ],
+          "them": [
+            {
+              "name": "Copy Humanizer",
+              "atk": 5,
+              "hp": 4
+            },
+            {
+              "name": "Clip Bot",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "SEO & AEO Desk",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "caption": "Homework Checker exposes Copy Humanizer: +4 damage per hit"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "SEO & AEO Desk",
+              "atk": 2,
+              "hp": 2
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "Copywriter",
+              "atk": 6,
+              "hp": 1
+            }
+          ],
+          "them": [
+            {
+              "name": "Copy Humanizer",
+              "atk": 5,
+              "hp": 4
+            },
+            {
+              "name": "Clip Bot",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "SEO & AEO Desk",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "caption": "Homework Checker exposes Copy Humanizer: +2 damage per hit"
+        },
+        "gotFrames": 33,
+        "expectedFrames": 34
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:93",
+      "matchId": "11a04792-1a95-40f7-a180-d19743c9e4c3",
+      "round": 1,
+      "ts": "2026-09-21T07:40:41.755Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "spotlight",
+          "middle": "hard_hat"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 9,
+        "got": {
+          "you": [
+            {
+              "name": "Paper Cards",
+              "atk": 6,
+              "hp": 1,
+              "shield": 1
+            },
+            {
+              "name": "Hiring Signals",
+              "atk": 5,
+              "hp": 3
+            },
+            {
+              "name": "WTD",
+              "atk": 3,
+              "hp": 4
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 10,
+              "hp": 8
+            },
+            {
+              "name": "Critiquito: Design Critique",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Grip",
+              "atk": 2,
+              "hp": 1
+            }
+          ],
+          "caption": "Paper Cards shields Paper Cards"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Paper Cards",
+              "atk": 6,
+              "hp": 1,
+              "shield": 1
+            },
+            {
+              "name": "Hiring Signals",
+              "atk": 5,
+              "hp": 3
+            },
+            {
+              "name": "WTD",
+              "atk": 3,
+              "hp": 4
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 10,
+              "hp": 8
+            },
+            {
+              "name": "Critiquito: Design Critique",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Grip",
+              "atk": 2,
+              "hp": 1
+            }
+          ],
+          "caption": "Paper Cards raises a shield"
+        },
+        "gotFrames": 24,
+        "expectedFrames": 24
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:171",
+      "matchId": "d7a69093-dc5e-45fd-ae1e-8c74cc7cb3f6",
+      "round": 0,
+      "ts": "2026-09-21T08:00:20.921Z",
+      "opponent": "s3xyfuture",
+      "matchResult": "win",
+      "winner": "them",
+      "simWinner": "them",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "hard_hat"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 12,
+        "got": {
+          "you": [
+            {
+              "name": "Speed Lab",
+              "atk": 2,
+              "hp": -4
+            },
+            {
+              "name": "Newsie",
+              "atk": 3,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "SaaSbot",
+              "atk": 9,
+              "hp": 1
+            },
+            {
+              "name": "WTD",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Renewals Invoice Bot",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "SaaSbot hits back: -9 HP to Speed Lab"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Speed Lab",
+              "atk": 2,
+              "hp": -4
+            },
+            {
+              "name": "Newsie",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "SaaSbot",
+              "atk": 9,
+              "hp": 1
+            },
+            {
+              "name": "WTD",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Renewals Invoice Bot",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "SaaSbot hits back: -9 HP to Speed Lab; SaaSbot splashes Newsie: -1 HP"
+        },
+        "gotFrames": 23,
+        "expectedFrames": 23
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:228",
+      "matchId": "0e94b0c4-b441-4085-9852-e9ff517a04e8",
+      "round": 2,
+      "ts": "2026-09-21T08:15:22.369Z",
+      "opponent": "syaor4n",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "hard_hat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 15,
+        "got": {
+          "you": [
+            {
+              "name": "Paper Cards",
+              "atk": 4,
+              "hp": 7,
+              "shield": 3
+            },
+            {
+              "name": "illo",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "figma bro",
+              "atk": 6,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Overheard",
+              "atk": 8,
+              "hp": 5
+            },
+            {
+              "name": "Credit Card Max",
+              "atk": 5,
+              "hp": 4
+            },
+            {
+              "name": "dr eggbot",
+              "atk": 10,
+              "hp": 5
+            }
+          ],
+          "caption": "Paper Cards shields Paper Cards"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Paper Cards",
+              "atk": 4,
+              "hp": 7,
+              "shield": 3
+            },
+            {
+              "name": "illo",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "figma bro",
+              "atk": 6,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Overheard",
+              "atk": 8,
+              "hp": 5
+            },
+            {
+              "name": "Credit Card Max",
+              "atk": 5,
+              "hp": 4
+            },
+            {
+              "name": "dr eggbot",
+              "atk": 10,
+              "hp": 5
+            }
+          ],
+          "caption": "Paper Cards raises a shield"
+        },
+        "gotFrames": 54,
+        "expectedFrames": 54
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:292",
+      "matchId": "01ff96f0-5670-4fc6-ad21-73581905de4e",
+      "round": 1,
+      "ts": "2026-09-21T08:32:09.134Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "hard_hat",
+          "middle": "hot_seat"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 8,
+        "got": {
+          "you": [
+            {
+              "name": "Paper Cards",
+              "atk": 8,
+              "hp": 4,
+              "shield": 1
+            },
+            {
+              "name": "Meeting Recap Deck",
+              "atk": 5,
+              "hp": 2
+            },
+            {
+              "name": "Company Docs Q&A",
+              "atk": 4,
+              "hp": 4
+            }
+          ],
+          "them": [
+            {
+              "name": "Site Audit",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Company Docs Q&A",
+              "atk": 2,
+              "hp": 6
+            },
+            {
+              "name": "Paper Cards",
+              "atk": 2,
+              "hp": 9
+            }
+          ],
+          "caption": "Paper Cards shields Paper Cards"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Paper Cards",
+              "atk": 8,
+              "hp": 4,
+              "shield": 1
+            },
+            {
+              "name": "Meeting Recap Deck",
+              "atk": 5,
+              "hp": 2
+            },
+            {
+              "name": "Company Docs Q&A",
+              "atk": 4,
+              "hp": 4
+            }
+          ],
+          "them": [
+            {
+              "name": "Site Audit",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Company Docs Q&A",
+              "atk": 2,
+              "hp": 6
+            },
+            {
+              "name": "Paper Cards",
+              "atk": 2,
+              "hp": 9
+            }
+          ],
+          "caption": "Paper Cards raises a shield"
+        },
+        "gotFrames": 49,
+        "expectedFrames": 49
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:300",
+      "matchId": "4f7fce11-8f48-4a25-841b-81c31a66228d",
+      "round": 1,
+      "ts": "2026-09-21T08:34:17.190Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "hard_hat",
+          "middle": "pit_stop"
+        },
+        "ourCaptain": "banker",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 15,
+        "got": {
+          "you": [
+            {
+              "name": "Company Docs Q&A",
+              "atk": 5,
+              "hp": 10
+            },
+            {
+              "name": "Account Research Desk",
+              "atk": 6,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Lead Pipeline Desk",
+              "atk": 12,
+              "hp": 4
+            },
+            {
+              "name": "Interview Prep",
+              "atk": 1,
+              "hp": 8
+            }
+          ],
+          "caption": "Lead Pipeline Desk snowballs the knock-out: +2/+2"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Company Docs Q&A",
+              "atk": 5,
+              "hp": 10
+            },
+            {
+              "name": "Account Research Desk",
+              "atk": 6,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Lead Pipeline Desk",
+              "atk": 10,
+              "hp": 2
+            },
+            {
+              "name": "Interview Prep",
+              "atk": 2,
+              "hp": 9
+            }
+          ],
+          "caption": "Interview Prep gains +1/+1"
+        },
+        "gotFrames": 31,
+        "expectedFrames": 31
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:303",
+      "matchId": "eb2d1ea3-ff61-47e2-9e3c-d7cd18ee8da1",
+      "round": 0,
+      "ts": "2026-09-21T08:34:59.669Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "hard_hat"
+        },
+        "ourCaptain": "recruiter",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 4,
+        "got": {
+          "you": [
+            {
+              "name": "Webby",
+              "atk": 3,
+              "hp": 5
+            },
+            {
+              "name": "Icebreaker",
+              "atk": 5,
+              "hp": 4
+            },
+            {
+              "name": "Icebreaker",
+              "atk": 5,
+              "hp": 4
+            }
+          ],
+          "them": [
+            {
+              "name": "Flora: Plant Care Log",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "Site Audit",
+              "atk": 3,
+              "hp": 3
+            },
+            {
+              "name": "Lease Finder",
+              "atk": 1,
+              "hp": 5
+            }
+          ],
+          "caption": "Icebreaker exposes Flora: Plant Care Log: +4 damage per hit"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Webby",
+              "atk": 3,
+              "hp": 5
+            },
+            {
+              "name": "Icebreaker",
+              "atk": 5,
+              "hp": 4
+            },
+            {
+              "name": "Icebreaker",
+              "atk": 5,
+              "hp": 4
+            }
+          ],
+          "them": [
+            {
+              "name": "Flora: Plant Care Log",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "Site Audit",
+              "atk": 3,
+              "hp": 3
+            },
+            {
+              "name": "Lease Finder",
+              "atk": 1,
+              "hp": 5
+            }
+          ],
+          "caption": "Icebreaker exposes Flora: Plant Care Log: +2 damage per hit"
+        },
+        "gotFrames": 32,
+        "expectedFrames": 32
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:303",
+      "matchId": "eb2d1ea3-ff61-47e2-9e3c-d7cd18ee8da1",
+      "round": 1,
+      "ts": "2026-09-21T08:35:04.484Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "them",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "hard_hat",
+          "middle": "encore"
+        },
+        "ourCaptain": "recruiter",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 10,
+        "got": {
+          "you": [
+            {
+              "name": "Icebreaker",
+              "atk": 6,
+              "hp": 5
+            },
+            {
+              "name": "GTM Prospecting",
+              "atk": 7,
+              "hp": 4
+            },
+            {
+              "name": "Icebreaker",
+              "atk": 9,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Lead Pipeline Desk",
+              "atk": 10,
+              "hp": 8
+            },
+            {
+              "name": "Interview Prep",
+              "atk": 1,
+              "hp": 4
+            },
+            {
+              "name": "Grip",
+              "atk": 2,
+              "hp": 3
+            }
+          ],
+          "caption": "Icebreaker exposes Lead Pipeline Desk: +4 damage per hit"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Icebreaker",
+              "atk": 6,
+              "hp": 5
+            },
+            {
+              "name": "GTM Prospecting",
+              "atk": 7,
+              "hp": 4
+            },
+            {
+              "name": "Icebreaker",
+              "atk": 9,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Lead Pipeline Desk",
+              "atk": 10,
+              "hp": 8
+            },
+            {
+              "name": "Interview Prep",
+              "atk": 1,
+              "hp": 4
+            },
+            {
+              "name": "Grip",
+              "atk": 2,
+              "hp": 3
+            }
+          ],
+          "caption": "Icebreaker exposes Lead Pipeline Desk: +2 damage per hit"
+        },
+        "gotFrames": 33,
+        "expectedFrames": 36
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:303",
+      "matchId": "eb2d1ea3-ff61-47e2-9e3c-d7cd18ee8da1",
+      "round": 2,
+      "ts": "2026-09-21T08:35:07.598Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "hard_hat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "ourCaptain": "recruiter",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 13,
+        "got": {
+          "you": [
+            {
+              "name": "Icebreaker",
+              "atk": 7,
+              "hp": 6
+            },
+            {
+              "name": "GTM Prospecting",
+              "atk": 7,
+              "hp": 4
+            },
+            {
+              "name": "Icebreaker",
+              "atk": 8,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "repost X posts everywhere",
+              "atk": 9,
+              "hp": 5
+            },
+            {
+              "name": "Interview Prep",
+              "atk": 1,
+              "hp": 6
+            }
+          ],
+          "caption": "Icebreaker exposes repost X posts everywhere: +4 damage per hit"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Icebreaker",
+              "atk": 7,
+              "hp": 6
+            },
+            {
+              "name": "GTM Prospecting",
+              "atk": 7,
+              "hp": 4
+            },
+            {
+              "name": "Icebreaker",
+              "atk": 8,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "repost X posts everywhere",
+              "atk": 9,
+              "hp": 5
+            },
+            {
+              "name": "Interview Prep",
+              "atk": 1,
+              "hp": 6
+            }
+          ],
+          "caption": "Icebreaker exposes repost X posts everywhere: +2 damage per hit"
+        },
+        "gotFrames": 31,
+        "expectedFrames": 31
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:313",
+      "matchId": "159ee8a6-3ef8-43bd-a9df-87ddfa077d3e",
+      "round": 1,
+      "ts": "2026-09-21T08:37:40.340Z",
+      "opponent": "thebeeduck",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore"
+        },
+        "ourCaptain": "banker",
+        "theirCaptain": "chef"
+      },
+      "frameDifference": {
+        "at": 11,
+        "got": {
+          "you": [
+            {
+              "name": "Online Identity Bot",
+              "atk": 4,
+              "hp": 3,
+              "shield": 1
+            },
+            {
+              "name": "MarketBoxScan",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "WTD",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 2,
+              "hp": -1
+            },
+            {
+              "name": "Stills & Clips Desk",
+              "atk": 2,
+              "hp": 6
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 3,
+              "hp": 3
+            }
+          ],
+          "caption": "Online Identity Bot hits back: -4 HP to Speed Lab"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Online Identity Bot",
+              "atk": 4,
+              "hp": 3,
+              "shield": 1
+            },
+            {
+              "name": "MarketBoxScan",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "WTD",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 2,
+              "hp": -1
+            },
+            {
+              "name": "Stills & Clips Desk",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 3,
+              "hp": 3
+            }
+          ],
+          "caption": "Online Identity Bot hits back: -4 HP to Speed Lab; Online Identity Bot splashes Stills & Clips Desk: -1 HP"
+        },
+        "gotFrames": 31,
+        "expectedFrames": 27
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:349",
+      "matchId": "deb895e3-fab6-4778-ae49-2e11ff01f474",
+      "round": 1,
+      "ts": "2026-09-21T08:47:05.069Z",
+      "opponent": "ternquest_com",
+      "matchResult": "loss",
+      "winner": "them",
+      "simWinner": "draw",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "encore",
+          "middle": "hot_seat"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 9,
+        "got": {
+          "you": [
+            {
+              "name": "Icebreaker",
+              "atk": 6,
+              "hp": 5
+            },
+            {
+              "name": "Product Support Inbox Assistant",
+              "atk": 6,
+              "hp": 7
+            },
+            {
+              "name": "GTM Prospecting",
+              "atk": 7,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Writing Bot",
+              "atk": 5,
+              "hp": 9
+            },
+            {
+              "name": "Box Inspector",
+              "atk": 4,
+              "hp": 9
+            },
+            {
+              "name": "Event Request Desk",
+              "atk": 5,
+              "hp": 10
+            }
+          ],
+          "caption": "Icebreaker exposes Writing Bot: +3 damage per hit"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Icebreaker",
+              "atk": 6,
+              "hp": 5
+            },
+            {
+              "name": "Product Support Inbox Assistant",
+              "atk": 6,
+              "hp": 7
+            },
+            {
+              "name": "GTM Prospecting",
+              "atk": 7,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Writing Bot",
+              "atk": 5,
+              "hp": 9
+            },
+            {
+              "name": "Box Inspector",
+              "atk": 4,
+              "hp": 9
+            },
+            {
+              "name": "Event Request Desk",
+              "atk": 5,
+              "hp": 10
+            }
+          ],
+          "caption": "Icebreaker exposes Writing Bot: +1 damage per hit"
+        },
+        "gotFrames": 33,
+        "expectedFrames": 32
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:349",
+      "matchId": "deb895e3-fab6-4778-ae49-2e11ff01f474",
+      "round": 2,
+      "ts": "2026-09-21T08:47:09.622Z",
+      "opponent": "ternquest_com",
+      "matchResult": "loss",
+      "winner": "them",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "encore",
+          "middle": "hot_seat",
+          "back": "spotlight"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 15,
+        "got": {
+          "you": [
+            {
+              "name": "Icebreaker",
+              "atk": 6,
+              "hp": 6
+            },
+            {
+              "name": "GTM Prospecting",
+              "atk": 7,
+              "hp": 4
+            },
+            {
+              "name": "Product Support Inbox Assistant",
+              "atk": 8,
+              "hp": 11
+            }
+          ],
+          "them": [
+            {
+              "name": "Writing Bot",
+              "atk": 11,
+              "hp": 11
+            },
+            {
+              "name": "Product Builder CoS",
+              "atk": 8,
+              "hp": 11
+            },
+            {
+              "name": "Recruiting Coordinator",
+              "atk": 6,
+              "hp": 9
+            }
+          ],
+          "caption": "Icebreaker exposes Writing Bot: +3 damage per hit"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Icebreaker",
+              "atk": 6,
+              "hp": 6
+            },
+            {
+              "name": "GTM Prospecting",
+              "atk": 7,
+              "hp": 4
+            },
+            {
+              "name": "Product Support Inbox Assistant",
+              "atk": 8,
+              "hp": 11
+            }
+          ],
+          "them": [
+            {
+              "name": "Writing Bot",
+              "atk": 11,
+              "hp": 11
+            },
+            {
+              "name": "Product Builder CoS",
+              "atk": 8,
+              "hp": 11
+            },
+            {
+              "name": "Recruiting Coordinator",
+              "atk": 6,
+              "hp": 9
+            }
+          ],
+          "caption": "Icebreaker exposes Writing Bot: +1 damage per hit"
+        },
+        "gotFrames": 39,
+        "expectedFrames": 41
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:368",
+      "matchId": "d4c94478-822f-4a8f-a60e-3299df133af4",
+      "round": 1,
+      "ts": "2026-09-21T08:51:43.473Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "hard_hat",
+          "middle": "warm_up"
+        },
+        "ourCaptain": "scout",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 19,
+        "got": {
+          "you": [
+            {
+              "name": "MarketBoxScan",
+              "atk": 3,
+              "hp": 7
+            },
+            {
+              "name": "Forge",
+              "atk": 3,
+              "hp": 2
+            }
+          ],
+          "them": [
+            {
+              "name": "Copy Humanizer",
+              "atk": 5,
+              "hp": 1,
+              "venom": 3
+            },
+            {
+              "name": "Call Follow-Ups",
+              "atk": 3,
+              "hp": 4
+            }
+          ],
+          "caption": "Alchemist poisons Copy Humanizer: venom 3"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "MarketBoxScan",
+              "atk": 3,
+              "hp": 7
+            },
+            {
+              "name": "Forge",
+              "atk": 3,
+              "hp": 2
+            }
+          ],
+          "them": [
+            {
+              "name": "Copy Humanizer",
+              "atk": 5,
+              "hp": 1,
+              "venom": 1
+            },
+            {
+              "name": "Call Follow-Ups",
+              "atk": 3,
+              "hp": 4
+            }
+          ],
+          "caption": "Alchemist poisons Copy Humanizer: venom 1"
+        },
+        "gotFrames": 44,
+        "expectedFrames": 44
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:376",
+      "matchId": "2b2c0184-1663-47ba-a7ac-40a55763eefd",
+      "round": 2,
+      "ts": "2026-09-21T08:53:46.484Z",
+      "opponent": "s3xyfuture",
+      "matchResult": "draw",
+      "winner": "them",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "pit_stop",
+          "middle": "hot_seat",
+          "back": "warm_up"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 16,
+        "got": {
+          "you": [
+            {
+              "name": "Online Identity Bot",
+              "atk": 4,
+              "hp": 2
+            },
+            {
+              "name": "Polo",
+              "atk": 5,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "SaaSbot",
+              "atk": 11,
+              "hp": 2,
+              "venom": 3
+            },
+            {
+              "name": "WTD",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Renewals Invoice Bot",
+              "atk": 4,
+              "hp": 4
+            }
+          ],
+          "caption": "Blunt poisons SaaSbot: venom 3"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Online Identity Bot",
+              "atk": 4,
+              "hp": 2
+            },
+            {
+              "name": "Polo",
+              "atk": 5,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "SaaSbot",
+              "atk": 11,
+              "hp": 2,
+              "venom": 1
+            },
+            {
+              "name": "WTD",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Renewals Invoice Bot",
+              "atk": 4,
+              "hp": 4
+            }
+          ],
+          "caption": "Blunt poisons SaaSbot: venom 1"
+        },
+        "gotFrames": 38,
+        "expectedFrames": 36
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:380",
+      "matchId": "5d4a4b02-8f50-455d-873b-55f380cedf61",
+      "round": 0,
+      "ts": "2026-09-21T08:54:36.578Z",
+      "opponent": "sanwang39883",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "hard_hat"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 8,
+        "got": {
+          "you": [
+            {
+              "name": "Speed Lab",
+              "atk": 4,
+              "hp": 1
+            },
+            {
+              "name": "TenderYearsbot",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "The Fool",
+              "atk": 5,
+              "hp": 4
+            }
+          ],
+          "them": [
+            {
+              "name": "SaaSbot",
+              "atk": 5,
+              "hp": 2
+            },
+            {
+              "name": "Meeting Recap Deck",
+              "atk": 5,
+              "hp": 7
+            }
+          ],
+          "caption": "SaaSbot hits back: -5 HP to Speed Lab"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Speed Lab",
+              "atk": 4,
+              "hp": 1
+            },
+            {
+              "name": "TenderYearsbot",
+              "atk": 3,
+              "hp": 3
+            },
+            {
+              "name": "The Fool",
+              "atk": 5,
+              "hp": 4
+            }
+          ],
+          "them": [
+            {
+              "name": "SaaSbot",
+              "atk": 5,
+              "hp": 2
+            },
+            {
+              "name": "Meeting Recap Deck",
+              "atk": 5,
+              "hp": 7
+            }
+          ],
+          "caption": "SaaSbot hits back: -5 HP to Speed Lab; SaaSbot splashes TenderYearsbot: -1 HP"
+        },
+        "gotFrames": 31,
+        "expectedFrames": 31
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:383",
+      "matchId": "704a314f-c21f-4d44-9290-4a27f98358d6",
+      "round": 0,
+      "ts": "2026-09-21T08:55:24.216Z",
+      "opponent": "bourkefloyd",
+      "matchResult": "win",
+      "winner": "them",
+      "simWinner": "them",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "pit_stop"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 11,
+        "got": {
+          "you": [
+            {
+              "name": "SaaSbot",
+              "atk": 5,
+              "hp": 2
+            },
+            {
+              "name": "Speed Lab",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "Alchemist",
+              "atk": 4,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "Grip",
+              "atk": 2,
+              "hp": 3
+            },
+            {
+              "name": "Credit Card Max",
+              "atk": 3,
+              "hp": 7
+            }
+          ],
+          "caption": "SaaSbot hits back: -5 HP to Speed Lab"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "SaaSbot",
+              "atk": 5,
+              "hp": 2
+            },
+            {
+              "name": "Speed Lab",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "Alchemist",
+              "atk": 4,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "Grip",
+              "atk": 2,
+              "hp": 2
+            },
+            {
+              "name": "Credit Card Max",
+              "atk": 3,
+              "hp": 7
+            }
+          ],
+          "caption": "SaaSbot hits back: -5 HP to Speed Lab; SaaSbot splashes Grip: -1 HP"
+        },
+        "gotFrames": 24,
+        "expectedFrames": 24
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:383",
+      "matchId": "704a314f-c21f-4d44-9290-4a27f98358d6",
+      "round": 2,
+      "ts": "2026-09-21T08:55:32.177Z",
+      "opponent": "bourkefloyd",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "pit_stop",
+          "middle": "warm_up",
+          "back": "encore"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 17,
+        "got": {
+          "you": [
+            {
+              "name": "Alchemist",
+              "atk": 8,
+              "hp": 11
+            },
+            {
+              "name": "Stack Sentinel",
+              "atk": 3,
+              "hp": 6
+            },
+            {
+              "name": "🚦 Set Up",
+              "atk": 2,
+              "hp": 8
+            }
+          ],
+          "them": [
+            {
+              "name": "Weekend Scout",
+              "atk": 5,
+              "hp": 4,
+              "venom": 1
+            },
+            {
+              "name": "Life",
+              "atk": 4,
+              "hp": 9
+            },
+            {
+              "name": "Specialist",
+              "atk": 1,
+              "hp": 1
+            }
+          ],
+          "caption": "Alchemist poisons Weekend Scout: venom 1"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Alchemist",
+              "atk": 8,
+              "hp": 6
+            },
+            {
+              "name": "Stack Sentinel",
+              "atk": 3,
+              "hp": 6
+            },
+            {
+              "name": "🚦 Set Up",
+              "atk": 2,
+              "hp": 8
+            }
+          ],
+          "them": [
+            {
+              "name": "Weekend Scout",
+              "atk": 5,
+              "hp": -4
+            },
+            {
+              "name": "Life",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "Specialist",
+              "atk": 1,
+              "hp": 1
+            }
+          ],
+          "caption": "Alchemist and Weekend Scout trade: -5 HP / -8 HP; Alchemist splashes Life: -3 HP"
+        },
+        "gotFrames": 34,
+        "expectedFrames": 32
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:385",
+      "matchId": "ff948a70-875b-4c94-8391-a91d2ffa0511",
+      "round": 1,
+      "ts": "2026-09-21T08:56:05.393Z",
+      "opponent": "outtherefan",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "spotlight",
+          "middle": "pit_stop"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "chef"
+      },
+      "frameDifference": {
+        "at": 12,
+        "got": {
+          "you": [
+            {
+              "name": "Event Request Desk",
+              "atk": 10,
+              "hp": 8
+            },
+            {
+              "name": "Luma Pages",
+              "atk": 5,
+              "hp": 11
+            },
+            {
+              "name": "coffee companion",
+              "atk": 3,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Grip",
+              "atk": 6,
+              "hp": 6
+            },
+            {
+              "name": "Outbound Prospecting",
+              "atk": 3,
+              "hp": 6
+            },
+            {
+              "name": "Copywriter",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "caption": "Copywriter snipes Luma Pages for 3"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Event Request Desk",
+              "atk": 10,
+              "hp": 8
+            },
+            {
+              "name": "Luma Pages",
+              "atk": 5,
+              "hp": 12
+            },
+            {
+              "name": "coffee companion",
+              "atk": 3,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Grip",
+              "atk": 6,
+              "hp": 6
+            },
+            {
+              "name": "Outbound Prospecting",
+              "atk": 3,
+              "hp": 6
+            },
+            {
+              "name": "Copywriter",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "caption": "Copywriter snipes Luma Pages for 1"
+        },
+        "gotFrames": 34,
+        "expectedFrames": 33
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:422",
+      "matchId": "8e7ceff7-c956-4b4b-8ad6-da604a04ec51",
+      "round": 2,
+      "ts": "2026-09-21T09:05:42.574Z",
+      "opponent": "ternquest_com",
+      "matchResult": "loss",
+      "winner": "them",
+      "simWinner": "them",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "hard_hat",
+          "middle": "pit_stop",
+          "back": "hot_seat"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 19,
+        "got": {
+          "you": [
+            {
+              "name": "Drone",
+              "atk": 2,
+              "hp": 2
+            },
+            {
+              "name": "Copywriter",
+              "atk": 4,
+              "hp": 8
+            },
+            {
+              "name": "The Page",
+              "atk": 4,
+              "hp": 11
+            }
+          ],
+          "them": [
+            {
+              "name": "The Morning Newspaper",
+              "atk": 6,
+              "hp": 1
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 6,
+              "hp": 9
+            },
+            {
+              "name": "Res",
+              "atk": 5,
+              "hp": 4
+            }
+          ],
+          "caption": "The Page alerts each friend: +1/+1"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Drone",
+              "atk": 2,
+              "hp": 2
+            },
+            {
+              "name": "Copywriter",
+              "atk": 4,
+              "hp": 8
+            },
+            {
+              "name": "The Page",
+              "atk": 4,
+              "hp": 11
+            }
+          ],
+          "them": [
+            {
+              "name": "The Morning Newspaper",
+              "atk": 6,
+              "hp": 1
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 6,
+              "hp": 9
+            },
+            {
+              "name": "Res",
+              "atk": 5,
+              "hp": 4
+            }
+          ],
+          "caption": "The Page routes the work: +1/+1 to each friend"
+        },
+        "gotFrames": 62,
+        "expectedFrames": 62
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:444",
+      "matchId": "6be76643-d7c7-43f1-a120-6c7d16307245",
+      "round": 1,
+      "ts": "2026-09-21T09:11:20.111Z",
+      "opponent": "outtherefan",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "pit_stop",
+          "middle": "encore"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "chef"
+      },
+      "frameDifference": {
+        "at": 10,
+        "got": {
+          "you": [
+            {
+              "name": "Box Inspector",
+              "atk": 7,
+              "hp": 11
+            },
+            {
+              "name": "Affiliate Recruiter",
+              "atk": 2,
+              "hp": 2
+            },
+            {
+              "name": "Root Agent",
+              "atk": 3,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Grip",
+              "atk": 4,
+              "hp": 9
+            },
+            {
+              "name": "Outbound Prospecting",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Copywriter",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "caption": "Copywriter snipes Affiliate Recruiter for 3"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Box Inspector",
+              "atk": 7,
+              "hp": 11
+            },
+            {
+              "name": "Affiliate Recruiter",
+              "atk": 2,
+              "hp": 4
+            },
+            {
+              "name": "Root Agent",
+              "atk": 3,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Grip",
+              "atk": 4,
+              "hp": 9
+            },
+            {
+              "name": "Outbound Prospecting",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Copywriter",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "caption": "Copywriter snipes Affiliate Recruiter for 1"
+        },
+        "gotFrames": 32,
+        "expectedFrames": 32
+      }
+    },
+    {
+      "matchKey": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce:448",
+      "matchId": "d575be60-92a2-49c4-b333-564089726f87",
+      "round": 1,
+      "ts": "2026-09-21T09:12:18.169Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "encore",
+          "middle": "spotlight"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 20,
+        "got": {
+          "you": [
+            {
+              "name": "SaaSbot",
+              "atk": 8,
+              "hp": 3
+            },
+            {
+              "name": "Devils Advocate",
+              "atk": 8,
+              "hp": 9
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 5,
+              "hp": -3
+            },
+            {
+              "name": "Alchemist",
+              "atk": 6,
+              "hp": 3
+            },
+            {
+              "name": "Homeroom",
+              "atk": 1,
+              "hp": 5
+            }
+          ],
+          "caption": "SaaSbot hits back: -8 HP to Speed Lab"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "SaaSbot",
+              "atk": 8,
+              "hp": 3
+            },
+            {
+              "name": "Devils Advocate",
+              "atk": 8,
+              "hp": 9
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 5,
+              "hp": -3
+            },
+            {
+              "name": "Alchemist",
+              "atk": 6,
+              "hp": 2
+            },
+            {
+              "name": "Homeroom",
+              "atk": 1,
+              "hp": 5
+            }
+          ],
+          "caption": "SaaSbot hits back: -8 HP to Speed Lab; SaaSbot splashes Alchemist: -1 HP"
+        },
+        "gotFrames": 30,
+        "expectedFrames": 30
+      }
+    },
+    {
+      "matchKey": "ed7a1de8-2fb4-4704-96c2-a95160595434:1",
+      "matchId": "e5246864-e005-408f-b2e2-7d41dc8ae7fe",
+      "round": 2,
+      "ts": "2026-09-21T09:57:52.240Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "warm_up",
+          "middle": "encore",
+          "back": "pit_stop"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 25,
+        "got": {
+          "you": [
+            {
+              "name": "Company Docs Q&A",
+              "atk": 6,
+              "hp": 6
+            },
+            {
+              "name": "X Reply Radar",
+              "atk": 8,
+              "hp": 14
+            }
+          ],
+          "them": [
+            {
+              "name": "Drone",
+              "atk": 1,
+              "hp": 1
+            },
+            {
+              "name": "X Top 100 Fans Weekly",
+              "atk": 2,
+              "hp": 10,
+              "shield": 1
+            }
+          ],
+          "caption": "Cold brew: X Reply Radar +1 HP"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Company Docs Q&A",
+              "atk": 6,
+              "hp": 6
+            },
+            {
+              "name": "X Reply Radar",
+              "atk": 8,
+              "hp": 13
+            }
+          ],
+          "them": [
+            {
+              "name": "Drone",
+              "atk": 1,
+              "hp": 1
+            },
+            {
+              "name": "X Top 100 Fans Weekly",
+              "atk": 4,
+              "hp": 12,
+              "shield": 1
+            }
+          ],
+          "caption": "X Top 100 Fans Weekly gains +2/+2"
+        },
+        "gotFrames": 42,
+        "expectedFrames": 42
+      }
+    },
+    {
+      "matchKey": "ed7a1de8-2fb4-4704-96c2-a95160595434:3",
+      "matchId": "9e8d7fa4-5793-41cf-a611-63ef49e478d5",
+      "round": 2,
+      "ts": "2026-09-21T09:58:23.416Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "warm_up",
+          "middle": "hot_seat",
+          "back": "encore"
+        },
+        "ourCaptain": "banker",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 26,
+        "got": {
+          "you": [
+            {
+              "name": "Outbound Prospecting",
+              "atk": 10,
+              "hp": 5
+            },
+            {
+              "name": "Call Follow-Ups",
+              "atk": 7,
+              "hp": 4
+            },
+            {
+              "name": "Spark",
+              "atk": 4,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Drone",
+              "atk": 1,
+              "hp": 1
+            },
+            {
+              "name": "X Top 100 Fans Weekly",
+              "atk": 2,
+              "hp": 2,
+              "shield": 1
+            }
+          ],
+          "caption": "Cold brew: Spark +1 HP"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Outbound Prospecting",
+              "atk": 10,
+              "hp": 5
+            },
+            {
+              "name": "Call Follow-Ups",
+              "atk": 7,
+              "hp": 4
+            },
+            {
+              "name": "Spark",
+              "atk": 4,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Drone",
+              "atk": 1,
+              "hp": 1
+            },
+            {
+              "name": "X Top 100 Fans Weekly",
+              "atk": 4,
+              "hp": 4,
+              "shield": 1
+            }
+          ],
+          "caption": "X Top 100 Fans Weekly gains +2/+2"
+        },
+        "gotFrames": 44,
+        "expectedFrames": 44
+      }
+    },
+    {
+      "matchKey": "934a3c47-a6d7-4ddb-97bd-669ce2ab978a:32",
+      "matchId": "1755e515-5930-48da-9d73-e4c6c5c2ec4c",
+      "round": 0,
+      "ts": "2026-09-21T10:08:37.766Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "encore"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 5,
+        "got": {
+          "you": [
+            {
+              "name": "Imogen",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "X Brief",
+              "atk": 2,
+              "hp": 2
+            },
+            {
+              "name": "Stills & Clips Desk",
+              "atk": 2,
+              "hp": 3
+            }
+          ],
+          "them": [
+            {
+              "name": "Clip Bot",
+              "atk": 5,
+              "hp": 1
+            },
+            {
+              "name": "X Brief",
+              "atk": 2,
+              "hp": 2
+            },
+            {
+              "name": "Company Docs Q&A",
+              "atk": 2,
+              "hp": 4
+            }
+          ],
+          "caption": "Imogen gains +2 HP"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Imogen",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "X Brief",
+              "atk": 2,
+              "hp": 2
+            },
+            {
+              "name": "Stills & Clips Desk",
+              "atk": 2,
+              "hp": 3
+            }
+          ],
+          "them": [
+            {
+              "name": "Clip Bot",
+              "atk": 5,
+              "hp": 1
+            },
+            {
+              "name": "X Brief",
+              "atk": 2,
+              "hp": 2
+            },
+            {
+              "name": "Company Docs Q&A",
+              "atk": 2,
+              "hp": 4
+            }
+          ],
+          "caption": "Imogen bulks up: +2 HP"
+        },
+        "gotFrames": 22,
+        "expectedFrames": 22
+      }
+    },
+    {
+      "matchKey": "934a3c47-a6d7-4ddb-97bd-669ce2ab978a:32",
+      "matchId": "1755e515-5930-48da-9d73-e4c6c5c2ec4c",
+      "round": 1,
+      "ts": "2026-09-21T10:08:54.262Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "encore",
+          "middle": "hard_hat"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 9,
+        "got": {
+          "you": [
+            {
+              "name": "Paper Cards",
+              "atk": 4,
+              "hp": 5,
+              "shield": 1
+            },
+            {
+              "name": "Stills & Clips Desk",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "X Brief",
+              "atk": 2,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Memento",
+              "atk": 5,
+              "hp": 7
+            },
+            {
+              "name": "Talent Discovery",
+              "atk": 4,
+              "hp": 4
+            },
+            {
+              "name": "Company Docs Q&A",
+              "atk": 2,
+              "hp": 3
+            }
+          ],
+          "caption": "Paper Cards shields Paper Cards"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Paper Cards",
+              "atk": 4,
+              "hp": 5,
+              "shield": 1
+            },
+            {
+              "name": "Stills & Clips Desk",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "X Brief",
+              "atk": 2,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Memento",
+              "atk": 5,
+              "hp": 7
+            },
+            {
+              "name": "Talent Discovery",
+              "atk": 4,
+              "hp": 4
+            },
+            {
+              "name": "Company Docs Q&A",
+              "atk": 2,
+              "hp": 3
+            }
+          ],
+          "caption": "Paper Cards raises a shield"
+        },
+        "gotFrames": 35,
+        "expectedFrames": 35
+      }
+    },
+    {
+      "matchKey": "934a3c47-a6d7-4ddb-97bd-669ce2ab978a:38",
+      "matchId": "f806e802-5b40-4323-ad17-bab87e8dd905",
+      "round": 0,
+      "ts": "2026-09-21T10:11:18.904Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "pit_stop"
+        },
+        "ourCaptain": "chef",
+        "theirCaptain": "recruiter"
+      },
+      "frameDifference": {
+        "at": 6,
+        "got": {
+          "you": [
+            {
+              "name": "Blunt",
+              "atk": 5,
+              "hp": 10
+            },
+            {
+              "name": "Foundry",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Imogen",
+              "atk": 2,
+              "hp": 3
+            }
+          ],
+          "them": [
+            {
+              "name": "Hiring Signals",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "skippy",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "Hiring Signals clips Imogen: 3"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Blunt",
+              "atk": 5,
+              "hp": 10
+            },
+            {
+              "name": "Foundry",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Imogen",
+              "atk": 2,
+              "hp": 3
+            }
+          ],
+          "them": [
+            {
+              "name": "Hiring Signals",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "skippy",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "Hiring Signals has the last word: 3 to Imogen"
+        },
+        "gotFrames": 21,
+        "expectedFrames": 21
+      }
+    },
+    {
+      "matchKey": "934a3c47-a6d7-4ddb-97bd-669ce2ab978a:39",
+      "matchId": "5f60c9a8-f920-4c39-8a23-e851cd4601e3",
+      "round": 0,
+      "ts": "2026-09-21T10:11:34.487Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "hard_hat"
+        },
+        "ourCaptain": "chef",
+        "theirCaptain": "recruiter"
+      },
+      "frameDifference": {
+        "at": 3,
+        "got": {
+          "you": [
+            {
+              "name": "Founder Command",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "Founder Command",
+              "atk": 4,
+              "hp": 7
+            },
+            {
+              "name": "Alchemist",
+              "atk": 4,
+              "hp": 3
+            }
+          ],
+          "them": [
+            {
+              "name": "Hiring Signals",
+              "atk": 4,
+              "hp": 2
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "skippy",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "Hiring Signals clips Founder Command: 3"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Founder Command",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "Founder Command",
+              "atk": 4,
+              "hp": 7
+            },
+            {
+              "name": "Alchemist",
+              "atk": 4,
+              "hp": 3
+            }
+          ],
+          "them": [
+            {
+              "name": "Hiring Signals",
+              "atk": 4,
+              "hp": 2
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "skippy",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "Hiring Signals has the last word: 3 to Founder Command"
+        },
+        "gotFrames": 28,
+        "expectedFrames": 28
+      }
+    },
+    {
+      "matchKey": "934a3c47-a6d7-4ddb-97bd-669ce2ab978a:40",
+      "matchId": "4440b73b-dcd4-4ecf-9f5d-43d961f90a7a",
+      "round": 0,
+      "ts": "2026-09-21T10:11:48.282Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "warm_up"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "recruiter"
+      },
+      "frameDifference": {
+        "at": 7,
+        "got": {
+          "you": [
+            {
+              "name": "Imogen",
+              "atk": 5,
+              "hp": 12
+            },
+            {
+              "name": "WTD",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Farm",
+              "atk": 2,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Hiring Signals",
+              "atk": 5,
+              "hp": 3
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "skippy",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "Hiring Signals clips Farm: 3"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Imogen",
+              "atk": 5,
+              "hp": 12
+            },
+            {
+              "name": "WTD",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Farm",
+              "atk": 2,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Hiring Signals",
+              "atk": 5,
+              "hp": 3
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "skippy",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "caption": "Hiring Signals has the last word: 3 to Farm"
+        },
+        "gotFrames": 20,
+        "expectedFrames": 20
+      }
+    },
+    {
+      "matchKey": "934a3c47-a6d7-4ddb-97bd-669ce2ab978a:61",
+      "matchId": "da6731fe-76c0-4e09-a766-5b92cf35a0c0",
+      "round": 0,
+      "ts": "2026-09-21T10:17:33.645Z",
+      "opponent": "izzat316",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "hot_seat"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 9,
+        "got": {
+          "you": [
+            {
+              "name": "Stills & Clips Desk",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "Newsie",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Deal Hunting",
+              "atk": 11,
+              "hp": 3
+            },
+            {
+              "name": "Outbound Prospecting",
+              "atk": 4,
+              "hp": 1
+            },
+            {
+              "name": "Mother Ship",
+              "atk": 1,
+              "hp": 2
+            }
+          ],
+          "caption": "Deal Hunting drains the knock-out: +2 HP"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Stills & Clips Desk",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "Newsie",
+              "atk": 3,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Deal Hunting",
+              "atk": 11,
+              "hp": 1,
+              "venom": 1
+            },
+            {
+              "name": "Outbound Prospecting",
+              "atk": 4,
+              "hp": 1
+            },
+            {
+              "name": "Mother Ship",
+              "atk": 1,
+              "hp": 2
+            }
+          ],
+          "caption": "Blunt poisons Deal Hunting: venom 1"
+        },
+        "gotFrames": 25,
+        "expectedFrames": 25
+      }
+    },
+    {
+      "matchKey": "934a3c47-a6d7-4ddb-97bd-669ce2ab978a:61",
+      "matchId": "da6731fe-76c0-4e09-a766-5b92cf35a0c0",
+      "round": 1,
+      "ts": "2026-09-21T10:17:38.505Z",
+      "opponent": "izzat316",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 18,
+        "got": {
+          "you": [
+            {
+              "name": "AI Search Visibility",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Newsie",
+              "atk": 3,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Deal Hunting",
+              "atk": 10,
+              "hp": 6
+            }
+          ],
+          "caption": "Deal Hunting drains the knock-out: +2 HP"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "AI Search Visibility",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Newsie",
+              "atk": 3,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Deal Hunting",
+              "atk": 10,
+              "hp": 4,
+              "venom": 1
+            }
+          ],
+          "caption": "Blunt poisons Deal Hunting: venom 1"
+        },
+        "gotFrames": 32,
+        "expectedFrames": 32
+      }
+    },
+    {
+      "matchKey": "934a3c47-a6d7-4ddb-97bd-669ce2ab978a:71",
+      "matchId": "937d2b0e-8ddd-4fc0-8617-057e546703f4",
+      "round": 2,
+      "ts": "2026-09-21T10:20:03.496Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "pit_stop",
+          "middle": "spotlight",
+          "back": "hot_seat"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 11,
+        "got": {
+          "you": [
+            {
+              "name": "Paper Cards",
+              "atk": 8,
+              "hp": 11,
+              "shield": 1
+            },
+            {
+              "name": "ASC Skill",
+              "atk": 4,
+              "hp": 7
+            },
+            {
+              "name": "Mother Ship",
+              "atk": 1,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Steal This Business",
+              "atk": 7,
+              "hp": 10
+            },
+            {
+              "name": "SaaSbot",
+              "atk": 8,
+              "hp": 5
+            },
+            {
+              "name": "Company Docs Q&A",
+              "atk": 5,
+              "hp": 7
+            }
+          ],
+          "caption": "Paper Cards shields Paper Cards"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Paper Cards",
+              "atk": 8,
+              "hp": 11,
+              "shield": 1
+            },
+            {
+              "name": "ASC Skill",
+              "atk": 4,
+              "hp": 7
+            },
+            {
+              "name": "Mother Ship",
+              "atk": 1,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Steal This Business",
+              "atk": 7,
+              "hp": 10
+            },
+            {
+              "name": "SaaSbot",
+              "atk": 8,
+              "hp": 5
+            },
+            {
+              "name": "Company Docs Q&A",
+              "atk": 5,
+              "hp": 7
+            }
+          ],
+          "caption": "Paper Cards raises a shield"
+        },
+        "gotFrames": 35,
+        "expectedFrames": 35
+      }
+    },
+    {
+      "matchKey": "934a3c47-a6d7-4ddb-97bd-669ce2ab978a:85",
+      "matchId": "7d0f8da9-4eed-45ce-928a-9bf9d7d59e63",
+      "round": 1,
+      "ts": "2026-09-21T10:23:38.175Z",
+      "opponent": "lighttwrecker",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "pit_stop",
+          "middle": "encore"
+        },
+        "ourCaptain": "chef",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 23,
+        "got": {
+          "you": [
+            {
+              "name": "Testbench",
+              "atk": 2,
+              "hp": 6
+            }
+          ],
+          "them": [],
+          "caption": "Your side holds the floor"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Testbench",
+              "atk": 4,
+              "hp": 8
+            }
+          ],
+          "them": [],
+          "caption": "Testbench gains +2/+2"
+        },
+        "gotFrames": 24,
+        "expectedFrames": 25
+      }
+    },
+    {
+      "matchKey": "934a3c47-a6d7-4ddb-97bd-669ce2ab978a:88",
+      "matchId": "e5469581-52af-4162-b690-e60693c00e6d",
+      "round": 0,
+      "ts": "2026-09-21T10:24:24.287Z",
+      "opponent": "wenakita",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "spotlight"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 7,
+        "got": {
+          "you": [
+            {
+              "name": "Credit Card Max",
+              "atk": 8,
+              "hp": 5
+            },
+            {
+              "name": "Webby",
+              "atk": 4,
+              "hp": 8
+            },
+            {
+              "name": "Call Follow-Ups",
+              "atk": 3,
+              "hp": 4
+            }
+          ],
+          "them": [
+            {
+              "name": "Call Follow-Ups",
+              "atk": 7,
+              "hp": 7
+            },
+            {
+              "name": "Stills & Clips Desk",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "Call Follow-Ups",
+              "atk": 3,
+              "hp": 7
+            }
+          ],
+          "caption": "Webby gains +2 HP"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Credit Card Max",
+              "atk": 8,
+              "hp": 5
+            },
+            {
+              "name": "Webby",
+              "atk": 4,
+              "hp": 8
+            },
+            {
+              "name": "Call Follow-Ups",
+              "atk": 3,
+              "hp": 4
+            }
+          ],
+          "them": [
+            {
+              "name": "Call Follow-Ups",
+              "atk": 7,
+              "hp": 7
+            },
+            {
+              "name": "Stills & Clips Desk",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "Call Follow-Ups",
+              "atk": 3,
+              "hp": 7
+            }
+          ],
+          "caption": "Webby bulks up: +2 HP"
+        },
+        "gotFrames": 26,
+        "expectedFrames": 26
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:48",
+      "matchId": "4339397d-f96f-42a5-86ce-6301dace46de",
+      "round": 1,
+      "ts": "2026-09-21T10:47:38.058Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "warm_up",
+          "middle": "hard_hat"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 21,
+        "got": {
+          "you": [
+            {
+              "name": "Drone",
+              "atk": 1,
+              "hp": 1
+            },
+            {
+              "name": "Newsie",
+              "atk": 3,
+              "hp": 3
+            },
+            {
+              "name": "Paper Cards",
+              "atk": 2,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Apple Search Ads Review",
+              "atk": 4,
+              "hp": 0
+            }
+          ],
+          "caption": "Newsie clips Apple Search Ads Review: 4"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Drone",
+              "atk": 1,
+              "hp": 1
+            },
+            {
+              "name": "Newsie",
+              "atk": 3,
+              "hp": 3
+            },
+            {
+              "name": "Paper Cards",
+              "atk": 2,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Apple Search Ads Review",
+              "atk": 4,
+              "hp": 0
+            }
+          ],
+          "caption": "Newsie has the last word: 4 to Apple Search Ads Review"
+        },
+        "gotFrames": 24,
+        "expectedFrames": 24
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:57",
+      "matchId": "fd63ac29-1faf-4f67-aecf-3ef9a5bd9c59",
+      "round": 2,
+      "ts": "2026-09-21T10:50:05.198Z",
+      "opponent": "izzat316",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "warm_up",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 16,
+        "got": {
+          "you": [
+            {
+              "name": "NYC Parent",
+              "atk": 5,
+              "hp": 10
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 5,
+              "hp": 6
+            },
+            {
+              "name": "Flora: Plant Care Log",
+              "atk": 8,
+              "hp": 8
+            }
+          ],
+          "them": [
+            {
+              "name": "Farm",
+              "atk": 7,
+              "hp": 10
+            },
+            {
+              "name": "Projects Manager",
+              "atk": 3,
+              "hp": 5
+            },
+            {
+              "name": "Alfred",
+              "atk": 7,
+              "hp": 8
+            }
+          ],
+          "caption": "Homework Checker exposes Farm: +3 damage per hit"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "NYC Parent",
+              "atk": 5,
+              "hp": 10
+            },
+            {
+              "name": "Homework Checker",
+              "atk": 5,
+              "hp": 6
+            },
+            {
+              "name": "Flora: Plant Care Log",
+              "atk": 8,
+              "hp": 8
+            }
+          ],
+          "them": [
+            {
+              "name": "Farm",
+              "atk": 7,
+              "hp": 10
+            },
+            {
+              "name": "Projects Manager",
+              "atk": 3,
+              "hp": 5
+            },
+            {
+              "name": "Alfred",
+              "atk": 7,
+              "hp": 8
+            }
+          ],
+          "caption": "Homework Checker exposes Farm: +1 damage per hit"
+        },
+        "gotFrames": 35,
+        "expectedFrames": 37
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:87",
+      "matchId": "d0682857-0de3-4345-92e1-75b67f69fcf9",
+      "round": 0,
+      "ts": "2026-09-21T10:57:46.126Z",
+      "opponent": "izzat316",
+      "matchResult": "win",
+      "winner": "them",
+      "simWinner": "them",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "encore"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "scout"
+      },
+      "frameDifference": {
+        "at": 13,
+        "got": {
+          "you": [
+            {
+              "name": "SaaSbot",
+              "atk": 5,
+              "hp": 1
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 6,
+              "hp": 1
+            },
+            {
+              "name": "Speed Lab",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "Writing Bot",
+              "atk": 2,
+              "hp": 5
+            }
+          ],
+          "caption": "SaaSbot hits back: -5 HP to Speed Lab"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "SaaSbot",
+              "atk": 5,
+              "hp": 1
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 6,
+              "hp": 1
+            },
+            {
+              "name": "Speed Lab",
+              "atk": 2,
+              "hp": 4
+            },
+            {
+              "name": "Writing Bot",
+              "atk": 2,
+              "hp": 5
+            }
+          ],
+          "caption": "SaaSbot hits back: -5 HP to Speed Lab; SaaSbot splashes Speed Lab: -1 HP"
+        },
+        "gotFrames": 17,
+        "expectedFrames": 17
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:106",
+      "matchId": "be6516f8-3ca2-48e6-877f-3d8edcbd76b2",
+      "round": 1,
+      "ts": "2026-09-21T11:02:59.046Z",
+      "opponent": "ternquest_com",
+      "matchResult": "draw",
+      "winner": "them",
+      "simWinner": "them",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "encore",
+          "middle": "spotlight"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 25,
+        "got": {
+          "you": [],
+          "them": [
+            {
+              "name": "Testbench",
+              "atk": 2,
+              "hp": 5
+            }
+          ],
+          "caption": "The enemy side holds the floor"
+        },
+        "expected": {
+          "you": [],
+          "them": [
+            {
+              "name": "Testbench",
+              "atk": 4,
+              "hp": 7
+            }
+          ],
+          "caption": "Testbench gains +2/+2"
+        },
+        "gotFrames": 26,
+        "expectedFrames": 27
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:111",
+      "matchId": "685204ec-21de-4100-8a2b-4e236c036d8c",
+      "round": 0,
+      "ts": "2026-09-21T11:04:22.754Z",
+      "opponent": "izzat316",
+      "matchResult": "loss",
+      "winner": "them",
+      "simWinner": "them",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "pit_stop"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "scout"
+      },
+      "frameDifference": {
+        "at": 19,
+        "got": {
+          "you": [
+            {
+              "name": "Online Identity Bot",
+              "atk": 5,
+              "hp": 1
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 6,
+              "hp": -2,
+              "venom": 1
+            },
+            {
+              "name": "Speed Lab",
+              "atk": 2,
+              "hp": 3
+            },
+            {
+              "name": "Writing Bot",
+              "atk": 2,
+              "hp": 3
+            }
+          ],
+          "caption": "Online Identity Bot hits back: -5 HP to Speed Lab"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Online Identity Bot",
+              "atk": 5,
+              "hp": 1
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 6,
+              "hp": -2,
+              "venom": 1
+            },
+            {
+              "name": "Speed Lab",
+              "atk": 2,
+              "hp": 2
+            },
+            {
+              "name": "Writing Bot",
+              "atk": 2,
+              "hp": 3
+            }
+          ],
+          "caption": "Online Identity Bot hits back: -5 HP to Speed Lab; Online Identity Bot splashes Speed Lab: -1 HP"
+        },
+        "gotFrames": 24,
+        "expectedFrames": 24
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:121",
+      "matchId": "8d4a9457-f6ee-4ca0-a814-425052385a1d",
+      "round": 2,
+      "ts": "2026-09-21T11:07:00.793Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "encore",
+          "middle": "warm_up",
+          "back": "spotlight"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 22,
+        "got": {
+          "you": [
+            {
+              "name": "Grip",
+              "atk": 8,
+              "hp": 8
+            },
+            {
+              "name": "Forge",
+              "atk": 4,
+              "hp": 2
+            },
+            {
+              "name": "Apps",
+              "atk": 4,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Foundry",
+              "atk": 10,
+              "hp": 1
+            },
+            {
+              "name": "dial bot",
+              "atk": 4,
+              "hp": 4
+            },
+            {
+              "name": "Testbench",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "caption": "Cold brew: Apps +1 HP"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Grip",
+              "atk": 8,
+              "hp": 8
+            },
+            {
+              "name": "Forge",
+              "atk": 4,
+              "hp": 2
+            },
+            {
+              "name": "Apps",
+              "atk": 6,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Foundry",
+              "atk": 10,
+              "hp": 1
+            },
+            {
+              "name": "dial bot",
+              "atk": 4,
+              "hp": 4
+            },
+            {
+              "name": "Testbench",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "caption": "Apps gains +2/+2"
+        },
+        "gotFrames": 43,
+        "expectedFrames": 43
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:122",
+      "matchId": "ef59f268-0f4f-4a6a-a619-4ea9a7c05474",
+      "round": 2,
+      "ts": "2026-09-21T11:07:19.566Z",
+      "opponent": "izzat316",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "warm_up",
+          "middle": "encore",
+          "back": "hot_seat"
+        },
+        "ourCaptain": "recruiter",
+        "theirCaptain": "scout"
+      },
+      "frameDifference": {
+        "at": 22,
+        "got": {
+          "you": [
+            {
+              "name": "The Page",
+              "atk": 4,
+              "hp": 8
+            },
+            {
+              "name": "Unmachined",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Drone",
+              "atk": 1,
+              "hp": 1
+            },
+            {
+              "name": "Projects Manager",
+              "atk": 3,
+              "hp": 0
+            },
+            {
+              "name": "Alfred",
+              "atk": 5,
+              "hp": 4
+            }
+          ],
+          "caption": "The Page alerts each friend: +1/+1"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "The Page",
+              "atk": 4,
+              "hp": 8
+            },
+            {
+              "name": "Unmachined",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Drone",
+              "atk": 1,
+              "hp": 1
+            },
+            {
+              "name": "Projects Manager",
+              "atk": 3,
+              "hp": 0
+            },
+            {
+              "name": "Alfred",
+              "atk": 5,
+              "hp": 4
+            }
+          ],
+          "caption": "The Page routes the work: +1/+1 to each friend"
+        },
+        "gotFrames": 34,
+        "expectedFrames": 34
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:127",
+      "matchId": "68b630e3-a3c4-4fac-b0ac-11d2d491cc39",
+      "round": 1,
+      "ts": "2026-09-21T11:08:32.776Z",
+      "opponent": "izzat316",
+      "matchResult": "draw",
+      "winner": "them",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "pit_stop",
+          "middle": "hard_hat"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "scout"
+      },
+      "frameDifference": {
+        "at": 8,
+        "got": {
+          "you": [
+            {
+              "name": "Flora: Plant Care Log",
+              "atk": 3,
+              "hp": 10
+            },
+            {
+              "name": "Clip Bot",
+              "atk": 3,
+              "hp": 3
+            },
+            {
+              "name": "Golf Caddie",
+              "atk": 4,
+              "hp": 8
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 9,
+              "hp": 14
+            },
+            {
+              "name": "Speed Lab",
+              "atk": 2,
+              "hp": 6
+            },
+            {
+              "name": "Gardener",
+              "atk": 4,
+              "hp": 4
+            }
+          ],
+          "caption": "Golf Caddie exposes Speed Lab: +3 damage per hit"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Flora: Plant Care Log",
+              "atk": 3,
+              "hp": 10
+            },
+            {
+              "name": "Clip Bot",
+              "atk": 3,
+              "hp": 3
+            },
+            {
+              "name": "Golf Caddie",
+              "atk": 4,
+              "hp": 8
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 9,
+              "hp": 14
+            },
+            {
+              "name": "Speed Lab",
+              "atk": 2,
+              "hp": 6
+            },
+            {
+              "name": "Gardener",
+              "atk": 4,
+              "hp": 4
+            }
+          ],
+          "caption": "Golf Caddie exposes Speed Lab: +1 damage per hit"
+        },
+        "gotFrames": 27,
+        "expectedFrames": 21
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:127",
+      "matchId": "68b630e3-a3c4-4fac-b0ac-11d2d491cc39",
+      "round": 2,
+      "ts": "2026-09-21T11:08:36.200Z",
+      "opponent": "izzat316",
+      "matchResult": "draw",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "pit_stop",
+          "middle": "hard_hat",
+          "back": "warm_up"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "scout"
+      },
+      "frameDifference": {
+        "at": 14,
+        "got": {
+          "you": [
+            {
+              "name": "Golf Caddie",
+              "atk": 3,
+              "hp": 7
+            },
+            {
+              "name": "Clip Bot",
+              "atk": 3,
+              "hp": 3
+            },
+            {
+              "name": "The Page",
+              "atk": 5,
+              "hp": 10
+            }
+          ],
+          "them": [
+            {
+              "name": "Farm",
+              "atk": 6,
+              "hp": 11
+            },
+            {
+              "name": "Projects Manager",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Alfred",
+              "atk": 6,
+              "hp": 7
+            }
+          ],
+          "caption": "Golf Caddie exposes Farm: +3 damage per hit"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Golf Caddie",
+              "atk": 3,
+              "hp": 7
+            },
+            {
+              "name": "Clip Bot",
+              "atk": 3,
+              "hp": 3
+            },
+            {
+              "name": "The Page",
+              "atk": 5,
+              "hp": 10
+            }
+          ],
+          "them": [
+            {
+              "name": "Farm",
+              "atk": 6,
+              "hp": 11
+            },
+            {
+              "name": "Projects Manager",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Alfred",
+              "atk": 6,
+              "hp": 7
+            }
+          ],
+          "caption": "Golf Caddie exposes Farm: +1 damage per hit"
+        },
+        "gotFrames": 41,
+        "expectedFrames": 45
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:129",
+      "matchId": "b7f9b0a6-0383-4433-b2ef-b5f42217662e",
+      "round": 2,
+      "ts": "2026-09-21T11:09:10.767Z",
+      "opponent": "syaor4n",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "hard_hat",
+          "back": "warm_up"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 17,
+        "got": {
+          "you": [
+            {
+              "name": "Vigil",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "Root Agent",
+              "atk": 4,
+              "hp": 9
+            },
+            {
+              "name": "Boost",
+              "atk": 4,
+              "hp": 10
+            }
+          ],
+          "them": [
+            {
+              "name": "Product Support Inbox Assistant",
+              "atk": 5,
+              "hp": 1
+            },
+            {
+              "name": "Boost",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "Affiliate Recruiter",
+              "atk": 7,
+              "hp": 11
+            }
+          ],
+          "caption": "Cold brew: Root Agent +1 HP"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Vigil",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "Root Agent",
+              "atk": 4,
+              "hp": 8
+            },
+            {
+              "name": "Boost",
+              "atk": 4,
+              "hp": 10
+            }
+          ],
+          "them": [
+            {
+              "name": "Product Support Inbox Assistant",
+              "atk": 5,
+              "hp": 1
+            },
+            {
+              "name": "Boost",
+              "atk": 2,
+              "hp": 5
+            },
+            {
+              "name": "Affiliate Recruiter",
+              "atk": 7,
+              "hp": 11
+            }
+          ],
+          "caption": "Boost heals Vigil: +1 HP"
+        },
+        "gotFrames": 43,
+        "expectedFrames": 43
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:152",
+      "matchId": "f552bdb4-d395-479c-818d-08b9efb2de55",
+      "round": 0,
+      "ts": "2026-09-21T11:15:15.787Z",
+      "opponent": "bourkefloyd",
+      "matchResult": "win",
+      "winner": "them",
+      "simWinner": "them",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "spotlight"
+        },
+        "ourCaptain": "scout",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 13,
+        "got": {
+          "you": [
+            {
+              "name": "SaaSbot",
+              "atk": 6,
+              "hp": 1
+            },
+            {
+              "name": "Company Docs Q&A",
+              "atk": 5,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 6,
+              "hp": 2
+            },
+            {
+              "name": "Grip",
+              "atk": 2,
+              "hp": 3
+            },
+            {
+              "name": "Credit Card Max",
+              "atk": 3,
+              "hp": 6
+            }
+          ],
+          "caption": "SaaSbot hits back: -6 HP to Speed Lab"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "SaaSbot",
+              "atk": 6,
+              "hp": 1
+            },
+            {
+              "name": "Company Docs Q&A",
+              "atk": 5,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 6,
+              "hp": 2
+            },
+            {
+              "name": "Grip",
+              "atk": 2,
+              "hp": 2
+            },
+            {
+              "name": "Credit Card Max",
+              "atk": 3,
+              "hp": 6
+            }
+          ],
+          "caption": "SaaSbot hits back: -6 HP to Speed Lab; SaaSbot splashes Grip: -1 HP"
+        },
+        "gotFrames": 23,
+        "expectedFrames": 23
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:152",
+      "matchId": "f552bdb4-d395-479c-818d-08b9efb2de55",
+      "round": 2,
+      "ts": "2026-09-21T11:15:24.497Z",
+      "opponent": "bourkefloyd",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "spotlight",
+          "middle": "hot_seat",
+          "back": "hard_hat"
+        },
+        "ourCaptain": "scout",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 23,
+        "got": {
+          "you": [
+            {
+              "name": "Company Docs Q&A",
+              "atk": 6,
+              "hp": 7
+            },
+            {
+              "name": "SaaSbot",
+              "atk": 7,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Weekend Scout",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "Life",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "Specialist",
+              "atk": 1,
+              "hp": 1
+            }
+          ],
+          "caption": "Cold brew: SaaSbot +1 HP"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Company Docs Q&A",
+              "atk": 6,
+              "hp": 7
+            },
+            {
+              "name": "SaaSbot",
+              "atk": 7,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Weekend Scout",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "Life",
+              "atk": 5,
+              "hp": 7
+            },
+            {
+              "name": "Specialist",
+              "atk": 2,
+              "hp": 2
+            }
+          ],
+          "caption": "Weekend Scout routes the work: +1/+1 to each friend"
+        },
+        "gotFrames": 50,
+        "expectedFrames": 50
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:157",
+      "matchId": "25568e69-dbd4-41af-b2c9-271e9d2edcc0",
+      "round": 1,
+      "ts": "2026-09-21T11:16:52.509Z",
+      "opponent": "circles_r_phun",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "encore",
+          "middle": "hard_hat"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "banker"
+      },
+      "frameDifference": {
+        "at": 24,
+        "got": {
+          "you": [
+            {
+              "name": "Testbench",
+              "atk": 2,
+              "hp": 5
+            }
+          ],
+          "them": [],
+          "caption": "Your side holds the floor"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Testbench",
+              "atk": 4,
+              "hp": 7
+            }
+          ],
+          "them": [],
+          "caption": "Testbench gains +2/+2"
+        },
+        "gotFrames": 25,
+        "expectedFrames": 26
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:180",
+      "matchId": "0758477f-13c7-4ba6-8319-530935cf91b2",
+      "round": 1,
+      "ts": "2026-09-21T11:23:04.435Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "spotlight",
+          "middle": "encore"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "recruiter"
+      },
+      "frameDifference": {
+        "at": 8,
+        "got": {
+          "you": [
+            {
+              "name": "Cooper",
+              "atk": 9,
+              "hp": 6
+            },
+            {
+              "name": "Hiring Signals",
+              "atk": 8,
+              "hp": 4
+            },
+            {
+              "name": "Account Research Desk",
+              "atk": 6,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Interview Prep",
+              "atk": 9,
+              "hp": 13
+            },
+            {
+              "name": "Call Follow-Ups",
+              "atk": 3,
+              "hp": 5
+            },
+            {
+              "name": "Mother Ship",
+              "atk": 1,
+              "hp": 2
+            }
+          ],
+          "caption": "Hiring Signals clips Mother Ship: 3"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Cooper",
+              "atk": 9,
+              "hp": 6
+            },
+            {
+              "name": "Hiring Signals",
+              "atk": 8,
+              "hp": 4
+            },
+            {
+              "name": "Account Research Desk",
+              "atk": 6,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Interview Prep",
+              "atk": 9,
+              "hp": 13
+            },
+            {
+              "name": "Call Follow-Ups",
+              "atk": 3,
+              "hp": 5
+            },
+            {
+              "name": "Mother Ship",
+              "atk": 1,
+              "hp": 2
+            }
+          ],
+          "caption": "Hiring Signals has the last word: 3 to Mother Ship"
+        },
+        "gotFrames": 25,
+        "expectedFrames": 25
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:195",
+      "matchId": "9fb6dc8f-f54f-4b2d-ba98-e5fdef29f27b",
+      "round": 1,
+      "ts": "2026-09-21T11:26:55.216Z",
+      "opponent": "_solcat_",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "warm_up",
+          "middle": "pit_stop"
+        },
+        "ourCaptain": "banker",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 24,
+        "got": {
+          "you": [
+            {
+              "name": "Talent Discovery",
+              "atk": 7,
+              "hp": 8
+            },
+            {
+              "name": "The Accountant",
+              "atk": 2,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "WTD",
+              "atk": 4,
+              "hp": 8
+            }
+          ],
+          "caption": "Talent Discovery snowballs the knock-out: +2/+2"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Talent Discovery",
+              "atk": 5,
+              "hp": 6
+            },
+            {
+              "name": "The Accountant",
+              "atk": 2,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "WTD",
+              "atk": 3,
+              "hp": 8
+            }
+          ],
+          "caption": "aoty's aura fades"
+        },
+        "gotFrames": 33,
+        "expectedFrames": 33
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:195",
+      "matchId": "9fb6dc8f-f54f-4b2d-ba98-e5fdef29f27b",
+      "round": 2,
+      "ts": "2026-09-21T11:27:02.274Z",
+      "opponent": "_solcat_",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "warm_up",
+          "middle": "pit_stop",
+          "back": "hot_seat"
+        },
+        "ourCaptain": "banker",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 30,
+        "got": {
+          "you": [
+            {
+              "name": "Talent Discovery",
+              "atk": 7,
+              "hp": 7
+            },
+            {
+              "name": "Box Inspector",
+              "atk": 4,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "AIUsageBot",
+              "atk": 7,
+              "hp": 6
+            }
+          ],
+          "caption": "Talent Discovery snowballs the knock-out: +2/+2"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Talent Discovery",
+              "atk": 5,
+              "hp": 5
+            },
+            {
+              "name": "Box Inspector",
+              "atk": 4,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "AIUsageBot",
+              "atk": 6,
+              "hp": 6
+            }
+          ],
+          "caption": "aoty's aura fades"
+        },
+        "gotFrames": 39,
+        "expectedFrames": 39
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:216",
+      "matchId": "d38e105d-b408-46b7-a509-2d1703a25e6a",
+      "round": 1,
+      "ts": "2026-09-21T11:32:21.669Z",
+      "opponent": "bhootsumant",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "warm_up",
+          "middle": "spotlight"
+        },
+        "ourCaptain": "recruiter",
+        "theirCaptain": "banker"
+      },
+      "frameDifference": {
+        "at": 24,
+        "got": {
+          "you": [
+            {
+              "name": "Testbench",
+              "atk": 3,
+              "hp": 6
+            }
+          ],
+          "them": [],
+          "caption": "Your side holds the floor"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Testbench",
+              "atk": 5,
+              "hp": 8
+            }
+          ],
+          "them": [],
+          "caption": "Testbench gains +2/+2"
+        },
+        "gotFrames": 25,
+        "expectedFrames": 26
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:238",
+      "matchId": "93caed0c-6703-4aed-b84e-1acf36b514c1",
+      "round": 2,
+      "ts": "2026-09-21T11:38:02.891Z",
+      "opponent": "izzat316",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "warm_up"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 28,
+        "got": {
+          "you": [
+            {
+              "name": "Forge",
+              "atk": 7,
+              "hp": -4
+            },
+            {
+              "name": "ASC Skill",
+              "atk": 3,
+              "hp": 7
+            },
+            {
+              "name": "Foundry",
+              "atk": 4,
+              "hp": 8
+            }
+          ],
+          "them": [],
+          "caption": "Affiliate Recruiter is knocked out"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "ASC Skill",
+              "atk": 3,
+              "hp": 7
+            },
+            {
+              "name": "Foundry",
+              "atk": 4,
+              "hp": 8
+            }
+          ],
+          "them": [
+            {
+              "name": "Affiliate Recruiter",
+              "atk": 7,
+              "hp": -5
+            }
+          ],
+          "caption": "Forge is knocked out"
+        },
+        "gotFrames": 31,
+        "expectedFrames": 31
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:242",
+      "matchId": "0f8071e1-bcca-4151-9a1d-a23822d28168",
+      "round": 1,
+      "ts": "2026-09-21T11:39:05.192Z",
+      "opponent": "izzat316",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "hard_hat",
+          "middle": "spotlight"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 21,
+        "got": {
+          "you": [
+            {
+              "name": "Speed Lab",
+              "atk": 7,
+              "hp": 6
+            },
+            {
+              "name": "Video Edit Desk",
+              "atk": 5,
+              "hp": 4
+            },
+            {
+              "name": "dial bot",
+              "atk": 3,
+              "hp": 3
+            }
+          ],
+          "them": [
+            {
+              "name": "SaaSbot",
+              "atk": 6,
+              "hp": 1
+            }
+          ],
+          "caption": "SaaSbot hits back: -6 HP to Speed Lab"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Speed Lab",
+              "atk": 7,
+              "hp": 6
+            },
+            {
+              "name": "Video Edit Desk",
+              "atk": 5,
+              "hp": 3
+            },
+            {
+              "name": "dial bot",
+              "atk": 3,
+              "hp": 3
+            }
+          ],
+          "them": [
+            {
+              "name": "SaaSbot",
+              "atk": 6,
+              "hp": 1
+            }
+          ],
+          "caption": "SaaSbot hits back: -6 HP to Speed Lab; SaaSbot splashes Video Edit Desk: -1 HP"
+        },
+        "gotFrames": 27,
+        "expectedFrames": 27
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:245",
+      "matchId": "45216127-bfde-4fa0-8bf2-159a11741fd0",
+      "round": 1,
+      "ts": "2026-09-21T11:39:45.320Z",
+      "opponent": "ternquest_com",
+      "matchResult": "loss",
+      "winner": "them",
+      "simWinner": "them",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "pit_stop",
+          "middle": "warm_up"
+        },
+        "ourCaptain": "chef",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 14,
+        "got": {
+          "you": [
+            {
+              "name": "NYC Parent",
+              "atk": 2,
+              "hp": 13
+            },
+            {
+              "name": "Stills & Clips Desk",
+              "atk": 2,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Deal Hunting",
+              "atk": 12,
+              "hp": 3
+            },
+            {
+              "name": "X High Coach",
+              "atk": 3,
+              "hp": 3
+            },
+            {
+              "name": "Interview Prep",
+              "atk": 1,
+              "hp": 3
+            }
+          ],
+          "caption": "Deal Hunting drains the knock-out: +2 HP"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "NYC Parent",
+              "atk": 2,
+              "hp": 13
+            },
+            {
+              "name": "Stills & Clips Desk",
+              "atk": 2,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Deal Hunting",
+              "atk": 12,
+              "hp": 1
+            },
+            {
+              "name": "X High Coach",
+              "atk": 3,
+              "hp": 3
+            },
+            {
+              "name": "Interview Prep",
+              "atk": 2,
+              "hp": 4
+            }
+          ],
+          "caption": "Interview Prep gains +1/+1"
+        },
+        "gotFrames": 32,
+        "expectedFrames": 32
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:298",
+      "matchId": "f91e1797-ef84-462d-b557-088111ad77df",
+      "round": 2,
+      "ts": "2026-09-21T11:53:28.904Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "pit_stop",
+          "middle": "spotlight",
+          "back": "hard_hat"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 20,
+        "got": {
+          "you": [
+            {
+              "name": "Video Edit Desk",
+              "atk": 5,
+              "hp": 3
+            },
+            {
+              "name": "figma bro",
+              "atk": 4,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Testbench",
+              "atk": 2,
+              "hp": 2
+            }
+          ],
+          "caption": "Video Edit Desk wakes on the swing: 1 to Testbench"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Video Edit Desk",
+              "atk": 5,
+              "hp": 3
+            },
+            {
+              "name": "figma bro",
+              "atk": 4,
+              "hp": 7
+            }
+          ],
+          "them": [
+            {
+              "name": "Testbench",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "caption": "Testbench gains +2/+2"
+        },
+        "gotFrames": 30,
+        "expectedFrames": 30
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:303",
+      "matchId": "b4b7b9ea-90b8-4c55-ba09-baa6105bb8db",
+      "round": 2,
+      "ts": "2026-09-21T11:54:51.944Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "pit_stop"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 23,
+        "got": {
+          "you": [
+            {
+              "name": "dial bot",
+              "atk": 10,
+              "hp": 6
+            },
+            {
+              "name": "Call Follow-Ups",
+              "atk": 5,
+              "hp": 4
+            },
+            {
+              "name": "Grip",
+              "atk": 2,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Testbench",
+              "atk": 2,
+              "hp": 11
+            }
+          ],
+          "caption": "Call Follow-Ups echoes the swing: +1/+1"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "dial bot",
+              "atk": 10,
+              "hp": 6
+            },
+            {
+              "name": "Call Follow-Ups",
+              "atk": 4,
+              "hp": 3
+            },
+            {
+              "name": "Grip",
+              "atk": 2,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Testbench",
+              "atk": 4,
+              "hp": 13
+            }
+          ],
+          "caption": "Testbench gains +2/+2"
+        },
+        "gotFrames": 42,
+        "expectedFrames": 42
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:369",
+      "matchId": "55d81fb3-3b90-46a6-8e8f-5db4315a6b9a",
+      "round": 1,
+      "ts": "2026-09-21T12:12:23.164Z",
+      "opponent": "syaor4n",
+      "matchResult": "win",
+      "winner": "draw",
+      "simWinner": "draw",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "encore",
+          "middle": "hot_seat"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 19,
+        "got": {
+          "you": [
+            {
+              "name": "Testbench",
+              "atk": 3,
+              "hp": 4
+            }
+          ],
+          "them": [
+            {
+              "name": "Call Follow-Ups",
+              "atk": 5,
+              "hp": 5
+            },
+            {
+              "name": "Event Producer",
+              "atk": 3,
+              "hp": 3
+            }
+          ],
+          "caption": "Call Follow-Ups echoes the swing: +1/+1"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Testbench",
+              "atk": 7,
+              "hp": 8
+            }
+          ],
+          "them": [
+            {
+              "name": "Call Follow-Ups",
+              "atk": 4,
+              "hp": 4
+            },
+            {
+              "name": "Event Producer",
+              "atk": 3,
+              "hp": 3
+            }
+          ],
+          "caption": "Testbench gains +4/+4"
+        },
+        "gotFrames": 35,
+        "expectedFrames": 35
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:401",
+      "matchId": "5eca80cf-3f4c-4afd-a906-74481de6824a",
+      "round": 2,
+      "ts": "2026-09-21T12:21:06.542Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "warm_up",
+          "back": "pit_stop"
+        },
+        "ourCaptain": "scout",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 30,
+        "got": {
+          "you": [
+            {
+              "name": "Stalk Bot",
+              "atk": 13,
+              "hp": 5
+            },
+            {
+              "name": "Event Producer",
+              "atk": 4,
+              "hp": 4
+            },
+            {
+              "name": "Grip",
+              "atk": 2,
+              "hp": 8
+            }
+          ],
+          "them": [
+            {
+              "name": "Drone",
+              "atk": 1,
+              "hp": 1
+            }
+          ],
+          "caption": "Stalk Bot snowballs the knock-out: +2/+2"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Stalk Bot",
+              "atk": 11,
+              "hp": 3,
+              "venom": 1
+            },
+            {
+              "name": "Event Producer",
+              "atk": 4,
+              "hp": 4
+            },
+            {
+              "name": "Grip",
+              "atk": 2,
+              "hp": 8
+            }
+          ],
+          "them": [
+            {
+              "name": "Drone",
+              "atk": 1,
+              "hp": 1
+            }
+          ],
+          "caption": "Blunt poisons Stalk Bot: venom 1"
+        },
+        "gotFrames": 36,
+        "expectedFrames": 36
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:412",
+      "matchId": "1915cc11-9cfa-4c65-bab2-39f347866fed",
+      "round": 0,
+      "ts": "2026-09-21T12:24:06.874Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "encore"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 9,
+        "got": {
+          "you": [
+            {
+              "name": "Outbound Prospecting",
+              "atk": 7,
+              "hp": 7
+            },
+            {
+              "name": "The Morning Newspaper",
+              "atk": 2,
+              "hp": 6
+            },
+            {
+              "name": "Imogen",
+              "atk": 2,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Imogen",
+              "atk": 4,
+              "hp": 11
+            },
+            {
+              "name": "Video Edit Desk",
+              "atk": 3,
+              "hp": 2
+            },
+            {
+              "name": "Event Request Desk",
+              "atk": 3,
+              "hp": 7
+            }
+          ],
+          "caption": "Imogen gains +2 HP"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Outbound Prospecting",
+              "atk": 7,
+              "hp": 7
+            },
+            {
+              "name": "The Morning Newspaper",
+              "atk": 2,
+              "hp": 6
+            },
+            {
+              "name": "Imogen",
+              "atk": 2,
+              "hp": 6
+            }
+          ],
+          "them": [
+            {
+              "name": "Imogen",
+              "atk": 4,
+              "hp": 11
+            },
+            {
+              "name": "Video Edit Desk",
+              "atk": 3,
+              "hp": 2
+            },
+            {
+              "name": "Event Request Desk",
+              "atk": 3,
+              "hp": 7
+            }
+          ],
+          "caption": "Imogen bulks up: +2 HP"
+        },
+        "gotFrames": 28,
+        "expectedFrames": 28
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:442",
+      "matchId": "b4a68b84-6323-4587-a552-835b551efbde",
+      "round": 0,
+      "ts": "2026-09-21T12:31:57.666Z",
+      "opponent": "syaor4n",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 0,
+        "seats": {
+          "front": "spotlight"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 5,
+        "got": {
+          "you": [
+            {
+              "name": "Speed Lab",
+              "atk": 10,
+              "hp": 10
+            },
+            {
+              "name": "Forge",
+              "atk": 3,
+              "hp": 2
+            },
+            {
+              "name": "Outbound Prospecting",
+              "atk": 3,
+              "hp": 4
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 5,
+              "hp": 9
+            }
+          ],
+          "caption": "Enemy Medic: +3 HP to their back bot"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Speed Lab",
+              "atk": 10,
+              "hp": 10
+            },
+            {
+              "name": "Forge",
+              "atk": 3,
+              "hp": 2
+            },
+            {
+              "name": "Outbound Prospecting",
+              "atk": 3,
+              "hp": 4
+            }
+          ],
+          "them": [
+            {
+              "name": "Speed Lab",
+              "atk": 5,
+              "hp": 9
+            }
+          ],
+          "caption": "Enemy Medic: +3 HP to their front bot"
+        },
+        "gotFrames": 11,
+        "expectedFrames": 11
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:483",
+      "matchId": "a6649809-186e-437a-b904-3d6e4aca3f68",
+      "round": 2,
+      "ts": "2026-09-21T12:43:08.719Z",
+      "opponent": "bourkefloyd",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 2,
+        "seats": {
+          "front": "spotlight",
+          "middle": "pit_stop",
+          "back": "encore"
+        },
+        "ourCaptain": "drill",
+        "theirCaptain": "medic"
+      },
+      "frameDifference": {
+        "at": 23,
+        "got": {
+          "you": [
+            {
+              "name": "Golf Caddie",
+              "atk": 5,
+              "hp": 11,
+              "shield": 2
+            },
+            {
+              "name": "ASC Skill",
+              "atk": 2,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Weekend Scout",
+              "atk": 4,
+              "hp": 9
+            },
+            {
+              "name": "Life",
+              "atk": 4,
+              "hp": 9
+            },
+            {
+              "name": "Specialist",
+              "atk": 1,
+              "hp": 1
+            }
+          ],
+          "caption": "Cold brew: Golf Caddie +1 HP"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Golf Caddie",
+              "atk": 5,
+              "hp": 10,
+              "shield": 2
+            },
+            {
+              "name": "ASC Skill",
+              "atk": 2,
+              "hp": 5
+            }
+          ],
+          "them": [
+            {
+              "name": "Weekend Scout",
+              "atk": 4,
+              "hp": 9
+            },
+            {
+              "name": "Life",
+              "atk": 5,
+              "hp": 10
+            },
+            {
+              "name": "Specialist",
+              "atk": 2,
+              "hp": 2
+            }
+          ],
+          "caption": "Weekend Scout routes the work: +1/+1 to each friend"
+        },
+        "gotFrames": 48,
+        "expectedFrames": 48
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:487",
+      "matchId": "41410689-689c-4222-8051-50ed2bbb96ae",
+      "round": 1,
+      "ts": "2026-09-21T12:44:13.001Z",
+      "opponent": "outtherefan",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "hard_hat",
+          "middle": "warm_up"
+        },
+        "ourCaptain": "recruiter",
+        "theirCaptain": "chef"
+      },
+      "frameDifference": {
+        "at": 12,
+        "got": {
+          "you": [
+            {
+              "name": "Luma Pages",
+              "atk": 11,
+              "hp": 10
+            },
+            {
+              "name": "Root Agent",
+              "atk": 5,
+              "hp": 6
+            },
+            {
+              "name": "Writing Bot",
+              "atk": 3,
+              "hp": 9
+            }
+          ],
+          "them": [
+            {
+              "name": "Grip",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "Outbound Prospecting",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "Copywriter",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "caption": "Copywriter snipes Root Agent for 3"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Luma Pages",
+              "atk": 11,
+              "hp": 10
+            },
+            {
+              "name": "Root Agent",
+              "atk": 5,
+              "hp": 8
+            },
+            {
+              "name": "Writing Bot",
+              "atk": 3,
+              "hp": 9
+            }
+          ],
+          "them": [
+            {
+              "name": "Grip",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "Outbound Prospecting",
+              "atk": 4,
+              "hp": 5
+            },
+            {
+              "name": "Copywriter",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "caption": "Copywriter snipes Root Agent for 1"
+        },
+        "gotFrames": 42,
+        "expectedFrames": 41
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:539",
+      "matchId": "edd13b53-1832-4cf6-b9da-d8e07c022cbc",
+      "round": 1,
+      "ts": "2026-09-21T12:57:31.425Z",
+      "opponent": "outtherefan",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "chef"
+      },
+      "frameDifference": {
+        "at": 10,
+        "got": {
+          "you": [
+            {
+              "name": "Office Ops Desk",
+              "atk": 4,
+              "hp": 9,
+              "shield": 1
+            },
+            {
+              "name": "MarketBoxScan",
+              "atk": 4,
+              "hp": 10
+            },
+            {
+              "name": "Signal Prospector",
+              "atk": 4,
+              "hp": 11
+            }
+          ],
+          "them": [
+            {
+              "name": "Grip",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "Outbound Prospecting",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Copywriter",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "caption": "Copywriter snipes Office Ops Desk for 3"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Office Ops Desk",
+              "atk": 4,
+              "hp": 9,
+              "shield": 1
+            },
+            {
+              "name": "MarketBoxScan",
+              "atk": 4,
+              "hp": 10
+            },
+            {
+              "name": "Signal Prospector",
+              "atk": 4,
+              "hp": 11
+            }
+          ],
+          "them": [
+            {
+              "name": "Grip",
+              "atk": 4,
+              "hp": 6
+            },
+            {
+              "name": "Outbound Prospecting",
+              "atk": 3,
+              "hp": 4
+            },
+            {
+              "name": "Copywriter",
+              "atk": 4,
+              "hp": 5
+            }
+          ],
+          "caption": "Copywriter snipes Office Ops Desk for 1"
+        },
+        "gotFrames": 42,
+        "expectedFrames": 42
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:568",
+      "matchId": "1f218909-be10-476c-a7e4-c758d04fc4f1",
+      "round": 1,
+      "ts": "2026-09-21T13:05:09.328Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "encore",
+          "middle": "hard_hat"
+        },
+        "ourCaptain": "banker",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 17,
+        "got": {
+          "you": [
+            {
+              "name": "SEO & AEO Desk",
+              "atk": 0,
+              "hp": 5
+            },
+            {
+              "name": "Site Audit",
+              "atk": 3,
+              "hp": 3
+            },
+            {
+              "name": "SEO & AEO Desk",
+              "atk": 3,
+              "hp": 8
+            }
+          ],
+          "them": [
+            {
+              "name": "WTD",
+              "atk": 9,
+              "hp": 1
+            },
+            {
+              "name": "Steal This Business",
+              "atk": 3,
+              "hp": 3
+            },
+            {
+              "name": "Lease Finder",
+              "atk": 5,
+              "hp": 2
+            }
+          ],
+          "caption": "Steal This Business steals 0 ATK from SEO & AEO Desk"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "SEO & AEO Desk",
+              "atk": 0,
+              "hp": 5
+            },
+            {
+              "name": "Site Audit",
+              "atk": 3,
+              "hp": 3
+            },
+            {
+              "name": "SEO & AEO Desk",
+              "atk": 3,
+              "hp": 8
+            }
+          ],
+          "them": [
+            {
+              "name": "WTD",
+              "atk": 9,
+              "hp": 1
+            },
+            {
+              "name": "Steal This Business",
+              "atk": 3,
+              "hp": 2
+            },
+            {
+              "name": "Lease Finder",
+              "atk": 5,
+              "hp": 2
+            }
+          ],
+          "caption": "Site Audit pins Steal This Business: 1"
+        },
+        "gotFrames": 31,
+        "expectedFrames": 30
+      }
+    },
+    {
+      "matchKey": "1469af9c-4dcb-4666-b490-8b84bbbdbed0:580",
+      "matchId": "03df32b6-4a3d-44ab-b073-3959322b566b",
+      "round": 1,
+      "ts": "2026-09-21T13:08:09.239Z",
+      "opponent": "ternquest_com",
+      "matchResult": "win",
+      "winner": "you",
+      "simWinner": "you",
+      "framesExact": false,
+      "ourInputMatches": true,
+      "publicFramesMatch": true,
+      "opts": {
+        "season": 3,
+        "round": 1,
+        "seats": {
+          "front": "pit_stop",
+          "middle": "warm_up"
+        },
+        "ourCaptain": "medic",
+        "theirCaptain": "drill"
+      },
+      "frameDifference": {
+        "at": 9,
+        "got": {
+          "you": [
+            {
+              "name": "Steal This Business",
+              "atk": 4,
+              "hp": 9
+            },
+            {
+              "name": "Hiring Signals",
+              "atk": 8,
+              "hp": 4
+            },
+            {
+              "name": "SaaSbot",
+              "atk": 6,
+              "hp": 8
+            }
+          ],
+          "them": [
+            {
+              "name": "Imogen",
+              "atk": 6,
+              "hp": 12
+            },
+            {
+              "name": "Imogen",
+              "atk": 3,
+              "hp": 7
+            },
+            {
+              "name": "aoty",
+              "atk": 2,
+              "hp": 2
+            }
+          ],
+          "caption": "Hiring Signals clips aoty: 3"
+        },
+        "expected": {
+          "you": [
+            {
+              "name": "Steal This Business",
+              "atk": 4,
+              "hp": 9
+            },
+            {
+              "name": "Hiring Signals",
+              "atk": 8,
+              "hp": 4
+            },
+            {
+              "name": "SaaSbot",
+              "atk": 6,
+              "hp": 8
+            }
+          ],
+          "them": [
+            {
+              "name": "Imogen",
+              "atk": 6,
+              "hp": 12
+            },
+            {
+              "name": "Imogen",
+              "atk": 3,
+              "hp": 7
+            },
+            {
+              "name": "aoty",
+              "atk": 2,
+              "hp": 2
+            }
+          ],
+          "caption": "Hiring Signals has the last word: 3 to aoty"
+        },
+        "gotFrames": 28,
+        "expectedFrames": 28
+      }
+    }
+  ],
+  "emptySeats": []
+}

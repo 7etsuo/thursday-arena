@@ -1,0 +1,39 @@
+{
+  "id": "recipe-office-ops-desk__meeting-recap-deck__call-follow-ups",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "hold_the_line",
+    "echo",
+    "echo"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 3,
+  "wins": 2,
+  "losses": 0,
+  "elo": 10,
+  "last": "2026-09-19T05:15:17.209Z"
+}

@@ -1,0 +1,74 @@
+{
+  "fp": "flora plant care log | ai search visibility | tradbot",
+  "seats": [
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "tradbot",
+      "kit": "guard",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "suyashverma"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__office-ops-desk__office-ops-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T00:47:48.854Z",
+      "lastResult": "draw"
+    },
+    "recipe-game-art-director__apple-search-ads-review__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:48:08.675Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__credit-card-max": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -14,
+      "last": "2026-09-19T00:48:40.370Z",
+      "lastResult": "draw"
+    },
+    "recipe-pipeline-pulse__pitch-deck-coach__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:48:50.969Z",
+      "lastResult": "win"
+    },
+    "recipe-figma-bro__wtd__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:49:04.148Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-figma-bro__wtd__writing-bot",
+  "plays": 5,
+  "updated": "2026-09-19T00:49:04.148Z"
+}

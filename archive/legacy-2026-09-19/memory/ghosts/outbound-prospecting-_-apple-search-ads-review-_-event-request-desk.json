@@ -1,0 +1,74 @@
+{
+  "fp": "outbound prospecting | apple search ads review | event request desk",
+  "seats": [
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ushitora57"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__webby__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T23:02:38.564Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T23:02:46.030Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__company-docs-q-a__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T23:03:07.806Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__flora-plant-care-log__hiring-signals": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T23:03:44.006Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__x-brief__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T23:03:50.750Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__x-brief__projects-manager",
+  "plays": 5,
+  "updated": "2026-09-18T23:03:57.125Z"
+}

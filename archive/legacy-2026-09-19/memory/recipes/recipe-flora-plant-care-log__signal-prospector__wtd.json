@@ -1,0 +1,39 @@
+{
+  "id": "recipe-flora-plant-care-log__signal-prospector__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "flora plant care log",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "patch",
+    "mosquito",
+    "hype"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 0,
+  "elo": 7,
+  "last": "2026-09-19T07:17:43.672Z"
+}

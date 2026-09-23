@@ -1,0 +1,106 @@
+{
+  "fp": "haggle bot | recruiting coordinator | deal hunting",
+  "seats": [
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "laydo1213"
+  ],
+  "matchups": {
+    "recipe-webby__wtd__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T22:23:13.242Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__talent-discovery": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T22:23:20.079Z",
+      "lastResult": "win"
+    },
+    "recipe-love__meeting-recap-deck__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T22:23:27.654Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__outbound-prospecting__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T22:23:39.924Z",
+      "lastResult": "win"
+    },
+    "recipe-dr-eggbot__event-request-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T22:23:51.511Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__call-follow-ups__lingxi-s-engineer-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T22:24:01.122Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__luma-pages__pitch-deck-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T22:24:14.038Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__cooper__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T22:24:20.551Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__nyc-parent__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T22:24:28.901Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__nyc-parent__x-brief",
+  "plays": 9,
+  "updated": "2026-09-18T22:24:28.901Z"
+}

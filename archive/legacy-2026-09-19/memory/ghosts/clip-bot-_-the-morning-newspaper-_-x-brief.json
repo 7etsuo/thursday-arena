@@ -1,0 +1,50 @@
+{
+  "fp": "clip bot | the morning newspaper | x brief",
+  "seats": [
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "k4sbasia"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__projects-manager__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T11:09:33.162Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__imogen__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T11:09:45.798Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__imogen__imogen",
+  "plays": 2,
+  "updated": "2026-09-18T11:09:45.798Z"
+}

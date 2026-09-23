@@ -1,0 +1,106 @@
+{
+  "fp": "writing bot | haggle bot | gtm loop closer",
+  "seats": [
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "chr1sr1chards"
+  ],
+  "matchups": {
+    "recipe-pipeline-pulse__credit-card-max__deal-inspector": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T22:06:45.704Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__love__company-docs-q-a": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T22:06:53.385Z",
+      "lastResult": "loss"
+    },
+    "recipe-company-docs-q-a__outbound-prospecting__love": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T22:07:01.401Z",
+      "lastResult": "loss"
+    },
+    "recipe-product-support-inbox-assistant__stills-clips-desk__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T22:07:10.193Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__deal-inspector__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T22:07:21.492Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__office-ops-desk__nightly-audit-engineer": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T22:07:35.619Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__the-morning-newspaper__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:07:47.846Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__apple-search-ads-review__credit-card-max": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T22:07:55.304Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__event-request-desk__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T22:08:07.849Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__event-request-desk__gtm-loop-closer",
+  "plays": 9,
+  "updated": "2026-09-18T22:08:07.849Z"
+}

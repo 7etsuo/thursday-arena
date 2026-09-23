@@ -1,0 +1,40 @@
+{
+  "id": "recipe-imogen__cooper__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "echo",
+    "hype"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_draw",
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 17,
+  "wins": 15,
+  "losses": 1,
+  "elo": 188,
+  "last": "2026-09-19T07:28:12.762Z"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "loss-20260917-2015",
+  "name": "drain-echo-poke",
+  "result": "loss",
+  "plan": "tempo",
+  "rating_delta": -17,
+  "opponent_tier": "gold",
+  "rounds": "0-2",
+  "curve": {
+    "r1": null,
+    "r2": null,
+    "r3": null
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "Deal Hunting",
+      "atk": 4,
+      "hp": 2,
+      "food": null,
+      "kit": "Drain"
+    },
+    {
+      "seat": 2,
+      "name": "Meeting Recap Desk",
+      "atk": 3,
+      "hp": 4,
+      "food": null,
+      "kit": "Echo"
+    },
+    {
+      "seat": 3,
+      "name": "Outbound Prospecting",
+      "atk": 3,
+      "hp": 4,
+      "food": null,
+      "kit": "Poke"
+    }
+  ],
+  "keys": [
+    "drain",
+    "echo",
+    "front_poke"
+  ],
+  "why": "glass drain front + echo/poke got crushed",
+  "reuse": "do not reuse",
+  "avoid": "avoid Deal Hunting as primary front",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "last_used": "2026-09-17"
+}

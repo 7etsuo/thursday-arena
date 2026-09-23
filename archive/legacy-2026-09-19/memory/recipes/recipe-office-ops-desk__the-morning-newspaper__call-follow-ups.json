@@ -1,0 +1,38 @@
+{
+  "id": "recipe-office-ops-desk__the-morning-newspaper__call-follow-ups",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hold_the_line",
+    "flamingo",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 6,
+  "wins": 6,
+  "losses": 0,
+  "elo": 26,
+  "last": "2026-09-19T02:55:28.709Z"
+}

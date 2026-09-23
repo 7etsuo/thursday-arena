@@ -1,0 +1,66 @@
+{
+  "fp": "imogen | call follow ups | skippy",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jaimebubblehead"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__writing-bot__office-ops-desk": {
+      "wins": 3,
+      "losses": 4,
+      "draws": 2,
+      "elo": -16,
+      "last": "2026-09-19T05:48:27.599Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__wtd__imogen": {
+      "wins": 0,
+      "losses": 3,
+      "draws": 0,
+      "elo": -48,
+      "last": "2026-09-19T05:46:14.353Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 2,
+      "losses": 5,
+      "draws": 0,
+      "elo": -48,
+      "last": "2026-09-19T06:55:29.435Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 4,
+      "draws": 0,
+      "elo": -64,
+      "last": "2026-09-19T05:56:24.949Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__writing-bot__office-ops-desk",
+  "plays": 23,
+  "updated": "2026-09-19T06:55:29.435Z"
+}

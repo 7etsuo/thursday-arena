@@ -1,0 +1,39 @@
+{
+  "id": "recipe-office-ops-desk__meeting-recap-deck__office-ops-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hold_the_line",
+    "echo",
+    "hold_the_line"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 3,
+  "wins": 2,
+  "losses": 0,
+  "elo": 12,
+  "last": "2026-09-19T05:05:36.226Z"
+}

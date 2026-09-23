@@ -1,0 +1,31 @@
+{
+  "id": "recipe-overheard__critiquito-design-critique",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "overheard",
+      "kit": "backtap",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "backtap",
+    "sting"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -5,
+  "last": "2026-09-19T07:28:21.579Z"
+}

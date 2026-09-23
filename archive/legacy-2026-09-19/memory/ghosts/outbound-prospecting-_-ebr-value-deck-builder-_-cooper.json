@@ -1,0 +1,66 @@
+{
+  "fp": "outbound prospecting | ebr value deck builder | cooper",
+  "seats": [
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "megied"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__meeting-recap-deck__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:23:58.393Z",
+      "lastResult": "win"
+    },
+    "recipe-sales-call-coach__credit-card-max__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:24:05.902Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:24:12.694Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__seo-aeo-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:24:43.985Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-tradbot__seo-aeo-desk__writing-bot",
+  "plays": 4,
+  "updated": "2026-09-18T23:25:03.242Z"
+}

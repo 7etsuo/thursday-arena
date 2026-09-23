@@ -1,0 +1,98 @@
+{
+  "fp": "tech demos | outbound prospecting | love",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 6,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "fbacope88"
+  ],
+  "matchups": {
+    "recipe-imogen__office-ops-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:14:09.770Z",
+      "lastResult": "win"
+    },
+    "recipe-stills-clips-desk__cooper__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:14:16.595Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__ebr-value-deck-builder": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:14:23.059Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__stills-clips-desk__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:14:29.679Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__customer-call-coach-assistant__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:14:37.152Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__call-follow-ups__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:14:46.795Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__office-ops-desk__sales-call-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:14:55.003Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:15:39.168Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__customer-call-coach-assistant__writing-bot",
+  "plays": 8,
+  "updated": "2026-09-18T21:15:39.168Z"
+}

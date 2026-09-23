@@ -1,0 +1,50 @@
+{
+  "fp": "signal prospector | skippy | partnerships call coach",
+  "seats": [
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "diamondhanddie"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "elo": 32,
+      "last": "2026-09-19T07:05:37.350Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 2,
+      "elo": -16,
+      "last": "2026-09-19T07:06:27.541Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 5,
+  "updated": "2026-09-19T07:06:27.541Z"
+}

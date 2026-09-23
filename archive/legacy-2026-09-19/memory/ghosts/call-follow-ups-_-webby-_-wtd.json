@@ -1,0 +1,66 @@
+{
+  "fp": "call follow ups | webby | wtd",
+  "seats": [
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jordanj603"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__wtd__imogen": {
+      "wins": 2,
+      "losses": 1,
+      "draws": 2,
+      "elo": 16,
+      "last": "2026-09-19T05:46:05.772Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__writing-bot__office-ops-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T05:46:27.919Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 7,
+      "losses": 2,
+      "draws": 7,
+      "elo": 80,
+      "last": "2026-09-19T05:55:18.302Z",
+      "lastResult": "draw"
+    },
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 3,
+      "losses": 1,
+      "draws": 2,
+      "elo": 32,
+      "last": "2026-09-19T05:51:01.232Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 28,
+  "updated": "2026-09-19T05:55:18.302Z"
+}

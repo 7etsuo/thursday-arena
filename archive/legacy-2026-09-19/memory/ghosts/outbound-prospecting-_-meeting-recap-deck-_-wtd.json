@@ -1,0 +1,98 @@
+{
+  "fp": "outbound prospecting | meeting recap deck | wtd",
+  "seats": [
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "poteto_clanker"
+  ],
+  "matchups": {
+    "recipe-cooper__writing-bot__nyc-parent": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T01:27:42.834Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__luma-pages__customer-call-coach-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:28:01.638Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:28:10.718Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:28:18.861Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__love__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T01:28:27.067Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__credit-card-max__flora-plant-care-log": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:28:43.620Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__x-brief__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:28:51.056Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__credit-card-max__recruiting-coordinator": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T01:29:00.504Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__x-brief__luma-pages",
+  "plays": 8,
+  "updated": "2026-09-19T01:29:00.505Z"
+}

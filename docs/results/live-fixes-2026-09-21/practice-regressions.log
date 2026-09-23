@@ -1,0 +1,14 @@
+✔ complete official practice matches, seed 12345 (6.515501ms)
+✔ complete official practice matches, seed 20260920 (3.880551ms)
+✔ complete official practice matches, seed 20260921 (1.741874ms)
+✔ complete official practice matches, seed 20260922 (0.776128ms)
+✔ Season 3 practice actions: captain, purchase, and item match the server (0.214565ms)
+✔ Season 3 practice battle reproduces the observed frames and result (0.307837ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 61.963541

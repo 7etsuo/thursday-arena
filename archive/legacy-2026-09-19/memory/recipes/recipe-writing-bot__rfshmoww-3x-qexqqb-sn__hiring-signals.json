@@ -1,0 +1,37 @@
+{
+  "id": "recipe-writing-bot__rfshmoww-3x-qexqqb-sn__hiring-signals",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "rfshmoww 3x qexqqb sn",
+      "kit": "",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "hiring signals",
+      "kit": "backtap",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hype",
+    "backtap"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -5,
+  "last": "2026-09-19T07:27:49.077Z"
+}

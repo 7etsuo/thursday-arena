@@ -1,0 +1,39 @@
+{
+  "id": "recipe-imogen__copy-humanizer__pitch-deck-coach",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "pitch deck coach",
+      "kit": "last_word",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "flamingo",
+    "last_word"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 0,
+  "elo": -7,
+  "last": "2026-09-18T23:35:46.122Z"
+}

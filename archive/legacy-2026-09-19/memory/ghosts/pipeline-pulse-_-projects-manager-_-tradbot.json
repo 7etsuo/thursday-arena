@@ -1,0 +1,74 @@
+{
+  "fp": "pipeline pulse | projects manager | tradbot",
+  "seats": [
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "tradbot",
+      "kit": "guard",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "irsthaeth"
+  ],
+  "matchups": {
+    "recipe-luma-pages__writing-bot__projects-manager": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -4,
+      "last": "2026-09-18T11:57:31.750Z",
+      "lastResult": "draw"
+    },
+    "recipe-copy-humanizer__love__pitch-deck-coach": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -5,
+      "last": "2026-09-18T11:57:51.607Z",
+      "lastResult": "draw"
+    },
+    "recipe-credit-card-max__projects-manager__pitch-deck-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 12,
+      "last": "2026-09-18T11:58:10.168Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__product-support-inbox-assistant__dr-eggbot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -4,
+      "last": "2026-09-18T11:58:21.096Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__office-ops-desk__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 12,
+      "last": "2026-09-18T11:58:30.711Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__office-ops-desk__tradbot",
+  "plays": 5,
+  "updated": "2026-09-18T11:58:30.711Z"
+}

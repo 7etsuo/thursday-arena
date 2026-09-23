@@ -1,0 +1,54 @@
+{
+  "id": "win-20260918-jason-ghost-counter",
+  "name": "anti-jason-ghost: tank front + grow/echo",
+  "result": "win",
+  "plan": "tempo",
+  "rating_delta": 0,
+  "opponent_tier": "ghost",
+  "rounds": "theory",
+  "curve": {
+    "r1": null,
+    "r2": null,
+    "r3": null
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "The Morning Newspaper",
+      "atk": 2,
+      "hp": 6,
+      "food": "honey",
+      "kit": "Pass it back"
+    },
+    {
+      "seat": 2,
+      "name": "Credit Card Max",
+      "atk": 3,
+      "hp": 4,
+      "food": null,
+      "kit": "Grow"
+    },
+    {
+      "seat": 3,
+      "name": "Call Follow-Ups",
+      "atk": 3,
+      "hp": 4,
+      "food": null,
+      "kit": "Echo"
+    }
+  ],
+  "keys": [
+    "flamingo",
+    "grow",
+    "echo",
+    "anti_tech_demos",
+    "anti_jason_ghost"
+  ],
+  "why": "jason2reynolds rated ghost is ALWAYS Tech Demos(4/2)+Meeting Recap+Imogen. Front needs \u22655hp or honey so Tech Demos does not one-shot. Avoid Clip Bot.",
+  "reuse": "Prioritize Morning Newspaper/Copy Humanizer/NYC Parent/Imogen front; honey front; grow+echo behind. Never double Clip Bot.",
+  "avoid": "Clip Bot, Home robots, skippy front, double hype, \u22644hp honey-less front",
+  "plays": 5,
+  "wins": 5,
+  "losses": 0,
+  "last_used": "2026-09-18"
+}

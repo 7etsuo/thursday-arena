@@ -1,0 +1,42 @@
+{
+  "fp": "credit card max | critiquito design critique | love",
+  "seats": [
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thatretireddude"
+  ],
+  "matchups": {
+    "recipe-imogen__office-ops-desk__nyc-parent": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T07:02:42.704Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__office-ops-desk__nyc-parent",
+  "plays": 1,
+  "updated": "2026-09-19T07:02:42.704Z"
+}

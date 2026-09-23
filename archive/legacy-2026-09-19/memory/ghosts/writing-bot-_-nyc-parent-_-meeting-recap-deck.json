@@ -1,0 +1,50 @@
+{
+  "fp": "writing bot | nyc parent | meeting recap deck",
+  "seats": [
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "parli7"
+  ],
+  "matchups": {
+    "recipe-imogen__company-docs-q-a__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T22:56:08.424Z",
+      "lastResult": "loss"
+    },
+    "recipe-call-follow-ups__overheard__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-18T22:56:18.532Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-call-follow-ups__overheard__writing-bot",
+  "plays": 2,
+  "updated": "2026-09-18T22:56:18.532Z"
+}

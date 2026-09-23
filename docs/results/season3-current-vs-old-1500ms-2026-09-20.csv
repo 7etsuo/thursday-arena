@@ -1,0 +1,11 @@
+fold,seed,match,handle,baseline,candidate,baseline_score,candidate_score,delta
+0,101,1,"default_vpc",win,win,1,1,0
+0,103,1,"default_vpc",win,win,1,1,0
+1,101,1,"iijanchan",win,draw,1,0.5,-0.5
+1,103,1,"_max_q_",win,win,1,1,0
+2,101,1,"izzat316",win,win,1,1,0
+2,103,1,"alexfinkbeiner",win,win,1,1,0
+3,101,1,"eliancodex",win,win,1,1,0
+3,103,1,"theusinnovator",win,win,1,1,0
+4,101,1,"1bjax",win,win,1,1,0
+4,103,1,"luisjimnezcort5",win,win,1,1,0

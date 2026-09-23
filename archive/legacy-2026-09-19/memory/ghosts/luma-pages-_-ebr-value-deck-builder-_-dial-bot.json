@@ -1,0 +1,33 @@
+{
+  "fp": "luma pages | ebr value deck builder | dial bot",
+  "seats": [
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thatretireddude"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T07:19:03.972Z"
+}

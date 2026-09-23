@@ -1,0 +1,66 @@
+{
+  "fp": "site audit | gtm connections | projects manager",
+  "seats": [
+    {
+      "name": "site audit",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jambrefe"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__nyc-parent__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:09:44.635Z",
+      "lastResult": "win"
+    },
+    "recipe-outbound-prospecting__writing-bot__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:09:50.889Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:10:13.660Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__webby__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:10:41.357Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-outbound-prospecting__writing-bot__credit-card-max",
+  "plays": 4,
+  "updated": "2026-09-18T22:10:49.072Z"
+}

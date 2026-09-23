@@ -1,0 +1,74 @@
+{
+  "fp": "nyc parent | company docs q a | projects manager",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "kung_jook"
+  ],
+  "matchups": {
+    "recipe-love__pipeline-pulse__credit-card-max": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T12:31:59.453Z",
+      "lastResult": "loss"
+    },
+    "recipe-outbound-prospecting__signal-prospector__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T12:32:06.187Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__call-follow-ups__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:32:14.059Z",
+      "lastResult": "win"
+    },
+    "recipe-signal-prospector__x-brief__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-18T12:32:20.345Z",
+      "lastResult": "loss"
+    },
+    "recipe-outbound-prospecting__credit-card-max__hiring-signals": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T12:32:26.207Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__call-follow-ups__pipeline-pulse",
+  "plays": 5,
+  "updated": "2026-09-18T12:33:08.768Z"
+}

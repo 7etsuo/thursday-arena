@@ -1,0 +1,38 @@
+{
+  "id": "recipe-product-idea-stress-test__wtd__account-research-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "product idea stress test",
+      "kit": "dump",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "account research desk",
+      "kit": "last_word",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "dump",
+    "hype",
+    "last_word"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -30,
+  "last": "2026-09-18T22:24:50.707Z"
+}

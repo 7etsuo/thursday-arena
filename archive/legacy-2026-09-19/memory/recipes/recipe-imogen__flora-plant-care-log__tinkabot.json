@@ -1,0 +1,39 @@
+{
+  "id": "recipe-imogen__flora-plant-care-log__tinkabot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "flora plant care log",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "tinkabot",
+      "kit": "first_seat",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "patch",
+    "first_seat"
+  ],
+  "tags": [
+    "recent_loss",
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 0,
+  "losses": 1,
+  "elo": -27,
+  "last": "2026-09-19T05:17:26.673Z"
+}

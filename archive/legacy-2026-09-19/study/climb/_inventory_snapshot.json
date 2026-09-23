@@ -1,0 +1,95 @@
+{
+  "generated_at_mt": "2026-09-18T16:55:34.206429-06:00",
+  "sources": {
+    "climb_batch_logs": {
+      "n_files": 120,
+      "n_lines": 27365,
+      "oldest": "batch-20260918-053826.log",
+      "newest": "batch-20260918-165532.log"
+    },
+    "climb_match_logs": {
+      "n_files": 174,
+      "n_lines": 3172
+    },
+    "climb_other_logs": {
+      "files": [
+        "climb.log"
+      ],
+      "n_lines": 888
+    },
+    "matches_log_jsonl": {
+      "path": "matches/log.jsonl",
+      "n_lines": 1541,
+      "bytes": 537240
+    },
+    "decisions_events": {
+      "path": "data/decisions/events.jsonl",
+      "n_lines": 24559,
+      "bytes": 24456768
+    },
+    "memory_ghosts": {
+      "n_files": 386
+    },
+    "study_raw_matches": {
+      "n_files": 150
+    }
+  },
+  "corrupt_or_empty": [
+    {
+      "file": "batch-20260918-054823.log",
+      "issue": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "file": "batch-20260918-054825.log",
+      "issue": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "file": "batch-20260918-054828.log",
+      "issue": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "file": "batch-20260918-054832.log",
+      "issue": "Expecting value: line 1 column 1 (char 0)"
+    }
+  ],
+  "ok": false,
+  "parsed": {
+    "climb_series": 1535,
+    "primary_unique": 1539,
+    "log_jsonl_results": 1540,
+    "decision_results": 3074,
+    "added_from_decisions": 4,
+    "overall": {
+      "w": 1194,
+      "l": 227,
+      "d": 118,
+      "elo": -6
+    },
+    "last_2h": {
+      "w": 591,
+      "l": 112,
+      "d": 62,
+      "elo": 24,
+      "n": 765
+    },
+    "shop_error_series": 0,
+    "soft_tip_ld": 147
+  },
+  "shop_errors_corrected": {
+    "error_events": 36,
+    "by_message": {
+      "k is not defined": 10,
+      "unit is not defined": 24,
+      "arena HTTP 429: {\"error\":\"overloaded\"}\n": 2
+    },
+    "files": 36,
+    "series_with_result_after_error": 0,
+    "those_wld_elo": {
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "elo": 0
+    },
+    "latest_k_ts": "2026-09-18T22:38:47.190Z"
+  }
+}

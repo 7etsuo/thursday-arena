@@ -1,0 +1,77 @@
+{
+  "id": "win-20260917-study05",
+  "name": "clone-blacksheepjav-stalkbot-productsup-projectsma",
+  "result": "win",
+  "plan": "late_spike",
+  "rating_delta": 15,
+  "opponent_tier": "unknown",
+  "rounds": "2-1",
+  "curve": {
+    "r1": [
+      "GTM Prospecting 4/3",
+      "skippy 2/4",
+      "X Brief 2/4"
+    ],
+    "r2": [
+      "skippy 2/4 honey",
+      "Product Support Inbox Assistant 3/6",
+      "Projects Manager 3/5"
+    ],
+    "r3": [
+      "Stalk Bot 6/6 honey",
+      "Product Support Inbox Assistant 3/6",
+      "Projects Manager 3/5"
+    ]
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "Stalk Bot",
+      "atk": 6,
+      "hp": 6,
+      "food": "honey",
+      "kit": "Snowball"
+    },
+    {
+      "seat": 2,
+      "name": "Product Support Inbox Assistant",
+      "atk": 3,
+      "hp": 6,
+      "food": null,
+      "kit": "Patch"
+    },
+    {
+      "seat": 3,
+      "name": "Projects Manager",
+      "atk": 3,
+      "hp": 5,
+      "food": null,
+      "kit": "Hype"
+    }
+  ],
+  "keys": [
+    "hype",
+    "patch",
+    "snowball",
+    "honey_front",
+    "late_epic",
+    "stalk_bot",
+    "product_support_inbox_as",
+    "product_support_inbox_assistant",
+    "projects_manager"
+  ],
+  "why": "cloned from @blacksheepjav win vs @breezeeoo: honey sting on Stalk Bot; hype juiced front",
+  "reuse": "when shop offers similar late_spike pieces: Stalk Bot, Product Support Inbox Assistant, Projects Manager",
+  "avoid": "do not force if shop misses core kits; public clone may lack freeze/buy order fidelity",
+  "plays": 0,
+  "wins": 0,
+  "losses": 0,
+  "last_used": null,
+  "meta": {
+    "player": "blacksheepjav",
+    "source_match": "2f20f96c-947e-4e49-a52b-50aca202feb4",
+    "source_url": "https://thursdayarena.com/matches/2f20f96c-947e-4e49-a52b-50aca202feb4",
+    "cloned_at": "2026-09-17",
+    "inferred": true
+  }
+}

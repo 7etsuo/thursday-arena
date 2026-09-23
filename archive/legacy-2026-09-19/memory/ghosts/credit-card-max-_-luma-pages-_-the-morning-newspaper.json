@@ -1,0 +1,42 @@
+{
+  "fp": "credit card max | luma pages | the morning newspaper",
+  "seats": [
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "rdmsgl"
+  ],
+  "matchups": {
+    "recipe-imogen__pipeline-pulse__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T03:24:14.941Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__pipeline-pulse__nightly-audit-engineer",
+  "plays": 1,
+  "updated": "2026-09-19T03:24:14.941Z"
+}

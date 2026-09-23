@@ -1,0 +1,106 @@
+{
+  "fp": "meeting recap deck | signal prospector | home robots",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "prithvimallesh"
+  ],
+  "matchups": {
+    "recipe-credit-card-max__stills-clips-desk__signal-prospector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:55:26.009Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__meeting-recap-deck__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:55:44.474Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__seo-aeo-desk__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:55:51.221Z",
+      "lastResult": "win"
+    },
+    "recipe-stills-clips-desk__overheard__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:55:59.646Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__webby__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:56:07.636Z",
+      "lastResult": "win"
+    },
+    "recipe-writing-bot__luma-pages__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:56:21.670Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__gtm-loop-closer__flora-plant-care-log": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:56:30.264Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__wtd__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:56:40.485Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__wtd__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:56:51.025Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__wtd__wtd",
+  "plays": 9,
+  "updated": "2026-09-19T03:56:57.843Z"
+}

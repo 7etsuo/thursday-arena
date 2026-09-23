@@ -1,0 +1,29 @@
+{
+  "note": "Both engines receive the same seats and fight captains reconstructed from the recorded frames using the final engine. Replay fidelity comparison, not independent predictions or win-rate evidence.",
+  "samples": [
+    {
+      "file": "data/corpus/s3_public_matches.jsonl",
+      "rounds": 239,
+      "before": {
+        "winners": 239,
+        "frames": 197
+      },
+      "after": {
+        "winners": 239,
+        "frames": 237
+      }
+    },
+    {
+      "file": "data/corpus/s3_public_matches_review_2026-09-20.jsonl",
+      "rounds": 258,
+      "before": {
+        "winners": 254,
+        "frames": 201
+      },
+      "after": {
+        "winners": 258,
+        "frames": 257
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "note": "Screen of ended later-round shops against the complete historical target actually available then. No future opponent data used to score these choices; no policy change or new match played.",
+  "shops": 200,
+  "findings": [
+    {
+      "matchId": "334e6217-e979-4859-a2d3-8d802d302a5f",
+      "round": 2,
+      "opponent": "poteto",
+      "matchResult": "loss",
+      "battleWinner": "them",
+      "gold": 12,
+      "baselineScore": 0.9128329297820823,
+      "candidateScore": 0.9515738498789346,
+      "move": [
+        {
+          "type": "feed",
+          "boardIndex": 1
+        }
+      ],
+      "framesExact": true
+    }
+  ]
+}

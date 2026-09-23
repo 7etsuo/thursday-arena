@@ -1,0 +1,42 @@
+{
+  "fp": "seo aeo desk | gtm prospecting | video edit desk",
+  "seats": [
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "as42tsx"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": 0,
+      "last": "2026-09-19T07:09:00.494Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__writing-bot__wtd",
+  "plays": 1,
+  "updated": "2026-09-19T07:09:00.495Z"
+}

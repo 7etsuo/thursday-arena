@@ -1,0 +1,38 @@
+{
+  "id": "recipe-dr-eggbot__flora-plant-care-log__x-brief",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "dr eggbot",
+      "kit": "spotlight",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "flora plant care log",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "spotlight",
+    "patch",
+    "echo"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -9,
+  "last": "2026-09-18T12:49:30.591Z"
+}

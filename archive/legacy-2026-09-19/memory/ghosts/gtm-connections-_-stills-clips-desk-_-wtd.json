@@ -1,0 +1,58 @@
+{
+  "fp": "gtm connections | stills clips desk | wtd",
+  "seats": [
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sunix_s"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__webby__flora-plant-care-log": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 1,
+      "elo": 18,
+      "last": "2026-09-19T07:03:06.152Z",
+      "lastResult": "draw"
+    },
+    "recipe-webby__x-brief__xsfbsprfkv5h909uzrv7w": {
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "elo": 49,
+      "last": "2026-09-19T07:03:49.523Z",
+      "lastResult": "win"
+    },
+    "recipe-x-brief__account-research-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T07:02:33.507Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__x-brief__xsfbsprfkv5h909uzrv7w",
+  "plays": 6,
+  "updated": "2026-09-19T07:03:49.523Z"
+}

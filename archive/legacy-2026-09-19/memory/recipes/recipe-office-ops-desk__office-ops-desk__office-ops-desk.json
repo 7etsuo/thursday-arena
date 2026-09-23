@@ -1,0 +1,40 @@
+{
+  "id": "recipe-office-ops-desk__office-ops-desk__office-ops-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hold_the_line",
+    "hold_the_line",
+    "hold_the_line"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_loss",
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 4,
+  "wins": 1,
+  "losses": 2,
+  "elo": -49,
+  "last": "2026-09-19T05:35:49.888Z"
+}

@@ -1,0 +1,14 @@
+# Dependencies are installed from package-lock.json with npm ci.
+node_modules/
+
+# Local credentials and machine state.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+/data/*.lock
+
+# Records, logs, memory, and historical archives are intentionally tracked
+# in this private repository.

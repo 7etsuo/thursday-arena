@@ -1,0 +1,39 @@
+{
+  "id": "recipe-nyc-parent__tradbot__cooper",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "tradbot",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "bulk",
+    "guard",
+    "echo"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 1,
+  "elo": -19,
+  "last": "2026-09-19T04:41:31.427Z"
+}

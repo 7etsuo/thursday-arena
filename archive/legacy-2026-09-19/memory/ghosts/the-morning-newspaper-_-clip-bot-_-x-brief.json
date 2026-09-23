@@ -1,0 +1,66 @@
+{
+  "fp": "the morning newspaper | clip bot | x brief",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "3luedream"
+  ],
+  "matchups": {
+    "recipe-stills-clips-desk__deal-inspector__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-18T12:02:16.786Z",
+      "lastResult": "loss"
+    },
+    "recipe-gtm-loop-closer__hiring-signals__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T12:02:43.175Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__hiring-signals__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T12:03:03.379Z",
+      "lastResult": "win"
+    },
+    "recipe-product-support-inbox-assistant__apple-search-ads-review__executive-assistant": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T12:03:13.045Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__hiring-signals__projects-manager",
+  "plays": 4,
+  "updated": "2026-09-18T12:03:13.045Z"
+}

@@ -1,0 +1,106 @@
+{
+  "fp": "company docs q a | customer call coach assistant | critiquito design critique",
+  "seats": [
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "customer call coach assistant",
+      "kit": "peacock",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "hoyin020385"
+  ],
+  "matchups": {
+    "recipe-imogen__x-brief__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:20:37.604Z",
+      "lastResult": "win"
+    },
+    "recipe-lead-pipeline-desk__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:20:45.274Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__credit-card-max__ad-spend-watch": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:20:51.931Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__nyc-parent__seo-aeo-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:20:59.402Z",
+      "lastResult": "win"
+    },
+    "recipe-sales-call-coach__writing-bot__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:21:09.354Z",
+      "lastResult": "win"
+    },
+    "recipe-sales-call-coach__call-follow-ups__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:21:17.219Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__call-follow-ups__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:21:25.430Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__webby__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:21:32.782Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__luma-pages__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:21:42.977Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-tradbot__luma-pages__writing-bot",
+  "plays": 9,
+  "updated": "2026-09-18T22:21:42.977Z"
+}

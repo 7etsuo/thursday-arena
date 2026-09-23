@@ -1,0 +1,42 @@
+{
+  "fp": "x brief | haggle bot | gtm loop closer",
+  "seats": [
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "vibeleiz"
+  ],
+  "matchups": {
+    "recipe-imogen__account-research-desk__xsfbsprfkv5h909uzrv7w": {
+      "wins": 2,
+      "losses": 1,
+      "draws": 1,
+      "elo": 53,
+      "last": "2026-09-19T07:26:14.154Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__account-research-desk__xsfbsprfkv5h909uzrv7w",
+  "plays": 4,
+  "updated": "2026-09-19T07:26:14.154Z"
+}

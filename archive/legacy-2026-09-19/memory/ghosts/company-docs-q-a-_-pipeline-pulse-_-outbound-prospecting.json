@@ -1,0 +1,58 @@
+{
+  "fp": "company docs q a | pipeline pulse | outbound prospecting",
+  "seats": [
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "tslacyb3rtruck"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__luma-pages__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:44:21.082Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__deal-hunting__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:46:21.950Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__x-brief__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:46:43.183Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__x-brief__wtd",
+  "plays": 3,
+  "updated": "2026-09-18T21:46:50.144Z"
+}

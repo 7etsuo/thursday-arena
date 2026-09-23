@@ -1,0 +1,66 @@
+{
+  "fp": "signal prospector | deal hunting | ai search visibility",
+  "seats": [
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 6,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "yaseenhq"
+  ],
+  "matchups": {
+    "recipe-webby__stills-clips-desk__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T11:58:59.963Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T11:59:08.911Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__call-follow-ups__meeting-recap-deck": {
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-18T11:59:16.687Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__call-follow-ups__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T11:59:24.191Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__call-follow-ups__meeting-recap-deck",
+  "plays": 5,
+  "updated": "2026-09-18T11:59:24.191Z"
+}

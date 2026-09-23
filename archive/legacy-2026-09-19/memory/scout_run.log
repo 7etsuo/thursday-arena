@@ -1,0 +1,295 @@
+{"event":"scout_start","handles":2449,"concurrency":8,"limit":50,"hot":0.65,"farm":0.35,"minGames":10}
+scout 50/2449 (2.0%)
+scout 100/2449 (4.1%)
+scout 150/2449 (6.1%)
+scout 200/2449 (8.2%)
+scout 250/2449 (10.2%)
+scout 300/2449 (12.2%)
+scout 350/2449 (14.3%)
+scout 400/2449 (16.3%)
+scout 450/2449 (18.4%)
+scout 500/2449 (20.4%)
+scout 550/2449 (22.5%)
+scout 600/2449 (24.5%)
+scout 650/2449 (26.5%)
+scout 700/2449 (28.6%)
+scout 750/2449 (30.6%)
+scout 800/2449 (32.7%)
+scout 850/2449 (34.7%)
+scout 900/2449 (36.7%)
+scout 950/2449 (38.8%)
+scout 1000/2449 (40.8%)
+scout 1050/2449 (42.9%)
+scout 1100/2449 (44.9%)
+scout 1150/2449 (47.0%)
+scout 1200/2449 (49.0%)
+scout 1250/2449 (51.0%)
+scout 1300/2449 (53.1%)
+scout 1350/2449 (55.1%)
+scout 1400/2449 (57.2%)
+scout 1450/2449 (59.2%)
+scout 1500/2449 (61.2%)
+scout 1550/2449 (63.3%)
+scout 1600/2449 (65.3%)
+scout 1650/2449 (67.4%)
+scout 1700/2449 (69.4%)
+scout 1750/2449 (71.5%)
+scout 1800/2449 (73.5%)
+scout 1850/2449 (75.5%)
+scout 1900/2449 (77.6%)
+scout 1950/2449 (79.6%)
+scout 2000/2449 (81.7%)
+scout 2050/2449 (83.7%)
+scout 2100/2449 (85.7%)
+scout 2150/2449 (87.8%)
+scout 2200/2449 (89.8%)
+scout 2250/2449 (91.9%)
+scout 2300/2449 (93.9%)
+scout 2350/2449 (96.0%)
+scout 2400/2449 (98.0%)
+scout 2449/2449 (100.0%)
+{
+  "event": "scout_done",
+  "total": 2449,
+  "refuse": 194,
+  "farm": 483,
+  "neutral": 1772,
+  "errors": 0,
+  "blocklistAfter": 194,
+  "blocklistBefore": 86,
+  "addedHot": 108,
+  "topRefuse": [
+    {
+      "handle": "omlejmi",
+      "fieldWR": 1,
+      "fieldGames": 50,
+      "w": 50,
+      "l": 0,
+      "rating": 1610,
+      "rank": 1
+    },
+    {
+      "handle": "gabriel_x86",
+      "fieldWR": 1,
+      "fieldGames": 50,
+      "w": 49,
+      "l": 0,
+      "rating": 1583,
+      "rank": 2
+    },
+    {
+      "handle": "ryaske",
+      "fieldWR": 1,
+      "fieldGames": 50,
+      "w": 48,
+      "l": 0,
+      "rating": 1558,
+      "rank": 3
+    },
+    {
+      "handle": "lucasali_",
+      "fieldWR": 1,
+      "fieldGames": 41,
+      "w": 40,
+      "l": 0,
+      "rating": 1016,
+      "rank": 332
+    },
+    {
+      "handle": "izzat316",
+      "fieldWR": 0.98,
+      "fieldGames": 50,
+      "w": 48,
+      "l": 1,
+      "rating": 1520,
+      "rank": 4
+    },
+    {
+      "handle": "bipolarschizoma",
+      "fieldWR": 0.979,
+      "fieldGames": 50,
+      "w": 47,
+      "l": 1,
+      "rating": 1453,
+      "rank": 5
+    },
+    {
+      "handle": "aj121503",
+      "fieldWR": 0.976,
+      "fieldGames": 41,
+      "w": 40,
+      "l": 1,
+      "rating": 1054,
+      "rank": 119
+    },
+    {
+      "handle": "_tb_brewster",
+      "fieldWR": 0.959,
+      "fieldGames": 50,
+      "w": 47,
+      "l": 2,
+      "rating": 1409,
+      "rank": 8
+    },
+    {
+      "handle": "knownasdaniel",
+      "fieldWR": 0.959,
+      "fieldGames": 50,
+      "w": 47,
+      "l": 2,
+      "rating": 1401,
+      "rank": 9
+    },
+    {
+      "handle": "syaor4n",
+      "fieldWR": 0.958,
+      "fieldGames": 50,
+      "w": 46,
+      "l": 2,
+      "rating": 1412,
+      "rank": 7
+    },
+    {
+      "handle": "lighttwrecker",
+      "fieldWR": 0.958,
+      "fieldGames": 50,
+      "w": 46,
+      "l": 2,
+      "rating": 1370,
+      "rank": 11
+    },
+    {
+      "handle": "fabianhtml",
+      "fieldWR": 0.957,
+      "fieldGames": 50,
+      "w": 45,
+      "l": 2,
+      "rating": 1448,
+      "rank": 6
+    },
+    {
+      "handle": "jonathannelson",
+      "fieldWR": 0.949,
+      "fieldGames": 40,
+      "w": 37,
+      "l": 2,
+      "rating": 1268,
+      "rank": 23
+    },
+    {
+      "handle": "fourseasonsgrn",
+      "fieldWR": 0.947,
+      "fieldGames": 41,
+      "w": 36,
+      "l": 2,
+      "rating": 1142,
+      "rank": 53
+    },
+    {
+      "handle": "ggleandro",
+      "fieldWR": 0.938,
+      "fieldGames": 50,
+      "w": 45,
+      "l": 3,
+      "rating": 1365,
+      "rank": 13
+    }
+  ],
+  "sampleFarm": [
+    {
+      "handle": "umbraxhul",
+      "fieldWR": 0,
+      "fieldGames": 50,
+      "w": 0,
+      "l": 50,
+      "rating": 1016,
+      "rank": 386
+    },
+    {
+      "handle": "olenderhub",
+      "fieldWR": 0,
+      "fieldGames": 50,
+      "w": 0,
+      "l": 49,
+      "rating": 1001,
+      "rank": 504
+    },
+    {
+      "handle": "boredsharky",
+      "fieldWR": 0,
+      "fieldGames": 50,
+      "w": 0,
+      "l": 50,
+      "rating": 1000,
+      "rank": 668
+    },
+    {
+      "handle": "databoticsusa",
+      "fieldWR": 0,
+      "fieldGames": 34,
+      "w": 0,
+      "l": 32,
+      "rating": 1000,
+      "rank": 768
+    },
+    {
+      "handle": "ezatwakily",
+      "fieldWR": 0,
+      "fieldGames": 36,
+      "w": 0,
+      "l": 35,
+      "rating": 1000,
+      "rank": 866
+    },
+    {
+      "handle": "ninjahyper8897",
+      "fieldWR": 0,
+      "fieldGames": 40,
+      "w": 0,
+      "l": 36,
+      "rating": 998,
+      "rank": 1789
+    },
+    {
+      "handle": "audvin",
+      "fieldWR": 0,
+      "fieldGames": 33,
+      "w": 0,
+      "l": 33,
+      "rating": 984,
+      "rank": 1900
+    },
+    {
+      "handle": "benton_flo21666",
+      "fieldWR": 0,
+      "fieldGames": 17,
+      "w": 0,
+      "l": 17,
+      "rating": 984,
+      "rank": 1903
+    },
+    {
+      "handle": "brandenearp",
+      "fieldWR": 0,
+      "fieldGames": 43,
+      "w": 0,
+      "l": 39,
+      "rating": 984,
+      "rank": 1909
+    },
+    {
+      "handle": "dean_y0ung",
+      "fieldWR": 0,
+      "fieldGames": 50,
+      "w": 0,
+      "l": 50,
+      "rating": 984,
+      "rank": 1938
+    }
+  ],
+  "files": {
+    "blocklist": "/workspace/thursday-arena/memory/blocklist.json",
+    "farmlist": "/workspace/thursday-arena/memory/farmlist.json",
+    "scout": "/workspace/thursday-arena/memory/player_scout.json"
+  }
+}

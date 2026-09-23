@@ -1,0 +1,50 @@
+{
+  "fp": "meeting recap deck | signal prospector | competitor watch",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "prithvimallesh"
+  ],
+  "matchups": {
+    "recipe-imogen__imogen__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:55:36.606Z",
+      "lastResult": "win"
+    },
+    "recipe-ebr-value-deck-builder__apple-search-ads-review__executive-assistant": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -30,
+      "last": "2026-09-19T03:57:01.836Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__imogen__wtd",
+  "plays": 2,
+  "updated": "2026-09-19T03:57:01.836Z"
+}

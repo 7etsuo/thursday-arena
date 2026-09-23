@@ -1,0 +1,52 @@
+{
+  "seed": 2026092301,
+  "summary": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "elo": 0,
+    "actions": 50,
+    "rounds": 7,
+    "dropped": 0,
+    "aiMatches": 3,
+    "exitReason": "matches_done",
+    "prevHandle": null
+  },
+  "checks": 29,
+  "battleChecks": 7,
+  "rateLimits": 0,
+  "results": [
+    {
+      "wins": {
+        "you": 2,
+        "them": 0
+      },
+      "rounds": [
+        "you",
+        "you"
+      ]
+    },
+    {
+      "wins": {
+        "you": 1,
+        "them": 2
+      },
+      "rounds": [
+        "you",
+        "them",
+        "them"
+      ]
+    },
+    {
+      "wins": {
+        "you": 2,
+        "them": 0
+      },
+      "rounds": [
+        "you",
+        "you"
+      ]
+    }
+  ]
+}

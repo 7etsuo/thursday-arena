@@ -1,0 +1,90 @@
+{
+  "fp": "company docs q a | imogen | talent discovery",
+  "seats": [
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "talent discovery",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "plugalug1"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__love__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:15:25.220Z",
+      "lastResult": "win"
+    },
+    "recipe-love__meeting-recap-deck__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:15:42.969Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__imogen__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:15:54.813Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:16:06.686Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__credit-card-max__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:16:20.029Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__executive-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:16:38.455Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__x-brief__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:16:49.210Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__office-ops-desk__executive-assistant",
+  "plays": 7,
+  "updated": "2026-09-18T23:16:49.210Z"
+}

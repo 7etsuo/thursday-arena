@@ -1,0 +1,38 @@
+{
+  "id": "recipe-partnerships-call-coach__webby__lead-pipeline-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "spotlight",
+    "bulk",
+    "snowball"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 5,
+  "last": "2026-09-18T22:59:21.222Z"
+}

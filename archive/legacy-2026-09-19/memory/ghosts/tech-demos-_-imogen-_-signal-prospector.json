@@ -1,0 +1,42 @@
+{
+  "fp": "tech demos | imogen | signal prospector",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "lndigitalworld"
+  ],
+  "matchups": {
+    "recipe-tradbot__company-docs-q-a__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:29:03.135Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-tradbot__company-docs-q-a__wtd",
+  "plays": 1,
+  "updated": "2026-09-18T23:29:03.135Z"
+}

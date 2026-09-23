@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "games": 2,
+    "wins": 2,
+    "losses": 0,
+    "draws": 0,
+    "elo": 32,
+    "actions": 36,
+    "rounds": 5,
+    "dropped": 0,
+    "aiMatches": 0,
+    "exitReason": "games_done",
+    "prevHandle": "gabriel_x86"
+  },
+  "illegal": 0,
+  "freezes": 0,
+  "captains": [
+    "freezer",
+    "freezer"
+  ],
+  "errors": []
+}

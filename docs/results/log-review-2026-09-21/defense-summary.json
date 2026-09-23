@@ -1,0 +1,808 @@
+{
+  "first": "2026-09-21T07:17:54.651Z",
+  "logEnd": "2026-09-21T13:09:12.777Z",
+  "publicSnapshotLast": "2026-09-21T15:08:29.224725Z",
+  "duplicates": [],
+  "crosscheckErrors": [],
+  "missingLogResults": [
+    {
+      "id": "8c51437a-41f1-46d2-a4d5-7c03d2dfa7bc",
+      "played_at": "2026-09-21T09:58:36.941839Z",
+      "season": "Season 3",
+      "players": [
+        {
+          "x_handle": "tetsuoai",
+          "outcome": "win",
+          "role": "attacker",
+          "elo_delta": 5,
+          "last_season": {
+            "season": 2,
+            "rating": 1484,
+            "rank": 10
+          }
+        },
+        {
+          "x_handle": "ternquest_com",
+          "outcome": "loss",
+          "role": "ghost",
+          "elo_delta": -5,
+          "last_season": {
+            "season": 2,
+            "rating": 1696,
+            "rank": 5
+          }
+        }
+      ],
+      "result": "win",
+      "us": {
+        "x_handle": "tetsuoai",
+        "outcome": "win",
+        "role": "attacker",
+        "elo_delta": 5,
+        "last_season": {
+          "season": 2,
+          "rating": 1484,
+          "rank": 10
+        }
+      },
+      "enemy": {
+        "x_handle": "ternquest_com",
+        "outcome": "loss",
+        "role": "ghost",
+        "elo_delta": -5,
+        "last_season": {
+          "season": 2,
+          "rating": 1696,
+          "rank": 5
+        }
+      }
+    }
+  ],
+  "during": {
+    "attacks": {
+      "matches": 1151,
+      "win": 999,
+      "loss": 112,
+      "draw": 40,
+      "elo": 955
+    },
+    "defenses": {
+      "matches": 79,
+      "win": 21,
+      "loss": 50,
+      "draw": 8,
+      "elo": -847
+    },
+    "byOpponent": {
+      "qsr_cg": {
+        "attacks": {
+          "matches": 1,
+          "win": 1,
+          "loss": 0,
+          "draw": 0,
+          "elo": 5
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "izzat316": {
+        "attacks": {
+          "matches": 258,
+          "win": 220,
+          "loss": 27,
+          "draw": 11,
+          "elo": 317
+        },
+        "defenses": {
+          "matches": 8,
+          "win": 3,
+          "loss": 4,
+          "draw": 1,
+          "elo": -69
+        }
+      },
+      "gkwy": {
+        "attacks": {
+          "matches": 27,
+          "win": 27,
+          "loss": 0,
+          "draw": 0,
+          "elo": 38
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "thebeeduck": {
+        "attacks": {
+          "matches": 26,
+          "win": 26,
+          "loss": 0,
+          "draw": 0,
+          "elo": 33
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "circles_r_phun": {
+        "attacks": {
+          "matches": 23,
+          "win": 20,
+          "loss": 1,
+          "draw": 2,
+          "elo": -19
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "_solcat_": {
+        "attacks": {
+          "matches": 41,
+          "win": 40,
+          "loss": 0,
+          "draw": 1,
+          "elo": 38
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "sodiumhyrdride": {
+        "attacks": {
+          "matches": 37,
+          "win": 33,
+          "loss": 4,
+          "draw": 0,
+          "elo": -84
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "eliancodex": {
+        "attacks": {
+          "matches": 8,
+          "win": 7,
+          "loss": 1,
+          "draw": 0,
+          "elo": -22
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "s3xyfuture": {
+        "attacks": {
+          "matches": 18,
+          "win": 17,
+          "loss": 0,
+          "draw": 1,
+          "elo": 19
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "jusrelax": {
+        "attacks": {
+          "matches": 6,
+          "win": 6,
+          "loss": 0,
+          "draw": 0,
+          "elo": 8
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "_tb_brewster": {
+        "attacks": {
+          "matches": 6,
+          "win": 6,
+          "loss": 0,
+          "draw": 0,
+          "elo": 8
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "lighttwrecker": {
+        "attacks": {
+          "matches": 19,
+          "win": 19,
+          "loss": 0,
+          "draw": 0,
+          "elo": 25
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "1bjax": {
+        "attacks": {
+          "matches": 4,
+          "win": 4,
+          "loss": 0,
+          "draw": 0,
+          "elo": 6
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "levificati0n": {
+        "attacks": {
+          "matches": 7,
+          "win": 7,
+          "loss": 0,
+          "draw": 0,
+          "elo": 7
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "ternquest_com": {
+        "attacks": {
+          "matches": 428,
+          "win": 343,
+          "loss": 66,
+          "draw": 19,
+          "elo": 781
+        },
+        "defenses": {
+          "matches": 71,
+          "win": 18,
+          "loss": 46,
+          "draw": 7,
+          "elo": -778
+        }
+      },
+      "gabriel_x86": {
+        "attacks": {
+          "matches": 6,
+          "win": 6,
+          "loss": 0,
+          "draw": 0,
+          "elo": 5
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "ryansheng": {
+        "attacks": {
+          "matches": 6,
+          "win": 6,
+          "loss": 0,
+          "draw": 0,
+          "elo": 2
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "alexanderopalic": {
+        "attacks": {
+          "matches": 3,
+          "win": 3,
+          "loss": 0,
+          "draw": 0,
+          "elo": 3
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "safiahmad313": {
+        "attacks": {
+          "matches": 1,
+          "win": 1,
+          "loss": 0,
+          "draw": 0,
+          "elo": 1
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "syaor4n": {
+        "attacks": {
+          "matches": 84,
+          "win": 75,
+          "loss": 7,
+          "draw": 2,
+          "elo": -128
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "steve86sjm": {
+        "attacks": {
+          "matches": 4,
+          "win": 4,
+          "loss": 0,
+          "draw": 0,
+          "elo": 4
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "cxrlosmonroy": {
+        "attacks": {
+          "matches": 4,
+          "win": 4,
+          "loss": 0,
+          "draw": 0,
+          "elo": 4
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "ryanjosebrosas": {
+        "attacks": {
+          "matches": 12,
+          "win": 12,
+          "loss": 0,
+          "draw": 0,
+          "elo": 18
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "nirajlovesfries": {
+        "attacks": {
+          "matches": 3,
+          "win": 3,
+          "loss": 0,
+          "draw": 0,
+          "elo": 3
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "cmoyyds": {
+        "attacks": {
+          "matches": 2,
+          "win": 2,
+          "loss": 0,
+          "draw": 0,
+          "elo": 2
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "roostercogdick": {
+        "attacks": {
+          "matches": 5,
+          "win": 5,
+          "loss": 0,
+          "draw": 0,
+          "elo": 7
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "bhootsumant": {
+        "attacks": {
+          "matches": 16,
+          "win": 13,
+          "loss": 2,
+          "draw": 1,
+          "elo": -62
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "sanwang39883": {
+        "attacks": {
+          "matches": 11,
+          "win": 11,
+          "loss": 0,
+          "draw": 0,
+          "elo": 15
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "cbschulz": {
+        "attacks": {
+          "matches": 12,
+          "win": 9,
+          "loss": 2,
+          "draw": 1,
+          "elo": -67
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "wenakita": {
+        "attacks": {
+          "matches": 12,
+          "win": 11,
+          "loss": 0,
+          "draw": 1,
+          "elo": 0
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "bourkefloyd": {
+        "attacks": {
+          "matches": 9,
+          "win": 9,
+          "loss": 0,
+          "draw": 0,
+          "elo": 9
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "iijanchan": {
+        "attacks": {
+          "matches": 3,
+          "win": 2,
+          "loss": 0,
+          "draw": 1,
+          "elo": -13
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "outtherefan": {
+        "attacks": {
+          "matches": 4,
+          "win": 4,
+          "loss": 0,
+          "draw": 0,
+          "elo": 4
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "darren_bryant": {
+        "attacks": {
+          "matches": 8,
+          "win": 8,
+          "loss": 0,
+          "draw": 0,
+          "elo": 8
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "amanverma235979": {
+        "attacks": {
+          "matches": 9,
+          "win": 9,
+          "loss": 0,
+          "draw": 0,
+          "elo": 11
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "devtony": {
+        "attacks": {
+          "matches": 11,
+          "win": 11,
+          "loss": 0,
+          "draw": 0,
+          "elo": 15
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "legacynical": {
+        "attacks": {
+          "matches": 8,
+          "win": 7,
+          "loss": 1,
+          "draw": 0,
+          "elo": -23
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "ms0242808": {
+        "attacks": {
+          "matches": 7,
+          "win": 6,
+          "loss": 1,
+          "draw": 0,
+          "elo": -25
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      },
+      "qilir4": {
+        "attacks": {
+          "matches": 2,
+          "win": 2,
+          "loss": 0,
+          "draw": 0,
+          "elo": 2
+        },
+        "defenses": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        }
+      }
+    }
+  },
+  "afterStop": {
+    "attacks": {
+      "matches": 0,
+      "win": 0,
+      "loss": 0,
+      "draw": 0,
+      "elo": 0
+    },
+    "defenses": {
+      "matches": 50,
+      "win": 7,
+      "loss": 38,
+      "draw": 5,
+      "elo": -364
+    },
+    "byOpponent": {
+      "ternquest_com": {
+        "attacks": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        },
+        "defenses": {
+          "matches": 23,
+          "win": 2,
+          "loss": 20,
+          "draw": 1,
+          "elo": -214
+        }
+      },
+      "izzat316": {
+        "attacks": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        },
+        "defenses": {
+          "matches": 14,
+          "win": 2,
+          "loss": 10,
+          "draw": 2,
+          "elo": -97
+        }
+      },
+      "syaor4n": {
+        "attacks": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        },
+        "defenses": {
+          "matches": 6,
+          "win": 2,
+          "loss": 2,
+          "draw": 2,
+          "elo": -8
+        }
+      },
+      "fabianhtml": {
+        "attacks": {
+          "matches": 0,
+          "win": 0,
+          "loss": 0,
+          "draw": 0,
+          "elo": 0
+        },
+        "defenses": {
+          "matches": 7,
+          "win": 1,
+          "loss": 6,
+          "draw": 0,
+          "elo": -45
+        }
+      }
+    }
+  },
+  "defenseKnowledge": {
+    "during": {
+      "rounds": 201,
+      "known": 78,
+      "unknown": 123,
+      "latestMatches": 77,
+      "matchedOwnBoard": 196
+    },
+    "afterStop": {
+      "rounds": 129,
+      "known": 0,
+      "unknown": 129,
+      "latestMatches": 0,
+      "matchedOwnBoard": 129
+    },
+    "ternquestDuring": {
+      "rounds": 181,
+      "known": 73,
+      "unknown": 108,
+      "latestMatches": 72,
+      "matchedOwnBoard": 176
+    }
+  }
+}

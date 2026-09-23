@@ -1,0 +1,39 @@
+{
+  "id": "recipe-imogen__office-ops-desk__tradbot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "tradbot",
+      "kit": "guard",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "bulk",
+    "hold_the_line",
+    "guard"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 3,
+  "wins": 2,
+  "losses": 0,
+  "elo": 6,
+  "last": "2026-09-19T00:08:07.487Z"
+}

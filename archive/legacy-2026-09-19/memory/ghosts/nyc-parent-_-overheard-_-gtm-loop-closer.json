@@ -1,0 +1,106 @@
+{
+  "fp": "nyc parent | overheard | gtm loop closer",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "imerttoprak"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__haggle-bot__tradbot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -14,
+      "last": "2026-09-19T03:53:20.102Z",
+      "lastResult": "draw"
+    },
+    "recipe-copy-humanizer__tradbot__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:53:30.985Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__tradbot__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:53:41.743Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__meeting-recap-deck__dr-eggbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:53:57.012Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:54:09.581Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__call-follow-ups": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -14,
+      "last": "2026-09-19T03:54:20.108Z",
+      "lastResult": "draw"
+    },
+    "recipe-outbound-prospecting__pipeline-pulse__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -30,
+      "last": "2026-09-19T03:54:29.744Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__wtd__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:54:44.073Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__company-docs-q-a__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:55:02.354Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__company-docs-q-a__meeting-recap-deck",
+  "plays": 9,
+  "updated": "2026-09-19T03:55:02.354Z"
+}

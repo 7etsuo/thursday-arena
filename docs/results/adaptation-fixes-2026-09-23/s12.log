@@ -1,0 +1,19 @@
+eval_versions games/seed=20 seeds=101,103,107,109,113 season=both budget=Infinity mock=current book=cold
+before=/tmp/arena-fixes-20260923/before
+  S1 seed=101: before={"win":14,"loss":3,"draw":3} current={"win":14,"loss":3,"draw":3} score=0.775/0.775 pairedDelta=0.0000 bookRecords=48/48 rounds=48/48 elapsed=12.0s
+  S1 seed=103: before={"win":18,"loss":2,"draw":0} current={"win":18,"loss":2,"draw":0} score=0.900/0.900 pairedDelta=0.0000 bookRecords=46/46 rounds=46/46 elapsed=22.4s
+  S1 seed=107: before={"win":16,"loss":1,"draw":3} current={"win":16,"loss":1,"draw":3} score=0.875/0.875 pairedDelta=0.0000 bookRecords=48/48 rounds=48/48 elapsed=35.4s
+  S1 seed=109: before={"win":17,"loss":3,"draw":0} current={"win":17,"loss":3,"draw":0} score=0.850/0.850 pairedDelta=0.0000 bookRecords=47/47 rounds=47/47 elapsed=47.2s
+  S1 seed=113: before={"win":16,"loss":0,"draw":4} current={"win":16,"loss":0,"draw":4} score=0.900/0.900 pairedDelta=0.0000 bookRecords=45/45 rounds=45/45 elapsed=58.0s
+S1 n=100: before W81 L9 D10 winRate=0.8100 matchScore=0.8600; current W81 L9 D10 winRate=0.8100 matchScore=0.8600
+  paired score delta current-before=0.0000 95% seed-clustered CI [0.0000, 0.0000] (exploratory match-level CI [0.0000, 0.0000]) better=0 worse=0 same=100
+  illegal before=0 current=0; fillable short shops before=0 current=0
+  S2 seed=101: before={"win":15,"loss":3,"draw":2} current={"win":15,"loss":3,"draw":2} score=0.800/0.800 pairedDelta=0.0000 bookRecords=42/42 rounds=46/46 elapsed=11.1s
+  S2 seed=103: before={"win":15,"loss":4,"draw":1} current={"win":15,"loss":4,"draw":1} score=0.775/0.775 pairedDelta=0.0000 bookRecords=45/45 rounds=45/45 elapsed=26.4s
+  S2 seed=107: before={"win":13,"loss":4,"draw":3} current={"win":13,"loss":4,"draw":3} score=0.725/0.725 pairedDelta=0.0000 bookRecords=50/50 rounds=50/50 elapsed=40.8s
+  S2 seed=109: before={"win":17,"loss":2,"draw":1} current={"win":17,"loss":2,"draw":1} score=0.875/0.875 pairedDelta=0.0000 bookRecords=47/47 rounds=47/47 elapsed=52.8s
+  S2 seed=113: before={"win":16,"loss":1,"draw":3} current={"win":16,"loss":1,"draw":3} score=0.875/0.875 pairedDelta=0.0000 bookRecords=43/43 rounds=45/45 elapsed=64.7s
+S2 n=100: before W76 L14 D10 winRate=0.7600 matchScore=0.8100; current W76 L14 D10 winRate=0.7600 matchScore=0.8100
+  paired score delta current-before=0.0000 95% seed-clustered CI [0.0000, 0.0000] (exploratory match-level CI [0.0000, 0.0000]) better=0 worse=0 same=100
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /tmp/arena-fixes-20260923/s12.csv

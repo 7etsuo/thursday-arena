@@ -1,0 +1,70 @@
+{
+  "id": "win-20260917-study06",
+  "name": "clone-omlejmi-nycparent-meetingrec-webby",
+  "result": "win",
+  "plan": "tempo",
+  "rating_delta": 4,
+  "opponent_tier": "unknown",
+  "rounds": "2-0",
+  "curve": {
+    "r1": [
+      "Webby 3/5",
+      "Meeting Recap Deck 3/4",
+      "NYC Parent 2/6"
+    ],
+    "r2": [
+      "NYC Parent 2/6 potato tmp+2",
+      "Meeting Recap Deck 3/4",
+      "Webby 3/5 honey"
+    ]
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "NYC Parent",
+      "atk": 2,
+      "hp": 6,
+      "food": "potato",
+      "kit": "Bulk"
+    },
+    {
+      "seat": 2,
+      "name": "Meeting Recap Deck",
+      "atk": 3,
+      "hp": 4,
+      "food": null,
+      "kit": "Echo"
+    },
+    {
+      "seat": 3,
+      "name": "Webby",
+      "atk": 3,
+      "hp": 5,
+      "food": "honey",
+      "kit": "Bulk"
+    }
+  ],
+  "keys": [
+    "echo",
+    "bulk_front",
+    "honey",
+    "potato",
+    "nyc_parent",
+    "meeting_recap_deck",
+    "webby"
+  ],
+  "why": "cloned from @omlejmi win vs @gunner15522830: honey sting on Webby; echo rode friend-ahead attacks",
+  "reuse": "when shop offers similar tempo pieces: NYC Parent, Meeting Recap Deck, Webby",
+  "avoid": "do not force if shop misses core kits; public clone may lack freeze/buy order fidelity",
+  "plays": 0,
+  "wins": 0,
+  "losses": 0,
+  "last_used": null,
+  "meta": {
+    "player": "omlejmi",
+    "source_match": "f79bf933-0974-49ca-ae8f-fc95cd256318",
+    "source_url": "https://thursdayarena.com/matches/f79bf933-0974-49ca-ae8f-fc95cd256318",
+    "cloned_at": "2026-09-17",
+    "inferred": true
+  }
+}

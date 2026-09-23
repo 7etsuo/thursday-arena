@@ -1,0 +1,194 @@
+{
+  "code": "3e1fe8b142f3",
+  "matches": 562,
+  "results": {
+    "win": 452,
+    "loss": 71,
+    "draw": 39
+  },
+  "byOpponent": {
+    "fabianhtml": {
+      "win": 139,
+      "loss": 21,
+      "draw": 12,
+      "elo": 526
+    },
+    "ternquest_com": {
+      "win": 200,
+      "loss": 40,
+      "draw": 20,
+      "elo": 620
+    },
+    "syaor4n": {
+      "win": 17,
+      "loss": 1,
+      "draw": 1,
+      "elo": 13
+    },
+    "bhootsumant": {
+      "win": 7,
+      "loss": 0,
+      "draw": 1,
+      "elo": 5
+    },
+    "qilir4": {
+      "win": 10,
+      "loss": 0,
+      "draw": 0,
+      "elo": 28
+    },
+    "wenakita": {
+      "win": 0,
+      "loss": 1,
+      "draw": 0,
+      "elo": -30
+    },
+    "legacynical": {
+      "win": 2,
+      "loss": 0,
+      "draw": 0,
+      "elo": 5
+    },
+    "_solcat_": {
+      "win": 2,
+      "loss": 0,
+      "draw": 0,
+      "elo": 5
+    },
+    "gabriel_x86": {
+      "win": 23,
+      "loss": 1,
+      "draw": 1,
+      "elo": -4
+    },
+    "orsohere": {
+      "win": 7,
+      "loss": 1,
+      "draw": 0,
+      "elo": -15
+    },
+    "_tb_brewster": {
+      "win": 6,
+      "loss": 0,
+      "draw": 0,
+      "elo": 9
+    },
+    "jusrelax": {
+      "win": 8,
+      "loss": 3,
+      "draw": 3,
+      "elo": -115
+    },
+    "amanverma235979": {
+      "win": 4,
+      "loss": 0,
+      "draw": 1,
+      "elo": -9
+    },
+    "breezeeoo": {
+      "win": 5,
+      "loss": 0,
+      "draw": 0,
+      "elo": 7
+    },
+    "flamebearereno": {
+      "win": 6,
+      "loss": 1,
+      "draw": 0,
+      "elo": -24
+    },
+    "jomarhahaha": {
+      "win": 4,
+      "loss": 0,
+      "draw": 0,
+      "elo": 5
+    },
+    "arminsolecki": {
+      "win": 2,
+      "loss": 0,
+      "draw": 0,
+      "elo": 3
+    },
+    "ms0242808": {
+      "win": 2,
+      "loss": 0,
+      "draw": 0,
+      "elo": 2
+    },
+    "kanuma368": {
+      "win": 3,
+      "loss": 1,
+      "draw": 0,
+      "elo": -27
+    },
+    "eliancodex": {
+      "win": 1,
+      "loss": 0,
+      "draw": 0,
+      "elo": 1
+    },
+    "devtony": {
+      "win": 1,
+      "loss": 0,
+      "draw": 0,
+      "elo": 2
+    },
+    "gui_deferreira": {
+      "win": 1,
+      "loss": 0,
+      "draw": 0,
+      "elo": 1
+    },
+    "d_gribbin11": {
+      "win": 1,
+      "loss": 0,
+      "draw": 0,
+      "elo": 1
+    },
+    "diego_maylan": {
+      "win": 1,
+      "loss": 0,
+      "draw": 0,
+      "elo": 2
+    },
+    "diamondhanddie": {
+      "win": 0,
+      "loss": 1,
+      "draw": 0,
+      "elo": -30
+    }
+  },
+  "first": "2026-09-21T17:49:25.784Z",
+  "last": "2026-09-21T20:27:50.818Z",
+  "completeFullMatches": 562,
+  "battles": 1358,
+  "simWinners": 1358,
+  "simFrames": 1358,
+  "ourInputs": 1358,
+  "publicFrames": 1358,
+  "shops": 1359,
+  "sourceMismatches": [],
+  "legalityChecks": 7698,
+  "economyChecks": 7698,
+  "boardChecks": 6447,
+  "modelErrors": [],
+  "learning": {
+    "observations": 1358,
+    "source": {
+      "public_replay": 1358
+    },
+    "missingLearn": [],
+    "duplicateLearn": [],
+    "errors": [],
+    "lossMatches": 71,
+    "lossRounds": 164,
+    "finalReconstructedStats": {
+      "keys": 1451,
+      "boards": 2283,
+      "observations": 14652
+    },
+    "finalDiskBookProvided": false
+  },
+  "frameDifferences": [],
+  "emptySeats": []
+}

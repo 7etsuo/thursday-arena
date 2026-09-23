@@ -1,0 +1,67 @@
+{
+  "fp": "call follow ups | home robots",
+  "seats": [
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "meangoldfish"
+  ],
+  "matchups": {
+    "recipe-event-request-desk__cooper__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:47:37.922Z",
+      "lastResult": "win"
+    },
+    "recipe-figma-bro__x-brief__signal-prospector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:47:46.388Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__company-docs-q-a__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:47:54.119Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__webby__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:48:02.229Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:48:09.988Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__call-follow-ups",
+  "plays": 5,
+  "updated": "2026-09-18T23:48:09.988Z"
+}

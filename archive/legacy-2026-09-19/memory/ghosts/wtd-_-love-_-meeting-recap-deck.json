@@ -1,0 +1,74 @@
+{
+  "fp": "wtd | love | meeting recap deck",
+  "seats": [
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "arazjera"
+  ],
+  "matchups": {
+    "recipe-gtm-loop-closer__flora-plant-care-log__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:53:56.383Z",
+      "lastResult": "win"
+    },
+    "recipe-stills-clips-desk__event-request-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:54:04.706Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__pipeline-pulse__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:54:57.144Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__outbound-prospecting__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:55:04.417Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__apple-search-ads-review__deal-hunting": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:55:11.921Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nightly-audit-engineer__apple-search-ads-review__deal-hunting",
+  "plays": 5,
+  "updated": "2026-09-19T00:55:30.317Z"
+}

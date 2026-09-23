@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://thursdayarena.com/api/catalog",
+    "status": 200,
+    "len": 26261,
+    "head": "[{\"id\":\"_jOdbfkB16zxu7MRcmReE\",\"name\":\"dr eggbot\",\"author\":\"Lauren Tan\",\"kitId\":\"spotlight\",\"kitText\":\"Start of battle (front): deal 2 damage to the enemy front\",\"sourcePet\":\"Goose\",\"avatar\":\"/avatars/_jOdbfkB16zxu7MRcmReE.png\",\"unlockTurn\":3,\"rarity\":\"epic\",\"cost\":6,\"attack\":6,\"health\":5,\"abilityName\":\"Spotlight\",\"flavor\":\"Makes the other bots. Main character wants the front.\"},{\"id\":\"NIEguoGUjA648fUPle8F5\",\"name\":\"Overheard\",\"author\":\"Lenny Rachitsky\",\"kitId\":\"backtap\",\"kitText\":\"Start of battle: deal 1 damage to the last living enemy\",\"sourcePet\":\"Crocodile\",\"avatar\":\"/avatars/NIEguoGUjA648fUPle8F5.png\",\"unlockTurn\":2,\"rarity\":\"uncommon\",\"cost\":4,\"attack\":4,\"health\":4,\"abilityName\":\"Backtap\",\"flavor\":\"Third-party mentions land on the bot they hid in back.\"},{\"id\":\"wOE4e95HNxhSbrzyLkSI-\""
+  },
+  {
+    "url": "https://thursdayarena.com/api/public/v1/matches/778cd70a-9301-40f6-8b01-7ffd09695538",
+    "status": 200,
+    "len": 13562,
+    "head": "{\"id\":\"778cd70a-9301-40f6-8b01-7ffd09695538\",\"played_at\":\"2026-09-18T02:09:00.235914Z\",\"season\":\"Season 1\",\"player\":{\"x_handle\":\"tetsuoai\"},\"opponent\":{\"kind\":\"ghost\",\"x_handle\":\"itsryanlenk\"},\"result\":\"win\",\"rated\":true,\"elo_delta\":14,\"rounds\":[{\"round\":0,\"you\":[{\"uid\":1,\"botId\":\"1xAJYJPes3X7dUM2mk9Di\",\"atk\":2,\"hp\":6,\"tempAtk\":0,\"honey\":false},{\"uid\":2,\"botId\":\"dGYdqS9vLSXpxoNCPBHys\",\"atk\":2,\"hp\":6,\"tempAtk\":0,\"honey\":false},{\"uid\":3,\"botId\":\"cht7ytAhe3euOQy2wnEg9\",\"atk\":2,\"hp\":6,\"tempAtk\":0,\"honey\":false}],\"them\":[{\"uid\":2,\"botId\":\"estQ8HWdKqhheDNmOGjcy\",\"atk\":3,\"hp\":4,\"tempAtk\":0,\"honey\":false},{\"uid\":1,\"botId\":\"dGYdqS9vLSXpxoNCPBHys\",\"atk\":2,\"hp\":6,\"tempAtk\":0,\"honey\":false},{\"uid\":3,\"botId\":\"aUF_wTHXGWKU3-QPm6PmN\",\"atk\":2,\"hp\":5,\"tempAtk\":0,\"honey\":false}],\"frames\":[{\"you\":[{\"name\":\"T"
+  },
+  {
+    "url": "https://thursdayarena.com/api/activity",
+    "status": 200,
+    "len": 999,
+    "head": "{\"events\":[{\"key\":\"h:jeremymlucy\",\"handle\":\"jeremymlucy\",\"activity\":\"shopping\",\"agoSeconds\":0},{\"key\":\"h:lucataco\",\"handle\":\"lucataco\",\"activity\":\"shopping\",\"agoSeconds\":0},{\"key\":\"h:prshannon_\",\"handle\":\"prshannon_\",\"activity\":\"shopping\",\"agoSeconds\":0},{\"key\":\"h:ryanmcadams\",\"handle\":\"ryanmcadams\",\"activity\":\"shopping\",\"agoSeconds\":0},{\"key\":\"h:yujules44768\",\"handle\":\"yujules44768\",\"activity\":\"shopping\",\"agoSeconds\":0},{\"key\":\"h:cmoyyds\",\"handle\":\"cmoyyds\",\"activity\":\"shopping\",\"agoSeconds\":1},{\"key\":\"h:puppythick16\",\"handle\":\"puppythick16\",\"activity\":\"battling\",\"agoSeconds\":1},{\"key\":\"h:wolfe_jam\",\"handle\":\"wolfe_jam\",\"activity\":\"battling\",\"agoSeconds\":1},{\"key\":\"h:aa_andtec\",\"handle\":\"aa_andtec\",\"activity\":\"shopping\",\"agoSeconds\":2},{\"key\":\"h:ggleandro\",\"handle\":\"ggleandro\",\"activity\":"
+  },
+  {
+    "url": "https://thursdayarena.com/api/me",
+    "status": 200,
+    "len": 355,
+    "head": "{\"xHandle\":\"tetsuoai\",\"avatarUrl\":\"https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL3Bicy50d2ltZy5jb20vcHJvZmlsZV9pbWFnZXMvMjAzNTI4OTU3MDU5ODkyNDI4OC9rQU9DeUtwVl9ub3JtYWwuanBnIiwicyI6InBRRnZYQzlMcHNTRTRuV0lScE1XS2N3QytvWk9XdVFvdE1PbWhycDIvSEUifQ\",\"season\":{\"seasonId\":\"4463229c-28ed-4ba8-9893-2c20b8504670\",\"name\":\"Season 1\",\"rating\":1061}}\n"
+  }
+]

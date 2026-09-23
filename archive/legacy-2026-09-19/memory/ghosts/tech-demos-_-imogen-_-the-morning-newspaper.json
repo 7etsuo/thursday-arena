@@ -1,0 +1,66 @@
+{
+  "fp": "tech demos | imogen | the morning newspaper",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "supbrice"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__event-request-desk__projects-manager": {
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "elo": 48,
+      "last": "2026-09-19T05:43:35.888Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 4,
+      "losses": 0,
+      "draws": 0,
+      "elo": 64,
+      "last": "2026-09-19T05:56:04.974Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__wtd__imogen": {
+      "wins": 6,
+      "losses": 3,
+      "draws": 0,
+      "elo": 48,
+      "last": "2026-09-19T05:45:31.612Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "elo": 48,
+      "last": "2026-09-19T05:58:40.015Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 19,
+  "updated": "2026-09-19T05:58:40.015Z"
+}

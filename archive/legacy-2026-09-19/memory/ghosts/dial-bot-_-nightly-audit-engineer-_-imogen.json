@@ -1,0 +1,66 @@
+{
+  "fp": "dial bot | nightly audit engineer | imogen",
+  "seats": [
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "haraldandertun"
+  ],
+  "matchups": {
+    "recipe-outbound-prospecting__outbound-prospecting__event-request-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T02:53:34.533Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__copy-humanizer__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:53:56.573Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__product-support-inbox-assistant__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:54:14.719Z",
+      "lastResult": "win"
+    },
+    "recipe-projects-manager__wtd__sales-call-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:54:24.339Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-projects-manager__wtd__sales-call-coach",
+  "plays": 4,
+  "updated": "2026-09-19T02:55:05.114Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-nyc-parent__tradbot__outbound-prospecting",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "tradbot",
+      "kit": "guard",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "guard",
+    "mosquito"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 5,
+  "last": "2026-09-19T01:35:10.109Z"
+}

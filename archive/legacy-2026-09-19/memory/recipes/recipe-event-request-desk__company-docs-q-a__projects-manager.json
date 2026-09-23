@@ -1,0 +1,38 @@
+{
+  "id": "recipe-event-request-desk__company-docs-q-a__projects-manager",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "event request desk",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "projects manager",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "sidestep",
+    "guard",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -17,
+  "last": "2026-09-19T05:33:44.593Z"
+}

@@ -1,0 +1,177 @@
+{
+  "source": "https://thursdayarena.com/api/arena/practice",
+  "date": "2026-09-20 America/Edmonton",
+  "runs": [
+    {
+      "seed": 12345,
+      "summary": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 55,
+        "rounds": 6,
+        "dropped": 0,
+        "aiMatches": 3,
+        "exitReason": "matches_done",
+        "prevHandle": null
+      },
+      "checks": 35,
+      "rateLimits": 0,
+      "results": [
+        {
+          "wins": {
+            "you": 2,
+            "them": 0
+          },
+          "rounds": [
+            "you",
+            "you"
+          ]
+        },
+        {
+          "wins": {
+            "you": 2,
+            "them": 0
+          },
+          "rounds": [
+            "you",
+            "you"
+          ]
+        },
+        {
+          "wins": {
+            "you": 2,
+            "them": 0
+          },
+          "rounds": [
+            "you",
+            "you"
+          ]
+        }
+      ],
+      "stage": "during battle review",
+      "battlesReplayed": 6,
+      "battleFramesExact": 6
+    },
+    {
+      "seed": 20260920,
+      "summary": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 100,
+        "rounds": 11,
+        "dropped": 0,
+        "aiMatches": 5,
+        "exitReason": "matches_done",
+        "prevHandle": null
+      },
+      "checks": 59,
+      "rateLimits": 0,
+      "results": [
+        {
+          "wins": {
+            "you": 2,
+            "them": 0
+          },
+          "rounds": [
+            "you",
+            "you"
+          ]
+        },
+        {
+          "wins": {
+            "you": 1,
+            "them": 2
+          },
+          "rounds": [
+            "them",
+            "you",
+            "them"
+          ]
+        },
+        {
+          "wins": {
+            "you": 2,
+            "them": 0
+          },
+          "rounds": [
+            "you",
+            "you"
+          ]
+        },
+        {
+          "wins": {
+            "you": 2,
+            "them": 0
+          },
+          "rounds": [
+            "you",
+            "you"
+          ]
+        },
+        {
+          "wins": {
+            "you": 2,
+            "them": 0
+          },
+          "rounds": [
+            "you",
+            "you"
+          ]
+        }
+      ],
+      "stage": "during battle review",
+      "battlesReplayed": 11,
+      "battleFramesExact": 11
+    },
+    {
+      "seed": 20260921,
+      "summary": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 36,
+        "rounds": 4,
+        "dropped": 0,
+        "aiMatches": 2,
+        "exitReason": "matches_done",
+        "prevHandle": null
+      },
+      "checks": 21,
+      "rateLimits": 0,
+      "results": [
+        {
+          "wins": {
+            "you": 2,
+            "them": 0
+          },
+          "rounds": [
+            "you",
+            "you"
+          ]
+        },
+        {
+          "wins": {
+            "you": 2,
+            "them": 0
+          },
+          "rounds": [
+            "you",
+            "you"
+          ]
+        }
+      ],
+      "stage": "after final runtime fixes",
+      "battlesReplayed": 4,
+      "battleFramesExact": 4
+    }
+  ],
+  "note": "The first eight matches ran during review; the final two used the final runtime fixes. All saved fights replay frame-for-frame under the final simulator with complete server inputs. Practice results do not establish rated or paired policy improvement."
+}

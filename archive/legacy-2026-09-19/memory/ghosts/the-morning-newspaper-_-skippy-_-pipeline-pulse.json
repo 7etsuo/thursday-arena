@@ -1,0 +1,74 @@
+{
+  "fp": "the morning newspaper | skippy | pipeline pulse",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "arc4niac"
+  ],
+  "matchups": {
+    "recipe-love__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-19T04:31:24.223Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__site-audit__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-19T04:31:30.976Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__tradbot__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-19T04:31:48.636Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__cooper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-19T04:32:18.946Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-19T04:32:28.300Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__tradbot__cooper",
+  "plays": 5,
+  "updated": "2026-09-19T04:32:53.141Z"
+}

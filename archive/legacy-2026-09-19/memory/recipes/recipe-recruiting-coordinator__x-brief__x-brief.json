@@ -1,0 +1,38 @@
+{
+  "id": "recipe-recruiting-coordinator__x-brief__x-brief",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "dodo",
+    "echo",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-19T02:23:30.769Z"
+}

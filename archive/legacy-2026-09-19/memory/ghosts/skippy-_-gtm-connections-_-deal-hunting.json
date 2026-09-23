@@ -1,0 +1,66 @@
+{
+  "fp": "skippy | gtm connections | deal hunting",
+  "seats": [
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "glittergates"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__webby__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:42:05.870Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__video-edit-desk__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:42:39.574Z",
+      "lastResult": "win"
+    },
+    "recipe-deal-inspector__x-brief__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:42:52.242Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__gtm-loop-closer__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:43:06.023Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-flora-plant-care-log__gtm-loop-closer__wtd",
+  "plays": 4,
+  "updated": "2026-09-19T00:43:06.023Z"
+}

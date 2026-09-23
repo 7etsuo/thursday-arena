@@ -1,0 +1,187 @@
+{
+  "fp": "gtm prospecting | haggle bot | recruiting coordinator",
+  "seats": [
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "modernlifeislov",
+    "nickbarton"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__company-docs-q-a__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T22:08:14.782Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__company-docs-q-a__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:08:24.227Z",
+      "lastResult": "win"
+    },
+    "recipe-stills-clips-desk__call-follow-ups__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:08:31.015Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__projects-manager__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:08:39.613Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__hiring-signals__stills-clips-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:08:45.807Z",
+      "lastResult": "win"
+    },
+    "recipe-product-support-inbox-assistant__company-docs-q-a__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:09:04.634Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__x-brief__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:09:12.308Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__webby__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:09:20.701Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__nyc-parent__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:09:27.955Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__call-follow-ups__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:48:12.683Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__webby__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:48:21.286Z",
+      "lastResult": "win"
+    },
+    "recipe-x-brief__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T01:48:29.600Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__gtm-loop-closer__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:48:37.688Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__webby__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:49:01.885Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__signal-prospector__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:49:18.918Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__pipeline-pulse__event-request-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:49:27.065Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__company-docs-q-a__flora-plant-care-log": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:49:34.409Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__event-request-desk__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:49:51.979Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__video-edit-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:50:10.752Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__the-morning-newspaper__video-edit-desk",
+  "plays": 19,
+  "updated": "2026-09-19T01:50:10.752Z"
+}

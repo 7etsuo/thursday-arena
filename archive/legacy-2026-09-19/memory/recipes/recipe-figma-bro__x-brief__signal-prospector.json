@@ -1,0 +1,38 @@
+{
+  "id": "recipe-figma-bro__x-brief__signal-prospector",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "figma bro",
+      "kit": "wake",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "wake",
+    "echo",
+    "mosquito"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-18T23:47:46.387Z"
+}

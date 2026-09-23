@@ -1,0 +1,39 @@
+{
+  "id": "recipe-imogen__cooper__gtm-loop-closer",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "cooper",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "echo",
+    "cover"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 3,
+  "wins": 2,
+  "losses": 1,
+  "elo": -2,
+  "last": "2026-09-19T07:22:01.400Z"
+}

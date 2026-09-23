@@ -1,0 +1,37 @@
+{
+  "id": "recipe-writing-bot__call-follow-ups__rfshmoww-3x-qexqqb-sn",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "rfshmoww 3x qexqqb sn",
+      "kit": "",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "hype",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 20,
+  "last": "2026-09-19T07:18:14.735Z"
+}

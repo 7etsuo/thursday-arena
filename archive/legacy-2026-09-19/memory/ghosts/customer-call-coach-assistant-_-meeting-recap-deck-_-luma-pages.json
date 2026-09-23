@@ -1,0 +1,74 @@
+{
+  "fp": "customer call coach assistant | meeting recap deck | luma pages",
+  "seats": [
+    {
+      "name": "customer call coach assistant",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "riskadjustedme"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__copy-humanizer__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:19:47.512Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__stills-clips-desk__tradbot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -9,
+      "last": "2026-09-18T12:20:00.164Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__pipeline-pulse__product-support-inbox-assistant": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T12:20:09.370Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__wtd__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:20:22.689Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__luma-pages__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:20:47.689Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__wtd__writing-bot",
+  "plays": 5,
+  "updated": "2026-09-18T12:20:47.689Z"
+}

@@ -1,0 +1,1248 @@
+{
+  "state": {
+    "round": 2,
+    "gold": 10,
+    "board": [
+      {
+        "uid": 1,
+        "name": "Blunt",
+        "kitId": "the_memo",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "honey": false,
+        "potato": false,
+        "cost": 3,
+        "rarity": "common",
+        "crew": "marketing",
+        "item": "muteButton"
+      },
+      {
+        "uid": 2,
+        "name": "GTM Prospecting",
+        "kitId": "mosquito",
+        "atk": 4,
+        "hp": 3,
+        "tempAtk": 0,
+        "honey": false,
+        "potato": false,
+        "cost": 3,
+        "rarity": "common",
+        "crew": "sales",
+        "item": "spareParts"
+      },
+      {
+        "uid": 3,
+        "name": "Stills & Clips Desk",
+        "kitId": "wake",
+        "atk": 2,
+        "hp": 5,
+        "tempAtk": 0,
+        "honey": true,
+        "potato": false,
+        "cost": 3,
+        "rarity": "common",
+        "crew": "marketing",
+        "item": null
+      }
+    ],
+    "offers": [
+      {
+        "shopIndex": 0,
+        "name": "Kody",
+        "kitId": "game_plan",
+        "atk": 2,
+        "hp": 9,
+        "cost": 6,
+        "rarity": "epic",
+        "frozen": false,
+        "crew": "ops"
+      },
+      {
+        "shopIndex": 1,
+        "name": "Online Identity Bot",
+        "kitId": "wide_search",
+        "atk": 4,
+        "hp": 3,
+        "cost": 3,
+        "rarity": "common",
+        "frozen": false,
+        "crew": "marketing"
+      },
+      {
+        "shopIndex": 2,
+        "name": "skippy",
+        "kitId": "sidestep",
+        "atk": 2,
+        "hp": 4,
+        "cost": 3,
+        "rarity": "common",
+        "frozen": false,
+        "crew": "personal"
+      }
+    ],
+    "frozen": [
+      false,
+      false,
+      false
+    ],
+    "food": "honey",
+    "series": {
+      "you": 1,
+      "them": 1
+    },
+    "seats": {
+      "front": "hot_seat",
+      "middle": "encore",
+      "back": "spotlight"
+    },
+    "season": 3,
+    "captain": "scout",
+    "rivalCaptain": "drill",
+    "captainOffer": null,
+    "carry": 0,
+    "freeRerolls": 1,
+    "shopCosts": {
+      "reroll": 0,
+      "food": 3
+    },
+    "itemOffer": {
+      "item": "rallyFlag",
+      "cost": 4,
+      "rarity": "rare"
+    },
+    "rerolls": 0,
+    "pendingBuff": null,
+    "nextUid": 4
+  },
+  "target": {
+    "entries": [
+      {
+        "board": [
+          {
+            "name": "Speed Lab",
+            "kitId": "first_paint",
+            "atk": 2,
+            "hp": 5,
+            "honey": false,
+            "crew": "builders",
+            "item": "firewall"
+          },
+          {
+            "name": "Call Follow-Ups",
+            "kitId": "echo",
+            "atk": 3,
+            "hp": 4,
+            "honey": false,
+            "crew": "builders"
+          },
+          {
+            "name": "Mother Ship",
+            "kitId": "mission_control",
+            "atk": 1,
+            "hp": 5,
+            "honey": false,
+            "crew": "builders"
+          }
+        ],
+        "weight": 0.7500000000000002,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "book",
+        "theirCaptain": "drill"
+      },
+      {
+        "board": [
+          {
+            "name": "Cue",
+            "kitId": "standby",
+            "atk": 4,
+            "hp": 7,
+            "honey": false,
+            "crew": "ops",
+            "item": "echoChip"
+          },
+          {
+            "name": "Vigil",
+            "kitId": "defuse",
+            "atk": 2,
+            "hp": 6,
+            "honey": false,
+            "crew": "ops"
+          },
+          {
+            "name": "Product Builder CoS",
+            "kitId": "checklist",
+            "atk": 3,
+            "hp": 4,
+            "honey": false,
+            "crew": "ops",
+            "item": "megaphone"
+          }
+        ],
+        "weight": 0.03819444444444446,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "scout"
+      },
+      {
+        "board": [
+          {
+            "name": "Farm",
+            "kitId": "sandbox",
+            "atk": 5,
+            "hp": 6,
+            "honey": false,
+            "crew": "builders"
+          },
+          {
+            "name": "Interview Prep",
+            "kitId": "next_question",
+            "atk": 1,
+            "hp": 5,
+            "honey": false,
+            "crew": "builders"
+          },
+          {
+            "name": "Maya",
+            "kitId": "on_hold",
+            "atk": 3,
+            "hp": 5,
+            "honey": false,
+            "crew": "personal"
+          }
+        ],
+        "weight": 0.03472222222222224,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "drill"
+      },
+      {
+        "board": [
+          {
+            "name": "Maya",
+            "kitId": "on_hold",
+            "atk": 3,
+            "hp": 5,
+            "honey": true,
+            "crew": "personal"
+          },
+          {
+            "name": "AI VP Bot",
+            "kitId": "command",
+            "atk": 3,
+            "hp": 5,
+            "honey": false,
+            "crew": "ops"
+          },
+          {
+            "name": "WP Update Guard",
+            "kitId": "rollback",
+            "atk": 3,
+            "hp": 3,
+            "honey": true,
+            "crew": "ops"
+          }
+        ],
+        "weight": 0.02083333333333334,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "medic"
+      },
+      {
+        "board": [
+          {
+            "name": "Copy Humanizer",
+            "kitId": "flamingo",
+            "atk": 2,
+            "hp": 5,
+            "honey": false,
+            "crew": "marketing",
+            "item": "rallyFlag"
+          },
+          {
+            "name": "Copy Humanizer",
+            "kitId": "flamingo",
+            "atk": 2,
+            "hp": 5,
+            "honey": false,
+            "crew": "marketing"
+          },
+          {
+            "name": "AI influencer carousels",
+            "kitId": "swipe",
+            "atk": 4,
+            "hp": 6,
+            "honey": false,
+            "crew": "marketing",
+            "item": "backupDrive"
+          }
+        ],
+        "weight": 0.01736111111111112,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "chef"
+      },
+      {
+        "board": [
+          {
+            "name": "Grimoire",
+            "kitId": "hex",
+            "atk": 3,
+            "hp": 5,
+            "honey": false,
+            "crew": "builders",
+            "item": "bubbleWrap"
+          },
+          {
+            "name": "Video Edit Desk",
+            "kitId": "wake",
+            "atk": 3,
+            "hp": 4,
+            "honey": false,
+            "crew": "builders",
+            "item": "bubbleWrap"
+          },
+          {
+            "name": "Interview Prep",
+            "kitId": "next_question",
+            "atk": 1,
+            "hp": 5,
+            "honey": true,
+            "crew": "builders"
+          }
+        ],
+        "weight": 0.01736111111111112,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "drill"
+      },
+      {
+        "board": [
+          {
+            "name": "Copy Humanizer",
+            "kitId": "flamingo",
+            "atk": 3,
+            "hp": 6,
+            "honey": false,
+            "crew": "marketing",
+            "item": "megaphone"
+          },
+          {
+            "name": "Clip Bot",
+            "kitId": "wake",
+            "atk": 3,
+            "hp": 3,
+            "honey": true,
+            "crew": "marketing"
+          },
+          {
+            "name": "SEO & AEO Desk",
+            "kitId": "pin",
+            "atk": 2,
+            "hp": 5,
+            "honey": false,
+            "crew": "marketing",
+            "item": "echoChip"
+          }
+        ],
+        "weight": 0.013888888888888893,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "drill"
+      },
+      {
+        "board": [
+          {
+            "name": "Deal Inspector",
+            "kitId": "cover",
+            "atk": 4,
+            "hp": 4,
+            "honey": true,
+            "crew": "sales"
+          },
+          {
+            "name": "Mr. Laser",
+            "kitId": "engrave",
+            "atk": 4,
+            "hp": 3,
+            "honey": false,
+            "crew": "sales"
+          },
+          {
+            "name": "Announcr Voice",
+            "kitId": "shout_out",
+            "atk": 2,
+            "hp": 5,
+            "honey": false,
+            "crew": "personal"
+          }
+        ],
+        "weight": 0.01041666666666667,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "drill"
+      },
+      {
+        "board": [
+          {
+            "name": "Webby",
+            "kitId": "bulk",
+            "atk": 3,
+            "hp": 5,
+            "honey": false,
+            "crew": "personal",
+            "item": "backupDrive"
+          },
+          {
+            "name": "Writing Bot",
+            "kitId": "hype",
+            "atk": 2,
+            "hp": 5,
+            "honey": true,
+            "crew": "ops"
+          },
+          {
+            "name": "Lease Finder",
+            "kitId": "lowball",
+            "atk": 1,
+            "hp": 5,
+            "honey": false,
+            "crew": "sales",
+            "item": "spareParts"
+          }
+        ],
+        "weight": 0.01041666666666667,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "drill"
+      },
+      {
+        "board": [
+          {
+            "name": "Speed Lab",
+            "kitId": "first_paint",
+            "atk": 4,
+            "hp": 5,
+            "honey": false,
+            "crew": "builders",
+            "item": "muteButton"
+          },
+          {
+            "name": "Grip",
+            "kitId": "clamp",
+            "atk": 2,
+            "hp": 3,
+            "honey": true,
+            "crew": "builders"
+          },
+          {
+            "name": "Critiquito: Design Critique",
+            "kitId": "sting",
+            "atk": 3,
+            "hp": 5,
+            "honey": true,
+            "crew": "builders",
+            "item": "hotfix"
+          }
+        ],
+        "weight": 0.006944444444444447,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "drill"
+      },
+      {
+        "board": [
+          {
+            "name": "Online Identity Bot",
+            "kitId": "wide_search",
+            "atk": 4,
+            "hp": 3,
+            "honey": true,
+            "crew": "marketing",
+            "item": "bubbleWrap"
+          },
+          {
+            "name": "Writing Bot",
+            "kitId": "hype",
+            "atk": 2,
+            "hp": 5,
+            "honey": false,
+            "crew": "ops",
+            "item": "laserPointer"
+          },
+          {
+            "name": "Luma Pages",
+            "kitId": "hype",
+            "atk": 3,
+            "hp": 5,
+            "honey": true,
+            "crew": "ops"
+          }
+        ],
+        "weight": 0.006944444444444447,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "chef"
+      },
+      {
+        "board": [
+          {
+            "name": "The Morning Newspaper",
+            "kitId": "flamingo",
+            "atk": 2,
+            "hp": 6,
+            "honey": false,
+            "crew": "personal",
+            "item": "glitterBomb"
+          },
+          {
+            "name": "Shepherd",
+            "kitId": "herd",
+            "atk": 4,
+            "hp": 6,
+            "honey": false,
+            "crew": "marketing"
+          },
+          {
+            "name": "Interview Prep",
+            "kitId": "next_question",
+            "atk": 1,
+            "hp": 5,
+            "honey": false,
+            "crew": "builders",
+            "item": "muteButton"
+          }
+        ],
+        "weight": 0.006944444444444447,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "medic"
+      },
+      {
+        "board": [
+          {
+            "name": "Librarian",
+            "kitId": "book_loan",
+            "atk": 3,
+            "hp": 5,
+            "honey": true,
+            "crew": "personal"
+          },
+          {
+            "name": "Webby",
+            "kitId": "bulk",
+            "atk": 4,
+            "hp": 6,
+            "honey": false,
+            "crew": "personal",
+            "item": "stapler"
+          },
+          {
+            "name": "Flora: Plant Care Log",
+            "kitId": "patch",
+            "atk": 2,
+            "hp": 6,
+            "honey": false,
+            "crew": "personal"
+          }
+        ],
+        "weight": 0.006944444444444447,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "banker"
+      },
+      {
+        "board": [
+          {
+            "name": "Speed Lab",
+            "kitId": "first_paint",
+            "atk": 4,
+            "hp": 5,
+            "honey": false,
+            "crew": "builders",
+            "item": "muteButton"
+          },
+          {
+            "name": "Grip",
+            "kitId": "clamp",
+            "atk": 2,
+            "hp": 3,
+            "honey": true,
+            "crew": "builders"
+          },
+          {
+            "name": "Critiquito: Design Critique",
+            "kitId": "sting",
+            "atk": 3,
+            "hp": 5,
+            "honey": true,
+            "crew": "builders",
+            "item": "hotfix"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "medic"
+      },
+      {
+        "board": [
+          {
+            "name": "Cue",
+            "kitId": "standby",
+            "atk": 2,
+            "hp": 5,
+            "honey": false,
+            "crew": "ops"
+          },
+          {
+            "name": "Research Bot",
+            "kitId": "no_source",
+            "atk": 5,
+            "hp": 9,
+            "honey": false,
+            "crew": "ops"
+          },
+          {
+            "name": "Tradbot",
+            "kitId": "guard",
+            "atk": 3,
+            "hp": 6,
+            "honey": false,
+            "crew": "ops",
+            "item": "muteButton"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "drill"
+      },
+      {
+        "board": [
+          {
+            "name": "Lease Finder",
+            "kitId": "lowball",
+            "atk": 6,
+            "hp": 8,
+            "honey": false,
+            "crew": "sales"
+          },
+          {
+            "name": "Meeting Recap Deck",
+            "kitId": "echo",
+            "atk": 3,
+            "hp": 4,
+            "honey": false,
+            "crew": "sales"
+          },
+          {
+            "name": "Steal This Business",
+            "kitId": "copycat",
+            "atk": 1,
+            "hp": 5,
+            "honey": false,
+            "crew": "sales"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "medic"
+      },
+      {
+        "board": [
+          {
+            "name": "Blunt",
+            "kitId": "the_memo",
+            "atk": 3,
+            "hp": 4,
+            "honey": true,
+            "crew": "marketing"
+          },
+          {
+            "name": "WTD",
+            "kitId": "hype",
+            "atk": 3,
+            "hp": 4,
+            "honey": false,
+            "crew": "marketing",
+            "item": "hotfix"
+          },
+          {
+            "name": "Online Identity Bot",
+            "kitId": "wide_search",
+            "atk": 4,
+            "hp": 3,
+            "honey": false,
+            "crew": "marketing",
+            "item": "hotfix"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "recruiter"
+      },
+      {
+        "board": [
+          {
+            "name": "Forge",
+            "kitId": "hammer",
+            "atk": 6,
+            "hp": 5,
+            "honey": false,
+            "crew": "builders",
+            "item": "backupDrive"
+          },
+          {
+            "name": "Product Builder CoS",
+            "kitId": "checklist",
+            "atk": 3,
+            "hp": 4,
+            "honey": false,
+            "crew": "ops"
+          },
+          {
+            "name": "X High Coach",
+            "kitId": "reach_check",
+            "atk": 2,
+            "hp": 4,
+            "honey": false,
+            "crew": "builders"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "banker"
+      },
+      {
+        "board": [
+          {
+            "name": "Lease Finder",
+            "kitId": "lowball",
+            "atk": 6,
+            "hp": 8,
+            "honey": false,
+            "crew": "sales"
+          },
+          {
+            "name": "Meeting Recap Deck",
+            "kitId": "echo",
+            "atk": 3,
+            "hp": 4,
+            "honey": false,
+            "crew": "sales"
+          },
+          {
+            "name": "Steal This Business",
+            "kitId": "copycat",
+            "atk": 1,
+            "hp": 5,
+            "honey": false,
+            "crew": "sales"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "recruiter"
+      },
+      {
+        "board": [
+          {
+            "name": "Vigil",
+            "kitId": "defuse",
+            "atk": 3,
+            "hp": 7,
+            "honey": false,
+            "crew": "ops",
+            "item": "echoChip"
+          },
+          {
+            "name": "X High Coach",
+            "kitId": "reach_check",
+            "atk": 2,
+            "hp": 4,
+            "honey": true,
+            "crew": "builders"
+          },
+          {
+            "name": "Imogen",
+            "kitId": "bulk",
+            "atk": 2,
+            "hp": 6,
+            "honey": false,
+            "crew": "builders",
+            "item": "laserPointer"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "drill"
+      },
+      {
+        "board": [
+          {
+            "name": "SaaSbot",
+            "kitId": "outbound",
+            "atk": 3,
+            "hp": 4,
+            "honey": false,
+            "crew": "sales",
+            "item": "firewall"
+          },
+          {
+            "name": "WTD",
+            "kitId": "hype",
+            "atk": 3,
+            "hp": 4,
+            "honey": false,
+            "crew": "marketing",
+            "item": "echoChip"
+          },
+          {
+            "name": "Renewals Invoice Bot",
+            "kitId": "renew",
+            "atk": 1,
+            "hp": 5,
+            "honey": true,
+            "crew": "sales",
+            "item": "coldBrew"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "drill"
+      },
+      {
+        "board": [
+          {
+            "name": "Lease Finder",
+            "kitId": "lowball",
+            "atk": 6,
+            "hp": 8,
+            "honey": false,
+            "crew": "sales"
+          },
+          {
+            "name": "Meeting Recap Deck",
+            "kitId": "echo",
+            "atk": 3,
+            "hp": 4,
+            "honey": false,
+            "crew": "sales"
+          },
+          {
+            "name": "Steal This Business",
+            "kitId": "copycat",
+            "atk": 1,
+            "hp": 5,
+            "honey": false,
+            "crew": "sales"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "scout"
+      },
+      {
+        "board": [
+          {
+            "name": "Farm",
+            "kitId": "sandbox",
+            "atk": 2,
+            "hp": 5,
+            "honey": false,
+            "crew": "builders"
+          },
+          {
+            "name": "Interview Prep",
+            "kitId": "next_question",
+            "atk": 3,
+            "hp": 5,
+            "honey": false,
+            "crew": "builders",
+            "item": "echoChip"
+          },
+          {
+            "name": "lgtm the pr closer",
+            "kitId": "close_it",
+            "atk": 5,
+            "hp": 5,
+            "honey": false,
+            "crew": "builders"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "medic"
+      },
+      {
+        "board": [
+          {
+            "name": "The Accountant",
+            "kitId": "tighten",
+            "atk": 3,
+            "hp": 5,
+            "honey": false,
+            "crew": "ops"
+          },
+          {
+            "name": "Wainwright Manager",
+            "kitId": "onboard",
+            "atk": 5,
+            "hp": 4,
+            "honey": false,
+            "crew": "ops"
+          },
+          {
+            "name": "Luma Pages",
+            "kitId": "hype",
+            "atk": 2,
+            "hp": 4,
+            "honey": false,
+            "crew": "ops"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "recruiter"
+      },
+      {
+        "board": [
+          {
+            "name": "X Brief",
+            "kitId": "echo",
+            "atk": 2,
+            "hp": 4,
+            "honey": false,
+            "crew": "marketing"
+          },
+          {
+            "name": "Linky",
+            "kitId": "share_link",
+            "atk": 5,
+            "hp": 4,
+            "honey": false,
+            "crew": "builders"
+          },
+          {
+            "name": "Competitor Watch",
+            "kitId": "pin",
+            "atk": 4,
+            "hp": 6,
+            "honey": false,
+            "crew": "builders"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "scout"
+      },
+      {
+        "board": [
+          {
+            "name": "Lease Finder",
+            "kitId": "lowball",
+            "atk": 3,
+            "hp": 7,
+            "honey": true,
+            "crew": "sales",
+            "item": "hotfix"
+          },
+          {
+            "name": "Hiring Signals",
+            "kitId": "backtap",
+            "atk": 4,
+            "hp": 2,
+            "honey": false,
+            "crew": "sales",
+            "item": "rallyFlag"
+          },
+          {
+            "name": "Meeting Recap Deck",
+            "kitId": "echo",
+            "atk": 3,
+            "hp": 4,
+            "honey": false,
+            "crew": "sales",
+            "item": "muteButton"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "scout"
+      },
+      {
+        "board": [
+          {
+            "name": "Grip",
+            "kitId": "clamp",
+            "atk": 3,
+            "hp": 4,
+            "honey": false,
+            "crew": "builders"
+          },
+          {
+            "name": "LearnBot",
+            "kitId": "study_up",
+            "atk": 3,
+            "hp": 5,
+            "honey": false,
+            "crew": "builders"
+          },
+          {
+            "name": "Game Art Director",
+            "kitId": "spotlight",
+            "atk": 5,
+            "hp": 4,
+            "honey": false,
+            "crew": "builders"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "scout"
+      },
+      {
+        "board": [
+          {
+            "name": "Ad Spend Watch",
+            "kitId": "sting",
+            "atk": 4,
+            "hp": 4,
+            "honey": true,
+            "crew": "marketing"
+          },
+          {
+            "name": "Site Audit",
+            "kitId": "pin",
+            "atk": 3,
+            "hp": 3,
+            "honey": false,
+            "crew": "marketing",
+            "item": "hotfix"
+          },
+          {
+            "name": "AI Search Visibility",
+            "kitId": "pin",
+            "atk": 3,
+            "hp": 5,
+            "honey": false,
+            "crew": "marketing",
+            "item": "energyDrink"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "recruiter"
+      },
+      {
+        "board": [
+          {
+            "name": "Copy Humanizer",
+            "kitId": "flamingo",
+            "atk": 2,
+            "hp": 5,
+            "honey": false,
+            "crew": "marketing",
+            "item": "laserPointer"
+          },
+          {
+            "name": "WTD",
+            "kitId": "hype",
+            "atk": 4,
+            "hp": 5,
+            "honey": false,
+            "crew": "marketing",
+            "item": "teamBadge"
+          },
+          {
+            "name": "X Scout",
+            "kitId": "best_find",
+            "atk": 3,
+            "hp": 5,
+            "honey": true,
+            "crew": "marketing"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "recruiter"
+      },
+      {
+        "board": [
+          {
+            "name": "Boost",
+            "kitId": "pep_talk",
+            "atk": 2,
+            "hp": 5,
+            "honey": false,
+            "crew": "ops",
+            "item": "spareParts"
+          },
+          {
+            "name": "WTD",
+            "kitId": "hype",
+            "atk": 4,
+            "hp": 5,
+            "honey": false,
+            "crew": "marketing",
+            "item": "megaphone"
+          },
+          {
+            "name": "Credit Card Max",
+            "kitId": "grow",
+            "atk": 3,
+            "hp": 4,
+            "honey": true,
+            "crew": "personal"
+          }
+        ],
+        "weight": 0.0034722222222222233,
+        "seats": {
+          "front": "hot_seat",
+          "middle": "encore",
+          "back": "spotlight"
+        },
+        "source": "pool",
+        "theirCaptain": "recruiter"
+      }
+    ],
+    "sources": {
+      "bookN": 3,
+      "poolN": 29,
+      "bookWeight": 0.75
+    },
+    "note": "r2 book=3@0.75 pool=29@0.25 latest"
+  },
+  "matchId": "9151e36d-06e8-4803-9644-d0aab657de5d"
+}

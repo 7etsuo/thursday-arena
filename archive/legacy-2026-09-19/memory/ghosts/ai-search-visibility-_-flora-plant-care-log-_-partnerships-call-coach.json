@@ -1,0 +1,58 @@
+{
+  "fp": "ai search visibility | flora plant care log | partnerships call coach",
+  "seats": [
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "misha_erm"
+  ],
+  "matchups": {
+    "recipe-product-idea-stress-test__wtd__account-research-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -30,
+      "last": "2026-09-18T22:24:50.708Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__copy-humanizer__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T22:25:03.641Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__product-idea-stress-test__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:25:28.504Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__product-idea-stress-test__wtd",
+  "plays": 3,
+  "updated": "2026-09-18T22:25:28.504Z"
+}

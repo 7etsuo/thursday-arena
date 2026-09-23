@@ -1,0 +1,75 @@
+{
+  "fp": "sales call coach | sales call coach",
+  "seats": [
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "slash9nine9"
+  ],
+  "matchups": {
+    "recipe-apple-search-ads-review__gtm-prospecting__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:08:14.209Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__luma-pages__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:08:24.775Z",
+      "lastResult": "win"
+    },
+    "recipe-love__call-follow-ups__video-edit-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:08:44.829Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__copy-humanizer__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:08:52.419Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__pipeline-pulse__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:09:13.093Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__webby__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:09:32.624Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__webby__wtd",
+  "plays": 6,
+  "updated": "2026-09-19T00:09:32.624Z"
+}

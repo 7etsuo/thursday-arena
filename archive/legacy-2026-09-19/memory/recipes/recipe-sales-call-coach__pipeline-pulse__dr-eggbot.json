@@ -1,0 +1,38 @@
+{
+  "id": "recipe-sales-call-coach__pipeline-pulse__dr-eggbot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "sales call coach",
+      "kit": "peacock",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "dr eggbot",
+      "kit": "spotlight",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "peacock",
+    "sidestep",
+    "spotlight"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-18T23:24:55.656Z"
+}

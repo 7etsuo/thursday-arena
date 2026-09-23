@@ -1,0 +1,2099 @@
+{
+  "archive": "thursday-arena-all-logs-20260921-142758.tgz",
+  "start": "2026-09-21T17:49:26.737Z",
+  "end": "2026-09-21T20:27:43.717Z",
+  "midpoint": "2026-09-21T19:08:28.050Z",
+  "total": {
+    "n": 562,
+    "win": 452,
+    "loss": 71,
+    "draw": 39,
+    "attackElo": 981,
+    "winRate": 0.8042704626334519,
+    "matchScore": 0.8389679715302492
+  },
+  "first": {
+    "n": 281,
+    "win": 231,
+    "loss": 30,
+    "draw": 20,
+    "attackElo": 535,
+    "winRate": 0.8220640569395018,
+    "matchScore": 0.8576512455516014
+  },
+  "last": {
+    "n": 281,
+    "win": 221,
+    "loss": 41,
+    "draw": 19,
+    "attackElo": 446,
+    "winRate": 0.7864768683274022,
+    "matchScore": 0.8202846975088968
+  },
+  "opponents": {
+    "first": {
+      "fabianhtml": {
+        "n": 53,
+        "win": 52,
+        "loss": 1,
+        "draw": 0,
+        "attackElo": 378,
+        "winRate": 0.9811320754716981,
+        "matchScore": 0.9811320754716981
+      },
+      "ternquest_com": {
+        "n": 136,
+        "win": 101,
+        "loss": 22,
+        "draw": 13,
+        "attackElo": 286,
+        "winRate": 0.7426470588235294,
+        "matchScore": 0.7904411764705882
+      },
+      "syaor4n": {
+        "n": 17,
+        "win": 15,
+        "loss": 1,
+        "draw": 1,
+        "attackElo": 10,
+        "winRate": 0.8823529411764706,
+        "matchScore": 0.9117647058823529
+      },
+      "bhootsumant": {
+        "n": 6,
+        "win": 5,
+        "loss": 0,
+        "draw": 1,
+        "attackElo": 1,
+        "winRate": 0.8333333333333334,
+        "matchScore": 0.9166666666666666
+      },
+      "qilir4": {
+        "n": 8,
+        "win": 8,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 24,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "wenakita": {
+        "n": 1,
+        "win": 0,
+        "loss": 1,
+        "draw": 0,
+        "attackElo": -30,
+        "winRate": 0,
+        "matchScore": 0
+      },
+      "legacynical": {
+        "n": 2,
+        "win": 2,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 5,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "_solcat_": {
+        "n": 2,
+        "win": 2,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 5,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "gabriel_x86": {
+        "n": 15,
+        "win": 13,
+        "loss": 1,
+        "draw": 1,
+        "attackElo": -20,
+        "winRate": 0.8666666666666667,
+        "matchScore": 0.9
+      },
+      "orsohere": {
+        "n": 4,
+        "win": 4,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 7,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "_tb_brewster": {
+        "n": 4,
+        "win": 4,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 7,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "jusrelax": {
+        "n": 12,
+        "win": 6,
+        "loss": 3,
+        "draw": 3,
+        "attackElo": -118,
+        "winRate": 0.5,
+        "matchScore": 0.625
+      },
+      "amanverma235979": {
+        "n": 3,
+        "win": 2,
+        "loss": 0,
+        "draw": 1,
+        "attackElo": -12,
+        "winRate": 0.6666666666666666,
+        "matchScore": 0.8333333333333334
+      },
+      "breezeeoo": {
+        "n": 3,
+        "win": 3,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 5,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "flamebearereno": {
+        "n": 7,
+        "win": 6,
+        "loss": 1,
+        "draw": 0,
+        "attackElo": -24,
+        "winRate": 0.8571428571428571,
+        "matchScore": 0.8571428571428571
+      },
+      "jomarhahaha": {
+        "n": 2,
+        "win": 2,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 3,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "arminsolecki": {
+        "n": 1,
+        "win": 1,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 1,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "ms0242808": {
+        "n": 1,
+        "win": 1,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 1,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "kanuma368": {
+        "n": 2,
+        "win": 2,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 3,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "eliancodex": {
+        "n": 1,
+        "win": 1,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 1,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "devtony": {
+        "n": 1,
+        "win": 1,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 2,
+        "winRate": 1,
+        "matchScore": 1
+      }
+    },
+    "last": {
+      "ternquest_com": {
+        "n": 124,
+        "win": 99,
+        "loss": 18,
+        "draw": 7,
+        "attackElo": 334,
+        "winRate": 0.7983870967741935,
+        "matchScore": 0.8266129032258065
+      },
+      "orsohere": {
+        "n": 4,
+        "win": 3,
+        "loss": 1,
+        "draw": 0,
+        "attackElo": -22,
+        "winRate": 0.75,
+        "matchScore": 0.75
+      },
+      "fabianhtml": {
+        "n": 119,
+        "win": 87,
+        "loss": 20,
+        "draw": 12,
+        "attackElo": 148,
+        "winRate": 0.7310924369747899,
+        "matchScore": 0.7815126050420168
+      },
+      "jusrelax": {
+        "n": 2,
+        "win": 2,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 3,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "bhootsumant": {
+        "n": 2,
+        "win": 2,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 4,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "qilir4": {
+        "n": 2,
+        "win": 2,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 4,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "gabriel_x86": {
+        "n": 10,
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 16,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "syaor4n": {
+        "n": 2,
+        "win": 2,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 3,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "breezeeoo": {
+        "n": 2,
+        "win": 2,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 2,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "jomarhahaha": {
+        "n": 2,
+        "win": 2,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 2,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "amanverma235979": {
+        "n": 2,
+        "win": 2,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 3,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "kanuma368": {
+        "n": 2,
+        "win": 1,
+        "loss": 1,
+        "draw": 0,
+        "attackElo": -30,
+        "winRate": 0.5,
+        "matchScore": 0.5
+      },
+      "_tb_brewster": {
+        "n": 2,
+        "win": 2,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 2,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "gui_deferreira": {
+        "n": 1,
+        "win": 1,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 1,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "ms0242808": {
+        "n": 1,
+        "win": 1,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 1,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "d_gribbin11": {
+        "n": 1,
+        "win": 1,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 1,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "diego_maylan": {
+        "n": 1,
+        "win": 1,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 2,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "arminsolecki": {
+        "n": 1,
+        "win": 1,
+        "loss": 0,
+        "draw": 0,
+        "attackElo": 2,
+        "winRate": 1,
+        "matchScore": 1
+      },
+      "diamondhanddie": {
+        "n": 1,
+        "win": 0,
+        "loss": 1,
+        "draw": 0,
+        "attackElo": -30,
+        "winRate": 0,
+        "matchScore": 0
+      }
+    }
+  },
+  "defenses": {
+    "total": {
+      "n": 84,
+      "elo": -692,
+      "rows": [
+        {
+          "id": "46bf3cdc-573a-42a3-ae56-40c477a19f8d",
+          "ts": 1790013068691,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -14,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "3a34c12b-5edf-4af0-8a2d-41903ca39fdb",
+          "ts": 1790013170702,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 14,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "23370497-44f3-437e-9112-bbf8fce0aea5",
+          "ts": 1790013256926,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -21,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "ad30ca86-0e40-4d4b-a9c8-d4c288b055ea",
+          "ts": 1790013310049,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -19,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "da793648-9c4e-4ba1-9158-f49050f189c8",
+          "ts": 1790013398379,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 10,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "cc5c75d8-95a4-428b-b6ab-31ab93a53844",
+          "ts": 1790013603718,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -23,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "33b8bd95-1ad6-4ca2-b325-3cb89dadaf9d",
+          "ts": 1790013746488,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -23,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "82034c65-ee54-4b1c-b967-d53adc4f501f",
+          "ts": 1790013812133,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -21,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "f06b057b-0180-43f2-8714-83b257750276",
+          "ts": 1790013908198,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 11,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "779ba322-8f4e-4635-9e57-6e8317a682c6",
+          "ts": 1790013962693,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 9,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "a5bf73d6-4127-4196-8240-1b20208536cd",
+          "ts": 1790014361780,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 6,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "19a115e1-5891-437b-8708-dc006499100e",
+          "ts": 1790014839803,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -26,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "7667e9ef-f8aa-4b0f-9fd8-0176b6a1a8e4",
+          "ts": 1790014920233,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 8,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "18cfb9ce-b6de-47bb-a21c-02eac8801686",
+          "ts": 1790015020813,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -24,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "bba116f8-3c2d-461a-8980-e18fed4f7bfc",
+          "ts": 1790015126152,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 9,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "ae9df100-11c4-49ea-9067-e68dbe28bd73",
+          "ts": 1790015199862,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "draw",
+          "elo": -8,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "0d647e05-9c97-4e12-84b9-e9503f19191f",
+          "ts": 1790015288347,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 7,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "08cc3480-e2ab-42b6-96fb-a79daef1795c",
+          "ts": 1790015506655,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 7,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "85329be7-0f3d-47c0-87b5-8926e38e2004",
+          "ts": 1790015946313,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 10,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "85589a58-93cb-4c57-8d27-75006e58a36a",
+          "ts": 1790016088744,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -22,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "88e29ce4-2918-42b7-944f-06685a38c035",
+          "ts": 1790016167762,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 12,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "43d630ac-36ce-42e7-8089-0b62a24ca338",
+          "ts": 1790016256915,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 11,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "3741147f-29e2-4fed-aad4-7899c9113224",
+          "ts": 1790016336564,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -22,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "b93468a4-217c-42a3-bd94-aeb350cc81dc",
+          "ts": 1790016414803,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -18,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "f69ece3f-53c2-4add-858f-ed36aeddd981",
+          "ts": 1790016519494,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "draw",
+          "elo": 1,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "716e72b7-dc35-42d1-8b85-79d7deaaac25",
+          "ts": 1790016548403,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -12,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "e4092346-d618-4ff5-8ebf-9b7dcee7f0d7",
+          "ts": 1790016587327,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -12,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "01ba596c-a92e-41e1-965f-c956201ed55f",
+          "ts": 1790016661837,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "win",
+          "elo": 4,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "4b7e7244-a34f-4b20-859c-5bce8f57e45a",
+          "ts": 1790016736806,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "draw",
+          "elo": -3,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "953966be-3cf4-4ffc-8e31-091a6e71bd92",
+          "ts": 1790016805168,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -11,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "d7f403e7-c267-464c-b553-957fbdf29780",
+          "ts": 1790017203923,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "draw",
+          "elo": -4,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "e55245ac-bd21-4117-9b41-80eeb5f2b121",
+          "ts": 1790017515285,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -21,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "2c80c1a2-9994-49cc-ba05-dc1184efc98d",
+          "ts": 1790017603083,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -21,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "4a2db59d-ac68-44e6-9b40-25aa8fa97af4",
+          "ts": 1790017673466,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 10,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "dc51521f-e958-4ff2-be26-fa90dc0c6c41",
+          "ts": 1790017717025,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -25,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "8689d832-4b68-4030-be77-cf169ff347fe",
+          "ts": 1790017810555,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 8,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "5186ad36-aca7-40da-8406-82fdb514c214",
+          "ts": 1790017923122,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -23,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "63542ebb-0b80-4964-a9dc-ea6fe74b6ea8",
+          "ts": 1790018029154,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 10,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "8694d748-e22c-425e-a389-971fb8957150",
+          "ts": 1790018097554,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -22,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "2af159b7-6eef-46e4-adb4-b9b5c46107d3",
+          "ts": 1790018233476,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -24,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "288a31bc-9725-4032-9dad-f1d813155417",
+          "ts": 1790018369215,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -25,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "f7a0445e-d312-478c-8000-42401e70e8c5",
+          "ts": 1790018608128,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -25,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "b89296d5-a7a4-4d4d-b7cf-bf168ca6c5a1",
+          "ts": 1790018641477,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "win",
+          "elo": 8,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "ffb8795f-f664-415a-b9e3-85232c7b60d3",
+          "ts": 1790018705492,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "win",
+          "elo": 7,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "895a77dc-d58c-422c-9eb5-c888103ef1b9",
+          "ts": 1790019476247,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -28,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "a98bcea8-00ea-4aa3-8954-111c861945c8",
+          "ts": 1790019521449,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 6,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "83ad95ec-e954-47a7-97a6-a0c5039e9c28",
+          "ts": 1790019606671,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -25,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "0a049ad8-2e6b-4ea6-be54-f2d0766378b8",
+          "ts": 1790019734000,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -26,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "6dcdb63c-0f3c-48e9-b811-8ddc1be08fff",
+          "ts": 1790019795536,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -23,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "0ed1569d-9f10-4d29-b7f2-0391dc878b1f",
+          "ts": 1790019854379,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -22,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "01c49fa6-77d8-445c-92e2-83f20eee5143",
+          "ts": 1790019913336,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -19,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "6be2b885-0e5d-4396-9254-cf5a370f80d3",
+          "ts": 1790020020980,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -17,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "efed4722-fc2c-4d0c-8568-6862f785d4ee",
+          "ts": 1790020083706,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 17,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "373677ac-b572-46f4-8f66-fb0bfd31c0a4",
+          "ts": 1790020176525,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -19,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "a95f9b59-9887-4970-a807-fab4292c00ab",
+          "ts": 1790020232896,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -16,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "d3df3aea-223d-4d33-a54a-dedfe9e6270f",
+          "ts": 1790020280292,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "win",
+          "elo": 10,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "2b844972-204b-4eec-975e-7368fb91b94e",
+          "ts": 1790020287196,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 13,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "e8240762-5870-44cc-af28-23928675efce",
+          "ts": 1790020345599,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -21,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "a59f8748-371a-431a-8adb-de04f0b19c55",
+          "ts": 1790020374974,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -20,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "8d322fb2-91da-4cf2-a8a6-2e970a34beec",
+          "ts": 1790020436869,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 14,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "ee6f36ba-4abb-4588-bf1d-f26c361df15a",
+          "ts": 1790020450806,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -17,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "80b3afe0-d3d8-4cd1-a335-d8a72abdb2fb",
+          "ts": 1790020574342,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "win",
+          "elo": 15,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "3214ba4f-ac24-4cbd-ab83-f9c2f5b860fe",
+          "ts": 1790020594744,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 14,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "beef316b-39f2-4474-b90a-6a02e16b52d4",
+          "ts": 1790020708406,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -20,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "7c3a3a1b-9307-43dc-9f31-7ac1e1e36eff",
+          "ts": 1790020760648,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -19,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "ea8fe696-aad9-401f-8fb9-d7a71d601536",
+          "ts": 1790020780958,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 14,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "c2a3b31d-bb4b-4fc5-b583-43c866d47358",
+          "ts": 1790020867954,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -18,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "6fc30a38-82c7-427e-9dc6-cd3f95c06200",
+          "ts": 1790020920231,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "win",
+          "elo": 17,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "5421eed7-624a-48fb-8491-a66bedfb69a0",
+          "ts": 1790020933521,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -20,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "10607461-7185-41ae-9989-cda4188d946c",
+          "ts": 1790021054174,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "draw",
+          "elo": -4,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "87887a02-a3e2-41e2-9f57-0b003bd6ff70",
+          "ts": 1790021096416,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -23,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "63618246-7a8c-4f72-8cbd-b1fd6cbaeb50",
+          "ts": 1790021104313,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "win",
+          "elo": 12,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "33b126b7-b980-44d2-a223-3d9033b91baf",
+          "ts": 1790021217733,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -20,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "008bf74b-ca8f-40e7-b626-1bd16fc8de3d",
+          "ts": 1790021287418,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "draw",
+          "elo": -3,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "7b1a4db2-7368-481a-93ca-f21c9b30a726",
+          "ts": 1790021606313,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "draw",
+          "elo": -9,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "ee41a947-b682-4950-8939-dc00736ebd50",
+          "ts": 1790021855105,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -21,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "106b4c0f-0461-4e67-bd93-50fb02acab1a",
+          "ts": 1790021908501,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -20,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "8c2a46bf-117b-4490-995a-e3dc49371e2d",
+          "ts": 1790021989400,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "draw",
+          "elo": -3,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "bd65029a-f740-4941-83ce-6b88391d8036",
+          "ts": 1790022037198,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -22,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "bbeb61a0-7add-4bad-886f-451b85bc30bf",
+          "ts": 1790022117378,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -19,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "f4d88ff8-246f-4637-91d5-a2c2d8093972",
+          "ts": 1790022186572,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -18,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "e688092c-91d8-43de-8a10-dea9112e5540",
+          "ts": 1790022242588,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 14,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "a9e21c2d-a621-4fbc-b4cc-4fff5ad190e2",
+          "ts": 1790022315149,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -21,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "e3e7eb30-d0c1-43e2-a0b9-9fd4d51c3f56",
+          "ts": 1790022408078,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -18,
+          "rounds": [],
+          "learned": false
+        }
+      ]
+    },
+    "first": {
+      "n": 34,
+      "elo": -196,
+      "rows": [
+        {
+          "id": "46bf3cdc-573a-42a3-ae56-40c477a19f8d",
+          "ts": 1790013068691,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -14,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "3a34c12b-5edf-4af0-8a2d-41903ca39fdb",
+          "ts": 1790013170702,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 14,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "23370497-44f3-437e-9112-bbf8fce0aea5",
+          "ts": 1790013256926,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -21,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "ad30ca86-0e40-4d4b-a9c8-d4c288b055ea",
+          "ts": 1790013310049,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -19,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "da793648-9c4e-4ba1-9158-f49050f189c8",
+          "ts": 1790013398379,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 10,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "cc5c75d8-95a4-428b-b6ab-31ab93a53844",
+          "ts": 1790013603718,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -23,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "33b8bd95-1ad6-4ca2-b325-3cb89dadaf9d",
+          "ts": 1790013746488,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -23,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "82034c65-ee54-4b1c-b967-d53adc4f501f",
+          "ts": 1790013812133,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -21,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "f06b057b-0180-43f2-8714-83b257750276",
+          "ts": 1790013908198,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 11,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "779ba322-8f4e-4635-9e57-6e8317a682c6",
+          "ts": 1790013962693,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 9,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "a5bf73d6-4127-4196-8240-1b20208536cd",
+          "ts": 1790014361780,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 6,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "19a115e1-5891-437b-8708-dc006499100e",
+          "ts": 1790014839803,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -26,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "7667e9ef-f8aa-4b0f-9fd8-0176b6a1a8e4",
+          "ts": 1790014920233,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 8,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "18cfb9ce-b6de-47bb-a21c-02eac8801686",
+          "ts": 1790015020813,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -24,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "bba116f8-3c2d-461a-8980-e18fed4f7bfc",
+          "ts": 1790015126152,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 9,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "ae9df100-11c4-49ea-9067-e68dbe28bd73",
+          "ts": 1790015199862,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "draw",
+          "elo": -8,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "0d647e05-9c97-4e12-84b9-e9503f19191f",
+          "ts": 1790015288347,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 7,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "08cc3480-e2ab-42b6-96fb-a79daef1795c",
+          "ts": 1790015506655,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 7,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "85329be7-0f3d-47c0-87b5-8926e38e2004",
+          "ts": 1790015946313,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 10,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "85589a58-93cb-4c57-8d27-75006e58a36a",
+          "ts": 1790016088744,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -22,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "88e29ce4-2918-42b7-944f-06685a38c035",
+          "ts": 1790016167762,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 12,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "43d630ac-36ce-42e7-8089-0b62a24ca338",
+          "ts": 1790016256915,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 11,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "3741147f-29e2-4fed-aad4-7899c9113224",
+          "ts": 1790016336564,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -22,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "b93468a4-217c-42a3-bd94-aeb350cc81dc",
+          "ts": 1790016414803,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -18,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "f69ece3f-53c2-4add-858f-ed36aeddd981",
+          "ts": 1790016519494,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "draw",
+          "elo": 1,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "716e72b7-dc35-42d1-8b85-79d7deaaac25",
+          "ts": 1790016548403,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -12,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "e4092346-d618-4ff5-8ebf-9b7dcee7f0d7",
+          "ts": 1790016587327,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -12,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "01ba596c-a92e-41e1-965f-c956201ed55f",
+          "ts": 1790016661837,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "win",
+          "elo": 4,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "4b7e7244-a34f-4b20-859c-5bce8f57e45a",
+          "ts": 1790016736806,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "draw",
+          "elo": -3,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "953966be-3cf4-4ffc-8e31-091a6e71bd92",
+          "ts": 1790016805168,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -11,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "d7f403e7-c267-464c-b553-957fbdf29780",
+          "ts": 1790017203923,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "draw",
+          "elo": -4,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "e55245ac-bd21-4117-9b41-80eeb5f2b121",
+          "ts": 1790017515285,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -21,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "2c80c1a2-9994-49cc-ba05-dc1184efc98d",
+          "ts": 1790017603083,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -21,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "4a2db59d-ac68-44e6-9b40-25aa8fa97af4",
+          "ts": 1790017673466,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 10,
+          "rounds": [],
+          "learned": false
+        }
+      ]
+    },
+    "last": {
+      "n": 50,
+      "elo": -496,
+      "rows": [
+        {
+          "id": "dc51521f-e958-4ff2-be26-fa90dc0c6c41",
+          "ts": 1790017717025,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -25,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "8689d832-4b68-4030-be77-cf169ff347fe",
+          "ts": 1790017810555,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 8,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "5186ad36-aca7-40da-8406-82fdb514c214",
+          "ts": 1790017923122,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -23,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "63542ebb-0b80-4964-a9dc-ea6fe74b6ea8",
+          "ts": 1790018029154,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 10,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "8694d748-e22c-425e-a389-971fb8957150",
+          "ts": 1790018097554,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -22,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "2af159b7-6eef-46e4-adb4-b9b5c46107d3",
+          "ts": 1790018233476,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -24,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "288a31bc-9725-4032-9dad-f1d813155417",
+          "ts": 1790018369215,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -25,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "f7a0445e-d312-478c-8000-42401e70e8c5",
+          "ts": 1790018608128,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -25,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "b89296d5-a7a4-4d4d-b7cf-bf168ca6c5a1",
+          "ts": 1790018641477,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "win",
+          "elo": 8,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "ffb8795f-f664-415a-b9e3-85232c7b60d3",
+          "ts": 1790018705492,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "win",
+          "elo": 7,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "895a77dc-d58c-422c-9eb5-c888103ef1b9",
+          "ts": 1790019476247,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -28,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "a98bcea8-00ea-4aa3-8954-111c861945c8",
+          "ts": 1790019521449,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 6,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "83ad95ec-e954-47a7-97a6-a0c5039e9c28",
+          "ts": 1790019606671,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -25,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "0a049ad8-2e6b-4ea6-be54-f2d0766378b8",
+          "ts": 1790019734000,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -26,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "6dcdb63c-0f3c-48e9-b811-8ddc1be08fff",
+          "ts": 1790019795536,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -23,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "0ed1569d-9f10-4d29-b7f2-0391dc878b1f",
+          "ts": 1790019854379,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -22,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "01c49fa6-77d8-445c-92e2-83f20eee5143",
+          "ts": 1790019913336,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -19,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "6be2b885-0e5d-4396-9254-cf5a370f80d3",
+          "ts": 1790020020980,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -17,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "efed4722-fc2c-4d0c-8568-6862f785d4ee",
+          "ts": 1790020083706,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 17,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "373677ac-b572-46f4-8f66-fb0bfd31c0a4",
+          "ts": 1790020176525,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -19,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "a95f9b59-9887-4970-a807-fab4292c00ab",
+          "ts": 1790020232896,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -16,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "d3df3aea-223d-4d33-a54a-dedfe9e6270f",
+          "ts": 1790020280292,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "win",
+          "elo": 10,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "2b844972-204b-4eec-975e-7368fb91b94e",
+          "ts": 1790020287196,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 13,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "e8240762-5870-44cc-af28-23928675efce",
+          "ts": 1790020345599,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -21,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "a59f8748-371a-431a-8adb-de04f0b19c55",
+          "ts": 1790020374974,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -20,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "8d322fb2-91da-4cf2-a8a6-2e970a34beec",
+          "ts": 1790020436869,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 14,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "ee6f36ba-4abb-4588-bf1d-f26c361df15a",
+          "ts": 1790020450806,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -17,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "80b3afe0-d3d8-4cd1-a335-d8a72abdb2fb",
+          "ts": 1790020574342,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "win",
+          "elo": 15,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "3214ba4f-ac24-4cbd-ab83-f9c2f5b860fe",
+          "ts": 1790020594744,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 14,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "beef316b-39f2-4474-b90a-6a02e16b52d4",
+          "ts": 1790020708406,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -20,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "7c3a3a1b-9307-43dc-9f31-7ac1e1e36eff",
+          "ts": 1790020760648,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -19,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "ea8fe696-aad9-401f-8fb9-d7a71d601536",
+          "ts": 1790020780958,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 14,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "c2a3b31d-bb4b-4fc5-b583-43c866d47358",
+          "ts": 1790020867954,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -18,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "6fc30a38-82c7-427e-9dc6-cd3f95c06200",
+          "ts": 1790020920231,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "win",
+          "elo": 17,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "5421eed7-624a-48fb-8491-a66bedfb69a0",
+          "ts": 1790020933521,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -20,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "10607461-7185-41ae-9989-cda4188d946c",
+          "ts": 1790021054174,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "draw",
+          "elo": -4,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "87887a02-a3e2-41e2-9f57-0b003bd6ff70",
+          "ts": 1790021096416,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -23,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "63618246-7a8c-4f72-8cbd-b1fd6cbaeb50",
+          "ts": 1790021104313,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "win",
+          "elo": 12,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "33b126b7-b980-44d2-a223-3d9033b91baf",
+          "ts": 1790021217733,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -20,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "008bf74b-ca8f-40e7-b626-1bd16fc8de3d",
+          "ts": 1790021287418,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "draw",
+          "elo": -3,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "7b1a4db2-7368-481a-93ca-f21c9b30a726",
+          "ts": 1790021606313,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "draw",
+          "elo": -9,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "ee41a947-b682-4950-8939-dc00736ebd50",
+          "ts": 1790021855105,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -21,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "106b4c0f-0461-4e67-bd93-50fb02acab1a",
+          "ts": 1790021908501,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "loss",
+          "elo": -20,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "8c2a46bf-117b-4490-995a-e3dc49371e2d",
+          "ts": 1790021989400,
+          "role": "ghost",
+          "opponent": "fabianhtml",
+          "outcome": "draw",
+          "elo": -3,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "bd65029a-f740-4941-83ce-6b88391d8036",
+          "ts": 1790022037198,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -22,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "bbeb61a0-7add-4bad-886f-451b85bc30bf",
+          "ts": 1790022117378,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -19,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "f4d88ff8-246f-4637-91d5-a2c2d8093972",
+          "ts": 1790022186572,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -18,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "e688092c-91d8-43de-8a10-dea9112e5540",
+          "ts": 1790022242588,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "win",
+          "elo": 14,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "a9e21c2d-a621-4fbc-b4cc-4fff5ad190e2",
+          "ts": 1790022315149,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -21,
+          "rounds": [],
+          "learned": false
+        },
+        {
+          "id": "e3e7eb30-d0c1-43e2-a0b9-9fd4d51c3f56",
+          "ts": 1790022408078,
+          "role": "ghost",
+          "opponent": "ternquest_com",
+          "outcome": "loss",
+          "elo": -18,
+          "rounds": [],
+          "learned": false
+        }
+      ]
+    }
+  }
+}

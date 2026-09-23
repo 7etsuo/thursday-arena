@@ -1,0 +1,66 @@
+{
+  "fp": "the morning newspaper | clip bot | product support inbox assistant",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sheilamoonready"
+  ],
+  "matchups": {
+    "recipe-flora-plant-care-log__deal-hunting__webby": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T21:52:54.891Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__pipeline-pulse__outbound-prospecting": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T21:53:03.018Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__credit-card-max__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T21:53:11.888Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__event-request-desk__event-request-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T21:53:19.286Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__credit-card-max__cooper",
+  "plays": 4,
+  "updated": "2026-09-18T21:53:38.130Z"
+}

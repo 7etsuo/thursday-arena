@@ -1,0 +1,90 @@
+{
+  "fp": "partnerships call coach | ebr value deck builder | lead pipeline desk",
+  "seats": [
+    {
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "atk": 6,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ludwingvzla"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__copy-humanizer__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-18T21:29:39.344Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__nyc-parent__projects-manager": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -1,
+      "last": "2026-09-18T21:29:50.813Z",
+      "lastResult": "draw"
+    },
+    "recipe-tradbot__webby__lingxi-s-engineer-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -17,
+      "last": "2026-09-18T21:30:01.536Z",
+      "lastResult": "loss"
+    },
+    "recipe-pipeline-pulse__call-follow-ups__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-18T21:30:10.782Z",
+      "lastResult": "win"
+    },
+    "recipe-call-follow-ups__writing-bot__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-18T21:30:33.309Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__meeting-recap-deck__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 17,
+      "last": "2026-09-18T21:31:01.284Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-18T21:31:13.699Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-webby__meeting-recap-deck__luma-pages",
+  "plays": 7,
+  "updated": "2026-09-18T21:31:13.699Z"
+}

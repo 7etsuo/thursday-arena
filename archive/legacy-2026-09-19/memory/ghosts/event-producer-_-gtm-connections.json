@@ -1,0 +1,26 @@
+{
+  "fp": "event producer | gtm connections",
+  "seats": [
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "stevca369"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T04:55:40.288Z"
+}

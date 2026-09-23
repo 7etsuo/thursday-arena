@@ -1,0 +1,43 @@
+{
+  "fp": "flora plant care log | call follow ups | gtm connections",
+  "seats": [
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "bala_muppala",
+    "a_g_e_n_c"
+  ],
+  "matchups": {
+    "recipe-seo-aeo-desk__stills-clips-desk__talent-discovery": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T02:57:34.514Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-seo-aeo-desk__stills-clips-desk__talent-discovery",
+  "plays": 1,
+  "updated": "2026-09-19T02:57:40.821Z"
+}

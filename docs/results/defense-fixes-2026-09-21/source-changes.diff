@@ -1,0 +1,2656 @@
+--- before/AGENTS.md
++++ after/AGENTS.md
+@@ -15,7 +15,8 @@
+ current corpus. The historical engine audit validated 10,065 battles frame for frame, and the
+ 2026-09-20 archive replay validates another 5,454 complete-input battles frame for frame. These
+ are **Season 1/2** checks. The September 21 fixes additionally reproduce **337/337 complete-input
+-Season 3 live battles frame for frame**. Season 3 validation is still narrower. See
++Season 3 live battles frame for frame**. The subsequent defense fixes add **2,751/2,751**
++complete-input live battles with exact frames and winners (3,088 across both fixtures). Season 3 validation is still narrower. See
+ [`docs/SEASON3.md`](docs/SEASON3.md).
+ Decisions (captain, buy, sell, feed, equip, reroll, seat order) are made by
+ replaying the resulting board against a weighted set of boards the opponent might field and keeping
+@@ -119,6 +120,7 @@
+ | `lib/catalog.js` | the 179-bot catalog (S1–S3), 19 items, unlock pools, arena-unit → sim-unit |
+ | `lib/shop_model.js` | a **pure** model of the server's shop reducer, for look-ahead. No I/O. |
+ | `lib/book.js` | opponent book at `memory/book.json`; `inferGhost` recovers the enemy board (honey included) from battle frames, accepting both recorded opening captions |
++| `lib/public_history.js` | Bounded public-history polling, defensive replay learning, crash-safe receipts, and attack/defense rating reports. |
+ | `lib/target.js` | the weighted set of enemy boards every decision is scored against |
+ | `lib/planner.js` | **the only module that decides anything** |
+ | `lib/arena.js` | the rated API: 409 is a *conflict*, 429/5xx back off, dry run sends nothing |
+@@ -169,8 +171,13 @@
+ Within the handle's share, Season 3 uses its most recently observed board; older lineups remain
+ stored. Seasons 1/2 keep frequency weighting. `bookPolicy: 'frequency'` and the explicit decay
+ override support comparisons. This policy also reaches captain drafts and future-round targets.
+-There are no learned scoring weights or drifting
+-strategy rules.
++The driver also polls the signed-in account's public S3 history at startup and match boundaries,
++at most once per minute. It backfills up to 30 days in bounded pages, learns the attackers from
++both won and lost defenses, and retries unavailable replays. Observations use the match's played
++time, so fetching an older defense cannot replace newer knowledge. `history` telemetry and
++`node tools/rating_report.js` report attacks, defenses and combined Elo over the same fetched
++window, with pending/backfill counts. Polling is disabled for anonymous practice. There are no
++learned scoring weights or drifting strategy rules.
+ 
+ Measured on 280 live matches against 13 distinct opponents (2026-09-19):
+ 
+@@ -224,7 +231,9 @@
+ - **Rated ghost selection (Season 3):** aim is rating +23, adjusted by recent results (at most
+   70). The server searches saved same-round boards in bands around aim of ±100, ±200, ±400, then
+   any rating. It prefers an opponent not yet fought and then the closest rating, with repeat-ghost
+-  and high-rating exceptions. Ghost defenses may change rating at K=16. See the
++  and high-rating exceptions. At the Season 3 top table (both ratings ≥1300), an owner can
++  appear in 25 of the last 50 matches and defense uses K=32. Other eligible defenses use K=16
++  within a 400-point rating gap. See the
+   [live rules](https://thursdayarena.com/rules.md).
+ 
+ ---
+@@ -259,7 +268,9 @@
+ - Ctrl-C / SIGTERM: save the book, close telemetry, release the lock, close the browser, then die
+   **by the signal** (exiting 130 tells bash "handled", and the climb script would launch another
+   rated batch).
+-- Exhausting the step limit returns `max_steps` and a nonzero CLI exit, never a successful `done`.
++- Unlimited play has no lifetime iteration cap. A per-match 4,000-step cap resets only after a
++  counted completed match; no-progress/unknown-phase guards remain. Explicit `maxSteps` still
++  bounds diagnostic runs. Exhaustion returns `max_steps` and a nonzero CLI exit.
+ - A failed book save retains its pending observations for retry. A malformed or unreadable existing
+   book is refused, never silently replaced by an empty one. Only a missing file starts empty.
+ 
+@@ -378,6 +389,21 @@
+ ---
+ 
+ ## 11. Recent fixes and known limits
++
++- The [defense fixes](docs/DEFENSE_FIXES_2026-09-21.md) reproduce all 3,088 complete-input S3
++  recorded fights, remove the healthy-session lifetime cap, and ingest public defensive results.
++  `memory/public_history.json` is account/season-bound and must be preserved with the entire
++  memory directory. Public observations use persistent book receipts to survive retries/restarts.
++  Every learned defensive round is also logged with its board, items, observed timestamp and ID.
++- S3 seating breaks equal full-target match scores using recent defensive attackers; the bot is
++  simulated on the ghost side under the observed attacker's reconstructed seats and captain.
++  Ambiguous seat metadata is excluded from that target. At R2 only, a bounded exact move pass
++  can spend remaining tokens to improve this tie-break, then ordinary round score, without
++  reducing the full current-target match score. `finishTies: false` disables it for comparisons.
++- A 900-match lifecycle test crosses the former cap. The new 100-pair-per-season mock comparison
++  tied in every season; no match-win-rate gain is established. Chronological final-shop checks
++  found two improved attacking rounds, none worse, and unchanged scores in 321 later defensive
++  rounds. Those are counterfactual checks, not a rated improvement estimate.
+ 
+ - The September 21 fixes resolve all battle discrepancies in the new live sample: **337/337
+   winners and full traces**, up from 333 winners and 306 traces. They correct silence/aura
+--- before/README.md
++++ after/README.md
+@@ -8,8 +8,8 @@
+ The live Season 3 rules and implementation limits are in
+ [`docs/SEASON3.md`](docs/SEASON3.md).
+ The latest fixes and measured verification results are in
+-[`docs/LIVE_FIXES_2026-09-21.md`](docs/LIVE_FIXES_2026-09-21.md), following the
+-[live records audit](docs/LIVE_RECORDS_2026-09-21.md).
++[`docs/DEFENSE_FIXES_2026-09-21.md`](docs/DEFENSE_FIXES_2026-09-21.md), following the
++[1,150-match audit](docs/LOG_REVIEW_2026-09-21.md).
+ 
+ 
+ A simulator-driven bot for [thursdayarena.com](https://thursdayarena.com). Every decision — which
+@@ -33,6 +33,7 @@
+          ->  endShop
+ battle   ->  book.inferGhost        recover the enemy board from the frames, honey included
+ result   ->  book.record            use a completed public replay for S3 board items when available
++boundary ->  public_history         learn defensive opponents; report both sides of rating
+ ```
+ 
+ | module | job |
+@@ -41,6 +42,7 @@
+ | `lib/catalog.js` | the 179-bot catalog (seasons 1–3), 19 items, unlock pools, state-unit → sim-unit |
+ | `lib/shop_model.js` | a pure model of the server's shop reducer, for look-ahead |
+ | `lib/book.js` | the opponent book at `memory/book.json`, plus `inferGhost` (accepts both recorded opening captions when recovering honey); S3 result handling prefers exact completed replay boards with item data |
++| `lib/public_history.js` | Polls public results, learns exact attacking boards from ghost defenses, and reconciles both roles in one rating ledger. |
+ | `lib/target.js` | the weighted board set each decision is scored against |
+ | `lib/planner.js` | the only thing that decides anything |
+ | `lib/arena.js` | the rated API over CDP: 409 is a conflict, 429/5xx back off, `--dry` sends no arena POST |
+--- before/api/ACTIONS.md
++++ after/api/ACTIONS.md
+@@ -145,7 +145,8 @@
+ `state.shopCosts` expose the economy modifiers; `state.shop.item` exposes the item offer.
+ 
+ Season 3 matchmaking uses an aim based on rating and recent results, and ghost defenses can now
+-move the defender's rating at K=16 under the conditions in the
++move the defender's rating at K=16 within a 400-point rating gap, or K=32 when both players
++are at least 1300. That top table permits 25 repeats in the last 50 matches. See the
+ [live rules](https://thursdayarena.com/rules.md). Historical Season 1/2 book weights and match
+ scores do not establish Season 3 performance.
+ 
+--- before/driver/play_loop.js
++++ after/driver/play_loop.js
+@@ -27,12 +27,13 @@
+ const targetLib = require('../lib/target');
+ const bookLib = require('../lib/book');
+ const telemetryLib = require('../lib/telemetry');
++const historyLib = require('../lib/public_history');
+ 
+ const LOCK_FILE = path.join(ROOT, 'data', 'play_loop.lock');
+ const LAST_OPPONENT = path.join(ROOT, 'memory', 'last_opponent.json');
+ const STALE_LOCK_MS = 10 * 60 * 1000;
+ const MAX_SHOP_STEPS = 24;   // 10 gold cannot pay for more than this many useful actions
+-const MAX_LOOP_STEPS = 4000;
++const MAX_MATCH_STEPS = 4000;
+ const MAX_NO_PROGRESS = 8;   // consecutive outer iterations that change nothing before giving up
+ const NO_PROGRESS_BASE_MS = 500;
+ const NO_PROGRESS_MAX_MS = 30000;
+@@ -151,7 +152,13 @@
+   // Optional policy overrides are for paired offline evaluation. An ordinary live run gets the
+   // defaults in target.build; keep this explicit so an eval can test a policy end to end.
+   const targetOpts = opts.targetOpts || {};
+-  const maxSteps = opts.maxSteps || MAX_LOOP_STEPS;
++  // A lifetime cap stopped healthy --games 0 sessions after about 584 matches.
++  // Keep an explicit diagnostic cap and a separate cap that resets after each match.
++  const maxSteps = opts.maxSteps ?? Infinity;
++  const maxMatchSteps = opts.maxMatchSteps ?? MAX_MATCH_STEPS;
++  for (const n of [maxSteps, maxMatchSteps]) {
++    if (!(n === Infinity || (Number.isInteger(n) && n > 0))) throw new Error('step limits must be positive integers or Infinity');
++  }
+   const nap = opts.sleep || sleep;
+   const aiBackoffBase = opts.aiBackoffMs == null ? AI_BACKOFF_BASE_MS : opts.aiBackoffMs;
+   if (arena.setDryRun) arena.setDryRun(dry);
+@@ -198,6 +205,22 @@
+     }
+   }
+   await refreshCatalog('session_start');
++
++  let history = opts.history || null;
++  let historyRetryAt = 0;
++  async function syncHistory(st) {
++    if (opts.history === false || arena.practice || shopModel.seasonOf(st) !== 3 ||
++        !arena.playerMatches || !arena.getPublicMatchDetail) return;
++    if (!history && Date.now() >= historyRetryAt) {
++      historyRetryAt = Date.now() + 60000;
++      try {
++        const me = await arena.getMe();
++        history = historyLib.open({ handle: me?.xHandle, season: 3,
++          file: opts.historyFile || path.join(path.dirname(book.file), 'public_history.json') });
++      } catch (e) { event('error', { where: 'public_history_init', message: e.message }); }
++    }
++    if (history) await history.poll({ arena, book, event: (type, payload) => t.event(type, payload) });
++  }
+ 
+   function syncCtx(st) {
+     const phase = st.phase || {};
+@@ -501,6 +524,7 @@
+     const pctx = {
+       target: built,
+       futureTargets,
++      defenseTarget: history?.defenseTarget(S.round),
+       rng,
+       timeBudgetMs,
+       cache: shopCache,
+@@ -548,6 +572,8 @@
+         round: S.round,
+         seats: S.seats,
+         utility: planner.utility(S.round, S.series),
++        defenseTarget: pctx.defenseTarget,
++        finishTies: pctx.finishTies,
+         cache: shopCache,
+       }) || [];
+     } catch (e) {
+@@ -605,12 +631,17 @@
+   // allowed and then exit 0 with games=0 (review R2-05).  Progress is (phase, round, version).
+   let lastMark = null;
+   let idleTurns = 0;
++  let completedMatches = 0;
++  let matchSteps = 0;
+   const napBase = opts.noProgressMs == null ? NO_PROGRESS_BASE_MS : opts.noProgressMs;
+   const napMs = (n) => Math.min(NO_PROGRESS_MAX_MS, napBase * 2 ** (n - 1));
+   try {
+     for (let step = 0; step < maxSteps; step++) {
+       if (summary.games >= games) { stop('games_done'); break; }
+       if (summary.games + summary.aiMatches >= stopAfterMatches) { stop('matches_done'); break; }
++      const completed = summary.games + summary.aiMatches;
++      if (completed !== completedMatches) { completedMatches = completed; matchSteps = 0; }
++      if (matchSteps++ >= maxMatchSteps) { stop('max_steps'); break; }
+       if (opts.touch) opts.touch();                       // the lock's heartbeat (review R2-02)
+       if (catalog.unknownCount() > knownUnknowns) await refreshCatalog('unknown_bot');
+ 
+@@ -632,6 +663,8 @@
+         event('error', { where: 'observe', message: `unknown phase ${JSON.stringify(kind)}` });
+         continue;
+       }
++      if (!history || kind === 'result' || kind === 'idle' ||
++          (kind === 'shop' && st.phase.round === 0 && !ctx?.played)) await syncHistory(st);
+       if (kind !== 'idle') syncCtx(st);
+ 
+       if (kind === 'shop') {
+@@ -675,6 +708,7 @@
+   flushUnfinished();
+   const saved = book.save();
+   summary.dropped = t.dropped || 0;
++  if (history) summary.publicHistory = history.report();
+   t.close({ ...summary, exitReason, pruned: saved && saved.pruned });
+   inFlight = null;
+   return { ...summary, exitReason, prevHandle };
+--- before/lib/arena.js
++++ after/lib/arena.js
+@@ -221,7 +221,13 @@
+     limit: String(opts.limit ?? 20),
+   });
+   if (opts.cursor) q.set('cursor', opts.cursor);
+-  const list = (await request(`/api/public/v1/matches?${q.toString()}`)).json;
++  const url = `/api/public/v1/matches?${q.toString()}`;
++  // Background learning has its own checkpoint and retry schedule.
++  const response = opts.bestEffort
++    ? await cdp.arenaFetch(url, { method: 'GET', timeoutMs: 5000 })
++    : await request(url);
++  if (opts.bestEffort && !response?.ok) return null;
++  const list = response.json;
+   if (!opts.detail) return list;
+   const id = opts.matchId || (list && list.data && list.data[0] && list.data[0].id);
+   if (!id) return { list, detail: null };
+--- before/lib/book.js
++++ after/lib/book.js
+@@ -106,6 +106,8 @@
+   if (!d || d.format !== FORMAT || !d.entries || typeof d.entries !== 'object' || Array.isArray(d.entries)) {
+     throw new Error(`Invalid opponent book ${file}: unsupported format or entries`);
+   }
++  if (d.receipts != null && (typeof d.receipts !== 'object' || Array.isArray(d.receipts) ||
++      Object.values(d.receipts).some((ts) => !Number.isFinite(ts)))) throw new Error(`Invalid opponent book ${file}: receipts`);
+   // `k` is derived from `board`, so it is not persisted
+   for (const rows of Object.values(d.entries)) {
+     if (!Array.isArray(rows) || rows.some((e) => !e || !Array.isArray(e.board) || !Array.isArray(e.ts)
+@@ -146,8 +148,10 @@
+   function recordInto(d, obs) {
+     const { season, handle, round, board, seats = null, matchId = null, captain = null } = obs || {};
+     const ts = toMs(obs && obs.ts) == null ? now() : toMs(obs.ts);
++    if (obs.observationId && d.receipts?.[obs.observationId] != null) return null;
+     const units = normBoard(board);
+     if (!units.length) return null;
++    if (obs.observationId) (d.receipts || (d.receipts = {}))[obs.observationId] = ts;
+     const k = keyOf(season, handle, round);
+     const list = d.entries[k] || (d.entries[k] = []);
+     const bk = boardKey(units, captain);
+@@ -255,6 +259,10 @@
+       data = disk;
+     }
+     const pruned = prune();
++    // Public history only imports its last 30 days; older receipts cannot be replayed.
++    if (data.receipts) for (const [id, ts] of Object.entries(data.receipts)) {
++      if (ts < now() - 31 * DAY_MS) delete data.receipts[id];
++    }
+     fs.mkdirSync(path.dirname(f), { recursive: true });
+     const tmp = `${f}.tmp-${process.pid}`;
+     try {
+--- before/lib/planner.js
++++ after/lib/planner.js
+@@ -551,6 +551,8 @@
+     }
+     if (pick) return take(pick.actions, `r${S.round} ${pick.kind} (apple carries) ${fmt(cur.score)}`, pick.value);
+   }
++  const finish = finishMove(S, ctx);
++  if (finish) return take(finish.actions, `r${S.round} finish tie: defense ${fmt(finish.base.defense)}->${fmt(finish.value.defense)}, round ${fmt(finish.base.neutral)}->${fmt(finish.value.neutral)}`, finish.value.score);
+   return done(`r${S.round} done ${fmt(cur.score)}`);
+ }
+ 
+@@ -749,6 +751,55 @@
+   return winner;
+ }
+ 
++// Ties still matter: a draw can already win the series, and the saved
++// board can be attacked later. Maximize the full current-match score first, then
++// defense against observed attackers (with our board on the ghost side), then the
++// ordinary round score. Seating ties can use defense in every round; spending
++// extra gold is restricted to exact, deterministic final-round moves.
++function finishValue(S, target, defenseTarget, util = utility(S.round, S.series)) {
++  const units = shop.simUnits(S).map((u, seat) => ({ ...u, seat }));
++  const primary = sim.bestSeating(units, entriesOf(target), { season: S.season, round: S.round,
++    seats: S.seats, ourCaptain: S.captain, theirCaptain: S.rivalCaptain, utility: util });
++  const defense = entriesOf(defenseTarget);
++  const weight = defense.reduce((sum, e) => sum + (e.weight ?? 1), 0);
++  let best = null;
++  for (const row of primary) {
++    if (best && row.score < best.score - 1e-9) break;
++    let defensive = 0;
++    for (const e of defense) {
++      const result = sim.outcome(e.board, row.order, { season: S.season, round: S.round,
++        seats: e.seats, ourCaptain: e.theirCaptain, theirCaptain: S.captain });
++      defensive += (e.weight ?? 1) * (result === 'them' ? 1 : result === 'draw' ? 0.5 : 0);
++    }
++    const candidate = { ...row, defense: weight ? defensive / weight : 0,
++      neutral: row.wdl.win + 0.5 * row.wdl.draw };
++    if (!best || betterFinish(candidate, best)) best = candidate;
++  }
++  return best;
++}
++function betterFinish(a, b) {
++  for (const field of ['score', 'defense', 'neutral']) {
++    if (a[field] > b[field] + 1e-9) return true;
++    if (a[field] < b[field] - 1e-9) return false;
++  }
++  return false;
++}
++function finishMove(S, ctx) {
++  if (ctx.finishTies === false || S.season < 3 || S.round !== 2 || S.board.length !== shop.BOARD_MAX ||
++      !entriesOf(ctx.target).length) return null;
++  const base = finishValue(S, ctx.target, ctx.defenseTarget, ctx.utility);
++  let best = base, actions = null;
++  for (const m of singleMoves(S)) {
++    const after = applyAll(S, m.actions);
++    // Expected-value shop triggers are not exact battle inputs. Leave these moves
++    // to the existing stochastic search rather than silently rounding their stats.
++    if (shop.simUnitsOutcomes(after).length !== 1) continue;
++    const value = finishValue(after, ctx.target, ctx.defenseTarget, ctx.utility);
++    if (betterFinish(value, best)) { best = value; actions = m.actions; }
++  }
++  return actions ? { actions, base, value: best } : null;
++}
++
+ // ------------------------------------------------------------------ seating
+ 
+ /**
+@@ -760,7 +811,7 @@
+ function seatingActions(S, target, opts = {}) {
+   if (S.board.length < 2) return [];
+   const units = shop.simUnits(S).map((u, i) => ({ ...u, seat: i }));
+-  const { order } = evaluate(units, target, {
++  let { order } = evaluate(units, target, {
+     round: S.round,
+     seats: S.seats,
+     season: S.season,
+@@ -769,6 +820,10 @@
+     utility: opts.utility || utility(S.round, S.series),
+     cache: opts.cache,
+   });
++  if (S.season >= 3 && opts.finishTies !== false && entriesOf(target).length &&
++      (S.round === 2 || entriesOf(opts.defenseTarget).length)) {
++    order = finishValue(S, target, opts.defenseTarget, opts.utility).order;
++  }
+   const want = order.map((u) => u.seat);
+   const cur = S.board.map((_, i) => i);
+   const out = [];
+@@ -803,6 +858,8 @@
+   canFill,
+   rerollAllowed,
+   singleMoves,
++  finishValue,
++  finishMove,
+   trimTarget,
+   DEFAULTS,
+ };
+--- before/lib/public_history.js
++++ after/lib/public_history.js
+@@ -0,0 +1,185 @@
++'use strict';
++/** Public attack/defense ledger and exact defensive observations. No arena actions.
++ * Poll at match boundaries. Checkpoints and pending replays survive restarts; the book's
++ * observation receipts make a crash between its save and the history save harmless.
++ */
++const fs = require('node:fs');
++const path = require('node:path');
++const { isDeepStrictEqual } = require('node:util');
++const bookLib = require('./book');
++const sim = require('./sim');
++const DAY = 86400000;
++const norm = (h) => String(h || '').replace(/^@/, '').trim().toLowerCase();
++const seasonOf = (s) => Number(String(s).replace(/^Season\s+/i, ''));
++const DEFAULT_FILE = path.join(__dirname, '../memory/public_history.json');
++
++function read(file, handle, season) {
++  let d;
++  try { d = JSON.parse(fs.readFileSync(file, 'utf8')); }
++  catch (e) { if (e.code !== 'ENOENT') throw new Error(`Cannot read public history: ${e.message}`); }
++  if (!d) return { format: 1, handle, season, matches: {}, boundary: null, cursor: null, head: null };
++  if (d.format !== 1 || d.handle !== handle || d.season !== season || !d.matches || Array.isArray(d.matches)
++      || typeof d.matches !== 'object' || Object.values(d.matches).some((r) => !r || !Number.isFinite(r.ts)
++        || !['attacker', 'ghost'].includes(r.role) || !['win', 'loss', 'draw'].includes(r.outcome)
++        || !Number.isFinite(r.elo) || !r.opponent || !Array.isArray(r.rounds))) {
++    throw new Error('Invalid public history or account/season mismatch; preserve the file for review');
++  }
++  return d;
++}
++function write(file, data) {
++  fs.mkdirSync(path.dirname(file), { recursive: true });
++  const tmp = `${file}.tmp-${process.pid}`;
++  try { fs.writeFileSync(tmp, JSON.stringify(data)); fs.renameSync(tmp, file); }
++  catch (e) { try { fs.unlinkSync(tmp); } catch {} throw e; }
++}
++function rowOf(raw, handle, season) {
++  if (seasonOf(raw?.season) !== season) return null;
++  const self = raw.players?.find((p) => norm(p.x_handle) === handle);
++  const other = raw.players?.find((p) => norm(p.x_handle) !== handle);
++  const ts = Date.parse(raw.played_at);
++  if (!raw.id || !Number.isFinite(ts) || !Array.isArray(raw.players) || raw.players.length !== 2 || !self || !other || !norm(other.x_handle)
++      || !['attacker', 'ghost'].includes(self.role) || !['win', 'loss', 'draw'].includes(self.outcome)
++      || other.role !== (self.role === 'ghost' ? 'attacker' : 'ghost') || !Number.isFinite(self.elo_delta)) {
++    throw new Error('Malformed or wrong-account public history row');
++  }
++  return { id: raw.id, ts, role: self.role, opponent: norm(other.x_handle), outcome: self.outcome,
++    elo: self.elo_delta, rounds: [], learned: self.role !== 'ghost' };
++}
++
++// Captains with combat effects announce themselves. A null here means "no observed combat
++// captain", never a guessed economic captain. Seats enter defense planning only when a unique
++// assignment of ACTIVE rules reproduces the complete public trace.
++function replayInputs(detail, row, handle, season) {
++  if (!detail || detail.id !== row.id || seasonOf(detail.season) !== season || detail.rated !== true
++      || norm(detail.player?.x_handle) !== row.opponent || detail.opponent?.kind !== 'ghost'
++      || norm(detail.opponent?.x_handle) !== handle || Date.parse(detail.played_at) !== row.ts
++      || detail.owner_elo_delta !== row.elo || ({ win: 'loss', loss: 'win', draw: 'draw' }[detail.result]) !== row.outcome
++      || !Array.isArray(detail.rounds) || !detail.rounds.length || detail.rounds.length > 3) {
++    throw new Error('Public defense replay is unavailable or does not match its history row');
++  }
++  const seen = new Set();
++  return detail.rounds.map((r) => {
++    if (![0, 1, 2].includes(r.round) || seen.has(r.round) || !Array.isArray(r.frames) || !r.frames.length) {
++      throw new Error('Malformed defense round');
++    }
++    seen.add(r.round);
++    const board = bookLib.publicReplayBoard(r, 'you'), defender = bookLib.publicReplayBoard(r, 'them');
++    if (!board.length || board.length > 3 || !defender.length || defender.length > 3) throw new Error('Unknown defense board');
++    const c = r.frames.map((f) => f.caption);
++    const captain = c.some((s) => s.startsWith('Drill:')) ? 'drill' : c.some((s) => s.startsWith('Medic:')) ? 'medic' : null;
++    const defenderCaptain = c.some((s) => s.startsWith('Enemy Drill:')) ? 'drill' : c.some((s) => s.startsWith('Enemy Medic:')) ? 'medic' : null;
++    const positions = ['front', 'middle', 'back'].slice(0, r.round + 1);
++    let possibilities = [{}];
++    for (const position of positions) possibilities = possibilities.flatMap((p) => sim.SEAT_RULES.map((rule) => ({ ...p, [position]: rule })));
++    let seats = null, matches = 0;
++    for (const candidate of possibilities) {
++      const got = sim.simulate(board, defender, { season, round: r.round, seats: candidate,
++        ourCaptain: captain, theirCaptain: defenderCaptain });
++      if (isDeepStrictEqual(got.frames, r.frames)) { seats = candidate; if (++matches > 1) break; }
++    }
++    return { round: r.round, board, captain, seats: matches === 1 ? seats : null,
++      metadata: matches === 1 ? 'unique_trace_match' : matches ? 'ambiguous_seats' : 'unmatched_trace' };
++  });
++}
++
++function report(data, since = -Infinity) {
++  const result = { handle: data.handle, season: data.season, from: null, through: null,
++    attack: { games: 0, wins: 0, losses: 0, draws: 0, elo: 0 },
++    defense: { games: 0, wins: 0, losses: 0, draws: 0, elo: 0 }, pending: 0,
++    backfillPending: data.cursor != null || !data.updatedAt, updatedAt: data.updatedAt || null, byOpponent: {} };
++  for (const r of Object.values(data.matches).filter((r) => r.ts >= since)) {
++    const side = r.role === 'attacker' ? 'attack' : 'defense';
++    const opponent = result.byOpponent[r.opponent] || (result.byOpponent[r.opponent] = { attack: 0, defense: 0, elo: 0 });
++    opponent[side]++; opponent.elo += r.elo;
++    result[side].games++;
++    result[side][{ win: 'wins', loss: 'losses', draw: 'draws' }[r.outcome]]++;
++    result[side].elo += r.elo;
++    result.from = result.from == null ? r.ts : Math.min(result.from, r.ts);
++    result.through = Math.max(result.through || 0, r.ts);
++    if (!r.learned) result.pending++;
++  }
++  result.combinedElo = result.attack.elo + result.defense.elo;
++  return result;
++}
++
++function open({ file = DEFAULT_FILE, handle, season = 3, now = Date.now } = {}) {
++  handle = norm(handle);
++  if (!handle || season !== 3) throw new Error('Public history needs the signed-in handle and Season 3');
++  let data = read(file, handle, season), nextPoll = 0;
++  async function poll({ arena, book, event = () => {}, maxPages = 2, maxDetails = 12, intervalMs = 60000, budgetMs = 12000 } = {}) {
++    const at = now();
++    if (at < nextPoll) return { skipped: true };
++    nextPoll = at + intervalMs;
++    const d = structuredClone(data), cut = at - 30 * DAY;
++    const deadline = Date.now() + budgetMs, observations = [];
++    let added = 0, learned = 0;
++    try {
++      for (let page = 0; page < maxPages; page++) {
++        if (Date.now() >= deadline) break;
++        const reply = await arena.playerMatches(handle, { limit: 100, cursor: d.cursor, bestEffort: true });
++        if (!reply || !Array.isArray(reply.data) || (reply.next_cursor != null && typeof reply.next_cursor !== 'string')) throw new Error('Invalid history page');
++        const rows = reply.data.map((raw) => ({ raw, row: rowOf(raw, handle, season) }));
++        if (!d.cursor) d.head = reply.data[0]?.id || d.boundary;
++        let stop = false;
++        for (const { raw, row } of rows) {
++          if (raw.id === d.boundary || Date.parse(raw.played_at) < cut) { stop = true; break; }
++          if (!row || row.ts < cut) continue;
++          if (!d.matches[row.id]) { d.matches[row.id] = row; added++; }
++        }
++        if (stop || !reply.next_cursor) { d.boundary = d.head; d.head = null; d.cursor = null; break; }
++        if (reply.next_cursor === d.cursor) throw new Error('History cursor did not advance');
++        d.cursor = reply.next_cursor;
++      }
++      // Oldest first keeps book recency based on played_at. Retry failures without blocking newer
++      // defenses; nextAttempt is persisted so a missing replay cannot monopolize every poll.
++      const pending = Object.values(d.matches).filter((r) => !r.learned && r.ts >= cut && (r.nextAttempt || 0) <= at)
++        .sort((a, b) => a.ts - b.ts || a.id.localeCompare(b.id)).slice(0, maxDetails);
++      for (const row of pending) {
++        if (Date.now() >= deadline) break;
++        try {
++          const detail = await arena.getPublicMatchDetail(row.id);
++          const rounds = replayInputs(detail, row, handle, season);
++          for (const r of rounds) book.record({ observationId: `defense:${handle}:${row.id}:${r.round}`,
++            season, handle: row.opponent, round: r.round, board: r.board, captain: r.captain,
++            seats: r.seats, matchId: row.id, ts: row.ts });
++          row.rounds = rounds; row.learned = true; delete row.nextAttempt; delete row.failures;
++          observations.push({ row, rounds });
++          learned++;
++        } catch (e) {
++          row.failures = (row.failures || 0) + 1;
++          row.nextAttempt = at + Math.min(15 * 60000, 60000 * 2 ** Math.min(row.failures - 1, 4));
++          event('error', { where: 'defense_replay', matchId: row.id, message: e.message });
++        }
++      }
++      for (const [id, r] of Object.entries(d.matches)) if (r.ts < cut) delete d.matches[id];
++      book.save(); // receipts and observations land together BEFORE marking replays learned
++      d.updatedAt = at;
++      write(file, d); data = d;
++      for (const { row, rounds } of observations) for (const r of rounds) event('book', {
++        source: 'defense_replay', matchId: row.id, handle: row.opponent, season, round: r.round,
++        board: r.board, captain: r.captain, seats: r.seats, metadata: r.metadata,
++        observedAt: new Date(row.ts).toISOString(), observationId: `defense:${handle}:${row.id}:${r.round}`,
++      });
++      const summary = report(d);
++      event('history', { added, learned, ...summary });
++      return { added, learned, ...summary };
++    } catch (e) {
++      event('error', { where: 'public_history', message: e.message });
++      return { error: e.message };
++    }
++  }
++  function defenseTarget(round, limit = 24) {
++    const rows = Object.values(data.matches).filter((r) => r.role === 'ghost' && r.learned)
++      .sort((a, b) => b.ts - a.ts || a.id.localeCompare(b.id));
++    const out = [];
++    for (const r of rows) {
++      const observed = r.rounds.find((x) => x.round === round && x.seats);
++      if (observed) out.push({ board: observed.board, seats: observed.seats, theirCaptain: observed.captain,
++        weight: 1, source: 'defense', matchId: r.id, observedAt: r.ts });
++      if (out.length >= limit) break;
++    }
++    return { entries: out, note: `${out.length} recent defensive rounds with uniquely reconstructed seats` };
++  }
++  return { file, poll, defenseTarget, report: (since) => report(data, since), data: () => data };
++}
++module.exports = { open, report, replayInputs, rowOf, DEFAULT_FILE };
+--- before/lib/sim.js
++++ after/lib/sim.js
+@@ -114,6 +114,8 @@
+   bloom: { trigger: 'buy' }, hand_off: { trigger: 'sell' },
+ };
+ 
++const LEGACY_KITS = new Set(Object.keys(KITS));
++
+ // Season 3 introduced several cards with the same effect under different names.
+ // Keep the ID table explicit so an unknown live kit remains visible rather than
+ // silently borrowing an unrelated effect.  These descriptions come from the
+@@ -177,6 +179,8 @@
+   const season3 = Number(opts.season) >= 3 || opts.season === 'Season 3' ||
+     !!(opts.ourCaptain || opts.theirCaptain || opts.captains) ||
+     [...e, ...t].some((x) => x.crew || x.item || x.itemId);
++  // All-legacy, unequipped fights retain the server's legacy effect captions.
++  const modernEffects = season3 && [...e, ...t].some((x) => x.item || x.itemId || (x.kitId && !LEGACY_KITS.has(x.kitId)));
+   const wantFrames = opts.frames !== false;
+   const rnd = () => { const r = randStep(s); s = r.seed; return r.value; };            // client `l`
+   const st = {                                                                          // client `u`
+@@ -271,7 +275,8 @@
+     const awake = [];
+     const mitigationNotes = [];
+     const poisoned = [];
+-    for (const { unit, amount, source } of list) {
++    const unblocked = new Set();
++    for (const { unit, amount, source, venom = true } of list) {
+       let amt = amount;
+       const side = sideOf(unit);
+       // Hard hat: every damage instance (trade, snipe, sting, spite, last word...) is reduced by 1 but never
+@@ -304,11 +309,13 @@
+         unit.hp -= amt;
+       }
+       if (source) unit._lastHitBy = source;
+-      if (unit.hp > 0 && !(season3 && amt === 0 && amount > 0)) survivors.push(unit);
++      if (!(season3 && amt === 0 && amount > 0)) unblocked.add(unit);
++      if (unit.hp > 0) survivors.push(unit);
+       // a 0-damage hit still counts as "hurt": live 2026-09-19, an attacker flagged down to 0 ATK
+       // produced "trade: -0 HP" followed by "holds: +1 HP" (hold_the_line fired)
+       if (unit.hp > 0 && !(season3 && amt === 0 && amount > 0)) hurt.push(unit);
+-      if (venomAllowed && season3 && amount > 0 && source && !source._silenced && kitOf(source)?.effect?.kind === 'venom') poisoned.push([source, unit, eff(source, kitOf(source).effect.amount)]);
++      // Hotfix boosts direct kit damage and positive stats, not venom or vulnerability stacks.
++      if (venomAllowed && venom && season3 && amount > 0 && source && !source._silenced && kitOf(source)?.effect?.kind === 'venom') poisoned.push([source, unit, kitOf(source).effect.amount]);
+     }
+     frame(caption);
+     for (const x of reduced) frame(`Hard hat: ${x.name} takes 1 less`);
+@@ -338,19 +345,21 @@
+       const n = eff(who, kitOf(who).effect.amount);
+       hurtUnit.hp += n; frame(`${who.name} patches ${hurtUnit.name}: +${n} HP`);
+     };
+-    const sorted = byAtk(season3 ? [...new Set(survivors)] : survivors);                // one RNG draw per surviving unit, including double hits
++    const sorted = byAtk(season3 ? [...new Set(survivors.filter((x) => unblocked.has(x)))] : survivors);                // one draw per distinct intermediate survivor if any hit was unblocked
+     for (const x of sorted) if (hurt.includes(x)) fireSelf(x);
+     for (const x of sorted) if (hurt.includes(x)) firePatch(x);
+-    resolveFaints();
++    const credits = [];
++    resolveFaints(credits);
+     for (const [source, unit, n] of poisoned) {
+       if (st.you.includes(unit) || st.them.includes(unit)) {
+         unit._poison = (unit._poison || 0) + n;
+         frame(`${source.name} poisons ${unit.name}: venom ${unit._poison}`);
+       }
+     }
+-  };
+-
+-  const resolveFaints = () => {                                                       // client inner IIFE of `y`
++    for (const [unit, side] of credits) creditKnockout(unit, side);
++  };
++
++  const resolveFaints = (credits = null) => {                                                       // client inner IIFE of `y`
+     for (;;) {
+       const dead = [...st.you, ...st.them].filter((x) => x.hp <= 0 && !x.fainted);
+       if (dead.length === 0) return;
+@@ -382,11 +391,13 @@
+             frame(`${reactor.name} gains +${eff(reactor, k.effect.atk)}/+${eff(reactor, k.effect.hp)}`);
+           } else if (k.effect.kind === 'buffAllFriends') {
+             for (const a of st[side]) if (a !== reactor) { a.atk += eff(reactor, k.effect.atk); a.hp += eff(reactor, k.effect.hp); }
+-            frame(`${reactor.name} alerts each friend: +${eff(reactor, k.effect.atk)}/+${eff(reactor, k.effect.hp)}`);
++            frame(`${reactor.name} routes the work: +${eff(reactor, k.effect.atk)}/+${eff(reactor, k.effect.hp)} to each friend`);
+           } else if (k.effect.kind === 'fillEmpty') {
+             while (st[side].length < 3) summon(side, st[side].length, { name: 'Specialist', atk: 1, hp: 1 });
+           }
+         }
++        if (credits) credits.push([x, side]);
++        else creditKnockout(x, side);
+       }
+     }
+   };
+@@ -442,7 +453,11 @@
+         else if (bk.effect.kind === 'summonInPlace' && !behind._usedOnce) { behind._usedOnce = true; summon(side, idx, bk.effect); }
+       }
+     }
+-    // knock-out credit
++    if (!season3) creditKnockout(x, side);
++  };
++
++  // Season 3 awards KO credit after faint reactors and attack venom have resolved.
++  const creditKnockout = (x, side) => {
+     const killer = x._lastHitBy;
+     if (killer && !killer.fainted && killer.hp > 0 && sideOf(killer) !== side) {
+       const kk = kitOf(killer);
+@@ -502,7 +517,7 @@
+         frame(`${side === 'you' ? 'Drill' : 'Enemy Drill'}: +2 ATK to ${side === 'you' ? 'your' : 'their'} front bot`);
+       } else if (captain === 'medic' && st[side].length) {
+         st[side][st[side].length - 1].hp += 3;
+-        frame(`${side === 'you' ? 'Medic' : 'Enemy Medic'}: +3 HP to ${side === 'you' ? 'your' : 'their'} back bot`);
++        frame(`${side === 'you' ? 'Medic' : 'Enemy Medic'}: +3 HP to ${side === 'you' ? 'your' : 'their'} ${st[side].length === 1 ? 'front' : 'back'} bot`);
+       }
+     }
+     const marketing = ['you', 'them'].flatMap((side) => {
+@@ -558,12 +573,14 @@
+   // effect even when its usual trigger is later (recorded LearnBot copying Echo).
+   const fireStartEffect = (x, depth = 0) => {
+     if (depth > 3) return;
++    // The immediate copied start effect is unmodified; later triggers use the holder's item.
++    const power = (value) => depth > 0 ? value : eff(x, value);
+     if (x.hp <= 0 || x.fainted) return;
+     const side = sideOf(x); const k = kitOf(x);
+     if (season3 && k?.trigger === 'aura') {
+       const targets = k.effect.kind === 'friendAttack' ? st[side].filter((a) => a !== x) : st[other(side)];
+       const sign = k.effect.kind === 'friendAttack' ? 1 : -1;
+-      const amount = k.effect.kind === 'enemyAttack' ? k.effect.amount : eff(x, k.effect.amount);
++      const amount = k.effect.kind === 'enemyAttack' ? k.effect.amount : power(k.effect.amount);
+       const deltas = x._aura?.deltas || new Map();
+       for (const a of targets) {
+         const delta = Math.max(0, a.atk + sign * amount) - a.atk;
+@@ -578,9 +595,9 @@
+     if (!seatOk(k, side, x)) return;
+     const mine = st[side]; const theirs = st[other(side)];
+     const i = mine.indexOf(x);
+-    if (ef.kind === 'gainStats') { x.atk += eff(x, ef.atk); x.hp += eff(x, ef.hp); frame(`${x.name} gains +${eff(x, ef.atk)}/+${eff(x, ef.hp)}`); }
+-    else if (ef.kind === 'gainHp') { const n = eff(x, ef.amount); x.hp += n; frame(season3 ? `${x.name} gains +${n} HP` : `${x.name} bulks up: +${n} HP`); }
+-    else if (ef.kind === 'buffFrontmost') { const a = mine[0]; if (a) { const n = eff(x, ef.atk); a.atk += n; frame(`${x.name} juiced ${a.name}: +${n} ATK`); } }
++    if (ef.kind === 'gainStats') { x.atk += power(ef.atk); x.hp += power(ef.hp); frame(`${x.name} gains +${power(ef.atk)}/+${power(ef.hp)}`); }
++    else if (ef.kind === 'gainHp') { const n = power(ef.amount); x.hp += n; frame(modernEffects ? `${x.name} gains +${n} HP` : `${x.name} bulks up: +${n} HP`); }
++    else if (ef.kind === 'buffFrontmost') { const a = mine[0]; if (a) { const n = power(ef.atk); a.atk += n; frame(`${x.name} juiced ${a.name}: +${n} ATK`); } }
+     else if (ef.kind === 'giveAttackPercentAhead') {
+       const a = i > 0 ? mine[i - 1] : null;
+       if (a) { const n = Math.floor((x.atk * ef.percent) / 100); a.atk += n; frame(`${x.name} hypes ${a.name}: +${n} ATK`); }
+@@ -592,7 +609,7 @@
+       if (a) frame(`${x.name} hands ${a.name} +${n} ATK`);
+     } else if (ef.kind === 'buffAhead') {
+       const a = i > 0 ? mine[i - 1] : null;
+-      if (a) { const n = eff(x, ef.hp); a.hp += n; frame(`${x.name} pads ${a.name}: +${n} HP`); }
++      if (a) { const n = power(ef.hp); a.hp += n; frame(`${x.name} pads ${a.name}: +${n} HP`); }
+     } else if (ef.kind === 'snipe') {
+       let tgt = null;
+       if (ef.target === 'front') tgt = theirs[0];
+@@ -601,20 +618,20 @@
+       else if (ef.target === 'sameSeat') tgt = theirs[i];
+       tgt = targeted(side, tgt);
+       if (!tgt) return;
+-      const n = eff(x, ef.damage);
++      const n = power(ef.damage);
+       const kitId = x._copiedKitId || x.kitId;
+       const cap = kitId === 'mosquito' ? `${x.name} snipes ${tgt.name} for ${n}`
+         : kitId === 'pin' ? `${x.name} pins ${tgt.name}: ${n}`
+         : kitId === 'sidestep' ? `${x.name} sideswipes ${tgt.name}: ${n}`
+-        : kitId === 'backtap' ? `${x.name} clips ${tgt.name}: ${n}`
+-        : kitId === 'last_word' ? `${x.name} has the last word: ${n} to ${tgt.name}`
++        : kitId === 'backtap' && n <= 2 ? `${x.name} clips ${tgt.name}: ${n}`
++        : (kitId === 'last_word' || kitId === 'backtap') ? `${x.name} has the last word: ${n} to ${tgt.name}`
+         : `${x.name} takes the spotlight: ${n} to ${tgt.name}`;
+       hit([{ unit: tgt, amount: n, source: x }], cap);
+     } else if (ef.kind === 'snipeRandomEnemies') {                                  // verbatim client branch
+       const chosen = pickRandom(st[other(side)], ef.count);
+       const forced = season3 ? tauntTarget(other(side)) : null;
+       const r = forced ? [forced] : chosen;
+-      if (r.length > 0) hit(r.map((u) => ({ unit: u, amount: eff(x, ef.damage), source: x })), `${x.name} snipes ${r.map((u) => u.name).join(', ')} for ${eff(x, ef.damage)}`);
++      if (r.length > 0) hit(r.map((u) => ({ unit: u, amount: power(ef.damage), source: x })), `${x.name} snipes ${r.map((u) => u.name).join(', ')} for ${power(ef.damage)}`);
+     } else if (ef.kind === 'moveToFront') {
+       if (i > 0) { mine.splice(i, 1); mine.unshift(x); }
+       frame(`${x.name} takes first seat`);
+@@ -626,29 +643,29 @@
+     } else if (ef.kind === 'buffAllFriends') {
+       // "each friend": every OTHER unit on its side, never itself (live 2026-09-19: Master's own
+       // ATK stays at its board value in every recorded frame)
+-      for (const a of mine) if (a !== x) { a.atk += eff(x, ef.atk); a.hp += eff(x, ef.hp); }
+-      frame(`${x.name} routes the work: +${eff(x, ef.atk)}/+${eff(x, ef.hp)} to each friend`);
++      for (const a of mine) if (a !== x) { a.atk += power(ef.atk); a.hp += power(ef.hp); }
++      frame(`${x.name} routes the work: +${power(ef.atk)}/+${power(ef.hp)} to each friend`);
+     } else if (ef.kind === 'stealAttack') {
+       const preferred = ef.target === 'strongest' ? (theirs.length ? byAtk(theirs)[0] : null) : theirs[0];
+       const tgt = targeted(side, preferred);
+       if (tgt) {
+         const n = Math.min(ef.amount, tgt.atk);
+         tgt.atk -= n; x.atk += n;
+-        frame(`${x.name} steals ${n} ATK from ${tgt.name}`);
++        if (n > 0) frame(`${x.name} steals ${n} ATK from ${tgt.name}`);
+       }
+     } else if (ef.kind === 'jam') {
+       const tgt = targeted(side, theirs[0]);
+       if (tgt) { tgt._skipAttacks = (tgt._skipAttacks || 0) + ef.count; frame(`${x.name} jams ${tgt.name}: skips its next ${ef.count === 1 ? 'attack' : `${ef.count} attacks`}`); }
+     } else if (ef.kind === 'vulnerable') {
+       const tgt = targeted(side, theirs[0]);
+-      if (tgt) { tgt._vulnerable = (tgt._vulnerable || 0) + eff(x, ef.amount); frame(`${x.name} exposes ${tgt.name}: +${tgt._vulnerable} damage per hit`); }
++      if (tgt) { tgt._vulnerable = (tgt._vulnerable || 0) + ef.amount; frame(`${x.name} exposes ${tgt.name}: +${tgt._vulnerable} damage per hit`); }
+     } else if (ef.kind === 'silence') {
+       const tgt = targeted(side, ef.target === 'front' ? theirs[0] : theirs[i]);
+       silence(x, tgt);
+     } else if (ef.kind === 'shield') {
+       const targets = ef.target === 'self' ? [x] : ef.target === 'front' ? mine.slice(0, 1)
+         : ef.target === 'friends' ? mine.filter((a) => a !== x) : i > 0 ? [mine[i - 1]] : [];
+-      for (const a of targets) { shield(a); frame(ef.target === 'self' ? `${x.name} raises a shield` : `${x.name} shields ${a.name}`); }
++      for (const a of targets) { shield(a); frame(a === x ? `${x.name} raises a shield` : `${x.name} shields ${a.name}`); }
+     } else if (ef.kind === 'fillEmpty') {
+       while (mine.length < 3) summon(side, mine.length, { name: 'New Hire', atk: 1, hp: 1 });
+     } else if (ef.kind === 'copyAhead') {
+@@ -671,7 +688,7 @@
+ 
+   // ================================================================ exchanges
+   const lastStanding = () => {
+-    if (!season3 || !st.you.length || !st.them.length) return;
++    if (!season3) return;
+     for (const side of ['you', 'them']) {
+       const last = st[side].length === 1 ? st[side][0] : null, k = kitOf(last);
+       if (last && k?.trigger === 'lastStanding' && !last._lastStandingUsed) {
+@@ -704,7 +721,6 @@
+           const front = st[side][0];
+           if (front) { front.hp += eff(x, k.effect.amount); frame(`${x.name} heals ${front === x ? 'itself' : front.name}: +${eff(x, k.effect.amount)} HP`); }
+         }
+-        if (item === 'coldBrew') { x.hp += 1; frame(`Cold brew: ${x.name} +1 HP`); }
+         // Healing and every-second-exchange abilities share the same per-unit
+         // pass, rather than completing all healing on both teams first.
+         if ((turn - 1) % 2 !== 0 || k?.trigger !== 'everySecondExchange') continue;
+@@ -716,9 +732,13 @@
+           frame(`${x.name} routes the work: +${eff(x, k.effect.atk)}/+${eff(x, k.effect.hp)} to each friend`);
+         } else if (k.effect.kind === 'snipeLast') {
+           const target = targeted(side, st[other(side)].at(-1));
+-          if (target) hit([{ unit: target, amount: eff(x, k.effect.damage), source: x }], `${x.name} clips ${target.name}: ${eff(x, k.effect.damage)}`);
++          const n = eff(x, k.effect.damage);
++          if (target) hit([{ unit: target, amount: n, source: x }], n <= 2 ? `${x.name} clips ${target.name}: ${n}` : `${x.name} has the last word: ${n} to ${target.name}`);
+         }
+       }
++    }
++    if (season3 && turn > 1) for (const x of [...st.you, ...st.them]) {
++      if (x.hp > 0 && !x.fainted && itemOf(x) === 'coldBrew') { x.hp += 1; frame(`Cold brew: ${x.name} +1 HP`); }
+     }
+     if (!st.you.length || !st.them.length) break;
+     // Hot seat, venom or a periodic snipe can leave a different last survivor.
+@@ -758,7 +778,7 @@
+         ? [{ unit: target, amount: total / 2, source: attacker },
+           { unit: target, amount: total / 2, source: attacker }]
+         : [{ unit: target, amount: total, source: attacker }];
+-      const attack = (side) => {
++      const attack = (side, kind = 'hits') => {
+         if (skipped[side]) return;
+         const foe = other(side), attacker = A[side], target = A[foe];
+         if (!st[side].includes(attacker) || !st[foe].includes(target)) return;
+@@ -766,20 +786,17 @@
+           : itemOf(attacker) === 'shredder' ? 3 : 0;
+         const next = behind[foe] && st[foe].includes(behind[foe]) ? behind[foe] : null;
+         const hits = attackHits(attacker, target, damage[side]);
+-        if (splash && next) hits.push({ unit: next, amount: splash, source: attacker });
+-        hit(hits, `${attacker.name} hits ${target.name}: -${damage[side]} HP${splash && next ? `; ${attacker.name} splashes ${next.name}: -${splash} HP` : ''}`);
++        if (splash && next) hits.push({ unit: next, amount: splash, source: attacker, venom: false });
++        const caption = kind === 'hits' ? `${attacker.name} hits ${target.name}: -${damage[side]} HP`
++          : `${attacker.name} ${kind}: -${damage[side]} HP to ${target.name}`;
++        hit(hits, `${caption}${splash && next ? `; ${attacker.name} splashes ${next.name}: -${splash} HP` : ''}`);
+       };
+       const firstYou = hasFirstStrike(A.you) && !hasFirstStrike(A.them);
+       const firstThem = hasFirstStrike(A.them) && !hasFirstStrike(A.you);
+       if (!skipped.you && !skipped.them && (firstYou || firstThem)) {
+         const first = firstYou ? 'you' : 'them', second = other(first);
+-        if (!skipped[first]) {
+-          const attacker = A[first], target = A[second];
+-          hit(attackHits(attacker, target, damage[first]), `${attacker.name} strikes first: -${damage[first]} HP to ${target.name}`);
+-        }
+-        if (!skipped[second] && st[second].includes(A[second]) && st[first].includes(A[first])) {
+-          hit(attackHits(A[second], A[first], damage[second]), `${A[second].name} hits back: -${damage[second]} HP to ${A[first].name}`);
+-        }
++        attack(first, 'strikes first');
++        attack(second, 'hits back');
+       } else if (skipped.you && skipped.them) {
+         // The per-unit jam captions above are the complete server trace for this exchange.
+       } else if (skipped.you || skipped.them) {
+@@ -795,13 +812,14 @@
+           const n = kitOf(x)?.effect?.kind === 'splash' ? kitOf(x).effect.amount
+             : itemOf(x) === 'shredder' ? 3 : 0;
+           if (n && behind[foe]) {
+-            hits.push({ unit: behind[foe], amount: n, source: x });
++            hits.push({ unit: behind[foe], amount: n, source: x, venom: false });
+             splash.unshift(`${x.name} splashes ${behind[foe].name}: -${n} HP`);
+           }
+         }
+         hit(hits, `${A.you.name} and ${A.them.name} trade: -${damage.them} HP / -${damage.you} HP${splash.length ? '; ' + splash.join('; ') : ''}`);
+       }
+     }
++    lastStanding();
+     // friend-ahead-attacks (echo / wake): units that stood right behind an attacker
+     const isFol = (x) => x && kitOf(x)?.trigger === 'friendAheadAttacks';
+     const followers = ['you', 'them'].map((sd) => behind[sd]).filter(isFol);           // you first, no RNG
+--- before/lib/telemetry.js
++++ after/lib/telemetry.js
+@@ -17,7 +17,7 @@
+ const DEFAULT_DIR = path.join(ROOT, 'data', 'log');
+ 
+ const TYPES = new Set([
+-  'session_start', 'match_start', 'match_identified', 'shop', 'act', 'battle', 'book', 'result', 'error', 'session_end',
++  'history', 'session_start', 'match_start', 'match_identified', 'shop', 'act', 'battle', 'book', 'result', 'error', 'session_end',
+ ]);
+ 
+ function jsFiles(dir) {
+--- before/test/defense_planner.test.js
++++ after/test/defense_planner.test.js
+@@ -0,0 +1,54 @@
++'use strict';
++const test = require('node:test'), assert = require('node:assert/strict');
++const fs = require('node:fs'), path = require('node:path'), zlib = require('node:zlib');
++const planner = require('../lib/planner'), sim = require('../lib/sim'), shop = require('../lib/shop_model');
++const examples = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(__dirname, 'fixtures/s3-defense-finishing.json.gz'))));
++
++test('recorded finishing moves preserve the full match objective and converge legally', () => {
++  let moves = 0;
++  for (const { state, target, defenseTarget } of examples) {
++    const opts = { season: state.season, round: state.round, seats: state.seats,
++      ourCaptain: state.captain, theirCaptain: state.rivalCaptain, utility: planner.utility(state.round, state.series) };
++    const baseline = planner.evaluate(shop.simUnits(state), target, opts).score;
++    let S = state;
++    for (let i = 0; i < 24; i++) {
++      const move = planner.finishMove(S, { target, defenseTarget });
++      if (!move) break;
++      moves++;
++      for (const a of move.actions) { assert.equal(shop.legal(S, a), true); S = shop.apply(S, a); }
++      assert.ok(planner.evaluate(shop.simUnits(S), target, opts).score >= baseline - 1e-9);
++      assert.ok(i < 23, 'must not spend forever on ties');
++    }
++    assert.equal(planner.finishMove(S, { target, defenseTarget }), null);
++    assert.equal(planner.finishMove(state, { target, defenseTarget, finishTies: false }), null);
++  }
++  assert.ok(moves >= examples.length);
++});
++
++test('defense seating uses the attacker as you, honors their seats/captain, and preserves the attacking score', () => {
++  let asymmetric = 0;
++  for (const { state: S, target, defenseTarget } of examples.concat([require('./fixtures/s3-defense-orientation.json')])) {
++    if (!defenseTarget.entries.length) continue;
++    const chosen = planner.finishValue(S, target, defenseTarget);
++    let reversed = 0, forward = 0;
++    for (const e of defenseTarget.entries) {
++      const opts = { season: 3, round: S.round, seats: e.seats, ourCaptain: e.theirCaptain, theirCaptain: S.captain };
++      const w = sim.outcome(e.board, chosen.order, opts);
++      reversed += w === 'them' ? 1 : w === 'draw' ? 0.5 : 0;
++      const wrong = sim.outcome(chosen.order, e.board, { ...opts, ourCaptain: S.captain, theirCaptain: e.theirCaptain });
++      forward += wrong === 'us' ? 1 : wrong === 'draw' ? 0.5 : 0;
++    }
++    assert.equal(chosen.defense, reversed / defenseTarget.entries.length);
++    asymmetric += reversed !== forward;
++    let seated = S;
++    for (const a of planner.seatingActions(S, target, { defenseTarget })) seated = shop.apply(seated, a);
++    assert.deepEqual(shop.simUnits(seated).map((u) => u.name), chosen.order.map((u) => u.name));
++  }
++  assert.ok(asymmetric > 0, 'fixture must detect accidentally simulating the defensive board as attacker');
++});
++
++test('extra tie spending is restricted to the final round of Season 3', () => {
++  const { state, target, defenseTarget } = examples[0];
++  for (const round of [0, 1]) assert.equal(planner.finishMove({ ...state, round }, { target, defenseTarget }), null);
++  for (const season of [1, 2]) assert.equal(planner.finishMove({ ...state, season }, { target, defenseTarget }), null);
++});
+--- before/test/fixtures/s3-defense-orientation.json
++++ after/test/fixtures/s3-defense-orientation.json
+@@ -0,0 +1,1371 @@
++{
++  "state": {
++    "round": 1,
++    "gold": 1,
++    "board": [
++      {
++        "uid": 4,
++        "name": "Ad Spend Watch",
++        "kitId": "sting",
++        "atk": 4,
++        "hp": 4,
++        "tempAtk": 0,
++        "honey": false,
++        "potato": false,
++        "cost": 4,
++        "rarity": "uncommon",
++        "crew": "marketing",
++        "item": null
++      },
++      {
++        "uid": 5,
++        "name": "WTD",
++        "kitId": "hype",
++        "atk": 3,
++        "hp": 4,
++        "tempAtk": 0,
++        "honey": false,
++        "potato": false,
++        "cost": 3,
++        "rarity": "common",
++        "crew": "marketing",
++        "item": null
++      },
++      {
++        "uid": 6,
++        "name": "Lead Pipeline Desk",
++        "kitId": "snowball",
++        "atk": 4,
++        "hp": 4,
++        "tempAtk": 0,
++        "honey": false,
++        "potato": false,
++        "cost": 4,
++        "rarity": "uncommon",
++        "crew": "marketing",
++        "item": null
++      }
++    ],
++    "offers": [
++      null,
++      null,
++      {
++        "shopIndex": 2,
++        "name": "Vigil",
++        "kitId": "defuse",
++        "atk": 2,
++        "hp": 6,
++        "cost": 3,
++        "rarity": "common",
++        "frozen": false,
++        "crew": "ops"
++      }
++    ],
++    "frozen": [
++      false,
++      false,
++      false
++    ],
++    "food": "apple",
++    "series": {
++      "you": 1,
++      "them": 0
++    },
++    "seats": {
++      "front": "hot_seat",
++      "middle": "hard_hat"
++    },
++    "season": 3,
++    "captain": "medic",
++    "rivalCaptain": "recruiter",
++    "captainOffer": null,
++    "carry": 0,
++    "freeRerolls": null,
++    "shopCosts": {
++      "reroll": 1,
++      "food": 3
++    },
++    "itemOffer": {
++      "item": "stapler",
++      "cost": 3,
++      "rarity": "uncommon"
++    },
++    "rerolls": 1,
++    "pendingBuff": null,
++    "nextUid": 7
++  },
++  "target": {
++    "entries": [
++      {
++        "board": [
++          {
++            "name": "Foundry",
++            "kitId": "bedrock",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "builders"
++          },
++          {
++            "name": "X High Coach",
++            "kitId": "reach_check",
++            "atk": 2,
++            "hp": 4,
++            "honey": false,
++            "crew": "builders"
++          },
++          {
++            "name": "LearnBot",
++            "kitId": "study_up",
++            "atk": 3,
++            "hp": 5,
++            "honey": false,
++            "crew": "builders"
++          }
++        ],
++        "weight": 0.7499999999999999,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "book",
++        "theirCaptain": "recruiter"
++      },
++      {
++        "board": [
++          {
++            "name": "Cue",
++            "kitId": "standby",
++            "atk": 3,
++            "hp": 6,
++            "honey": false,
++            "crew": "ops",
++            "item": "echoChip"
++          },
++          {
++            "name": "Vigil",
++            "kitId": "defuse",
++            "atk": 2,
++            "hp": 6,
++            "honey": false,
++            "crew": "ops"
++          },
++          {
++            "name": "Product Builder CoS",
++            "kitId": "checklist",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "ops"
++          }
++        ],
++        "weight": 0.04651162790697674,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "scout"
++      },
++      {
++        "board": [
++          {
++            "name": "Farm",
++            "kitId": "sandbox",
++            "atk": 3,
++            "hp": 6,
++            "honey": false,
++            "crew": "builders",
++            "item": "energyDrink"
++          },
++          {
++            "name": "Alchemist",
++            "kitId": "acid_test",
++            "atk": 4,
++            "hp": 3,
++            "honey": false,
++            "crew": "builders"
++          },
++          {
++            "name": "Interview Prep",
++            "kitId": "next_question",
++            "atk": 1,
++            "hp": 5,
++            "honey": false,
++            "crew": "builders"
++          }
++        ],
++        "weight": 0.04069767441860465,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "drill"
++      },
++      {
++        "board": [
++          {
++            "name": "Writing Bot",
++            "kitId": "hype",
++            "atk": 2,
++            "hp": 5,
++            "honey": false,
++            "crew": "ops"
++          },
++          {
++            "name": "AI VP Bot",
++            "kitId": "command",
++            "atk": 3,
++            "hp": 5,
++            "honey": false,
++            "crew": "ops"
++          },
++          {
++            "name": "WP Update Guard",
++            "kitId": "rollback",
++            "atk": 3,
++            "hp": 3,
++            "honey": true,
++            "crew": "ops"
++          }
++        ],
++        "weight": 0.03100775193798449,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "medic"
++      },
++      {
++        "board": [
++          {
++            "name": "Alexandria",
++            "kitId": "quiet_please",
++            "atk": 2,
++            "hp": 6,
++            "honey": false,
++            "crew": "marketing",
++            "item": "stapler"
++          },
++          {
++            "name": "SEO & AEO Desk",
++            "kitId": "pin",
++            "atk": 2,
++            "hp": 5,
++            "honey": false,
++            "crew": "marketing",
++            "item": "spareParts"
++          },
++          {
++            "name": "Stills & Clips Desk",
++            "kitId": "wake",
++            "atk": 2,
++            "hp": 5,
++            "honey": true,
++            "crew": "marketing"
++          }
++        ],
++        "weight": 0.011627906976744184,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "medic"
++      },
++      {
++        "board": [
++          {
++            "name": "Mother Ship",
++            "kitId": "mission_control",
++            "atk": 1,
++            "hp": 5,
++            "honey": false,
++            "crew": "builders",
++            "item": "energyDrink"
++          },
++          {
++            "name": "Video Edit Desk",
++            "kitId": "wake",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "builders",
++            "item": "bubbleWrap"
++          },
++          {
++            "name": "Interview Prep",
++            "kitId": "next_question",
++            "atk": 1,
++            "hp": 5,
++            "honey": true,
++            "crew": "builders"
++          }
++        ],
++        "weight": 0.007751937984496122,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "medic"
++      },
++      {
++        "board": [
++          {
++            "name": "Copy Humanizer",
++            "kitId": "flamingo",
++            "atk": 2,
++            "hp": 5,
++            "honey": false,
++            "crew": "marketing"
++          },
++          {
++            "name": "WTD",
++            "kitId": "hype",
++            "atk": 4,
++            "hp": 5,
++            "honey": false,
++            "crew": "marketing",
++            "item": "teamBadge"
++          },
++          {
++            "name": "Blunt",
++            "kitId": "the_memo",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "marketing"
++          }
++        ],
++        "weight": 0.007751937984496122,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "recruiter"
++      },
++      {
++        "board": [
++          {
++            "name": "Online Identity Bot",
++            "kitId": "wide_search",
++            "atk": 4,
++            "hp": 3,
++            "honey": false,
++            "crew": "marketing",
++            "item": "hotfix"
++          },
++          {
++            "name": "Company Docs Q&A",
++            "kitId": "guard",
++            "atk": 3,
++            "hp": 7,
++            "honey": false,
++            "crew": "sales",
++            "item": "bubbleWrap"
++          },
++          {
++            "name": "Luma Pages",
++            "kitId": "hype",
++            "atk": 2,
++            "hp": 4,
++            "honey": false,
++            "crew": "ops"
++          }
++        ],
++        "weight": 0.005813953488372092,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "scout"
++      },
++      {
++        "board": [
++          {
++            "name": "Outbound Prospecting",
++            "kitId": "mosquito",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "builders"
++          },
++          {
++            "name": "Alexandria",
++            "kitId": "quiet_please",
++            "atk": 2,
++            "hp": 6,
++            "honey": false,
++            "crew": "marketing"
++          },
++          {
++            "name": "Company Docs Q&A",
++            "kitId": "guard",
++            "atk": 2,
++            "hp": 6,
++            "honey": true,
++            "crew": "sales"
++          }
++        ],
++        "weight": 0.005813953488372092,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "banker"
++      },
++      {
++        "board": [
++          {
++            "name": "Cue",
++            "kitId": "standby",
++            "atk": 2,
++            "hp": 5,
++            "honey": false,
++            "crew": "ops",
++            "item": "echoChip"
++          },
++          {
++            "name": "figma bro",
++            "kitId": "wake",
++            "atk": 4,
++            "hp": 4,
++            "honey": false,
++            "crew": "builders"
++          },
++          {
++            "name": "Product Builder CoS",
++            "kitId": "checklist",
++            "atk": 3,
++            "hp": 4,
++            "honey": true,
++            "crew": "ops"
++          }
++        ],
++        "weight": 0.005813953488372092,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "drill"
++      },
++      {
++        "board": [
++          {
++            "name": "Mother Ship",
++            "kitId": "mission_control",
++            "atk": 1,
++            "hp": 5,
++            "honey": false,
++            "crew": "builders",
++            "item": "energyDrink"
++          },
++          {
++            "name": "Video Edit Desk",
++            "kitId": "wake",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "builders",
++            "item": "bubbleWrap"
++          },
++          {
++            "name": "Interview Prep",
++            "kitId": "next_question",
++            "atk": 1,
++            "hp": 5,
++            "honey": true,
++            "crew": "builders"
++          }
++        ],
++        "weight": 0.005813953488372092,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "drill"
++      },
++      {
++        "board": [
++          {
++            "name": "Lease Finder",
++            "kitId": "lowball",
++            "atk": 3,
++            "hp": 7,
++            "honey": false,
++            "crew": "sales",
++            "item": "hotfix"
++          },
++          {
++            "name": "Meeting Recap Deck",
++            "kitId": "echo",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "sales"
++          },
++          {
++            "name": "Hiring Signals",
++            "kitId": "backtap",
++            "atk": 4,
++            "hp": 2,
++            "honey": false,
++            "crew": "sales"
++          }
++        ],
++        "weight": 0.005813953488372092,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "scout"
++      },
++      {
++        "board": [
++          {
++            "name": "TenderYearsbot",
++            "kitId": "sitter_sheet",
++            "atk": 2,
++            "hp": 3,
++            "honey": false,
++            "crew": "personal"
++          },
++          {
++            "name": "Cooper",
++            "kitId": "echo",
++            "atk": 3,
++            "hp": 6,
++            "honey": false,
++            "crew": "sales",
++            "item": "stapler"
++          },
++          {
++            "name": "The Fool",
++            "kitId": "roast",
++            "atk": 3,
++            "hp": 3,
++            "honey": false,
++            "crew": "personal"
++          }
++        ],
++        "weight": 0.005813953488372092,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "medic"
++      },
++      {
++        "board": [
++          {
++            "name": "Alexandria",
++            "kitId": "quiet_please",
++            "atk": 4,
++            "hp": 8,
++            "honey": false,
++            "crew": "marketing"
++          },
++          {
++            "name": "Speed Lab",
++            "kitId": "first_paint",
++            "atk": 2,
++            "hp": 5,
++            "honey": false,
++            "crew": "builders"
++          },
++          {
++            "name": "ASC Skill",
++            "kitId": "pre_review",
++            "atk": 2,
++            "hp": 5,
++            "honey": false,
++            "crew": "builders"
++          }
++        ],
++        "weight": 0.005813953488372092,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "medic"
++      },
++      {
++        "board": [
++          {
++            "name": "Copy Humanizer",
++            "kitId": "flamingo",
++            "atk": 2,
++            "hp": 5,
++            "honey": false,
++            "crew": "marketing",
++            "item": "laserPointer"
++          },
++          {
++            "name": "Copy Humanizer",
++            "kitId": "flamingo",
++            "atk": 2,
++            "hp": 5,
++            "honey": false,
++            "crew": "marketing"
++          },
++          {
++            "name": "AI influencer carousels",
++            "kitId": "swipe",
++            "atk": 4,
++            "hp": 6,
++            "honey": false,
++            "crew": "marketing"
++          }
++        ],
++        "weight": 0.005813953488372092,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "chef"
++      },
++      {
++        "board": [
++          {
++            "name": "Webby",
++            "kitId": "bulk",
++            "atk": 3,
++            "hp": 5,
++            "honey": false,
++            "crew": "personal"
++          },
++          {
++            "name": "Homework Checker",
++            "kitId": "red_pen",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "personal"
++          },
++          {
++            "name": "Critiquito: Design Critique",
++            "kitId": "sting",
++            "atk": 3,
++            "hp": 5,
++            "honey": false,
++            "crew": "builders"
++          }
++        ],
++        "weight": 0.005813953488372092,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "scout"
++      },
++      {
++        "board": [
++          {
++            "name": "NYC Parent",
++            "kitId": "bulk",
++            "atk": 3,
++            "hp": 7,
++            "honey": false,
++            "crew": "personal",
++            "item": "echoChip"
++          },
++          {
++            "name": "Flora: Plant Care Log",
++            "kitId": "patch",
++            "atk": 2,
++            "hp": 6,
++            "honey": false,
++            "crew": "personal"
++          },
++          {
++            "name": "Life",
++            "kitId": "backfill",
++            "atk": 3,
++            "hp": 5,
++            "honey": false,
++            "crew": "personal"
++          }
++        ],
++        "weight": 0.005813953488372092,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "banker"
++      },
++      {
++        "board": [
++          {
++            "name": "Webby",
++            "kitId": "bulk",
++            "atk": 3,
++            "hp": 5,
++            "honey": false,
++            "crew": "personal"
++          },
++          {
++            "name": "Flora: Plant Care Log",
++            "kitId": "patch",
++            "atk": 2,
++            "hp": 6,
++            "honey": true,
++            "crew": "personal"
++          },
++          {
++            "name": "Lease Finder",
++            "kitId": "lowball",
++            "atk": 1,
++            "hp": 5,
++            "honey": false,
++            "crew": "sales",
++            "item": "spareParts"
++          }
++        ],
++        "weight": 0.005813953488372092,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "drill"
++      },
++      {
++        "board": [
++          {
++            "name": "SaaSbot",
++            "kitId": "outbound",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "sales",
++            "item": "muteButton"
++          },
++          {
++            "name": "WTD",
++            "kitId": "hype",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "marketing",
++            "item": "echoChip"
++          },
++          {
++            "name": "Renewals Invoice Bot",
++            "kitId": "renew",
++            "atk": 1,
++            "hp": 5,
++            "honey": true,
++            "crew": "sales"
++          }
++        ],
++        "weight": 0.005813953488372092,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "drill"
++      },
++      {
++        "board": [
++          {
++            "name": "Outbound Prospecting",
++            "kitId": "mosquito",
++            "atk": 5,
++            "hp": 4,
++            "honey": false,
++            "crew": "builders",
++            "item": "muteButton"
++          },
++          {
++            "name": "Event Producer",
++            "kitId": "spite",
++            "atk": 3,
++            "hp": 3,
++            "honey": false,
++            "crew": "builders",
++            "item": "teamBadge"
++          },
++          {
++            "name": "Call Follow-Ups",
++            "kitId": "echo",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "builders",
++            "item": "hotfix"
++          }
++        ],
++        "weight": 0.005813953488372092,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "medic"
++      },
++      {
++        "board": [
++          {
++            "name": "The Accountant",
++            "kitId": "tighten",
++            "atk": 1,
++            "hp": 3,
++            "honey": false,
++            "crew": "ops"
++          },
++          {
++            "name": "Root Agent",
++            "kitId": "relay",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "ops"
++          },
++          {
++            "name": "Wainwright Manager",
++            "kitId": "onboard",
++            "atk": 5,
++            "hp": 4,
++            "honey": false,
++            "crew": "ops"
++          }
++        ],
++        "weight": 0.003875968992248061,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "recruiter"
++      },
++      {
++        "board": [
++          {
++            "name": "Vigil",
++            "kitId": "defuse",
++            "atk": 3,
++            "hp": 7,
++            "honey": false,
++            "crew": "ops",
++            "item": "bubbleWrap"
++          },
++          {
++            "name": "Grant General Manager",
++            "kitId": "site_safety",
++            "atk": 2,
++            "hp": 5,
++            "honey": false,
++            "crew": "ops"
++          },
++          {
++            "name": "AI VP Bot",
++            "kitId": "command",
++            "atk": 2,
++            "hp": 4,
++            "honey": false,
++            "crew": "ops"
++          }
++        ],
++        "weight": 0.0019379844961240305,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "banker"
++      },
++      {
++        "board": [
++          {
++            "name": "Speed Lab",
++            "kitId": "first_paint",
++            "atk": 2,
++            "hp": 5,
++            "honey": true,
++            "crew": "builders"
++          },
++          {
++            "name": "Stills & Clips Desk",
++            "kitId": "wake",
++            "atk": 2,
++            "hp": 5,
++            "honey": false,
++            "crew": "marketing",
++            "item": "bubbleWrap"
++          },
++          {
++            "name": "Homework Checker",
++            "kitId": "red_pen",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "personal",
++            "item": "muteButton"
++          }
++        ],
++        "weight": 0.0019379844961240305,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "chef"
++      },
++      {
++        "board": [
++          {
++            "name": "Alexandria",
++            "kitId": "quiet_please",
++            "atk": 2,
++            "hp": 6,
++            "honey": true,
++            "crew": "marketing",
++            "item": "foamPad"
++          },
++          {
++            "name": "AI Search Visibility",
++            "kitId": "pin",
++            "atk": 3,
++            "hp": 5,
++            "honey": false,
++            "crew": "marketing"
++          },
++          {
++            "name": "AI influencer carousels",
++            "kitId": "swipe",
++            "atk": 2,
++            "hp": 4,
++            "honey": false,
++            "crew": "marketing"
++          }
++        ],
++        "weight": 0.0019379844961240305,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "chef"
++      },
++      {
++        "board": [
++          {
++            "name": "Online Identity Bot",
++            "kitId": "wide_search",
++            "atk": 9,
++            "hp": 6,
++            "honey": false,
++            "crew": "marketing",
++            "item": "muteButton"
++          },
++          {
++            "name": "Video Edit Desk",
++            "kitId": "wake",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "builders"
++          },
++          {
++            "name": "coffee companion",
++            "kitId": "bloom",
++            "atk": 2,
++            "hp": 3,
++            "honey": false,
++            "crew": "ops"
++          }
++        ],
++        "weight": 0.0019379844961240305,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "chef"
++      },
++      {
++        "board": [
++          {
++            "name": "Homework Checker",
++            "kitId": "red_pen",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "personal",
++            "item": "energyDrink"
++          },
++          {
++            "name": "Spark",
++            "kitId": "kickoff",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "builders"
++          },
++          {
++            "name": "Call Desk",
++            "kitId": "take_the_call",
++            "atk": 4,
++            "hp": 5,
++            "honey": false,
++            "crew": "personal"
++          }
++        ],
++        "weight": 0.0019379844961240305,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "drill"
++      },
++      {
++        "board": [
++          {
++            "name": "Farm",
++            "kitId": "sandbox",
++            "atk": 3,
++            "hp": 6,
++            "honey": false,
++            "crew": "builders"
++          },
++          {
++            "name": "Outbound Prospecting",
++            "kitId": "mosquito",
++            "atk": 3,
++            "hp": 4,
++            "honey": true,
++            "crew": "builders"
++          },
++          {
++            "name": "Mother Ship",
++            "kitId": "mission_control",
++            "atk": 1,
++            "hp": 5,
++            "honey": false,
++            "crew": "builders",
++            "item": "hotfix"
++          }
++        ],
++        "weight": 0.0019379844961240305,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "scout"
++      },
++      {
++        "board": [
++          {
++            "name": "Cue",
++            "kitId": "standby",
++            "atk": 2,
++            "hp": 5,
++            "honey": false,
++            "crew": "ops"
++          },
++          {
++            "name": "Product Builder CoS",
++            "kitId": "checklist",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "ops"
++          },
++          {
++            "name": "AI VP Bot",
++            "kitId": "command",
++            "atk": 2,
++            "hp": 4,
++            "honey": false,
++            "crew": "ops"
++          }
++        ],
++        "weight": 0.0019379844961240305,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "recruiter"
++      },
++      {
++        "board": [
++          {
++            "name": "Devils Advocate",
++            "kitId": "objection",
++            "atk": 4,
++            "hp": 4,
++            "honey": false,
++            "crew": "sales",
++            "item": "muteButton"
++          },
++          {
++            "name": "GTM Connections",
++            "kitId": "dodo",
++            "atk": 2,
++            "hp": 5,
++            "honey": true,
++            "crew": "sales"
++          },
++          {
++            "name": "Account Research Desk",
++            "kitId": "last_word",
++            "atk": 3,
++            "hp": 5,
++            "honey": false,
++            "crew": "sales"
++          }
++        ],
++        "weight": 0.0019379844961240305,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "scout"
++      },
++      {
++        "board": [
++          {
++            "name": "SaaSbot",
++            "kitId": "outbound",
++            "atk": 4,
++            "hp": 5,
++            "honey": false,
++            "crew": "sales"
++          },
++          {
++            "name": "Cooper",
++            "kitId": "echo",
++            "atk": 2,
++            "hp": 5,
++            "honey": false,
++            "crew": "sales"
++          },
++          {
++            "name": "Cooper",
++            "kitId": "echo",
++            "atk": 2,
++            "hp": 5,
++            "honey": false,
++            "crew": "sales"
++          }
++        ],
++        "weight": 0.0019379844961240305,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "scout"
++      },
++      {
++        "board": [
++          {
++            "name": "Grip",
++            "kitId": "clamp",
++            "atk": 2,
++            "hp": 3,
++            "honey": false,
++            "crew": "builders"
++          },
++          {
++            "name": "LearnBot",
++            "kitId": "study_up",
++            "atk": 3,
++            "hp": 5,
++            "honey": false,
++            "crew": "builders"
++          },
++          {
++            "name": "Mother Ship",
++            "kitId": "mission_control",
++            "atk": 1,
++            "hp": 5,
++            "honey": false,
++            "crew": "builders"
++          }
++        ],
++        "weight": 0.0019379844961240305,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "recruiter"
++      },
++      {
++        "board": [
++          {
++            "name": "Ad Spend Watch",
++            "kitId": "sting",
++            "atk": 4,
++            "hp": 4,
++            "honey": false,
++            "crew": "marketing"
++          },
++          {
++            "name": "Site Audit",
++            "kitId": "pin",
++            "atk": 3,
++            "hp": 3,
++            "honey": false,
++            "crew": "marketing"
++          },
++          {
++            "name": "AI Search Visibility",
++            "kitId": "pin",
++            "atk": 3,
++            "hp": 5,
++            "honey": false,
++            "crew": "marketing"
++          }
++        ],
++        "weight": 0.0019379844961240305,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "recruiter"
++      },
++      {
++        "board": [
++          {
++            "name": "Paid Media Report Desk",
++            "kitId": "grow",
++            "atk": 3,
++            "hp": 5,
++            "honey": false,
++            "crew": "marketing",
++            "item": "teamBadge"
++          },
++          {
++            "name": "WTD",
++            "kitId": "hype",
++            "atk": 4,
++            "hp": 5,
++            "honey": false,
++            "crew": "marketing"
++          },
++          {
++            "name": "Apple Search Ads Review",
++            "kitId": "grow",
++            "atk": 3,
++            "hp": 3,
++            "honey": false,
++            "crew": "marketing"
++          }
++        ],
++        "weight": 0.0019379844961240305,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "recruiter"
++      },
++      {
++        "board": [
++          {
++            "name": "Cue",
++            "kitId": "standby",
++            "atk": 2,
++            "hp": 5,
++            "honey": false,
++            "crew": "ops",
++            "item": "muteButton"
++          },
++          {
++            "name": "Paid Media Report Desk",
++            "kitId": "grow",
++            "atk": 3,
++            "hp": 5,
++            "honey": true,
++            "crew": "marketing"
++          },
++          {
++            "name": "Alexandria",
++            "kitId": "quiet_please",
++            "atk": 2,
++            "hp": 6,
++            "honey": false,
++            "crew": "marketing",
++            "item": "spareParts"
++          }
++        ],
++        "weight": 0.0019379844961240305,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "source": "pool",
++        "theirCaptain": "recruiter"
++      }
++    ],
++    "sources": {
++      "bookN": 1,
++      "poolN": 33,
++      "bookWeight": 0.75
++    },
++    "note": "r1 book=1@0.75 pool=33@0.25 latest"
++  },
++  "defenseTarget": {
++    "entries": [
++      {
++        "board": [
++          {
++            "name": "Foundry",
++            "kitId": "bedrock",
++            "atk": 3,
++            "hp": 4,
++            "honey": false,
++            "crew": "builders",
++            "item": null
++          },
++          {
++            "name": "X High Coach",
++            "kitId": "reach_check",
++            "atk": 2,
++            "hp": 4,
++            "honey": false,
++            "crew": "builders",
++            "item": null
++          },
++          {
++            "name": "LearnBot",
++            "kitId": "study_up",
++            "atk": 3,
++            "hp": 5,
++            "honey": false,
++            "crew": "builders",
++            "item": null
++          }
++        ],
++        "weight": 1,
++        "seats": {
++          "front": "hot_seat",
++          "middle": "hard_hat"
++        },
++        "theirCaptain": "recruiter"
++      }
++    ]
++  }
++}--- before/test/loop.test.js
++++ after/test/loop.test.js
+@@ -1176,3 +1176,35 @@
+   assert.strictEqual(results[0].matchId, arena.stats.matches[1].id);
+   assert.ok(lines.some((e) => e.type === 'act' && e.staleResult), 'the leftover result is logged as stale');
+ });
++
++test('unlimited healthy play crosses 4,000 iterations and still stops at the requested match count', async () => {
++  const dir = tmpdir(), arena = mockArena.create({ seed: 71, season: 2 });
++  let observations = 0;
++  const observe = arena.observe;
++  arena.observe = async () => { observations++; return observe(); };
++  // Isolate lifecycle testing from expensive search; all actions and battles still use the real reducer.
++  const fillPlanner = {
++    utility: planner.utility,
++    planStep: (S) => {
++      const i = S.offers.findIndex((o) => o && o.cost <= S.gold);
++      return S.board.length < 3 && i >= 0 ? { actions: [{ type: 'buy', shopIndex: i }] } : { done: true };
++    },
++    seatingActions: () => [],
++  };
++  const out = await loop.run({ arena, planner: fillPlanner, bookFile: path.join(dir, 'book.json'),
++    logDir: path.join(dir, 'log'), lastOpponentFile: path.join(dir, 'last.json'), prevHandle: null,
++    games: Infinity, stopAfterMatches: 900, start: true, seed: 71, maxMatchSteps: 20 });
++  assert.equal(out.games, 900);
++  assert.equal(out.exitReason, 'matches_done');
++  assert.ok(observations > 4000, `${observations} iterations must exceed the old lifetime cap`);
++  assert.equal(arena.stats.illegal, 0);
++});
++
++test('changing versions without a completed match cannot bypass the per-match step limit', async () => {
++  const dir = tmpdir(); let n = 0;
++  const arena = { observe: async () => ({ version: ++n, state: { phase: { kind: 'idle' } } }), act: async () => ({}) };
++  const out = await loop.run({ arena, bookFile: path.join(dir, 'book.json'), logDir: path.join(dir, 'log'),
++    start: true, games: Infinity, maxMatchSteps: 12, prevHandle: null });
++  assert.equal(out.exitReason, 'max_steps');
++  assert.equal(n, 12);
++});
+--- before/test/mcp_season3.test.js
++++ after/test/mcp_season3.test.js
+@@ -35,7 +35,7 @@
+     const c = battle.frames.map((f) => f.caption);
+     assert.ok(c.includes('Builders crew: +2/+3 to your front bot'));
+     assert.ok(c.includes('Drill: +2 ATK to your front bot'));
+-    assert.ok(c.includes('Enemy Medic: +3 HP to their back bot'));
++    assert.ok(c.includes('Enemy Medic: +3 HP to their front bot'));
+ 
+     arena.observe = async () => ({ version: 1, state: fixture.initial });
+     planner.chooseCaptain = () => 'chef';
+--- before/test/public_history.test.js
++++ after/test/public_history.test.js
+@@ -0,0 +1,168 @@
++'use strict';
++const test = require('node:test');
++const assert = require('node:assert/strict');
++const fs = require('node:fs'), path = require('node:path'), os = require('node:os'), zlib = require('node:zlib');
++const historyLib = require('../lib/public_history'), bookLib = require('../lib/book'), targetLib = require('../lib/target');
++const fixture = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(__dirname, 'fixtures/s3-defense-history-20260921.json.gz'))));
++const AT = Date.parse('2026-09-21T15:10:00Z');
++function setup(rows = fixture.history, details = fixture.details) {
++  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'arena-history-test-'));
++  const book = bookLib.open(path.join(dir, 'book.json'), { now: () => AT, maxBoards: 1000 });
++  const file = path.join(dir, 'history.json');
++  const open = () => historyLib.open({ file, handle: 'tetsuoai', now: () => AT });
++  const calls = [];
++  const arena = {
++    playerMatches: async (_handle, { cursor, limit }) => {
++      const start = Number(cursor || 0); calls.push(['page', start]);
++      return { data: rows.slice(start, start + limit), next_cursor: start + limit < rows.length ? String(start + limit) : null };
++    },
++    getPublicMatchDetail: async (id) => { calls.push(['detail', id]); return details[id]; },
++  };
++  return { dir, file, book, open, arena, calls };
++}
++
++test('all 129 real defenses enter learning once across pagination and restarts; rating totals reconcile', async () => {
++  const h = setup();
++  let store;
++  for (let i = 0; i < 14; i++) {
++    store = h.open();
++    const result = await store.poll({ ...h, maxPages: 1, maxDetails: 30 });
++    assert.equal(result.error, undefined);
++  }
++  const report = store.report();
++  assert.deepEqual(report.attack, { games: 1151, wins: 999, losses: 112, draws: 40, elo: 955 });
++  assert.deepEqual(report.defense, { games: 129, wins: 28, losses: 88, draws: 13, elo: -1211 });
++  assert.equal(report.combinedElo, -256);
++  assert.equal(report.pending, 0);
++  assert.equal(report.backfillPending, false);
++  const before = h.book.stats();
++  assert.equal(before.observations, 330);
++  assert.equal(Object.keys(h.book.data().receipts).length, 330);
++  assert.ok(store.defenseTarget(2).entries.length > 0);
++  const learned = h.book.lookup(3, 'ternquest_com', 2);
++  assert.ok(learned.length && learned.some((r) => r.board.some((u) => u.item)));
++  const target = targetLib.build({ book: h.book, season: 3, round: 2, handle: 'ternquest_com' });
++  assert.ok(target.entries.some((e) => e.source === 'book'));
++  await h.open().poll({ ...h, maxPages: 20, maxDetails: 200 });
++  assert.deepEqual(h.book.stats(), before);
++  assert.equal(h.calls.filter((c) => c[0] === 'detail').length, 129);
++});
++
++test('replay failures retry without poisoning the cursor or marking boards learned', async () => {
++  const row = fixture.history.find((r) => fixture.details[r.id]);
++  const h = setup([row], {}), events = [];
++  await h.open().poll({ ...h, event: (type, e) => events.push({ type, ...e }) });
++  assert.equal(h.book.stats().observations, 0);
++  assert.equal(h.open().report().pending, 1);
++  assert.ok(events.some((e) => e.where === 'defense_replay'));
++  const store = historyLib.open({ file: h.file, handle: 'tetsuoai', now: () => AT + 60001 });
++  h.arena.getPublicMatchDetail = async () => fixture.details[row.id];
++  await store.poll(h);
++  assert.equal(store.report().pending, 0);
++  assert.equal(h.book.stats().observations, fixture.details[row.id].rounds.length);
++});
++
++test('a crash after book save but before history commit does not double-count on retry', async () => {
++  const row = fixture.history.find((r) => fixture.details[r.id]), h = setup([row]);
++  fs.mkdirSync(h.file); // force the history rename to fail after the book has landed
++  const store = historyLib.open({ file: path.join(h.dir, 'other.json'), handle: 'tetsuoai', now: () => AT });
++  // Fail the rename using the same temporary path without corrupting the existing history file.
++  fs.mkdirSync(`${path.join(h.dir, 'other.json')}.tmp-${process.pid}`);
++  const result = await store.poll(h);
++  assert.match(result.error, /EISDIR/);
++  const first = h.book.stats();
++  assert.ok(first.observations > 0);
++  fs.rmdirSync(`${path.join(h.dir, 'other.json')}.tmp-${process.pid}`);
++  const retry = historyLib.open({ file: path.join(h.dir, 'other.json'), handle: 'tetsuoai', now: () => AT });
++  await retry.poll(h);
++  assert.deepEqual(h.book.stats(), first);
++  assert.equal(retry.report().pending, 0);
++});
++
++test('book receipts survive failed saves and merge with observations from another writer', () => {
++  const h = setup(), other = bookLib.open(h.book.file, { now: () => AT });
++  const obs = { season: 3, handle: 'rival', round: 0, ts: AT, board: [{ name: 'Cooper', kitId: 'sting', atk: 3, hp: 4 }] };
++  h.book.record({ ...obs, observationId: 'defense:a:0' });
++  fs.mkdirSync(`${h.book.file}.tmp-${process.pid}`);
++  assert.throws(() => h.book.save());
++  fs.rmdirSync(`${h.book.file}.tmp-${process.pid}`);
++  other.record({ ...obs, handle: 'second' }); other.save();
++  h.book.save(); h.book.record({ ...obs, observationId: 'defense:a:0' }); h.book.save();
++  const reread = bookLib.open(h.book.file);
++  assert.equal(reread.lookup(3, 'rival', 0)[0].n, 1);
++  assert.equal(reread.lookup(3, 'second', 0)[0].n, 1);
++});
++
++test('wrong accounts, roles, seasons, malformed pages and repeated cursors cannot become learned data', async () => {
++  const raw = fixture.history.find((r) => fixture.details[r.id]);
++  assert.throws(() => historyLib.rowOf(raw, 'someone_else', 3));
++  assert.equal(historyLib.rowOf(raw, 'tetsuoai', 2), null);
++  const row = historyLib.rowOf(raw, 'tetsuoai', 3);
++  const detail = fixture.details[row.id];
++  assert.throws(() => historyLib.replayInputs({ ...detail, opponent: { kind: 'ghost', x_handle: 'wrong' } }, row, 'tetsuoai', 3));
++  assert.throws(() => historyLib.replayInputs({ ...detail, rated: false }, row, 'tetsuoai', 3));
++  const h = setup();
++  h.arena.playerMatches = async () => ({ data: [raw], next_cursor: 'same' });
++  assert.match((await h.open().poll(h)).error, /cursor did not advance/);
++  assert.equal(h.book.stats().observations, 0);
++  fs.writeFileSync(h.file, '{broken');
++  assert.throws(() => h.open(), /Cannot read/);
++});
++
++test('new head records with the same timestamp are fetched after a checkpoint', async () => {
++  const raw = fixture.history.find((r) => !fixture.details[r.id]), rows = [{ ...raw, id: 'old' }];
++  const h = setup(rows);
++  await h.open().poll(h);
++  rows.unshift({ ...raw, id: 'new' });
++  const store = h.open(); await store.poll(h);
++  assert.equal(store.report().attack.games, 2);
++  assert.equal(store.report().attack.elo, 2 * historyLib.rowOf(raw, 'tetsuoai', 3).elo);
++});
++
++test('the real driver polls before planning, logs defense observations, and skips polling in practice', async () => {
++  const raw = fixture.history.find((r) => fixture.details[r.id]), h = setup([raw]);
++  const mock = require('./mock_arena').create({ seed: 19, season: 3 });
++  const events = [];
++  let plans = 0, auth = 0;
++  Object.assign(mock, h.arena, { getMe: async () => { auth++; return { xHandle: 'tetsuoai' }; } });
++  const planner = {
++    chooseCaptain: (S) => S.captainOffer[0],
++    planStep: (S) => {
++      assert.ok(h.book.lookup(3, historyLib.rowOf(raw, 'tetsuoai', 3).opponent, 0).length);
++      plans++;
++      const i = S.offers.findIndex((o) => o && o.cost <= S.gold);
++      return S.board.length < 3 && i >= 0 ? { actions: [{ type: 'buy', shopIndex: i }] } : { done: true };
++    },
++    seatingActions: () => [], utility: require('../lib/planner').utility,
++  };
++  await require('../driver/play_loop').run({ arena: mock, planner, book: h.book,
++    historyFile: h.file, telemetry: { event: (type, payload) => events.push({ type, ...payload }), close() {} },
++    games: 1, start: true, prevHandle: null, lastOpponentFile: path.join(h.dir, 'last.json') });
++  assert.equal(auth, 1); assert.ok(plans > 0);
++  assert.ok(events.some((e) => e.type === 'history' && e.defense.games === 1));
++  const learned = events.filter((e) => e.type === 'book' && e.source === 'defense_replay');
++  assert.equal(learned.length, fixture.details[raw.id].rounds.length);
++  assert.ok(learned.every((e) => e.board.length && e.observedAt && !e.matchKey));
++  mock.practice = true;
++  let practicePolls = 0;
++  mock.playerMatches = async () => { practicePolls++; throw new Error('practice must not poll'); };
++  mock.getMe = async () => { auth++; throw new Error('practice must not read an account'); };
++  const out = await require('../driver/play_loop').run({ arena: mock, book: h.book,
++    telemetry: { event() {}, close() {} }, games: 1, dry: true });
++  assert.equal(out.exitReason, 'dry');
++  assert.equal(practicePolls, 0);
++  assert.equal(auth, 1);
++});
++
++test('book merge retains both stores of defensive observation receipts', () => {
++  const h = setup(), otherFile = path.join(h.dir, 'other-book.json');
++  const other = bookLib.open(otherFile, { now: () => AT });
++  const obs = { season: 3, handle: 'rival', round: 0, ts: AT, board: [{ name: 'Cooper', kitId: 'sting', atk: 3, hp: 4 }] };
++  h.book.record({ ...obs, observationId: 'defense:one:0' }); h.book.save();
++  other.record({ ...obs, ts: AT + 1, observationId: 'defense:two:0' }); other.save();
++  require('../tools/merge_book').mergeFiles(otherFile, h.book.file);
++  const merged = bookLib.open(h.book.file, { now: () => AT });
++  assert.equal(Object.keys(merged.data().receipts).length, 2);
++  assert.equal(merged.record({ ...obs, observationId: 'defense:two:0' }), null);
++  assert.equal(merged.lookup(3, 'rival', 0)[0].n, 2);
++});
+--- before/test/season3_live_records.test.js
++++ after/test/season3_live_records.test.js
+@@ -27,7 +27,7 @@
+   const { state, target } = require('./fixtures/live-shop-stop-2026-09-21.json');
+   // Zero budget forces sample reduction deterministically, without wall-clock thresholds.
+   const ctx = () => ({ target, timeBudgetMs: 0, rng: sim.mulberry32(123) });
+-  const old = planner.planStep(state, { ...ctx(), verifyStop: false });
++  const old = planner.planStep(state, { ...ctx(), verifyStop: false, finishTies: false });
+   assert.equal(old.done, true, 'the reduced sample reproduces the original false stop');
+   const next = planner.planStep(state, ctx());
+   assert.ok(next.actions.length > 0);
+--- before/test/season3_sim.test.js
++++ after/test/season3_sim.test.js
+@@ -20,7 +20,7 @@
+     'The fight starts',
+     'Sales crew: +2 ATK to 2 of your bots',
+     'Drill: +2 ATK to your front bot',
+-    'Enemy Medic: +3 HP to their back bot',
++    'Enemy Medic: +3 HP to their front bot',
+     'A juiced A: +2 ATK',
+   ]);
+   assert.deepEqual(result.frames[4].you[0], { name: 'A', atk: 7, hp: 20 });
+@@ -126,3 +126,15 @@
+   assert.equal(got.winner, 'us');
+   assert.deepEqual(got.frames, round.frames);
+ });
++
++test('all 2,751 complete-input September 21 battles reproduce every frame and winner', () => {
++  const rows = JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync(
++    path.join(__dirname, 'fixtures/s3-live-logs-20260921.json.gz'))));
++  assert.equal(rows.length, 2751);
++  for (const r of rows) {
++    const got = sim.simulate(r.us, r.them, r.options);
++    const label = `${r.matchId} round ${r.round}`;
++    assert.equal(got.winner === 'us' ? 'you' : got.winner, r.winner, label);
++    assert.deepEqual(got.frames, r.frames, label);
++  }
++});
+--- before/tools/eval_defense_logs.js
++++ after/tools/eval_defense_logs.js
+@@ -0,0 +1,75 @@
++#!/usr/bin/env node
++'use strict';
++/** Chronological final-shop counterfactual. Requires the extracted evidence/analysis directory
++ * from docs/results/log-review-2026-09-21/evidence.tgz. No network or writes to learned memory.
++ * Training uses defensive replays at least 60 seconds older than each shop. Held-out defenses
++ * are scored only when their original board matches that shop's recorded saved board exactly.
++ */
++const fs = require('node:fs'), path = require('node:path'), zlib = require('node:zlib');
++const history = require('../lib/public_history'), planner = require('../lib/planner');
++const shop = require('../lib/shop_model'), sim = require('../lib/sim'), book = require('../lib/book');
++const key = (b) => book.boardKey(book.normBoard(b));
++const sc = (w) => w === 'us' ? 1 : w === 'draw' ? 0.5 : 0;
++function evaluate(dir) {
++  const rows = JSON.parse(fs.readFileSync(path.join(dir, 'shop-rows.json'))).filter((r) => r.finalState && r.exactThem && r.battle);
++  const saved = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(__dirname, '../test/fixtures/s3-defense-history-20260921.json.gz'))));
++  const attacks = saved.history.filter((r) => saved.details[r.id]).map((raw) => {
++    const row = history.rowOf(raw, 'tetsuoai', 3), detail = saved.details[row.id];
++    return { ...row, rounds: history.replayInputs(detail, row, 'tetsuoai', 3), detail };
++  }).sort((a, b) => b.ts - a.ts);
++  const defenseRows = JSON.parse(fs.readFileSync(path.join(dir, 'defense-rounds.json')));
++  const results = [], examples = [];
++  for (const r of rows) {
++    const S = r.finalState;
++    const training = attacks.filter((a) => a.ts < Date.parse(r.ts) - 60000)
++      .flatMap((a) => a.rounds.filter((x) => x.round === r.round && x.seats).map((x) => ({ ...x, weight: 1, theirCaptain: x.captain, source: 'defense' }))).slice(0, 24);
++    const context = { target: r.target, defenseTarget: { entries: training } };
++    const baseline = planner.evaluate(shop.simUnits(S), r.target, { ...r.simOptions,
++      ourCaptain: S.captain, theirCaptain: S.rivalCaptain, utility: planner.utility(S.round, S.series) });
++    const beforeFinish = planner.finishValue(S, r.target, context.defenseTarget);
++    let after = S, actions = [];
++    for (let step = 0; step < 24; step++) {
++      const move = planner.finishMove(after, context);
++      if (!move) break;
++      actions.push(...move.actions);
++      for (const a of move.actions) after = shop.apply(after, a);
++      if (step === 23) throw new Error('Finishing search did not converge');
++    }
++    const choice = planner.finishValue(after, r.target, context.defenseTarget);
++    if (choice.score < baseline.score - 1e-9) throw new Error('Primary objective regressed');
++    const beforeAttack = sc(sim.outcome(baseline.order, r.exactThem, r.simOptions));
++    const afterAttack = sc(sim.outcome(choice.order, r.exactThem, r.simOptions));
++    const defenses = [];
++    for (const incoming of defenseRows.filter((d) => d.round === r.round && d.lastOwnSource?.matchId === r.matchId && key(d.defender) === key(r.actualUnits))) {
++      const match = attacks.find((a) => a.id === incoming.matchId), observed = match?.rounds.find((x) => x.round === r.round);
++      if (!observed?.seats) continue;
++      const opts = { season: 3, round: r.round, seats: observed.seats, ourCaptain: observed.captain, theirCaptain: S.captain };
++      defenses.push({ id: incoming.matchId, before: 1 - sc(sim.outcome(observed.board, baseline.order, opts)),
++        after: 1 - sc(sim.outcome(observed.board, choice.order, opts)) });
++    }
++    results.push({ matchId: r.matchId, round: r.round, ts: r.ts, trainedDefenses: training.length, actions,
++      targetBefore: baseline.score, targetAfter: choice.score, beforeAttack, afterAttack,
++      neutralBefore: beforeFinish.neutral, neutralAfter: choice.neutral,
++      defenseBefore: beforeFinish.defense, defenseAfter: choice.defense, defenses });
++    if (actions.length && examples.length < 16) examples.push({ state: S, ...context });
++  }
++  const sum = (rs, k) => rs.reduce((s, r) => s + r[k], 0);
++  const held = results.flatMap((r) => r.defenses);
++  const summary = { shops: results.length, withPastDefenses: results.filter((r) => r.trainedDefenses).length,
++    shopsWithExtraMoves: results.filter((r) => r.actions.length).length,
++    currentTargetRegressions: results.filter((r) => r.targetAfter < r.targetBefore - 1e-9).length,
++    attack: { beforeScore: sum(results, 'beforeAttack'), afterScore: sum(results, 'afterAttack'),
++      improved: results.filter((r) => r.afterAttack > r.beforeAttack).length, worse: results.filter((r) => r.afterAttack < r.beforeAttack).length },
++    defense: { rounds: held.length, distinctSourceRounds: results.filter((r) => r.defenses.length).length,
++      beforeScore: sum(held, 'before'), afterScore: sum(held, 'after'),
++      improved: held.filter((r) => r.after > r.before).length, worse: held.filter((r) => r.after < r.before).length },
++    limits: 'Final-shop counterfactuals, not whole-match play. Incoming attackers stay as recorded; repeated defenses of one saved board are correlated. Public replay availability is approximated with a 60-second lag. No future defensive board is used for planning.' };
++  return { summary, results, examples };
++}
++if (require.main === module) {
++  if (!process.argv[2] || !process.argv[3]) throw new Error('Usage: node tools/eval_defense_logs.js ANALYSIS_DIR NEW_OUTPUT.json');
++  const result = evaluate(path.resolve(process.argv[2]));
++  fs.writeFileSync(process.argv[3], JSON.stringify(result, null, 2), { flag: 'wx' });
++  console.log(JSON.stringify(result.summary, null, 2));
++}
++module.exports = { evaluate };
+--- before/tools/merge_book.js
++++ after/tools/merge_book.js
+@@ -77,6 +77,8 @@
+     mine.sort((a, b) => b.lastTs - a.lastTs);
+     ours.entries[key] = mine.slice(0, bookLib.MAX_BOARDS);
+   }
++  // Preserve the idempotency receipts when importing learned defensive observations.
++  if (theirs.receipts) ours.receipts = { ...theirs.receipts, ...(ours.receipts || {}) };
+   const keys = Object.keys(ours.entries).length;
+   const boards = Object.values(ours.entries).reduce((s, l) => s + l.length, 0);
+   const obs = Object.values(ours.entries).reduce((s, l) => s + l.reduce((a, e) => a + e.n, 0), 0);
+--- before/tools/rating_report.js
++++ after/tools/rating_report.js
+@@ -0,0 +1,11 @@
++#!/usr/bin/env node
++'use strict';
++// Read-only public-history ledger. Both roles cover the same fetched time window.
++const fs = require('node:fs');
++const history = require('../lib/public_history');
++if (require.main === module) {
++  const file = process.argv[2] || history.DEFAULT_FILE;
++  const since = process.argv[3] == null ? -Infinity : Date.parse(process.argv[3]);
++  if (Number.isNaN(since)) throw new Error('Invalid since timestamp');
++  console.log(JSON.stringify(history.report(JSON.parse(fs.readFileSync(file, 'utf8')), since), null, 2));
++}

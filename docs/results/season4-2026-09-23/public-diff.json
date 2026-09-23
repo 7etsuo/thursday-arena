@@ -1,0 +1,274 @@
+[
+  {
+    "id": "6cc43929-622b-4397-98a4-07699eb04c9c",
+    "round": 0,
+    "us": [
+      {
+        "name": "Webby",
+        "kitId": "bulk",
+        "atk": 3,
+        "hp": 5,
+        "honey": false,
+        "crew": "personal",
+        "item": null
+      },
+      {
+        "name": "Pipeline Pulse",
+        "kitId": "sidestep",
+        "atk": 3,
+        "hp": 4,
+        "honey": false,
+        "crew": "sales",
+        "item": null
+      },
+      {
+        "name": "Icebreaker",
+        "kitId": "cold_call",
+        "atk": 3,
+        "hp": 4,
+        "honey": false,
+        "crew": "sales",
+        "item": null
+      }
+    ],
+    "them": [
+      {
+        "name": "bookworm",
+        "kitId": "dog_ear",
+        "atk": 3,
+        "hp": 5,
+        "honey": false,
+        "crew": "marketing",
+        "item": null
+      },
+      {
+        "name": "Farm",
+        "kitId": "sandbox",
+        "atk": 2,
+        "hp": 5,
+        "honey": false,
+        "crew": "builders",
+        "item": null
+      },
+      {
+        "name": "NYC Parent",
+        "kitId": "bulk",
+        "atk": 2,
+        "hp": 6,
+        "honey": false,
+        "crew": "personal",
+        "item": null
+      }
+    ],
+    "opts": {
+      "season": 4,
+      "round": 0,
+      "seats": {
+        "front": "warm_up"
+      },
+      "ourCaptain": null,
+      "theirCaptain": "medic",
+      "ourRelics": [],
+      "theirRelics": []
+    },
+    "i": 12,
+    "actual": {
+      "you": [
+        {
+          "name": "Pipeline Pulse",
+          "atk": 5,
+          "hp": 4
+        },
+        {
+          "name": "Icebreaker",
+          "atk": 5,
+          "hp": 4
+        }
+      ],
+      "them": [
+        {
+          "name": "Farm",
+          "atk": 2,
+          "hp": 4
+        },
+        {
+          "name": "NYC Parent",
+          "atk": 2,
+          "hp": 11
+        }
+      ],
+      "caption": "Webby is knocked out"
+    },
+    "pred": {
+      "you": [
+        {
+          "name": "Webby",
+          "atk": 4,
+          "hp": 0
+        },
+        {
+          "name": "Pipeline Pulse",
+          "atk": 5,
+          "hp": 4
+        },
+        {
+          "name": "Icebreaker",
+          "atk": 5,
+          "hp": 4
+        }
+      ],
+      "them": [
+        {
+          "name": "Farm",
+          "atk": 2,
+          "hp": 4
+        },
+        {
+          "name": "NYC Parent",
+          "atk": 2,
+          "hp": 11
+        }
+      ],
+      "caption": "bookworm leaves Leech 1 to Farm"
+    }
+  },
+  {
+    "id": "82e7ff54-1c4f-4ef3-b4ef-fb041ed792a4",
+    "round": 1,
+    "us": [
+      {
+        "name": "SaaSbot",
+        "kitId": "outbound",
+        "atk": 4,
+        "hp": 5,
+        "honey": true,
+        "crew": "sales",
+        "item": "scoreboard"
+      },
+      {
+        "name": "Weekend Scout",
+        "kitId": "weekend_plan",
+        "atk": 3,
+        "hp": 5,
+        "honey": false,
+        "crew": "personal",
+        "item": "hotfix"
+      },
+      {
+        "name": "KLO",
+        "kitId": "remix",
+        "atk": 3,
+        "hp": 5,
+        "honey": false,
+        "crew": "marketing",
+        "item": null
+      }
+    ],
+    "them": [
+      {
+        "name": "Cadence",
+        "kitId": "tempo",
+        "atk": 2,
+        "hp": 5,
+        "honey": true,
+        "crew": "personal",
+        "item": null
+      },
+      {
+        "name": "Online Identity Bot",
+        "kitId": "wide_search",
+        "atk": 4,
+        "hp": 3,
+        "honey": false,
+        "crew": "marketing",
+        "item": null
+      },
+      {
+        "name": "🚦 Set Up",
+        "kitId": "red_light",
+        "atk": 2,
+        "hp": 5,
+        "honey": false,
+        "crew": "builders",
+        "item": null
+      }
+    ],
+    "opts": {
+      "season": 4,
+      "round": 1,
+      "seats": {
+        "front": "hot_seat",
+        "middle": "warm_up"
+      },
+      "ourCaptain": null,
+      "theirCaptain": null,
+      "ourRelics": [],
+      "theirRelics": []
+    },
+    "i": 16,
+    "actual": {
+      "you": [
+        {
+          "name": "Weekend Scout",
+          "atk": 4,
+          "hp": 6
+        },
+        {
+          "name": "KLO",
+          "atk": 3,
+          "hp": 5
+        }
+      ],
+      "them": [
+        {
+          "name": "Drone",
+          "atk": 1,
+          "hp": 0
+        },
+        {
+          "name": "Online Identity Bot",
+          "atk": 5,
+          "hp": 3
+        },
+        {
+          "name": "🚦 Set Up",
+          "atk": 2,
+          "hp": 5
+        }
+      ],
+      "caption": "Drone is knocked out"
+    },
+    "pred": {
+      "you": [
+        {
+          "name": "Drone",
+          "atk": 1,
+          "hp": 0
+        },
+        {
+          "name": "Weekend Scout",
+          "atk": 4,
+          "hp": 6
+        },
+        {
+          "name": "KLO",
+          "atk": 3,
+          "hp": 5
+        }
+      ],
+      "them": [
+        {
+          "name": "Online Identity Bot",
+          "atk": 5,
+          "hp": 3
+        },
+        {
+          "name": "🚦 Set Up",
+          "atk": 2,
+          "hp": 5
+        }
+      ],
+      "caption": "Drone is knocked out"
+    }
+  }
+]

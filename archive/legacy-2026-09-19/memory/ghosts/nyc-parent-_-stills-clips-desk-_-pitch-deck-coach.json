@@ -1,0 +1,74 @@
+{
+  "fp": "nyc parent | stills clips desk | pitch deck coach",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "pitch deck coach",
+      "kit": "last_word",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mikegyvergarcia"
+  ],
+  "matchups": {
+    "recipe-tradbot__cooper__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:22:58.971Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__lead-pipeline-desk__product-support-inbox-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:23:36.676Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__company-docs-q-a__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:23:54.226Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__company-docs-q-a__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:24:10.596Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__webby__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:24:28.787Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__lead-pipeline-desk__product-support-inbox-assistant",
+  "plays": 5,
+  "updated": "2026-09-19T00:24:28.787Z"
+}

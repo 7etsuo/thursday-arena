@@ -1,0 +1,42 @@
+{
+  "fp": "gtm connections | sales call coach | talent discovery",
+  "seats": [
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "talent discovery",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "lawrencejessej"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__the-morning-newspaper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T23:12:28.699Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__the-morning-newspaper__writing-bot",
+  "plays": 1,
+  "updated": "2026-09-18T23:12:28.699Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-office-ops-desk__gtm-loop-closer__game-art-director",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "game art director",
+      "kit": "spotlight",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "hold_the_line",
+    "cover",
+    "spotlight"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -12,
+  "last": "2026-09-18T20:49:59.571Z"
+}

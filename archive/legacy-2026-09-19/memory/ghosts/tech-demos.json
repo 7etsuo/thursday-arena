@@ -1,0 +1,55 @@
+{
+  "fp": "tech demos",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "lyanlab",
+    "poteto",
+    "webjuice_ie",
+    "databoticsusa"
+  ],
+  "matchups": {
+    "recipe-cooper__writing-bot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:02:27.359Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__meeting-recap-deck__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:02:35.326Z",
+      "lastResult": "win"
+    },
+    "recipe-deal-inspector__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:02:42.647Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__company-docs-q-a__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:02:49.639Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__company-docs-q-a__wtd",
+  "plays": 4,
+  "updated": "2026-09-19T01:47:51.687Z"
+}

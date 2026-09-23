@@ -1,0 +1,22 @@
+{
+  "verifiedAt": "2026-09-23T09:49:41.944402+00:00",
+  "node": "v25.9.0",
+  "codeVersion": "889c4750a726",
+  "cleanInstall": true,
+  "tests": {
+    "pass": 275,
+    "fail": 0
+  },
+  "reviewedFileChecks": 92,
+  "localMemoryUnchanged": true,
+  "memoryHashes": {
+    "memory/last_opponent.json": "6fb502143afb5444dcc1fce8aa9db8ebb5704d2427ab9fbd095b6513b3a7a8af",
+    "memory/book.json": "593bfb43d4f9a1e789bf6d7ee7bb8c22785cfb65c92d4437a54de7407b7711c1"
+  },
+  "ratedGamesPlayed": 0,
+  "practiceMatches": 7,
+  "practiceBattlesExact": 17,
+  "controlledBattleCasesExact": 395,
+  "shopTransitionsChecked": 101,
+  "unresolvedHistoricalPublicTraces": 2
+}

@@ -1,0 +1,58 @@
+{
+  "fp": "meeting recap deck | competitor watch | company docs q a",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jerkyjesse"
+  ],
+  "matchups": {
+    "recipe-sales-call-coach__call-follow-ups__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:38:32.541Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__critiquito-design-critique__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:38:44.884Z",
+      "lastResult": "win"
+    },
+    "recipe-seo-aeo-desk__webby__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:39:04.068Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-seo-aeo-desk__webby__call-follow-ups",
+  "plays": 3,
+  "updated": "2026-09-18T23:39:04.068Z"
+}

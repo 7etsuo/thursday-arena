@@ -1,0 +1,16 @@
+Install the supplied thursday-arena-defense-fixed-20260921.tgz on YOUR computer, where the bot runs. The fixes are already implemented and tested. This is an installation task. Do not edit, rewrite, tune, generate, or attempt to fix any application code.
+
+1. Find your existing Thursday Arena installation and how its loop is managed. Stop the bot gracefully, including any supervisor that would restart it. Confirm it has exited before replacing anything. Back up the entire existing installation and its learned data.
+2. Extract the TGZ into a separate staging directory. Its top-level directory is thursday-arena. Read docs/DEFENSE_FIXES_2026-09-21.md. From inside that staged directory, run:
+   sha256sum -c docs/results/defense-fixes-2026-09-21/runtime-sha256.txt
+3. Install the staged application unchanged. Preserve the ENTIRE existing memory directory, including book.json, last_opponent.json and public_history.json if present. Preserve all existing logs, additional corpus files, environment/configuration files and the dedicated browser profile. Existing learned memory takes precedence over bundled memory. Do not rebuild, replace, manually merge or reset learned records. Keep the previous installation available for rollback.
+4. Use Node 25. Run npm ci, then npm test from the installed application directory. The verified package has 247 passing tests. Run the same sha256sum command again to confirm the application files remain unchanged.
+5. With rated play still stopped, run exactly:
+   node tools/bootstrap_s3_book.js
+   This is a no-op if the preserved book already has Season 3 records. It must not be replaced with book:build or any manual memory merge.
+6. Run the supplied anonymous practice check:
+   node tools/verify_live_practice.js --seed 20260922 --games 2 --budget 1500
+   It uses temporary memory/log copies and does not change rating. Do not write a substitute test or edit code if it fails.
+7. Report the installation directory, backup location, Node version, checksum results, npm test result, bootstrap result and practice result. If any step fails, stop and report the exact error. Do not repair or modify code. Leave rated play and its supervisor stopped; installation verification does not include starting rated games.
+
+The next authorized rated run will automatically fetch recent public defenses and learn from them. Preserve public_history.json on future upgrades. No installation path on your computer is assumed, and you do not need access to the reviewer's computer.

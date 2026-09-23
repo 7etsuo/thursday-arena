@@ -1,0 +1,38 @@
+{
+  "id": "recipe-outbound-prospecting__outbound-prospecting__event-request-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "event request desk",
+      "kit": "sidestep",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "mosquito",
+    "mosquito",
+    "sidestep"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -29,
+  "last": "2026-09-19T02:53:34.532Z"
+}

@@ -1,0 +1,66 @@
+{
+  "fp": "outbound prospecting | love | tech demos",
+  "seats": [
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "fbacope88"
+  ],
+  "matchups": {
+    "recipe-webby__copy-humanizer__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:15:02.670Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:15:11.245Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__webby__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:15:19.284Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__office-ops-desk__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:15:25.935Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__office-ops-desk__paid-media-report-desk",
+  "plays": 4,
+  "updated": "2026-09-18T21:15:34.065Z"
+}

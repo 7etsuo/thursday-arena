@@ -1,0 +1,74 @@
+{
+  "id": "win-20260917-study12",
+  "name": "clone-roostercogdick-companydoc-gtmconnect-lumapages",
+  "result": "win",
+  "plan": "buff",
+  "rating_delta": 13,
+  "opponent_tier": "unknown",
+  "rounds": "2-0",
+  "curve": {
+    "r1": [
+      "Company Docs Q&A 2/6",
+      "GTM Connections 2/5",
+      "Luma Pages 2/4"
+    ],
+    "r2": [
+      "Company Docs Q&A 3/7",
+      "GTM Connections 2/5",
+      "Luma Pages 2/4"
+    ],
+    "r3": [
+      "Company Docs Q&A 3/7 honey",
+      "GTM Connections 2/5",
+      "Luma Pages 2/4"
+    ]
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "Company Docs Q&A",
+      "atk": 3,
+      "hp": 7,
+      "food": "honey",
+      "kit": "Guard"
+    },
+    {
+      "seat": 2,
+      "name": "GTM Connections",
+      "atk": 2,
+      "hp": 5,
+      "food": null,
+      "kit": "Spot"
+    },
+    {
+      "seat": 3,
+      "name": "Luma Pages",
+      "atk": 2,
+      "hp": 4,
+      "food": null,
+      "kit": "Hype"
+    }
+  ],
+  "keys": [
+    "hype",
+    "guard",
+    "honey_front",
+    "company_docs_q_a",
+    "gtm_connections",
+    "luma_pages"
+  ],
+  "why": "cloned from @roostercogdick win vs @nobitoshii: honey sting on Company Docs Q&A; hype juiced front",
+  "reuse": "when shop offers similar buff pieces: Company Docs Q&A, GTM Connections, Luma Pages",
+  "avoid": "do not force if shop misses core kits; public clone may lack freeze/buy order fidelity",
+  "plays": 0,
+  "wins": 0,
+  "losses": 0,
+  "last_used": null,
+  "meta": {
+    "player": "roostercogdick",
+    "source_match": "835ff287-cd3d-40f2-8ef7-7328891e1d6c",
+    "source_url": "https://thursdayarena.com/matches/835ff287-cd3d-40f2-8ef7-7328891e1d6c",
+    "cloned_at": "2026-09-17",
+    "inferred": true
+  }
+}

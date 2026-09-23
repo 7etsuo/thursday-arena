@@ -1,0 +1,58 @@
+{
+  "fp": "event producer | call follow ups | lead pipeline desk",
+  "seats": [
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "3luedream"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__tradbot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T12:02:24.120Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__cooper__product-support-inbox-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T12:02:31.561Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__seo-aeo-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T12:02:50.709Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-tradbot__seo-aeo-desk__wtd",
+  "plays": 3,
+  "updated": "2026-09-18T12:03:10.029Z"
+}

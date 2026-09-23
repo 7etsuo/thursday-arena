@@ -1,0 +1,66 @@
+{
+  "fp": "signal prospector | pipeline pulse | the morning newspaper",
+  "seats": [
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jeffbarnette"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__company-docs-q-a__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:00:22.796Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__nyc-parent__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:00:59.037Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__meeting-recap-deck__site-audit": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:01:18.266Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__wtd__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:01:41.504Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__wtd__wtd",
+  "plays": 4,
+  "updated": "2026-09-18T22:01:50.708Z"
+}

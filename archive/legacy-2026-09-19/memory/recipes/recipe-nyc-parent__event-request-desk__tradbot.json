@@ -1,0 +1,39 @@
+{
+  "id": "recipe-nyc-parent__event-request-desk__tradbot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "event request desk",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "tradbot",
+      "kit": "guard",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "bulk",
+    "sidestep",
+    "guard"
+  ],
+  "tags": [
+    "recent_loss",
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 1,
+  "elo": -23,
+  "last": "2026-09-19T00:10:44.238Z"
+}

@@ -1,0 +1,15 @@
+{
+  "archive": "thursday-arena-all-logs-20260922-173533.tgz",
+  "archiveSha256": "adf75994ffcdd9be7338d44f360128356a2cf58c71b88d0bd6d3bc611979b060",
+  "segmentCode": "4b9517215174",
+  "matches": 2943,
+  "rounds": 7250,
+  "fixtureSha256": "e6d255f88b96d7150ed6fbc50f2d92c51c1225c02f314aee7c21778011b8d1ab",
+  "beforeRuntime": "/tmp/arena-fixes-20260923/before",
+  "analysisDirectory": "/tmp/user/1000/arena-readonly-20260922-ugew0026/analysis",
+  "defensivePublicMatchesFetched": 401,
+  "publicRulesUrl": "https://thursdayarena.com/rules.md",
+  "currentSeasonUrl": "https://thursdayarena.com/api/season",
+  "currentSeason": 4,
+  "abandonedPilot": "The 100-game, 2-seed late-paired pilot was stopped after correcting the historical clock and defensive series context. No performance claim uses that incomplete run."
+}

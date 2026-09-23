@@ -1,0 +1,38 @@
+{
+  "id": "recipe-x-brief__hiring-signals__alfred",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "hiring signals",
+      "kit": "backtap",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "alfred",
+      "kit": "last_word",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "backtap",
+    "last_word"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 7,
+  "last": "2026-09-18T21:58:56.155Z"
+}

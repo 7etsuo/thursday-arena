@@ -1,0 +1,106 @@
+{
+  "fp": "tech demos | event producer | ai search visibility",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "kshay712"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__luma-pages__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:44:32.572Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:44:41.658Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__meeting-recap-deck__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:44:50.339Z",
+      "lastResult": "win"
+    },
+    "recipe-dr-eggbot__x-brief__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:45:01.531Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__x-brief__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:45:11.389Z",
+      "lastResult": "win"
+    },
+    "recipe-event-request-desk__apple-search-ads-review__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:45:18.203Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__webby__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:45:27.073Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:45:33.621Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:45:41.035Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__luma-pages__projects-manager",
+  "plays": 9,
+  "updated": "2026-09-18T21:45:41.035Z"
+}

@@ -1,0 +1,66 @@
+{
+  "fp": "nightly audit engineer | x brief | gtm account research",
+  "seats": [
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 5,
+      "hp": 8,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm account research",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "_ebfe"
+  ],
+  "matchups": {
+    "recipe-paid-media-report-desk__copy-humanizer__talent-discovery": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T21:07:17.005Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__pipeline-pulse__account-research-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -8,
+      "last": "2026-09-18T21:07:28.017Z",
+      "lastResult": "draw"
+    },
+    "recipe-deal-inspector__love__pitch-deck-coach": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-18T21:07:39.187Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__nightly-audit-engineer__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -7,
+      "last": "2026-09-18T21:08:12.752Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__nightly-audit-engineer__writing-bot",
+  "plays": 4,
+  "updated": "2026-09-18T21:08:12.752Z"
+}

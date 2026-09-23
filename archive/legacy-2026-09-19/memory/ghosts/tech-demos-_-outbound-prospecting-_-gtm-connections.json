@@ -1,0 +1,58 @@
+{
+  "fp": "tech demos | outbound prospecting | gtm connections",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "drilonbrahelika"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__company-docs-q-a__wtd": {
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-18T12:24:27.479Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__call-follow-ups__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:24:34.735Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:24:40.672Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__company-docs-q-a__wtd",
+  "plays": 4,
+  "updated": "2026-09-18T12:24:46.787Z"
+}

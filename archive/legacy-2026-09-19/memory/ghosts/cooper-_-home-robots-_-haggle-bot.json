@@ -1,0 +1,74 @@
+{
+  "fp": "cooper | home robots | haggle bot",
+  "seats": [
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "desmondcheongzx"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__credit-card-max__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:35:25.004Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__meeting-recap-deck__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:36:04.692Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__meeting-recap-deck__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:36:22.845Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__love__tradbot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T23:36:52.079Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__webby__love": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:36:59.458Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__webby__love",
+  "plays": 5,
+  "updated": "2026-09-18T23:36:59.458Z"
+}

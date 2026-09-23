@@ -1,0 +1,30 @@
+{
+  "newLiveRecords": {
+    "before": {
+      "battles": 337,
+      "winners": 333,
+      "fullFrames": 306
+    },
+    "after": {
+      "battles": 337,
+      "winners": 337,
+      "fullFrames": 337
+    }
+  },
+  "historicalCorpus": {
+    "battles": 10748,
+    "winners": 10748
+  },
+  "historicalArchive": {
+    "complete": 7121,
+    "winners": 7121,
+    "frames": 7121,
+    "mismatches": []
+  },
+  "tests": {
+    "pass": 233,
+    "fail": 0
+  },
+  "localMemoryChanged": false,
+  "ratedGamesPlayed": 0
+}

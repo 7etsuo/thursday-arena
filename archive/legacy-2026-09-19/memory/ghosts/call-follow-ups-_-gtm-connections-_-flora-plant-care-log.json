@@ -1,0 +1,82 @@
+{
+  "fp": "call follow ups | gtm connections | flora plant care log",
+  "seats": [
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "davenguyen"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__wtd__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:30:51.195Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__hiring-signals__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:31:00.749Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__paid-media-report-desk__tinkabot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:31:14.169Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__dr-eggbot__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:31:25.985Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__stills-clips-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:31:43.711Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__apple-search-ads-review__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:31:54.960Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__apple-search-ads-review__projects-manager",
+  "plays": 6,
+  "updated": "2026-09-19T00:31:54.960Z"
+}

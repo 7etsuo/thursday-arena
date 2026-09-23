@@ -1,0 +1,38 @@
+{
+  "id": "recipe-seo-aeo-desk__deal-hunting__event-request-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "deal hunting",
+      "kit": "drain",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "event request desk",
+      "kit": "sidestep",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "pin",
+    "drain",
+    "sidestep"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -29,
+  "last": "2026-09-19T00:01:46.138Z"
+}

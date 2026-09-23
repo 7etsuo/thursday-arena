@@ -1,0 +1,106 @@
+{
+  "fp": "pipeline pulse | cooper | x brief",
+  "seats": [
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sandisjonass"
+  ],
+  "matchups": {
+    "recipe-cooper__customer-call-coach-assistant__overheard": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T20:53:35.017Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__imogen__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:53:47.132Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__love__meeting-recap-deck": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T20:53:56.065Z",
+      "lastResult": "loss"
+    },
+    "recipe-company-docs-q-a__deal-hunting__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T20:54:02.817Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__company-docs-q-a__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:54:13.360Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__webby__deal-hunting": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T20:54:22.535Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__love__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:54:34.011Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-call-coach-assistant__site-audit__hiring-signals": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T20:54:41.347Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__luma-pages__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:54:54.921Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__luma-pages__luma-pages",
+  "plays": 9,
+  "updated": "2026-09-18T20:54:54.921Z"
+}

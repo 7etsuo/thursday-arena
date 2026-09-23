@@ -1,0 +1,39 @@
+{
+  "id": "recipe-imogen__meeting-recap-deck__office-ops-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "echo",
+    "hold_the_line"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 3,
+  "wins": 2,
+  "losses": 1,
+  "elo": -8,
+  "last": "2026-09-19T05:29:17.530Z"
+}

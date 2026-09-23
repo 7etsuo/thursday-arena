@@ -1,0 +1,42 @@
+{
+  "fp": "webby | stalk bot | video edit desk",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "stalk bot",
+      "kit": "snowball",
+      "atk": 6,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "as42tsx"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -17,
+      "last": "2026-09-19T07:14:31.718Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__writing-bot__wtd",
+  "plays": 1,
+  "updated": "2026-09-19T07:14:31.718Z"
+}

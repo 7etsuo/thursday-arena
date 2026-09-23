@@ -1,0 +1,71 @@
+{
+  "id": "win-20260917-study01",
+  "name": "clone-starz_zps-nycparent-meetingrec-creditcard",
+  "result": "win",
+  "plan": "tempo",
+  "rating_delta": 17,
+  "opponent_tier": "unknown",
+  "rounds": "2-0",
+  "curve": {
+    "r1": [
+      "NYC Parent 2/6",
+      "Credit Card Max 3/4",
+      "Flora: Plant Care Log 2/6"
+    ],
+    "r2": [
+      "NYC Parent 2/6 honey",
+      "Meeting Recap Deck 3/4 potato tmp+2",
+      "Credit Card Max 3/4"
+    ]
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "NYC Parent",
+      "atk": 2,
+      "hp": 6,
+      "food": "honey",
+      "kit": "Bulk"
+    },
+    {
+      "seat": 2,
+      "name": "Meeting Recap Deck",
+      "atk": 3,
+      "hp": 4,
+      "food": "potato",
+      "kit": "Echo"
+    },
+    {
+      "seat": 3,
+      "name": "Credit Card Max",
+      "atk": 3,
+      "hp": 4,
+      "food": null,
+      "kit": "Grow"
+    }
+  ],
+  "keys": [
+    "grow",
+    "echo",
+    "bulk_front",
+    "honey_front",
+    "potato",
+    "nyc_parent",
+    "meeting_recap_deck",
+    "credit_card_max"
+  ],
+  "why": "cloned from @starz_zps win vs @breezeeoo: honey sting on NYC Parent; grow snowball before-attack; echo rode friend-ahead attacks",
+  "reuse": "when shop offers similar tempo pieces: NYC Parent, Meeting Recap Deck, Credit Card Max",
+  "avoid": "do not force if shop misses core kits; public clone may lack freeze/buy order fidelity",
+  "plays": 0,
+  "wins": 0,
+  "losses": 0,
+  "last_used": null,
+  "meta": {
+    "player": "starz_zps",
+    "source_match": "ad442cf5-7a74-49c2-a029-45aa8092eb13",
+    "source_url": "https://thursdayarena.com/matches/ad442cf5-7a74-49c2-a029-45aa8092eb13",
+    "cloned_at": "2026-09-17",
+    "inferred": true
+  }
+}

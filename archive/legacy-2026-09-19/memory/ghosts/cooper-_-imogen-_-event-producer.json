@@ -1,0 +1,74 @@
+{
+  "fp": "cooper | imogen | event producer",
+  "seats": [
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jeffbarnette"
+  ],
+  "matchups": {
+    "recipe-flora-plant-care-log__deal-inspector__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:00:36.123Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__nyc-parent__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:00:48.975Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__cooper__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:01:10.519Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__webby__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:01:29.242Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:01:53.273Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__nyc-parent__cooper",
+  "plays": 5,
+  "updated": "2026-09-18T22:01:53.273Z"
+}

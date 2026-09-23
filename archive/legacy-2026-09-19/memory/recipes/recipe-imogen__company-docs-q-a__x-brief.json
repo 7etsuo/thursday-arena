@@ -1,0 +1,39 @@
+{
+  "id": "recipe-imogen__company-docs-q-a__x-brief",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "guard",
+    "echo"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 3,
+  "wins": 2,
+  "losses": 0,
+  "elo": 16,
+  "last": "2026-09-19T05:14:17.168Z"
+}

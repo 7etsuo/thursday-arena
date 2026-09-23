@@ -1,0 +1,74 @@
+{
+  "fp": "recruiting coordinator | haggle bot | customer call coach assistant",
+  "seats": [
+    {
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "customer call coach assistant",
+      "kit": "peacock",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "nickbarton"
+  ],
+  "matchups": {
+    "recipe-imogen__copy-humanizer__gtm-account-research": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:48:07.025Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:48:54.372Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:49:12.048Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__pipeline-pulse__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:49:44.274Z",
+      "lastResult": "win"
+    },
+    "recipe-sales-call-coach__x-brief__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:50:04.823Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-sales-call-coach__x-brief__projects-manager",
+  "plays": 5,
+  "updated": "2026-09-19T01:50:04.823Z"
+}

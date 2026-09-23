@@ -1,0 +1,50 @@
+{
+  "fp": "deal hunting | event producer | overheard",
+  "seats": [
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "zeuss_000"
+  ],
+  "matchups": {
+    "recipe-sales-call-coach__credit-card-max__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:32:46.747Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__stills-clips-desk__stalk-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:33:19.676Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__stills-clips-desk__stalk-bot",
+  "plays": 2,
+  "updated": "2026-09-19T00:33:19.676Z"
+}

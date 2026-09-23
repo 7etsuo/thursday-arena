@@ -1,0 +1,76 @@
+{
+  "id": "win-20260917-study03",
+  "name": "clone-kanuma368-paidmediar-nightlyaud-chiefhealt",
+  "result": "win",
+  "plan": "late_spike",
+  "rating_delta": 16,
+  "opponent_tier": "unknown",
+  "rounds": "2-0",
+  "curve": {
+    "r1": [
+      "Credit Card Max 3/4",
+      "Credit Card Max 3/4",
+      "Outbound Prospecting 3/4"
+    ],
+    "r2": [
+      "Paid Media Report Desk 3/5",
+      "Nightly Audit Engineer 3/6",
+      "GTM Loop Closer 3/6"
+    ],
+    "r3": [
+      "Paid Media Report Desk 3/5 honey",
+      "Nightly Audit Engineer 3/6",
+      "Chief Health Officer 3/8"
+    ]
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "Paid Media Report Desk",
+      "atk": 3,
+      "hp": 5,
+      "food": "honey",
+      "kit": "Grow"
+    },
+    {
+      "seat": 2,
+      "name": "Nightly Audit Engineer",
+      "atk": 3,
+      "hp": 6,
+      "food": null,
+      "kit": "Cover"
+    },
+    {
+      "seat": 3,
+      "name": "Chief Health Officer",
+      "atk": 3,
+      "hp": 8,
+      "food": null,
+      "kit": "Patch"
+    }
+  ],
+  "keys": [
+    "grow",
+    "patch",
+    "cover",
+    "honey_front",
+    "late_epic",
+    "paid_media_report_desk",
+    "nightly_audit_engineer",
+    "chief_health_officer"
+  ],
+  "why": "cloned from @kanuma368 win vs @izzat316: honey sting on Paid Media Report Desk; grow snowball before-attack",
+  "reuse": "when shop offers similar late_spike pieces: Paid Media Report Desk, Nightly Audit Engineer, Chief Health Officer",
+  "avoid": "do not force if shop misses core kits; public clone may lack freeze/buy order fidelity",
+  "plays": 0,
+  "wins": 0,
+  "losses": 0,
+  "last_used": null,
+  "meta": {
+    "player": "kanuma368",
+    "source_match": "bf7e8809-8b64-461d-b31d-3a662068ad14",
+    "source_url": "https://thursdayarena.com/matches/bf7e8809-8b64-461d-b31d-3a662068ad14",
+    "cloned_at": "2026-09-17",
+    "inferred": true
+  }
+}

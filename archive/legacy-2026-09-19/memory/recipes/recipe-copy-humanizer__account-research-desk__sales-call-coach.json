@@ -1,0 +1,38 @@
+{
+  "id": "recipe-copy-humanizer__account-research-desk__sales-call-coach",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "account research desk",
+      "kit": "last_word",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "sales call coach",
+      "kit": "peacock",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "flamingo",
+    "last_word",
+    "peacock"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-19T01:57:38.136Z"
+}

@@ -1,0 +1,50 @@
+{
+  "fp": "skippy | nyc parent | tech demos",
+  "seats": [
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thatretireddude"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__flora-plant-care-log__sqo-5207iinz0idsafvw": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T07:08:19.560Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__writing-bot__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T07:08:38.845Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__writing-bot__wtd",
+  "plays": 2,
+  "updated": "2026-09-19T07:08:38.845Z"
+}

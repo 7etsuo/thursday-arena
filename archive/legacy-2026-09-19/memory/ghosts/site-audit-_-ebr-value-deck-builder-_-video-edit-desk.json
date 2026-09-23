@@ -1,0 +1,114 @@
+{
+  "fp": "site audit | ebr value deck builder | video edit desk",
+  "seats": [
+    {
+      "name": "site audit",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "kami179505"
+  ],
+  "matchups": {
+    "recipe-webby__gtm-loop-closer__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:46:04.332Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__office-ops-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:46:11.035Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__apple-search-ads-review__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:46:17.340Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__deal-hunting__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:46:25.457Z",
+      "lastResult": "win"
+    },
+    "recipe-apple-search-ads-review__wtd__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:46:34.993Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__company-docs-q-a__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:46:47.040Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__x-brief__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:46:53.446Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__tradbot__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:47:05.734Z",
+      "lastResult": "win"
+    },
+    "recipe-recruiting-coordinator__cooper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:47:16.815Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__webby__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:47:24.914Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__webby__writing-bot",
+  "plays": 10,
+  "updated": "2026-09-18T20:47:24.914Z"
+}

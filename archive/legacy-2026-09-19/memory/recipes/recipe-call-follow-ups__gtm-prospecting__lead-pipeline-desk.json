@@ -1,0 +1,39 @@
+{
+  "id": "recipe-call-follow-ups__gtm-prospecting__lead-pipeline-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "mosquito",
+    "snowball"
+  ],
+  "tags": [
+    "recent_loss",
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 1,
+  "elo": -7,
+  "last": "2026-09-19T05:41:32.635Z"
+}

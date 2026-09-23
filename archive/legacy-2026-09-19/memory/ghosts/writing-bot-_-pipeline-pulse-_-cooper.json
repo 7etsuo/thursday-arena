@@ -1,0 +1,42 @@
+{
+  "fp": "writing bot | pipeline pulse | cooper",
+  "seats": [
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "digitalgold"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__wtd__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T02:42:26.670Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__wtd__office-ops-desk",
+  "plays": 1,
+  "updated": "2026-09-19T02:44:07.123Z"
+}

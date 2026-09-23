@@ -1,0 +1,66 @@
+{
+  "fp": "gtm prospecting | meeting recap deck | pitch deck coach",
+  "seats": [
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "pitch deck coach",
+      "kit": "last_word",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "alfredmrp2"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__pipeline-pulse__haggle-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T00:15:52.726Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__stills-clips-desk__lingxi-s-engineer-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:16:11.118Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__talent-discovery__recruiting-coordinator": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T00:16:45.314Z",
+      "lastResult": "draw"
+    },
+    "recipe-company-docs-q-a__writing-bot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:17:00.806Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__writing-bot__writing-bot",
+  "plays": 4,
+  "updated": "2026-09-19T00:17:00.806Z"
+}

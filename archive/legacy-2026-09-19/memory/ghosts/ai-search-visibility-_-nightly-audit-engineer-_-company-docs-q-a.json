@@ -1,0 +1,58 @@
+{
+  "fp": "ai search visibility | nightly audit engineer | company docs q a",
+  "seats": [
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thephatp"
+  ],
+  "matchups": {
+    "recipe-imogen__luma-pages__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:45:06.791Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__lead-pipeline-desk__dr-eggbot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T12:45:16.804Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__copy-humanizer__hiring-signals": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:45:27.235Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__copy-humanizer__hiring-signals",
+  "plays": 3,
+  "updated": "2026-09-18T12:45:27.235Z"
+}

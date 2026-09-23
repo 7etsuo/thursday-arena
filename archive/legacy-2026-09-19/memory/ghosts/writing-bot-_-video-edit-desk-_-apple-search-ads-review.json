@@ -1,0 +1,66 @@
+{
+  "fp": "writing bot | video edit desk | apple search ads review",
+  "seats": [
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "dirvelin"
+  ],
+  "matchups": {
+    "recipe-deal-inspector__cooper__hiring-signals": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-19T04:33:42.232Z",
+      "lastResult": "loss"
+    },
+    "recipe-tradbot__flora-plant-care-log__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-19T04:33:59.952Z",
+      "lastResult": "win"
+    },
+    "recipe-recruiting-coordinator__call-follow-ups__outbound-prospecting": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-19T04:35:10.833Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T04:35:19.175Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__the-morning-newspaper__x-brief",
+  "plays": 4,
+  "updated": "2026-09-19T04:35:26.205Z"
+}

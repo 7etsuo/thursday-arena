@@ -1,0 +1,39 @@
+{
+  "id": "recipe-lead-pipeline-desk__meeting-recap-deck__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "snowball",
+    "echo",
+    "hype"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 1,
+  "elo": -13,
+  "last": "2026-09-19T07:12:03.686Z"
+}

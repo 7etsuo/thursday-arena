@@ -1,0 +1,38 @@
+{
+  "id": "recipe-stalk-bot__product-support-inbox-assistant__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "stalk bot",
+      "kit": "snowball",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "snowball",
+    "patch",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-19T01:10:52.351Z"
+}

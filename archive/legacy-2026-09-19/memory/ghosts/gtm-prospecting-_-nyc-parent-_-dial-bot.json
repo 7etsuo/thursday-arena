@@ -1,0 +1,50 @@
+{
+  "fp": "gtm prospecting | nyc parent | dial bot",
+  "seats": [
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "astanevicius"
+  ],
+  "matchups": {
+    "recipe-imogen__imogen__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:22:00.898Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__credit-card-max__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:22:51.439Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__credit-card-max__luma-pages",
+  "plays": 2,
+  "updated": "2026-09-18T22:22:58.512Z"
+}

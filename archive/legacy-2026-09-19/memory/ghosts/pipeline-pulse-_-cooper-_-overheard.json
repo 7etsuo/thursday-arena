@@ -1,0 +1,58 @@
+{
+  "fp": "pipeline pulse | cooper | overheard",
+  "seats": [
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ykcxx00"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__copy-humanizer__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 11,
+      "last": "2026-09-18T11:49:16.979Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__credit-card-max__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-18T11:49:25.683Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__seo-aeo-desk__product-support-inbox-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-18T11:49:32.594Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__copy-humanizer__credit-card-max",
+  "plays": 3,
+  "updated": "2026-09-18T11:49:39.256Z"
+}

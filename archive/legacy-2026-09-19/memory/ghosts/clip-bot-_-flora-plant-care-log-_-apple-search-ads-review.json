@@ -1,0 +1,98 @@
+{
+  "fp": "clip bot | flora plant care log | apple search ads review",
+  "seats": [
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "s3xyfuture"
+  ],
+  "matchups": {
+    "recipe-cooper__tinkabot__the-morning-newspaper": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-18T22:46:21.455Z",
+      "lastResult": "loss"
+    },
+    "recipe-lingxi-s-engineer-bot__company-docs-q-a__pipeline-pulse": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -8,
+      "last": "2026-09-18T22:46:32.409Z",
+      "lastResult": "draw"
+    },
+    "recipe-call-follow-ups__gtm-loop-closer__customer-call-coach-assistant": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T22:46:43.372Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__nyc-parent__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T22:46:53.337Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__customer-proof-desk__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -7,
+      "last": "2026-09-18T22:47:02.405Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__company-docs-q-a__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T22:47:12.639Z",
+      "lastResult": "win"
+    },
+    "recipe-overheard__writing-bot__researchy": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -7,
+      "last": "2026-09-18T22:47:27.117Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__imogen__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T22:47:35.575Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__imogen__x-brief",
+  "plays": 8,
+  "updated": "2026-09-18T22:47:35.576Z"
+}

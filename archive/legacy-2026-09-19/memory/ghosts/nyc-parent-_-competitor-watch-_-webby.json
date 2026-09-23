@@ -1,0 +1,42 @@
+{
+  "fp": "nyc parent | competitor watch | webby",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "carlosramirez"
+  ],
+  "matchups": {
+    "recipe-tradbot__credit-card-max__x-brief": {
+      "wins": 0,
+      "losses": 3,
+      "draws": 2,
+      "elo": -50,
+      "last": "2026-09-19T05:17:02.982Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-tradbot__credit-card-max__x-brief",
+  "plays": 5,
+  "updated": "2026-09-19T05:17:02.982Z"
+}

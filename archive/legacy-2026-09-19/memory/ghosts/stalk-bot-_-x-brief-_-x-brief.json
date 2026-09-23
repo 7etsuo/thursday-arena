@@ -1,0 +1,50 @@
+{
+  "fp": "stalk bot | x brief | x brief",
+  "seats": [
+    {
+      "name": "stalk bot",
+      "kit": "snowball",
+      "atk": 6,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "vibeleiz"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__deal-hunting__company-docs-q-a": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T07:14:11.039Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T07:14:21.209Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__writing-bot__wtd",
+  "plays": 2,
+  "updated": "2026-09-19T07:14:21.209Z"
+}

@@ -1,0 +1,90 @@
+{
+  "fp": "event producer | gtm connections | sales call coach",
+  "seats": [
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "lawrencejessej"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__the-morning-newspaper__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T23:12:00.104Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T23:12:05.879Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T23:12:13.604Z",
+      "lastResult": "win"
+    },
+    "recipe-love__apple-search-ads-review__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T23:12:38.543Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__call-follow-ups__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:12:45.278Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__wtd__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:12:54.468Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__paid-media-report-desk__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:13:01.774Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-love__apple-search-ads-review__account-research-desk",
+  "plays": 7,
+  "updated": "2026-09-18T23:13:01.774Z"
+}

@@ -1,0 +1,42 @@
+{
+  "fp": "meeting recap deck | stills clips desk | gtm connections",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "joe_xbt"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__wtd__apple-search-ads-review": {
+      "wins": 7,
+      "losses": 1,
+      "draws": 0,
+      "elo": 77,
+      "last": "2026-09-19T05:22:19.919Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__wtd__apple-search-ads-review",
+  "plays": 8,
+  "updated": "2026-09-19T05:22:25.977Z"
+}

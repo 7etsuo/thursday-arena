@@ -1,0 +1,75 @@
+{
+  "fp": "sales call coach | company docs q a | pitch deck coach",
+  "seats": [
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "pitch deck coach",
+      "kit": "last_word",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "valomcratch",
+    "regan_jeremy"
+  ],
+  "matchups": {
+    "recipe-projects-manager__customer-call-coach-assistant__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:21:33.488Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__event-request-desk__gtm-account-research": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T01:21:43.890Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__pipeline-pulse__nyc-parent": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T01:22:40.398Z",
+      "lastResult": "loss"
+    },
+    "recipe-company-docs-q-a__apple-search-ads-review__projects-manager": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-19T01:23:14.617Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__company-docs-q-a__wtd": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "elo": -35,
+      "last": "2026-09-19T05:12:30.957Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-projects-manager__customer-call-coach-assistant__writing-bot",
+  "plays": 6,
+  "updated": "2026-09-19T05:12:30.958Z"
+}

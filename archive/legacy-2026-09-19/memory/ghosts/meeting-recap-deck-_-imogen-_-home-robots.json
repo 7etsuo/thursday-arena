@@ -1,0 +1,66 @@
+{
+  "fp": "meeting recap deck | imogen | home robots",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "crawlzpace"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__event-request-desk__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:34:04.988Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__webby__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:35:18.233Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__x-brief__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:35:25.264Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__nightly-audit-engineer__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:35:32.633Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__nightly-audit-engineer__wtd",
+  "plays": 4,
+  "updated": "2026-09-19T01:35:39.153Z"
+}

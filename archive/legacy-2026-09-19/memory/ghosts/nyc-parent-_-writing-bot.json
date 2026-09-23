@@ -1,0 +1,108 @@
+{
+  "fp": "nyc parent | writing bot",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "kierandotai",
+    "husseinraoouf"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__call-follow-ups__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:23:40.453Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__pipeline-pulse__ebr-value-deck-builder": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:23:47.319Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__video-edit-desk__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:23:54.928Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__flora-plant-care-log__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:24:12.791Z",
+      "lastResult": "win"
+    },
+    "recipe-ad-spend-watch__credit-card-max__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:24:23.445Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__outbound-prospecting__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:24:32.388Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__wtd__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:24:54.154Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:25:01.965Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__seo-aeo-desk__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:25:09.381Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__tradbot__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:25:17.147Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__seo-aeo-desk__pipeline-pulse",
+  "plays": 10,
+  "updated": "2026-09-19T02:31:48.396Z"
+}

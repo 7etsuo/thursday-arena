@@ -1,0 +1,39 @@
+{
+  "id": "recipe-nyc-parent__writing-bot__account-research-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "account research desk",
+      "kit": "last_word",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "hype",
+    "last_word"
+  ],
+  "tags": [
+    "recent_draw",
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 0,
+  "elo": -10,
+  "last": "2026-09-19T02:56:31.037Z"
+}

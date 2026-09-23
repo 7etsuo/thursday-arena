@@ -1,0 +1,37 @@
+{
+  "id": "recipe-call-follow-ups__company-docs-q-a__sqo-5207iinz0idsafvw",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "call follow ups",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "sqo 5207iinz0idsafvw",
+      "kit": "",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "guard"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -8,
+  "last": "2026-09-19T07:24:01.514Z"
+}

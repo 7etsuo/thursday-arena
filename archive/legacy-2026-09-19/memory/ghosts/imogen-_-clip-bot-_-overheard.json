@@ -1,0 +1,50 @@
+{
+  "fp": "imogen | clip bot | overheard",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "vibeversity"
+  ],
+  "matchups": {
+    "recipe-recruiting-coordinator__x-brief__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:40:23.811Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__webby__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T23:40:57.746Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-recruiting-coordinator__x-brief__writing-bot",
+  "plays": 2,
+  "updated": "2026-09-18T23:40:57.746Z"
+}

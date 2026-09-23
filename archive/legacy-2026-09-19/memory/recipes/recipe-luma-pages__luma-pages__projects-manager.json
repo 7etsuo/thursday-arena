@@ -1,0 +1,39 @@
+{
+  "id": "recipe-luma-pages__luma-pages__projects-manager",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "projects manager",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "hype",
+    "hype",
+    "hype"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 1,
+  "elo": -22,
+  "last": "2026-09-18T23:55:11.072Z"
+}

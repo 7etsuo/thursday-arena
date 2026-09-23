@@ -1,0 +1,33 @@
+{
+  "fp": "site audit | office ops desk | writing bot",
+  "seats": [
+    {
+      "name": "site audit",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "as42tsx"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T07:15:21.574Z"
+}

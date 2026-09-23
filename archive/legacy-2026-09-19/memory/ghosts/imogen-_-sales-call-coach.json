@@ -1,0 +1,91 @@
+{
+  "fp": "imogen | sales call coach",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "arkaene"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__writing-bot__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:21:14.726Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__flora-plant-care-log__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:21:23.172Z",
+      "lastResult": "win"
+    },
+    "recipe-call-follow-ups__call-follow-ups__hiring-signals": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:21:31.392Z",
+      "lastResult": "win"
+    },
+    "recipe-pipeline-pulse__credit-card-max__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:21:51.731Z",
+      "lastResult": "win"
+    },
+    "recipe-outbound-prospecting__wtd__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:22:00.923Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__flora-plant-care-log__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:22:20.642Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__call-follow-ups__site-audit": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:22:26.701Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__tradbot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:22:48.339Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__tradbot__writing-bot",
+  "plays": 8,
+  "updated": "2026-09-19T00:22:48.339Z"
+}

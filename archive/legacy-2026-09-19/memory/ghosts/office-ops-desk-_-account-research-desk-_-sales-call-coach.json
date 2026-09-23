@@ -1,0 +1,58 @@
+{
+  "fp": "office ops desk | account research desk | sales call coach",
+  "seats": [
+    {
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "account research desk",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 6,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jst_icn71"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__credit-card-max__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:47:21.575Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__cooper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:47:29.262Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__company-docs-q-a__imogen": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T12:47:36.181Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__cooper__wtd",
+  "plays": 3,
+  "updated": "2026-09-18T12:47:42.232Z"
+}

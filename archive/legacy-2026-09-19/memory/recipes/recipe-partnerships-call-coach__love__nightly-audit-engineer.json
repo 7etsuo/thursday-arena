@@ -1,0 +1,38 @@
+{
+  "id": "recipe-partnerships-call-coach__love__nightly-audit-engineer",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "spotlight",
+    "patch",
+    "cover"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -30,
+  "last": "2026-09-18T23:23:36.035Z"
+}

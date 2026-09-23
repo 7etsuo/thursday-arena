@@ -1,0 +1,90 @@
+{
+  "fp": "tech demos | signal prospector | pipeline pulse",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 8,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "afktravels"
+  ],
+  "matchups": {
+    "recipe-flora-plant-care-log__call-follow-ups__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:16:35.779Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-call-coach-assistant__critiquito-design-critique__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:16:47.458Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:17:03.513Z",
+      "lastResult": "win"
+    },
+    "recipe-sales-call-coach__love__luma-pages": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-18T21:17:16.274Z",
+      "lastResult": "draw"
+    },
+    "recipe-copy-humanizer__wtd__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:17:27.178Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__company-docs-q-a__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:17:38.047Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__apple-search-ads-review__meeting-recap-deck": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T21:17:50.999Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__company-docs-q-a__wtd",
+  "plays": 7,
+  "updated": "2026-09-18T21:17:50.999Z"
+}

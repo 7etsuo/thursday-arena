@@ -1,0 +1,42 @@
+{
+  "fp": "sales call coach | company docs q a | imogen",
+  "seats": [
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thebacterio"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__the-morning-newspaper__cooper": {
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "elo": -80,
+      "last": "2026-09-19T05:18:46.396Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__the-morning-newspaper__cooper",
+  "plays": 5,
+  "updated": "2026-09-19T05:18:46.396Z"
+}

@@ -1,0 +1,826 @@
+--- before/lib/planner.js
++++ after/lib/planner.js
+@@ -454,6 +454,7 @@
+   const perState = 1 + VM.futures.length;
+   const t0 = process.hrtime.bigint();
+   let cur = completedValue(S, VM);
++  const fullVM = VM, fullCur = cur;
+   if (evalsOf(VM) > 0) {
+     calib.msPerEntry = (Number(process.hrtime.bigint() - t0) / 1e6 / evalsOf(VM)) / Math.max(1, entries.length);
+   }
+@@ -480,8 +481,8 @@
+     VM = makeStateValuer(S, ctx, util, entries);
+     cur = completedValue(S, VM);
+   }
+-  const V = VM;
+-  const tail = cuts.length ? ` [cut: ${cuts.join(', ')}]` : '';
++  let V = VM;
++  let tail = cuts.length ? ` [cut: ${cuts.join(', ')}]` : '';
+ 
+   const done = (reason) => ({ actions: [], done: true, reason: reason + tail, value: cur.score, expected: cur.score });
+   const take = (actions, reason, expected) => {
+@@ -501,6 +502,22 @@
+ 
+   if (best && best.actions.length) {
+     return take(best.actions, `r${S.round} ${best.reason} ${fmt(cur.score)}->${fmt(best.value)}`, best.value);
++  }
++
++  // A reduced sample can claim a perfect score while omitting the boards an affordable
++  // move would beat. Before stopping, check every exact single move against the original
++  // target. This bounded pass may exceed the soft search budget; no extra reroll sampling
++  // or two-step search is added. The opt-out exists for paired policy evaluations.
++  if (entries !== all && ctx.verifyStop !== false) {
++    entries = all;
++    VM = fullVM;
++    V = fullVM;
++    cur = fullCur;
++    tail += ' [full-target stop check]';
++    const checked = greedyBest(S, V, null, 0, Infinity, eps, cur, 0);
++    if (checked && checked.actions.length) {
++      return take(checked.actions, `r${S.round} ${checked.reason} ${fmt(cur.score)}->${fmt(checked.value)}`, checked.value);
++    }
+   }
+ 
+   // Never finish a shop with an empty seat we can afford to fill (strategy.md §4.7, STR-13):
+@@ -651,6 +668,8 @@
+     const built = supplied || (ctx.book && targetLib.build({
+       book: ctx.book, season: S.season, round,
+       handle: ctx.handle, prevHandle: ctx.prevHandle, seats: S.seats,
++      bookPolicy: ctx.targetOpts?.bookPolicy,
++      recencyHalfLifeMs: ctx.targetOpts?.recencyHalfLifeMs,
+     }));
+     return trimTarget(entriesOf(built), 8);
+   });
+--- before/lib/sim.js
++++ after/lib/sim.js
+@@ -206,6 +206,25 @@
+   const hasFirstStrike = (x) => ['first_paint', 'scoop', 'quick_reply', 'archive', 'quorum'].includes(x?._copiedKitId || x?.kitId) && !x?._silenced;
+   const hasDoubleHit = (x) => ['hammer', 'swipe', 'crosspost', 'jump_cut'].includes(x?._copiedKitId || x?.kitId) && !x?._silenced;
+ 
++  // Both fainting and silence end an active aura. Clear its bookkeeping so a silenced
++  // source cannot remove the same bonus a second time when it later faints.
++  const fadeAura = (x) => {
++    if (!x._aura) return;
++    for (const [unit, delta] of x._aura.deltas) {
++      if (unit.hp > 0 && !unit.fainted && (st.you.includes(unit) || st.them.includes(unit))) {
++        unit.atk = Math.max(0, unit.atk - delta);
++      }
++    }
++    x._aura = null;
++    frame(`${x.name}'s aura fades`);
++  };
++  const silence = (source, target) => {
++    if (!target || target._silenced) return;
++    fadeAura(target);
++    target._silenced = true;
++    frame(`${source.name} mutes ${target.name}: no ability this fight`);
++  };
++
+   // ----- Season-2 seat rules. Seat of a unit is POSITIONAL, evaluated at the moment:
+   // front = index 0, middle = index 1, back = LAST index (so a lone unit is front AND back).
+   const round = opts.round == null ? 2 : opts.round;
+@@ -245,7 +264,7 @@
+   };
+ 
+   // ----- damage (client `y`), extended with Hard hat, KO credit and S1/S2 hurt triggers
+-  const hit = (list, caption) => {
++  const hit = (list, caption, venomAllowed = true) => {
+     const hurt = [];
+     const survivors = [];
+     const reduced = [];
+@@ -261,10 +280,14 @@
+       if (season3) {
+         if (amt > 0) {
+           amt += unit._vulnerable || 0;
+-          const armor = kitOf(unit)?.effect?.kind === 'armor' ? kitOf(unit).effect.amount :
+-            (unit.kitId === 'alert' && !unit._silenced ? 1 : 0);
+-          if (armor && amt > 1) { amt = Math.max(1, amt - armor); mitigationNotes.push(`${unit.name}'s armor: ${armor} less`); }
+-          if (itemOf(unit) === 'foamPad' && amt > 1) { amt -= 1; mitigationNotes.push(`${unit.name}'s armor: 1 less`); }
++          const kitArmor = kitOf(unit)?.effect?.kind === 'armor' ? kitOf(unit).effect.amount :
++            ((unit._copiedKitId || unit.kitId) === 'alert' && !unit._silenced ? 1 : 0);
++          const armor = kitArmor + (itemOf(unit) === 'foamPad' ? 1 : 0);
++          if (armor && amt > 1) {
++            const absorbed = Math.min(armor, amt - 1);
++            amt -= absorbed;
++            mitigationNotes.push(`${unit.name}'s armor: ${absorbed} less`);
++          }
+           // Armor captions precede the shield caption even when the shield
+           // ultimately blocks the whole hit (public S3 record 36aee6...).
+           if (unit._shield) { unit._shield -= 1; amt = 0; mitigationNotes.push(`${unit.name}'s shield blocks the hit`); }
+@@ -285,7 +308,7 @@
+       // a 0-damage hit still counts as "hurt": live 2026-09-19, an attacker flagged down to 0 ATK
+       // produced "trade: -0 HP" followed by "holds: +1 HP" (hold_the_line fired)
+       if (unit.hp > 0 && !(season3 && amt === 0 && amount > 0)) hurt.push(unit);
+-      if (season3 && amount > 0 && source && !source._silenced && kitOf(source)?.effect?.kind === 'venom') poisoned.push([source, unit, eff(source, kitOf(source).effect.amount)]);
++      if (venomAllowed && season3 && amount > 0 && source && !source._silenced && kitOf(source)?.effect?.kind === 'venom') poisoned.push([source, unit, eff(source, kitOf(source).effect.amount)]);
+     }
+     frame(caption);
+     for (const x of reduced) frame(`Hard hat: ${x.name} takes 1 less`);
+@@ -341,15 +364,19 @@
+       if (season3) {
+         // Aura bonuses persist only while the source lives.  Remove them after
+         // its faint effect, before subsequent reactors inspect current ATK.
+-        const aura = x._aura;
+-        if (aura) {
+-          for (const [a, delta] of aura.deltas) if (st.you.includes(a) || st.them.includes(a)) a.atk = Math.max(0, a.atk - delta);
+-          frame(`${x.name}'s aura fades`);
+-        }
+-        for (const reactor of [...st[side]]) {
++        fadeAura(x);
++        // Reactors run in board order, our team before theirs, regardless of
++        // which side lost the unit. They are not sorted by attack.
++        for (const reactor of [...st.you, ...st.them]) {
+           if (reactor.hp <= 0 || reactor.fainted) continue;
+           const k = kitOf(reactor);
+-          if (k?.trigger !== 'friendFaints') continue;
++          const reactorSide = sideOf(reactor);
++          if (k?.trigger === 'enemyFaints' && reactorSide !== side) {
++            reactor.atk += eff(reactor, k.effect.atk); reactor.hp += eff(reactor, k.effect.hp);
++            frame(`${reactor.name} gains +${eff(reactor, k.effect.atk)}/+${eff(reactor, k.effect.hp)}`);
++            continue;
++          }
++          if (k?.trigger !== 'friendFaints' || reactorSide !== side) continue;
+           if (k.effect.kind === 'gainStats') {
+             reactor.atk += eff(reactor, k.effect.atk); reactor.hp += eff(reactor, k.effect.hp);
+             frame(`${reactor.name} gains +${eff(reactor, k.effect.atk)}/+${eff(reactor, k.effect.hp)}`);
+@@ -358,14 +385,6 @@
+             frame(`${reactor.name} alerts each friend: +${eff(reactor, k.effect.atk)}/+${eff(reactor, k.effect.hp)}`);
+           } else if (k.effect.kind === 'fillEmpty') {
+             while (st[side].length < 3) summon(side, st[side].length, { name: 'Specialist', atk: 1, hp: 1 });
+-          }
+-        }
+-        for (const reactor of [...st[other(side)]]) {
+-          if (reactor.hp <= 0 || reactor.fainted) continue;
+-          const k = kitOf(reactor);
+-          if (k?.trigger === 'enemyFaints') {
+-            reactor.atk += eff(reactor, k.effect.atk); reactor.hp += eff(reactor, k.effect.hp);
+-            frame(`${reactor.name} gains +${eff(reactor, k.effect.atk)}/+${eff(reactor, k.effect.hp)}`);
+           }
+         }
+       }
+@@ -492,8 +511,10 @@
+     });
+     if (marketing.length) {
+       const ya = active.you?.crew === 'marketing', ta = active.them?.crew === 'marketing';
+-      const caption = ya && ta && active.you.n === active.them.n
+-        ? `Both Marketing crews: ${CREWS.marketing[active.you.n].damage} damage to each enemy`
++      const caption = ya && ta
++        ? active.you.n === active.them.n
++          ? `Both Marketing crews: ${CREWS.marketing[active.you.n].damage} damage to each enemy`
++          : `Marketing crews: ${CREWS.marketing[active.you.n].damage} damage to each enemy, ${CREWS.marketing[active.them.n].damage} to each of your bots`
+         : ya ? `Marketing crew: ${CREWS.marketing[active.you.n].damage} damage to each enemy`
+           : `Enemy Marketing crew: ${CREWS.marketing[active.them.n].damage} damage to each of your bots`;
+       hit(marketing, caption);
+@@ -503,11 +524,10 @@
+       const item = itemOf(x);
+       const enemy = st[other(side)];
+       if (item === 'killSwitch') {
+-        for (const a of enemy) a._silenced = true;
+-        frame(`Kill switch: ${x.name} mutes each enemy`);
++        for (const a of enemy) silence(x, a);
+       } else if (item === 'muteButton') {
+         const target = targeted(side, enemy[st[side].indexOf(x)]);
+-        if (target) { target._silenced = true; frame(`${x.name} mutes ${target.name}: no ability this fight`); }
++        silence(x, target);
+       }
+     }
+     for (const side of ['you', 'them']) for (const x of [...st[side]]) {
+@@ -527,8 +547,10 @@
+     for (const side of ['you', 'them']) for (const x of [...st[side]]) {
+       if (x.hp <= 0 || x.fainted) continue;
+       if (itemOf(x) === 'megaphone') {
+-        const target = targeted(side, st[other(side)].at(-1));
+-        if (target) hit([{ unit: target, amount: 4, source: x }], `Megaphone: ${x.name} hits ${target.name} for 4`);
++        // The item hits the back directly; it neither follows kit taunt targeting nor
++        // applies the holder's venom (complete live records, 2026-09-21).
++        const target = st[other(side)].at(-1);
++        if (target) hit([{ unit: target, amount: 4, source: x }], `Megaphone: ${x.name} hits ${target.name} for 4`, false);
+       }
+     }
+   }
+@@ -541,7 +563,8 @@
+     if (season3 && k?.trigger === 'aura') {
+       const targets = k.effect.kind === 'friendAttack' ? st[side].filter((a) => a !== x) : st[other(side)];
+       const sign = k.effect.kind === 'friendAttack' ? 1 : -1;
+-      const amount = eff(x, k.effect.amount), deltas = x._aura?.deltas || new Map();
++      const amount = k.effect.kind === 'enemyAttack' ? k.effect.amount : eff(x, k.effect.amount);
++      const deltas = x._aura?.deltas || new Map();
+       for (const a of targets) {
+         const delta = Math.max(0, a.atk + sign * amount) - a.atk;
+         a.atk += delta; deltas.set(a, (deltas.get(a) || 0) + delta);
+@@ -579,11 +602,12 @@
+       tgt = targeted(side, tgt);
+       if (!tgt) return;
+       const n = eff(x, ef.damage);
+-      const cap = x.kitId === 'mosquito' ? `${x.name} snipes ${tgt.name} for ${n}`
+-        : x.kitId === 'pin' ? `${x.name} pins ${tgt.name}: ${n}`
+-        : x.kitId === 'sidestep' ? `${x.name} sideswipes ${tgt.name}: ${n}`
+-        : x.kitId === 'backtap' ? `${x.name} clips ${tgt.name}: ${n}`
+-        : x.kitId === 'last_word' ? `${x.name} has the last word: ${n} to ${tgt.name}`
++      const kitId = x._copiedKitId || x.kitId;
++      const cap = kitId === 'mosquito' ? `${x.name} snipes ${tgt.name} for ${n}`
++        : kitId === 'pin' ? `${x.name} pins ${tgt.name}: ${n}`
++        : kitId === 'sidestep' ? `${x.name} sideswipes ${tgt.name}: ${n}`
++        : kitId === 'backtap' ? `${x.name} clips ${tgt.name}: ${n}`
++        : kitId === 'last_word' ? `${x.name} has the last word: ${n} to ${tgt.name}`
+         : `${x.name} takes the spotlight: ${n} to ${tgt.name}`;
+       hit([{ unit: tgt, amount: n, source: x }], cap);
+     } else if (ef.kind === 'snipeRandomEnemies') {                                  // verbatim client branch
+@@ -620,7 +644,7 @@
+       if (tgt) { tgt._vulnerable = (tgt._vulnerable || 0) + eff(x, ef.amount); frame(`${x.name} exposes ${tgt.name}: +${tgt._vulnerable} damage per hit`); }
+     } else if (ef.kind === 'silence') {
+       const tgt = targeted(side, ef.target === 'front' ? theirs[0] : theirs[i]);
+-      if (tgt && !tgt._silenced) { tgt._silenced = true; frame(`${x.name} mutes ${tgt.name}: no ability this fight`); }
++      silence(x, tgt);
+     } else if (ef.kind === 'shield') {
+       const targets = ef.target === 'self' ? [x] : ef.target === 'front' ? mine.slice(0, 1)
+         : ef.target === 'friends' ? mine.filter((a) => a !== x) : i > 0 ? [mine[i - 1]] : [];
+@@ -629,10 +653,10 @@
+       while (mine.length < 3) summon(side, mine.length, { name: 'New Hire', atk: 1, hp: 1 });
+     } else if (ef.kind === 'copyAhead') {
+       const ahead = i > 0 ? mine[i - 1] : null;
+-      if (ahead && kitOf(ahead)) {
++      if (ahead && kitOf(ahead) && kitOf(ahead).effect?.kind !== 'copyAhead') {
+         x._copiedKitId = ahead._copiedKitId || ahead.kitId;
+         frame(`${x.name} copies ${ahead.name}`);
+-          if (['startOfBattle', 'aura'].includes(kitOf(x)?.trigger)) fireStartEffect(x, depth + 1);
++        if (['startOfBattle', 'aura'].includes(kitOf(x)?.trigger)) fireStartEffect(x, depth + 1);
+       }
+     }
+   };
+@@ -646,8 +670,22 @@
+   }
+ 
+   // ================================================================ exchanges
++  const lastStanding = () => {
++    if (!season3 || !st.you.length || !st.them.length) return;
++    for (const side of ['you', 'them']) {
++      const last = st[side].length === 1 ? st[side][0] : null, k = kitOf(last);
++      if (last && k?.trigger === 'lastStanding' && !last._lastStandingUsed) {
++        last._lastStandingUsed = true;
++        last.atk += eff(last, k.effect.atk); last.hp += eff(last, k.effect.hp);
++        frame(`${last.name} gains +${eff(last, k.effect.atk)}/+${eff(last, k.effect.hp)}`);
++      }
++    }
++  };
+   let turn = 0;
+   for (; st.you.length > 0 && st.them.length > 0 && turn < 40;) {
++    // A survivor becomes last standing after the previous exchange resolves,
++    // before the following Hot seat tick can kill it.
++    lastStanding();
+     turn += 1;
+     if (turn > 1) hotSeat();
+     if (st.you.length === 0 || st.them.length === 0) break;
+@@ -660,19 +698,16 @@
+       resolveFaints();
+       if (st.you.length === 0 || st.them.length === 0) break;
+       for (const side of ['you', 'them']) for (const x of [...st[side]]) {
++        if (x.hp <= 0 || x.fainted) continue;
+         const k = kitOf(x), item = itemOf(x);
+         if (k?.trigger === 'endExchange' && k.effect.kind === 'healFront') {
+           const front = st[side][0];
+           if (front) { front.hp += eff(x, k.effect.amount); frame(`${x.name} heals ${front === x ? 'itself' : front.name}: +${eff(x, k.effect.amount)} HP`); }
+         }
+         if (item === 'coldBrew') { x.hp += 1; frame(`Cold brew: ${x.name} +1 HP`); }
+-      }
+-    }
+-    if (season3 && st.you.length && st.them.length) {
+-      if (turn > 1 && (turn - 1) % 2 === 0) for (const side of ['you', 'them']) for (const x of [...st[side]]) {
+-        if (x.hp <= 0 || x.fainted) continue;
+-        const k = kitOf(x);
+-        if (k?.trigger !== 'everySecondExchange') continue;
++        // Healing and every-second-exchange abilities share the same per-unit
++        // pass, rather than completing all healing on both teams first.
++        if ((turn - 1) % 2 !== 0 || k?.trigger !== 'everySecondExchange') continue;
+         if (k.effect.kind === 'gainStats') {
+           x.atk += eff(x, k.effect.atk); x.hp += eff(x, k.effect.hp);
+           frame(`${x.name} gains +${eff(x, k.effect.atk)}/+${eff(x, k.effect.hp)}`);
+@@ -686,15 +721,8 @@
+       }
+     }
+     if (!st.you.length || !st.them.length) break;
+-    if (season3) for (const side of ['you', 'them']) {
+-      const last = st[side].length === 1 ? st[side][0] : null, k = kitOf(last);
+-      // Resolve all knockouts before checking whether the next attacker is alone.
+-      if (last && k?.trigger === 'lastStanding' && !last._lastStandingUsed) {
+-        last._lastStandingUsed = true;
+-        last.atk += eff(last, k.effect.atk); last.hp += eff(last, k.effect.hp);
+-        frame(`${last.name} gains +${eff(last, k.effect.atk)}/+${eff(last, k.effect.hp)}`);
+-      }
+-    }
++    // Hot seat, venom or a periodic snipe can leave a different last survivor.
++    lastStanding();
+     const A = { you: st.you[0], them: st.them[0] };
+     const skipped = {};
+     // Before-attack kits fire even if the attack will be jammed. Recorded S3
+@@ -743,7 +771,7 @@
+       };
+       const firstYou = hasFirstStrike(A.you) && !hasFirstStrike(A.them);
+       const firstThem = hasFirstStrike(A.them) && !hasFirstStrike(A.you);
+-      if ((firstYou && !skipped.you) || (firstThem && !skipped.them)) {
++      if (!skipped.you && !skipped.them && (firstYou || firstThem)) {
+         const first = firstYou ? 'you' : 'them', second = other(first);
+         if (!skipped[first]) {
+           const attacker = A[first], target = A[second];
+--- before/lib/target.js
++++ after/lib/target.js
+@@ -23,13 +23,15 @@
+ const proxyBookWeight = (_season) => R0_BOOK_WEIGHT;
+ 
+ /**
+- * build({book, season, round, handle, prevHandle, seats, limit, beforeTs})
++ * build({book, season, round, handle, prevHandle, seats, limit, beforeTs, bookPolicy, recencyHalfLifeMs})
+  *  -> {entries: [{board, weight, seats}], sources: {bookN, poolN, bookWeight}, note}
+  * Weights sum to 1.  `seats` is the CURRENT match's seat rules and is attached to every entry: the book's own
+  * per-entry seats describe the match it was recorded in, which is not the match we are about to play.
+  */
+ function build({ book, season, round, handle, prevHandle, seats = null, limit = 40, beforeTs,
+-  bookWeight: bookWeightOverride, recencyHalfLifeMs = null } = {}) {
++  bookWeight: bookWeightOverride, recencyHalfLifeMs = null,
++  bookPolicy = Number(season) >= 3 && recencyHalfLifeMs == null ? 'latest' : 'frequency' } = {}) {
++  if (!['frequency', 'latest'].includes(bookPolicy)) throw new Error(`unknown book policy: ${bookPolicy}`);
+   const r = Number(round) || 0;
+   // R0 falls back on the PREVIOUS opponent because the handle is hidden in 90.5% of R0 shops -- but
+   // it is known in the other 9.5%, and the real handle beats the proxy there (the prev-opponent top
+@@ -63,14 +65,18 @@
+   }
+ 
+   const entries = [];
+-  // An optional, measured recency model changes probabilities WITHIN a known handle. The pool
+-  // remains the population prior. Using the newest sighting as the reference makes the normalized
+-  // weights independent of when the function is called and keeps as-of replay deterministic.
++  // S3 ghosts change lineups: the supplied chronological records favor the most recent sighting
++  // over lifetime frequency (149 vs 127 correct later-round boards). Only the handle's share
++  // changes; the pool remains the population prior and older boards remain in memory. Explicit
++  // frequency/decay policies are available for comparison; S1/S2 retain frequency by default.
+   const newest = bookRows.reduce((m, x) => Math.max(m, Number(x.lastTs) || 0), 0);
+   const halfLife = Number(recencyHalfLifeMs);
+-  const recentWeight = (x) => recencyHalfLifeMs != null && halfLife > 0
+-    ? x.n * 2 ** (-Math.max(0, newest - (Number(x.lastTs) || newest)) / halfLife)
+-    : x.n;
++  const recentWeight = (x) => {
++    if (bookPolicy === 'latest' && newest > 0) return Number(x.lastTs) === newest ? x.n : 0;
++    return recencyHalfLifeMs != null && halfLife > 0
++      ? x.n * 2 ** (-Math.max(0, newest - (Number(x.lastTs) || newest)) / halfLife)
++      : x.n;
++  };
+   push(entries, bookRows.map((x) => ({ board: x.board, captain: x.captain, w: recentWeight(x) })),
+     bookWeight, seats, 'book');
+   push(entries, poolRows.map((x) => ({ board: x.board, captain: x.captain, w: x.weight })),
+@@ -80,7 +86,7 @@
+   if (total > 0) for (const e of entries) e.weight /= total;   // kill float drift; weights must sum to 1
+ 
+   const note = `r${r} book=${bookRows.length}@${bookWeight.toFixed(2)} pool=${poolRows.length}@${(1 - bookWeight).toFixed(2)}`
+-    + (notes.length ? ` (${notes.join('; ')})` : '');
++    + (bookPolicy === 'latest' ? ' latest' : '') + (notes.length ? ` (${notes.join('; ')})` : '');
+   return { entries, sources: { bookN: bookRows.length, poolN: poolRows.length, bookWeight }, note };
+ }
+ 
+--- before/driver/play_loop.js
++++ after/driver/play_loop.js
+@@ -405,7 +405,7 @@
+     let S = reS(env);
+     if (S.season >= 3 && !S.captain && Array.isArray(S.captainOffer) && S.captainOffer.length) {
+       const captain = planner.chooseCaptain
+-        ? planner.chooseCaptain(S, { book, handle: ctx.handle, prevHandle: ctx.prevHandle, timeBudgetMs })
++        ? planner.chooseCaptain(S, { book, handle: ctx.handle, prevHandle: ctx.prevHandle, timeBudgetMs, targetOpts })
+         : S.captainOffer[0];
+       const action = { type: 'pickCaptain', captain };
+       if (shopModel.legal(S, action) !== true) {
+@@ -429,6 +429,7 @@
+       handle: ctx.handle, prevHandle: ctx.prevHandle, seats: S.seats,
+       bookWeight: S.round === 0 ? targetOpts.bookWeight0 : targetOpts.bookWeight12,
+       recencyHalfLifeMs: targetOpts.recencyHalfLifeMs,
++      bookPolicy: targetOpts.bookPolicy,
+     });
+     // The rounds still to come, for match-level valuation: at R0 the handle is hidden, so the
+     // previous opponent stands in at R0 confidence; from R1 the handle is known and its book
+@@ -441,6 +442,7 @@
+         bookWeight: ctx.handle ? targetOpts.bookWeight12
+           : targetOpts.bookWeight0 == null ? targetLib.proxyBookWeight(ctx.season) : targetOpts.bookWeight0,
+         recencyHalfLifeMs: targetOpts.recencyHalfLifeMs,
++        bookPolicy: targetOpts.bookPolicy,
+       });
+     }
+     event('shop', {
+--- before/tools/bootstrap_s3_book.js
++++ after/tools/bootstrap_s3_book.js
+@@ -0,0 +1,53 @@
++#!/usr/bin/env node
++'use strict';
++/** Installation helper: seed Season 3 only when the preserved book has no S3 observations.
++ * Run while the bot is stopped. Existing S3 memory is a byte-for-byte no-op; S1/S2 counts
++ * are preserved when the separate public-replay seed is merged. Never calls book:build.
++ */
++const fs = require('node:fs');
++const os = require('node:os');
++const path = require('node:path');
++const crypto = require('node:crypto');
++const bookLib = require('../lib/book');
++const { seed, DEFAULT_INPUT } = require('./seed_s3_book');
++const { mergeFiles } = require('./merge_book');
++
++function bootstrap({ bookFile = bookLib.DEFAULT_FILE, input = DEFAULT_INPUT,
++  lockFile = path.join(path.dirname(bookFile), '../data/play_loop.lock') } = {}) {
++  if (fs.existsSync(lockFile)) throw new Error(`Stop the arena loop before seeding memory (${lockFile})`);
++  const book = bookLib.open(bookFile); // Validate existing data; never replace malformed memory.
++  const existing = Object.entries(book.data().entries)
++    .filter(([key]) => key.startsWith('3|')).reduce((n, [, rows]) =>
++      n + rows.reduce((s, row) => s + row.n, 0), 0);
++  if (existing) return { seeded: false, reason: 'Season 3 observations already present', observations: existing };
++
++  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'arena-s3-bootstrap-'));
++  try {
++    const seedFile = path.join(dir, 'seed.json');
++    seed({ input, output: seedFile });
++    let backup = null;
++    if (fs.existsSync(bookFile)) {
++      backup = `${bookFile}.before-s3-seed-${crypto.randomUUID()}`;
++      fs.copyFileSync(bookFile, backup, fs.constants.COPYFILE_EXCL);
++    }
++    const merged = mergeFiles(seedFile, bookFile);
++    return { seeded: true, backup, added: merged.added, observations: merged.observations };
++  } finally {
++    fs.rmSync(dir, { recursive: true, force: true });
++  }
++}
++
++if (require.main === module) {
++  try {
++    const args = process.argv.slice(2);
++    if (args.length && (args.length !== 2 || args[0] !== '--book')) {
++      throw new Error('usage: bootstrap_s3_book.js [--book PATH]');
++    }
++    console.log(JSON.stringify(bootstrap(args.length ? { bookFile: path.resolve(args[1]) } : {})));
++  } catch (e) {
++    console.error(e.message);
++    process.exitCode = 1;
++  }
++}
++
++module.exports = { bootstrap };
+--- before/tools/eval_season3.js
++++ after/tools/eval_season3.js
+@@ -10,7 +10,7 @@
+  *
+  *   node tools/eval_season3.js [--games 10] [--seeds 101,103,107,109,113]
+  *     [--folds 5] [--budget Infinity] [--csv /path/to/results.csv]
+- *     [--same-policy | --r0-weight 0 | --r0-match-off | --r1-match-on | --two-step-off]
++ *     [--same-policy | --r0-weight 0 | --r0-match-off | --r1-match-on | --two-step-off | --latest-book | --stop-check]
+  *
+  * `--same-policy` is a deterministic pairing self-check. Mock item costs/odds beyond observed R0
+  * commons are assumptions, and public replays lack captain and seat metadata. Scores are local mock
+@@ -29,7 +29,8 @@
+ function parseArgs(argv) {
+   const o = { games: 10, seeds: [101, 103, 107, 109, 113], folds: 5,
+     budget: Infinity, csv: null, samePolicy: false, r0Weight: null,
+-    r0MatchOff: false, r1MatchOn: false, twoStepOff: false, input: DEFAULT_INPUT };
++    r0MatchOff: false, r1MatchOn: false, twoStepOff: false, latestBook: false,
++    stopCheck: false, input: DEFAULT_INPUT };
+   for (let i = 0; i < argv.length; i++) {
+     const a = argv[i];
+     const value = () => {
+@@ -47,12 +48,14 @@
+     else if (a === '--r0-match-off') o.r0MatchOff = true;
+     else if (a === '--r1-match-on') o.r1MatchOn = true;
+     else if (a === '--two-step-off') o.twoStepOff = true;
++    else if (a === '--latest-book') o.latestBook = true;
++    else if (a === '--stop-check') o.stopCheck = true;
+     else throw new Error(`unknown flag ${a}`);
+   }
+   if (!Number.isInteger(o.games) || o.games < 1 || !Number.isInteger(o.folds) ||
+       o.folds < 2 || !o.seeds.length || o.seeds.some((s) => !Number.isInteger(s)) ||
+       !(o.budget >= 0) || (o.r0Weight != null && !(o.r0Weight >= 0 && o.r0Weight <= 1)) ||
+-      [o.samePolicy, o.r0Weight != null, o.r0MatchOff, o.r1MatchOn, o.twoStepOff]
++      [o.samePolicy, o.r0Weight != null, o.r0MatchOff, o.r1MatchOn, o.twoStepOff, o.latestBook, o.stopCheck]
+         .filter(Boolean).length > 1) {
+     throw new Error('invalid games, folds, seeds, budget or mode');
+   }
+@@ -150,7 +153,8 @@
+   let improved = 0, worsened = 0, equal = 0, illegalOld = 0, illegalCurrent = 0;
+   let shortOld = 0, shortCurrent = 0;
+   const t0 = Date.now();
+-  const mode = opt.samePolicy ? 'current self-check' : opt.r0Weight != null
++  const mode = opt.latestBook ? 'frequency vs latest opponent board' : opt.stopCheck
++    ? 'full-target stopping check off vs on' : opt.samePolicy ? 'current self-check' : opt.r0Weight != null
+     ? `current with R0 book weight ${opt.r0Weight}` : opt.r0MatchOff
+       ? 'R0 match objective off, two-step on' : opt.r1MatchOn
+         ? 'match objective on in R0 and R1' : opt.twoStepOff
+@@ -166,15 +170,18 @@
+     for (const seed of opt.seeds) {
+       const a = await play({ fold, seed, games: opt.games, budget: opt.budget,
+         observations, plannerOpts: !opt.samePolicy && opt.r0Weight == null &&
+-          !opt.r0MatchOff && !opt.r1MatchOn && !opt.twoStepOff
+-          ? { matchLevel: false, twoStep: false } : { matchLevel: true, twoStep: true } });
++          !opt.r0MatchOff && !opt.r1MatchOn && !opt.twoStepOff && !opt.latestBook && !opt.stopCheck
++          ? { matchLevel: false, twoStep: false } : { matchLevel: true, twoStep: true,
++            ...(opt.stopCheck ? { verifyStop: false } : {}) },
++        targetOpts: opt.latestBook ? { bookPolicy: 'frequency' } : undefined });
+       const b = await play({ fold, seed, games: opt.games, budget: opt.budget,
+         observations, plannerOpts: opt.r0MatchOff
+           ? { matchLevel: false, twoStep: true } : opt.r1MatchOn
+             ? { matchLevel: true, twoStep: true, matchRounds: [0, 1] }
+             : opt.twoStepOff ? { matchLevel: true, twoStep: false }
+             : { matchLevel: true, twoStep: true },
+-        targetOpts: opt.r0Weight == null ? undefined : { bookWeight0: opt.r0Weight } });
++        targetOpts: opt.latestBook ? { bookPolicy: 'latest' }
++          : opt.r0Weight == null ? undefined : { bookWeight0: opt.r0Weight } });
+       if (JSON.stringify(a.starts) !== JSON.stringify(b.starts)) {
+         throw new Error(`exogenous starting offers differ in fold ${fold.index}, seed ${seed}`);
+       }
+--- before/tools/eval_versions.js
++++ after/tools/eval_versions.js
+@@ -10,12 +10,14 @@
+  * whole-match sample size in docs/HISTORY.md. No network or rated games are used.
+  *
+  *   node tools/eval_versions.js [--before-tgz PATH | --before-dir PATH]
+- *     [--games 50] [--seeds 101,103,...,197] [--season 1|2|both]
++ *     [--games 50] [--seeds 101,103,...,197] [--season 1|2|3|both]
+  *     [--budget Infinity] [--book-mode cold|snapshots] [--late-id] [--csv PATH]
+  *
+  * The old code is run with its own driver, planner, book, target, shop model and
+  * simulator; the arena applies actions and fights using the current rules for
+  * both arms. This measures the old policy as it would perform under those rules.
++ * Season 3 uses the mock's public-replay trajectories, captain offers and item
++ * economy assumptions. Its results are not rated-queue win-rate estimates.
+  */
+ 
+ const fs = require('fs');
+@@ -52,7 +54,7 @@
+   }
+   if (!Number.isInteger(o.games) || o.games < 1 || !o.seeds.length ||
+       o.seeds.some((s) => !Number.isInteger(s)) ||
+-      !['1', '2', 'both'].includes(o.season) || !(o.budget >= 0) ||
++      !['1', '2', '3', 'both'].includes(o.season) || !(o.budget >= 0) ||
+       !['cold', 'snapshots'].includes(o.bookMode)) {
+     throw new Error('invalid games, seeds, season or budget');
+   }
+@@ -137,6 +139,7 @@
+         const s = response.state;
+         starts.push(JSON.stringify({
+           pets: s.shop.pets, food: s.shop.food, seats: s.seats,
++          ...(season >= 3 ? { item: s.shop.item, captainOffer: s.captainOffer } : {}),
+         }));
+       }
+       return redact(response);
+--- before/test/book.test.js
++++ after/test/book.test.js
+@@ -78,7 +78,7 @@
+   const rows = reopened.lookup(3, 'alice', 1);
+   assert.equal(rows.length, 2);
+   assert.deepEqual(new Set(rows.map((r) => r.board[0].item)), new Set(['foamPad', 'laserPointer']));
+-  const t = target.build({ book: reopened, season: 3, round: 1, handle: 'alice' });
++  const t = target.build({ book: reopened, season: 3, round: 1, handle: 'alice', bookPolicy: 'frequency' });
+   assert.deepEqual(new Set(t.entries.map((e) => e.theirCaptain)), new Set(['drill', 'medic']));
+ });
+ 
+@@ -445,6 +445,27 @@
+   assert.deepEqual(new Set(recent.entries.map((e) => e.source)), new Set(['book', 'pool']));
+   assert.ok(Math.abs(recent.entries.filter((e) => e.source === 'book').reduce((n, e) => n + e.weight, 0) - 0.75) < 1e-12);
+   assert.ok(Math.abs(recent.entries.filter((e) => e.source === 'pool').reduce((n, e) => n + e.weight, 0) - 0.25) < 1e-12);
++});
++
++test('latest-board targets replace stale frequency only within the handle and respect beforeTs', () => {
++  const { book } = tmpBook();
++  for (const day of [1, 2, 3]) book.record({ season: 3, handle: 'alice', round: 1, board: A, ts: at(day) });
++  book.record({ season: 3, handle: 'alice', round: 1, board: B, captain: 'medic', ts: at(4) });
++  book.record({ season: 3, handle: 'bob', round: 1, board: C, ts: at(2) });
++  const build = (extra = {}) => target.build({ book, season: 3, round: 1, handle: 'alice',
++    bookPolicy: 'latest', ...extra });
++  const current = build();
++  assert.equal(wOf(current, A), 0);
++  assert.equal(wOf(current, B), 0.75);
++  assert.equal(wOf(current, C), 0.25);
++  assert.equal(current.entries.find((e) => e.source === 'book').theirCaptain, 'medic');
++  const earlier = build({ beforeTs: Date.parse(at(3)) + 1 });
++  assert.equal(wOf(earlier, A), 0.75);
++  assert.equal(wOf(earlier, B), 0);
++  assert.ok(wOf(build({ bookPolicy: 'frequency' }), A) > wOf(build({ bookPolicy: 'frequency' }), B));
++  assert.equal(book.lookup(3, 'alice', 1).length, 2, 'historical evidence remains in memory');
++  assert.deepEqual(target.build({ book, season: 3, round: 1, handle: 'alice' }), current,
++    'live S3 defaults to the most recent observed lineup');
+ });
+ 
+ // ---------------------------------------------------------------- inferGhost
+--- before/test/bootstrap_s3_book.test.js
++++ after/test/bootstrap_s3_book.test.js
+@@ -0,0 +1,39 @@
++'use strict';
++const test = require('node:test');
++const assert = require('node:assert/strict');
++const fs = require('node:fs');
++const os = require('node:os');
++const path = require('node:path');
++const { bootstrap } = require('../tools/bootstrap_s3_book');
++
++function files(t) {
++  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'arena-bootstrap-test-'));
++  t.after(() => fs.rmSync(dir, { recursive: true, force: true }));
++  return { bookFile: path.join(dir, 'book.json'), lockFile: path.join(dir, 'loop.lock') };
++}
++
++test('installation seeds missing S3 without changing old observations and is idempotent', (t) => {
++  const opts = files(t);
++  const entry = { board: [{ name: 'Cooper', kitId: 'echo', atk: 2, hp: 5, honey: false }],
++    n: 1000, firstTs: 1, lastTs: 1000, ts: [999, 1000] };
++  const original = JSON.stringify({ format: 1, entries: { '2|opponent|0': [entry] } });
++  fs.writeFileSync(opts.bookFile, original);
++  const result = bootstrap(opts);
++  assert.equal(result.seeded, true);
++  assert.ok(result.added > 0);
++  assert.equal(fs.readFileSync(result.backup, 'utf8'), original);
++  const after = fs.readFileSync(opts.bookFile, 'utf8');
++  assert.deepEqual(JSON.parse(after).entries['2|opponent|0'], [entry]);
++  assert.equal(bootstrap(opts).seeded, false);
++  assert.equal(fs.readFileSync(opts.bookFile, 'utf8'), after);
++});
++
++test('bootstrap refuses malformed memory and a loop lock without changing data', (t) => {
++  const opts = files(t);
++  fs.writeFileSync(opts.bookFile, '{broken');
++  assert.throws(() => bootstrap(opts), /Invalid opponent book/);
++  assert.equal(fs.readFileSync(opts.bookFile, 'utf8'), '{broken');
++  fs.writeFileSync(opts.lockFile, '{}');
++  assert.throws(() => bootstrap(opts), /Stop the arena loop/);
++  assert.equal(fs.readFileSync(opts.bookFile, 'utf8'), '{broken');
++});
+--- before/test/mock_arena.js
++++ after/test/mock_arena.js
+@@ -114,6 +114,7 @@
+   // `rounds` is what lets a test report the per-round score, which is the quantity the audit
+   // reports (audit/strategy.md §3) -- the match win rate alone hides which round loses.
+   const stats = { posts: 0, actions: {}, endShops: [], matches: [], rounds: [], illegal: 0 };
++  const publicReplays = new Map();
+ 
+   const pick = (arr, label) => arr[Math.floor(draw(label) * arr.length)];
+ 
+@@ -162,6 +163,7 @@
+       seats: season >= 2 ? seats : null,
+       wins: { you: 0, them: 0 },
+       results: [],
++      replayRounds: [],
+       eloDelta: null,
+       done: false,
+     };
+@@ -221,6 +223,12 @@
+       result,
+       wins: { ...w },
+       eloDelta: match.eloDelta,
++    });
++    if (season >= 3) publicReplays.set(match.id, {
++      id: match.id,
++      player: { x_handle: 'mockbot' },
++      opponent: { kind: match.ai ? 'ai' : 'ghost', x_handle: match.ai ? 'AI' : match.ghost.handle },
++      rounds: match.replayRounds,
+     });
+     phase = { kind: 'result' };
+   }
+@@ -353,7 +361,8 @@
+           ),
+         });
+         const them = pick(match.ghost.rounds[S.round], `match:${match.index}:round:${S.round}:enemy`);
+-        const r = sim.simulate(shopModel.simUnits(S), them, {
++        const us = shopModel.simUnits(S);
++        const r = sim.simulate(us, them, {
+           round: S.round,
+           seats: match.seats,
+           season,
+@@ -366,6 +375,13 @@
+           frames: r.frames,
+           winner: r.winner === 'us' ? 'you' : r.winner,
+         };
++        if (season >= 3) {
++          // The live result supplies exact public boards, including equipment. A mock
++          // without this endpoint silently benchmarks the lossy frame fallback instead.
++          const replayUnit = (u) => ({ ...u, botId: botId(u.name), tempAtk: 0 });
++          match.replayRounds.push({ round: S.round, you: us.map(replayUnit),
++            them: them.map(replayUnit), winner: phase.winner, frames: r.frames });
++        }
+         return envelope();
+       }
+       case 'battleDone': {
+@@ -405,6 +421,9 @@
+   async function playerMatches() {
+     return { data: [] };
+   }
++  async function getPublicMatchDetail(id) {
++    return publicReplays.has(id) ? structuredClone(publicReplays.get(id)) : null;
++  }
+   function setDryRun(v) {
+     dry = !!v;
+     return dry;
+@@ -417,6 +436,7 @@
+     getMe,
+     getLeaderboard,
+     playerMatches,
++    getPublicMatchDetail,
+     setDryRun,
+     isDryRun: () => dry,
+     getLast: () => envelope(),
+--- before/test/season3_live_practice.test.js
++++ after/test/season3_live_practice.test.js
+@@ -12,8 +12,9 @@
+ const { isDeepStrictEqual } = require('node:util');
+ const { verifyBattle } = require('../tools/verify_live_practice');
+ 
+-const practiceRuns = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(__dirname,
+-  'fixtures/season3-practice-full-matches-2026-09-20.json.gz')))).runs;
++const practiceRuns = ['2026-09-20', '2026-09-21'].flatMap((date) =>
++  JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(__dirname,
++    `fixtures/season3-practice-full-matches-${date}.json.gz`)))).runs);
+ for (const run of practiceRuns) test(`complete official practice matches, seed ${run.report.seed}`, () => {
+   let battles = 0, shopChecks = 0;
+   for (const { before, action, after } of run.requests) {
+--- before/test/season3_live_records.test.js
++++ after/test/season3_live_records.test.js
+@@ -0,0 +1,48 @@
++'use strict';
++const test = require('node:test');
++const assert = require('node:assert/strict');
++const fs = require('node:fs');
++const path = require('node:path');
++const sim = require('../lib/sim');
++const planner = require('../lib/planner');
++const shop = require('../lib/shop_model');
++
++// Exact server boards plus independently logged seats/captains. No rule metadata is
++// inferred from the expected frames, and all input records remain immutable.
++test('all 337 supplied live Season 3 battles replay frame for frame', () => {
++  const records = fs.readFileSync(path.join(__dirname,
++    '../data/corpus/s3_live_battles_2026-09-21.jsonl'), 'utf8').trim().split('\n').map(JSON.parse);
++  assert.equal(records.length, 337);
++  for (const r of records) {
++    const before = JSON.stringify(r);
++    const got = sim.simulate(r.us, r.them, r.options);
++    const label = `${r.matchId} round ${r.round}`;
++    assert.equal(got.winner === 'us' ? 'you' : got.winner, r.winner, label);
++    assert.deepEqual(got.frames, r.frames, label);
++    assert.equal(JSON.stringify(r), before, `${label}: mutated inputs`);
++  }
++});
++
++test('a reduced target cannot end the recorded 12-token shop with an affordable improvement', () => {
++  const { state, target } = require('./fixtures/live-shop-stop-2026-09-21.json');
++  // Zero budget forces sample reduction deterministically, without wall-clock thresholds.
++  const ctx = () => ({ target, timeBudgetMs: 0, rng: sim.mulberry32(123) });
++  const old = planner.planStep(state, { ...ctx(), verifyStop: false });
++  assert.equal(old.done, true, 'the reduced sample reproduces the original false stop');
++  const next = planner.planStep(state, ctx());
++  assert.ok(next.actions.length > 0);
++  assert.match(next.reason, /full-target stop check/);
++  let after = state;
++  for (const action of next.actions) {
++    assert.equal(shop.legal(after, action), true);
++    after = shop.apply(after, action);
++  }
++  const options = { season: state.season, round: state.round, seats: state.seats,
++    ourCaptain: state.captain, theirCaptain: state.rivalCaptain,
++    utility: planner.utility(state.round, state.series) };
++  const beforeScore = planner.evaluate(shop.simUnits(state), target, options).score;
++  const afterScore = shop.simUnitsOutcomes(after).reduce((s, x) =>
++    s + x.p * planner.evaluate(x.units, target, options).score, 0);
++  assert.ok(afterScore > beforeScore, `${afterScore} must improve ${beforeScore}`);
++  assert.equal(next.value, beforeScore, 'reported scores use the full target');
++});
+--- before/test/season3_mock.test.js
++++ after/test/season3_mock.test.js
+@@ -2,6 +2,11 @@
+ const test = require('node:test');
+ const assert = require('node:assert/strict');
+ const mock = require('./mock_arena');
++const fs = require('node:fs');
++const os = require('node:os');
++const path = require('node:path');
++const bookLib = require('../lib/book');
++const { run } = require('../driver/play_loop');
+ 
+ test('S3 ghosts keep three boards from one public match together', () => {
+   const ghosts = mock.loadGhosts({ s3: true });
+@@ -54,3 +59,27 @@
+   e = await arena.act({ type: 'reroll' }, e.version);
+   assert.equal(e.state.gold, 9);
+ });
++
++test('the real driver learns exact equipped ghost boards from completed mock replays', async (t) => {
++  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'arena-mock-replay-'));
++  t.after(() => fs.rmSync(dir, { recursive: true, force: true }));
++  const ghost = mock.loadGhosts({ s3: true }).find((g) =>
++    g.rounds[0][0].some((u) => u.item));
++  assert.ok(ghost, 'requires recorded enemy equipment');
++  const arena = mock.create({ season: 3, seed: 917, ghosts: [ghost] });
++  assert.equal(await arena.getPublicMatchDetail('m_mock_1'), null);
++  const book = bookLib.open(path.join(dir, 'book.json'));
++  const result = await run({ arena, book, start: true, games: 1, seed: 42,
++    timeBudgetMs: 0, lastOpponentFile: path.join(dir, 'last.json'),
++    telemetry: { event() {}, close() {} } });
++  assert.equal(result.games, 1);
++  const replay = await arena.getPublicMatchDetail('m_mock_1');
++  assert.ok(replay.rounds.length >= 2);
++  for (const r of replay.rounds) {
++    const expected = bookLib.normBoard(ghost.rounds[r.round][0]);
++    assert.deepEqual(book.lookup(3, ghost.handle, r.round)[0].board, expected);
++    assert.deepEqual(bookLib.normBoard(bookLib.publicReplayBoard(r, 'them')), expected);
++  }
++  replay.rounds[0].them[0].atk = -999;
++  assert.notEqual((await arena.getPublicMatchDetail('m_mock_1')).rounds[0].them[0].atk, -999);
++});

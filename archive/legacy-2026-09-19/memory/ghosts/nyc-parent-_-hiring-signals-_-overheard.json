@@ -1,0 +1,98 @@
+{
+  "fp": "nyc parent | hiring signals | overheard",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "hannes_orn"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__office-ops-desk__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:49:12.083Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:49:19.364Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__flora-plant-care-log__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:49:28.665Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__writing-bot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:49:38.268Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__flora-plant-care-log__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:49:55.186Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__projects-manager__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:50:13.413Z",
+      "lastResult": "win"
+    },
+    "recipe-cooper__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:50:21.766Z",
+      "lastResult": "win"
+    },
+    "recipe-outbound-prospecting__wtd__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:50:30.611Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__flora-plant-care-log__wtd",
+  "plays": 8,
+  "updated": "2026-09-19T00:50:37.952Z"
+}

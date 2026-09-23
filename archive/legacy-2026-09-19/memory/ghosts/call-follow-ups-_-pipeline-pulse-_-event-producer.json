@@ -1,0 +1,130 @@
+{
+  "fp": "call follow ups | pipeline pulse | event producer",
+  "seats": [
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "asteris__"
+  ],
+  "matchups": {
+    "recipe-sales-call-coach__video-edit-desk__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:37:58.680Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__wtd__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:38:07.624Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__writing-bot__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:38:15.392Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__outbound-prospecting": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:38:25.442Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__signal-prospector__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:38:35.223Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__sales-call-coach__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:38:47.362Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__game-art-director__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:38:57.800Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__flora-plant-care-log__executive-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:39:09.819Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__company-docs-q-a__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:39:23.463Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:39:34.455Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__account-research-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:39:47.280Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__company-docs-q-a__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:39:58.364Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__company-docs-q-a__company-docs-q-a",
+  "plays": 12,
+  "updated": "2026-09-19T02:39:58.364Z"
+}

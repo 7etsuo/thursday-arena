@@ -1,0 +1,32 @@
+'use strict';
+const fs=require('fs'),crypto=require('crypto'),root='/home/tetsuo/grok/thursday-arena',base='/tmp/arena-fixes-20260923/s4';
+const {CAPTAINS,RELICS,FUSIONS}=require(root+'/lib/season4'),bots=JSON.parse(fs.readFileSync(base+'/catalog.json'));
+const template=JSON.parse(fs.readFileSync(base+'/simple-0.json')).reply.state;
+const neutral=bots.find(b=>b.kitId==='hand_off');
+const unit=(b,uid,extra={})=>({uid,botId:b.id,atk:3,hp:30,tempAtk:0,honey:false,...extra});
+const cases=[];
+for (const [i,b] of bots.filter(b=>b.season===4).entries()) {
+ const pool=bots.filter(b=>b.season===4);
+ cases.push({label:'mixed:'+b.kitId,board:[unit(b,1,{atk:8,hp:35,item:i%2?'hotfix':null}),unit(pool[(i+31)%100],2,{atk:6,hp:30}),unit(pool[(i+57)%100],3,{atk:5,hp:30})],relics:i%3===0?['hotfix','encore']:i%3===1?['loudCrew','alchemist']:['doubleTap','vampire']});
+}
+for(const item of JSON.parse(fs.readFileSync(base+'/items.json')).filter(i=>i.season===4))for(const pos of [0,1]){
+ const board=[unit(neutral,1,{atk:8,hp:30}),unit(neutral,2),unit(neutral,3)];board[pos].item=item.id;
+ cases.push({label:'item:'+item.id+':'+pos,board});
+}
+const file=base+'/extra-cases.jsonl',seen=new Set(fs.existsSync(file)?fs.readFileSync(file,'utf8').trim().split('\n').filter(Boolean).map(l=>JSON.parse(l).label):[]);
+const session=crypto.randomUUID(),sleep=ms=>new Promise(r=>setTimeout(r,ms));
+(async()=>{for(let i=0;i<cases.length;i++){
+ const c=cases[i];if(seen.has(c.label))continue;
+ const before={...structuredClone(template),phase:{kind:'shop',round:2},wins:{you:1,them:1},results:['you','them'],board:c.board,nextUid:4,captain:c.captain||'trainer',relics:c.relics||[],seed:20260923+i*7919};
+ delete before.captainOffer;delete before.captainShop;if(c.seats)before.seats=c.seats;
+ const action={type:'endShop'};let reply;
+ for(let attempt=0;attempt<8;attempt++){
+  await sleep(1100);
+  const res=await fetch('https://thursdayarena.com/api/arena/practice',{method:'POST',headers:{'content-type':'application/json','x-practice-session':session},body:JSON.stringify({state:before,action}),signal:AbortSignal.timeout(20000)});
+  const raw=await res.text();if(res.status===429){await sleep(Math.max(1000,Number(res.headers.get('retry-after')||5)*1000));continue;}
+  if(!res.ok)throw Error(c.label+' '+res.status+' '+raw);reply=JSON.parse(raw);break;
+ }
+ if(!reply?.state?.phase?.frames)throw Error('no battle '+c.label);
+ fs.appendFileSync(file,JSON.stringify({label:c.label,before,action,after:reply.state})+'\n');
+ if((i+1)%25===0)console.log(i+1+'/'+cases.length);
+}console.log('complete',cases.length)})().catch(e=>{console.error(e);process.exitCode=1});

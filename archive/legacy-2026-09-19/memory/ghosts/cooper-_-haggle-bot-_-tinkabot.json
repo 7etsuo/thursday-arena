@@ -1,0 +1,82 @@
+{
+  "fp": "cooper | haggle bot | tinkabot",
+  "seats": [
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "tinkabot",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "desmondcheongzx"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__the-morning-newspaper__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:35:36.033Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__pitch-deck-coach": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-18T23:35:46.123Z",
+      "lastResult": "draw"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:35:57.123Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__hiring-signals__lead-pipeline-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-18T23:36:16.139Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__copy-humanizer__office-ops-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-18T23:36:33.524Z",
+      "lastResult": "draw"
+    },
+    "recipe-office-ops-desk__sales-call-coach__luma-pages": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-18T23:36:44.003Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__company-docs-q-a__projects-manager",
+  "plays": 6,
+  "updated": "2026-09-18T23:36:44.003Z"
+}

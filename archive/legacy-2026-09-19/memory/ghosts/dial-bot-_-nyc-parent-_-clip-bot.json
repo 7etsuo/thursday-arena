@@ -1,0 +1,58 @@
+{
+  "fp": "dial bot | nyc parent | clip bot",
+  "seats": [
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "akhadse26"
+  ],
+  "matchups": {
+    "recipe-talent-discovery__wtd__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T21:09:56.218Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__call-follow-ups__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:10:15.031Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__meeting-recap-deck__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:10:45.071Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__meeting-recap-deck__pipeline-pulse",
+  "plays": 3,
+  "updated": "2026-09-18T21:10:45.072Z"
+}

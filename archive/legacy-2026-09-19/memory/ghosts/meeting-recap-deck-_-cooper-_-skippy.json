@@ -1,0 +1,58 @@
+{
+  "fp": "meeting recap deck | cooper | skippy",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "cibaru"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 2,
+      "losses": 7,
+      "draws": 0,
+      "elo": -81,
+      "last": "2026-09-19T06:51:27.452Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 1,
+      "losses": 1,
+      "draws": 0,
+      "elo": 0,
+      "last": "2026-09-19T06:09:57.701Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__wtd__copy-humanizer": {
+      "wins": 1,
+      "losses": 1,
+      "draws": 0,
+      "elo": -1,
+      "last": "2026-09-19T06:52:21.954Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-webby__wtd__copy-humanizer",
+  "plays": 13,
+  "updated": "2026-09-19T06:53:30.146Z"
+}

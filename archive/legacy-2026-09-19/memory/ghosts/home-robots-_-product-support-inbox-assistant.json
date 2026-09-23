@@ -1,0 +1,43 @@
+{
+  "fp": "home robots | product support inbox assistant",
+  "seats": [
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "vhalan"
+  ],
+  "matchups": {
+    "recipe-webby__wtd__copy-humanizer": {
+      "wins": 8,
+      "losses": 0,
+      "draws": 0,
+      "elo": 123,
+      "last": "2026-09-19T06:53:54.151Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 10,
+      "losses": 0,
+      "draws": 0,
+      "elo": 160,
+      "last": "2026-09-19T06:51:13.612Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 18,
+  "updated": "2026-09-19T06:53:54.151Z"
+}

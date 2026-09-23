@@ -1,0 +1,33 @@
+{
+  "fp": "writing bot | coffee companion | coffee companion",
+  "seats": [
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "coffee companion",
+      "kit": "",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "coffee companion",
+      "kit": "",
+      "atk": 2,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thatretireddude"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T07:07:07.400Z"
+}

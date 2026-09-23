@@ -1,0 +1,58 @@
+{
+  "fp": "nyc parent | flora plant care log | flora plant care log",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "theretardedelon"
+  ],
+  "matchups": {
+    "recipe-x-brief__luma-pages__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -17,
+      "last": "2026-09-19T04:48:51.899Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__credit-card-max__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T04:48:59.213Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 15,
+      "last": "2026-09-19T04:49:06.565Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__credit-card-max__luma-pages",
+  "plays": 3,
+  "updated": "2026-09-19T04:49:06.565Z"
+}

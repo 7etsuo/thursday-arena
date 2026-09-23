@@ -1,0 +1,50 @@
+{
+  "fp": "deal inspector | clip bot | executive assistant",
+  "seats": [
+    {
+      "name": "deal inspector",
+      "kit": "cover",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "executive assistant",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 8,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "laceyintech"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__meeting-recap-deck__alfred": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T00:17:13.215Z",
+      "lastResult": "draw"
+    },
+    "recipe-gtm-loop-closer__call-follow-ups__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:17:38.917Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-gtm-loop-closer__call-follow-ups__luma-pages",
+  "plays": 2,
+  "updated": "2026-09-19T00:17:38.917Z"
+}

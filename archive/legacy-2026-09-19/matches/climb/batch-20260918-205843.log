@@ -1,0 +1,6 @@
+{"event":"batch_start","ts":"2026-09-19T02:58:43.451Z","gamesTarget":15,"pollMs":40}
+{"event":"scout_prior","ts":"2026-09-19T02:58:44.133Z","handle":"a_g_e_n_c","sightings":33,"record":"11-1-2","eloSum":-23,"topKits":[{"key":"bulk","n":26},{"key":"echo","n":17},{"key":"patch","n":9},{"key":"mosquito","n":7},{"key":"first_seat","n":6}],"topArch":[{"key":"backline_snipe","n":9},{"key":"glass_burst","n":6},{"key":"bulk_echo","n":5}],"lastArch":"glass_burst","lastFp":"cooper | account research desk | lingxi s engineer bot"}
+{"event":"observe","ts":"2026-09-19T02:58:44.134Z","phase":{"kind":"result"},"gold":0,"version":93390,"board":"0:Company Docs Q&A 3/7 | 1:Meeting Recap Deck 3/4+honey | 2:Recruiting Coordinator 3/5","handle":"a_g_e_n_c","ghostFp":"cooper | account research desk | lingxi s engineer bot"}
+{"event":"refuse_rematch","ts":"2026-09-19T02:58:44.137Z","handle":"a_g_e_n_c","reason":"losses>=2","fieldWR":null,"fieldGames":null,"losses":2,"wins":null,"draws":null,"cached":null}
+{"event":"refuse_rematch_batch_abort","ts":"2026-09-19T02:58:44.137Z","handle":"a_g_e_n_c","reason":"losses>=2","fieldWR":null}
+{"event":"refuse_rematch_wait","ts":"2026-09-19T02:58:44.137Z","handle":"a_g_e_n_c","reason":"losses>=2","sleepMs":12000,"note":"no_restart_stay_out_of_shop"}

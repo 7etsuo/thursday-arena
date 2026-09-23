@@ -1,0 +1,58 @@
+{
+  "fp": "competitor watch | nyc parent | wtd",
+  "seats": [
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "datone1yk"
+  ],
+  "matchups": {
+    "recipe-deal-inspector__projects-manager__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:27:24.605Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__flora-plant-care-log__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:27:44.250Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__x-brief__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:27:57.890Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-tradbot__x-brief__account-research-desk",
+  "plays": 3,
+  "updated": "2026-09-19T02:27:57.891Z"
+}

@@ -1,0 +1,60 @@
+{
+  "fp": "tech demos | dial bot | x brief",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "naphpesoj",
+    "dczx1997",
+    "epicrentalsintl"
+  ],
+  "matchups": {
+    "recipe-ebr-value-deck-builder__cooper__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T22:45:31.710Z",
+      "lastResult": "loss"
+    },
+    "recipe-credit-card-max__meeting-recap-deck__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T22:45:54.119Z",
+      "lastResult": "draw"
+    },
+    "recipe-dr-eggbot__flora-plant-care-log__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T22:46:11.075Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-dr-eggbot__flora-plant-care-log__writing-bot",
+  "plays": 3,
+  "updated": "2026-09-19T01:27:04.529Z"
+}

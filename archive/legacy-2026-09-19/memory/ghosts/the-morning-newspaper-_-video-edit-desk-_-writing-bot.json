@@ -1,0 +1,66 @@
+{
+  "fp": "the morning newspaper | video edit desk | writing bot",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "fatkiddeals"
+  ],
+  "matchups": {
+    "recipe-deal-inspector__cooper__hiring-signals": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T21:36:17.084Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__seo-aeo-desk__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T21:36:24.419Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__credit-card-max__imogen": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-18T21:37:17.670Z",
+      "lastResult": "loss"
+    },
+    "recipe-x-brief__x-brief__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-18T21:37:48.942Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__credit-card-max__imogen",
+  "plays": 4,
+  "updated": "2026-09-18T21:38:04.388Z"
+}

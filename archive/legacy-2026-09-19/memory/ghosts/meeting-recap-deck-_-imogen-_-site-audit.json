@@ -1,0 +1,74 @@
+{
+  "fp": "meeting recap deck | imogen | site audit",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "site audit",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "aferrari"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__office-ops-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:21:20.096Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__lead-pipeline-desk__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:21:34.521Z",
+      "lastResult": "win"
+    },
+    "recipe-deal-inspector__wtd__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:21:54.945Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__webby__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:22:05.575Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__credit-card-max__account-research-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-18T23:22:15.029Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-webby__webby__imogen",
+  "plays": 5,
+  "updated": "2026-09-18T23:22:15.029Z"
+}

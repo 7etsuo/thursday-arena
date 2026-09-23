@@ -1,0 +1,42 @@
+{
+  "fp": "site audit | love | event producer",
+  "seats": [
+    {
+      "name": "site audit",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sherryslatosky"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "elo": 48,
+      "last": "2026-09-19T05:59:56.087Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__writing-bot__wtd",
+  "plays": 3,
+  "updated": "2026-09-19T05:59:56.087Z"
+}

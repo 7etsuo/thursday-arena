@@ -1,0 +1,90 @@
+{
+  "fp": "event request desk | love | flora plant care log",
+  "seats": [
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jmatthewleelee"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__signal-prospector__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:34:31.420Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__wtd__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:34:48.607Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__imogen__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:34:55.827Z",
+      "lastResult": "win"
+    },
+    "recipe-event-request-desk__call-follow-ups__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:35:16.088Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__nyc-parent__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:35:23.502Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__webby__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:35:42.317Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__flora-plant-care-log__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:36:00.279Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-event-request-desk__call-follow-ups__pipeline-pulse",
+  "plays": 7,
+  "updated": "2026-09-18T12:36:00.279Z"
+}

@@ -1,0 +1,58 @@
+{
+  "fp": "critiquito design critique | customer call coach assistant | company docs q a",
+  "seats": [
+    {
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "customer call coach assistant",
+      "kit": "peacock",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "heywoozyv3y3"
+  ],
+  "matchups": {
+    "recipe-webby__gtm-prospecting__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -21,
+      "last": "2026-09-18T21:24:21.662Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__event-request-desk__pipeline-pulse": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -20,
+      "last": "2026-09-18T21:24:38.936Z",
+      "lastResult": "loss"
+    },
+    "recipe-credit-card-max__cooper__deal-inspector": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -20,
+      "last": "2026-09-18T21:25:13.386Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__cooper__deal-inspector",
+  "plays": 3,
+  "updated": "2026-09-18T21:25:44.557Z"
+}

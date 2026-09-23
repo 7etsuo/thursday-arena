@@ -1,0 +1,30 @@
+{
+  "games": 8,
+  "wins": 7,
+  "losses": 1,
+  "draws": 0,
+  "elo": 96,
+  "actions": 171,
+  "rounds": 21,
+  "dropped": 0,
+  "aiMatches": 0,
+  "publicHistory": {
+    "offline": true
+  },
+  "exitReason": "games_done",
+  "prevHandle": "ternquest_com",
+  "illegal": 0,
+  "fillableShort": 0,
+  "planStep": {
+    "n": 96,
+    "medianMs": 389.643586,
+    "p95Ms": 1829.684439,
+    "maxMs": 1921.953646
+  },
+  "chooseCaptain": {
+    "n": 8,
+    "medianMs": 1935.181805,
+    "p95Ms": 2147.766325,
+    "maxMs": 2147.766325
+  }
+}

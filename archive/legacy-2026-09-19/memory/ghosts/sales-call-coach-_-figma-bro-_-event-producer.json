@@ -1,0 +1,42 @@
+{
+  "fp": "sales call coach | figma bro | event producer",
+  "seats": [
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jennymarquis"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__company-docs-q-a__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-18T21:28:20.063Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__company-docs-q-a__meeting-recap-deck",
+  "plays": 1,
+  "updated": "2026-09-18T21:28:37.959Z"
+}

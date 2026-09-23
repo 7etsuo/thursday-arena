@@ -1,0 +1,38 @@
+{
+  "id": "recipe-meeting-recap-deck__projects-manager__ebr-value-deck-builder",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "projects manager",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "hype",
+    "dump"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -20,
+  "last": "2026-09-19T05:24:23.302Z"
+}

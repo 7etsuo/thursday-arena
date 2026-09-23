@@ -1,0 +1,50 @@
+{
+  "fp": "seo aeo desk | wtd | apple search ads review",
+  "seats": [
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "alfredojrayos"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__call-follow-ups__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:47:33.071Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__love__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:47:51.055Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__love__luma-pages",
+  "plays": 2,
+  "updated": "2026-09-18T20:48:58.656Z"
+}

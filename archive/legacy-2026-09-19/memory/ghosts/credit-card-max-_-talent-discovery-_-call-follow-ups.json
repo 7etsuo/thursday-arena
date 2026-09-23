@@ -1,0 +1,74 @@
+{
+  "fp": "credit card max | talent discovery | call follow ups",
+  "seats": [
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "talent discovery",
+      "kit": "snowball",
+      "atk": 6,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jennymarquis"
+  ],
+  "matchups": {
+    "recipe-credit-card-max__flora-plant-care-log__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 15,
+      "last": "2026-09-18T21:27:26.089Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__nyc-parent__nyc-parent": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -17,
+      "last": "2026-09-18T21:27:48.762Z",
+      "lastResult": "loss"
+    },
+    "recipe-figma-bro__meeting-recap-deck__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-18T21:27:59.480Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__nyc-parent__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 15,
+      "last": "2026-09-18T21:28:31.032Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__copy-humanizer__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 15,
+      "last": "2026-09-18T21:28:42.265Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__copy-humanizer__credit-card-max",
+  "plays": 5,
+  "updated": "2026-09-18T21:28:42.265Z"
+}

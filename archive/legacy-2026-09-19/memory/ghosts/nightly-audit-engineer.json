@@ -1,0 +1,84 @@
+{
+  "fp": "nightly audit engineer",
+  "seats": [
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "skelliskel"
+  ],
+  "matchups": {
+    "recipe-imogen__credit-card-max__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:33:17.657Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__signal-prospector__hiring-signals": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:33:47.180Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__credit-card-max__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:33:55.021Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__hiring-signals__event-request-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:34:01.668Z",
+      "lastResult": "win"
+    },
+    "recipe-video-edit-desk__meeting-recap-deck__hiring-signals": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:34:07.500Z",
+      "lastResult": "win"
+    },
+    "recipe-love__webby__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:34:15.484Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__apple-search-ads-review__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:34:23.505Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T23:34:33.816Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__apple-search-ads-review__cooper",
+  "plays": 8,
+  "updated": "2026-09-18T23:34:33.817Z"
+}

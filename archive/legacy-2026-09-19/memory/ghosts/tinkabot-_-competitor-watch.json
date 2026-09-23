@@ -1,0 +1,67 @@
+{
+  "fp": "tinkabot | competitor watch",
+  "seats": [
+    {
+      "name": "tinkabot",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ferjgm98"
+  ],
+  "matchups": {
+    "recipe-x-brief__hiring-signals__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:58:56.156Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__figma-bro__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:59:08.334Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__copy-humanizer": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-18T21:59:22.591Z",
+      "lastResult": "draw"
+    },
+    "recipe-the-morning-newspaper__luma-pages__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:59:53.154Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__meeting-recap-deck__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:00:07.107Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__figma-bro__credit-card-max",
+  "plays": 5,
+  "updated": "2026-09-18T22:00:07.107Z"
+}

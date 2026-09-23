@@ -1,0 +1,28 @@
+{
+  "fp": "flora plant care log",
+  "seats": [
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 7,
+      "hp": 9,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mytonl93441"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__cooper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:09:59.227Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__cooper__wtd",
+  "plays": 1,
+  "updated": "2026-09-19T00:09:59.227Z"
+}

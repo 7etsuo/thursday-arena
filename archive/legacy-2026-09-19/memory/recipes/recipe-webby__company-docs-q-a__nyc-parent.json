@@ -1,0 +1,39 @@
+{
+  "id": "recipe-webby__company-docs-q-a__nyc-parent",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "guard",
+    "bulk"
+  ],
+  "tags": [
+    "recent_loss",
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 3,
+  "wins": 1,
+  "losses": 2,
+  "elo": -35,
+  "last": "2026-09-19T05:51:28.366Z"
+}

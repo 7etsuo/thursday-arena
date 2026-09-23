@@ -1,0 +1,49 @@
+{
+  "disabled": true,
+  "reason": "play_everyone",
+  "updatedAt": "2026-09-19T07:28:35.989Z",
+  "handles": {
+    "poteto": {
+      "losses": 4,
+      "wins": 9,
+      "draws": 0,
+      "eloSum": -11,
+      "addedAt": "2026-09-19T07:21:51.092Z",
+      "reason": "consecutive_losses>=2"
+    },
+    "omlejmi": {
+      "losses": 4,
+      "wins": 1,
+      "draws": 0,
+      "eloSum": -24,
+      "addedAt": "2026-09-19T07:22:01.408Z",
+      "reason": "consecutive_losses>=2"
+    },
+    "josephyangx": {
+      "losses": 16,
+      "wins": 0,
+      "draws": 0,
+      "eloSum": -140,
+      "addedAt": "2026-09-19T07:22:35.064Z",
+      "reason": "consecutive_losses>=2"
+    },
+    "vibeleiz": {
+      "losses": 16,
+      "wins": 2,
+      "draws": 1,
+      "eloSum": -67,
+      "addedAt": "2026-09-19T07:26:31.625Z",
+      "reason": "consecutive_losses>=2"
+    },
+    "devtony": {
+      "losses": 5,
+      "wins": 0,
+      "draws": 1,
+      "eloSum": -14,
+      "addedAt": "2026-09-19T07:28:21.586Z",
+      "reason": "consecutive_losses>=2"
+    }
+  },
+  "version": 1,
+  "rule": "consecutive_losses>=2|hot_field_wr"
+}

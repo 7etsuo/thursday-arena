@@ -1,0 +1,42 @@
+{
+  "fp": "cooper | flora plant care log | lead pipeline desk",
+  "seats": [
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "zachregroup"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__event-request-desk__tradbot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T11:27:21.224Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__event-request-desk__tradbot",
+  "plays": 1,
+  "updated": "2026-09-18T11:27:58.352Z"
+}

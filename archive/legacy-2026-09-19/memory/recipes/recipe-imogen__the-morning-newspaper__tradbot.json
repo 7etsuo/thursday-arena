@@ -1,0 +1,40 @@
+{
+  "id": "recipe-imogen__the-morning-newspaper__tradbot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "tradbot",
+      "kit": "guard",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "bulk",
+    "flamingo",
+    "guard"
+  ],
+  "tags": [
+    "recent_draw",
+    "recent_win",
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 3,
+  "wins": 1,
+  "losses": 1,
+  "elo": -38,
+  "last": "2026-09-19T02:43:00.586Z"
+}

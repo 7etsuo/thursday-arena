@@ -1,0 +1,45 @@
+Thursday Arena — reviewed Season 4 application update (2026-09-23)
+
+For the bot on its OWN computer. This package is already implemented. Do not edit,
+rewrite, refactor, regenerate, tune, or ask an AI to repair any application files.
+If a verification fails, stop and report the actual error; retain the backup.
+
+1. Locate the existing Thursday Arena installation on this computer. Verify the
+   supplied TGZ against its adjacent .sha256 file. Extract to a separate staging
+   directory using tar --no-same-owner. Check the staged files with:
+     sha256sum -c docs/results/season4-2026-09-23/runtime-sha256.txt
+
+2. Stop this installation's play session and its climb supervisor. Keep rated
+   play stopped throughout the update and after verification.
+
+3. Back up the entire existing installation before replacing anything. Preserve
+   the entire memory/ directory, full data/log/, prior corpus files, archive/,
+   local environment/configuration files and existing launch configuration.
+   Leave the dedicated Chrome profile and sign-in data alone.
+
+4. Replace the application with the staged, reviewed files. Restore the old
+   memory/ and data/log/ unchanged. Keep older data/corpus files that are absent
+   from the package; for same-named application/corpus files use the reviewed
+   package's version. Preserve archive/ and local configuration. The package
+   deliberately contains no learned memory, live logs, node_modules or legacy
+   archive. It must not erase any of those user records.
+
+5. On Node 25, run npm ci and npm test in the installed application. The reviewed
+   suite has 275 tests. Then repeat:
+     sha256sum -c docs/results/season4-2026-09-23/runtime-sha256.txt
+   Verify the restored memory and log files against their pre-install hashes.
+   Do not rebuild, bootstrap or reset the opponent book. S4 has a bundled public
+   starting prior and retains existing memory. The S3 history ledger is archived
+   automatically inside the current ledger when S4 history is first polled.
+
+6. Optional anonymous server verification:
+     node tools/verify_live_practice.js --seed 2026092327 --games 1 --budget 1500
+   This uses isolated files and does not change rating. Do not replace this with
+   a rated-play command. If the server has changed, report the failed comparison.
+
+7. Report the installed path, backup path, TGZ checksum, Node version, test result,
+   file verification result and confirmation that memory/logs were preserved.
+   Leave rated play stopped. Starting it requires a separate user instruction.
+
+Runtime behavior, evidence and limitations: docs/SEASON4.md and
+  docs/ADAPTATION_FIXES_2026-09-23.md

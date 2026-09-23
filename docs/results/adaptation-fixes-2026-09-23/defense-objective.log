@@ -1,0 +1,27 @@
+{
+  "linkedRounds": 340,
+  "shops": 328,
+  "changedShops": 21,
+  "attacks": {
+    "n": 328,
+    "before": 205,
+    "after": 206.5,
+    "better": 4,
+    "worse": 1
+  },
+  "defensiveRounds": {
+    "n": 340,
+    "before": 102,
+    "after": 105.5,
+    "better": 5,
+    "worse": 1
+  },
+  "defensiveMatches": {
+    "n": 217,
+    "before": 63.5,
+    "after": 65,
+    "better": 5,
+    "worse": 1
+  },
+  "limits": "Fixed recorded final shops and subsequent attackers. Only exact-trace, latest-posted-board links and uniquely reconstructable seats qualify. Replaces linked rounds in the recorded match; it cannot recover unplayed rounds or an adaptive attacker. No matchmaking or Elo/win-rate estimate."
+}

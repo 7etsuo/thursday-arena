@@ -1,0 +1,51 @@
+{
+  "fp": "tinkabot | site audit",
+  "seats": [
+    {
+      "name": "tinkabot",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "site audit",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "nickcotsalas"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__outbound-prospecting__customer-call-coach-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:32:17.578Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__x-brief__deal-hunting": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:32:34.924Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__signal-prospector__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T11:33:45.063Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__signal-prospector__the-morning-newspaper",
+  "plays": 3,
+  "updated": "2026-09-18T11:33:45.063Z"
+}

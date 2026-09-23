@@ -1,0 +1,107 @@
+{
+  "fp": "event producer | gtm connections | stills clips desk",
+  "seats": [
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "lawrencejessej",
+    "bigmike01star"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__company-docs-q-a__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:40:06.179Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__webby__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:40:15.363Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__company-docs-q-a__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:40:23.509Z",
+      "lastResult": "win"
+    },
+    "recipe-meeting-recap-deck__luma-pages__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:40:42.731Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__video-edit-desk__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:40:54.059Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__love__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:41:01.620Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__luma-pages__sales-call-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:41:14.090Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__paid-media-report-desk__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:41:22.742Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__x-brief__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:41:32.743Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__paid-media-report-desk__credit-card-max",
+  "plays": 9,
+  "updated": "2026-09-19T00:41:32.743Z"
+}

@@ -1,0 +1,59 @@
+{
+  "fp": "webby | gtm connections | call follow ups",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "davenguyen",
+    "satsmart0x"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__event-request-desk__projects-manager": {
+      "wins": 2,
+      "losses": 9,
+      "draws": 0,
+      "elo": -117,
+      "last": "2026-09-19T06:57:31.944Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__call-follow-ups__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T05:48:54.319Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "elo": -32,
+      "last": "2026-09-19T05:59:23.082Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__event-request-desk__projects-manager",
+  "plays": 14,
+  "updated": "2026-09-19T06:57:52.254Z"
+}

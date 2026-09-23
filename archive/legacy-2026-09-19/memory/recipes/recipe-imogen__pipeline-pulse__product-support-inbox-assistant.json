@@ -1,0 +1,38 @@
+{
+  "id": "recipe-imogen__pipeline-pulse__product-support-inbox-assistant",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "bulk",
+    "sidestep",
+    "patch"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -25,
+  "last": "2026-09-18T12:20:09.369Z"
+}

@@ -1,0 +1,58 @@
+{
+  "fp": "the morning newspaper | nyc parent | imogen",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "omlejmi"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__company-docs-q-a__wtd": {
+      "wins": 1,
+      "losses": 1,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T07:22:01.401Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__wtd__the-morning-newspaper": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T07:06:51.075Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "elo": -12,
+      "last": "2026-09-19T07:25:08.888Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__company-docs-q-a__wtd",
+  "plays": 5,
+  "updated": "2026-09-19T07:25:08.888Z"
+}

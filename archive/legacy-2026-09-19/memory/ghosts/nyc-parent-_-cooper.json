@@ -1,0 +1,139 @@
+{
+  "fp": "nyc parent | cooper",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "kevinzunigacuel"
+  ],
+  "matchups": {
+    "recipe-credit-card-max__tradbot__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:39:48.945Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:39:56.337Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__apple-search-ads-review__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:40:02.606Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__luma-pages__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:40:10.164Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__flora-plant-care-log": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:40:18.635Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__writing-bot__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:40:26.175Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:40:39.206Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__hiring-signals__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:40:45.517Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:40:53.523Z",
+      "lastResult": "win"
+    },
+    "recipe-outbound-prospecting__recruiting-coordinator__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:41:00.852Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__wtd": {
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-19T01:41:19.750Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:41:27.420Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__hiring-signals__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:41:38.811Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:41:50.752Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__company-docs-q-a__wtd",
+  "plays": 15,
+  "updated": "2026-09-19T01:41:50.752Z"
+}

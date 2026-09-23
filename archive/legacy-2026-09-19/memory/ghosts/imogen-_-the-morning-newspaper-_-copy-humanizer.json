@@ -1,0 +1,90 @@
+{
+  "fp": "imogen | the morning newspaper | copy humanizer",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "gematriuma"
+  ],
+  "matchups": {
+    "recipe-writing-bot__webby__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:58:00.358Z",
+      "lastResult": "win"
+    },
+    "recipe-recruiting-coordinator__love__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:58:08.032Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__wtd__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:58:15.920Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__flora-plant-care-log__hiring-signals": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:58:22.726Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__office-ops-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:58:30.094Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__nyc-parent__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:00:01.613Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__meeting-recap-deck__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:00:20.742Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__meeting-recap-deck__account-research-desk",
+  "plays": 7,
+  "updated": "2026-09-18T21:00:20.743Z"
+}

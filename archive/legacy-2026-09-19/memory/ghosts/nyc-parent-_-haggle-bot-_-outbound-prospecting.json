@@ -1,0 +1,58 @@
+{
+  "fp": "nyc parent | haggle bot | outbound prospecting",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "joeympow"
+  ],
+  "matchups": {
+    "recipe-competitor-watch__luma-pages__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:45:12.321Z",
+      "lastResult": "win"
+    },
+    "recipe-wtd__projects-manager__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:45:37.299Z",
+      "lastResult": "win"
+    },
+    "recipe-sales-call-coach__gtm-loop-closer__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:46:11.642Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-sales-call-coach__gtm-loop-closer__writing-bot",
+  "plays": 3,
+  "updated": "2026-09-19T00:46:11.642Z"
+}

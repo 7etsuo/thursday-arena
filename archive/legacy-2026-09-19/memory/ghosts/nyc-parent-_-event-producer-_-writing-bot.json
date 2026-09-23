@@ -1,0 +1,51 @@
+{
+  "fp": "nyc parent | event producer | writing bot",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "endshunter",
+    "godstorm91"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__cooper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:58:56.166Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__flora-plant-care-log__flora-plant-care-log": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T01:59:03.724Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__cooper__wtd",
+  "plays": 2,
+  "updated": "2026-09-19T01:59:32.998Z"
+}

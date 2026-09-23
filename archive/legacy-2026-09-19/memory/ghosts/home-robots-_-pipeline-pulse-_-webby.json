@@ -1,0 +1,90 @@
+{
+  "fp": "home robots | pipeline pulse | webby",
+  "seats": [
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "gorandejanx9hy"
+  ],
+  "matchups": {
+    "recipe-meeting-recap-deck__luma-pages__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:18:55.311Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__the-morning-newspaper__talent-discovery": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:19:11.954Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__company-docs-q-a__hiring-signals": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:19:46.261Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:20:14.247Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:20:22.177Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__apple-search-ads-review__love": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:20:38.390Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__meeting-recap-deck__signal-prospector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:20:57.176Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__meeting-recap-deck__signal-prospector",
+  "plays": 7,
+  "updated": "2026-09-19T01:21:15.190Z"
+}

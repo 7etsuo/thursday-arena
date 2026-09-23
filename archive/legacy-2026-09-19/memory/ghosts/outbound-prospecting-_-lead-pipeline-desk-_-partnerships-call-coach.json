@@ -1,0 +1,82 @@
+{
+  "fp": "outbound prospecting | lead pipeline desk | partnerships call coach",
+  "seats": [
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "agentledai"
+  ],
+  "matchups": {
+    "recipe-imogen__company-docs-q-a__recruiting-coordinator": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -30,
+      "last": "2026-09-19T00:24:53.346Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__stills-clips-desk__credit-card-max": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T00:25:03.809Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__credit-card-max__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:25:15.646Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__stills-clips-desk__talent-discovery": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T00:25:26.992Z",
+      "lastResult": "draw"
+    },
+    "recipe-office-ops-desk__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:25:39.260Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__company-docs-q-a__flora-plant-care-log": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T00:25:57.996Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__meeting-recap-deck__writing-bot",
+  "plays": 6,
+  "updated": "2026-09-19T00:25:57.996Z"
+}

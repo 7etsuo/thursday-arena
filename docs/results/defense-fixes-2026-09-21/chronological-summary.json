@@ -1,0 +1,21 @@
+{
+  "shops": 2751,
+  "withPastDefenses": 2098,
+  "shopsWithExtraMoves": 17,
+  "currentTargetRegressions": 0,
+  "attack": {
+    "beforeScore": 2144.5,
+    "afterScore": 2145.5,
+    "improved": 2,
+    "worse": 0
+  },
+  "defense": {
+    "rounds": 321,
+    "beforeScore": 112,
+    "afterScore": 112,
+    "improved": 0,
+    "worse": 0,
+    "distinctSourceRounds": 182
+  },
+  "limits": "Final-shop counterfactuals, not whole-match play. Incoming attackers stay as recorded; repeated defenses of one saved board are correlated. Public replay availability is approximated with a 60-second lag. No future defensive board is used for planning."
+}

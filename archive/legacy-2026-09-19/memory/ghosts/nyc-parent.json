@@ -1,0 +1,85 @@
+{
+  "fp": "nyc parent",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "shamshaik006",
+    "satsmart0x"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__company-docs-q-a__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:47:59.384Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__seo-aeo-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:48:07.211Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__office-ops-desk__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:48:13.809Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__imogen__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:48:20.311Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__stills-clips-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:50:51.533Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__wtd__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:51:10.412Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__event-request-desk__projects-manager": {
+      "wins": 4,
+      "losses": 0,
+      "draws": 2,
+      "elo": 64,
+      "last": "2026-09-19T06:57:55.645Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__call-follow-ups__projects-manager": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": 0,
+      "last": "2026-09-19T05:57:00.412Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__event-request-desk__projects-manager",
+  "plays": 13,
+  "updated": "2026-09-19T06:57:55.645Z"
+}

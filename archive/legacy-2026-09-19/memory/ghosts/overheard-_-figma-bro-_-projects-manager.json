@@ -1,0 +1,74 @@
+{
+  "fp": "overheard | figma bro | projects manager",
+  "seats": [
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "loveteatea7"
+  ],
+  "matchups": {
+    "recipe-customer-call-coach-assistant__x-brief__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:16:53.950Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__wtd__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:17:15.010Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__apple-search-ads-review__researchy": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:17:24.772Z",
+      "lastResult": "win"
+    },
+    "recipe-partnerships-call-coach__nyc-parent__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:17:36.310Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__video-edit-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:17:56.169Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__video-edit-desk__writing-bot",
+  "plays": 5,
+  "updated": "2026-09-18T22:17:56.169Z"
+}

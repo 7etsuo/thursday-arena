@@ -1,0 +1,100 @@
+{
+  "fp": "tech demos | signal prospector | nyc parent",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sergiocastillop",
+    "alexanderk5993",
+    "devonphp"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__tradbot__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:42:12.260Z",
+      "lastResult": "win"
+    },
+    "recipe-cooper__writing-bot__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -21,
+      "last": "2026-09-19T04:38:18.855Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__wtd__executive-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 12,
+      "last": "2026-09-19T04:38:32.963Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__tradbot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 11,
+      "last": "2026-09-19T04:38:52.819Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__meeting-recap-deck__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -6,
+      "last": "2026-09-19T04:39:11.418Z",
+      "lastResult": "draw"
+    },
+    "recipe-the-morning-newspaper__tradbot__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-19T04:39:35.176Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-call-coach-assistant__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-19T04:39:45.227Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__gtm-loop-closer__game-art-director": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-19T04:40:13.197Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__wtd__executive-assistant",
+  "plays": 8,
+  "updated": "2026-09-19T04:40:13.197Z"
+}

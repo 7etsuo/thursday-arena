@@ -1,0 +1,38 @@
+{
+  "id": "recipe-the-morning-newspaper__lead-pipeline-desk__product-support-inbox-assistant",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "flamingo",
+    "snowball",
+    "patch"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 3,
+  "last": "2026-09-19T00:23:36.675Z"
+}

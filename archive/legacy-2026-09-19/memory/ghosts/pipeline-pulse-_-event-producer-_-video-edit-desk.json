@@ -1,0 +1,42 @@
+{
+  "fp": "pipeline pulse | event producer | video edit desk",
+  "seats": [
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "dyormoon"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__company-docs-q-a__wtd": {
+      "wins": 5,
+      "losses": 1,
+      "draws": 0,
+      "elo": 48,
+      "last": "2026-09-19T05:11:08.415Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__company-docs-q-a__wtd",
+  "plays": 6,
+  "updated": "2026-09-19T05:11:24.251Z"
+}

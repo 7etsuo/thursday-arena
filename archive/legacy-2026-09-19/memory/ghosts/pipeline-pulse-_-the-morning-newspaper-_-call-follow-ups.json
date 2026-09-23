@@ -1,0 +1,42 @@
+{
+  "fp": "pipeline pulse | the morning newspaper | call follow ups",
+  "seats": [
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "default_vpc"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__writing-bot__credit-card-max": {
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "elo": -11,
+      "last": "2026-09-19T07:21:15.108Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__writing-bot__credit-card-max",
+  "plays": 3,
+  "updated": "2026-09-19T07:21:15.108Z"
+}

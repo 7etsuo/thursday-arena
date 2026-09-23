@@ -1,0 +1,98 @@
+{
+  "fp": "hiring signals | call follow ups | event producer",
+  "seats": [
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 5,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "xucchini"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__credit-card-max__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:14:13.852Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__cooper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:14:24.202Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__flora-plant-care-log": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:14:31.718Z",
+      "lastResult": "win"
+    },
+    "recipe-stills-clips-desk__outbound-prospecting__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:14:37.544Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__love__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:14:47.388Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__product-support-inbox-assistant__researchy": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:14:57.184Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:15:05.220Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__webby__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:15:15.797Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__webby__luma-pages",
+  "plays": 8,
+  "updated": "2026-09-18T23:15:15.797Z"
+}

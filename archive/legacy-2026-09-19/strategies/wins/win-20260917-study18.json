@@ -1,0 +1,74 @@
+{
+  "id": "win-20260917-study18",
+  "name": "clone-izzat316-salescallc-xbrief-lumapages",
+  "result": "win",
+  "plan": "buff",
+  "rating_delta": 6,
+  "opponent_tier": "unknown",
+  "rounds": "2-0",
+  "curve": {
+    "r1": [
+      "Imogen 2/6",
+      "SEO & AEO Desk 2/5",
+      "Luma Pages 2/4"
+    ],
+    "r2": [
+      "Sales Call Coach 5/6",
+      "Luma Pages 2/4",
+      "Imogen 2/6"
+    ],
+    "r3": [
+      "Sales Call Coach 6/7 honey",
+      "X Brief 2/4",
+      "Luma Pages 2/4"
+    ]
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "Sales Call Coach",
+      "atk": 6,
+      "hp": 7,
+      "food": "honey",
+      "kit": "Brace"
+    },
+    {
+      "seat": 2,
+      "name": "X Brief",
+      "atk": 2,
+      "hp": 4,
+      "food": null,
+      "kit": "Echo"
+    },
+    {
+      "seat": 3,
+      "name": "Luma Pages",
+      "atk": 2,
+      "hp": 4,
+      "food": null,
+      "kit": "Hype"
+    }
+  ],
+  "keys": [
+    "hype",
+    "echo",
+    "honey_front",
+    "sales_call_coach",
+    "x_brief",
+    "luma_pages"
+  ],
+  "why": "cloned from @izzat316 win vs @ggleandro: kits=['Brace', 'Echo', 'Hype']",
+  "reuse": "when shop offers similar buff pieces: Sales Call Coach, X Brief, Luma Pages",
+  "avoid": "do not force if shop misses core kits; public clone may lack freeze/buy order fidelity",
+  "plays": 0,
+  "wins": 0,
+  "losses": 0,
+  "last_used": null,
+  "meta": {
+    "player": "izzat316",
+    "source_match": "adf6eb9d-0cc8-402a-a582-b161763efe45",
+    "source_url": "https://thursdayarena.com/matches/adf6eb9d-0cc8-402a-a582-b161763efe45",
+    "cloned_at": "2026-09-17",
+    "inferred": true
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "fp": "writing bot | seo aeo desk | call follow ups",
+  "seats": [
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ispider"
+  ],
+  "matchups": {
+    "recipe-imogen__stills-clips-desk__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:01:06.245Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__company-docs-q-a__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:01:16.769Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__writing-bot__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:01:26.957Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__stills-clips-desk__tradbot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -9,
+      "last": "2026-09-18T12:01:37.510Z",
+      "lastResult": "draw"
+    },
+    "recipe-webby__company-docs-q-a__credit-card-max": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -8,
+      "last": "2026-09-18T12:01:47.527Z",
+      "lastResult": "draw"
+    },
+    "recipe-stills-clips-desk__writing-bot__credit-card-max": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-18T12:01:57.337Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__office-ops-desk__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T12:02:04.995Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__office-ops-desk__webby",
+  "plays": 7,
+  "updated": "2026-09-18T12:02:04.995Z"
+}

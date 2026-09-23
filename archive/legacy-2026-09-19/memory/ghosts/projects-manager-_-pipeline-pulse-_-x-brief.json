@@ -1,0 +1,74 @@
+{
+  "fp": "projects manager | pipeline pulse | x brief",
+  "seats": [
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 7,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "eduguilarducci"
+  ],
+  "matchups": {
+    "recipe-stalk-bot__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:11:01.764Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__flora-plant-care-log__company-docs-q-a": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -14,
+      "last": "2026-09-19T01:11:40.477Z",
+      "lastResult": "draw"
+    },
+    "recipe-company-docs-q-a__executive-assistant__company-docs-q-a": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T01:11:57.089Z",
+      "lastResult": "draw"
+    },
+    "recipe-video-edit-desk__x-brief__sales-call-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:12:42.558Z",
+      "lastResult": "win"
+    },
+    "recipe-x-brief__talent-discovery__nyc-parent": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -30,
+      "last": "2026-09-19T01:13:10.664Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-video-edit-desk__x-brief__sales-call-coach",
+  "plays": 5,
+  "updated": "2026-09-19T01:13:10.664Z"
+}

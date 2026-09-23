@@ -1,0 +1,38 @@
+{
+  "id": "recipe-partnerships-call-coach__wtd__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "spotlight",
+    "hype",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -28,
+  "last": "2026-09-18T12:14:53.622Z"
+}

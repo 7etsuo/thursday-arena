@@ -1,0 +1,66 @@
+{
+  "fp": "meeting recap deck | home robots | imogen",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 6,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sergiocastillop"
+  ],
+  "matchups": {
+    "recipe-webby__company-docs-q-a__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:40:00.292Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__cooper__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:40:12.390Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__flora-plant-care-log__tinkabot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T12:41:12.123Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__talent-discovery__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:41:36.641Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__talent-discovery__writing-bot",
+  "plays": 4,
+  "updated": "2026-09-18T12:41:36.641Z"
+}

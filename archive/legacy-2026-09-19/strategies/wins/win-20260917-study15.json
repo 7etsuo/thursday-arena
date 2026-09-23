@@ -1,0 +1,70 @@
+{
+  "id": "win-20260917-study15",
+  "name": "clone-izzat316-themorning-callfollow-projectsma",
+  "result": "win",
+  "plan": "faint",
+  "rating_delta": 6,
+  "opponent_tier": "unknown",
+  "rounds": "2-0",
+  "curve": {
+    "r1": [
+      "The Morning Newspaper 2/6",
+      "Call Follow-Ups 3/4",
+      "Company Docs Q&A 2/6"
+    ],
+    "r2": [
+      "The Morning Newspaper 2/6 honey",
+      "Call Follow-Ups 3/4 honey",
+      "Projects Manager 3/5"
+    ]
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "The Morning Newspaper",
+      "atk": 2,
+      "hp": 6,
+      "food": "honey",
+      "kit": "Pass it back"
+    },
+    {
+      "seat": 2,
+      "name": "Call Follow-Ups",
+      "atk": 3,
+      "hp": 4,
+      "food": "honey",
+      "kit": "Echo"
+    },
+    {
+      "seat": 3,
+      "name": "Projects Manager",
+      "atk": 3,
+      "hp": 5,
+      "food": null,
+      "kit": "Hype"
+    }
+  ],
+  "keys": [
+    "pass_back",
+    "hype",
+    "echo",
+    "honey_front",
+    "the_morning_newspaper",
+    "call_follow_ups",
+    "projects_manager"
+  ],
+  "why": "cloned from @izzat316 win vs @yujules44768: kits=['Pass it back', 'Echo', 'Hype']",
+  "reuse": "when shop offers similar faint pieces: The Morning Newspaper, Call Follow-Ups, Projects Manager",
+  "avoid": "do not force if shop misses core kits; public clone may lack freeze/buy order fidelity",
+  "plays": 0,
+  "wins": 0,
+  "losses": 0,
+  "last_used": null,
+  "meta": {
+    "player": "izzat316",
+    "source_match": "bc0040de-d335-4944-bc9b-ee48579e675c",
+    "source_url": "https://thursdayarena.com/matches/bc0040de-d335-4944-bc9b-ee48579e675c",
+    "cloned_at": "2026-09-17",
+    "inferred": true
+  }
+}

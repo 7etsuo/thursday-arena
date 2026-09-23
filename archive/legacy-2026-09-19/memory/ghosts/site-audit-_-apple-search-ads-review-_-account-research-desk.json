@@ -1,0 +1,58 @@
+{
+  "fp": "site audit | apple search ads review | account research desk",
+  "seats": [
+    {
+      "name": "site audit",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "account research desk",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "taxzy920"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__tradbot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:15:06.387Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__company-docs-q-a__credit-card-max": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T12:15:24.383Z",
+      "lastResult": "loss"
+    },
+    "recipe-love__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T12:15:32.969Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__tradbot__writing-bot",
+  "plays": 3,
+  "updated": "2026-09-18T12:15:40.463Z"
+}

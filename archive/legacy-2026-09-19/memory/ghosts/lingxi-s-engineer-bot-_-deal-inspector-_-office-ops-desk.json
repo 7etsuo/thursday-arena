@@ -1,0 +1,66 @@
+{
+  "fp": "lingxi s engineer bot | deal inspector | office ops desk",
+  "seats": [
+    {
+      "name": "lingxi s engineer bot",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "deal inspector",
+      "kit": "cover",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "cxrlosmonroy"
+  ],
+  "matchups": {
+    "recipe-imogen__office-ops-desk__imogen": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T21:35:22.979Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__flora-plant-care-log__x-brief": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T21:35:58.894Z",
+      "lastResult": "loss"
+    },
+    "recipe-flora-plant-care-log__webby__webby": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T21:36:09.742Z",
+      "lastResult": "draw"
+    },
+    "recipe-company-docs-q-a__stills-clips-desk__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T21:36:52.633Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__stills-clips-desk__call-follow-ups",
+  "plays": 4,
+  "updated": "2026-09-18T21:36:52.633Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-recruiting-coordinator__video-edit-desk__site-audit",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "video edit desk",
+      "kit": "wake",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "site audit",
+      "kit": "pin",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "dodo",
+    "wake",
+    "pin"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-18T22:13:29.113Z"
+}

@@ -1,0 +1,50 @@
+{
+  "fp": "the morning newspaper | imogen | call follow ups",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "xrealtimeeng"
+  ],
+  "matchups": {
+    "recipe-product-support-inbox-assistant__stills-clips-desk__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-19T04:30:55.822Z",
+      "lastResult": "loss"
+    },
+    "recipe-pipeline-pulse__hiring-signals__x-brief": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-19T04:31:03.635Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-pipeline-pulse__hiring-signals__x-brief",
+  "plays": 2,
+  "updated": "2026-09-19T04:31:03.635Z"
+}

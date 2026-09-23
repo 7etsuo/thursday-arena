@@ -1,0 +1,43 @@
+{
+  "fp": "credit card max | office ops desk",
+  "seats": [
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "paulctan"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__the-morning-newspaper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:04:12.920Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__copy-humanizer__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:04:20.183Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__copy-humanizer__wtd",
+  "plays": 2,
+  "updated": "2026-09-19T00:04:54.652Z"
+}

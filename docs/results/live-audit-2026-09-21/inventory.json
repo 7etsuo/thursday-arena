@@ -1,0 +1,159 @@
+{
+  "archive_sha256": "a249d36e5ea4b915f74fa0f49e5d54192456078c3ef98b75a3396e41d0e220e5",
+  "archive_file": "thursday-arena-full-with-preupdate-backup-20260921.tgz",
+  "split_parts_identical_to_whole": true,
+  "runtime_matches_reviewed_workspace": true,
+  "days": [
+    {
+      "file": "2026-09-19.jsonl",
+      "event_counts": {
+        "session_start": 24,
+        "act": 23372,
+        "match_start": 2140,
+        "shop": 2269,
+        "battle": 3208,
+        "result": 1026,
+        "session_end": 24,
+        "error": 7,
+        "queue_next": 405
+      },
+      "code_event_counts": {
+        "82965af5bd84": 942,
+        "3501bf9f08ac": 1244,
+        "0d269cf470c9": 32,
+        "0a2ff0775fd7": 46,
+        "dc6e68b99cc5": 1260,
+        "2778ac2400f9": 3360,
+        "45eef98d91fd": 459,
+        "c0dfeed62e4d": 1760,
+        "2f6032863071": 516,
+        "16a853c923c8": 160,
+        "abc4a20c3f23": 388,
+        "ee1c6754e933": 4175,
+        "8af5c1caf585": 18133
+      },
+      "results_by_code": {
+        "82965af5bd84": {
+          "win": 29,
+          "draw": 1
+        },
+        "3501bf9f08ac": {
+          "win": 32,
+          "draw": 2,
+          "loss": 1
+        },
+        "0d269cf470c9": {
+          "win": 4
+        },
+        "0a2ff0775fd7": {
+          "win": 10
+        },
+        "dc6e68b99cc5": {
+          "win": 39
+        },
+        "2778ac2400f9": {
+          "win": 100,
+          "loss": 2,
+          "draw": 2
+        },
+        "45eef98d91fd": {
+          "win": 14,
+          "loss": 1
+        },
+        "c0dfeed62e4d": {
+          "win": 54,
+          "loss": 9,
+          "draw": 1
+        },
+        "2f6032863071": {
+          "loss": 8,
+          "win": 10,
+          "draw": 2
+        },
+        "16a853c923c8": {
+          "win": 5,
+          "draw": 1,
+          "loss": 2
+        },
+        "abc4a20c3f23": {
+          "draw": 1,
+          "loss": 6,
+          "win": 9
+        },
+        "ee1c6754e933": {
+          "win": 125,
+          "loss": 2,
+          "draw": 2
+        },
+        "8af5c1caf585": {
+          "win": 538,
+          "draw": 5,
+          "loss": 9
+        }
+      },
+      "malformed_lines": 0
+    },
+    {
+      "file": "2026-09-20.jsonl",
+      "event_counts": {
+        "session_start": 8,
+        "act": 54928,
+        "match_start": 4649,
+        "session_end": 7,
+        "shop": 4927,
+        "battle": 6987,
+        "result": 2063
+      },
+      "code_event_counts": {
+        "8af5c1caf585": 361,
+        "f76e201c63ca": 73208
+      },
+      "results_by_code": {
+        "8af5c1caf585": {
+          "win": 10
+        },
+        "f76e201c63ca": {
+          "win": 1726,
+          "loss": 211,
+          "draw": 116
+        }
+      },
+      "malformed_lines": 0
+    },
+    {
+      "file": "2026-09-21.jsonl",
+      "event_counts": {
+        "session_start": 2,
+        "act": 3912,
+        "match_start": 140,
+        "shop": 342,
+        "session_end": 2,
+        "battle": 340,
+        "match_identified": 138,
+        "result": 138,
+        "book": 338
+      },
+      "code_event_counts": {
+        "2d2553e5fe48": 5352
+      },
+      "results_by_code": {
+        "2d2553e5fe48": {
+          "loss": 15,
+          "win": 119,
+          "draw": 4
+        }
+      },
+      "malformed_lines": 0
+    }
+  ],
+  "backup_log_overlap": [
+    {
+      "file": "2026-09-19.jsonl",
+      "byte_identical": true
+    },
+    {
+      "file": "2026-09-20.jsonl",
+      "byte_identical": true
+    }
+  ]
+}

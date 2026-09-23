@@ -1,0 +1,38 @@
+{
+  "id": "recipe-seo-aeo-desk__account-research-desk__pitch-deck-coach",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "account research desk",
+      "kit": "last_word",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "pitch deck coach",
+      "kit": "last_word",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "pin",
+    "last_word",
+    "last_word"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -27,
+  "last": "2026-09-19T01:02:17.610Z"
+}

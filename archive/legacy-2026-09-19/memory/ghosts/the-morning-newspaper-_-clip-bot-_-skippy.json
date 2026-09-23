@@ -1,0 +1,66 @@
+{
+  "fp": "the morning newspaper | clip bot | skippy",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "k4sbasia"
+  ],
+  "matchups": {
+    "recipe-flora-plant-care-log__signal-prospector__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T11:09:53.702Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T11:11:40.295Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__copy-humanizer__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T11:11:55.520Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-proof-desk__apple-search-ads-review__ebr-value-deck-builder": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T11:12:10.844Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__copy-humanizer__x-brief",
+  "plays": 4,
+  "updated": "2026-09-18T11:12:10.845Z"
+}

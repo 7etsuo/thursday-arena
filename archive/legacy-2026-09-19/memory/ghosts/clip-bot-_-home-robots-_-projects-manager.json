@@ -1,0 +1,90 @@
+{
+  "fp": "clip bot | home robots | projects manager",
+  "seats": [
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mikogen"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__meeting-recap-deck__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:11:11.386Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__pipeline-pulse__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:11:26.557Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__site-audit__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:11:34.272Z",
+      "lastResult": "win"
+    },
+    "recipe-call-follow-ups__projects-manager__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:12:18.950Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__meeting-recap-deck__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:12:27.288Z",
+      "lastResult": "win"
+    },
+    "recipe-cooper__wtd__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:12:59.314Z",
+      "lastResult": "win"
+    },
+    "recipe-outbound-prospecting__writing-bot__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T02:13:18.444Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__meeting-recap-deck__office-ops-desk",
+  "plays": 7,
+  "updated": "2026-09-19T02:13:18.445Z"
+}

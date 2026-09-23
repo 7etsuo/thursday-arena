@@ -1,0 +1,58 @@
+{
+  "fp": "nyc parent | wtd | competitor watch",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "finges"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__tradbot__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:31:53.387Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__webby__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:32:03.692Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__pipeline-pulse__luma-pages": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-18T23:32:46.195Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__webby__gtm-loop-closer",
+  "plays": 3,
+  "updated": "2026-09-18T23:32:46.195Z"
+}

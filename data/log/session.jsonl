@@ -1,0 +1,4 @@
+{"ts":"2026-09-19T17:18:26.273Z","event":"launching","profile":"/home/tetsuo/.config/google-chrome-arena"}
+{"ts":"2026-09-19T17:18:26.796Z","event":"browser_open"}
+{"ts":"2026-09-19T17:18:26.899Z","event":"login_needed","status":401,"hint":"sign in to thursdayarena.com in the open window"}
+{"event":"await_login","ts":"2026-09-19T11:19:58-06:00"}

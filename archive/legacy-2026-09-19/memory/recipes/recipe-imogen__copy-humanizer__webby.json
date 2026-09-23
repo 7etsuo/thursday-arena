@@ -1,0 +1,39 @@
+{
+  "id": "recipe-imogen__copy-humanizer__webby",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "bulk",
+    "flamingo",
+    "bulk"
+  ],
+  "tags": [
+    "recent_loss",
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 3,
+  "wins": 1,
+  "losses": 2,
+  "elo": -45,
+  "last": "2026-09-18T21:10:25.988Z"
+}

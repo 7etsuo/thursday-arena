@@ -1,0 +1,42 @@
+{
+  "fp": "signal prospector | tradbot | gtm account research",
+  "seats": [
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "tradbot",
+      "kit": "guard",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "gtm account research",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "as42tsx"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__cooper__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T07:16:05.203Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__cooper__wtd",
+  "plays": 1,
+  "updated": "2026-09-19T07:16:05.203Z"
+}

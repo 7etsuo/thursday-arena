@@ -1,0 +1,83 @@
+{
+  "fp": "imogen | love | company docs q a",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "_coachingportal",
+    "dotk"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__recruiting-coordinator__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:50:28.660Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__copy-humanizer__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:50:55.116Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__luma-pages__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:51:08.336Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__video-edit-desk__sales-call-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:52:08.473Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__luma-pages__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:05:47.194Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__alfred__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:06:31.178Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nightly-audit-engineer__luma-pages__writing-bot",
+  "plays": 6,
+  "updated": "2026-09-19T01:06:31.178Z"
+}

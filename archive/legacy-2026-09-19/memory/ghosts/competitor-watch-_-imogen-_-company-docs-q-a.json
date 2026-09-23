@@ -1,0 +1,58 @@
+{
+  "fp": "competitor watch | imogen | company docs q a",
+  "seats": [
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "cbschulz"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__meeting-recap-deck__partnerships-call-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T23:11:17.126Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__meeting-recap-deck__gtm-account-research": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T23:11:28.627Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__copy-humanizer__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T23:11:51.382Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__meeting-recap-deck__partnerships-call-coach",
+  "plays": 3,
+  "updated": "2026-09-18T23:11:51.382Z"
+}

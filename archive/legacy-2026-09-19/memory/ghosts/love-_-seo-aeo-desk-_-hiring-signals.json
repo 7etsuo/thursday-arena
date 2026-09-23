@@ -1,0 +1,82 @@
+{
+  "fp": "love | seo aeo desk | hiring signals",
+  "seats": [
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "astanevicius"
+  ],
+  "matchups": {
+    "recipe-lead-pipeline-desk__love__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:21:53.942Z",
+      "lastResult": "win"
+    },
+    "recipe-lingxi-s-engineer-bot__call-follow-ups__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:22:13.021Z",
+      "lastResult": "win"
+    },
+    "recipe-seo-aeo-desk__deal-inspector__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:22:21.378Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__copy-humanizer__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:22:33.939Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__pipeline-pulse__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:22:43.821Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__product-support-inbox-assistant__love": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:23:03.795Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-gtm-loop-closer__product-support-inbox-assistant__love",
+  "plays": 6,
+  "updated": "2026-09-18T22:23:03.795Z"
+}

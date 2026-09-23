@@ -1,0 +1,58 @@
+{
+  "fp": "nyc parent | webby | account research desk",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "account research desk",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "_tech_lord"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 5,
+      "losses": 7,
+      "draws": 2,
+      "elo": -30,
+      "last": "2026-09-19T06:53:10.195Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 7,
+      "losses": 4,
+      "draws": 2,
+      "elo": 52,
+      "last": "2026-09-19T06:51:36.632Z",
+      "lastResult": "draw"
+    },
+    "recipe-webby__wtd__copy-humanizer": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T06:15:56.288Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 28,
+  "updated": "2026-09-19T06:53:10.195Z"
+}

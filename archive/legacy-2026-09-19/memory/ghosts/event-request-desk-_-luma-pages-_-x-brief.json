@@ -1,0 +1,106 @@
+{
+  "fp": "event request desk | luma pages | x brief",
+  "seats": [
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "kaushan"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__pipeline-pulse__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:50:52.704Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__cooper__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:51:00.148Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__credit-card-max__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:51:10.448Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__webby__love": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:51:16.558Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__copy-humanizer__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:51:22.914Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__copy-humanizer__flora-plant-care-log": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:51:30.669Z",
+      "lastResult": "win"
+    },
+    "recipe-seo-aeo-desk__figma-bro__customer-call-coach-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:51:44.833Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__tradbot__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:51:55.121Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__office-ops-desk__recruiting-coordinator": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:52:02.718Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__office-ops-desk__recruiting-coordinator",
+  "plays": 9,
+  "updated": "2026-09-19T00:52:02.718Z"
+}

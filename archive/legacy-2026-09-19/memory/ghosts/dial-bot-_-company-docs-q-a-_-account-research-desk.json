@@ -1,0 +1,58 @@
+{
+  "fp": "dial bot | company docs q a | account research desk",
+  "seats": [
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "account research desk",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "riskadjustedme"
+  ],
+  "matchups": {
+    "recipe-imogen__love__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:19:38.315Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:20:29.274Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__apple-search-ads-review__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:20:35.848Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__apple-search-ads-review__webby",
+  "plays": 3,
+  "updated": "2026-09-18T12:20:43.931Z"
+}

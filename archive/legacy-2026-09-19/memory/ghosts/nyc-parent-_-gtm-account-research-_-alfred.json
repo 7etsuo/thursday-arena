@@ -1,0 +1,42 @@
+{
+  "fp": "nyc parent | gtm account research | alfred",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "gtm account research",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "alfred",
+      "kit": "last_word",
+      "atk": 5,
+      "hp": 7,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "phlet7"
+  ],
+  "matchups": {
+    "recipe-projects-manager__writing-bot__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-19T02:06:06.421Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-projects-manager__writing-bot__writing-bot",
+  "plays": 1,
+  "updated": "2026-09-19T02:06:06.421Z"
+}

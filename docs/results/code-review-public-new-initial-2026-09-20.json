@@ -1,0 +1,93 @@
+{
+  "matches": 100,
+  "rounds": 258,
+  "winnerMatches": 258,
+  "frameExact": 230,
+  "note": "Seat and fight captain metadata inferred from these same battle frames; diagnostic replay only.",
+  "differences": [
+    {
+      "id": "0d6980e5-c995-4c15-b5f0-a5d58d52af55",
+      "round": 2,
+      "at": 8,
+      "got": "Megaphone: Hiring Signals hits Recruiting Coordinator for 4",
+      "expected": "Team badge: each friend of Renewals Invoice Bot +1 HP"
+    },
+    {
+      "id": "2a723e26-f3fb-408e-b361-693f3323fdff",
+      "round": 2,
+      "at": 18,
+      "got": "SaaSbot's shield blocks the hit",
+      "expected": "GTM Connections's shield blocks the hit"
+    },
+    {
+      "id": "13d0d2a3-19f2-4f63-8b3e-844580a88738",
+      "round": 1,
+      "at": 12,
+      "got": "Forge and Home Hunter trade: -4 HP / -16 HP",
+      "expected": "Forge and Home Hunter trade: -4 HP / -20 HP"
+    },
+    {
+      "id": "52f763ab-7a10-4351-9325-6efeb0a38263",
+      "round": 1,
+      "at": 15,
+      "got": "Weekend Scout buffs each friend: +1/+1",
+      "expected": "Weekend Scout routes the work: +1/+1 to each friend"
+    },
+    {
+      "id": "b23fc36e-9e3a-4c3e-82f5-7847b9583bd3",
+      "round": 1,
+      "at": 17,
+      "got": "Weekend Scout buffs each friend: +1/+1",
+      "expected": "Weekend Scout routes the work: +1/+1 to each friend"
+    },
+    {
+      "id": "3df4e6ff-718b-4054-b848-82160418f0a6",
+      "round": 1,
+      "at": 17,
+      "got": "Weekend Scout buffs each friend: +1/+1",
+      "expected": "Weekend Scout routes the work: +1/+1 to each friend"
+    },
+    {
+      "id": "a117622c-61e8-4fa6-a882-de86049123e1",
+      "round": 1,
+      "at": 12,
+      "got": "Weekend Scout buffs each friend: +1/+1",
+      "expected": "Weekend Scout routes the work: +1/+1 to each friend"
+    },
+    {
+      "id": "f58aa677-bc50-4b31-8ebc-36cdbdb0a9a1",
+      "round": 1,
+      "at": 6,
+      "got": "WP Update Guard shields WP Update Guard",
+      "expected": "WP Update Guard raises a shield"
+    },
+    {
+      "id": "c30adfaf-e7d0-430d-afd2-06be5c1e930f",
+      "round": 1,
+      "at": 15,
+      "got": "Weekend Scout buffs each friend: +1/+1",
+      "expected": "Weekend Scout routes the work: +1/+1 to each friend"
+    },
+    {
+      "id": "d565ff54-e0c8-41b9-b015-651855e259e7",
+      "round": 0,
+      "at": 7,
+      "got": "Cue hits back: -3 HP to Speed Lab",
+      "expected": "Cue hits Speed Lab: -3 HP"
+    },
+    {
+      "id": "e8add31c-12a5-439f-896a-7a8e8155bd7d",
+      "round": 1,
+      "at": 14,
+      "got": "Weekend Scout buffs each friend: +1/+1",
+      "expected": "Weekend Scout routes the work: +1/+1 to each friend"
+    },
+    {
+      "id": "899381ef-f01f-4afe-9534-3d0eb58293bc",
+      "round": 2,
+      "at": 11,
+      "got": "Master is knocked out",
+      "expected": "Office Ops Desk is knocked out"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "recipe-rfshmoww-3x-qexqqb-sn__sqo-5207iinz0idsafvw__credit-card-max",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "rfshmoww 3x qexqqb sn",
+      "kit": "",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "sqo 5207iinz0idsafvw",
+      "kit": "",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "grow"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -7,
+  "last": "2026-09-19T07:25:43.928Z"
+}

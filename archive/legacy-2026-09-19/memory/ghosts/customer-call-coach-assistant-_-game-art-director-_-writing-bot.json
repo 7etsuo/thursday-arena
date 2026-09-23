@@ -1,0 +1,58 @@
+{
+  "fp": "customer call coach assistant | game art director | writing bot",
+  "seats": [
+    {
+      "name": "customer call coach assistant",
+      "kit": "peacock",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "game art director",
+      "kit": "spotlight",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "tops_2026"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__company-docs-q-a__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T12:58:15.536Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__paid-media-report-desk__site-audit": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -30,
+      "last": "2026-09-18T12:58:35.960Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__projects-manager__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T12:58:47.059Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__projects-manager__luma-pages",
+  "plays": 3,
+  "updated": "2026-09-18T12:58:47.059Z"
+}

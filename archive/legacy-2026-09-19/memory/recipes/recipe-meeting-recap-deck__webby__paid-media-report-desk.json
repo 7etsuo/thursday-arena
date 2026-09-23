@@ -1,0 +1,38 @@
+{
+  "id": "recipe-meeting-recap-deck__webby__paid-media-report-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "webby",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "paid media report desk",
+      "kit": "grow",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "bulk",
+    "grow"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -7,
+  "last": "2026-09-19T07:26:52.084Z"
+}

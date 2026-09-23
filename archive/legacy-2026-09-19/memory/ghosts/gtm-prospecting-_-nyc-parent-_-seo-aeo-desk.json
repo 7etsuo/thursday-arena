@@ -1,0 +1,51 @@
+{
+  "fp": "gtm prospecting | nyc parent | seo aeo desk",
+  "seats": [
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 7,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "a_g_e_n_c",
+    "bankkk_than"
+  ],
+  "matchups": {
+    "recipe-meeting-recap-deck__call-follow-ups__account-research-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-19T02:57:16.664Z",
+      "lastResult": "draw"
+    },
+    "recipe-webby__meeting-recap-deck__meeting-recap-deck": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T04:48:42.993Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-meeting-recap-deck__call-follow-ups__account-research-desk",
+  "plays": 2,
+  "updated": "2026-09-19T04:48:42.993Z"
+}

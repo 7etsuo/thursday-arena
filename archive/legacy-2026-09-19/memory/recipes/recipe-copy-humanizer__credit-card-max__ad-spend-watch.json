@@ -1,0 +1,38 @@
+{
+  "id": "recipe-copy-humanizer__credit-card-max__ad-spend-watch",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "ad spend watch",
+      "kit": "sting",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "flamingo",
+    "grow",
+    "sting"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-18T22:20:51.930Z"
+}

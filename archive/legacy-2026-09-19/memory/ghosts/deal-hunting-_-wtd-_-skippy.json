@@ -1,0 +1,98 @@
+{
+  "fp": "deal hunting | wtd | skippy",
+  "seats": [
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "dannyholland"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__webby__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:26:06.670Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__webby__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:26:15.393Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__cooper__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:26:26.235Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__webby__deal-inspector": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T00:26:39.173Z",
+      "lastResult": "draw"
+    },
+    "recipe-customer-call-coach-assistant__credit-card-max__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:26:49.994Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__company-docs-q-a__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:27:02.484Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__call-follow-ups__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:27:10.714Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__account-research-desk__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:27:22.843Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__account-research-desk__luma-pages",
+  "plays": 8,
+  "updated": "2026-09-19T00:27:22.844Z"
+}

@@ -1,0 +1,66 @@
+{
+  "fp": "event request desk | wtd | hiring signals",
+  "seats": [
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "official_tmrc"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__company-docs-q-a__stills-clips-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:34:28.465Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__call-follow-ups__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:34:39.901Z",
+      "lastResult": "win"
+    },
+    "recipe-recruiting-coordinator__projects-manager__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:34:51.058Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__wtd__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:35:03.827Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-recruiting-coordinator__projects-manager__writing-bot",
+  "plays": 4,
+  "updated": "2026-09-18T21:35:03.827Z"
+}

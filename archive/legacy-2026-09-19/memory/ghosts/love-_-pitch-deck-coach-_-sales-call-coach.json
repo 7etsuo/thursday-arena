@@ -1,0 +1,82 @@
+{
+  "fp": "love | pitch deck coach | sales call coach",
+  "seats": [
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "pitch deck coach",
+      "kit": "last_word",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "haraldandertun"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__wtd__wtd": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-19T02:53:48.735Z",
+      "lastResult": "draw"
+    },
+    "recipe-seo-aeo-desk__call-follow-ups__gtm-account-research": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:54:06.097Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__the-morning-newspaper__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:54:36.227Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__signal-prospector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:54:45.703Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__flora-plant-care-log__wtd": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-19T02:54:57.558Z",
+      "lastResult": "draw"
+    },
+    "recipe-credit-card-max__wtd__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:55:11.074Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__wtd__alfred",
+  "plays": 6,
+  "updated": "2026-09-19T02:55:11.074Z"
+}

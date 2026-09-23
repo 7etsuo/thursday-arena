@@ -1,0 +1,82 @@
+{
+  "fp": "deal hunting | hiring signals | figma bro",
+  "seats": [
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mikogen"
+  ],
+  "matchups": {
+    "recipe-tradbot__company-docs-q-a__seo-aeo-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:11:20.922Z",
+      "lastResult": "win"
+    },
+    "recipe-executive-assistant__writing-bot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:11:53.320Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__recruiting-coordinator__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:12:06.055Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__account-research-desk__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:12:37.375Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__tradbot__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:12:49.770Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__luma-pages__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:13:11.635Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__recruiting-coordinator__paid-media-report-desk",
+  "plays": 6,
+  "updated": "2026-09-19T02:13:11.635Z"
+}

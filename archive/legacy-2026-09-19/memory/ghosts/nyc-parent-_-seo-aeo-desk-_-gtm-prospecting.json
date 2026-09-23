@@ -1,0 +1,101 @@
+{
+  "fp": "nyc parent | seo aeo desk | gtm prospecting",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "joeympow",
+    "ayoubbuilds",
+    "a_g_e_n_c",
+    "bankkk_than"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__webby__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:59:03.715Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__cooper__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:59:18.954Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:59:28.254Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__cooper__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:59:50.332Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__webby__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:00:06.997Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__event-request-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:01:27.371Z",
+      "lastResult": "win"
+    },
+    "recipe-pipeline-pulse__cooper__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:02:38.291Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__cooper__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:03:18.176Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-pipeline-pulse__cooper__call-follow-ups",
+  "plays": 8,
+  "updated": "2026-09-19T04:48:37.859Z"
+}

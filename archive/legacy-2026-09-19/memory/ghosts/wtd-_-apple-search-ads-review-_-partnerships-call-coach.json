@@ -1,0 +1,90 @@
+{
+  "fp": "wtd | apple search ads review | partnerships call coach",
+  "seats": [
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "alfredojrayos"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__pipeline-pulse__product-idea-stress-test": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T20:47:43.348Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__outbound-prospecting__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:47:59.986Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__meeting-recap-deck__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:48:13.113Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__luma-pages__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:48:28.365Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__webby__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:48:40.197Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__product-support-inbox-assistant__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:48:50.499Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__credit-card-max__office-ops-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-18T20:49:02.747Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__product-support-inbox-assistant__alfred",
+  "plays": 7,
+  "updated": "2026-09-18T20:49:02.747Z"
+}

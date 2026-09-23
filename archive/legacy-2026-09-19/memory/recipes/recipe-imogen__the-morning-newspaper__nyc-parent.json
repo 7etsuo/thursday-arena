@@ -1,0 +1,39 @@
+{
+  "id": "recipe-imogen__the-morning-newspaper__nyc-parent",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "nyc parent",
+      "kit": "bulk",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "bulk",
+    "flamingo",
+    "bulk"
+  ],
+  "tags": [
+    "recent_win",
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 4,
+  "wins": 3,
+  "losses": 1,
+  "elo": -1,
+  "last": "2026-09-19T04:45:23.907Z"
+}

@@ -1,0 +1,122 @@
+{
+  "fp": "call follow ups | webby | gtm connections",
+  "seats": [
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "1618or"
+  ],
+  "matchups": {
+    "recipe-imogen__office-ops-desk__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:57:08.558Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__site-audit__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:57:16.628Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:57:24.335Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__outbound-prospecting__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:57:32.651Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__flora-plant-care-log__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:57:39.208Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__luma-pages__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:57:49.027Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__flora-plant-care-log__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:57:56.600Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__outbound-prospecting__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:58:04.330Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__video-edit-desk__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:58:12.951Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__flora-plant-care-log__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:58:20.440Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__imogen__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T03:58:31.466Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__imogen__the-morning-newspaper",
+  "plays": 11,
+  "updated": "2026-09-19T03:58:31.466Z"
+}

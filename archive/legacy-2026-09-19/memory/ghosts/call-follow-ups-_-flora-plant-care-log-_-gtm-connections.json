@@ -1,0 +1,42 @@
+{
+  "fp": "call follow ups | flora plant care log | gtm connections",
+  "seats": [
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "a_g_e_n_c"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__writing-bot__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:57:46.492Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__writing-bot__webby",
+  "plays": 1,
+  "updated": "2026-09-19T02:57:46.492Z"
+}

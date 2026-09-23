@@ -1,0 +1,38 @@
+{
+  "id": "recipe-site-audit__writing-bot__credit-card-max",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "site audit",
+      "kit": "pin",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "credit card max",
+      "kit": "grow",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "pin",
+    "hype",
+    "grow"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 11,
+  "last": "2026-09-19T04:52:04.079Z"
+}

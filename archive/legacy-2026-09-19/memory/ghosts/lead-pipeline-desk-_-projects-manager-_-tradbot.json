@@ -1,0 +1,66 @@
+{
+  "fp": "lead pipeline desk | projects manager | tradbot",
+  "seats": [
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "tradbot",
+      "kit": "guard",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "kung_jook"
+  ],
+  "matchups": {
+    "recipe-webby__pipeline-pulse__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T12:32:36.622Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__webby__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T12:32:46.872Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__cooper__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T12:33:01.769Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__sales-call-coach__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:33:13.270Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-tradbot__cooper__cooper",
+  "plays": 4,
+  "updated": "2026-09-18T12:33:13.270Z"
+}

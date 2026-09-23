@@ -1,0 +1,74 @@
+{
+  "fp": "tech demos | wtd | meeting recap deck",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "smartbean"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__deal-inspector__tinkabot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:06:51.152Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__stills-clips-desk__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:07:05.389Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__event-request-desk__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:07:17.162Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__credit-card-max__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:07:40.237Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__cooper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:07:53.659Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__cooper__writing-bot",
+  "plays": 5,
+  "updated": "2026-09-18T11:07:53.659Z"
+}

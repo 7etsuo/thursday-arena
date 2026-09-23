@@ -1,0 +1,38 @@
+{
+  "id": "recipe-lingxi-s-engineer-bot__nightly-audit-engineer__apple-search-ads-review",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "lingxi s engineer bot",
+      "kit": "first_seat",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "first_seat",
+    "cover",
+    "grow"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 5,
+  "last": "2026-09-18T12:11:38.117Z"
+}

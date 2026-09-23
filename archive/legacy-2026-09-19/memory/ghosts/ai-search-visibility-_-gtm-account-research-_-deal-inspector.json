@@ -1,0 +1,98 @@
+{
+  "fp": "ai search visibility | gtm account research | deal inspector",
+  "seats": [
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm account research",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "deal inspector",
+      "kit": "cover",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "cassiesnow36315"
+  ],
+  "matchups": {
+    "recipe-imogen__the-morning-newspaper__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:38:39.774Z",
+      "lastResult": "win"
+    },
+    "recipe-x-brief__wtd__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:38:54.391Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__seo-aeo-desk__deal-hunting": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:39:06.165Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__video-edit-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:39:15.130Z",
+      "lastResult": "win"
+    },
+    "recipe-lingxi-s-engineer-bot__outbound-prospecting__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:39:24.749Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__company-docs-q-a__company-docs-q-a": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T00:39:38.224Z",
+      "lastResult": "loss"
+    },
+    "recipe-company-docs-q-a__webby__deal-hunting": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T00:39:49.723Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__webby__lingxi-s-engineer-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:39:59.107Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__webby__lingxi-s-engineer-bot",
+  "plays": 8,
+  "updated": "2026-09-19T00:39:59.107Z"
+}

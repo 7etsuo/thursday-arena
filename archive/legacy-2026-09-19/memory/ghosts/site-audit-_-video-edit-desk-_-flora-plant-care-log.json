@@ -1,0 +1,106 @@
+{
+  "fp": "site audit | video edit desk | flora plant care log",
+  "seats": [
+    {
+      "name": "site audit",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thebookdesk"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__event-request-desk__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:18:13.559Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__writing-bot__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:18:23.507Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:18:29.693Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__webby__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:18:37.493Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__apple-search-ads-review__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:18:52.631Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__cooper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:18:59.521Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-prospecting__site-audit__talent-discovery": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T22:19:06.554Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__meeting-recap-deck__site-audit": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:19:16.453Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__nyc-parent__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:19:24.263Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__nyc-parent__x-brief",
+  "plays": 9,
+  "updated": "2026-09-18T22:19:24.263Z"
+}

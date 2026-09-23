@@ -1,0 +1,7 @@
+{
+  "file": "data/corpus/s3_live_battles_2026-09-21.jsonl",
+  "rows": 337,
+  "winnerMatches": 333,
+  "frameMatches": 306,
+  "note": "Artifact replay check against unchanged reviewed simulator; known failures retained."
+}

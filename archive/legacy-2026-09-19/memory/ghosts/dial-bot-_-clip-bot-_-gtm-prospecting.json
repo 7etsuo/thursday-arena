@@ -1,0 +1,82 @@
+{
+  "fp": "dial bot | clip bot | gtm prospecting",
+  "seats": [
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "glittergates"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__x-brief__figma-bro": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:41:39.457Z",
+      "lastResult": "win"
+    },
+    "recipe-ebr-value-deck-builder__outbound-prospecting__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:41:47.631Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__wtd__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:41:54.080Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__credit-card-max__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:42:14.227Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__company-docs-q-a__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:42:22.326Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__signal-prospector__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:42:29.973Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__signal-prospector__luma-pages",
+  "plays": 6,
+  "updated": "2026-09-19T00:43:01.521Z"
+}

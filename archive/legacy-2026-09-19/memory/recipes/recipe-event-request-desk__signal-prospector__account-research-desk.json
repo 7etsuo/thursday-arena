@@ -1,0 +1,38 @@
+{
+  "id": "recipe-event-request-desk__signal-prospector__account-research-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "event request desk",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "account research desk",
+      "kit": "last_word",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "sidestep",
+    "mosquito",
+    "last_word"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -24,
+  "last": "2026-09-18T22:38:22.206Z"
+}

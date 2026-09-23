@@ -1,0 +1,42 @@
+{
+  "fp": "tech demos | competitor watch | company docs q a",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "krisjklosterman"
+  ],
+  "matchups": {
+    "recipe-deal-inspector__pipeline-pulse__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T12:04:54.333Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-deal-inspector__pipeline-pulse__writing-bot",
+  "plays": 1,
+  "updated": "2026-09-18T12:04:54.333Z"
+}

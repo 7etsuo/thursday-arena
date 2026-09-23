@@ -1,0 +1,39 @@
+{
+  "id": "recipe-paid-media-report-desk__x-brief__luma-pages",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "paid media report desk",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "grow",
+    "echo",
+    "hype"
+  ],
+  "tags": [
+    "recent_draw",
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 0,
+  "elo": -8,
+  "last": "2026-09-19T01:28:51.054Z"
+}

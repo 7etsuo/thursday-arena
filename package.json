@@ -1,0 +1,25 @@
+{
+  "name": "thursday-arena",
+  "version": "2.0.0",
+  "description": "Simulator-driven bot for thursdayarena.com: shop planner, opponent book and rated play loop",
+  "main": "lib/arena.js",
+  "scripts": {
+    "test": "node --test",
+    "play": "node driver/play_loop.js",
+    "play:once": "node driver/play_loop.js --once",
+    "play:dry": "node driver/play_loop.js --dry",
+    "climb": "bash driver/climb_loop.sh",
+    "rank": "node driver/check_rank.js",
+    "mcp": "node mcp/server.js",
+    "book:build": "node tools/build_book.js",
+    "eval": "node tools/eval_planner.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "playwright-core": "^1.63.0",
+    "zod": "^4.6.5"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "fp": "copy humanizer | the morning newspaper | skippy",
+  "seats": [
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "kschevik"
+  ],
+  "matchups": {
+    "recipe-seo-aeo-desk__cooper__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:13:42.378Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__credit-card-max__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:13:49.319Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__wtd__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:15:48.251Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__product-support-inbox-assistant__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:15:55.516Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__meeting-recap-deck__pipeline-pulse": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:16:01.577Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__meeting-recap-deck__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:16:21.424Z",
+      "lastResult": "win"
+    },
+    "recipe-pipeline-pulse__tradbot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:16:28.811Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__wtd__luma-pages",
+  "plays": 7,
+  "updated": "2026-09-18T21:16:28.811Z"
+}

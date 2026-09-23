@@ -1,0 +1,90 @@
+{
+  "fp": "deal hunting | gtm connections | event producer",
+  "seats": [
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "zeuss_000"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__imogen__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:32:04.977Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__meeting-recap-deck__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:32:11.718Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__office-ops-desk__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:32:19.179Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__ad-spend-watch": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:32:26.592Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__nyc-parent__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:32:33.561Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__call-follow-ups__overheard": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:32:54.985Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__luma-pages__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:33:05.268Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__ad-spend-watch",
+  "plays": 7,
+  "updated": "2026-09-19T00:33:14.491Z"
+}

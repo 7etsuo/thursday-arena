@@ -1,0 +1,52 @@
+{
+  "id": "loss-20260917-2003",
+  "name": "double-honey-echo",
+  "result": "loss",
+  "plan": "faint",
+  "rating_delta": -19,
+  "opponent_tier": "gold",
+  "rounds": "1-2",
+  "curve": {
+    "r1": null,
+    "r2": null,
+    "r3": null
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "NYC Parent",
+      "atk": 2,
+      "hp": 6,
+      "food": "honey",
+      "kit": "Bulk"
+    },
+    {
+      "seat": 2,
+      "name": "Video Edit Desk",
+      "atk": 3,
+      "hp": 4,
+      "food": "honey",
+      "kit": "Wake"
+    },
+    {
+      "seat": 3,
+      "name": "Call Follow-Ups",
+      "atk": 3,
+      "hp": 4,
+      "food": "apple",
+      "kit": "Echo"
+    }
+  ],
+  "keys": [
+    "honey_front",
+    "wake",
+    "echo"
+  ],
+  "why": "double honey without enough punch lost 1-2",
+  "reuse": "do not reuse",
+  "avoid": "avoid forcing double honey echo without carry atk",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "last_used": "2026-09-17"
+}

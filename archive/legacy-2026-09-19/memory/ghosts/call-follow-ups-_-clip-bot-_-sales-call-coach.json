@@ -1,0 +1,42 @@
+{
+  "fp": "call follow ups | clip bot | sales call coach",
+  "seats": [
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sunix_s"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__the-morning-newspaper__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T07:07:34.106Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__the-morning-newspaper__cooper",
+  "plays": 1,
+  "updated": "2026-09-19T07:07:34.106Z"
+}

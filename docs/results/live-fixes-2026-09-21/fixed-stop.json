@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "type": "feed",
+      "boardIndex": 1
+    }
+  ],
+  "reason": "r2 feed@1 0.913->0.952 [cut: samples 6->2, target 40->20] [full-target stop check]",
+  "value": 0.9128329297820823,
+  "expected": 0.9515738498789346
+}

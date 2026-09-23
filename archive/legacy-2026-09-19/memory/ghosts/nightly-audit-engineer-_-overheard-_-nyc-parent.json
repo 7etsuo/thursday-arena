@@ -1,0 +1,42 @@
+{
+  "fp": "nightly audit engineer | overheard | nyc parent",
+  "seats": [
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "orinborg"
+  ],
+  "matchups": {
+    "recipe-imogen__credit-card-max__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:32:03.604Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__credit-card-max__office-ops-desk",
+  "plays": 1,
+  "updated": "2026-09-18T22:32:03.604Z"
+}

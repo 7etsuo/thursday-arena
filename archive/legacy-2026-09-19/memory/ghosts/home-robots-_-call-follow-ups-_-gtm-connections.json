@@ -1,0 +1,99 @@
+{
+  "fp": "home robots | call follow ups | gtm connections",
+  "seats": [
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "enettolima",
+    "antar37"
+  ],
+  "matchups": {
+    "recipe-webby__credit-card-max__researchy": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T22:49:23.597Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__apple-search-ads-review__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:49:32.975Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__nightly-audit-engineer__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:49:44.192Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__meeting-recap-deck__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:49:54.572Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__wtd__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:50:06.238Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__writing-bot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:50:23.016Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__x-brief__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:50:35.401Z",
+      "lastResult": "win"
+    },
+    "recipe-meeting-recap-deck__deal-inspector__sales-call-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:50:42.043Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__credit-card-max__researchy",
+  "plays": 8,
+  "updated": "2026-09-19T00:28:46.321Z"
+}

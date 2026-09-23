@@ -1,0 +1,50 @@
+{
+  "fp": "meeting recap deck | company docs q a | figma bro",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "antar37"
+  ],
+  "matchups": {
+    "recipe-tradbot__hiring-signals__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T00:28:00.441Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:28:20.062Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__the-morning-newspaper__wtd",
+  "plays": 2,
+  "updated": "2026-09-19T00:28:50.218Z"
+}

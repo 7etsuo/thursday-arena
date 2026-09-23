@@ -1,0 +1,30 @@
+{
+  "fp": "webby",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "russano",
+    "andyscott727",
+    "_feet_account"
+  ],
+  "matchups": {
+    "recipe-imogen__webby__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:55:34.798Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__webby__cooper",
+  "plays": 1,
+  "updated": "2026-09-19T01:57:23.006Z"
+}

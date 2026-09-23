@@ -1,0 +1,66 @@
+{
+  "fp": "gtm connections | nyc parent | recruiting coordinator",
+  "seats": [
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mr76104919"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__deal-inspector__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:13:10.559Z",
+      "lastResult": "win"
+    },
+    "recipe-wtd__credit-card-max__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:13:39.403Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__copy-humanizer__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:13:48.287Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__writing-bot__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:14:07.238Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__deal-inspector__wtd",
+  "plays": 4,
+  "updated": "2026-09-18T23:14:07.239Z"
+}

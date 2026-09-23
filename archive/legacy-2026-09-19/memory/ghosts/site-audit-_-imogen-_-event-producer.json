@@ -1,0 +1,33 @@
+{
+  "fp": "site audit | imogen | event producer",
+  "seats": [
+    {
+      "name": "site audit",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "default_vpc"
+  ],
+  "matchups": {},
+  "bestRecipeId": null,
+  "plays": 0,
+  "updated": "2026-09-19T07:03:33.977Z"
+}

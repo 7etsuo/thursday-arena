@@ -1,0 +1,16 @@
+eval_versions games/seed=20 seeds=101,103,107,109,113,127,131,137,139,149 season=3 budget=Infinity mock=current book=cold
+before=/tmp/arena-counter-model-20260921/before
+  S3 seed=101: before={"win":16,"loss":2,"draw":2} current={"win":17,"loss":3,"draw":0} score=0.850/0.850 pairedDelta=0.0000 bookRecords=52/51 rounds=52/51 elapsed=80.5s
+  S3 seed=103: before={"win":17,"loss":2,"draw":1} current={"win":17,"loss":2,"draw":1} score=0.875/0.875 pairedDelta=0.0000 bookRecords=51/50 rounds=51/50 elapsed=169.9s
+  S3 seed=107: before={"win":15,"loss":4,"draw":1} current={"win":15,"loss":4,"draw":1} score=0.775/0.775 pairedDelta=0.0000 bookRecords=51/50 rounds=51/50 elapsed=258.8s
+  S3 seed=109: before={"win":16,"loss":4,"draw":0} current={"win":16,"loss":4,"draw":0} score=0.800/0.800 pairedDelta=0.0000 bookRecords=49/49 rounds=49/49 elapsed=347.3s
+  S3 seed=113: before={"win":15,"loss":4,"draw":1} current={"win":13,"loss":5,"draw":2} score=0.775/0.700 pairedDelta=-0.0750 bookRecords=48/50 rounds=48/50 elapsed=446.4s
+  S3 seed=127: before={"win":15,"loss":4,"draw":1} current={"win":16,"loss":3,"draw":1} score=0.775/0.825 pairedDelta=0.0500 bookRecords=52/50 rounds=52/50 elapsed=540.1s
+  S3 seed=131: before={"win":17,"loss":3,"draw":0} current={"win":18,"loss":2,"draw":0} score=0.850/0.900 pairedDelta=0.0500 bookRecords=51/50 rounds=51/50 elapsed=634.2s
+  S3 seed=137: before={"win":13,"loss":5,"draw":2} current={"win":13,"loss":5,"draw":2} score=0.700/0.700 pairedDelta=0.0000 bookRecords=47/48 rounds=47/48 elapsed=718.1s
+  S3 seed=139: before={"win":16,"loss":4,"draw":0} current={"win":14,"loss":4,"draw":2} score=0.800/0.750 pairedDelta=-0.0500 bookRecords=46/45 rounds=46/45 elapsed=795.5s
+  S3 seed=149: before={"win":18,"loss":1,"draw":1} current={"win":18,"loss":1,"draw":1} score=0.925/0.925 pairedDelta=0.0000 bookRecords=49/51 rounds=49/51 elapsed=888.9s
+S3 n=200: before W158 L33 D9 winRate=0.7900 matchScore=0.8125; current W157 L33 D10 winRate=0.7850 matchScore=0.8100
+  paired score delta current-before=-0.0025 95% seed-clustered CI [-0.0298, 0.0248] (exploratory match-level CI [-0.0271, 0.0221]) better=4 worse=6 same=190
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /tmp/arena-counter-model-20260921/deep-200-s3.csv

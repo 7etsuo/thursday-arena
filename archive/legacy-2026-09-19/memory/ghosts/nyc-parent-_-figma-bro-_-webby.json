@@ -1,0 +1,50 @@
+{
+  "fp": "nyc parent | figma bro | webby",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "love2bnomads"
+  ],
+  "matchups": {
+    "recipe-paid-media-report-desk__credit-card-max__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:05:28.215Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__luma-pages__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:06:16.156Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__credit-card-max__wtd",
+  "plays": 2,
+  "updated": "2026-09-18T22:06:16.156Z"
+}

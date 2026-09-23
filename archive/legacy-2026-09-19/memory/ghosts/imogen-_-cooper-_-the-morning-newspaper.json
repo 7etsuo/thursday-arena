@@ -1,0 +1,82 @@
+{
+  "fp": "imogen | cooper | the morning newspaper",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 4,
+      "hp": 8,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "pat_lorna"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__event-request-desk__projects-manager": {
+      "wins": 0,
+      "losses": 7,
+      "draws": 2,
+      "elo": -112,
+      "last": "2026-09-19T05:59:36.396Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__copy-humanizer__copy-humanizer": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T05:38:34.287Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__wtd__imogen": {
+      "wins": 0,
+      "losses": 3,
+      "draws": 0,
+      "elo": -48,
+      "last": "2026-09-19T05:44:21.742Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__call-follow-ups__projects-manager": {
+      "wins": 1,
+      "losses": 1,
+      "draws": 0,
+      "elo": 0,
+      "last": "2026-09-19T06:02:18.956Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 0,
+      "losses": 4,
+      "draws": 0,
+      "elo": -64,
+      "last": "2026-09-19T05:58:15.985Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "elo": -32,
+      "last": "2026-09-19T05:56:46.772Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 23,
+  "updated": "2026-09-19T06:02:18.956Z"
+}

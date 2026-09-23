@@ -1,0 +1,1199 @@
+{
+  "prefer_by_arch": {
+    "glass_burst": [
+      {
+        "unit": "tradbot",
+        "w": 6,
+        "l": 1,
+        "wr": 0.857,
+        "n": 7
+      },
+      {
+        "unit": "stills clips desk",
+        "w": 6,
+        "l": 1,
+        "wr": 0.857,
+        "n": 7
+      },
+      {
+        "unit": "luma pages",
+        "w": 9,
+        "l": 2,
+        "wr": 0.818,
+        "n": 11
+      },
+      {
+        "unit": "nyc parent",
+        "w": 15,
+        "l": 4,
+        "wr": 0.789,
+        "n": 19
+      },
+      {
+        "unit": "outbound prospecting",
+        "w": 10,
+        "l": 3,
+        "wr": 0.769,
+        "n": 13
+      },
+      {
+        "unit": "recruiting coordinator",
+        "w": 3,
+        "l": 1,
+        "wr": 0.75,
+        "n": 4
+      },
+      {
+        "unit": "deal hunting",
+        "w": 3,
+        "l": 1,
+        "wr": 0.75,
+        "n": 4
+      },
+      {
+        "unit": "the morning newspaper",
+        "w": 22,
+        "l": 8,
+        "wr": 0.733,
+        "n": 30
+      }
+    ],
+    "flamingo_pass": [
+      {
+        "unit": "webby",
+        "w": 8,
+        "l": 3,
+        "wr": 0.727,
+        "n": 11
+      },
+      {
+        "unit": "office ops desk",
+        "w": 7,
+        "l": 3,
+        "wr": 0.7,
+        "n": 10
+      },
+      {
+        "unit": "call follow ups",
+        "w": 8,
+        "l": 4,
+        "wr": 0.667,
+        "n": 12
+      },
+      {
+        "unit": "copy humanizer",
+        "w": 6,
+        "l": 3,
+        "wr": 0.667,
+        "n": 9
+      },
+      {
+        "unit": "meeting recap deck",
+        "w": 4,
+        "l": 2,
+        "wr": 0.667,
+        "n": 6
+      },
+      {
+        "unit": "imogen",
+        "w": 12,
+        "l": 8,
+        "wr": 0.6,
+        "n": 20
+      },
+      {
+        "unit": "writing bot",
+        "w": 7,
+        "l": 5,
+        "wr": 0.583,
+        "n": 12
+      }
+    ],
+    "backline_snipe": [
+      {
+        "unit": "copy humanizer",
+        "w": 10,
+        "l": 0,
+        "wr": 1.0,
+        "n": 10
+      },
+      {
+        "unit": "gtm prospecting",
+        "w": 4,
+        "l": 0,
+        "wr": 1.0,
+        "n": 4
+      },
+      {
+        "unit": "stills clips desk",
+        "w": 4,
+        "l": 0,
+        "wr": 1.0,
+        "n": 4
+      },
+      {
+        "unit": "pipeline pulse",
+        "w": 4,
+        "l": 0,
+        "wr": 1.0,
+        "n": 4
+      },
+      {
+        "unit": "tradbot",
+        "w": 4,
+        "l": 0,
+        "wr": 1.0,
+        "n": 4
+      },
+      {
+        "unit": "projects manager",
+        "w": 3,
+        "l": 0,
+        "wr": 1.0,
+        "n": 3
+      },
+      {
+        "unit": "call follow ups",
+        "w": 6,
+        "l": 1,
+        "wr": 0.857,
+        "n": 7
+      },
+      {
+        "unit": "credit card max",
+        "w": 6,
+        "l": 1,
+        "wr": 0.857,
+        "n": 7
+      }
+    ],
+    "chip_snipe": [
+      {
+        "unit": "call follow ups",
+        "w": 5,
+        "l": 0,
+        "wr": 1.0,
+        "n": 5
+      },
+      {
+        "unit": "wtd",
+        "w": 14,
+        "l": 1,
+        "wr": 0.933,
+        "n": 15
+      },
+      {
+        "unit": "credit card max",
+        "w": 8,
+        "l": 1,
+        "wr": 0.889,
+        "n": 9
+      },
+      {
+        "unit": "seo aeo desk",
+        "w": 4,
+        "l": 1,
+        "wr": 0.8,
+        "n": 5
+      },
+      {
+        "unit": "cooper",
+        "w": 14,
+        "l": 4,
+        "wr": 0.778,
+        "n": 18
+      },
+      {
+        "unit": "writing bot",
+        "w": 9,
+        "l": 3,
+        "wr": 0.75,
+        "n": 12
+      },
+      {
+        "unit": "the morning newspaper",
+        "w": 6,
+        "l": 2,
+        "wr": 0.75,
+        "n": 8
+      },
+      {
+        "unit": "imogen",
+        "w": 10,
+        "l": 4,
+        "wr": 0.714,
+        "n": 14
+      }
+    ],
+    "bulk_echo": [
+      {
+        "unit": "copy humanizer",
+        "w": 3,
+        "l": 0,
+        "wr": 1.0,
+        "n": 3
+      },
+      {
+        "unit": "cooper",
+        "w": 6,
+        "l": 2,
+        "wr": 0.75,
+        "n": 8
+      },
+      {
+        "unit": "office ops desk",
+        "w": 6,
+        "l": 3,
+        "wr": 0.667,
+        "n": 9
+      },
+      {
+        "unit": "writing bot",
+        "w": 7,
+        "l": 4,
+        "wr": 0.636,
+        "n": 11
+      },
+      {
+        "unit": "webby",
+        "w": 3,
+        "l": 2,
+        "wr": 0.6,
+        "n": 5
+      },
+      {
+        "unit": "wtd",
+        "w": 10,
+        "l": 7,
+        "wr": 0.588,
+        "n": 17
+      }
+    ],
+    "buff_suicide": [
+      {
+        "unit": "flora plant care log",
+        "w": 4,
+        "l": 0,
+        "wr": 1.0,
+        "n": 4
+      },
+      {
+        "unit": "x brief",
+        "w": 3,
+        "l": 0,
+        "wr": 1.0,
+        "n": 3
+      },
+      {
+        "unit": "cooper",
+        "w": 3,
+        "l": 0,
+        "wr": 1.0,
+        "n": 3
+      },
+      {
+        "unit": "meeting recap deck",
+        "w": 3,
+        "l": 0,
+        "wr": 1.0,
+        "n": 3
+      },
+      {
+        "unit": "copy humanizer",
+        "w": 10,
+        "l": 1,
+        "wr": 0.909,
+        "n": 11
+      },
+      {
+        "unit": "call follow ups",
+        "w": 3,
+        "l": 1,
+        "wr": 0.75,
+        "n": 4
+      },
+      {
+        "unit": "imogen",
+        "w": 3,
+        "l": 1,
+        "wr": 0.75,
+        "n": 4
+      },
+      {
+        "unit": "webby",
+        "w": 4,
+        "l": 2,
+        "wr": 0.667,
+        "n": 6
+      }
+    ],
+    "hype_battery": [],
+    "hurt_revenge": [
+      {
+        "unit": "writing bot",
+        "w": 3,
+        "l": 0,
+        "wr": 1.0,
+        "n": 3
+      }
+    ],
+    "echo_hype": [
+      {
+        "unit": "webby",
+        "w": 3,
+        "l": 0,
+        "wr": 1.0,
+        "n": 3
+      },
+      {
+        "unit": "imogen",
+        "w": 3,
+        "l": 1,
+        "wr": 0.75,
+        "n": 4
+      }
+    ],
+    "double_echo": [
+      {
+        "unit": "cooper",
+        "w": 4,
+        "l": 0,
+        "wr": 1.0,
+        "n": 4
+      }
+    ],
+    "grow_hype": [],
+    "wake_chip": [],
+    "ko_snowball": [],
+    "bulk_wall": [],
+    "sustain": []
+  },
+  "refuse_by_arch": {
+    "glass_burst": [
+      {
+        "unit": "deal inspector",
+        "w": 0,
+        "l": 3,
+        "wr": 0.0,
+        "n": 3
+      },
+      {
+        "unit": "signal prospector",
+        "w": 1,
+        "l": 4,
+        "wr": 0.2,
+        "n": 5
+      },
+      {
+        "unit": "sales call coach",
+        "w": 1,
+        "l": 4,
+        "wr": 0.2,
+        "n": 5
+      },
+      {
+        "unit": "pipeline pulse",
+        "w": 2,
+        "l": 4,
+        "wr": 0.333,
+        "n": 6
+      }
+    ],
+    "flamingo_pass": [
+      {
+        "unit": "signal prospector",
+        "w": 0,
+        "l": 7,
+        "wr": 0.0,
+        "n": 7
+      },
+      {
+        "unit": "pipeline pulse",
+        "w": 0,
+        "l": 6,
+        "wr": 0.0,
+        "n": 6
+      },
+      {
+        "unit": "seo aeo desk",
+        "w": 0,
+        "l": 4,
+        "wr": 0.0,
+        "n": 4
+      },
+      {
+        "unit": "flora plant care log",
+        "w": 0,
+        "l": 3,
+        "wr": 0.0,
+        "n": 3
+      },
+      {
+        "unit": "hiring signals",
+        "w": 0,
+        "l": 3,
+        "wr": 0.0,
+        "n": 3
+      },
+      {
+        "unit": "site audit",
+        "w": 1,
+        "l": 4,
+        "wr": 0.2,
+        "n": 5
+      },
+      {
+        "unit": "love",
+        "w": 1,
+        "l": 3,
+        "wr": 0.25,
+        "n": 4
+      },
+      {
+        "unit": "event request desk",
+        "w": 1,
+        "l": 3,
+        "wr": 0.25,
+        "n": 4
+      }
+    ],
+    "backline_snipe": [
+      {
+        "unit": "flora plant care log",
+        "w": 2,
+        "l": 4,
+        "wr": 0.333,
+        "n": 6
+      }
+    ],
+    "chip_snipe": [
+      {
+        "unit": "luma pages",
+        "w": 1,
+        "l": 4,
+        "wr": 0.2,
+        "n": 5
+      },
+      {
+        "unit": "site audit",
+        "w": 1,
+        "l": 3,
+        "wr": 0.25,
+        "n": 4
+      },
+      {
+        "unit": "x brief",
+        "w": 1,
+        "l": 3,
+        "wr": 0.25,
+        "n": 4
+      },
+      {
+        "unit": "outbound prospecting",
+        "w": 2,
+        "l": 5,
+        "wr": 0.286,
+        "n": 7
+      }
+    ],
+    "bulk_echo": [
+      {
+        "unit": "seo aeo desk",
+        "w": 0,
+        "l": 4,
+        "wr": 0.0,
+        "n": 4
+      },
+      {
+        "unit": "apple search ads review",
+        "w": 0,
+        "l": 3,
+        "wr": 0.0,
+        "n": 3
+      },
+      {
+        "unit": "gtm prospecting",
+        "w": 0,
+        "l": 3,
+        "wr": 0.0,
+        "n": 3
+      },
+      {
+        "unit": "video edit desk",
+        "w": 1,
+        "l": 3,
+        "wr": 0.25,
+        "n": 4
+      },
+      {
+        "unit": "credit card max",
+        "w": 1,
+        "l": 3,
+        "wr": 0.25,
+        "n": 4
+      },
+      {
+        "unit": "flora plant care log",
+        "w": 2,
+        "l": 4,
+        "wr": 0.333,
+        "n": 6
+      },
+      {
+        "unit": "imogen",
+        "w": 4,
+        "l": 7,
+        "wr": 0.364,
+        "n": 11
+      },
+      {
+        "unit": "site audit",
+        "w": 2,
+        "l": 3,
+        "wr": 0.4,
+        "n": 5
+      }
+    ],
+    "buff_suicide": [
+      {
+        "unit": "seo aeo desk",
+        "w": 1,
+        "l": 4,
+        "wr": 0.2,
+        "n": 5
+      },
+      {
+        "unit": "company docs q a",
+        "w": 1,
+        "l": 3,
+        "wr": 0.25,
+        "n": 4
+      },
+      {
+        "unit": "office ops desk",
+        "w": 1,
+        "l": 3,
+        "wr": 0.25,
+        "n": 4
+      },
+      {
+        "unit": "hiring signals",
+        "w": 1,
+        "l": 3,
+        "wr": 0.25,
+        "n": 4
+      }
+    ],
+    "hype_battery": [
+      {
+        "unit": "cooper",
+        "w": 0,
+        "l": 7,
+        "wr": 0.0,
+        "n": 7
+      },
+      {
+        "unit": "writing bot",
+        "w": 0,
+        "l": 3,
+        "wr": 0.0,
+        "n": 3
+      },
+      {
+        "unit": "luma pages",
+        "w": 0,
+        "l": 3,
+        "wr": 0.0,
+        "n": 3
+      },
+      {
+        "unit": "office ops desk",
+        "w": 1,
+        "l": 5,
+        "wr": 0.167,
+        "n": 6
+      },
+      {
+        "unit": "webby",
+        "w": 2,
+        "l": 6,
+        "wr": 0.25,
+        "n": 8
+      },
+      {
+        "unit": "meeting recap deck",
+        "w": 1,
+        "l": 3,
+        "wr": 0.25,
+        "n": 4
+      },
+      {
+        "unit": "stills clips desk",
+        "w": 1,
+        "l": 3,
+        "wr": 0.25,
+        "n": 4
+      }
+    ],
+    "hurt_revenge": [
+      {
+        "unit": "gtm prospecting",
+        "w": 0,
+        "l": 3,
+        "wr": 0.0,
+        "n": 3
+      },
+      {
+        "unit": "nyc parent",
+        "w": 1,
+        "l": 8,
+        "wr": 0.111,
+        "n": 9
+      },
+      {
+        "unit": "company docs q a",
+        "w": 1,
+        "l": 5,
+        "wr": 0.167,
+        "n": 6
+      },
+      {
+        "unit": "imogen",
+        "w": 1,
+        "l": 3,
+        "wr": 0.25,
+        "n": 4
+      },
+      {
+        "unit": "office ops desk",
+        "w": 2,
+        "l": 5,
+        "wr": 0.286,
+        "n": 7
+      },
+      {
+        "unit": "meeting recap deck",
+        "w": 2,
+        "l": 3,
+        "wr": 0.4,
+        "n": 5
+      }
+    ],
+    "echo_hype": [
+      {
+        "unit": "cooper",
+        "w": 0,
+        "l": 3,
+        "wr": 0.0,
+        "n": 3
+      },
+      {
+        "unit": "company docs q a",
+        "w": 1,
+        "l": 4,
+        "wr": 0.2,
+        "n": 5
+      },
+      {
+        "unit": "x brief",
+        "w": 1,
+        "l": 4,
+        "wr": 0.2,
+        "n": 5
+      }
+    ],
+    "double_echo": [
+      {
+        "unit": "x brief",
+        "w": 0,
+        "l": 4,
+        "wr": 0.0,
+        "n": 4
+      },
+      {
+        "unit": "event request desk",
+        "w": 0,
+        "l": 3,
+        "wr": 0.0,
+        "n": 3
+      },
+      {
+        "unit": "nyc parent",
+        "w": 0,
+        "l": 3,
+        "wr": 0.0,
+        "n": 3
+      }
+    ],
+    "grow_hype": [
+      {
+        "unit": "office ops desk",
+        "w": 0,
+        "l": 3,
+        "wr": 0.0,
+        "n": 3
+      },
+      {
+        "unit": "call follow ups",
+        "w": 0,
+        "l": 3,
+        "wr": 0.0,
+        "n": 3
+      }
+    ],
+    "wake_chip": [],
+    "ko_snowball": [],
+    "bulk_wall": [],
+    "sustain": []
+  },
+  "global_refuse": [
+    "signal prospector",
+    "site audit",
+    "event request desk",
+    "pipeline pulse",
+    "sales call coach",
+    "deal hunting",
+    "apple search ads review",
+    "gtm prospecting",
+    "hiring signals",
+    "seo aeo desk",
+    "love",
+    "company docs q a",
+    "x brief",
+    "video edit desk",
+    "nightly audit engineer",
+    "flora plant care log"
+  ],
+  "global_spine": [
+    "tradbot",
+    "the morning newspaper",
+    "copy humanizer",
+    "gtm loop closer",
+    "projects manager",
+    "cooper",
+    "writing bot",
+    "credit card max",
+    "wtd",
+    "imogen",
+    "luma pages"
+  ],
+  "unit_stats": {
+    "luma pages": {
+      "loss": 19,
+      "appear": 46,
+      "win": 24,
+      "draw": 3
+    },
+    "outbound prospecting": {
+      "loss": 16,
+      "appear": 35,
+      "win": 18,
+      "draw": 1
+    },
+    "stills clips desk": {
+      "loss": 14,
+      "appear": 29,
+      "win": 15
+    },
+    "hiring signals": {
+      "loss": 12,
+      "appear": 24,
+      "win": 8,
+      "draw": 4
+    },
+    "pipeline pulse": {
+      "loss": 19,
+      "appear": 32,
+      "win": 9,
+      "draw": 4
+    },
+    "x brief": {
+      "loss": 32,
+      "appear": 71,
+      "win": 28,
+      "draw": 11
+    },
+    "writing bot": {
+      "win": 69,
+      "appear": 128,
+      "loss": 44,
+      "draw": 15
+    },
+    "imogen": {
+      "win": 73,
+      "appear": 138,
+      "loss": 45,
+      "draw": 20
+    },
+    "love": {
+      "win": 14,
+      "appear": 36,
+      "loss": 18,
+      "draw": 4
+    },
+    "wtd": {
+      "win": 86,
+      "appear": 161,
+      "loss": 45,
+      "draw": 30
+    },
+    "call follow ups": {
+      "win": 38,
+      "appear": 75,
+      "loss": 29,
+      "draw": 8
+    },
+    "tradbot": {
+      "win": 14,
+      "appear": 20,
+      "loss": 4,
+      "draw": 2
+    },
+    "site audit": {
+      "win": 7,
+      "appear": 30,
+      "loss": 17,
+      "draw": 6
+    },
+    "credit card max": {
+      "loss": 22,
+      "appear": 69,
+      "win": 37,
+      "draw": 10
+    },
+    "video edit desk": {
+      "loss": 13,
+      "appear": 25,
+      "win": 10,
+      "draw": 2
+    },
+    "cooper": {
+      "win": 67,
+      "appear": 123,
+      "loss": 39,
+      "draw": 17
+    },
+    "webby": {
+      "win": 41,
+      "appear": 94,
+      "draw": 21,
+      "loss": 32
+    },
+    "copy humanizer": {
+      "win": 58,
+      "appear": 94,
+      "loss": 22,
+      "draw": 14
+    },
+    "office ops desk": {
+      "win": 49,
+      "appear": 113,
+      "loss": 46,
+      "draw": 18
+    },
+    "nightly audit engineer": {
+      "win": 10,
+      "appear": 25,
+      "loss": 6,
+      "draw": 9
+    },
+    "company docs q a": {
+      "win": 39,
+      "appear": 99,
+      "loss": 52,
+      "draw": 8
+    },
+    "the morning newspaper": {
+      "win": 45,
+      "appear": 70,
+      "loss": 24,
+      "draw": 1
+    },
+    "nyc parent": {
+      "win": 45,
+      "appear": 97,
+      "draw": 14,
+      "loss": 38
+    },
+    "executive assistant": {
+      "draw": 1,
+      "appear": 2,
+      "win": 1
+    },
+    "flora plant care log": {
+      "win": 23,
+      "appear": 57,
+      "loss": 26,
+      "draw": 8
+    },
+    "signal prospector": {
+      "win": 6,
+      "appear": 37,
+      "loss": 24,
+      "draw": 7
+    },
+    "product support inbox assistant": {
+      "win": 4,
+      "appear": 7,
+      "loss": 2,
+      "draw": 1
+    },
+    "meeting recap deck": {
+      "win": 36,
+      "appear": 70,
+      "loss": 23,
+      "draw": 11
+    },
+    "gtm loop closer": {
+      "win": 12,
+      "appear": 20,
+      "loss": 5,
+      "draw": 3
+    },
+    "gtm prospecting": {
+      "loss": 14,
+      "appear": 27,
+      "win": 9,
+      "draw": 4
+    },
+    "recruiting coordinator": {
+      "loss": 2,
+      "appear": 9,
+      "win": 5,
+      "draw": 2
+    },
+    "dr eggbot": {
+      "loss": 1,
+      "appear": 1
+    },
+    "seo aeo desk": {
+      "loss": 27,
+      "appear": 47,
+      "win": 18,
+      "draw": 2
+    },
+    "projects manager": {
+      "win": 14,
+      "appear": 24,
+      "draw": 4,
+      "loss": 6
+    },
+    "deal inspector": {
+      "loss": 6,
+      "appear": 9,
+      "draw": 2,
+      "win": 1
+    },
+    "deal hunting": {
+      "win": 6,
+      "appear": 19,
+      "loss": 12,
+      "draw": 1
+    },
+    "customer call coach assistant": {
+      "win": 2,
+      "appear": 8,
+      "loss": 3,
+      "draw": 3
+    },
+    "paid media report desk": {
+      "win": 6,
+      "appear": 13,
+      "loss": 4,
+      "draw": 3
+    },
+    "game art director": {
+      "win": 1,
+      "appear": 1
+    },
+    "apple search ads review": {
+      "win": 10,
+      "appear": 30,
+      "loss": 16,
+      "draw": 4
+    },
+    "sales call coach": {
+      "win": 3,
+      "appear": 10,
+      "loss": 6,
+      "draw": 1
+    },
+    "partnerships call coach": {
+      "loss": 1,
+      "appear": 1
+    },
+    "lingxi s engineer bot": {
+      "loss": 1,
+      "appear": 1
+    },
+    "event request desk": {
+      "win": 8,
+      "appear": 30,
+      "loss": 18,
+      "draw": 4
+    },
+    "alfred": {
+      "win": 1,
+      "appear": 1
+    },
+    "account research desk": {
+      "win": 5,
+      "appear": 10,
+      "loss": 3,
+      "draw": 2
+    },
+    "ai search visibility": {
+      "draw": 3,
+      "appear": 7,
+      "loss": 2,
+      "win": 2
+    },
+    "ebr value deck builder": {
+      "draw": 1,
+      "appear": 4,
+      "loss": 3
+    },
+    "critiquito design critique": {
+      "win": 1,
+      "appear": 2,
+      "loss": 1
+    },
+    "tinkabot": {
+      "draw": 1,
+      "appear": 1
+    },
+    "gtm account research": {
+      "win": 1,
+      "appear": 1
+    },
+    "ad spend watch": {
+      "loss": 2,
+      "appear": 3,
+      "draw": 1
+    },
+    "overheard": {
+      "loss": 1,
+      "appear": 2,
+      "draw": 1
+    },
+    "lead pipeline desk": {
+      "draw": 1,
+      "appear": 7,
+      "win": 2,
+      "loss": 4
+    },
+    "haggle bot": {
+      "loss": 1,
+      "appear": 1
+    },
+    "figma bro": {
+      "loss": 3,
+      "appear": 3
+    },
+    "talent discovery": {
+      "draw": 1,
+      "appear": 1
+    },
+    "researchy": {
+      "loss": 1,
+      "appear": 1
+    },
+    "xsfbsprfkv5h909uzrv7w": {
+      "win": 3,
+      "appear": 9,
+      "loss": 5,
+      "draw": 1
+    },
+    "sqo 5207iinz0idsafvw": {
+      "win": 1,
+      "appear": 4,
+      "loss": 2,
+      "draw": 1
+    },
+    "xzze41svjdcq2w6zwjan": {
+      "loss": 2,
+      "appear": 2
+    },
+    "ql920vjkyua3 u89uynql": {
+      "draw": 1,
+      "appear": 1
+    }
+  },
+  "arch_stats": {
+    "flamingo_pass": {
+      "loss": 56,
+      "win": 36,
+      "draw": 14
+    },
+    "chip_snipe": {
+      "win": 50,
+      "draw": 7,
+      "loss": 31
+    },
+    "wake_chip": {
+      "loss": 4,
+      "win": 4
+    },
+    "glass_burst": {
+      "win": 115,
+      "loss": 75,
+      "draw": 37
+    },
+    "hype_battery": {
+      "loss": 23,
+      "win": 6,
+      "draw": 7
+    },
+    "hurt_revenge": {
+      "win": 7,
+      "loss": 19,
+      "draw": 1
+    },
+    "ko_snowball": {
+      "win": 3,
+      "loss": 5
+    },
+    "sustain": {
+      "loss": 2,
+      "win": 4
+    },
+    "backline_snipe": {
+      "win": 57,
+      "loss": 20,
+      "draw": 13
+    },
+    "buff_suicide": {
+      "win": 22,
+      "loss": 16,
+      "draw": 1
+    },
+    "echo_hype": {
+      "win": 9,
+      "loss": 13
+    },
+    "bulk_echo": {
+      "win": 25,
+      "draw": 17,
+      "loss": 31
+    },
+    "bulk_wall": {
+      "win": 4,
+      "draw": 3
+    },
+    "grow_hype": {
+      "loss": 12,
+      "win": 2
+    },
+    "double_echo": {
+      "loss": 14,
+      "win": 4,
+      "draw": 2
+    }
+  },
+  "match_count": 771,
+  "WLD": {
+    "loss": 321,
+    "win": 348,
+    "draw": 102
+  }
+}

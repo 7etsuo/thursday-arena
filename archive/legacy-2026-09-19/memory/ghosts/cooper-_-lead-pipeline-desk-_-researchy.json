@@ -1,0 +1,66 @@
+{
+  "fp": "cooper | lead pipeline desk | researchy",
+  "seats": [
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "researchy",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "zachregroup"
+  ],
+  "matchups": {
+    "recipe-lingxi-s-engineer-bot__nightly-audit-engineer__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T11:27:11.641Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-call-coach-assistant__love__copy-humanizer": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-18T11:27:34.286Z",
+      "lastResult": "draw"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__flora-plant-care-log": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T11:27:48.274Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-call-coach-assistant__company-docs-q-a__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -9,
+      "last": "2026-09-18T11:28:03.122Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__company-docs-q-a__flora-plant-care-log",
+  "plays": 4,
+  "updated": "2026-09-18T11:28:03.123Z"
+}

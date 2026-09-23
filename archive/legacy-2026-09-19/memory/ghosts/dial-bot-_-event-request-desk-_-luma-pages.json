@@ -1,0 +1,82 @@
+{
+  "fp": "dial bot | event request desk | luma pages",
+  "seats": [
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "tischann1"
+  ],
+  "matchups": {
+    "recipe-product-support-inbox-assistant__pipeline-pulse__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:59:07.438Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__overheard__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:59:14.920Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__copy-humanizer__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:59:22.554Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__webby__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:59:41.002Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:00:03.302Z",
+      "lastResult": "win"
+    },
+    "recipe-sales-call-coach__x-brief__stills-clips-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:00:21.188Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__meeting-recap-deck__writing-bot",
+  "plays": 6,
+  "updated": "2026-09-19T00:00:21.189Z"
+}

@@ -1,0 +1,100 @@
+{
+  "fp": "nyc parent | writing bot | event producer",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "endshunter",
+    "imerttoprak",
+    "jackstevs"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__apple-search-ads-review__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:05:33.334Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__office-ops-desk": {
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "elo": -21,
+      "last": "2026-09-19T06:01:04.739Z",
+      "lastResult": "loss"
+    },
+    "recipe-flora-plant-care-log__writing-bot__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:05:50.357Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__writing-bot__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:05:59.061Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__recruiting-coordinator__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:06:07.649Z",
+      "lastResult": "win"
+    },
+    "recipe-call-follow-ups__luma-pages__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:06:29.225Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "elo": -32,
+      "last": "2026-09-19T05:31:51.820Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__event-request-desk__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T05:32:59.034Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__office-ops-desk__office-ops-desk",
+  "plays": 13,
+  "updated": "2026-09-19T06:01:04.739Z"
+}

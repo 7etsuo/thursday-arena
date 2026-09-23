@@ -1,0 +1,74 @@
+{
+  "fp": "the morning newspaper | signal prospector | projects manager",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "javaskrr"
+  ],
+  "matchups": {
+    "recipe-stills-clips-desk__site-audit__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:39:56.020Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__site-audit__researchy": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:40:14.880Z",
+      "lastResult": "win"
+    },
+    "recipe-seo-aeo-desk__tradbot__customer-call-coach-assistant": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-18T21:40:26.072Z",
+      "lastResult": "draw"
+    },
+    "recipe-office-ops-desk__seo-aeo-desk__talent-discovery": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T21:40:36.498Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__lead-pipeline-desk__game-art-director": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T21:41:04.982Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__site-audit__researchy",
+  "plays": 5,
+  "updated": "2026-09-18T21:41:04.982Z"
+}

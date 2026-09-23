@@ -1,0 +1,58 @@
+{
+  "fp": "luma pages | partnerships call coach | apple search ads review",
+  "seats": [
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "tischann1"
+  ],
+  "matchups": {
+    "recipe-flora-plant-care-log__executive-assistant__office-ops-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-18T23:59:32.727Z",
+      "lastResult": "draw"
+    },
+    "recipe-cooper__hiring-signals__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:59:51.553Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-proof-desk__credit-card-max__figma-bro": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:00:13.745Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-cooper__hiring-signals__projects-manager",
+  "plays": 3,
+  "updated": "2026-09-19T00:00:13.745Z"
+}

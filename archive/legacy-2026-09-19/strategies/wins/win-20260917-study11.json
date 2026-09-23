@@ -1,0 +1,70 @@
+{
+  "id": "win-20260917-study11",
+  "name": "clone-roostercogdick-nycparent-callfollow-love",
+  "result": "win",
+  "plan": "tempo",
+  "rating_delta": 13,
+  "opponent_tier": "unknown",
+  "rounds": "2-0",
+  "curve": {
+    "r1": [
+      "NYC Parent 2/6",
+      "Call Follow-Ups 3/4",
+      "Love \u2764\ufe0f 2/5"
+    ],
+    "r2": [
+      "NYC Parent 2/6 honey",
+      "Call Follow-Ups 3/4",
+      "Love \u2764\ufe0f 2/5"
+    ]
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "NYC Parent",
+      "atk": 2,
+      "hp": 6,
+      "food": "honey",
+      "kit": "Bulk"
+    },
+    {
+      "seat": 2,
+      "name": "Call Follow-Ups",
+      "atk": 3,
+      "hp": 4,
+      "food": null,
+      "kit": "Echo"
+    },
+    {
+      "seat": 3,
+      "name": "Love \u2764\ufe0f",
+      "atk": 2,
+      "hp": 5,
+      "food": null,
+      "kit": "Patch"
+    }
+  ],
+  "keys": [
+    "echo",
+    "bulk_front",
+    "patch",
+    "honey_front",
+    "nyc_parent",
+    "call_follow_ups",
+    "love"
+  ],
+  "why": "cloned from @roostercogdick win vs @silent_tom5: honey sting on NYC Parent; echo rode friend-ahead attacks",
+  "reuse": "when shop offers similar tempo pieces: NYC Parent, Call Follow-Ups, Love \u2764\ufe0f",
+  "avoid": "do not force if shop misses core kits; public clone may lack freeze/buy order fidelity",
+  "plays": 0,
+  "wins": 0,
+  "losses": 0,
+  "last_used": null,
+  "meta": {
+    "player": "roostercogdick",
+    "source_match": "c41f93b6-77a5-4d7f-82e8-f2345ffdd30d",
+    "source_url": "https://thursdayarena.com/matches/c41f93b6-77a5-4d7f-82e8-f2345ffdd30d",
+    "cloned_at": "2026-09-17",
+    "inferred": true
+  }
+}

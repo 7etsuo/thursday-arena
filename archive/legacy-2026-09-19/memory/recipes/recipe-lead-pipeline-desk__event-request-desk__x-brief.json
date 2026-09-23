@@ -1,0 +1,38 @@
+{
+  "id": "recipe-lead-pipeline-desk__event-request-desk__x-brief",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "event request desk",
+      "kit": "sidestep",
+      "honeyWant": true
+    },
+    {
+      "seat": 2,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 1,
+  "keys": [
+    "snowball",
+    "sidestep",
+    "echo"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 8,
+  "last": "2026-09-18T12:27:29.321Z"
+}

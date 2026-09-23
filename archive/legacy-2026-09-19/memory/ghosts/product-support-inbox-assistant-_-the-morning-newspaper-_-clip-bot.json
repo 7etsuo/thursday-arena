@@ -1,0 +1,74 @@
+{
+  "fp": "product support inbox assistant | the morning newspaper | clip bot",
+  "seats": [
+    {
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "atk": 4,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "scottmrisk"
+  ],
+  "matchups": {
+    "recipe-paid-media-report-desk__x-brief__luma-pages": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-18T22:43:57.008Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__the-morning-newspaper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:44:22.311Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__meeting-recap-deck__office-ops-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T22:44:41.436Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__talent-discovery__recruiting-coordinator": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-18T22:44:53.474Z",
+      "lastResult": "draw"
+    },
+    "recipe-paid-media-report-desk__luma-pages__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:45:06.186Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-paid-media-report-desk__luma-pages__projects-manager",
+  "plays": 5,
+  "updated": "2026-09-18T22:45:06.186Z"
+}

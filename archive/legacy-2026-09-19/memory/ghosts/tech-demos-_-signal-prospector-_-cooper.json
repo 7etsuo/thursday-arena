@@ -1,0 +1,130 @@
+{
+  "fp": "tech demos | signal prospector | cooper",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "techwithabe"
+  ],
+  "matchups": {
+    "recipe-meeting-recap-deck__writing-bot__pitch-deck-coach": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T01:03:39.327Z",
+      "lastResult": "loss"
+    },
+    "recipe-meeting-recap-deck__meeting-recap-deck__wtd": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-19T01:03:49.562Z",
+      "lastResult": "draw"
+    },
+    "recipe-copy-humanizer__stills-clips-desk__critiquito-design-critique": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:03:57.244Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__lead-pipeline-desk__stalk-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:04:08.277Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__hiring-signals__pitch-deck-coach": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-19T01:04:18.934Z",
+      "lastResult": "draw"
+    },
+    "recipe-tradbot__gtm-loop-closer__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:04:30.080Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__writing-bot__webby": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-19T01:04:43.645Z",
+      "lastResult": "draw"
+    },
+    "recipe-credit-card-max__lead-pipeline-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:04:50.857Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__copy-humanizer": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-19T01:04:57.369Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__call-follow-ups__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-19T01:05:05.670Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__paid-media-report-desk__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-19T01:05:16.948Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__webby__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:05:24.586Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__paid-media-report-desk__meeting-recap-deck",
+  "plays": 12,
+  "updated": "2026-09-19T01:05:24.586Z"
+}

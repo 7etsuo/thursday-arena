@@ -1,0 +1,71 @@
+{
+  "id": "win-20260917-study08",
+  "name": "clone-omlejmi-themorning-callfollow-figmabro",
+  "result": "win",
+  "plan": "faint",
+  "rating_delta": 4,
+  "opponent_tier": "unknown",
+  "rounds": "2-0",
+  "curve": {
+    "r1": [
+      "The Morning Newspaper 2/6",
+      "Call Follow-Ups 3/4",
+      "Luma Pages 2/4"
+    ],
+    "r2": [
+      "The Morning Newspaper 2/6 potato tmp+2",
+      "Call Follow-Ups 3/4",
+      "figma bro 4/4 honey"
+    ]
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "The Morning Newspaper",
+      "atk": 2,
+      "hp": 6,
+      "food": "potato",
+      "kit": "Pass it back"
+    },
+    {
+      "seat": 2,
+      "name": "Call Follow-Ups",
+      "atk": 3,
+      "hp": 4,
+      "food": null,
+      "kit": "Echo"
+    },
+    {
+      "seat": 3,
+      "name": "figma bro",
+      "atk": 4,
+      "hp": 4,
+      "food": "honey",
+      "kit": "Wake"
+    }
+  ],
+  "keys": [
+    "pass_back",
+    "echo",
+    "wake",
+    "honey",
+    "potato",
+    "the_morning_newspaper",
+    "call_follow_ups",
+    "figma_bro"
+  ],
+  "why": "cloned from @omlejmi win vs @silent_tom5: pass-back faint buffs trail; honey sting on figma bro; echo rode friend-ahead attacks",
+  "reuse": "when shop offers similar faint pieces: The Morning Newspaper, Call Follow-Ups, figma bro",
+  "avoid": "do not force if shop misses core kits; public clone may lack freeze/buy order fidelity",
+  "plays": 0,
+  "wins": 0,
+  "losses": 0,
+  "last_used": null,
+  "meta": {
+    "player": "omlejmi",
+    "source_match": "9de83bf0-8611-4151-90e0-06a0bb16fd25",
+    "source_url": "https://thursdayarena.com/matches/9de83bf0-8611-4151-90e0-06a0bb16fd25",
+    "cloned_at": "2026-09-17",
+    "inferred": true
+  }
+}

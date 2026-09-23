@@ -1,0 +1,38 @@
+{
+  "id": "recipe-recruiting-coordinator__projects-manager__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "projects manager",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "dodo",
+    "hype",
+    "hype"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 7,
+  "last": "2026-09-18T21:34:51.057Z"
+}

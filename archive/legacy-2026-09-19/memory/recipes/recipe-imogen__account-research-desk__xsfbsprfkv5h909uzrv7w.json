@@ -1,0 +1,37 @@
+{
+  "id": "recipe-imogen__account-research-desk__xsfbsprfkv5h909uzrv7w",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "imogen",
+      "kit": "bulk",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "account research desk",
+      "kit": "last_word",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "xsfbsprfkv5h909uzrv7w",
+      "kit": "",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "bulk",
+    "last_word"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -6,
+  "last": "2026-09-19T07:25:23.070Z"
+}

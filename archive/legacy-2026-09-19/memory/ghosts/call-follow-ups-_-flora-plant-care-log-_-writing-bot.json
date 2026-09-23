@@ -1,0 +1,42 @@
+{
+  "fp": "call follow ups | flora plant care log | writing bot",
+  "seats": [
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "alenski_eth"
+  ],
+  "matchups": {
+    "recipe-signal-prospector__company-docs-q-a__cooper": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-19T02:13:35.729Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-signal-prospector__company-docs-q-a__cooper",
+  "plays": 1,
+  "updated": "2026-09-19T02:14:41.796Z"
+}

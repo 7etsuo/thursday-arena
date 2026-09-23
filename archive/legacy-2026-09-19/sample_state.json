@@ -1,0 +1,85 @@
+{
+  "state": {
+    "phase": {
+      "kind": "shop",
+      "round": 0
+    },
+    "gold": 1,
+    "board": [
+      {
+        "uid": 1,
+        "botId": "afZj-XnYkThA4MB7GfZK6",
+        "atk": 3,
+        "hp": 5,
+        "tempAtk": 0,
+        "honey": false,
+        "name": "Office Ops Desk",
+        "abilityName": "Hold the line",
+        "kitText": "Hurt (front): restore 1 HP",
+        "kitId": "hold_the_line",
+        "rarity": "common",
+        "cost": 3,
+        "author": "Erika Cabrera",
+        "unlockTurn": 1,
+        "attackBase": 3,
+        "healthBase": 5
+      },
+      {
+        "uid": 2,
+        "botId": "jHT5FLhpCMx7JeIq9BEHY",
+        "atk": 2,
+        "hp": 4,
+        "tempAtk": 0,
+        "honey": false,
+        "name": "Luma Pages",
+        "abilityName": "Hype",
+        "kitText": "Start of battle: give the front-most friend +2 ATK",
+        "kitId": "hype",
+        "rarity": "common",
+        "cost": 3,
+        "author": "Jenna Nanpei",
+        "unlockTurn": 1,
+        "attackBase": 2,
+        "healthBase": 4
+      },
+      {
+        "uid": 3,
+        "botId": "wsbOPOkHApmIYLrErnC4e",
+        "atk": 3,
+        "hp": 4,
+        "tempAtk": 0,
+        "honey": false,
+        "name": "Signal Prospector",
+        "abilityName": "Poke",
+        "kitText": "Start of battle: deal 1 damage to the enemy front",
+        "kitId": "mosquito",
+        "rarity": "common",
+        "cost": 3,
+        "author": "Krista Letz",
+        "unlockTurn": 1,
+        "attackBase": 3,
+        "healthBase": 4
+      }
+    ],
+    "shop": {
+      "pets": [
+        null,
+        null,
+        null
+      ],
+      "food": "apple"
+    },
+    "wins": {
+      "you": 0,
+      "them": 0
+    },
+    "results": [],
+    "lastSeen": null,
+    "seed": -1474030220,
+    "nextUid": 4,
+    "version": 1568,
+    "rated": true
+  },
+  "version": 1568,
+  "rated": true
+}

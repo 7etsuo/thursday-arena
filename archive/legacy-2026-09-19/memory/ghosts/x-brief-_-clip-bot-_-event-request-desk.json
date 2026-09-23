@@ -1,0 +1,58 @@
+{
+  "fp": "x brief | clip bot | event request desk",
+  "seats": [
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "lowguathwa"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__gtm-loop-closer__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:06:40.807Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__wtd__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:07:13.109Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__flora-plant-care-log__dr-eggbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:07:38.965Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__wtd__writing-bot",
+  "plays": 3,
+  "updated": "2026-09-19T00:07:38.965Z"
+}

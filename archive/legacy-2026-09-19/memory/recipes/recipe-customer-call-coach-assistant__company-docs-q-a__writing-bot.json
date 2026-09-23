@@ -1,0 +1,39 @@
+{
+  "id": "recipe-customer-call-coach-assistant__company-docs-q-a__writing-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "customer call coach assistant",
+      "kit": "peacock",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "company docs q a",
+      "kit": "guard",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "writing bot",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "peacock",
+    "guard",
+    "hype"
+  ],
+  "tags": [
+    "recent_draw",
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 0,
+  "losses": 1,
+  "elo": -25,
+  "last": "2026-09-19T04:47:49.987Z"
+}

@@ -1,0 +1,50 @@
+{
+  "fp": "wtd | account research desk | nightly audit engineer",
+  "seats": [
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "account research desk",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "barkgj"
+  ],
+  "matchups": {
+    "recipe-nightly-audit-engineer__call-follow-ups__researchy": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-18T21:18:00.944Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__pipeline-pulse__paid-media-report-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T21:19:02.805Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-nightly-audit-engineer__call-follow-ups__researchy",
+  "plays": 2,
+  "updated": "2026-09-18T21:19:02.805Z"
+}

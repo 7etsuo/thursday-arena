@@ -1,0 +1,66 @@
+{
+  "fp": "imogen | home robots | office ops desk",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "office ops desk",
+      "kit": "hold_the_line",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sanskar57627477"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__credit-card-max__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T02:21:00.442Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__projects-manager__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T02:21:19.090Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__nyc-parent__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T02:21:27.101Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T02:21:32.708Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-flora-plant-care-log__call-follow-ups__wtd",
+  "plays": 4,
+  "updated": "2026-09-19T02:22:23.665Z"
+}

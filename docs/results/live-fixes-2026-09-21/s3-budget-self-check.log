@@ -1,0 +1,7 @@
+eval_versions games/seed=20 seeds=107 season=3 budget=1500 mock=current book=cold
+before=/home/tetsuo/grok/thursday-arena
+  S3 seed=107: before={"win":14,"loss":5,"draw":1} current={"win":14,"loss":5,"draw":1} score=0.725/0.725 pairedDelta=0.0000 bookRecords=51/51 rounds=51/51 elapsed=74.7s
+S3 n=20: before W14 L5 D1 winRate=0.7000 matchScore=0.7250; current W14 L5 D1 winRate=0.7000 matchScore=0.7250
+  paired score delta current-before=0.0000 95% seed-clustered CI [NaN, NaN] (exploratory match-level CI [0.0000, 0.0000]) better=0 worse=0 same=20
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /tmp/arena-fixes-20260921/s3-budget-self-check.csv

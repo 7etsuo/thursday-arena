@@ -1,0 +1,238 @@
+{
+  "fp": "event producer | nyc parent | writing bot",
+  "seats": [
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "endshunter",
+    "afktravels",
+    "0xadrianvrj",
+    "godstorm91",
+    "jackstevs"
+  ],
+  "matchups": {
+    "recipe-imogen__copy-humanizer__video-edit-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -9,
+      "last": "2026-09-18T12:04:20.175Z",
+      "lastResult": "draw"
+    },
+    "recipe-sales-call-coach__luma-pages__wtd": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -8,
+      "last": "2026-09-18T12:05:16.487Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__apple-search-ads-review__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:05:26.536Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__meeting-recap-deck__gtm-account-research": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -9,
+      "last": "2026-09-18T12:06:19.213Z",
+      "lastResult": "draw"
+    },
+    "recipe-webby__meeting-recap-deck__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T00:12:30.844Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__gtm-loop-closer__site-audit": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -30,
+      "last": "2026-09-19T00:12:42.442Z",
+      "lastResult": "loss"
+    },
+    "recipe-deal-inspector__apple-search-ads-review__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:12:49.869Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__customer-call-coach-assistant__deal-inspector": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T00:13:01.597Z",
+      "lastResult": "draw"
+    },
+    "recipe-love__webby__sales-call-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:13:10.113Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__deal-hunting__stills-clips-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T00:13:17.392Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__tradbot__dr-eggbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:13:27.969Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__seo-aeo-desk__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:13:39.333Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__cooper__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:13:54.058Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__account-research-desk__sales-call-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:57:38.137Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__seo-aeo-desk__critiquito-design-critique": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-19T01:57:48.015Z",
+      "lastResult": "draw"
+    },
+    "recipe-webby__company-docs-q-a__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:57:59.342Z",
+      "lastResult": "win"
+    },
+    "recipe-product-support-inbox-assistant__webby__ai-search-visibility": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T01:58:10.201Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:58:22.169Z",
+      "lastResult": "win"
+    },
+    "recipe-stills-clips-desk__cooper__account-research-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-19T01:58:34.022Z",
+      "lastResult": "draw"
+    },
+    "recipe-office-ops-desk__video-edit-desk__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:58:44.665Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-call-coach-assistant__love__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 1,
+      "elo": 6,
+      "last": "2026-09-19T05:32:51.709Z",
+      "lastResult": "draw"
+    },
+    "recipe-the-morning-newspaper__pipeline-pulse__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:59:26.801Z",
+      "lastResult": "win"
+    },
+    "recipe-deal-inspector__video-edit-desk__cooper": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T01:59:38.542Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 2,
+      "elo": -16,
+      "last": "2026-09-19T05:32:40.291Z",
+      "lastResult": "draw"
+    },
+    "recipe-copy-humanizer__event-request-desk__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -15,
+      "last": "2026-09-19T05:33:37.630Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-customer-call-coach-assistant__love__paid-media-report-desk",
+  "plays": 28,
+  "updated": "2026-09-19T05:33:37.630Z"
+}

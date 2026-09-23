@@ -1,0 +1,1185 @@
+{
+  "last40": [
+    {
+      "id": "m_mu81sn45_b2cc",
+      "opponent": "sodiumhyrdride",
+      "result": "loss",
+      "ourFinal": "Call Follow-Ups 3/4 | WTD 3/4 | _xZZE41svJdcq2w6ZWJan 3/4",
+      "theirFinal": "dial bot 4/4 | copy humanizer 4/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "Call Follow-Ups 3/4 | WTD 3/4 | _xZZE41svJdcq2w6ZWJan 3/4",
+      "reasons": [
+        "policy_v1+buff_suicide",
+        "recipe+arch:echo_hype",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 0,
+        "them": 1
+      },
+      "ts": "2026-09-19T07:10:25.542Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81suvh_6d33",
+      "opponent": "sodiumhyrdride",
+      "result": "win",
+      "ourFinal": "NYC Parent 2/6 | X Brief 2/4 | Company Docs Q&A 2/6",
+      "theirFinal": "dial bot 4/4 | copy humanizer 4/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "NYC Parent 2/6 | X Brief 2/4 | Company Docs Q&A 2/6",
+      "reasons": [
+        "policy_v1+buff_suicide",
+        "recipe+arch:chip_snipe",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 0
+      },
+      "ts": "2026-09-19T07:10:35.598Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81t2hx_b1c8",
+      "opponent": "sodiumhyrdride",
+      "result": "draw",
+      "ourFinal": "Flora: Plant Care Log 2/6 | Meeting Recap Deck 3/4 | Event Request Desk 3/4",
+      "theirFinal": "dial bot 4/4 | copy humanizer 4/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "Flora: Plant Care Log 2/6 | Meeting Recap Deck 3/4 | Event Request Desk 3/4",
+      "reasons": [
+        "policy_v1+buff_suicide",
+        "recipe+arch:chip_snipe",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 1
+      },
+      "ts": "2026-09-19T07:10:45.477Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81t9my_8223",
+      "opponent": "sodiumhyrdride",
+      "result": "win",
+      "ourFinal": "Webby 3/5 | Cooper 2/5 | WTD 3/4",
+      "theirFinal": "dial bot 4/4 | copy humanizer 4/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "Webby 3/5 | Cooper 2/5 | WTD 3/4",
+      "reasons": [
+        "policy_v1+buff_suicide",
+        "recipe+arch:chip_snipe",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 2,
+        "them": 1
+      },
+      "ts": "2026-09-19T07:10:54.730Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81ti42_4a5e",
+      "opponent": "sodiumhyrdride",
+      "result": "win",
+      "ourFinal": "Office Ops Desk 3/5 | Meeting Recap Deck 4/5 | Writing Bot+h 2/5",
+      "theirFinal": "dial bot 3/3 | copy humanizer 2/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "Office Ops Desk 3/5 | Meeting Recap Deck 3/4 | Writing Bot+h 2/5",
+      "reasons": [
+        "policy_v1+buff_suicide",
+        "policy_v1+sustain"
+      ],
+      "seriesFinal": {
+        "you": 2,
+        "them": 0
+      },
+      "ts": "2026-09-19T07:11:05.714Z",
+      "fightCount": 2
+    },
+    {
+      "id": "m_mu81turj_7f36",
+      "opponent": "sodiumhyrdride",
+      "result": "win",
+      "ourFinal": "Imogen 3/7 | Call Follow-Ups+h 3/4 | Meeting Recap Deck 3/4",
+      "theirFinal": "dial bot 4/4 | copy humanizer 4/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "Imogen 3/7 | Call Follow-Ups+h 3/4 | Meeting Recap Deck 3/4",
+      "reasons": [
+        "policy_v1+backline_snipe",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 2,
+        "them": 0
+      },
+      "ts": "2026-09-19T07:11:22.112Z",
+      "fightCount": 2
+    },
+    {
+      "id": "m_mu81tzc2_04f9",
+      "opponent": "mayanksagar26",
+      "result": "loss",
+      "ourFinal": "Cooper 2/5 | Webby 3/5 | xSfBSprfKv5h909uzrv7W 2/4",
+      "theirFinal": "company docs q a 2/6 | nyc parent 2/6 | commitments 3/5",
+      "theirNames": "company docs q a|nyc parent|commitments",
+      "lastBoard": "Cooper 2/5 | Webby 3/5",
+      "reasons": [
+        "recipe+arch:flamingo_pass",
+        "recipe+arch:chip_snipe"
+      ],
+      "seriesFinal": {
+        "you": 0,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:11:28.034Z",
+      "fightCount": 2
+    },
+    {
+      "id": "m_mu81u51y_e6f4",
+      "opponent": "sodiumhyrdride",
+      "result": "loss",
+      "ourFinal": "Signal Prospector 3/4 | Apple Search Ads Review 3/3 | Tradbot 3/6",
+      "theirFinal": "dial bot 4/4 | copy humanizer 4/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "Signal Prospector 3/4 | Apple Search Ads Review 3/3 | Tradbot 3/6",
+      "reasons": [
+        "recipe+arch:flamingo_pass",
+        "recipe+arch:chip_snipe",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:11:35.446Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81ucp6_af2a",
+      "opponent": "sodiumhyrdride",
+      "result": "win",
+      "ourFinal": "Credit Card Max 4/5 | Credit Card Max 3/4 | Company Docs Q&A 2/6",
+      "theirFinal": "dial bot 3/3 | copy humanizer 2/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "Credit Card Max 3/4 | Credit Card Max 3/4",
+      "reasons": [
+        "recipe+arch:flamingo_pass",
+        "policy_v1+grow_scale"
+      ],
+      "seriesFinal": {
+        "you": 2,
+        "them": 0
+      },
+      "ts": "2026-09-19T07:11:45.355Z",
+      "fightCount": 2
+    },
+    {
+      "id": "m_mu81uich_c8e0",
+      "opponent": "sodiumhyrdride",
+      "result": "loss",
+      "ourFinal": "Lead Pipeline Desk 4/4 | Meeting Recap Deck 4/5 | Writing Bot 2/5",
+      "theirFinal": "dial bot 4/4 | copy humanizer 4/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "Lead Pipeline Desk 4/4 | Meeting Recap Deck 4/5 | Writing Bot 2/5",
+      "reasons": [
+        "recipe+arch:flamingo_pass",
+        "policy_v1+backline_snipe",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:11:52.674Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81ur7z_7174",
+      "opponent": "sodiumhyrdride",
+      "result": "loss",
+      "ourFinal": "SqO-_5207iInz0iDSAFVW 2/3 | Office Ops Desk 3/5 | figma bro 4/4",
+      "theirFinal": "dial bot 4/4 | copy humanizer 4/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "SqO-_5207iInz0iDSAFVW 2/3 | Office Ops Desk 3/5 | figma bro 4/4",
+      "reasons": [
+        "recipe+arch:flamingo_pass",
+        "recipe+arch:chip_snipe",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 0,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:12:04.176Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81uytp_9439",
+      "opponent": "sodiumhyrdride",
+      "result": "draw",
+      "ourFinal": "Writing Bot 2/5 | X Brief 2/4 | Nightly Audit Engineer 3/6",
+      "theirFinal": "dial bot 4/4 | copy humanizer 4/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "Writing Bot 2/5 | X Brief 2/4 | Nightly Audit Engineer 3/6",
+      "reasons": [
+        "recipe+arch:flamingo_pass",
+        "recipe+arch:echo_hype",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 1
+      },
+      "ts": "2026-09-19T07:12:14.029Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81vdy3_eccf",
+      "opponent": "sodiumhyrdride",
+      "result": "loss",
+      "ourFinal": "WTD 3/4 | Webby 3/5 | NYC Parent 2/6",
+      "theirFinal": "dial bot 4/4 | copy humanizer 4/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "WTD 3/4 | Webby 3/5 | NYC Parent 2/6",
+      "reasons": [
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:12:33.628Z",
+      "fightCount": 1
+    },
+    {
+      "id": "m_mu81vgn4_4b79",
+      "opponent": "sodiumhyrdride",
+      "result": "draw",
+      "ourFinal": "Copy Humanizer 3/6 | SqO-_5207iInz0iDSAFVW 2/3 | Copy Humanizer+h 2/5",
+      "theirFinal": "dial bot 4/4 | copy humanizer 4/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "Copy Humanizer 3/6 | SqO-_5207iInz0iDSAFVW 2/3 | Copy Humanizer+h 2/5",
+      "reasons": [
+        "policy_v1+flamingo_pass",
+        "policy_v1+chip_snipe",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 1
+      },
+      "ts": "2026-09-19T07:12:37.120Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81vpgm_cc61",
+      "opponent": "sodiumhyrdride",
+      "result": "loss",
+      "ourFinal": "Meeting Recap Deck 3/4 | Talent Discovery 4/3",
+      "theirFinal": "dial bot 3/3 | copy humanizer 2/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "Luma Pages 2/4 | Site Audit 3/3",
+      "reasons": [
+        "policy_v1+flamingo_pass",
+        "policy_v1+chip_snipe"
+      ],
+      "seriesFinal": {
+        "you": 0,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:12:48.550Z",
+      "fightCount": 2
+    },
+    {
+      "id": "m_mu81vvbp_f5da",
+      "opponent": "sodiumhyrdride",
+      "result": "win",
+      "ourFinal": "Copy Humanizer 3/6 | Webby 3/5 | Tradbot 3/6",
+      "theirFinal": "dial bot 3/3 | copy humanizer 2/5 | x brief 2/4",
+      "theirNames": "dial bot|copy humanizer|x brief",
+      "lastBoard": "Copy Humanizer 2/5 | Webby 3/5 | Event Request Desk 3/4",
+      "reasons": [
+        "policy_v1+flamingo_pass",
+        "policy_v1+chip_snipe"
+      ],
+      "seriesFinal": {
+        "you": 2,
+        "them": 0
+      },
+      "ts": "2026-09-19T07:12:56.149Z",
+      "fightCount": 2
+    },
+    {
+      "id": "m_mu81wap3_9ada",
+      "opponent": "sodiumhyrdride",
+      "result": "draw",
+      "ourFinal": "Nightly Audit Engineer+h 3/6 | WTD 4/5 | Webby 3/5",
+      "theirFinal": "hiring signals 6/4 | love 2/5 | seo aeo desk 2/5",
+      "theirNames": "hiring signals|love|seo aeo desk",
+      "lastBoard": "Nightly Audit Engineer+h 3/6 | WTD 3/4 | Webby 3/5",
+      "reasons": [
+        "policy_v1+backline_snipe"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 1
+      },
+      "ts": "2026-09-19T07:13:16.072Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81wlep_574a",
+      "opponent": "sodiumhyrdride",
+      "result": "win",
+      "ourFinal": "NYC Parent 2/6 | Stills & Clips Desk 2/5 | Cooper 2/5",
+      "theirFinal": "hiring signals 5/3 | love 2/5 | seo aeo desk 2/5",
+      "theirNames": "hiring signals|love|seo aeo desk",
+      "lastBoard": "NYC Parent 2/6 | Stills & Clips Desk 2/5",
+      "reasons": [
+        "recipe+arch:flamingo_pass",
+        "recipe+arch:wake_chip"
+      ],
+      "seriesFinal": {
+        "you": 2,
+        "them": 0
+      },
+      "ts": "2026-09-19T07:13:29.953Z",
+      "fightCount": 2
+    },
+    {
+      "id": "m_mu81wqxs_b564",
+      "opponent": "sodiumhyrdride",
+      "result": "win",
+      "ourFinal": "Office Ops Desk 4/6 | Writing Bot 2/5 | Cooper 2/5",
+      "theirFinal": "hiring signals 6/4 | love 2/5 | seo aeo desk 2/5",
+      "theirNames": "hiring signals|love|seo aeo desk",
+      "lastBoard": "Office Ops Desk 4/6 | Writing Bot 2/5 | Cooper 2/5",
+      "reasons": [
+        "recipe+arch:flamingo_pass",
+        "recipe+arch:chip_snipe",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 2,
+        "them": 1
+      },
+      "ts": "2026-09-19T07:13:37.120Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81wz0j_1860",
+      "opponent": "as42tsx",
+      "result": "win",
+      "ourFinal": "Office Ops Desk 4/6 | Webby 3/5 | Call Follow-Ups+h 3/4",
+      "theirFinal": "imogen 2/6 | office ops desk 3/5 | overheard 4/4",
+      "theirNames": "imogen|office ops desk|overheard",
+      "lastBoard": "Office Ops Desk 3/5 | Webby 3/5 | Call Follow-Ups+h 3/4",
+      "reasons": [
+        "recipe+arch:flamingo_pass",
+        "policy_v1+sustain"
+      ],
+      "seriesFinal": {
+        "you": 2,
+        "them": 0
+      },
+      "ts": "2026-09-19T07:13:47.587Z",
+      "fightCount": 2
+    },
+    {
+      "id": "m_mu81xcdj_ad5d",
+      "opponent": "vibeleiz",
+      "result": "loss",
+      "ourFinal": "WTD 3/4 | NYC Parent 2/6 | Credit Card Max 3/4",
+      "theirFinal": "stalk bot 6/6 | x brief 3/5 | x brief 2/4",
+      "theirNames": "stalk bot|x brief|x brief",
+      "lastBoard": "WTD 3/4 | NYC Parent 2/6 | Credit Card Max 3/4",
+      "reasons": [
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:14:04.903Z",
+      "fightCount": 2
+    },
+    {
+      "id": "m_mu81xhjq_0a15",
+      "opponent": "vibeleiz",
+      "result": "loss",
+      "ourFinal": "Office Ops Desk 3/5 | Apple Search Ads Review 3/3 | Writing Bot 2/5",
+      "theirFinal": "stalk bot 6/6 | x brief 3/5 | x brief 2/4",
+      "theirNames": "stalk bot|x brief|x brief",
+      "lastBoard": "Office Ops Desk 3/5 | Apple Search Ads Review 3/3 | Writing Bot 2/5",
+      "reasons": [
+        "recipe+arch:double_echo"
+      ],
+      "seriesFinal": {
+        "you": 0,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:14:11.606Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81xpda_f8b9",
+      "opponent": "as42tsx",
+      "result": "loss",
+      "ourFinal": "The Morning Newspaper 2/6 | Projects Manager 3/5 | _xZZE41svJdcq2w6ZWJan 3/4",
+      "theirFinal": "webby 4/6 | stalk bot 6/6 | video edit desk 3/4",
+      "theirNames": "webby|stalk bot|video edit desk",
+      "lastBoard": "The Morning Newspaper 2/6 | Projects Manager 3/5 | _xZZE41svJdcq2w6ZWJan 3/4",
+      "reasons": [
+        "recipe+arch:double_echo",
+        "recipe+arch:chip_snipe",
+        "recipe+arch:hurt_revenge"
+      ],
+      "seriesFinal": {
+        "you": 0,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:14:21.743Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81y66o_66bb",
+      "opponent": "sodiumhyrdride",
+      "result": "win",
+      "ourFinal": "X Brief 3/5 | Call Follow-Ups+h 3/4 | WTD 3/4",
+      "theirFinal": "hiring signals 6/4 | love 2/5 | seo aeo desk 2/5",
+      "theirNames": "hiring signals|love|seo aeo desk",
+      "lastBoard": "X Brief 3/5 | Call Follow-Ups+h 3/4 | WTD 3/4",
+      "reasons": [
+        "policy_v1+buff_suicide",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 2,
+        "them": 1
+      },
+      "ts": "2026-09-19T07:14:43.536Z",
+      "fightCount": 2
+    },
+    {
+      "id": "m_mu81yacy_5586",
+      "opponent": "as42tsx",
+      "result": "loss",
+      "ourFinal": "Writing Bot 2/5 | Imogen 2/6 | Company Docs Q&A 2/6",
+      "theirFinal": "partnerships call coach 4/6 | gtm prospecting 5/4 | nyc parent 2/6",
+      "theirNames": "partnerships call coach|gtm prospecting|nyc parent",
+      "lastBoard": "Writing Bot 2/5 | Imogen 2/6 | Company Docs Q&A 2/6",
+      "reasons": [
+        "recipe+arch:flamingo_pass",
+        "recipe+arch:chip_snipe"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:14:48.946Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81yi7h_29dc",
+      "opponent": "sodiumhyrdride",
+      "result": "win",
+      "ourFinal": "Cooper 2/5 | Office Ops Desk 3/5 | Researchy 3/7",
+      "theirFinal": "hiring signals 6/4 | love 2/5 | seo aeo desk 2/5",
+      "theirNames": "hiring signals|love|seo aeo desk",
+      "lastBoard": "Cooper 2/5 | Office Ops Desk 3/5",
+      "reasons": [
+        "recipe+arch:flamingo_pass",
+        "recipe+arch:chip_snipe",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 2,
+        "them": 1
+      },
+      "ts": "2026-09-19T07:14:59.117Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81yvf3_e8dc",
+      "opponent": "as42tsx",
+      "result": "win",
+      "ourFinal": "Nightly Audit Engineer 4/7 | WTD 3/4 | The Morning Newspaper 2/6",
+      "theirFinal": "site audit 4/4 | tradbot 3/6 | ai search visibility 3/5",
+      "theirNames": "site audit|tradbot|ai search visibility",
+      "lastBoard": "Nightly Audit Engineer 4/7 | WTD 3/4 | The Morning Newspaper 2/6",
+      "reasons": [
+        "policy_v1",
+        "policy_v1+sustain",
+        "recipe+arch:chip_snipe"
+      ],
+      "seriesFinal": {
+        "you": 2,
+        "them": 1
+      },
+      "ts": "2026-09-19T07:15:16.239Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81z3nb_0765",
+      "opponent": "mayanksagar26",
+      "result": "loss",
+      "ourFinal": "Call Follow-Ups 3/4 | Company Docs Q&A 2/6 | GTM Loop Closer 3/6",
+      "theirFinal": "gtm loop closer 3/6 | memento 3/4 | researchy 3/7",
+      "theirNames": "gtm loop closer|memento|researchy",
+      "lastBoard": "Call Follow-Ups 3/4 | Company Docs Q&A 2/6 | GTM Loop Closer 3/6",
+      "reasons": [
+        "policy_v1",
+        "recipe+arch:echo_hype",
+        "recipe+arch:wake_chip"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:15:26.903Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81zbn5_8866",
+      "opponent": "as42tsx",
+      "result": "win",
+      "ourFinal": "xSfBSprfKv5h909uzrv7W 2/4 | Cooper 2/5 | Call Follow-Ups 3/4",
+      "theirFinal": "company docs q a 2/6 | clip bot 4/4 | product idea stress test 3/7",
+      "theirNames": "company docs q a|clip bot|product idea stress test",
+      "lastBoard": "xSfBSprfKv5h909uzrv7W 2/4 | Cooper 2/5 | Call Follow-Ups 3/4",
+      "reasons": [
+        "policy_v1",
+        "recipe+arch:wake_chip"
+      ],
+      "seriesFinal": {
+        "you": 2,
+        "them": 1
+      },
+      "ts": "2026-09-19T07:15:37.265Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81zj8a_7e53",
+      "opponent": "as42tsx",
+      "result": "win",
+      "ourFinal": "Company Docs Q&A 2/6 | Meeting Recap Deck 3/4 | GTM Loop Closer+h 3/6",
+      "theirFinal": "nyc parent 2/6 | company docs q a 2/6 | flora plant care log 2/6",
+      "theirNames": "nyc parent|company docs q a|flora plant care log",
+      "lastBoard": "Company Docs Q&A 2/6 | Meeting Recap Deck 3/4 | X Brief 3/5",
+      "reasons": [
+        "policy_v1",
+        "policy_v1+sustain"
+      ],
+      "seriesFinal": {
+        "you": 2,
+        "them": 0
+      },
+      "ts": "2026-09-19T07:15:47.099Z",
+      "fightCount": 2
+    },
+    {
+      "id": "m_mu81zpiq_bb65",
+      "opponent": "as42tsx",
+      "result": "loss",
+      "ourFinal": "NYC Parent 2/6 | Flora: Plant Care Log 2/6 | Flora: Plant Care Log 2/6",
+      "theirFinal": "signal prospector 5/6 | tradbot 3/6 | gtm account research 3/7",
+      "theirNames": "signal prospector|tradbot|gtm account research",
+      "lastBoard": "NYC Parent 2/6 | Flora: Plant Care Log 2/6 | Flora: Plant Care Log 2/6",
+      "reasons": [
+        "policy_v1",
+        "recipe+arch:flamingo_pass"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:15:55.251Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu81zxkd_36b5",
+      "opponent": "as42tsx",
+      "result": "loss",
+      "ourFinal": "Cooper 2/5 | Writing Bot 2/5 | Credit Card Max 3/4",
+      "theirFinal": "home robots 3/3 | office ops desk 3/5 | figma bro 4/4",
+      "theirNames": "home robots|office ops desk|figma bro",
+      "lastBoard": "Cooper 2/5 | Writing Bot 2/5 | Credit Card Max 3/4",
+      "reasons": [
+        "policy_v1",
+        "recipe+arch:glass_burst"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:16:05.677Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu8205et_3f55",
+      "opponent": "mayanksagar26",
+      "result": "loss",
+      "ourFinal": "Signal Prospector 3/4 | Writing Bot 2/5 | WTD 3/4",
+      "theirFinal": "gtm loop closer 3/6 | memento 3/4 | researchy 3/7",
+      "theirNames": "gtm loop closer|memento|researchy",
+      "lastBoard": "Signal Prospector 3/4 | Writing Bot 2/5 | WTD 3/4",
+      "reasons": [
+        "policy_v1",
+        "recipe+arch:glass_burst",
+        "recipe+arch:wake_chip"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:16:15.845Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu820dva_d19c",
+      "opponent": "mayanksagar26",
+      "result": "win",
+      "ourFinal": "The Morning Newspaper 2/6 | SEO & AEO Desk 2/5 | SEO & AEO Desk 2/5",
+      "theirFinal": "stills clips desk 2/5 | gtm loop closer 3/6 | memento 3/4",
+      "theirNames": "stills clips desk|gtm loop closer|memento",
+      "lastBoard": "The Morning Newspaper 2/6 | SEO & AEO Desk 2/5 | SEO & AEO Desk 2/5",
+      "reasons": [
+        "policy_v1",
+        "recipe+arch:glass_burst"
+      ],
+      "seriesFinal": {
+        "you": 2,
+        "them": 0
+      },
+      "ts": "2026-09-19T07:16:26.807Z",
+      "fightCount": 2
+    },
+    {
+      "id": "m_mu820iz2_6567",
+      "opponent": "mayanksagar26",
+      "result": "win",
+      "ourFinal": "SEO & AEO Desk 2/5 | Cooper 2/5 | Writing Bot 2/5",
+      "theirFinal": "gtm loop closer 3/6 | memento 3/4 | researchy 3/7",
+      "theirNames": "gtm loop closer|memento|researchy",
+      "lastBoard": "SEO & AEO Desk 2/5 | Cooper 2/5 | Writing Bot 2/5",
+      "reasons": [
+        "policy_v1",
+        "recipe+arch:glass_burst",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 0
+      },
+      "ts": "2026-09-19T07:16:33.422Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu820ro9_d848",
+      "opponent": "mayanksagar26",
+      "result": "draw",
+      "ourFinal": "Cooper 2/5 | Site Audit 3/3 | WTD 3/4",
+      "theirFinal": "gtm loop closer 3/6 | memento 3/4 | researchy 3/7",
+      "theirNames": "gtm loop closer|memento|researchy",
+      "lastBoard": "Cooper 2/5 | Site Audit 3/3 | WTD 3/4",
+      "reasons": [
+        "policy_v1",
+        "recipe+arch:glass_burst",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 1
+      },
+      "ts": "2026-09-19T07:16:44.697Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu820yqr_5aa8",
+      "opponent": "thatretireddude",
+      "result": "loss",
+      "ourFinal": "xSfBSprfKv5h909uzrv7W 2/4 | Signal Prospector 3/4 | Office Ops Desk 3/5",
+      "theirFinal": "cooper 2/5 | copy humanizer 2/5 | call follow ups 3/4",
+      "theirNames": "cooper|copy humanizer|call follow ups",
+      "lastBoard": "xSfBSprfKv5h909uzrv7W 2/4 | Signal Prospector 3/4",
+      "reasons": [
+        "policy_v1",
+        "recipe+arch:flamingo_pass"
+      ],
+      "seriesFinal": {
+        "you": 0,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:16:53.859Z",
+      "fightCount": 2
+    },
+    {
+      "id": "m_mu8214bh_9817",
+      "opponent": "thatretireddude",
+      "result": "draw",
+      "ourFinal": "Flora: Plant Care Log 2/6 | Credit Card Max 3/4 | Meeting Recap Deck 3/4",
+      "theirFinal": "copy humanizer 2/5 | competitor watch 5/7 | figma bro 4/4",
+      "theirNames": "copy humanizer|competitor watch|figma bro",
+      "lastBoard": "Flora: Plant Care Log 2/6 | Credit Card Max 3/4 | Meeting Recap Deck 3/4",
+      "reasons": [
+        "policy_v1",
+        "recipe+arch:flamingo_pass"
+      ],
+      "seriesFinal": {
+        "you": 1,
+        "them": 1
+      },
+      "ts": "2026-09-19T07:17:01.085Z",
+      "fightCount": 3
+    },
+    {
+      "id": "m_mu821cj8_9174",
+      "opponent": "thatretireddude",
+      "result": "loss",
+      "ourFinal": "NYC Parent 2/6 | Copy Humanizer 2/5 | Copy Humanizer 2/5",
+      "theirFinal": "company docs q a 3/7 | the morning newspaper 2/6 | pipeline pulse 3/4",
+      "theirNames": "company docs q a|the morning newspaper|pipeline pulse",
+      "lastBoard": "NYC Parent 2/6 | Copy Humanizer 2/5",
+      "reasons": [
+        "policy_v1",
+        "recipe+arch:flamingo_pass"
+      ],
+      "seriesFinal": {
+        "you": 0,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:17:11.733Z",
+      "fightCount": 2
+    },
+    {
+      "id": "m_mu821i46_7ab9",
+      "opponent": "thatretireddude",
+      "result": "loss",
+      "ourFinal": "Call Follow-Ups 3/4 | Writing Bot 2/5 | Credit Card Max 3/4",
+      "theirFinal": "copy humanizer 2/5 | competitor watch 5/7 | figma bro 4/4",
+      "theirNames": "copy humanizer|competitor watch|figma bro",
+      "lastBoard": "Call Follow-Ups 3/4 | Writing Bot 2/5 | Credit Card Max 3/4",
+      "reasons": [
+        "policy_v1",
+        "recipe+ghost_matchup"
+      ],
+      "seriesFinal": {
+        "you": 0,
+        "them": 2
+      },
+      "ts": "2026-09-19T07:17:18.966Z",
+      "fightCount": 3
+    }
+  ],
+  "byArch": {
+    "dial|copy|x-brief": {
+      "w": [
+        "NYC Parent 2/6 | X Brief 2/4 | Company Docs Q&A 2/6",
+        "Webby 3/5 | Cooper 2/5 | WTD 3/4",
+        "Office Ops Desk 3/5 | Meeting Recap Deck 4/5 | Writing Bot+h 2/5",
+        "Imogen 3/7 | Call Follow-Ups+h 3/4 | Meeting Recap Deck 3/4",
+        "Credit Card Max 4/5 | Credit Card Max 3/4 | Company Docs Q&A 2/6",
+        "Copy Humanizer 3/6 | Webby 3/5 | Tradbot 3/6"
+      ],
+      "l": [
+        "Call Follow-Ups 3/4 | WTD 3/4 | _xZZE41svJdcq2w6ZWJan 3/4",
+        "Signal Prospector 3/4 | Apple Search Ads Review 3/3 | Tradbot 3/6",
+        "Lead Pipeline Desk 4/4 | Meeting Recap Deck 4/5 | Writing Bot 2/5",
+        "SqO-_5207iInz0iDSAFVW 2/3 | Office Ops Desk 3/5 | figma bro 4/4",
+        "WTD 3/4 | Webby 3/5 | NYC Parent 2/6",
+        "Meeting Recap Deck 3/4 | Talent Discovery 4/3"
+      ],
+      "d": [
+        "Flora: Plant Care Log 2/6 | Meeting Recap Deck 3/4 | Event Request Desk 3/4",
+        "Writing Bot 2/5 | X Brief 2/4 | Nightly Audit Engineer 3/6",
+        "Copy Humanizer 3/6 | SqO-_5207iInz0iDSAFVW 2/3 | Copy Humanizer+h 2/5"
+      ]
+    },
+    "company docs|nyc parent|commitments": {
+      "w": [],
+      "l": [
+        "Cooper 2/5 | Webby 3/5 | xSfBSprfKv5h909uzrv7W 2/4"
+      ],
+      "d": []
+    },
+    "signal|love|seo aeo": {
+      "w": [
+        "NYC Parent 2/6 | Stills & Clips Desk 2/5 | Cooper 2/5",
+        "Office Ops Desk 4/6 | Writing Bot 2/5 | Cooper 2/5",
+        "X Brief 3/5 | Call Follow-Ups+h 3/4 | WTD 3/4",
+        "Cooper 2/5 | Office Ops Desk 3/5 | Researchy 3/7"
+      ],
+      "l": [],
+      "d": [
+        "Nightly Audit Engineer+h 3/6 | WTD 4/5 | Webby 3/5"
+      ]
+    },
+    "imogen|office ops|overheard": {
+      "w": [
+        "Office Ops Desk 4/6 | Webby 3/5 | Call Follow-Ups+h 3/4"
+      ],
+      "l": [],
+      "d": []
+    },
+    "stalk bot|x-brief|x-brief": {
+      "w": [],
+      "l": [
+        "WTD 3/4 | NYC Parent 2/6 | Credit Card Max 3/4",
+        "Office Ops Desk 3/5 | Apple Search Ads Review 3/3 | Writing Bot 2/5"
+      ],
+      "d": []
+    },
+    "webby|stalk bot|video edit": {
+      "w": [],
+      "l": [
+        "The Morning Newspaper 2/6 | Projects Manager 3/5 | _xZZE41svJdcq2w6ZWJan 3/4"
+      ],
+      "d": []
+    },
+    "partnerships call|gtm prospecting|nyc parent": {
+      "w": [],
+      "l": [
+        "Writing Bot 2/5 | Imogen 2/6 | Company Docs Q&A 2/6"
+      ],
+      "d": []
+    },
+    "site audit|tradbot|ai search": {
+      "w": [
+        "Nightly Audit Engineer 4/7 | WTD 3/4 | The Morning Newspaper 2/6"
+      ],
+      "l": [],
+      "d": []
+    },
+    "gtm loop|memento|researchy": {
+      "w": [
+        "SEO & AEO Desk 2/5 | Cooper 2/5 | Writing Bot 2/5"
+      ],
+      "l": [
+        "Call Follow-Ups 3/4 | Company Docs Q&A 2/6 | GTM Loop Closer 3/6",
+        "Signal Prospector 3/4 | Writing Bot 2/5 | WTD 3/4"
+      ],
+      "d": [
+        "Cooper 2/5 | Site Audit 3/3 | WTD 3/4"
+      ]
+    },
+    "company docs|clip bot|product idea": {
+      "w": [
+        "xSfBSprfKv5h909uzrv7W 2/4 | Cooper 2/5 | Call Follow-Ups 3/4"
+      ],
+      "l": [],
+      "d": []
+    },
+    "nyc parent|company docs|flora": {
+      "w": [
+        "Company Docs Q&A 2/6 | Meeting Recap Deck 3/4 | GTM Loop Closer+h 3/6"
+      ],
+      "l": [],
+      "d": []
+    },
+    "signal|tradbot|gtm account": {
+      "w": [],
+      "l": [
+        "NYC Parent 2/6 | Flora: Plant Care Log 2/6 | Flora: Plant Care Log 2/6"
+      ],
+      "d": []
+    },
+    "home robots|office ops|figma": {
+      "w": [],
+      "l": [
+        "Cooper 2/5 | Writing Bot 2/5 | Credit Card Max 3/4"
+      ],
+      "d": []
+    },
+    "stills|gtm loop|memento": {
+      "w": [
+        "The Morning Newspaper 2/6 | SEO & AEO Desk 2/5 | SEO & AEO Desk 2/5"
+      ],
+      "l": [],
+      "d": []
+    },
+    "cooper|copy|call follow ups": {
+      "w": [],
+      "l": [
+        "xSfBSprfKv5h909uzrv7W 2/4 | Signal Prospector 3/4 | Office Ops Desk 3/5"
+      ],
+      "d": []
+    },
+    "copy|competitor watch|figma": {
+      "w": [],
+      "l": [
+        "Call Follow-Ups 3/4 | Writing Bot 2/5 | Credit Card Max 3/4"
+      ],
+      "d": [
+        "Flora: Plant Care Log 2/6 | Credit Card Max 3/4 | Meeting Recap Deck 3/4"
+      ]
+    },
+    "company docs|newspaper|pipeline": {
+      "w": [],
+      "l": [
+        "NYC Parent 2/6 | Copy Humanizer 2/5 | Copy Humanizer 2/5"
+      ],
+      "d": []
+    }
+  },
+  "units": [
+    {
+      "n": "writing bot",
+      "w": 3,
+      "l": 6,
+      "d": 1,
+      "wr": 30,
+      "n_games": 10
+    },
+    {
+      "n": "wtd",
+      "w": 3,
+      "l": 4,
+      "d": 2,
+      "wr": 33,
+      "n_games": 9
+    },
+    {
+      "n": "cooper",
+      "w": 6,
+      "l": 2,
+      "d": 1,
+      "wr": 66,
+      "n_games": 9
+    },
+    {
+      "n": "call follow-ups",
+      "w": 4,
+      "l": 3,
+      "d": 0,
+      "wr": 57,
+      "n_games": 7
+    },
+    {
+      "n": "meeting recap deck",
+      "w": 3,
+      "l": 2,
+      "d": 2,
+      "wr": 42,
+      "n_games": 7
+    },
+    {
+      "n": "office ops desk",
+      "w": 4,
+      "l": 3,
+      "d": 0,
+      "wr": 57,
+      "n_games": 7
+    },
+    {
+      "n": "nyc parent",
+      "w": 2,
+      "l": 4,
+      "d": 0,
+      "wr": 33,
+      "n_games": 6
+    },
+    {
+      "n": "webby",
+      "w": 3,
+      "l": 2,
+      "d": 1,
+      "wr": 50,
+      "n_games": 6
+    },
+    {
+      "n": "company docs q&a",
+      "w": 3,
+      "l": 2,
+      "d": 0,
+      "wr": 60,
+      "n_games": 5
+    },
+    {
+      "n": "credit card max",
+      "w": 1,
+      "l": 3,
+      "d": 1,
+      "wr": 20,
+      "n_games": 5
+    },
+    {
+      "n": "x brief",
+      "w": 2,
+      "l": 0,
+      "d": 1,
+      "wr": 66,
+      "n_games": 3
+    },
+    {
+      "n": "flora: plant care log",
+      "w": 0,
+      "l": 1,
+      "d": 2,
+      "wr": 0,
+      "n_games": 3
+    },
+    {
+      "n": "xsfbsprfkv5h909uzrv7w",
+      "w": 1,
+      "l": 2,
+      "d": 0,
+      "wr": 33,
+      "n_games": 3
+    },
+    {
+      "n": "signal prospector",
+      "w": 0,
+      "l": 3,
+      "d": 0,
+      "wr": 0,
+      "n_games": 3
+    },
+    {
+      "n": "nightly audit engineer",
+      "w": 1,
+      "l": 0,
+      "d": 2,
+      "wr": 33,
+      "n_games": 3
+    },
+    {
+      "n": "copy humanizer",
+      "w": 1,
+      "l": 1,
+      "d": 1,
+      "wr": 33,
+      "n_games": 3
+    },
+    {
+      "n": "the morning newspaper",
+      "w": 2,
+      "l": 1,
+      "d": 0,
+      "wr": 66,
+      "n_games": 3
+    },
+    {
+      "n": "_xzze41svjdcq2w6zwjan",
+      "w": 0,
+      "l": 2,
+      "d": 0,
+      "wr": 0,
+      "n_games": 2
+    },
+    {
+      "n": "imogen",
+      "w": 1,
+      "l": 1,
+      "d": 0,
+      "wr": 50,
+      "n_games": 2
+    },
+    {
+      "n": "apple search ads review",
+      "w": 0,
+      "l": 2,
+      "d": 0,
+      "wr": 0,
+      "n_games": 2
+    },
+    {
+      "n": "tradbot",
+      "w": 1,
+      "l": 1,
+      "d": 0,
+      "wr": 50,
+      "n_games": 2
+    },
+    {
+      "n": "sqo-_5207iinz0idsafvw",
+      "w": 0,
+      "l": 1,
+      "d": 1,
+      "wr": 0,
+      "n_games": 2
+    },
+    {
+      "n": "gtm loop closer",
+      "w": 1,
+      "l": 1,
+      "d": 0,
+      "wr": 50,
+      "n_games": 2
+    },
+    {
+      "n": "seo & aeo desk",
+      "w": 2,
+      "l": 0,
+      "d": 0,
+      "wr": 100,
+      "n_games": 2
+    },
+    {
+      "n": "event request desk",
+      "w": 0,
+      "l": 0,
+      "d": 1,
+      "wr": 0,
+      "n_games": 1
+    },
+    {
+      "n": "lead pipeline desk",
+      "w": 0,
+      "l": 1,
+      "d": 0,
+      "wr": 0,
+      "n_games": 1
+    },
+    {
+      "n": "figma bro",
+      "w": 0,
+      "l": 1,
+      "d": 0,
+      "wr": 0,
+      "n_games": 1
+    },
+    {
+      "n": "talent discovery",
+      "w": 0,
+      "l": 1,
+      "d": 0,
+      "wr": 0,
+      "n_games": 1
+    },
+    {
+      "n": "stills & clips desk",
+      "w": 1,
+      "l": 0,
+      "d": 0,
+      "wr": 100,
+      "n_games": 1
+    },
+    {
+      "n": "projects manager",
+      "w": 0,
+      "l": 1,
+      "d": 0,
+      "wr": 0,
+      "n_games": 1
+    },
+    {
+      "n": "researchy",
+      "w": 1,
+      "l": 0,
+      "d": 0,
+      "wr": 100,
+      "n_games": 1
+    },
+    {
+      "n": "site audit",
+      "w": 0,
+      "l": 0,
+      "d": 1,
+      "wr": 0,
+      "n_games": 1
+    }
+  ]
+}

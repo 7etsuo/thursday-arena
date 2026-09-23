@@ -1,0 +1,114 @@
+{
+  "fp": "imogen | flora plant care log | product support inbox assistant",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "flora plant care log",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "developar"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__company-docs-q-a__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:26:37.058Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__webby__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:26:47.675Z",
+      "lastResult": "win"
+    },
+    "recipe-call-follow-ups__wtd__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:26:56.693Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__deal-inspector__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:27:07.240Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__tradbot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T23:27:16.015Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__call-follow-ups__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:27:23.354Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__luma-pages__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:27:31.442Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__nyc-parent__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:27:37.950Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__credit-card-max__gtm-prospecting": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:27:44.095Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__webby__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:27:50.361Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__webby__company-docs-q-a",
+  "plays": 10,
+  "updated": "2026-09-18T23:27:50.361Z"
+}

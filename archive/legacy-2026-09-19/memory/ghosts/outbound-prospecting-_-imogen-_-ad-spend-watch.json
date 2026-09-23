@@ -1,0 +1,106 @@
+{
+  "fp": "outbound prospecting | imogen | ad spend watch",
+  "seats": [
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "ad spend watch",
+      "kit": "sting",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "adriandparody"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__product-support-inbox-assistant__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:14:05.325Z",
+      "lastResult": "win"
+    },
+    "recipe-deal-inspector__call-follow-ups__pitch-deck-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:14:15.765Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__credit-card-max__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:14:23.406Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__product-support-inbox-assistant__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:14:35.065Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__webby__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:14:43.709Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__nyc-parent__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:14:51.517Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:14:59.755Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__ebr-value-deck-builder__gtm-account-research": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T00:15:10.408Z",
+      "lastResult": "loss"
+    },
+    "recipe-stills-clips-desk__cooper__stills-clips-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:15:17.386Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-stills-clips-desk__cooper__stills-clips-desk",
+  "plays": 9,
+  "updated": "2026-09-19T00:15:17.386Z"
+}

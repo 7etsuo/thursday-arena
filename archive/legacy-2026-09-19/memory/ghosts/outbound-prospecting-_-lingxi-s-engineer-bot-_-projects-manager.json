@@ -1,0 +1,66 @@
+{
+  "fp": "outbound prospecting | lingxi s engineer bot | projects manager",
+  "seats": [
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "lingxi s engineer bot",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jasonleebedunah"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__seo-aeo-desk__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:29:07.993Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__account-research-desk__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T12:29:33.888Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__office-ops-desk__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:30:04.446Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__company-docs-q-a__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:30:14.754Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__company-docs-q-a__tradbot",
+  "plays": 4,
+  "updated": "2026-09-18T12:30:14.754Z"
+}

@@ -1,0 +1,93 @@
+{
+  "fp": "meeting recap deck",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "wwihser",
+    "prithvimallesh"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__writing-bot__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:55:21.067Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:55:28.711Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__flora-plant-care-log__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:55:35.691Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__call-follow-ups__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:55:43.857Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__meeting-recap-deck__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:55:52.183Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__meeting-recap-deck__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:55:59.993Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__recruiting-coordinator__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:56:06.581Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__company-docs-q-a__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:56:14.642Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__pipeline-pulse__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:56:21.470Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__pipeline-pulse__company-docs-q-a",
+  "plays": 9,
+  "updated": "2026-09-19T03:56:54.910Z"
+}

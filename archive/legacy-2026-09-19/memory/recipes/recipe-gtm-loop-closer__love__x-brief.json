@@ -1,0 +1,39 @@
+{
+  "id": "recipe-gtm-loop-closer__love__x-brief",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "love",
+      "kit": "patch",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "x brief",
+      "kit": "echo",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "cover",
+    "patch",
+    "echo"
+  ],
+  "tags": [
+    "recent_draw",
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 2,
+  "wins": 1,
+  "losses": 0,
+  "elo": -5,
+  "last": "2026-09-19T00:41:01.618Z"
+}

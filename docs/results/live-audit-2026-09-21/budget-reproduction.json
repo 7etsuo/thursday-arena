@@ -1,0 +1,33 @@
+{
+  "matchId": "334e6217-e979-4859-a2d3-8d802d302a5f",
+  "round": 2,
+  "gold": 12,
+  "results": [
+    {
+      "timeBudgetMs": 1500,
+      "elapsedMs": 240,
+      "plan": {
+        "actions": [],
+        "done": true,
+        "reason": "r2 done 1.000 [cut: samples 6->2, target 40->20]",
+        "value": 1,
+        "expected": 1
+      }
+    },
+    {
+      "timeBudgetMs": "unlimited",
+      "elapsedMs": 629,
+      "plan": {
+        "actions": [
+          {
+            "type": "feed",
+            "boardIndex": 0
+          }
+        ],
+        "reason": "r2 feed@0 (+follow-up) 0.913->0.966",
+        "value": 0.9128329297820823,
+        "expected": 0.9661016949152542
+      }
+    }
+  ]
+}

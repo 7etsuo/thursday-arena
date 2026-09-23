@@ -1,0 +1,42 @@
+{
+  "fp": "imogen | credit card max | copy humanizer",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "skykn9"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__customer-call-coach-assistant__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T06:58:21.904Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__customer-call-coach-assistant__cooper",
+  "plays": 1,
+  "updated": "2026-09-19T06:58:21.904Z"
+}

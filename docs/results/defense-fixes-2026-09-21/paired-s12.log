@@ -1,0 +1,29 @@
+eval_versions games/seed=10 seeds=101,103,107,109,113,127,131,137,139,149 season=both budget=Infinity mock=current book=cold
+before=/tmp/arena-defense-fixes-20260921/before
+  S1 seed=101: before={"win":5,"loss":3,"draw":2} current={"win":5,"loss":3,"draw":2} score=0.600/0.600 pairedDelta=0.0000 bookRecords=25/25 rounds=25/25 elapsed=3.2s
+  S1 seed=103: before={"win":8,"loss":2,"draw":0} current={"win":8,"loss":2,"draw":0} score=0.800/0.800 pairedDelta=0.0000 bookRecords=23/23 rounds=23/23 elapsed=5.9s
+  S1 seed=107: before={"win":7,"loss":1,"draw":2} current={"win":7,"loss":1,"draw":2} score=0.800/0.800 pairedDelta=0.0000 bookRecords=25/25 rounds=25/25 elapsed=8.9s
+  S1 seed=109: before={"win":7,"loss":3,"draw":0} current={"win":7,"loss":3,"draw":0} score=0.700/0.700 pairedDelta=0.0000 bookRecords=24/24 rounds=24/24 elapsed=11.8s
+  S1 seed=113: before={"win":8,"loss":0,"draw":2} current={"win":8,"loss":0,"draw":2} score=0.900/0.900 pairedDelta=0.0000 bookRecords=22/22 rounds=22/22 elapsed=14.2s
+  S1 seed=127: before={"win":6,"loss":3,"draw":1} current={"win":6,"loss":3,"draw":1} score=0.650/0.650 pairedDelta=0.0000 bookRecords=24/24 rounds=24/24 elapsed=17.0s
+  S1 seed=131: before={"win":7,"loss":3,"draw":0} current={"win":7,"loss":3,"draw":0} score=0.700/0.700 pairedDelta=0.0000 bookRecords=21/21 rounds=21/21 elapsed=19.4s
+  S1 seed=137: before={"win":8,"loss":1,"draw":1} current={"win":8,"loss":1,"draw":1} score=0.850/0.850 pairedDelta=0.0000 bookRecords=23/23 rounds=23/23 elapsed=21.9s
+  S1 seed=139: before={"win":9,"loss":0,"draw":1} current={"win":9,"loss":0,"draw":1} score=0.950/0.950 pairedDelta=0.0000 bookRecords=22/22 rounds=22/22 elapsed=24.3s
+  S1 seed=149: before={"win":8,"loss":1,"draw":1} current={"win":8,"loss":1,"draw":1} score=0.850/0.850 pairedDelta=0.0000 bookRecords=23/23 rounds=23/23 elapsed=26.8s
+S1 n=100: before W73 L17 D10 winRate=0.7300 matchScore=0.7800; current W73 L17 D10 winRate=0.7300 matchScore=0.7800
+  paired score delta current-before=0.0000 95% seed-clustered CI [0.0000, 0.0000] (exploratory match-level CI [0.0000, 0.0000]) better=0 worse=0 same=100
+  illegal before=0 current=0; fillable short shops before=0 current=0
+  S2 seed=101: before={"win":5,"loss":3,"draw":2} current={"win":5,"loss":3,"draw":2} score=0.600/0.600 pairedDelta=0.0000 bookRecords=23/23 rounds=25/25 elapsed=3.1s
+  S2 seed=103: before={"win":5,"loss":4,"draw":1} current={"win":5,"loss":4,"draw":1} score=0.550/0.550 pairedDelta=0.0000 bookRecords=25/25 rounds=25/25 elapsed=7.4s
+  S2 seed=107: before={"win":4,"loss":4,"draw":2} current={"win":4,"loss":4,"draw":2} score=0.500/0.500 pairedDelta=0.0000 bookRecords=26/26 rounds=26/26 elapsed=11.5s
+  S2 seed=109: before={"win":8,"loss":2,"draw":0} current={"win":8,"loss":2,"draw":0} score=0.800/0.800 pairedDelta=0.0000 bookRecords=24/24 rounds=24/24 elapsed=14.8s
+  S2 seed=113: before={"win":7,"loss":1,"draw":2} current={"win":7,"loss":1,"draw":2} score=0.800/0.800 pairedDelta=0.0000 bookRecords=20/20 rounds=22/22 elapsed=17.7s
+  S2 seed=127: before={"win":7,"loss":3,"draw":0} current={"win":7,"loss":3,"draw":0} score=0.700/0.700 pairedDelta=0.0000 bookRecords=26/26 rounds=26/26 elapsed=21.4s
+  S2 seed=131: before={"win":6,"loss":4,"draw":0} current={"win":6,"loss":4,"draw":0} score=0.600/0.600 pairedDelta=0.0000 bookRecords=24/24 rounds=26/26 elapsed=24.7s
+  S2 seed=137: before={"win":5,"loss":2,"draw":3} current={"win":5,"loss":2,"draw":3} score=0.650/0.650 pairedDelta=0.0000 bookRecords=23/23 rounds=25/25 elapsed=27.4s
+  S2 seed=139: before={"win":6,"loss":4,"draw":0} current={"win":6,"loss":4,"draw":0} score=0.600/0.600 pairedDelta=0.0000 bookRecords=17/17 rounds=21/21 elapsed=29.7s
+  S2 seed=149: before={"win":7,"loss":2,"draw":1} current={"win":7,"loss":2,"draw":1} score=0.750/0.750 pairedDelta=0.0000 bookRecords=22/22 rounds=24/24 elapsed=33.0s
+S2 n=100: before W60 L29 D11 winRate=0.6000 matchScore=0.6550; current W60 L29 D11 winRate=0.6000 matchScore=0.6550
+  paired score delta current-before=0.0000 95% seed-clustered CI [0.0000, 0.0000] (exploratory match-level CI [0.0000, 0.0000]) better=0 worse=0 same=100
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /tmp/arena-defense-fixes-20260921/paired-s12.csv

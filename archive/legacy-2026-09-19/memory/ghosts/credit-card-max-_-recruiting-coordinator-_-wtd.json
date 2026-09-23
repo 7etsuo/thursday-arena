@@ -1,0 +1,74 @@
+{
+  "fp": "credit card max | recruiting coordinator | wtd",
+  "seats": [
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thefieldpass"
+  ],
+  "matchups": {
+    "recipe-seo-aeo-desk__signal-prospector__ebr-value-deck-builder": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -20,
+      "last": "2026-09-18T21:25:54.700Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 14,
+      "last": "2026-09-18T21:26:25.870Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__apple-search-ads-review__x-brief": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -18,
+      "last": "2026-09-18T21:26:44.049Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__luma-pages__copy-humanizer": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-18T21:27:09.053Z",
+      "lastResult": "loss"
+    },
+    "recipe-event-request-desk__apple-search-ads-review__deal-hunting": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -15,
+      "last": "2026-09-18T21:27:15.687Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__the-morning-newspaper__writing-bot",
+  "plays": 5,
+  "updated": "2026-09-18T21:27:35.976Z"
+}

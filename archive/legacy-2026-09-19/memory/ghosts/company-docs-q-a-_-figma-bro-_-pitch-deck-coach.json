@@ -1,0 +1,90 @@
+{
+  "fp": "company docs q a | figma bro | pitch deck coach",
+  "seats": [
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 6,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "pitch deck coach",
+      "kit": "last_word",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "antar37"
+  ],
+  "matchups": {
+    "recipe-seo-aeo-desk__call-follow-ups__dr-eggbot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T00:27:32.772Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__copy-humanizer__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:27:43.930Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__copy-humanizer__company-docs-q-a": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T00:27:53.085Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__office-ops-desk__stills-clips-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T00:28:11.762Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__talent-discovery__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T00:28:33.439Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__gtm-loop-closer__tinkabot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T00:28:43.800Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__hiring-signals__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:28:52.805Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__hiring-signals__call-follow-ups",
+  "plays": 7,
+  "updated": "2026-09-19T00:28:52.805Z"
+}

@@ -1,0 +1,106 @@
+{
+  "fp": "nyc parent | writing bot | overheard",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "husseinraoouf"
+  ],
+  "matchups": {
+    "recipe-imogen__tradbot__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:30:29.402Z",
+      "lastResult": "win"
+    },
+    "recipe-stills-clips-desk__meeting-recap-deck__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:30:37.841Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:30:44.868Z",
+      "lastResult": "win"
+    },
+    "recipe-stills-clips-desk__credit-card-max__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:30:50.613Z",
+      "lastResult": "win"
+    },
+    "recipe-outbound-prospecting__site-audit__pipeline-pulse": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T02:30:58.420Z",
+      "lastResult": "loss"
+    },
+    "recipe-lead-pipeline-desk__call-follow-ups__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:31:06.798Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__deal-hunting__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:31:16.240Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__wtd__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:31:37.393Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:31:44.468Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__the-morning-newspaper__the-morning-newspaper",
+  "plays": 9,
+  "updated": "2026-09-19T02:31:55.661Z"
+}

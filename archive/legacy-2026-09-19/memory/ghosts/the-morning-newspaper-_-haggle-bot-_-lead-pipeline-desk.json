@@ -1,0 +1,98 @@
+{
+  "fp": "the morning newspaper | haggle bot | lead pipeline desk",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "heywoozyv3y3"
+  ],
+  "matchups": {
+    "recipe-imogen__copy-humanizer__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -22,
+      "last": "2026-09-18T21:24:01.708Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__x-brief": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -22,
+      "last": "2026-09-18T21:24:13.030Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__copy-humanizer__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 12,
+      "last": "2026-09-18T21:24:31.311Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__x-brief__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 13,
+      "last": "2026-09-18T21:24:49.904Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__the-morning-newspaper__office-ops-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -4,
+      "last": "2026-09-18T21:24:59.007Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__credit-card-max__gtm-loop-closer": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -3,
+      "last": "2026-09-18T21:25:24.535Z",
+      "lastResult": "draw"
+    },
+    "recipe-the-morning-newspaper__meeting-recap-deck__writing-bot": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -3,
+      "last": "2026-09-18T21:25:36.965Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__call-follow-ups__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 13,
+      "last": "2026-09-18T21:25:48.620Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__call-follow-ups__account-research-desk",
+  "plays": 8,
+  "updated": "2026-09-18T21:25:48.621Z"
+}

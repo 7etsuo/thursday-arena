@@ -1,0 +1,66 @@
+{
+  "fp": "account research desk | the morning newspaper | nightly audit engineer",
+  "seats": [
+    {
+      "name": "account research desk",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ambientstudio24"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__call-follow-ups__x-brief": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T22:51:16.530Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__seo-aeo-desk__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T22:51:43.290Z",
+      "lastResult": "loss"
+    },
+    "recipe-stalk-bot__meeting-recap-deck__deal-hunting": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:51:56.051Z",
+      "lastResult": "win"
+    },
+    "recipe-nightly-audit-engineer__meeting-recap-deck__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:52:08.538Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-stalk-bot__meeting-recap-deck__deal-hunting",
+  "plays": 4,
+  "updated": "2026-09-18T22:52:08.538Z"
+}

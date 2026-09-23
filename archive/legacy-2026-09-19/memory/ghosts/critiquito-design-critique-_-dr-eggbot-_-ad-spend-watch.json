@@ -1,0 +1,58 @@
+{
+  "fp": "critiquito design critique | dr eggbot | ad spend watch",
+  "seats": [
+    {
+      "name": "critiquito design critique",
+      "kit": "sting",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "dr eggbot",
+      "kit": "spotlight",
+      "atk": 6,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "ad spend watch",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thatretireddude"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -14,
+      "last": "2026-09-19T07:18:44.984Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 19,
+      "last": "2026-09-19T07:18:56.310Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__writing-bot__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 18,
+      "last": "2026-09-19T07:19:15.518Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__company-docs-q-a__writing-bot",
+  "plays": 3,
+  "updated": "2026-09-19T07:19:15.518Z"
+}

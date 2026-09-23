@@ -1,0 +1,139 @@
+{
+  "fp": "tech demos | signal prospector",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "alexanderk5993"
+  ],
+  "matchups": {
+    "recipe-gtm-loop-closer__writing-bot__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:40:10.918Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__cooper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:40:17.442Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__customer-call-coach-assistant__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:40:28.948Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__projects-manager": {
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T02:41:08.565Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__x-brief__video-edit-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:40:46.629Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__credit-card-max__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:40:56.044Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__pipeline-pulse__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:41:15.489Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__account-research-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:41:27.852Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__product-support-inbox-assistant__hiring-signals": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:41:37.000Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__tradbot__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:41:43.871Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:41:54.006Z",
+      "lastResult": "win"
+    },
+    "recipe-recruiting-coordinator__apple-search-ads-review__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:42:02.502Z",
+      "lastResult": "win"
+    },
+    "recipe-recruiting-coordinator__cooper__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:42:10.368Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__credit-card-max__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:42:18.190Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__company-docs-q-a__projects-manager",
+  "plays": 15,
+  "updated": "2026-09-19T02:42:18.190Z"
+}

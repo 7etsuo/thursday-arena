@@ -1,0 +1,66 @@
+{
+  "fp": "pipeline pulse | writing bot | cooper",
+  "seats": [
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 8,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "digitalgold"
+  ],
+  "matchups": {
+    "recipe-projects-manager__credit-card-max__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-19T02:42:40.468Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__love__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -30,
+      "last": "2026-09-19T02:42:49.679Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__the-morning-newspaper__tradbot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T02:43:00.588Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__outbound-prospecting__the-morning-newspaper": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T02:44:10.987Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-projects-manager__credit-card-max__projects-manager",
+  "plays": 4,
+  "updated": "2026-09-19T02:44:10.987Z"
+}

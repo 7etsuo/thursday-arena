@@ -1,0 +1,74 @@
+{
+  "fp": "dial bot | copy humanizer | x brief",
+  "seats": [
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sodiumhyrdride"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 3,
+      "losses": 6,
+      "draws": 3,
+      "elo": -40,
+      "last": "2026-09-19T07:12:13.499Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__meeting-recap-deck__writing-bot": {
+      "wins": 2,
+      "losses": 2,
+      "draws": 2,
+      "elo": 2,
+      "last": "2026-09-19T07:12:48.028Z",
+      "lastResult": "draw"
+    },
+    "recipe-credit-card-max__credit-card-max__company-docs-q-a": {
+      "wins": 1,
+      "losses": 1,
+      "draws": 0,
+      "elo": -1,
+      "last": "2026-09-19T07:12:03.687Z",
+      "lastResult": "loss"
+    },
+    "recipe-meeting-recap-deck__talent-discovery": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -14,
+      "last": "2026-09-19T07:12:55.610Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__webby__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 18,
+      "last": "2026-09-19T07:13:04.115Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__webby__tradbot",
+  "plays": 22,
+  "updated": "2026-09-19T07:13:04.115Z"
+}

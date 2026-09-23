@@ -1,0 +1,90 @@
+{
+  "fp": "projects manager | product idea stress test | figma bro",
+  "seats": [
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "product idea stress test",
+      "kit": "dump",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "stephen_novesai"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__x-brief__sales-call-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T00:56:17.975Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__outbound-prospecting__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T00:56:34.081Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__company-docs-q-a__stalk-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:56:54.266Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__pipeline-pulse__hiring-signals": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:57:03.911Z",
+      "lastResult": "win"
+    },
+    "recipe-ebr-value-deck-builder__writing-bot__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T00:57:23.159Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__luma-pages__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T00:57:37.840Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__pipeline-pulse__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T00:57:48.384Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__pipeline-pulse__webby",
+  "plays": 7,
+  "updated": "2026-09-19T00:57:48.384Z"
+}

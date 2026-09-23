@@ -1,0 +1,98 @@
+{
+  "fp": "seo aeo desk | dial bot | gtm connections",
+  "seats": [
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jon_rose_"
+  ],
+  "matchups": {
+    "recipe-imogen__flora-plant-care-log__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T02:33:23.433Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__nyc-parent__figma-bro": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:33:30.143Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__luma-pages__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:33:41.168Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:33:48.473Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__writing-bot__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:33:55.942Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__writing-bot__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:34:04.049Z",
+      "lastResult": "win"
+    },
+    "recipe-apple-search-ads-review__cooper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:34:12.343Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__writing-bot__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:34:21.880Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__flora-plant-care-log__paid-media-report-desk",
+  "plays": 8,
+  "updated": "2026-09-19T02:34:21.881Z"
+}

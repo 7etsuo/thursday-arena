@@ -1,0 +1,42 @@
+{
+  "fp": "pipeline pulse | outbound prospecting | home robots",
+  "seats": [
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "dogatemywork"
+  ],
+  "matchups": {
+    "recipe-apple-search-ads-review__call-follow-ups__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T22:34:12.314Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-apple-search-ads-review__call-follow-ups__luma-pages",
+  "plays": 1,
+  "updated": "2026-09-18T22:34:52.830Z"
+}

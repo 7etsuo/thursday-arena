@@ -1,0 +1,90 @@
+{
+  "fp": "talent discovery | event request desk | gtm connections",
+  "seats": [
+    {
+      "name": "talent discovery",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "dyeson_max"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__nyc-parent__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:12:32.287Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__webby__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:12:40.125Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:12:47.754Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__luma-pages__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:13:05.015Z",
+      "lastResult": "win"
+    },
+    "recipe-video-edit-desk__credit-card-max__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:13:13.231Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__nyc-parent__talent-discovery": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:13:20.198Z",
+      "lastResult": "win"
+    },
+    "recipe-recruiting-coordinator__video-edit-desk__site-audit": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:13:29.114Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-recruiting-coordinator__video-edit-desk__site-audit",
+  "plays": 7,
+  "updated": "2026-09-18T22:13:46.798Z"
+}

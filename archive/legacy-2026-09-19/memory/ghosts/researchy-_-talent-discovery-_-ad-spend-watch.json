@@ -1,0 +1,90 @@
+{
+  "fp": "researchy | talent discovery | ad spend watch",
+  "seats": [
+    {
+      "name": "researchy",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "talent discovery",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "ad spend watch",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "tspmethod"
+  ],
+  "matchups": {
+    "recipe-imogen__meeting-recap-deck__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:26:14.894Z",
+      "lastResult": "win"
+    },
+    "recipe-apple-search-ads-review__meeting-recap-deck__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:26:35.231Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__pipeline-pulse__luma-pages": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-18T22:26:47.755Z",
+      "lastResult": "draw"
+    },
+    "recipe-webby__cooper__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:26:57.907Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__luma-pages__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:27:12.752Z",
+      "lastResult": "win"
+    },
+    "recipe-seo-aeo-desk__luma-pages__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:27:25.982Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__hiring-signals__lead-pipeline-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T22:27:36.628Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-seo-aeo-desk__luma-pages__wtd",
+  "plays": 7,
+  "updated": "2026-09-18T22:27:36.628Z"
+}

@@ -1,0 +1,23 @@
+{
+  "sourceArchiveSha256": "a249d36e5ea4b915f74fa0f49e5d54192456078c3ef98b75a3396e41d0e220e5",
+  "files": {
+    "README.md": "2ec26654a45f97594ac48042663e0ed2b3a164d8137938a76c727f2716776e3f",
+    "audit-summary.json": "781e1a6ae1c06e16ecbffacd85298ce62eb839cb52795de17a3ddeaac0b32e09",
+    "budget-reproduction.json": "5c36a05c5428be17feffd5300ad92207fc0cf052e4e1687845fd5d67066a7c69",
+    "decision-audit.json": "2717c6ce39bfdfe7775c36d40ccb3f96e5c05b1069cef652536a5886d39ec554",
+    "evidence.tgz": "95398c5ee52210fb41bcef5d6f0f6d88ca63e838af0250424e6c1781090c6b20",
+    "fetch-report.json": "22bfc0a81c6069bab6e20733bf982ad6f18dd4465694caad7a1eb1da04cd8539",
+    "fixture-verification.json": "bbf8df5d75003ad33c5b28b9e23b42350d9ce5ae00f616fc978db0a978148514",
+    "inventory.json": "84a3b023b02c17fc6458a7dbdc3d8281a8f74afcc9eb4fe296252a1b36c531b2",
+    "runtime-verification.txt": "cd9fc02be9361e2148dc17d3dbe923fe14997893fe4badb2aed7480964a05864",
+    "seating-comparison.json": "ff9db49c627162314d4c3b7c2c5cbefbe179bda27bbc71fb8db92ccab8ed2e11",
+    "sim-probes.json": "4495767e4bbc29c0f2fcaeb5f38dd39171ae6cb821feb73e4432875a08a151d1",
+    "stop-audit.json": "a730b57acbbc60d6818f7e14b33dafb98c5d39fbf9576d8b7b433952e553bb97",
+    "trace-classification.json": "95c781abb493cb6e8cb2a3b584394aedd212915e5983cf5b67ddfb9b5e77b0b3"
+  },
+  "corpus": {
+    "path": "data/corpus/s3_live_battles_2026-09-21.jsonl",
+    "rows": 337,
+    "sha256": "3e7e8024ef44a44a5afa6b790743a94f6c5586b2a165910de4b08cd54f90f7ea"
+  }
+}

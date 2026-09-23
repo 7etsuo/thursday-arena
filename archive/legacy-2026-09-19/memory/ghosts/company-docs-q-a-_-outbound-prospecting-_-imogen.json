@@ -1,0 +1,42 @@
+{
+  "fp": "company docs q a | outbound prospecting | imogen",
+  "seats": [
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "megharammm"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__writing-bot__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T04:12:21.441Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__writing-bot__account-research-desk",
+  "plays": 1,
+  "updated": "2026-09-19T04:12:21.441Z"
+}

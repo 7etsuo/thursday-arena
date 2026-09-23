@@ -1,0 +1,180 @@
+{
+  "last2h_arch": {
+    "flamingo_pass": {
+      "w": 34,
+      "l": 4,
+      "d": 9,
+      "elo": -1
+    },
+    "buff_suicide": {
+      "w": 15,
+      "l": 2,
+      "d": 1,
+      "elo": -1
+    },
+    "chip_snipe": {
+      "w": 53,
+      "l": 12,
+      "d": 6,
+      "elo": -118
+    },
+    "glass_burst": {
+      "w": 52,
+      "l": 2,
+      "d": 5,
+      "elo": 125
+    },
+    "bulk_echo": {
+      "w": 6,
+      "l": 0,
+      "d": 0,
+      "elo": 23
+    },
+    "hurt_revenge": {
+      "w": 18,
+      "l": 6,
+      "d": 0,
+      "elo": -59
+    },
+    "ko_snowball": {
+      "w": 6,
+      "l": 2,
+      "d": 2,
+      "elo": -19
+    },
+    "grow_scale": {
+      "w": 1,
+      "l": 3,
+      "d": 0,
+      "elo": -57
+    },
+    "backline_snipe": {
+      "w": 4,
+      "l": 4,
+      "d": 3,
+      "elo": -101
+    },
+    "wake_chip": {
+      "w": 10,
+      "l": 0,
+      "d": 0,
+      "elo": 40
+    },
+    "grow_hype": {
+      "w": 0,
+      "l": 9,
+      "d": 0,
+      "elo": -233
+    }
+  },
+  "tip_l2h": {
+    "n": 971,
+    "last2h_n": 269,
+    "tip_all": 148,
+    "tip_last2h": 42,
+    "tip_names_l2h": [
+      [
+        "webby/bulk",
+        11
+      ],
+      [
+        "nyc parent/bulk",
+        8
+      ],
+      [
+        "love/patch",
+        6
+      ],
+      [
+        "deal hunting/drain",
+        6
+      ],
+      [
+        "copy humanizer/flamingo",
+        5
+      ],
+      [
+        "gtm prospecting/mosquito",
+        4
+      ],
+      [
+        "the morning newspaper/flamingo",
+        4
+      ],
+      [
+        "outbound prospecting/mosquito",
+        3
+      ],
+      [
+        "stills clips desk/wake",
+        3
+      ],
+      [
+        "flora plant care log/patch",
+        2
+      ],
+      [
+        "customer call coach assistant/peacock",
+        2
+      ],
+      [
+        "video edit desk/wake",
+        2
+      ],
+      [
+        "figma bro/wake",
+        1
+      ],
+      [
+        "ad spend watch/sting",
+        1
+      ],
+      [
+        "sales call coach/peacock",
+        1
+      ],
+      [
+        "signal prospector/mosquito",
+        1
+      ]
+    ],
+    "tip_arch_l2h": [
+      [
+        "chip_snipe",
+        13
+      ],
+      [
+        "flamingo_pass",
+        6
+      ],
+      [
+        "grow_hype",
+        6
+      ],
+      [
+        "backline_snipe",
+        4
+      ],
+      [
+        "hurt_revenge",
+        4
+      ],
+      [
+        "buff_suicide",
+        3
+      ],
+      [
+        "ko_snowball",
+        3
+      ],
+      [
+        "glass_burst",
+        2
+      ],
+      [
+        "grow_scale",
+        1
+      ]
+    ]
+  }
+}

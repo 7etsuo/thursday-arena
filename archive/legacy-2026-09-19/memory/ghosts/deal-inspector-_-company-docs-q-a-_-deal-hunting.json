@@ -1,0 +1,42 @@
+{
+  "fp": "deal inspector | company docs q a | deal hunting",
+  "seats": [
+    {
+      "name": "deal inspector",
+      "kit": "cover",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ofirsela"
+  ],
+  "matchups": {
+    "recipe-credit-card-max__company-docs-q-a__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:00:57.132Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__company-docs-q-a__nightly-audit-engineer",
+  "plays": 1,
+  "updated": "2026-09-18T23:00:57.132Z"
+}

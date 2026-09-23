@@ -1,0 +1,66 @@
+{
+  "fp": "love | pipeline pulse | account research desk",
+  "seats": [
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "account research desk",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jambrefe"
+  ],
+  "matchups": {
+    "recipe-dr-eggbot__company-docs-q-a__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:10:02.462Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__nyc-parent__outbound-prospecting": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:10:24.249Z",
+      "lastResult": "win"
+    },
+    "recipe-x-brief__writing-bot__customer-call-coach-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:10:34.922Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__event-request-desk__tinkabot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:10:53.043Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__event-request-desk__tinkabot",
+  "plays": 4,
+  "updated": "2026-09-18T22:10:53.044Z"
+}

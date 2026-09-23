@@ -1,0 +1,50 @@
+{
+  "fp": "hiring signals | figma bro | last30days",
+  "seats": [
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 5,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "last30days",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mfh_2033"
+  ],
+  "matchups": {
+    "recipe-webby__site-audit__meeting-recap-deck": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-18T11:30:11.467Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__meeting-recap-deck__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T11:30:30.364Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__meeting-recap-deck__writing-bot",
+  "plays": 2,
+  "updated": "2026-09-18T11:30:30.364Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "recipe-ad-spend-watch__stills-clips-desk",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "ad spend watch",
+      "kit": "sting",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "stills clips desk",
+      "kit": "wake",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "sting",
+    "wake"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -11,
+  "last": "2026-09-19T07:22:35.056Z"
+}

@@ -1,0 +1,42 @@
+{
+  "fp": "pipeline pulse | home robots | nightly audit engineer",
+  "seats": [
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "j4ndr4"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__wtd__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T11:44:51.887Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__wtd__the-morning-newspaper",
+  "plays": 1,
+  "updated": "2026-09-18T11:44:51.887Z"
+}

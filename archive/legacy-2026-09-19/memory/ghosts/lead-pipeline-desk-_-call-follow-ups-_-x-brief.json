@@ -1,0 +1,42 @@
+{
+  "fp": "lead pipeline desk | call follow ups | x brief",
+  "seats": [
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "vibeleiz"
+  ],
+  "matchups": {
+    "recipe-imogen__account-research-desk__xsfbsprfkv5h909uzrv7w": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "elo": -13,
+      "last": "2026-09-19T07:25:53.341Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__account-research-desk__xsfbsprfkv5h909uzrv7w",
+  "plays": 2,
+  "updated": "2026-09-19T07:26:10.507Z"
+}

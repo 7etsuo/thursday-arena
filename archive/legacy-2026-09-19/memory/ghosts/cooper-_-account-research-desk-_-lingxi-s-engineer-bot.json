@@ -1,0 +1,50 @@
+{
+  "fp": "cooper | account research desk | lingxi s engineer bot",
+  "seats": [
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "account research desk",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "lingxi s engineer bot",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "a_g_e_n_c"
+  ],
+  "matchups": {
+    "recipe-credit-card-max__game-art-director__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:58:20.023Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__meeting-recap-deck__recruiting-coordinator": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T02:58:29.688Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-credit-card-max__game-art-director__wtd",
+  "plays": 2,
+  "updated": "2026-09-19T02:58:29.688Z"
+}

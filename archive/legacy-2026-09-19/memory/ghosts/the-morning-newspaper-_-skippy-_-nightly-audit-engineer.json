@@ -1,0 +1,82 @@
+{
+  "fp": "the morning newspaper | skippy | nightly audit engineer",
+  "seats": [
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "arc4niac"
+  ],
+  "matchups": {
+    "recipe-imogen__writing-bot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-19T04:31:17.717Z",
+      "lastResult": "win"
+    },
+    "recipe-video-edit-desk__credit-card-max__x-brief": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-19T04:31:41.061Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__copy-humanizer__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-19T04:31:58.725Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__nightly-audit-engineer__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-19T04:32:11.079Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__company-docs-q-a__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-19T04:32:39.675Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__wtd__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-19T04:32:59.992Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__writing-bot__writing-bot",
+  "plays": 6,
+  "updated": "2026-09-19T04:32:59.992Z"
+}

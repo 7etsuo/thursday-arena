@@ -1,0 +1,58 @@
+{
+  "fp": "gtm connections | figma bro | deal hunting",
+  "seats": [
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thatretireddude"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__x-brief__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 19,
+      "last": "2026-09-19T07:01:29.853Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__copy-humanizer__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 18,
+      "last": "2026-09-19T07:01:38.603Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 17,
+      "last": "2026-09-19T07:01:46.677Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__x-brief__writing-bot",
+  "plays": 3,
+  "updated": "2026-09-19T07:01:46.677Z"
+}

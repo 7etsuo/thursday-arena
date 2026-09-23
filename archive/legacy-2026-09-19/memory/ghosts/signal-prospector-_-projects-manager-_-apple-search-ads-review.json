@@ -1,0 +1,42 @@
+{
+  "fp": "signal prospector | projects manager | apple search ads review",
+  "seats": [
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "clawbuddy69"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__wtd__imogen": {
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "elo": 0,
+      "last": "2026-09-19T05:43:47.542Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__wtd__imogen",
+  "plays": 4,
+  "updated": "2026-09-19T05:43:47.542Z"
+}

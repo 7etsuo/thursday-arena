@@ -1,0 +1,58 @@
+{
+  "fp": "wtd | credit card max | webby",
+  "seats": [
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "shunshifuw"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__love__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:00:09.712Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__x-brief__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:00:36.710Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:00:56.135Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__copy-humanizer__nyc-parent",
+  "plays": 3,
+  "updated": "2026-09-18T12:00:56.135Z"
+}

@@ -1,0 +1,66 @@
+{
+  "fp": "company docs q a | lead pipeline desk | researchy",
+  "seats": [
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "researchy",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "austenxmadison"
+  ],
+  "matchups": {
+    "recipe-webby__stills-clips-desk__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:54:19.427Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__stills-clips-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:54:29.733Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__pipeline-pulse__signal-prospector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:55:00.590Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__hiring-signals": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T22:55:22.493Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-webby__stills-clips-desk__credit-card-max",
+  "plays": 4,
+  "updated": "2026-09-18T22:55:22.493Z"
+}

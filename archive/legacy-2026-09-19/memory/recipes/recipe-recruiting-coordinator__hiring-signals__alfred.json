@@ -1,0 +1,38 @@
+{
+  "id": "recipe-recruiting-coordinator__hiring-signals__alfred",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "hiring signals",
+      "kit": "backtap",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "alfred",
+      "kit": "last_word",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "dodo",
+    "backtap",
+    "last_word"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": -11,
+  "last": "2026-09-18T12:30:25.679Z"
+}

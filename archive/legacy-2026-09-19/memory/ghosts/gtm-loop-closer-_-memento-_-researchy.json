@@ -1,0 +1,58 @@
+{
+  "fp": "gtm loop closer | memento | researchy",
+  "seats": [
+    {
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "memento",
+      "kit": "",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "researchy",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mayanksagar26"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__the-morning-newspaper__cooper": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T07:16:26.281Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__writing-bot__wtd": {
+      "wins": 2,
+      "losses": 1,
+      "draws": 3,
+      "elo": 30,
+      "last": "2026-09-19T07:18:35.060Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": 0,
+      "last": "2026-09-19T07:19:33.642Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__writing-bot__wtd",
+  "plays": 9,
+  "updated": "2026-09-19T07:19:33.642Z"
+}

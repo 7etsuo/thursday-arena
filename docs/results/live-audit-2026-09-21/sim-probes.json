@@ -1,0 +1,103 @@
+{
+  "note": "In-memory diagnostic experiments only; no repository files changed and no candidate deployed.",
+  "reports": [
+    {
+      "changes": [],
+      "rounds": 337,
+      "winners": 333,
+      "frames": 306,
+      "fixes": [],
+      "regressions": []
+    },
+    {
+      "changes": [
+        "aura_hotfix"
+      ],
+      "rounds": 337,
+      "winners": 334,
+      "frames": 309,
+      "fixes": [
+        {
+          "matchId": "28d89b21-0612-40d9-88c6-e8764503edfd",
+          "round": 1
+        }
+      ],
+      "regressions": []
+    },
+    {
+      "changes": [
+        "silence_aura"
+      ],
+      "rounds": 337,
+      "winners": 334,
+      "frames": 309,
+      "fixes": [
+        {
+          "matchId": "4d624a41-afa4-4751-adc9-0455df4ad581",
+          "round": 1
+        }
+      ],
+      "regressions": []
+    },
+    {
+      "changes": [
+        "megaphone_taunt"
+      ],
+      "rounds": 337,
+      "winners": 334,
+      "frames": 307,
+      "fixes": [
+        {
+          "matchId": "4e58774b-8fc1-46a6-9222-63a819854ea6",
+          "round": 2
+        }
+      ],
+      "regressions": []
+    },
+    {
+      "changes": [
+        "megaphone_venom"
+      ],
+      "rounds": 337,
+      "winners": 334,
+      "frames": 307,
+      "fixes": [
+        {
+          "matchId": "5a75c6d6-dd00-4845-88dd-833aa1222f34",
+          "round": 2
+        }
+      ],
+      "regressions": []
+    },
+    {
+      "changes": [
+        "aura_hotfix",
+        "silence_aura",
+        "megaphone_taunt",
+        "megaphone_venom"
+      ],
+      "rounds": 337,
+      "winners": 337,
+      "frames": 314,
+      "fixes": [
+        {
+          "matchId": "4d624a41-afa4-4751-adc9-0455df4ad581",
+          "round": 1
+        },
+        {
+          "matchId": "4e58774b-8fc1-46a6-9222-63a819854ea6",
+          "round": 2
+        },
+        {
+          "matchId": "5a75c6d6-dd00-4845-88dd-833aa1222f34",
+          "round": 2
+        },
+        {
+          "matchId": "28d89b21-0612-40d9-88c6-e8764503edfd",
+          "round": 1
+        }
+      ],
+      "regressions": []
+    }
+  ]
+}

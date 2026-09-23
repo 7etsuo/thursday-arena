@@ -1,0 +1,38 @@
+{
+  "id": "recipe-game-art-director__luma-pages__wtd",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "game art director",
+      "kit": "spotlight",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "luma pages",
+      "kit": "hype",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "wtd",
+      "kit": "hype",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "spotlight",
+    "hype",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -26,
+  "last": "2026-09-18T11:29:30.984Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recipe-event-request-desk__gtm-prospecting__haggle-bot",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "event request desk",
+      "kit": "sidestep",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "haggle bot",
+      "kit": "sting",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 2,
+  "keys": [
+    "sidestep",
+    "mosquito",
+    "sting"
+  ],
+  "tags": [
+    "recent_win"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "elo": 4,
+  "last": "2026-09-19T00:43:40.158Z"
+}

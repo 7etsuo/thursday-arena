@@ -1,0 +1,82 @@
+{
+  "fp": "competitor watch | meeting recap deck | wtd",
+  "seats": [
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 5,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "dczx1997"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__paid-media-report-desk__projects-manager": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -7,
+      "last": "2026-09-18T23:08:28.684Z",
+      "lastResult": "draw"
+    },
+    "recipe-company-docs-q-a__company-docs-q-a__company-docs-q-a": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -7,
+      "last": "2026-09-18T23:08:38.045Z",
+      "lastResult": "draw"
+    },
+    "recipe-office-ops-desk__apple-search-ads-review__company-docs-q-a": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T23:08:54.304Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__projects-manager__paid-media-report-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T23:09:05.916Z",
+      "lastResult": "loss"
+    },
+    "recipe-nightly-audit-engineer__writing-bot__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -22,
+      "last": "2026-09-18T23:09:20.658Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__customer-proof-desk__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -21,
+      "last": "2026-09-18T23:09:39.260Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__company-docs-q-a__company-docs-q-a",
+  "plays": 6,
+  "updated": "2026-09-18T23:09:39.261Z"
+}

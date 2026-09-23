@@ -1,0 +1,322 @@
+{
+  "omlejmi": {
+    "count": 50,
+    "wins": 44,
+    "sample": {
+      "id": "8b1a9a4a-2490-4a34-8ece-b95c08f59807",
+      "played_at": "2026-09-18T02:42:46.413672Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "omlejmi",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "sw413sg",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "izzat316": {
+    "count": 50,
+    "wins": 38,
+    "sample": {
+      "id": "bc0040de-d335-4944-bc9b-ee48579e675c",
+      "played_at": "2026-09-18T02:50:02.099047Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "izzat316",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "yujules44768",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "jonathannelson": {
+    "count": 31,
+    "wins": 27,
+    "sample": {
+      "id": "9ca515b6-6177-4bf7-ac7d-c5155e4ff48f",
+      "played_at": "2026-09-17T23:35:37.304519Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "jonathannelson",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "itzjonas",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "ryanmcadams": {
+    "count": 50,
+    "wins": 36,
+    "sample": {
+      "id": "2c3a3bbc-3dc8-4fbe-bf83-df9fd1283e6f",
+      "played_at": "2026-09-18T02:50:41.269832Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "ryanmcadams",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "yujules44768",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "arithemonke": {
+    "count": 50,
+    "wins": 42,
+    "sample": {
+      "id": "625de2dd-adc4-41f8-a68d-b87a19170cd1",
+      "played_at": "2026-09-17T23:05:14.787014Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "arithemonke",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "diamondhanddie",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "devarminas": {
+    "count": 50,
+    "wins": 41,
+    "sample": {
+      "id": "7ca75a60-5758-4cbf-ab16-be8264d79d18",
+      "played_at": "2026-09-17T21:21:49.02939Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "devarminas",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "samhocking12",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "breezeeoo": {
+    "count": 50,
+    "wins": 30,
+    "sample": {
+      "id": "9e2c2b9e-b5bc-400a-9436-f82aa4fb8152",
+      "played_at": "2026-09-18T02:49:05.927308Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "breezeeoo",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "shen_stone623",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "prshannon_": {
+    "count": 50,
+    "wins": 39,
+    "sample": {
+      "id": "e7d16c09-9aba-48f2-a1ad-a50d784c90d2",
+      "played_at": "2026-09-18T02:50:36.67487Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "prshannon_",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "yujules44768",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "blacksheepjav": {
+    "count": 47,
+    "wins": 36,
+    "sample": {
+      "id": "1e255b2b-2a16-4858-a790-74a7a6c0ac20",
+      "played_at": "2026-09-18T00:56:57.262607Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "blacksheepjav",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "omlejmi",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "kanuma368": {
+    "count": 50,
+    "wins": 32,
+    "sample": {
+      "id": "bf7e8809-8b64-461d-b31d-3a662068ad14",
+      "played_at": "2026-09-18T00:04:36.341517Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "kanuma368",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "izzat316",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "diamondhanddie": {
+    "count": 50,
+    "wins": 25,
+    "sample": {
+      "id": "bf7b91f1-640f-47e7-a8e2-6b37e9d53a7b",
+      "played_at": "2026-09-18T01:00:21.827142Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "diamondhanddie",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "breezeeoo",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "syaor4n": {
+    "count": 31,
+    "wins": 23,
+    "sample": {
+      "id": "3bc9f198-f54a-4290-986f-7b33412fa616",
+      "played_at": "2026-09-17T22:43:40.036825Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "syaor4n",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "paaquaci1596",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "jsduren": {
+    "count": 50,
+    "wins": 19,
+    "sample": {
+      "id": "0695833d-3a73-46fa-956f-784c928b0cc8",
+      "played_at": "2026-09-18T02:49:50.850785Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "jsduren",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "yujules44768",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "starz_zps": {
+    "count": 50,
+    "wins": 26,
+    "sample": {
+      "id": "9ce38bc0-41b5-4208-bc6b-3b1819e0662b",
+      "played_at": "2026-09-18T01:08:08.2541Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "starz_zps",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "gabriel_x86",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "fourseasonsgrn": {
+    "count": 45,
+    "wins": 30,
+    "sample": {
+      "id": "01d8aa87-2a18-4cf0-87f5-d75a80d2f3f0",
+      "played_at": "2026-09-17T21:06:46.784031Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "fourseasonsgrn",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "jambrefe",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  },
+  "roostercogdick": {
+    "count": 50,
+    "wins": 20,
+    "sample": {
+      "id": "5ed10c64-e2f6-4063-aa71-4b834ce0e977",
+      "played_at": "2026-09-18T02:49:45.928236Z",
+      "season": "Season 1",
+      "players": [
+        {
+          "x_handle": "roostercogdick",
+          "outcome": "win"
+        },
+        {
+          "x_handle": "nicolascheck",
+          "outcome": "loss"
+        }
+      ],
+      "result": "win"
+    }
+  }
+}

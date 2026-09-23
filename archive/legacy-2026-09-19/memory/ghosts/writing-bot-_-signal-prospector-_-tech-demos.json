@@ -1,0 +1,98 @@
+{
+  "fp": "writing bot | signal prospector | tech demos",
+  "seats": [
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "limegpt"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__credit-card-max__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:53:41.551Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__cooper__flora-plant-care-log": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:53:47.665Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__call-follow-ups__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:53:54.668Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__writing-bot__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:54:03.801Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__gtm-prospecting__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:54:10.841Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__webby__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:54:19.281Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__cooper__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:54:26.787Z",
+      "lastResult": "win"
+    },
+    "recipe-pipeline-pulse__credit-card-max__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:54:33.256Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-pipeline-pulse__credit-card-max__meeting-recap-deck",
+  "plays": 8,
+  "updated": "2026-09-18T23:54:33.256Z"
+}

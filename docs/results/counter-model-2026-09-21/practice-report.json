@@ -1,0 +1,42 @@
+{
+  "seed": 20260923,
+  "dir": "/tmp/user/1000/arena-live-practice-NfHTkw",
+  "summary": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "elo": 0,
+    "actions": 34,
+    "rounds": 4,
+    "dropped": 0,
+    "aiMatches": 2,
+    "exitReason": "matches_done",
+    "prevHandle": null
+  },
+  "checks": 18,
+  "battleChecks": 4,
+  "rateLimits": 0,
+  "results": [
+    {
+      "wins": {
+        "you": 2,
+        "them": 0
+      },
+      "rounds": [
+        "you",
+        "you"
+      ]
+    },
+    {
+      "wins": {
+        "you": 2,
+        "them": 0
+      },
+      "rounds": [
+        "you",
+        "you"
+      ]
+    }
+  ]
+}

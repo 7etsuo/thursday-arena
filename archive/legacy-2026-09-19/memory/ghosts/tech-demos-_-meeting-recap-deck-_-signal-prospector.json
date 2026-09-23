@@ -1,0 +1,171 @@
+{
+  "fp": "tech demos | meeting recap deck | signal prospector",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "incpo_",
+    "krisjklosterman"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__account-research-desk__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T11:36:36.645Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__gtm-loop-closer__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T11:36:50.324Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__stills-clips-desk__customer-call-coach-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T11:37:00.926Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T11:37:09.203Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__pipeline-pulse__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T11:37:19.854Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__apple-search-ads-review__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T11:38:00.000Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__the-morning-newspaper__credit-card-max": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T11:38:08.330Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__wtd__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:04:29.761Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__credit-card-max__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:04:35.645Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__cooper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T12:04:43.867Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__stills-clips-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T12:05:02.424Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:06:38.973Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__luma-pages__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:06:45.486Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__lead-pipeline-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:08:46.522Z",
+      "lastResult": "win"
+    },
+    "recipe-signal-prospector__x-brief__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:10:43.196Z",
+      "lastResult": "win"
+    },
+    "recipe-cooper__call-follow-ups__imogen": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:10:52.453Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__copy-humanizer__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:10:59.463Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__copy-humanizer__credit-card-max",
+  "plays": 17,
+  "updated": "2026-09-18T12:10:59.463Z"
+}

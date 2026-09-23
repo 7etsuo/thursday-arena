@@ -1,0 +1,2203 @@
+{
+  "sessions": {
+    "6ac77e8f-0b08-48fb-ac59-9ffd1ff57bb3": {
+      "code": "82965af5bd84",
+      "first": "2026-09-19T17:34:02.287Z",
+      "last": "2026-09-19T17:36:22.762Z",
+      "types": {
+        "session_start": 1,
+        "act": 347,
+        "match_start": 30,
+        "shop": 32,
+        "battle": 47,
+        "result": 15,
+        "session_end": 1
+      },
+      "results": {
+        "win": 15
+      },
+      "handles": {
+        "lucjangrzeugm2": 12,
+        "ai": 3
+      },
+      "start": {
+        "ts": "2026-09-19T17:34:02.287Z",
+        "seq": 0,
+        "session": "6ac77e8f-0b08-48fb-ac59-9ffd1ff57bb3",
+        "code": "82965af5bd84",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": null,
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": 15
+      },
+      "end": {
+        "ts": "2026-09-19T17:36:22.762Z",
+        "seq": 472,
+        "session": "6ac77e8f-0b08-48fb-ac59-9ffd1ff57bb3",
+        "code": "82965af5bd84",
+        "type": "session_end",
+        "games": 15,
+        "wins": 15,
+        "losses": 0,
+        "draws": 0,
+        "elo": 285,
+        "actions": 261,
+        "rounds": 47,
+        "dropped": 0,
+        "exitReason": "games_done",
+        "pruned": 0
+      }
+    },
+    "0a994f92-548d-4a94-91ad-406a60dabfbd": {
+      "code": "82965af5bd84",
+      "first": "2026-09-19T17:38:43.371Z",
+      "last": "2026-09-19T17:41:02.450Z",
+      "types": {
+        "session_start": 1,
+        "act": 345,
+        "match_start": 29,
+        "result": 15,
+        "shop": 32,
+        "battle": 46,
+        "session_end": 1
+      },
+      "results": {
+        "win": 14,
+        "draw": 1
+      },
+      "handles": {
+        "ai": 15
+      },
+      "start": {
+        "ts": "2026-09-19T17:38:43.371Z",
+        "seq": 0,
+        "session": "0a994f92-548d-4a94-91ad-406a60dabfbd",
+        "code": "82965af5bd84",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": 15
+      },
+      "end": {
+        "ts": "2026-09-19T17:41:02.450Z",
+        "seq": 468,
+        "session": "0a994f92-548d-4a94-91ad-406a60dabfbd",
+        "code": "82965af5bd84",
+        "type": "session_end",
+        "games": 15,
+        "wins": 14,
+        "losses": 0,
+        "draws": 1,
+        "elo": 0,
+        "actions": 259,
+        "rounds": 46,
+        "dropped": 0,
+        "exitReason": "games_done",
+        "pruned": 0
+      }
+    },
+    "9df412c8-9ecc-411a-8d65-33ca80b13993": {
+      "code": "3501bf9f08ac",
+      "first": "2026-09-19T17:41:18.332Z",
+      "last": "2026-09-19T17:47:29.983Z",
+      "types": {
+        "session_start": 1,
+        "act": 934,
+        "match_start": 70,
+        "result": 35,
+        "shop": 85,
+        "battle": 118,
+        "session_end": 1
+      },
+      "results": {
+        "win": 32,
+        "draw": 2,
+        "loss": 1
+      },
+      "handles": {
+        "ai": 24,
+        "lucjangrzeugm2": 11
+      },
+      "start": {
+        "ts": "2026-09-19T17:41:18.332Z",
+        "seq": 0,
+        "session": "9df412c8-9ecc-411a-8d65-33ca80b13993",
+        "code": "3501bf9f08ac",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T17:47:29.983Z",
+        "seq": 1243,
+        "session": "9df412c8-9ecc-411a-8d65-33ca80b13993",
+        "code": "3501bf9f08ac",
+        "type": "session_end",
+        "games": 35,
+        "wins": 32,
+        "losses": 1,
+        "draws": 2,
+        "elo": 148,
+        "actions": 691,
+        "rounds": 118,
+        "dropped": 0,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "a67a808b-356f-4833-b90a-9f39270730b3": {
+      "code": "0d269cf470c9",
+      "first": "2026-09-19T17:47:33.726Z",
+      "last": "2026-09-19T17:47:36.425Z",
+      "types": {
+        "session_start": 1,
+        "act": 5,
+        "match_start": 2,
+        "shop": 1,
+        "battle": 2,
+        "result": 1,
+        "error": 1,
+        "session_end": 1
+      },
+      "results": {
+        "win": 1
+      },
+      "handles": {
+        "ai": 1
+      },
+      "start": {
+        "ts": "2026-09-19T17:47:33.726Z",
+        "seq": 0,
+        "session": "a67a808b-356f-4833-b90a-9f39270730b3",
+        "code": "0d269cf470c9",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T17:47:36.425Z",
+        "seq": 13,
+        "session": "a67a808b-356f-4833-b90a-9f39270730b3",
+        "code": "0d269cf470c9",
+        "type": "session_end",
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 4,
+        "rounds": 2,
+        "dropped": 0,
+        "exitReason": "error"
+      }
+    },
+    "1124dfbf-34f5-4941-92e9-20557889abe0": {
+      "code": "0d269cf470c9",
+      "first": "2026-09-19T17:47:39.751Z",
+      "last": "2026-09-19T17:47:40.188Z",
+      "types": {
+        "session_start": 1,
+        "act": 1,
+        "match_start": 1,
+        "result": 1,
+        "error": 1,
+        "session_end": 1
+      },
+      "results": {
+        "win": 1
+      },
+      "handles": {
+        "ai": 1
+      },
+      "start": {
+        "ts": "2026-09-19T17:47:39.751Z",
+        "seq": 0,
+        "session": "1124dfbf-34f5-4941-92e9-20557889abe0",
+        "code": "0d269cf470c9",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T17:47:40.188Z",
+        "seq": 5,
+        "session": "1124dfbf-34f5-4941-92e9-20557889abe0",
+        "code": "0d269cf470c9",
+        "type": "session_end",
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 0,
+        "rounds": 0,
+        "dropped": 0,
+        "exitReason": "error"
+      }
+    },
+    "a7296d04-657a-4d67-92b2-7c131e43e157": {
+      "code": "0d269cf470c9",
+      "first": "2026-09-19T17:47:45.760Z",
+      "last": "2026-09-19T17:47:46.190Z",
+      "types": {
+        "session_start": 1,
+        "act": 1,
+        "match_start": 1,
+        "result": 1,
+        "error": 1,
+        "session_end": 1
+      },
+      "results": {
+        "win": 1
+      },
+      "handles": {
+        "ai": 1
+      },
+      "start": {
+        "ts": "2026-09-19T17:47:45.760Z",
+        "seq": 0,
+        "session": "a7296d04-657a-4d67-92b2-7c131e43e157",
+        "code": "0d269cf470c9",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T17:47:46.190Z",
+        "seq": 5,
+        "session": "a7296d04-657a-4d67-92b2-7c131e43e157",
+        "code": "0d269cf470c9",
+        "type": "session_end",
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 0,
+        "rounds": 0,
+        "dropped": 0,
+        "exitReason": "error"
+      }
+    },
+    "61221651-049a-4ef9-9a43-8276d427469e": {
+      "code": "0d269cf470c9",
+      "first": "2026-09-19T17:47:55.774Z",
+      "last": "2026-09-19T17:47:56.243Z",
+      "types": {
+        "session_start": 1,
+        "act": 1,
+        "match_start": 1,
+        "result": 1,
+        "error": 1,
+        "session_end": 1
+      },
+      "results": {
+        "win": 1
+      },
+      "handles": {
+        "ai": 1
+      },
+      "start": {
+        "ts": "2026-09-19T17:47:55.774Z",
+        "seq": 0,
+        "session": "61221651-049a-4ef9-9a43-8276d427469e",
+        "code": "0d269cf470c9",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T17:47:56.243Z",
+        "seq": 5,
+        "session": "61221651-049a-4ef9-9a43-8276d427469e",
+        "code": "0d269cf470c9",
+        "type": "session_end",
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 0,
+        "rounds": 0,
+        "dropped": 0,
+        "exitReason": "error"
+      }
+    },
+    "e4263a50-8d69-48c6-bcd7-ccdebd3703d8": {
+      "code": "0a2ff0775fd7",
+      "first": "2026-09-19T17:48:19.268Z",
+      "last": "2026-09-19T17:49:25.936Z",
+      "types": {
+        "session_start": 1,
+        "act": 9,
+        "match_start": 8,
+        "result": 8,
+        "queue_next": 8,
+        "session_end": 1
+      },
+      "results": {
+        "win": 8
+      },
+      "handles": {
+        "ai": 8
+      },
+      "start": {
+        "ts": "2026-09-19T17:48:19.268Z",
+        "seq": 0,
+        "session": "e4263a50-8d69-48c6-bcd7-ccdebd3703d8",
+        "code": "0a2ff0775fd7",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T17:49:25.936Z",
+        "seq": 34,
+        "session": "e4263a50-8d69-48c6-bcd7-ccdebd3703d8",
+        "code": "0a2ff0775fd7",
+        "type": "session_end",
+        "games": 8,
+        "wins": 8,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 8,
+        "rounds": 0,
+        "dropped": 0,
+        "exitReason": "no_progress",
+        "pruned": 0
+      }
+    },
+    "6ab3b6b8-1cff-43f7-a003-3104dee6bcb4": {
+      "code": "0a2ff0775fd7",
+      "first": "2026-09-19T17:49:38.167Z",
+      "last": "2026-09-19T17:49:40.086Z",
+      "types": {
+        "session_start": 1,
+        "act": 3,
+        "match_start": 2,
+        "result": 2,
+        "queue_next": 2,
+        "session_end": 1
+      },
+      "results": {
+        "win": 2
+      },
+      "handles": {
+        "ai": 2
+      },
+      "start": {
+        "ts": "2026-09-19T17:49:38.167Z",
+        "seq": 0,
+        "session": "6ab3b6b8-1cff-43f7-a003-3104dee6bcb4",
+        "code": "0a2ff0775fd7",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T17:49:40.086Z",
+        "seq": 10,
+        "session": "6ab3b6b8-1cff-43f7-a003-3104dee6bcb4",
+        "code": "0a2ff0775fd7",
+        "type": "session_end",
+        "games": 2,
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 2,
+        "rounds": 0,
+        "dropped": 0,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "ba0c5956-a6e3-41b3-a681-d1f8ea834c4a": {
+      "code": "dc6e68b99cc5",
+      "first": "2026-09-19T17:49:45.253Z",
+      "last": "2026-09-19T17:55:39.842Z",
+      "types": {
+        "session_start": 1,
+        "act": 899,
+        "match_start": 79,
+        "shop": 82,
+        "battle": 120,
+        "result": 39,
+        "queue_next": 39,
+        "session_end": 1
+      },
+      "results": {
+        "win": 39
+      },
+      "handles": {
+        "al_lax17": 17,
+        "ai": 22
+      },
+      "start": {
+        "ts": "2026-09-19T17:49:45.253Z",
+        "seq": 0,
+        "session": "ba0c5956-a6e3-41b3-a681-d1f8ea834c4a",
+        "code": "dc6e68b99cc5",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T17:55:39.842Z",
+        "seq": 1259,
+        "session": "ba0c5956-a6e3-41b3-a681-d1f8ea834c4a",
+        "code": "dc6e68b99cc5",
+        "type": "session_end",
+        "games": 39,
+        "wins": 39,
+        "losses": 0,
+        "draws": 0,
+        "elo": 138,
+        "actions": 660,
+        "rounds": 120,
+        "dropped": 0,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "ad5a5286-c8aa-4cb6-90f7-fb86229b5f4a": {
+      "code": "2778ac2400f9",
+      "first": "2026-09-19T17:56:54.086Z",
+      "last": "2026-09-19T18:12:59.861Z",
+      "types": {
+        "session_start": 1,
+        "act": 2382,
+        "match_start": 209,
+        "battle": 332,
+        "shop": 227,
+        "result": 104,
+        "queue_next": 104,
+        "session_end": 1
+      },
+      "results": {
+        "win": 100,
+        "loss": 2,
+        "draw": 2
+      },
+      "handles": {
+        "scottmrisk": 23,
+        "passaroagency": 28,
+        "mkhalidtaher": 28,
+        "abdul_jawa6917": 25
+      },
+      "start": {
+        "ts": "2026-09-19T17:56:54.086Z",
+        "seq": 0,
+        "session": "ad5a5286-c8aa-4cb6-90f7-fb86229b5f4a",
+        "code": "2778ac2400f9",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T18:12:59.861Z",
+        "seq": 3359,
+        "session": "ad5a5286-c8aa-4cb6-90f7-fb86229b5f4a",
+        "code": "2778ac2400f9",
+        "type": "session_end",
+        "games": 104,
+        "wins": 100,
+        "losses": 2,
+        "draws": 2,
+        "elo": 254,
+        "actions": 1786,
+        "rounds": 332,
+        "dropped": 0,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "5102ae84-7442-4e43-a0c7-c4c967ab2d40": {
+      "code": "45eef98d91fd",
+      "first": "2026-09-19T18:14:53.620Z",
+      "last": "2026-09-19T18:18:42.511Z",
+      "types": {
+        "session_start": 1,
+        "act": 325,
+        "match_start": 29,
+        "battle": 44,
+        "result": 15,
+        "queue_next": 15,
+        "shop": 29,
+        "session_end": 1
+      },
+      "results": {
+        "win": 14,
+        "loss": 1
+      },
+      "handles": {
+        "mkhalidtaher": 1,
+        "ai": 14
+      },
+      "start": {
+        "ts": "2026-09-19T18:14:53.620Z",
+        "seq": 0,
+        "session": "5102ae84-7442-4e43-a0c7-c4c967ab2d40",
+        "code": "45eef98d91fd",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "mkhalidtaher",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T18:18:42.511Z",
+        "seq": 458,
+        "session": "5102ae84-7442-4e43-a0c7-c4c967ab2d40",
+        "code": "45eef98d91fd",
+        "type": "session_end",
+        "games": 15,
+        "wins": 14,
+        "losses": 1,
+        "draws": 0,
+        "elo": 2,
+        "actions": 240,
+        "rounds": 44,
+        "dropped": 0,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "97966461-d3e1-4b02-ba9e-fc01501d95fa": {
+      "code": "c0dfeed62e4d",
+      "first": "2026-09-19T18:18:45.788Z",
+      "last": "2026-09-19T18:21:34.648Z",
+      "types": {
+        "session_start": 1,
+        "act": 162,
+        "match_start": 27,
+        "result": 14,
+        "queue_next": 14,
+        "shop": 31,
+        "battle": 31,
+        "session_end": 1
+      },
+      "results": {
+        "win": 9,
+        "loss": 4,
+        "draw": 1
+      },
+      "handles": {
+        "ai": 14
+      },
+      "start": {
+        "ts": "2026-09-19T18:18:45.788Z",
+        "seq": 0,
+        "session": "97966461-d3e1-4b02-ba9e-fc01501d95fa",
+        "code": "c0dfeed62e4d",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T18:21:34.648Z",
+        "seq": 280,
+        "session": "97966461-d3e1-4b02-ba9e-fc01501d95fa",
+        "code": "c0dfeed62e4d",
+        "type": "session_end",
+        "games": 14,
+        "wins": 9,
+        "losses": 4,
+        "draws": 1,
+        "elo": 0,
+        "actions": 141,
+        "rounds": 31,
+        "dropped": 0,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "58c7072a-6757-4587-b201-f61c9b281c45": {
+      "code": "c0dfeed62e4d",
+      "first": "2026-09-19T18:36:47.545Z",
+      "last": "2026-09-19T18:44:51.702Z",
+      "types": {
+        "session_start": 1,
+        "act": 1019,
+        "match_start": 100,
+        "result": 50,
+        "queue_next": 50,
+        "shop": 110,
+        "battle": 148,
+        "session_end": 1
+      },
+      "results": {
+        "loss": 5,
+        "win": 45
+      },
+      "handles": {
+        "ai": 11,
+        "ryanduncan": 13,
+        "breezeeoo": 8,
+        "roshan_s": 11,
+        "notabot": 7
+      },
+      "start": {
+        "ts": "2026-09-19T18:36:47.545Z",
+        "seq": 0,
+        "session": "58c7072a-6757-4587-b201-f61c9b281c45",
+        "code": "c0dfeed62e4d",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T18:44:51.702Z",
+        "seq": 1478,
+        "session": "58c7072a-6757-4587-b201-f61c9b281c45",
+        "code": "c0dfeed62e4d",
+        "type": "session_end",
+        "games": 50,
+        "wins": 45,
+        "losses": 5,
+        "draws": 0,
+        "elo": 21,
+        "actions": 778,
+        "rounds": 148,
+        "dropped": 0,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "3ef19dd2-373d-4161-baf2-84077fbeb409": {
+      "code": "2f6032863071",
+      "first": "2026-09-19T18:48:06.578Z",
+      "last": "2026-09-19T18:52:57.157Z",
+      "types": {
+        "session_start": 1,
+        "act": 327,
+        "match_start": 41,
+        "shop": 52,
+        "battle": 54,
+        "result": 20,
+        "queue_next": 20,
+        "session_end": 1
+      },
+      "results": {
+        "loss": 8,
+        "win": 10,
+        "draw": 2
+      },
+      "handles": {
+        "notabot": 3,
+        "ai": 17
+      },
+      "start": {
+        "ts": "2026-09-19T18:48:06.578Z",
+        "seq": 0,
+        "session": "3ef19dd2-373d-4161-baf2-84077fbeb409",
+        "code": "2f6032863071",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "notabot",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T18:52:57.157Z",
+        "seq": 515,
+        "session": "3ef19dd2-373d-4161-baf2-84077fbeb409",
+        "code": "2f6032863071",
+        "type": "session_end",
+        "games": 20,
+        "wins": 10,
+        "losses": 8,
+        "draws": 2,
+        "elo": -90,
+        "actions": 273,
+        "rounds": 54,
+        "dropped": 0,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "2819ae2a-7c9e-40de-b218-0cc1bca78bb1": {
+      "code": "16a853c923c8",
+      "first": "2026-09-19T18:53:00.415Z",
+      "last": "2026-09-19T18:53:44.443Z",
+      "types": {
+        "session_start": 1,
+        "act": 88,
+        "match_start": 16,
+        "shop": 19,
+        "battle": 19,
+        "result": 8,
+        "queue_next": 8,
+        "session_end": 1
+      },
+      "results": {
+        "win": 5,
+        "draw": 1,
+        "loss": 2
+      },
+      "handles": {
+        "ai": 8
+      },
+      "start": {
+        "ts": "2026-09-19T18:53:00.415Z",
+        "seq": 0,
+        "session": "2819ae2a-7c9e-40de-b218-0cc1bca78bb1",
+        "code": "16a853c923c8",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T18:53:44.443Z",
+        "seq": 159,
+        "session": "2819ae2a-7c9e-40de-b218-0cc1bca78bb1",
+        "code": "16a853c923c8",
+        "type": "session_end",
+        "games": 8,
+        "wins": 5,
+        "losses": 2,
+        "draws": 1,
+        "elo": 0,
+        "actions": 79,
+        "rounds": 19,
+        "dropped": 0,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "49258e04-5811-4482-945f-a58a06cbaf53": {
+      "code": "abc4a20c3f23",
+      "first": "2026-09-19T18:53:47.687Z",
+      "last": "2026-09-19T18:55:14.054Z",
+      "types": {
+        "session_start": 1,
+        "act": 201,
+        "match_start": 29,
+        "shop": 34,
+        "battle": 33,
+        "result": 14,
+        "queue_next": 14,
+        "error": 3,
+        "session_end": 1
+      },
+      "results": {
+        "draw": 1,
+        "loss": 4,
+        "win": 9
+      },
+      "handles": {
+        "ai": 14
+      },
+      "start": {
+        "ts": "2026-09-19T18:53:47.687Z",
+        "seq": 0,
+        "session": "49258e04-5811-4482-945f-a58a06cbaf53",
+        "code": "abc4a20c3f23",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T18:55:14.054Z",
+        "seq": 329,
+        "session": "49258e04-5811-4482-945f-a58a06cbaf53",
+        "code": "abc4a20c3f23",
+        "type": "session_end",
+        "games": 14,
+        "wins": 9,
+        "losses": 4,
+        "draws": 1,
+        "elo": 0,
+        "actions": 155,
+        "rounds": 33,
+        "dropped": 0,
+        "exitReason": "error"
+      }
+    },
+    "f6f7d703-eb88-45ca-97f2-8c4ea6b803dc": {
+      "code": "abc4a20c3f23",
+      "first": "2026-09-19T18:55:17.884Z",
+      "last": "2026-09-19T18:55:32.527Z",
+      "types": {
+        "session_start": 1,
+        "act": 33,
+        "match_start": 6,
+        "battle": 7,
+        "shop": 6,
+        "result": 2,
+        "queue_next": 2,
+        "session_end": 1
+      },
+      "results": {
+        "loss": 2
+      },
+      "handles": {
+        "ai": 2
+      },
+      "start": {
+        "ts": "2026-09-19T18:55:17.884Z",
+        "seq": 0,
+        "session": "f6f7d703-eb88-45ca-97f2-8c4ea6b803dc",
+        "code": "abc4a20c3f23",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T18:55:32.527Z",
+        "seq": 57,
+        "session": "f6f7d703-eb88-45ca-97f2-8c4ea6b803dc",
+        "code": "abc4a20c3f23",
+        "type": "session_end",
+        "games": 2,
+        "wins": 0,
+        "losses": 2,
+        "draws": 0,
+        "elo": 0,
+        "actions": 27,
+        "rounds": 7,
+        "dropped": 0,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "2bfd9b6a-5383-478a-9875-e8195ba91827": {
+      "code": "ee1c6754e933",
+      "first": "2026-09-19T18:55:35.730Z",
+      "last": "2026-09-19T19:13:45.310Z",
+      "types": {
+        "session_start": 1,
+        "act": 2656,
+        "match_start": 232,
+        "result": 116,
+        "queue_next": 116,
+        "shop": 253,
+        "battle": 368,
+        "session_end": 1
+      },
+      "results": {
+        "win": 112,
+        "loss": 2,
+        "draw": 2
+      },
+      "handles": {
+        "ai": 36,
+        "hotdogsd": 40,
+        "salo_smaslom": 17,
+        "jtran": 23
+      },
+      "start": {
+        "ts": "2026-09-19T18:55:35.730Z",
+        "seq": 0,
+        "session": "2bfd9b6a-5383-478a-9875-e8195ba91827",
+        "code": "ee1c6754e933",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ai",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T19:13:45.310Z",
+        "seq": 3742,
+        "session": "2bfd9b6a-5383-478a-9875-e8195ba91827",
+        "code": "ee1c6754e933",
+        "type": "session_end",
+        "games": 116,
+        "wins": 112,
+        "losses": 2,
+        "draws": 2,
+        "elo": 100,
+        "actions": 1987,
+        "rounds": 368,
+        "dropped": 0,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "c6a36c02-1ccf-4800-a9d7-37b6c32e706a": {
+      "code": "ee1c6754e933",
+      "first": "2026-09-19T19:13:48.549Z",
+      "last": "2026-09-19T19:15:49.556Z",
+      "types": {
+        "session_start": 1,
+        "act": 307,
+        "match_start": 27,
+        "shop": 29,
+        "battle": 41,
+        "result": 13,
+        "queue_next": 13,
+        "session_end": 1
+      },
+      "results": {
+        "win": 13
+      },
+      "handles": {
+        "jtran": 13
+      },
+      "start": {
+        "ts": "2026-09-19T19:13:48.549Z",
+        "seq": 0,
+        "session": "c6a36c02-1ccf-4800-a9d7-37b6c32e706a",
+        "code": "ee1c6754e933",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "jtran",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T19:15:49.556Z",
+        "seq": 431,
+        "session": "c6a36c02-1ccf-4800-a9d7-37b6c32e706a",
+        "code": "ee1c6754e933",
+        "type": "session_end",
+        "games": 13,
+        "wins": 13,
+        "losses": 0,
+        "draws": 0,
+        "elo": 25,
+        "actions": 225,
+        "rounds": 41,
+        "dropped": 0,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "20f3b30d-adb5-49d6-a385-0555677c92eb": {
+      "code": "8af5c1caf585",
+      "first": "2026-09-19T19:43:33.667Z",
+      "last": "2026-09-19T19:43:35.863Z",
+      "types": {
+        "session_start": 1,
+        "act": 5,
+        "match_start": 1,
+        "shop": 1,
+        "session_end": 1
+      },
+      "results": {},
+      "handles": {},
+      "start": {
+        "ts": "2026-09-19T19:43:33.667Z",
+        "seq": 0,
+        "session": "20f3b30d-adb5-49d6-a385-0555677c92eb",
+        "code": "8af5c1caf585",
+        "type": "session_start",
+        "dry": true,
+        "start": false,
+        "prevHandle": "jtran",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": 1
+      },
+      "end": {
+        "ts": "2026-09-19T19:43:35.863Z",
+        "seq": 8,
+        "session": "20f3b30d-adb5-49d6-a385-0555677c92eb",
+        "code": "8af5c1caf585",
+        "type": "session_end",
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 0,
+        "rounds": 0,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "dry",
+        "pruned": 0
+      }
+    },
+    "6279c247-a6a3-44e0-9c05-fe3f6a7ed99f": {
+      "code": "8af5c1caf585",
+      "first": "2026-09-19T19:43:35.874Z",
+      "last": "2026-09-19T20:01:04.960Z",
+      "types": {
+        "session_start": 1,
+        "act": 1819,
+        "match_start": 163,
+        "shop": 173,
+        "battle": 250,
+        "result": 77,
+        "session_end": 1
+      },
+      "results": {
+        "win": 75,
+        "draw": 1,
+        "loss": 1
+      },
+      "handles": {
+        "null": 9,
+        "jmwatson16": 38,
+        "mr_lonelyy_": 30
+      },
+      "start": {
+        "ts": "2026-09-19T19:43:35.874Z",
+        "seq": 0,
+        "session": "6279c247-a6a3-44e0-9c05-fe3f6a7ed99f",
+        "code": "8af5c1caf585",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "jtran",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T20:01:04.960Z",
+        "seq": 2483,
+        "session": "6279c247-a6a3-44e0-9c05-fe3f6a7ed99f",
+        "code": "8af5c1caf585",
+        "type": "session_end",
+        "games": 68,
+        "wins": 66,
+        "losses": 1,
+        "draws": 1,
+        "elo": 31,
+        "actions": 1362,
+        "rounds": 250,
+        "dropped": 0,
+        "aiMatches": 9,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "0a62d92b-45f8-47d6-8aac-eb51123813c5": {
+      "code": "8af5c1caf585",
+      "first": "2026-09-19T20:46:25.741Z",
+      "last": "2026-09-19T20:46:26.191Z",
+      "types": {
+        "session_start": 1,
+        "act": 2,
+        "match_start": 1,
+        "session_end": 1
+      },
+      "results": {},
+      "handles": {},
+      "start": {
+        "ts": "2026-09-19T20:46:25.741Z",
+        "seq": 0,
+        "session": "0a62d92b-45f8-47d6-8aac-eb51123813c5",
+        "code": "8af5c1caf585",
+        "type": "session_start",
+        "dry": true,
+        "start": false,
+        "prevHandle": "mr_lonelyy_",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": 1
+      },
+      "end": {
+        "ts": "2026-09-19T20:46:26.191Z",
+        "seq": 4,
+        "session": "0a62d92b-45f8-47d6-8aac-eb51123813c5",
+        "code": "8af5c1caf585",
+        "type": "session_end",
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 0,
+        "rounds": 0,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "dry",
+        "pruned": 0
+      }
+    },
+    "1646e349-c810-400b-94b8-97ac3f073dd1": {
+      "code": "8af5c1caf585",
+      "first": "2026-09-19T20:46:26.200Z",
+      "last": "2026-09-19T23:12:20.639Z",
+      "types": {
+        "session_start": 1,
+        "act": 11501,
+        "match_start": 1036,
+        "shop": 1073,
+        "battle": 1548,
+        "result": 475,
+        "session_end": 1
+      },
+      "results": {
+        "win": 463,
+        "loss": 8,
+        "draw": 4
+      },
+      "handles": {
+        "dczx1997": 4,
+        "null": 85,
+        "mccorklepete": 26,
+        "seano1022": 31,
+        "vpimvic": 32,
+        "pasqualeloffre6": 24,
+        "otech_labs": 42,
+        "johnmarkwendler": 32,
+        "kaistwitta": 23,
+        "cesarsoarescx": 43,
+        "aokikouji": 36,
+        "thursdaypumpfun": 30,
+        "krishv": 35,
+        "allieadastra": 32
+      },
+      "start": {
+        "ts": "2026-09-19T20:46:26.200Z",
+        "seq": 0,
+        "session": "1646e349-c810-400b-94b8-97ac3f073dd1",
+        "code": "8af5c1caf585",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "mr_lonelyy_",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-19T23:12:20.639Z",
+        "seq": 15634,
+        "session": "1646e349-c810-400b-94b8-97ac3f073dd1",
+        "code": "8af5c1caf585",
+        "type": "session_end",
+        "games": 390,
+        "wins": 379,
+        "losses": 7,
+        "draws": 4,
+        "elo": 120,
+        "actions": 8601,
+        "rounds": 1548,
+        "dropped": 0,
+        "aiMatches": 85,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "1c77fbcc-3243-4be9-99e2-ea9739ae5fff": {
+      "code": "8af5c1caf585",
+      "first": "2026-09-20T00:13:06.310Z",
+      "last": "2026-09-20T00:13:06.748Z",
+      "types": {
+        "session_start": 1,
+        "act": 2,
+        "match_start": 1,
+        "session_end": 1
+      },
+      "results": {},
+      "handles": {},
+      "start": {
+        "ts": "2026-09-20T00:13:06.310Z",
+        "seq": 0,
+        "session": "1c77fbcc-3243-4be9-99e2-ea9739ae5fff",
+        "code": "8af5c1caf585",
+        "type": "session_start",
+        "dry": true,
+        "start": false,
+        "prevHandle": "krishv",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": 1
+      },
+      "end": {
+        "ts": "2026-09-20T00:13:06.748Z",
+        "seq": 4,
+        "session": "1c77fbcc-3243-4be9-99e2-ea9739ae5fff",
+        "code": "8af5c1caf585",
+        "type": "session_end",
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 0,
+        "rounds": 0,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "dry",
+        "pruned": 0
+      }
+    },
+    "0b5d2e8f-e06b-4e81-968d-e2299e412b5b": {
+      "code": "8af5c1caf585",
+      "first": "2026-09-20T00:13:06.757Z",
+      "last": "2026-09-20T00:22:10.405Z",
+      "types": {
+        "session_start": 1,
+        "act": 261,
+        "match_start": 31,
+        "shop": 21,
+        "battle": 31,
+        "result": 10,
+        "session_end": 1
+      },
+      "results": {
+        "win": 10
+      },
+      "handles": {
+        "null": 10
+      },
+      "start": {
+        "ts": "2026-09-20T00:13:06.757Z",
+        "seq": 0,
+        "session": "0b5d2e8f-e06b-4e81-968d-e2299e412b5b",
+        "code": "8af5c1caf585",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "krishv",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-20T00:22:10.405Z",
+        "seq": 355,
+        "session": "0b5d2e8f-e06b-4e81-968d-e2299e412b5b",
+        "code": "8af5c1caf585",
+        "type": "session_end",
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 179,
+        "rounds": 31,
+        "dropped": 0,
+        "aiMatches": 10,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "f421c0d6-8fb9-428c-896d-4a388c04b076": {
+      "code": "f76e201c63ca",
+      "first": "2026-09-20T00:22:14.445Z",
+      "last": "2026-09-20T00:22:14.880Z",
+      "types": {
+        "session_start": 1,
+        "act": 2,
+        "match_start": 1,
+        "session_end": 1
+      },
+      "results": {},
+      "handles": {},
+      "start": {
+        "ts": "2026-09-20T00:22:14.445Z",
+        "seq": 0,
+        "session": "f421c0d6-8fb9-428c-896d-4a388c04b076",
+        "code": "f76e201c63ca",
+        "type": "session_start",
+        "dry": true,
+        "start": false,
+        "prevHandle": "krishv",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": 1
+      },
+      "end": {
+        "ts": "2026-09-20T00:22:14.880Z",
+        "seq": 4,
+        "session": "f421c0d6-8fb9-428c-896d-4a388c04b076",
+        "code": "f76e201c63ca",
+        "type": "session_end",
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 0,
+        "rounds": 0,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "dry",
+        "pruned": 0
+      }
+    },
+    "0c96d057-61f9-4c25-83ae-5709be1a5f1d": {
+      "code": "f76e201c63ca",
+      "first": "2026-09-20T00:22:14.889Z",
+      "last": "2026-09-20T02:29:06.693Z",
+      "types": {
+        "session_start": 1,
+        "act": 19082,
+        "match_start": 1984,
+        "shop": 1630,
+        "battle": 2369,
+        "result": 739,
+        "session_end": 1
+      },
+      "results": {
+        "win": 712,
+        "loss": 14,
+        "draw": 13
+      },
+      "handles": {
+        "null": 504,
+        "orsohere": 34,
+        "ghuaxve": 19,
+        "kanuma368": 33,
+        "hosammohamed": 13,
+        "408eltoro": 30,
+        "lucataco": 27,
+        "gsuitetaiwan": 14,
+        "smokyproductco": 28,
+        "woodencracker": 16,
+        "amanverma235979": 21
+      },
+      "start": {
+        "ts": "2026-09-20T00:22:14.889Z",
+        "seq": 0,
+        "session": "0c96d057-61f9-4c25-83ae-5709be1a5f1d",
+        "code": "f76e201c63ca",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "krishv",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-20T02:29:06.693Z",
+        "seq": 25805,
+        "session": "0c96d057-61f9-4c25-83ae-5709be1a5f1d",
+        "code": "f76e201c63ca",
+        "type": "session_end",
+        "games": 235,
+        "wins": 228,
+        "losses": 2,
+        "draws": 5,
+        "elo": 27,
+        "actions": 13685,
+        "rounds": 2369,
+        "dropped": 0,
+        "aiMatches": 504,
+        "exitReason": "done",
+        "pruned": 0
+      }
+    },
+    "e9fb58ab-c650-41bb-96ff-1c0fa3cb7ec0": {
+      "code": "f76e201c63ca",
+      "first": "2026-09-20T05:35:37.720Z",
+      "last": "2026-09-20T05:35:39.570Z",
+      "types": {
+        "session_start": 1,
+        "act": 8,
+        "match_start": 1,
+        "shop": 1,
+        "session_end": 1
+      },
+      "results": {},
+      "handles": {},
+      "start": {
+        "ts": "2026-09-20T05:35:37.720Z",
+        "seq": 0,
+        "session": "e9fb58ab-c650-41bb-96ff-1c0fa3cb7ec0",
+        "code": "f76e201c63ca",
+        "type": "session_start",
+        "dry": true,
+        "start": false,
+        "prevHandle": "amanverma235979",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": 1
+      },
+      "end": {
+        "ts": "2026-09-20T05:35:39.570Z",
+        "seq": 11,
+        "session": "e9fb58ab-c650-41bb-96ff-1c0fa3cb7ec0",
+        "code": "f76e201c63ca",
+        "type": "session_end",
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 0,
+        "rounds": 0,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "dry",
+        "pruned": 0
+      }
+    },
+    "f208d88f-74ee-4a48-9e48-33f90cc34a5d": {
+      "code": "f76e201c63ca",
+      "first": "2026-09-20T05:35:39.579Z",
+      "last": "2026-09-20T07:37:43.772Z",
+      "types": {
+        "session_start": 1,
+        "act": 17485,
+        "match_start": 1297,
+        "shop": 1607,
+        "battle": 2254,
+        "result": 648
+      },
+      "results": {
+        "win": 485,
+        "loss": 105,
+        "draw": 58
+      },
+      "handles": {
+        "amanverma235979": 1,
+        "ryanmcadams": 75,
+        "thatretireddude": 26,
+        "fabianhtml": 106,
+        "ryaske": 129,
+        "cmoyyds": 6,
+        "gabriel_x86": 101,
+        "vibeleiz": 116,
+        "ternquest_com": 11,
+        "_tb_brewster": 9,
+        "sodiumhyrdride": 49,
+        "wolfe_jam": 6,
+        "devtony": 4,
+        "lucataco": 2,
+        "jeremymlucy": 1,
+        "diamondhanddie": 1,
+        "arminsolecki": 2,
+        "the_ryyy": 2,
+        "xrocky222": 1
+      },
+      "start": {
+        "ts": "2026-09-20T05:35:39.579Z",
+        "seq": 0,
+        "session": "f208d88f-74ee-4a48-9e48-33f90cc34a5d",
+        "code": "f76e201c63ca",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "amanverma235979",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      }
+    },
+    "889b8571-1f5c-407a-aaa5-5fbd15eb3256": {
+      "code": "f76e201c63ca",
+      "first": "2026-09-20T08:38:35.509Z",
+      "last": "2026-09-20T08:38:38.220Z",
+      "types": {
+        "session_start": 1,
+        "act": 11,
+        "match_start": 1,
+        "shop": 1,
+        "session_end": 1
+      },
+      "results": {},
+      "handles": {},
+      "start": {
+        "ts": "2026-09-20T08:38:35.509Z",
+        "seq": 0,
+        "session": "889b8571-1f5c-407a-aaa5-5fbd15eb3256",
+        "code": "f76e201c63ca",
+        "type": "session_start",
+        "dry": true,
+        "start": false,
+        "prevHandle": "the_ryyy",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": 1
+      },
+      "end": {
+        "ts": "2026-09-20T08:38:38.220Z",
+        "seq": 14,
+        "session": "889b8571-1f5c-407a-aaa5-5fbd15eb3256",
+        "code": "f76e201c63ca",
+        "type": "session_end",
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 0,
+        "rounds": 0,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "dry",
+        "pruned": 0
+      }
+    },
+    "8d533f02-44c2-42dd-88e2-501c6696a2c9": {
+      "code": "f76e201c63ca",
+      "first": "2026-09-20T08:38:38.234Z",
+      "last": "2026-09-20T10:48:50.230Z",
+      "types": {
+        "session_start": 1,
+        "act": 18077,
+        "match_start": 1333,
+        "shop": 1667,
+        "battle": 2333,
+        "result": 666,
+        "session_end": 1
+      },
+      "results": {
+        "win": 529,
+        "draw": 45,
+        "loss": 92
+      },
+      "handles": {
+        "gabriel_x86": 126,
+        "ryanmcadams": 49,
+        "vibeleiz": 32,
+        "ryaske": 129,
+        "ternquest_com": 38,
+        "arminsolecki": 14,
+        "devtony": 13,
+        "sodiumhyrdride": 92,
+        "the_ryyy": 16,
+        "thatretireddude": 16,
+        "gypsy_dev": 9,
+        "as42tsx": 21,
+        "merenotions": 8,
+        "cmoyyds": 9,
+        "default_vpc": 13,
+        "amanverma235979": 7,
+        "_liquidcat": 6,
+        "syaor4n": 19,
+        "izzat316": 47,
+        "saiko1115": 1,
+        "xinyu540": 1
+      },
+      "start": {
+        "ts": "2026-09-20T08:38:38.234Z",
+        "seq": 0,
+        "session": "8d533f02-44c2-42dd-88e2-501c6696a2c9",
+        "code": "f76e201c63ca",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "the_ryyy",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-20T10:48:50.230Z",
+        "seq": 24077,
+        "session": "8d533f02-44c2-42dd-88e2-501c6696a2c9",
+        "code": "f76e201c63ca",
+        "type": "session_end",
+        "games": 666,
+        "wins": 529,
+        "losses": 92,
+        "draws": 45,
+        "elo": -1052,
+        "actions": 13547,
+        "rounds": 2333,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "done",
+        "pruned": 0
+      }
+    },
+    "8ece5d34-6af4-4f45-8382-2eb2a21f935d": {
+      "code": "2d2553e5fe48",
+      "first": "2026-09-21T04:27:57.140Z",
+      "last": "2026-09-21T04:27:57.922Z",
+      "types": {
+        "session_start": 1,
+        "act": 3,
+        "match_start": 1,
+        "shop": 1,
+        "session_end": 1
+      },
+      "results": {},
+      "handles": {},
+      "start": {
+        "ts": "2026-09-21T04:27:57.140Z",
+        "seq": 0,
+        "session": "8ece5d34-6af4-4f45-8382-2eb2a21f935d",
+        "code": "2d2553e5fe48",
+        "type": "session_start",
+        "dry": true,
+        "start": false,
+        "prevHandle": "izzat316",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": 1
+      },
+      "end": {
+        "ts": "2026-09-21T04:27:57.922Z",
+        "seq": 6,
+        "session": "8ece5d34-6af4-4f45-8382-2eb2a21f935d",
+        "code": "2d2553e5fe48",
+        "type": "session_end",
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 0,
+        "rounds": 0,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "dry",
+        "pruned": 0
+      }
+    },
+    "5fc6e525-3641-4d0e-b9fd-33bde5311ae3": {
+      "code": "2d2553e5fe48",
+      "first": "2026-09-21T04:27:57.932Z",
+      "last": "2026-09-21T05:01:47.120Z",
+      "types": {
+        "session_start": 1,
+        "act": 3909,
+        "match_start": 139,
+        "shop": 341,
+        "battle": 340,
+        "match_identified": 138,
+        "result": 138,
+        "book": 338,
+        "session_end": 1
+      },
+      "results": {
+        "loss": 15,
+        "win": 119,
+        "draw": 4
+      },
+      "handles": {
+        "izzat316": 1,
+        "tcbxcee": 1,
+        "s3xyfuture": 3,
+        "luisjimnezcort5": 3,
+        "fabianhtml": 16,
+        "poteto": 3,
+        "gkwy": 5,
+        "lucataco": 3,
+        "devtony": 21,
+        "qsr_cg": 24,
+        "jusrelax": 3,
+        "_tb_brewster": 3,
+        "lighttwrecker": 3,
+        "eliancodex": 4,
+        "1bjax": 3,
+        "ternquest_com": 30,
+        "gabriel_x86": 3,
+        "ryansheng": 3,
+        "sodiumhyrdride": 4,
+        "syaor4n": 1,
+        "levificati0n": 1
+      },
+      "start": {
+        "ts": "2026-09-21T04:27:57.932Z",
+        "seq": 0,
+        "session": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3",
+        "code": "2d2553e5fe48",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "izzat316",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-21T05:01:47.120Z",
+        "seq": 5344,
+        "session": "5fc6e525-3641-4d0e-b9fd-33bde5311ae3",
+        "code": "2d2553e5fe48",
+        "type": "session_end",
+        "games": 138,
+        "wins": 119,
+        "losses": 15,
+        "draws": 4,
+        "elo": 565,
+        "actions": 2894,
+        "rounds": 340,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "signal_SIGTERM"
+      }
+    },
+    "85c13c39-9869-4af1-9396-6747f34d5faf": {
+      "code": "5b818477d8cb",
+      "first": "2026-09-21T07:17:55.405Z",
+      "last": "2026-09-21T07:17:55.990Z",
+      "types": {
+        "session_start": 1,
+        "act": 1,
+        "match_start": 1,
+        "battle": 1,
+        "session_end": 1
+      },
+      "results": {},
+      "handles": {},
+      "start": {
+        "ts": "2026-09-21T07:17:55.405Z",
+        "seq": 0,
+        "session": "85c13c39-9869-4af1-9396-6747f34d5faf",
+        "code": "5b818477d8cb",
+        "type": "session_start",
+        "dry": true,
+        "start": false,
+        "prevHandle": "sodiumhyrdride",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": 1
+      },
+      "end": {
+        "ts": "2026-09-21T07:17:55.990Z",
+        "seq": 4,
+        "session": "85c13c39-9869-4af1-9396-6747f34d5faf",
+        "code": "5b818477d8cb",
+        "type": "session_end",
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 0,
+        "rounds": 1,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "dry",
+        "pruned": 0
+      }
+    },
+    "0a169195-d4dd-4d79-a59b-f2439ff9a0ce": {
+      "code": "5b818477d8cb",
+      "first": "2026-09-21T07:17:56.003Z",
+      "last": "2026-09-21T09:18:49.891Z",
+      "types": {
+        "session_start": 1,
+        "act": 12779,
+        "match_start": 474,
+        "battle": 1118,
+        "shop": 1118,
+        "match_identified": 473,
+        "book": 1117,
+        "result": 473,
+        "session_end": 1
+      },
+      "results": {
+        "win": 436,
+        "loss": 29,
+        "draw": 8
+      },
+      "handles": {
+        "qsr_cg": 1,
+        "izzat316": 57,
+        "gkwy": 27,
+        "thebeeduck": 26,
+        "circles_r_phun": 17,
+        "luisjimnezcort5": 20,
+        "sodiumhyrdride": 37,
+        "eliancodex": 7,
+        "s3xyfuture": 18,
+        "jusrelax": 6,
+        "_tb_brewster": 6,
+        "lighttwrecker": 9,
+        "1bjax": 4,
+        "levificati0n": 7,
+        "ternquest_com": 126,
+        "gabriel_x86": 6,
+        "ryansheng": 6,
+        "alexanderopalic": 3,
+        "safiahmad313": 1,
+        "syaor4n": 41,
+        "steve86sjm": 4,
+        "_solcat_": 10,
+        "cxrlosmonroy": 4,
+        "ryanjosebrosas": 5,
+        "nirajlovesfries": 3,
+        "cmoyyds": 2,
+        "roostercogdick": 3,
+        "bhootsumant": 2,
+        "sanwang39883": 2,
+        "cbschulz": 2,
+        "wenakita": 2,
+        "bourkefloyd": 2,
+        "iijanchan": 2,
+        "outtherefan": 2,
+        "darren_bryant": 2,
+        "amanverma235979": 1
+      },
+      "start": {
+        "ts": "2026-09-21T07:17:56.003Z",
+        "seq": 0,
+        "session": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce",
+        "code": "5b818477d8cb",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "sodiumhyrdride",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-21T09:18:49.891Z",
+        "seq": 17553,
+        "session": "0a169195-d4dd-4d79-a59b-f2439ff9a0ce",
+        "code": "5b818477d8cb",
+        "type": "session_end",
+        "games": 473,
+        "wins": 436,
+        "losses": 29,
+        "draws": 8,
+        "elo": 432,
+        "actions": 9517,
+        "rounds": 1118,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "signal_SIGINT"
+      }
+    },
+    "ba4a7a3c-cda2-44c2-9e81-ae68b2ffb20b": {
+      "code": "5b818477d8cb",
+      "first": "2026-09-21T09:57:50.806Z",
+      "last": "2026-09-21T09:57:51.546Z",
+      "types": {
+        "session_start": 1,
+        "act": 2,
+        "match_start": 1,
+        "shop": 1,
+        "session_end": 1
+      },
+      "results": {},
+      "handles": {},
+      "start": {
+        "ts": "2026-09-21T09:57:50.806Z",
+        "seq": 0,
+        "session": "ba4a7a3c-cda2-44c2-9e81-ae68b2ffb20b",
+        "code": "5b818477d8cb",
+        "type": "session_start",
+        "dry": true,
+        "start": false,
+        "prevHandle": "amanverma235979",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": 1
+      },
+      "end": {
+        "ts": "2026-09-21T09:57:51.546Z",
+        "seq": 5,
+        "session": "ba4a7a3c-cda2-44c2-9e81-ae68b2ffb20b",
+        "code": "5b818477d8cb",
+        "type": "session_end",
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 0,
+        "rounds": 0,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "dry",
+        "pruned": 0
+      }
+    },
+    "ed7a1de8-2fb4-4704-96c2-a95160595434": {
+      "code": "5b818477d8cb",
+      "first": "2026-09-21T09:57:51.557Z",
+      "last": "2026-09-21T09:58:37.755Z",
+      "types": {
+        "session_start": 1,
+        "act": 80,
+        "match_start": 4,
+        "shop": 8,
+        "battle": 8,
+        "match_identified": 4,
+        "book": 8,
+        "result": 3,
+        "session_end": 1
+      },
+      "results": {
+        "win": 3
+      },
+      "handles": {
+        "ternquest_com": 3
+      },
+      "start": {
+        "ts": "2026-09-21T09:57:51.557Z",
+        "seq": 0,
+        "session": "ed7a1de8-2fb4-4704-96c2-a95160595434",
+        "code": "5b818477d8cb",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "amanverma235979",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-21T09:58:37.755Z",
+        "seq": 116,
+        "session": "ed7a1de8-2fb4-4704-96c2-a95160595434",
+        "code": "5b818477d8cb",
+        "type": "session_end",
+        "games": 3,
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "elo": 16,
+        "actions": 60,
+        "rounds": 8,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "signal_SIGINT"
+      }
+    },
+    "13398f17-f3e5-49e7-aba8-2e9616b32593": {
+      "code": "5b818477d8cb",
+      "first": "2026-09-21T09:59:44.480Z",
+      "last": "2026-09-21T09:59:45.002Z",
+      "types": {
+        "session_start": 1,
+        "act": 2,
+        "match_start": 1,
+        "session_end": 1
+      },
+      "results": {},
+      "handles": {},
+      "start": {
+        "ts": "2026-09-21T09:59:44.480Z",
+        "seq": 0,
+        "session": "13398f17-f3e5-49e7-aba8-2e9616b32593",
+        "code": "5b818477d8cb",
+        "type": "session_start",
+        "dry": true,
+        "start": false,
+        "prevHandle": "ternquest_com",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": 1
+      },
+      "end": {
+        "ts": "2026-09-21T09:59:45.002Z",
+        "seq": 4,
+        "session": "13398f17-f3e5-49e7-aba8-2e9616b32593",
+        "code": "5b818477d8cb",
+        "type": "session_end",
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 0,
+        "rounds": 0,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "dry",
+        "pruned": 0
+      }
+    },
+    "934a3c47-a6d7-4ddb-97bd-669ce2ab978a": {
+      "code": "5b818477d8cb",
+      "first": "2026-09-21T09:59:45.014Z",
+      "last": "2026-09-21T10:25:29.434Z",
+      "types": {
+        "session_start": 1,
+        "act": 2471,
+        "match_start": 92,
+        "shop": 213,
+        "battle": 212,
+        "match_identified": 90,
+        "book": 212,
+        "result": 90,
+        "session_end": 1
+      },
+      "results": {
+        "draw": 4,
+        "win": 73,
+        "loss": 13
+      },
+      "handles": {
+        "ternquest_com": 42,
+        "izzat316": 25,
+        "devtony": 2,
+        "cbschulz": 2,
+        "_solcat_": 2,
+        "syaor4n": 5,
+        "lighttwrecker": 2,
+        "circles_r_phun": 2,
+        "wenakita": 2,
+        "sanwang39883": 1,
+        "bourkefloyd": 1,
+        "roostercogdick": 2,
+        "ryanjosebrosas": 2
+      },
+      "start": {
+        "ts": "2026-09-21T09:59:45.014Z",
+        "seq": 0,
+        "session": "934a3c47-a6d7-4ddb-97bd-669ce2ab978a",
+        "code": "5b818477d8cb",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ternquest_com",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-21T10:25:29.434Z",
+        "seq": 3381,
+        "session": "934a3c47-a6d7-4ddb-97bd-669ce2ab978a",
+        "code": "5b818477d8cb",
+        "type": "session_end",
+        "games": 90,
+        "wins": 73,
+        "losses": 13,
+        "draws": 4,
+        "elo": 10,
+        "actions": 1837,
+        "rounds": 212,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "signal_SIGINT"
+      }
+    },
+    "1162ae87-5a47-4aaf-8b7a-7e4a4b096ce1": {
+      "code": "5b818477d8cb",
+      "first": "2026-09-21T10:35:06.439Z",
+      "last": "2026-09-21T10:35:07.042Z",
+      "types": {
+        "session_start": 1,
+        "act": 2,
+        "match_start": 1,
+        "shop": 1,
+        "session_end": 1
+      },
+      "results": {},
+      "handles": {},
+      "start": {
+        "ts": "2026-09-21T10:35:06.439Z",
+        "seq": 0,
+        "session": "1162ae87-5a47-4aaf-8b7a-7e4a4b096ce1",
+        "code": "5b818477d8cb",
+        "type": "session_start",
+        "dry": true,
+        "start": false,
+        "prevHandle": "ternquest_com",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": 1
+      },
+      "end": {
+        "ts": "2026-09-21T10:35:07.042Z",
+        "seq": 5,
+        "session": "1162ae87-5a47-4aaf-8b7a-7e4a4b096ce1",
+        "code": "5b818477d8cb",
+        "type": "session_end",
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "elo": 0,
+        "actions": 0,
+        "rounds": 0,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "dry",
+        "pruned": 0
+      }
+    },
+    "1469af9c-4dcb-4666-b490-8b84bbbdbed0": {
+      "code": "5b818477d8cb",
+      "first": "2026-09-21T10:35:07.053Z",
+      "last": "2026-09-21T13:09:12.777Z",
+      "types": {
+        "session_start": 1,
+        "act": 16163,
+        "match_start": 585,
+        "shop": 1416,
+        "battle": 1416,
+        "match_identified": 584,
+        "book": 1416,
+        "result": 584,
+        "session_end": 1
+      },
+      "results": {
+        "win": 486,
+        "loss": 70,
+        "draw": 28
+      },
+      "handles": {
+        "izzat316": 176,
+        "ternquest_com": 256,
+        "syaor4n": 38,
+        "circles_r_phun": 4,
+        "bhootsumant": 14,
+        "devtony": 9,
+        "_solcat_": 9,
+        "ryanjosebrosas": 5,
+        "lighttwrecker": 8,
+        "cbschulz": 8,
+        "amanverma235979": 8,
+        "wenakita": 8,
+        "sanwang39883": 8,
+        "bourkefloyd": 6,
+        "darren_bryant": 6,
+        "legacynical": 8,
+        "ms0242808": 7,
+        "iijanchan": 1,
+        "eliancodex": 1,
+        "outtherefan": 2,
+        "qilir4": 2
+      },
+      "start": {
+        "ts": "2026-09-21T10:35:07.053Z",
+        "seq": 0,
+        "session": "1469af9c-4dcb-4666-b490-8b84bbbdbed0",
+        "code": "5b818477d8cb",
+        "type": "session_start",
+        "dry": false,
+        "start": true,
+        "prevHandle": "ternquest_com",
+        "book": "/workspace/thursday-arena/memory/book.json",
+        "games": null
+      },
+      "end": {
+        "ts": "2026-09-21T13:09:12.777Z",
+        "seq": 22165,
+        "session": "1469af9c-4dcb-4666-b490-8b84bbbdbed0",
+        "code": "5b818477d8cb",
+        "type": "session_end",
+        "games": 584,
+        "wins": 486,
+        "losses": 70,
+        "draws": 28,
+        "elo": 492,
+        "actions": 12055,
+        "rounds": 1416,
+        "dropped": 0,
+        "aiMatches": 0,
+        "exitReason": "max_steps",
+        "pruned": 0
+      }
+    }
+  },
+  "types": {
+    "session_start": 42,
+    "act": 113712,
+    "match_start": 8088,
+    "shop": 10295,
+    "battle": 13290,
+    "result": 4377,
+    "session_end": 41,
+    "error": 7,
+    "queue_next": 405,
+    "match_identified": 1289,
+    "book": 3091
+  },
+  "malformed": []
+}

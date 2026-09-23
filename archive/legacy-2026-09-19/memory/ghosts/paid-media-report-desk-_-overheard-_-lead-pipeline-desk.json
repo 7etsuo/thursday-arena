@@ -1,0 +1,58 @@
+{
+  "fp": "paid media report desk | overheard | lead pipeline desk",
+  "seats": [
+    {
+      "name": "paid media report desk",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 5,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sk1nl4b"
+  ],
+  "matchups": {
+    "recipe-deal-inspector__love__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-19T00:02:24.532Z",
+      "lastResult": "loss"
+    },
+    "recipe-nightly-audit-engineer__webby__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-19T00:02:41.948Z",
+      "lastResult": "loss"
+    },
+    "recipe-company-docs-q-a__call-follow-ups__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T00:03:29.792Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__call-follow-ups__writing-bot",
+  "plays": 3,
+  "updated": "2026-09-19T00:03:29.792Z"
+}

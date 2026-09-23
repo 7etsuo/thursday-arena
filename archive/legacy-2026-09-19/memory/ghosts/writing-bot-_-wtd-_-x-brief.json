@@ -1,0 +1,58 @@
+{
+  "fp": "writing bot | wtd | x brief",
+  "seats": [
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "arkaene"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__wtd__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:21:43.735Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__nightly-audit-engineer__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:22:12.712Z",
+      "lastResult": "win"
+    },
+    "recipe-game-art-director__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T00:22:39.867Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-game-art-director__call-follow-ups__wtd",
+  "plays": 3,
+  "updated": "2026-09-19T00:22:39.867Z"
+}

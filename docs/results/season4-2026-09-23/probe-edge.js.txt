@@ -1,0 +1,26 @@
+'use strict';
+const fs=require('fs'),crypto=require('crypto');
+const root='/home/tetsuo/grok/thursday-arena',base='/tmp/arena-fixes-20260923/s4';
+const cat=require(root+'/lib/catalog'),shop=require(root+'/lib/shop_model'),sim=require(root+'/lib/sim');
+const template=JSON.parse(fs.readFileSync(base+'/simple-0.json')).reply.state;
+const cases=[];
+for(const [id,round] of [['6cc43929-622b-4397-98a4-07699eb04c9c',0],['82e7ff54-1c4f-4ef3-b4ef-fb041ed792a4',1]]){
+ const r=JSON.parse(fs.readFileSync(base+'/public/'+id+'.json')).rounds[round];
+ cases.push({label:'public-current:'+id,round,board:r.you,ghostBoard:r.them,seats:round?{front:'hotSeat',middle:'warmUp',back:'quietZone'}:{front:'warmUp',middle:'quietZone',back:'slowBurn'}});
+}
+const bot=kit=>cat.getCatalog().find(b=>b.kitId===kit),unit=(b,i,extra={})=>({botId:b.id,uid:i,atk:3,hp:5,tempAtk:0,honey:false,...extra});
+for(const kit of ['dog_ear','bookmark']) for(const hp of [1,3]) cases.push({label:`faint:${kit}:${hp}`,board:[unit(bot(kit),1,{hp}),unit(bot('hand_off'),2,{hp:20}),unit(bot('hand_off'),3,{hp:20})]});
+for(let i=0;i<8;i++)cases.push({label:'alchemist-mutiny:'+i,round:2,seed:1500+i,board:[unit(bot('pivot'),1,{atk:10,hp:30}),unit(cat.getCatalog().find(b=>b.crew==='ops'),2,{fusedWith:cat.getCatalog().find(b=>b.crew==='builders').id}),unit(bot('hand_off'),3)],relics:['alchemist']});
+const session=crypto.randomUUID();
+(async()=>{for(const c of cases){
+ const round=c.round||0;
+ const before={...structuredClone(template),phase:{kind:'shop',round},board:c.board.map((u,i)=>({...u,uid:i+1,tempAtk:u.tempAtk||0})),nextUid:4,captain:'trainer',relics:c.relics||[],seed:c.seed||701,results:round===2?['you','them']:round===1?['them']:[],wins:{you:round===2?1:0,them:round?1:0}};
+ delete before.captainOffer;delete before.captainShop;
+ if(c.seats)before.seats=c.seats;if(c.ghostBoard)before.ghostBoard=c.ghostBoard;
+ await new Promise(r=>setTimeout(r,1200));const action={type:'endShop'};
+ const response=await fetch('https://thursdayarena.com/api/arena/practice',{method:'POST',headers:{'content-type':'application/json','x-practice-session':session},body:JSON.stringify({state:before,action})});
+ if(!response.ok)throw Error(await response.text());const after=(await response.json()).state;
+ const r={label:c.label,before,action,after};fs.appendFileSync(base+'/edge-cases.jsonl',JSON.stringify(r)+'\n');
+ const out=sim.simulate(shop.simUnits(shop.normalize(before)),after.ghostBoard.map(u=>cat.toSimUnit(u,4)),{season:4,round,seats:shop.seatsFrom(after),ourCaptain:after.captain,theirCaptain:after.rivalCaptain,ourRelics:after.relics,theirRelics:after.rivalRelics});
+ console.log(c.label,JSON.stringify(out.frames)===JSON.stringify(after.phase.frames),'enemyOverride',JSON.stringify(c.ghostBoard)===JSON.stringify(after.ghostBoard),after.phase.frames.filter(f=>/pocket|strips|leaves/.test(f.caption)).map(f=>f.caption));
+}})().catch(e=>{console.error(e);process.exitCode=1});

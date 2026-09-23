@@ -1,0 +1,599 @@
+{
+  "n": 100,
+  "results": {
+    "draw": 4,
+    "win": 93,
+    "loss": 3
+  },
+  "kit_triples": [
+    [
+      [
+        "bulk",
+        "echo",
+        "hype"
+      ],
+      8
+    ],
+    [
+      [
+        "bulk",
+        "echo",
+        "echo"
+      ],
+      5
+    ],
+    [
+      [
+        "flamingo",
+        "echo",
+        "hype"
+      ],
+      3
+    ],
+    [
+      [
+        "grow",
+        "echo",
+        "echo"
+      ],
+      3
+    ],
+    [
+      [
+        "grow",
+        "hype",
+        "grow"
+      ],
+      3
+    ],
+    [
+      [
+        "grow",
+        "guard",
+        "hype"
+      ],
+      3
+    ],
+    [
+      [
+        "flamingo",
+        "hype",
+        "hype"
+      ],
+      2
+    ],
+    [
+      [
+        "peacock",
+        "cover",
+        "grow"
+      ],
+      2
+    ],
+    [
+      [
+        "patch",
+        "wake",
+        "wake"
+      ],
+      2
+    ],
+    [
+      [
+        "grow",
+        "hype",
+        "sting"
+      ],
+      2
+    ],
+    [
+      [
+        "bulk",
+        "wake",
+        "hype"
+      ],
+      2
+    ],
+    [
+      [
+        "first_seat",
+        "echo",
+        "sidestep"
+      ],
+      1
+    ],
+    [
+      [
+        "bulk",
+        "echo",
+        "guard"
+      ],
+      1
+    ],
+    [
+      [
+        "peacock",
+        "guard",
+        "hold_the_line"
+      ],
+      1
+    ],
+    [
+      [
+        "flamingo",
+        "echo",
+        "echo"
+      ],
+      1
+    ],
+    [
+      [
+        "hype",
+        "hype",
+        "last_word"
+      ],
+      1
+    ],
+    [
+      [
+        "backtap",
+        "echo",
+        "echo"
+      ],
+      1
+    ],
+    [
+      [
+        "flamingo",
+        "echo",
+        "hold_the_line"
+      ],
+      1
+    ],
+    [
+      [
+        "grow",
+        "guard",
+        "echo"
+      ],
+      1
+    ],
+    [
+      [
+        "flamingo",
+        "wake",
+        "cover"
+      ],
+      1
+    ]
+  ],
+  "name_triples": [
+    [
+      [
+        "Credit Card Max",
+        "WTD",
+        "Paid Media Report Desk"
+      ],
+      2
+    ],
+    [
+      [
+        "Sales Call Coach",
+        "Deal Inspector",
+        "Apple Search Ads Review"
+      ],
+      2
+    ],
+    [
+      [
+        "Imogen",
+        "Meeting Recap Deck",
+        "Writing Bot"
+      ],
+      2
+    ],
+    [
+      [
+        "Lingxi's Engineer Bot",
+        "Call Follow-Ups",
+        "Pipeline Pulse"
+      ],
+      1
+    ],
+    [
+      [
+        "Webby",
+        "X Brief",
+        "Tradbot"
+      ],
+      1
+    ],
+    [
+      [
+        "Sales Call Coach",
+        "Company Docs Q&A",
+        "Office Ops Desk"
+      ],
+      1
+    ],
+    [
+      [
+        "The Morning Newspaper",
+        "Meeting Recap Deck",
+        "Projects Manager"
+      ],
+      1
+    ],
+    [
+      [
+        "The Morning Newspaper",
+        "X Brief",
+        "Cooper"
+      ],
+      1
+    ],
+    [
+      [
+        "WTD",
+        "Projects Manager",
+        "Account Research Desk"
+      ],
+      1
+    ],
+    [
+      [
+        "Credit Card Max",
+        "Cooper",
+        "Cooper"
+      ],
+      1
+    ],
+    [
+      [
+        "Imogen",
+        "Cooper",
+        "Cooper"
+      ],
+      1
+    ],
+    [
+      [
+        "Imogen",
+        "Cooper",
+        "Luma Pages"
+      ],
+      1
+    ],
+    [
+      [
+        "Overheard",
+        "Meeting Recap Deck",
+        "Cooper"
+      ],
+      1
+    ],
+    [
+      [
+        "The Morning Newspaper",
+        "X Brief",
+        "Office Ops Desk"
+      ],
+      1
+    ],
+    [
+      [
+        "Credit Card Max",
+        "Company Docs Q&A",
+        "X Brief"
+      ],
+      1
+    ],
+    [
+      [
+        "Webby",
+        "Cooper",
+        "Luma Pages"
+      ],
+      1
+    ],
+    [
+      [
+        "Copy Humanizer",
+        "Video Edit Desk",
+        "GTM Loop Closer"
+      ],
+      1
+    ],
+    [
+      [
+        "Hiring Signals",
+        "Ad Spend Watch",
+        "Call Follow-Ups"
+      ],
+      1
+    ],
+    [
+      [
+        "Critiquito: Design Critique",
+        "Company Docs Q&A",
+        "Video Edit Desk"
+      ],
+      1
+    ],
+    [
+      [
+        "Credit Card Max",
+        "Cooper",
+        "WTD"
+      ],
+      1
+    ]
+  ],
+  "units": [
+    [
+      "WTD",
+      20
+    ],
+    [
+      "Credit Card Max",
+      18
+    ],
+    [
+      "Call Follow-Ups",
+      17
+    ],
+    [
+      "Cooper",
+      17
+    ],
+    [
+      "Meeting Recap Deck",
+      15
+    ],
+    [
+      "Webby",
+      14
+    ],
+    [
+      "The Morning Newspaper",
+      12
+    ],
+    [
+      "Imogen",
+      11
+    ],
+    [
+      "Writing Bot",
+      11
+    ],
+    [
+      "Company Docs Q&A",
+      9
+    ],
+    [
+      "Luma Pages",
+      9
+    ],
+    [
+      "Copy Humanizer",
+      9
+    ],
+    [
+      "GTM Loop Closer",
+      9
+    ],
+    [
+      "X Brief",
+      7
+    ],
+    [
+      "Projects Manager",
+      7
+    ],
+    [
+      "Paid Media Report Desk",
+      7
+    ],
+    [
+      "Apple Search Ads Review",
+      7
+    ],
+    [
+      "Video Edit Desk",
+      6
+    ],
+    [
+      "Ad Spend Watch",
+      6
+    ],
+    [
+      "Sales Call Coach",
+      5
+    ],
+    [
+      "Office Ops Desk",
+      5
+    ],
+    [
+      "figma bro",
+      5
+    ],
+    [
+      "Account Research Desk",
+      4
+    ],
+    [
+      "Critiquito: Design Critique",
+      4
+    ],
+    [
+      "NYC Parent",
+      4
+    ]
+  ],
+  "kits": [
+    [
+      "echo",
+      56
+    ],
+    [
+      "hype",
+      47
+    ],
+    [
+      "grow",
+      32
+    ],
+    [
+      "bulk",
+      29
+    ],
+    [
+      "flamingo",
+      21
+    ],
+    [
+      "cover",
+      16
+    ],
+    [
+      "wake",
+      15
+    ],
+    [
+      "guard",
+      12
+    ],
+    [
+      "sting",
+      10
+    ],
+    [
+      "peacock",
+      7
+    ],
+    [
+      "last_word",
+      6
+    ],
+    [
+      "patch",
+      6
+    ],
+    [
+      "hold_the_line",
+      5
+    ],
+    [
+      "first_seat",
+      3
+    ],
+    [
+      "backtap",
+      3
+    ],
+    [
+      "spotlight",
+      3
+    ],
+    [
+      "sidestep",
+      2
+    ],
+    [
+      "pin",
+      2
+    ],
+    [
+      "dodo",
+      2
+    ],
+    [
+      "snowball",
+      1
+    ]
+  ],
+  "front_kit": [
+    [
+      "grow",
+      23
+    ],
+    [
+      "bulk",
+      22
+    ],
+    [
+      "flamingo",
+      19
+    ],
+    [
+      "peacock",
+      7
+    ],
+    [
+      "sting",
+      5
+    ],
+    [
+      "hype",
+      3
+    ],
+    [
+      "backtap",
+      3
+    ],
+    [
+      "spotlight",
+      3
+    ],
+    [
+      "patch",
+      2
+    ],
+    [
+      "first_seat",
+      1
+    ],
+    [
+      "cover",
+      1
+    ],
+    [
+      "pin",
+      1
+    ],
+    [
+      "guard",
+      1
+    ],
+    [
+      "sidestep",
+      1
+    ],
+    [
+      "last_word",
+      1
+    ]
+  ],
+  "food": {
+    "none": 177,
+    "honey": 83,
+    "potato": 19
+  },
+  "honey_seats": {
+    "back": 43,
+    "front": 15,
+    "mid": 25
+  },
+  "potato_seats": {
+    "front": 16,
+    "mid": 2,
+    "back": 1
+  },
+  "overlap": {
+    "0": 83,
+    "1": 9,
+    "2": 1
+  },
+  "limitation": "Public API exposes round boards (atk/hp/honey/potato/tempAtk) but NOT shop buys/sells/rerolls/freezes. Shop path is inferred from board deltas between rounds only."
+}

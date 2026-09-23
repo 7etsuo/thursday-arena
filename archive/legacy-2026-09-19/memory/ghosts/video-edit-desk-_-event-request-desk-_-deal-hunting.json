@@ -1,0 +1,82 @@
+{
+  "fp": "video edit desk | event request desk | deal hunting",
+  "seats": [
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "austenxmadison"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__company-docs-q-a__love": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:53:59.101Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__luma-pages__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:54:09.413Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:54:40.698Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__credit-card-max__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:54:49.464Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:55:07.972Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__office-ops-desk__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:55:13.100Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__luma-pages__writing-bot",
+  "plays": 6,
+  "updated": "2026-09-18T22:55:19.964Z"
+}

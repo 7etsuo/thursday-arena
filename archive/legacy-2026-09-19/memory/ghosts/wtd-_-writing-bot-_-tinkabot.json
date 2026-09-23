@@ -1,0 +1,90 @@
+{
+  "fp": "wtd | writing bot | tinkabot",
+  "seats": [
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "tinkabot",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "petex47"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__product-support-inbox-assistant__game-art-director": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": 0,
+      "last": "2026-09-19T05:08:28.535Z",
+      "lastResult": "draw"
+    },
+    "recipe-office-ops-desk__x-brief__writing-bot": {
+      "wins": 2,
+      "losses": 2,
+      "draws": 2,
+      "elo": 2,
+      "last": "2026-09-19T05:14:17.170Z",
+      "lastResult": "draw"
+    },
+    "recipe-the-morning-newspaper__wtd__paid-media-report-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 1,
+      "elo": -14,
+      "last": "2026-09-19T05:15:17.210Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__office-ops-desk__company-docs-q-a": {
+      "wins": 3,
+      "losses": 0,
+      "draws": 1,
+      "elo": 48,
+      "last": "2026-09-19T05:17:15.686Z",
+      "lastResult": "win"
+    },
+    "recipe-luma-pages__credit-card-max__customer-call-coach-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T05:18:21.494Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__x-brief__office-ops-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 2,
+      "elo": -16,
+      "last": "2026-09-19T05:19:37.945Z",
+      "lastResult": "draw"
+    },
+    "recipe-gtm-loop-closer__webby__meeting-recap-deck": {
+      "wins": 2,
+      "losses": 1,
+      "draws": 1,
+      "elo": 16,
+      "last": "2026-09-19T05:20:33.205Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-luma-pages__credit-card-max__customer-call-coach-assistant",
+  "plays": 21,
+  "updated": "2026-09-19T05:20:33.205Z"
+}

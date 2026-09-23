@@ -1,0 +1,17 @@
+{
+  "before": {
+    "seeded": true,
+    "backup": "/tmp/arena-fixes-20260921/bootstrap/before.json.before-s3-seed-19ce3fac-85c3-447b-a560-6a5bbffb8d39",
+    "added": 334,
+    "observations": 13730,
+    "historicalEntriesUnchanged": true,
+    "bookByteIdentical": false
+  },
+  "after": {
+    "seeded": false,
+    "reason": "Season 3 observations already present",
+    "observations": 314,
+    "historicalEntriesUnchanged": true,
+    "bookByteIdentical": true
+  }
+}

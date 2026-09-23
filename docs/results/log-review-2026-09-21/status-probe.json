@@ -1,0 +1,68 @@
+{
+  "note": "Diagnostic loaded only in memory. No application file changed. Only remove Hotfix amplification from vulnerability and venom.",
+  "battles": 2751,
+  "winners": 2751,
+  "frames": 2696,
+  "changed": [
+    {
+      "matchId": "fb4c886f-f068-4653-abf8-5b032f96d223",
+      "round": 1,
+      "opponent": "ternquest_com",
+      "result": "loss",
+      "before": "you",
+      "after": "draw",
+      "actual": "draw",
+      "framesExact": true
+    },
+    {
+      "matchId": "eb2d1ea3-ff61-47e2-9e3c-d7cd18ee8da1",
+      "round": 1,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "before": "you",
+      "after": "them",
+      "actual": "them",
+      "framesExact": false
+    },
+    {
+      "matchId": "deb895e3-fab6-4778-ae49-2e11ff01f474",
+      "round": 1,
+      "opponent": "ternquest_com",
+      "result": "loss",
+      "before": "draw",
+      "after": "them",
+      "actual": "them",
+      "framesExact": true
+    },
+    {
+      "matchId": "deb895e3-fab6-4778-ae49-2e11ff01f474",
+      "round": 2,
+      "opponent": "ternquest_com",
+      "result": "loss",
+      "before": "you",
+      "after": "them",
+      "actual": "them",
+      "framesExact": true
+    },
+    {
+      "matchId": "2b2c0184-1663-47ba-a7ac-40a55763eefd",
+      "round": 2,
+      "opponent": "s3xyfuture",
+      "result": "draw",
+      "before": "you",
+      "after": "them",
+      "actual": "them",
+      "framesExact": true
+    },
+    {
+      "matchId": "68b630e3-a3c4-4fac-b0ac-11d2d491cc39",
+      "round": 1,
+      "opponent": "izzat316",
+      "result": "draw",
+      "before": "you",
+      "after": "them",
+      "actual": "them",
+      "framesExact": true
+    }
+  ]
+}

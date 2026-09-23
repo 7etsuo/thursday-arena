@@ -1,0 +1,42 @@
+{
+  "fp": "copy humanizer | competitor watch | figma bro",
+  "seats": [
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 5,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thatretireddude"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__cooper__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T07:17:28.709Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__cooper__wtd",
+  "plays": 2,
+  "updated": "2026-09-19T07:17:28.709Z"
+}

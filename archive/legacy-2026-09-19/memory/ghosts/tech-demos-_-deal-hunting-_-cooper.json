@@ -1,0 +1,106 @@
+{
+  "fp": "tech demos | deal hunting | cooper",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "deal hunting",
+      "kit": "drain",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "poteto"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__hiring-signals__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:27:50.046Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__flora-plant-care-log__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:27:56.372Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__outbound-prospecting__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:28:04.229Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__nyc-parent__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:28:11.552Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__deal-hunting__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:28:22.347Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__wtd__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:28:30.881Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:28:38.518Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__x-brief__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:28:51.727Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__company-docs-q-a__site-audit": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:28:57.273Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__company-docs-q-a__site-audit",
+  "plays": 9,
+  "updated": "2026-09-18T12:28:57.273Z"
+}

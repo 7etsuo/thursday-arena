@@ -1,0 +1,9 @@
+{"event":"batch_start","ts":"2026-09-19T04:12:39.010Z","gamesTarget":15,"pollMs":40}
+{"event":"scout_prior","ts":"2026-09-19T04:12:39.373Z","handle":"megharammm","sightings":2,"record":"1-0-0","eloSum":6,"topKits":[{"key":"guard","n":2},{"key":"wake","n":1},{"key":"patch","n":1},{"key":"mosquito","n":1},{"key":"bulk","n":1}],"topArch":[{"key":"wake_chip","n":1},{"key":"chip_snipe","n":1}],"lastArch":"chip_snipe","lastFp":"company docs q a | outbound prospecting | imogen"}
+{"event":"observe","ts":"2026-09-19T04:12:39.374Z","phase":{"kind":"result"},"gold":0,"version":95981,"board":"0:The Morning Newspaper 2/6 | 1:Writing Bot 3/6+honey | 2:Account Research Desk 3/5","handle":"megharammm","ghostFp":"company docs q a | outbound prospecting | imogen"}
+{"event":"refuse_rematch","ts":"2026-09-19T04:12:39.559Z","handle":"megharammm","reason":"hot_field_wr","fieldWR":0.3333,"fieldGames":6,"losses":null,"wins":null,"draws":null,"cached":null}
+{"event":"refuse_rematch_batch_abort","ts":"2026-09-19T04:12:39.560Z","handle":"megharammm","reason":"hot_field_wr","fieldWR":0.3333}
+{"event":"refuse_rematch_wait_clear","ts":"2026-09-19T04:12:39.560Z","handle":"megharammm","reason":"hot_field_wr","maxMs":15000,"note":"poll_until_idle_or_new_handle_then_start"}
+{"event":"refuse_clear_poll","ts":"2026-09-19T04:12:39.852Z","phase":"result","handle":"megharammm","blocked":"megharammm","elapsedMs":292}
+{"event":"refuse_clear_timeout","ts":"2026-09-19T04:12:55.657Z","handle":"megharammm","reason":"hot_field_wr","elapsedMs":16097}
+{"event":"refuse_clear_timeout_no_restart","ts":"2026-09-19T04:12:55.911Z","blocked":"megharammm","note":"never_restart_into_deny_list"}

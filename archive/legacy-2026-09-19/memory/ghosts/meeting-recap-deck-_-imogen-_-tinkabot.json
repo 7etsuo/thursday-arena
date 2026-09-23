@@ -1,0 +1,74 @@
+{
+  "fp": "meeting recap deck | imogen | tinkabot",
+  "seats": [
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "tinkabot",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "nickhenryyy"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__tradbot__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:22:10.845Z",
+      "lastResult": "win"
+    },
+    "recipe-game-art-director__projects-manager__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:22:47.170Z",
+      "lastResult": "win"
+    },
+    "recipe-apple-search-ads-review__product-support-inbox-assistant__product-idea-stress-test": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T12:22:56.956Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__copy-humanizer__overheard": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T12:23:05.251Z",
+      "lastResult": "loss"
+    },
+    "recipe-pipeline-pulse__wtd__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-18T12:23:49.821Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-game-art-director__projects-manager__apple-search-ads-review",
+  "plays": 5,
+  "updated": "2026-09-18T12:23:49.821Z"
+}

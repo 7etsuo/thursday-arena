@@ -1,0 +1,90 @@
+{
+  "fp": "seo aeo desk | luma pages | projects manager",
+  "seats": [
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "cxrlosmonroy"
+  ],
+  "matchups": {
+    "recipe-imogen__nyc-parent__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:35:33.153Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__cooper__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:35:40.916Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__company-docs-q-a__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:35:49.032Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__hiring-signals__ai-search-visibility": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T21:36:31.080Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T21:36:40.966Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__nyc-parent__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:36:59.171Z",
+      "lastResult": "win"
+    },
+    "recipe-ai-search-visibility__video-edit-desk__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T21:37:57.319Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-ai-search-visibility__video-edit-desk__call-follow-ups",
+  "plays": 7,
+  "updated": "2026-09-18T21:37:57.319Z"
+}

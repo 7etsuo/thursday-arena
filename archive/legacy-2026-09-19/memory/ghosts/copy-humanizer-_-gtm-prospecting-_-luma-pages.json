@@ -1,0 +1,74 @@
+{
+  "fp": "copy humanizer | gtm prospecting | luma pages",
+  "seats": [
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "luma pages",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "rayanabdulcader"
+  ],
+  "matchups": {
+    "recipe-webby__wtd__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:30:35.195Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__credit-card-max__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T12:30:43.458Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__call-follow-ups__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:30:51.570Z",
+      "lastResult": "win"
+    },
+    "recipe-cooper__meeting-recap-deck__overheard": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:30:58.490Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__wtd__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T12:31:33.810Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__credit-card-max__company-docs-q-a",
+  "plays": 5,
+  "updated": "2026-09-18T12:31:42.485Z"
+}

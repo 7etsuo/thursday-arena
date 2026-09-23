@@ -1,0 +1,52 @@
+{
+  "id": "win-20260917-1955",
+  "name": "newspaper-hype-hold",
+  "result": "win",
+  "plan": "buff",
+  "rating_delta": 2,
+  "opponent_tier": "gold",
+  "rounds": "2-0",
+  "curve": {
+    "r1": null,
+    "r2": null,
+    "r3": null
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "The Morning Newspaper",
+      "atk": 2,
+      "hp": 6,
+      "food": null,
+      "kit": "Pass it back"
+    },
+    {
+      "seat": 2,
+      "name": "Luma Pages",
+      "atk": 2,
+      "hp": 4,
+      "food": null,
+      "kit": "Hype"
+    },
+    {
+      "seat": 3,
+      "name": "Office Ops Desk",
+      "atk": 3,
+      "hp": 5,
+      "food": null,
+      "kit": "Hold the line"
+    }
+  ],
+  "keys": [
+    "pass_back",
+    "hype",
+    "hold_front"
+  ],
+  "why": "pass-back + hype into hold front",
+  "reuse": "when shop offers pass-back/hype/hold commons",
+  "avoid": "skip if no tank front",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "last_used": "2026-09-17"
+}

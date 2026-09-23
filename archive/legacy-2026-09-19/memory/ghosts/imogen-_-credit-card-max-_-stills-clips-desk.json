@@ -1,0 +1,100 @@
+{
+  "fp": "imogen | credit card max | stills clips desk",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "credit card max",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mfatikk",
+    "gorandejanx9hy",
+    "skykn9"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__copy-humanizer__product-support-inbox-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:19:04.731Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__cooper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-19T01:19:23.863Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__office-ops-desk__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:19:56.785Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__webby__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:20:06.323Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__company-docs-q-a__the-morning-newspaper": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-19T01:20:31.740Z",
+      "lastResult": "draw"
+    },
+    "recipe-office-ops-desk__signal-prospector__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:20:48.915Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__lingxi-s-engineer-bot__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T01:21:07.569Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__customer-call-coach-assistant__cooper": {
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "elo": 21,
+      "last": "2026-09-19T06:59:57.855Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__customer-call-coach-assistant__cooper",
+  "plays": 9,
+  "updated": "2026-09-19T06:59:57.855Z"
+}

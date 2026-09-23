@@ -1,0 +1,43 @@
+{
+  "fp": "cooper | dial bot | imogen",
+  "seats": [
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "a_g_e_n_c",
+    "dyormoon"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__company-docs-q-a__wtd": {
+      "wins": 6,
+      "losses": 0,
+      "draws": 2,
+      "elo": 62,
+      "last": "2026-09-19T05:11:27.650Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__company-docs-q-a__wtd",
+  "plays": 8,
+  "updated": "2026-09-19T05:11:27.650Z"
+}

@@ -1,0 +1,66 @@
+{
+  "fp": "video edit desk | pipeline pulse | ai search visibility",
+  "seats": [
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "c2mlouro"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__copy-humanizer__nightly-audit-engineer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:58:50.869Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__webby__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:58:58.421Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__credit-card-max__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T20:59:09.360Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__credit-card-max__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:59:30.061Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__credit-card-max__meeting-recap-deck",
+  "plays": 4,
+  "updated": "2026-09-18T20:59:30.061Z"
+}

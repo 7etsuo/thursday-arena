@@ -1,0 +1,99 @@
+{
+  "fp": "nyc parent | writing bot | competitor watch",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "schroedad",
+    "kierandotai"
+  ],
+  "matchups": {
+    "recipe-gtm-loop-closer__apple-search-ads-review__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:29:13.657Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__webby__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:29:33.361Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__copy-humanizer__stills-clips-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T23:29:42.045Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__event-request-desk__talent-discovery": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-18T23:30:07.520Z",
+      "lastResult": "loss"
+    },
+    "recipe-customer-call-coach-assistant__outbound-prospecting__game-art-director": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-19T01:24:06.033Z",
+      "lastResult": "draw"
+    },
+    "recipe-paid-media-report-desk__credit-card-max__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:24:45.531Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__outbound-prospecting__lead-pipeline-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T01:25:29.050Z",
+      "lastResult": "loss"
+    },
+    "recipe-pipeline-pulse__signal-prospector__lingxi-s-engineer-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T01:25:39.298Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-pipeline-pulse__signal-prospector__lingxi-s-engineer-bot",
+  "plays": 8,
+  "updated": "2026-09-19T01:25:39.298Z"
+}

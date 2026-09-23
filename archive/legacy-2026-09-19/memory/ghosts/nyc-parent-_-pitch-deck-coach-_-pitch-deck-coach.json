@@ -1,0 +1,42 @@
+{
+  "fp": "nyc parent | pitch deck coach | pitch deck coach",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "pitch deck coach",
+      "kit": "last_word",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "pitch deck coach",
+      "kit": "last_word",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mitchellbwright"
+  ],
+  "matchups": {
+    "recipe-gtm-loop-closer__product-support-inbox-assistant__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T03:18:48.658Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-gtm-loop-closer__product-support-inbox-assistant__projects-manager",
+  "plays": 1,
+  "updated": "2026-09-19T03:18:48.658Z"
+}

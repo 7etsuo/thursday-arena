@@ -1,0 +1,115 @@
+{
+  "fp": "call follow ups | gtm connections | webby",
+  "seats": [
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mcafe17",
+    "muljat"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__gtm-loop-closer__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:42:32.843Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__gtm-prospecting__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:42:51.154Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__meeting-recap-deck__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:42:59.499Z",
+      "lastResult": "win"
+    },
+    "recipe-pipeline-pulse__event-request-desk__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:43:06.834Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__wtd__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:43:39.845Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__writing-bot__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:43:47.127Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__credit-card-max__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:04:55.855Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__company-docs-q-a__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:05:02.954Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__love__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:05:10.891Z",
+      "lastResult": "win"
+    },
+    "recipe-deal-inspector__credit-card-max__love": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:05:18.530Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-deal-inspector__credit-card-max__love",
+  "plays": 10,
+  "updated": "2026-09-18T23:05:28.436Z"
+}

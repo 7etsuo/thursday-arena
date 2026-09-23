@@ -1,0 +1,82 @@
+{
+  "fp": "sales call coach | sales call coach | chief health officer",
+  "seats": [
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 5,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "chief health officer",
+      "kit": "patch",
+      "atk": 3,
+      "hp": 8,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "sean64805703"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__overheard__wtd": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-18T23:47:32.080Z",
+      "lastResult": "draw"
+    },
+    "recipe-company-docs-q-a__company-docs-q-a__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T23:49:01.821Z",
+      "lastResult": "loss"
+    },
+    "recipe-copy-humanizer__company-docs-q-a__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:49:19.155Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-call-coach-assistant__webby__office-ops-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T23:49:28.587Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__wtd__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T23:49:42.001Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__apple-search-ads-review__cooper": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T23:50:11.036Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__wtd__wtd",
+  "plays": 6,
+  "updated": "2026-09-18T23:50:11.036Z"
+}

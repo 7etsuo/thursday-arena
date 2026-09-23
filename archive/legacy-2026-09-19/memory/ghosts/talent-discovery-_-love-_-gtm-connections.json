@@ -1,0 +1,58 @@
+{
+  "fp": "talent discovery | love | gtm connections",
+  "seats": [
+    {
+      "name": "talent discovery",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "dyeson_max"
+  ],
+  "matchups": {
+    "recipe-imogen__pipeline-pulse__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:12:58.148Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-call-coach-assistant__seo-aeo-desk__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:13:40.035Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__cooper__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:13:51.035Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__cooper__projects-manager",
+  "plays": 3,
+  "updated": "2026-09-18T22:13:51.035Z"
+}

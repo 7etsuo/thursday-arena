@@ -1,0 +1,38 @@
+{
+  "id": "recipe-ebr-value-deck-builder__apple-search-ads-review__executive-assistant",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "ebr value deck builder",
+      "kit": "dump",
+      "honeyWant": true
+    },
+    {
+      "seat": 1,
+      "name": "apple search ads review",
+      "kit": "grow",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "executive assistant",
+      "kit": "hype",
+      "honeyWant": true
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "dump",
+    "grow",
+    "hype"
+  ],
+  "tags": [
+    "recent_loss"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 1,
+  "elo": -30,
+  "last": "2026-09-19T03:57:01.835Z"
+}

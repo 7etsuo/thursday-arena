@@ -1,0 +1,82 @@
+{
+  "fp": "signal prospector | competitor watch | tech demos",
+  "seats": [
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "lunarcavyhvyind"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__writing-bot__apple-search-ads-review": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T02:48:55.664Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__webby__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:49:35.296Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__deal-inspector__gtm-account-research": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:49:53.906Z",
+      "lastResult": "win"
+    },
+    "recipe-x-brief__account-research-desk__apple-search-ads-review": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -13,
+      "last": "2026-09-19T02:50:02.873Z",
+      "lastResult": "draw"
+    },
+    "recipe-office-ops-desk__writing-bot__executive-assistant": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-19T02:50:32.263Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__writing-bot__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-19T02:50:44.427Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__writing-bot__the-morning-newspaper",
+  "plays": 6,
+  "updated": "2026-09-19T02:50:44.427Z"
+}

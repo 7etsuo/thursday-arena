@@ -1,0 +1,58 @@
+{
+  "fp": "webby | ai search visibility | tradbot",
+  "seats": [
+    {
+      "name": "webby",
+      "kit": "bulk",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "ai search visibility",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "tradbot",
+      "kit": "guard",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "4techx"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__webby__wtd": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": 0,
+      "last": "2026-09-19T06:57:14.742Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__credit-card-max__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T06:57:25.282Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__wtd__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T06:57:46.110Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-tradbot__wtd__projects-manager",
+  "plays": 3,
+  "updated": "2026-09-19T06:57:46.110Z"
+}

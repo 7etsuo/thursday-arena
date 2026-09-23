@@ -1,0 +1,107 @@
+{
+  "fp": "dial bot | tech demos | event request desk",
+  "seats": [
+    {
+      "name": "dial bot",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "wowbaggerv2",
+    "cbschulz"
+  ],
+  "matchups": {
+    "recipe-paid-media-report-desk__hiring-signals__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 13,
+      "last": "2026-09-18T11:41:10.410Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__the-morning-newspaper__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 12,
+      "last": "2026-09-18T11:41:28.785Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__office-ops-desk__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 11,
+      "last": "2026-09-18T11:41:35.133Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__copy-humanizer__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-18T11:41:53.350Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__signal-prospector__sales-call-coach": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-18T23:10:50.084Z",
+      "lastResult": "win"
+    },
+    "recipe-apple-search-ads-review__meeting-recap-deck__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T23:10:59.197Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__event-request-desk__critiquito-design-critique": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T23:11:07.090Z",
+      "lastResult": "win"
+    },
+    "recipe-event-request-desk__event-request-desk__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T23:11:35.830Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__flora-plant-care-log__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T23:11:42.287Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__signal-prospector__sales-call-coach",
+  "plays": 9,
+  "updated": "2026-09-18T23:11:47.363Z"
+}

@@ -1,0 +1,50 @@
+{
+  "fp": "haggle bot | gtm prospecting | recruiting coordinator",
+  "seats": [
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 7,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "gtm prospecting",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "modernlifeislov"
+  ],
+  "matchups": {
+    "recipe-tradbot__call-follow-ups__talent-discovery": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-18T22:08:56.931Z",
+      "lastResult": "draw"
+    },
+    "recipe-pipeline-pulse__pipeline-pulse__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:09:39.310Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-pipeline-pulse__pipeline-pulse__call-follow-ups",
+  "plays": 2,
+  "updated": "2026-09-18T22:09:39.310Z"
+}

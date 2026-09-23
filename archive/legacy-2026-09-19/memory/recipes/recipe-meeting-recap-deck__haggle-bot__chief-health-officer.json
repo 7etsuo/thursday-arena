@@ -1,0 +1,38 @@
+{
+  "id": "recipe-meeting-recap-deck__haggle-bot__chief-health-officer",
+  "seats": [
+    {
+      "seat": 0,
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "honeyWant": false
+    },
+    {
+      "seat": 1,
+      "name": "haggle bot",
+      "kit": "sting",
+      "honeyWant": false
+    },
+    {
+      "seat": 2,
+      "name": "chief health officer",
+      "kit": "patch",
+      "honeyWant": false
+    }
+  ],
+  "honeySeat": 0,
+  "keys": [
+    "echo",
+    "sting",
+    "patch"
+  ],
+  "tags": [
+    "recent_draw"
+  ],
+  "source": "climb",
+  "plays": 1,
+  "wins": 0,
+  "losses": 0,
+  "elo": 9,
+  "last": "2026-09-19T07:26:04.157Z"
+}

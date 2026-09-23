@@ -1,0 +1,98 @@
+{
+  "fp": "signal prospector | apple search ads review | imogen",
+  "seats": [
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "apple search ads review",
+      "kit": "grow",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ofirsela"
+  ],
+  "matchups": {
+    "recipe-credit-card-max__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:59:52.039Z",
+      "lastResult": "win"
+    },
+    "recipe-cooper__x-brief__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:00:01.188Z",
+      "lastResult": "win"
+    },
+    "recipe-overheard__luma-pages__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:00:12.187Z",
+      "lastResult": "win"
+    },
+    "recipe-meeting-recap-deck__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:00:20.329Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__call-follow-ups__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:00:25.341Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__flora-plant-care-log__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:00:32.525Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__writing-bot__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:00:44.953Z",
+      "lastResult": "win"
+    },
+    "recipe-meeting-recap-deck__cooper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:01:04.580Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-meeting-recap-deck__call-follow-ups__wtd",
+  "plays": 8,
+  "updated": "2026-09-18T23:01:04.580Z"
+}

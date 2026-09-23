@@ -1,0 +1,82 @@
+{
+  "fp": "imogen | signal prospector | meeting recap deck",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "apshirokov"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__call-follow-ups__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:49:11.301Z",
+      "lastResult": "win"
+    },
+    "recipe-paid-media-report-desk__company-docs-q-a__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:49:40.200Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__site-audit__lead-pipeline-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:49:48.323Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__webby__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:50:06.140Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__webby__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:50:27.959Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__copy-humanizer__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T20:50:34.739Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__copy-humanizer__wtd",
+  "plays": 6,
+  "updated": "2026-09-18T20:50:34.740Z"
+}

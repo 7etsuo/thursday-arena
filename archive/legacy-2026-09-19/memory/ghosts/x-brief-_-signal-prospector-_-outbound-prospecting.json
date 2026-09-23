@@ -1,0 +1,98 @@
+{
+  "fp": "x brief | signal prospector | outbound prospecting",
+  "seats": [
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "hiralp"
+  ],
+  "matchups": {
+    "recipe-imogen__writing-bot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:50:45.493Z",
+      "lastResult": "win"
+    },
+    "recipe-cooper__call-follow-ups__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:50:53.460Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__company-docs-q-a__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:51:01.503Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__webby__seo-aeo-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:51:10.176Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__company-docs-q-a__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:51:18.102Z",
+      "lastResult": "win"
+    },
+    "recipe-video-edit-desk__credit-card-max__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:51:25.773Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__credit-card-max": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:51:32.048Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__tradbot__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:51:55.569Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-copy-humanizer__tradbot__wtd",
+  "plays": 8,
+  "updated": "2026-09-18T20:51:55.569Z"
+}

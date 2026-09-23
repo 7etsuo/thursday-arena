@@ -1,0 +1,13 @@
+{"event":"batch_start","ts":"2026-09-19T04:27:22.175Z","gamesTarget":15,"pollMs":40}
+{"event":"scout_prior","ts":"2026-09-19T04:27:22.955Z","handle":"xrealtimeeng","sightings":4,"record":"0-0-2","eloSum":-52,"topKits":[{"key":"flamingo","n":4},{"key":"bulk","n":4},{"key":"echo","n":4}],"topArch":[{"key":"flamingo_pass","n":4}],"lastArch":"flamingo_pass","lastFp":"call follow ups | the morning newspaper | imogen"}
+{"event":"observe","ts":"2026-09-19T04:27:22.955Z","phase":{"kind":"result"},"gold":3,"version":96004,"board":"0:Copy Humanizer 2/5+honey | 1:Nightly Audit Engineer 4/7 | 2:Executive Assistant 2/8","handle":"xrealtimeeng","ghostFp":"call follow ups | the morning newspaper | imogen"}
+{"event":"refuse_rematch","ts":"2026-09-19T04:27:22.962Z","handle":"xrealtimeeng","reason":"consecutive_losses>=2","fieldWR":1,"fieldGames":6,"losses":2,"wins":0,"draws":null,"cached":null}
+{"event":"refuse_rematch_batch_abort","ts":"2026-09-19T04:27:22.962Z","handle":"xrealtimeeng","reason":"consecutive_losses>=2","fieldWR":1}
+{"event":"refuse_rematch_wait_clear","ts":"2026-09-19T04:27:22.963Z","handle":"xrealtimeeng","reason":"consecutive_losses>=2","maxMs":15000,"note":"poll_until_idle_or_new_handle_then_start"}
+{"event":"refuse_clear_poll","ts":"2026-09-19T04:27:23.361Z","phase":"result","handle":"xrealtimeeng","blocked":"xrealtimeeng","elapsedMs":398}
+{"event":"refuse_clear_timeout","ts":"2026-09-19T04:27:38.851Z","handle":"xrealtimeeng","reason":"consecutive_losses>=2","elapsedMs":15888}
+{"event":"refuse_clear_timeout_keep_waiting","ts":"2026-09-19T04:27:39.083Z","blocked":"xrealtimeeng","note":"poll_until_idle_no_restart_into_deny"}
+{"event":"refuse_clear_still_waiting","ts":"2026-09-19T04:28:01.506Z","phase":"result","handle":"xrealtimeeng","blocked":"xrealtimeeng"}
+{"event":"refuse_clear_still_waiting","ts":"2026-09-19T04:28:30.788Z","phase":"result","handle":"xrealtimeeng","blocked":"xrealtimeeng"}
+{"event":"refuse_clear_still_waiting","ts":"2026-09-19T04:29:31.370Z","phase":"shop","handle":"xrealtimeeng","blocked":"xrealtimeeng"}
+{"event":"refuse_clear_still_waiting","ts":"2026-09-19T04:29:30.081Z","phase":"shop","handle":"xrealtimeeng","blocked":"xrealtimeeng"}

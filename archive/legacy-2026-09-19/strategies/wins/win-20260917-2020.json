@@ -1,0 +1,53 @@
+{
+  "id": "win-20260917-2020",
+  "name": "eggbot-dump-hold",
+  "result": "win",
+  "plan": "late_spike",
+  "rating_delta": 16,
+  "opponent_tier": "gold",
+  "rounds": "2-1",
+  "curve": {
+    "r1": null,
+    "r2": null,
+    "r3": null
+  },
+  "final_board": [
+    {
+      "seat": 1,
+      "name": "dr eggbot",
+      "atk": 6,
+      "hp": 5,
+      "food": null,
+      "kit": "Spotlight"
+    },
+    {
+      "seat": 2,
+      "name": "Customer Proof Desk",
+      "atk": 3,
+      "hp": 6,
+      "food": null,
+      "kit": "Dump"
+    },
+    {
+      "seat": 3,
+      "name": "Office Ops Desk",
+      "atk": 3,
+      "hp": 5,
+      "food": null,
+      "kit": "Hold the line"
+    }
+  ],
+  "keys": [
+    "spotlight",
+    "dump",
+    "hold_front",
+    "late_epic"
+  ],
+  "why": "front spotlight epic + dump into line + hold",
+  "reuse": "t3 when dr eggbot or similar spotlight epic appears",
+  "avoid": "don't force without epic/rare open",
+  "plays": 1,
+  "wins": 1,
+  "losses": 0,
+  "last_used": "2026-09-17"
+}

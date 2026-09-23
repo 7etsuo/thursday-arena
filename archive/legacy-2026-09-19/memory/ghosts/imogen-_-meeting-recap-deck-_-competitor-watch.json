@@ -1,0 +1,90 @@
+{
+  "fp": "imogen | meeting recap deck | competitor watch",
+  "seats": [
+    {
+      "name": "imogen",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "meeting recap deck",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "competitor watch",
+      "kit": "pin",
+      "atk": 5,
+      "hp": 7,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "krzyszt49207304"
+  ],
+  "matchups": {
+    "recipe-webby__company-docs-q-a__nyc-parent": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T11:55:47.085Z",
+      "lastResult": "loss"
+    },
+    "recipe-paid-media-report-desk__tradbot__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 8,
+      "last": "2026-09-18T11:56:05.897Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__the-morning-newspaper__nightly-audit-engineer": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-18T11:56:23.854Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__office-ops-desk__projects-manager": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -24,
+      "last": "2026-09-18T11:56:35.775Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__stills-clips-desk__office-ops-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -23,
+      "last": "2026-09-18T11:56:46.834Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__wtd__paid-media-report-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -22,
+      "last": "2026-09-18T11:56:56.522Z",
+      "lastResult": "loss"
+    },
+    "recipe-apple-search-ads-review__nightly-audit-engineer__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 11,
+      "last": "2026-09-18T11:57:15.316Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-apple-search-ads-review__nightly-audit-engineer__luma-pages",
+  "plays": 7,
+  "updated": "2026-09-18T11:57:15.316Z"
+}

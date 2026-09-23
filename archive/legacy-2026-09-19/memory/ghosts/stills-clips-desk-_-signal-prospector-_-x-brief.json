@@ -1,0 +1,42 @@
+{
+  "fp": "stills clips desk | signal prospector | x brief",
+  "seats": [
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 4,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "hiralp"
+  ],
+  "matchups": {
+    "recipe-projects-manager__writing-bot__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T20:51:47.504Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-projects-manager__writing-bot__account-research-desk",
+  "plays": 1,
+  "updated": "2026-09-18T20:51:47.504Z"
+}

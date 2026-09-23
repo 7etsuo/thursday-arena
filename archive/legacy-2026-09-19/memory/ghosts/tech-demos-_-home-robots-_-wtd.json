@@ -1,0 +1,58 @@
+{
+  "fp": "tech demos | home robots | wtd",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "cwmaguire"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__luma-pages__executive-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:44:41.165Z",
+      "lastResult": "win"
+    },
+    "recipe-seo-aeo-desk__product-support-inbox-assistant__last30days": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:44:57.826Z",
+      "lastResult": "win"
+    },
+    "recipe-researchy__writing-bot__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:45:23.869Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-researchy__writing-bot__projects-manager",
+  "plays": 3,
+  "updated": "2026-09-18T23:45:23.869Z"
+}

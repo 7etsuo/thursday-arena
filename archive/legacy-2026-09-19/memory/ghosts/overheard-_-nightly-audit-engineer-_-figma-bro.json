@@ -1,0 +1,66 @@
+{
+  "fp": "overheard | nightly audit engineer | figma bro",
+  "seats": [
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "fatkiddeals"
+  ],
+  "matchups": {
+    "recipe-stills-clips-desk__wtd__projects-manager": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -9,
+      "last": "2026-09-18T21:37:09.344Z",
+      "lastResult": "draw"
+    },
+    "recipe-sales-call-coach__company-docs-q-a__recruiting-coordinator": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -8,
+      "last": "2026-09-18T21:37:28.871Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__nyc-parent__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T21:37:38.799Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__paid-media-report-desk__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 9,
+      "last": "2026-09-18T21:38:09.212Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__paid-media-report-desk__wtd",
+  "plays": 4,
+  "updated": "2026-09-18T21:38:09.212Z"
+}

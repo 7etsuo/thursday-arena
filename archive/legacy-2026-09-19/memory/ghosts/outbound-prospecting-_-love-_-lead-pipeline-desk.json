@@ -1,0 +1,50 @@
+{
+  "fp": "outbound prospecting | love | lead pipeline desk",
+  "seats": [
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "love",
+      "kit": "patch",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "lead pipeline desk",
+      "kit": "snowball",
+      "atk": 6,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "josephm95500426"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__cooper__wtd": {
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "elo": 13,
+      "last": "2026-09-19T05:30:42.594Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -17,
+      "last": "2026-09-19T05:31:28.831Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__cooper__wtd",
+  "plays": 4,
+  "updated": "2026-09-19T05:31:34.960Z"
+}

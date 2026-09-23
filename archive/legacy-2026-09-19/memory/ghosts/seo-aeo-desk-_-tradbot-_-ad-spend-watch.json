@@ -1,0 +1,114 @@
+{
+  "fp": "seo aeo desk | tradbot | ad spend watch",
+  "seats": [
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "tradbot",
+      "kit": "guard",
+      "atk": 4,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "ad spend watch",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "alexdotcom"
+  ],
+  "matchups": {
+    "recipe-paid-media-report-desk__company-docs-q-a__video-edit-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:56:29.539Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__nightly-audit-engineer__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:56:41.536Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__wtd__imogen": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-18T22:56:54.323Z",
+      "lastResult": "draw"
+    },
+    "recipe-office-ops-desk__company-docs-q-a__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:57:02.235Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__x-brief__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:57:12.492Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__tradbot__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:57:20.232Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__pipeline-pulse__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:57:27.449Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__meeting-recap-deck__recruiting-coordinator": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:57:34.383Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__x-brief__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:57:46.598Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__company-docs-q-a__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T22:57:57.639Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__tradbot__wtd",
+  "plays": 10,
+  "updated": "2026-09-18T22:57:57.639Z"
+}

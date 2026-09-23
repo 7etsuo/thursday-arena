@@ -1,0 +1,13 @@
+{
+  "archive": "thursday-arena-all-logs-20260921-142758.tgz",
+  "archiveSha256": "5ada40a3e28da9ac25f3e07aa6b34acb23fe0006c04258716b8bc4ff8831f64f",
+  "rulesUrl": "https://thursdayarena.com/rules.md",
+  "rulesSha256": "96c19348db99e10534e4ee2233557435537d7a223423b17eaed592279df832c8",
+  "catalogUrl": "https://thursdayarena.com/api/catalog",
+  "catalogSha256": "5dfdcae128bd669e25f60eddd9021a5bf02971ab1c1a4c2b174a6250b14c7e94",
+  "itemsUrl": "https://thursdayarena.com/api/items",
+  "itemsSha256": "8dd98a9ef4325ae06e399b20073bc4036a901656e461b77e59e6f0a29f83121b",
+  "cards": 179,
+  "items": 19,
+  "baselineReleaseSha256": "159548dc9c4f84f018cee3574ba814ec63ec17b0618b5f4a7799b381904fa054"
+}

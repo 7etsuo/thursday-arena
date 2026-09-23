@@ -1,0 +1,42 @@
+{
+  "fp": "dr eggbot | x brief | partnerships call coach",
+  "seats": [
+    {
+      "name": "dr eggbot",
+      "kit": "spotlight",
+      "atk": 6,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "partnerships call coach",
+      "kit": "spotlight",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "resqun11"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__copy-humanizer__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T12:59:34.561Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__copy-humanizer__projects-manager",
+  "plays": 1,
+  "updated": "2026-09-18T12:59:34.561Z"
+}

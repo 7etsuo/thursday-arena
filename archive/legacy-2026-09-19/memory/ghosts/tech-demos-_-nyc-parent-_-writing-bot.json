@@ -1,0 +1,130 @@
+{
+  "fp": "tech demos | nyc parent | writing bot",
+  "seats": [
+    {
+      "name": "tech demos",
+      "kit": "first_seat",
+      "atk": 6,
+      "hp": 2,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jeffp2662"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__wtd__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:10:41.094Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:12:25.368Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__x-brief__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:12:33.798Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__event-request-desk__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:13:31.958Z",
+      "lastResult": "win"
+    },
+    "recipe-critiquito-design-critique__seo-aeo-desk__meeting-recap-deck": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T01:13:47.684Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__writing-bot__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:14:10.985Z",
+      "lastResult": "win"
+    },
+    "recipe-wtd__the-morning-newspaper__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:14:36.077Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__event-request-desk__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:14:44.258Z",
+      "lastResult": "win"
+    },
+    "recipe-stalk-bot__gtm-loop-closer__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -29,
+      "last": "2026-09-19T01:15:09.510Z",
+      "lastResult": "loss"
+    },
+    "recipe-event-request-desk__meeting-recap-deck__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:15:15.842Z",
+      "lastResult": "win"
+    },
+    "recipe-stalk-bot__flora-plant-care-log__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:16:25.340Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__seo-aeo-desk__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-19T01:16:30.810Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__seo-aeo-desk__x-brief",
+  "plays": 12,
+  "updated": "2026-09-19T01:16:30.811Z"
+}

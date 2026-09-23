@@ -1,0 +1,58 @@
+{
+  "fp": "stills clips desk | cooper | call follow ups",
+  "seats": [
+    {
+      "name": "stills clips desk",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 7,
+      "honey": false
+    },
+    {
+      "name": "cooper",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "truongluongvinh"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 1,
+      "elo": -31,
+      "last": "2026-09-19T07:04:05.758Z",
+      "lastResult": "loss"
+    },
+    "recipe-webby__x-brief__xsfbsprfkv5h909uzrv7w": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T07:03:18.363Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 1,
+      "elo": -32,
+      "last": "2026-09-19T07:05:06.518Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 7,
+  "updated": "2026-09-19T07:05:06.518Z"
+}

@@ -1,0 +1,106 @@
+{
+  "fp": "call follow ups | seo aeo desk | haggle bot",
+  "seats": [
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "almurray24"
+  ],
+  "matchups": {
+    "recipe-call-follow-ups__writing-bot__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:19:40.168Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__imogen__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:19:51.782Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__cooper__recruiting-coordinator": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:19:59.005Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__the-morning-newspaper__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:20:05.503Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__webby__copy-humanizer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:20:13.600Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__credit-card-max__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:21:58.733Z",
+      "lastResult": "win"
+    },
+    "recipe-x-brief__writing-bot__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:22:07.890Z",
+      "lastResult": "win"
+    },
+    "recipe-credit-card-max__company-docs-q-a__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:22:16.021Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__stills-clips-desk__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:22:21.701Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__stills-clips-desk__writing-bot",
+  "plays": 9,
+  "updated": "2026-09-18T21:22:21.701Z"
+}

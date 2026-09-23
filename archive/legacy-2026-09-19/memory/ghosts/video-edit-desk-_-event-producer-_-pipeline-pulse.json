@@ -1,0 +1,42 @@
+{
+  "fp": "video edit desk | event producer | pipeline pulse",
+  "seats": [
+    {
+      "name": "video edit desk",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "theretardedelon"
+  ],
+  "matchups": {
+    "recipe-cooper__cooper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T04:48:04.307Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-cooper__cooper__wtd",
+  "plays": 1,
+  "updated": "2026-09-19T04:48:04.307Z"
+}

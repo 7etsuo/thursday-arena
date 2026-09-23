@@ -1,0 +1,66 @@
+{
+  "fp": "last30days | talent discovery | overheard",
+  "seats": [
+    {
+      "name": "last30days",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "talent discovery",
+      "kit": "snowball",
+      "atk": 4,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ykcxx00"
+  ],
+  "matchups": {
+    "recipe-webby__the-morning-newspaper__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 11,
+      "last": "2026-09-18T11:48:13.060Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__apple-search-ads-review__cooper": {
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "elo": -44,
+      "last": "2026-09-18T11:48:48.428Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__video-edit-desk__love": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 11,
+      "last": "2026-09-18T11:49:09.760Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 10,
+      "last": "2026-09-18T11:49:44.280Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__video-edit-desk__love",
+  "plays": 5,
+  "updated": "2026-09-18T11:49:44.280Z"
+}

@@ -1,0 +1,98 @@
+{
+  "fp": "gtm connections | call follow ups | product support inbox assistant",
+  "seats": [
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thewife_"
+  ],
+  "matchups": {
+    "recipe-paid-media-report-desk__luma-pages__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T11:25:24.047Z",
+      "lastResult": "win"
+    },
+    "recipe-stalk-bot__video-edit-desk__luma-pages": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-18T11:25:37.587Z",
+      "lastResult": "draw"
+    },
+    "recipe-pipeline-pulse__webby__office-ops-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -28,
+      "last": "2026-09-18T11:25:48.874Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__gtm-loop-closer__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:26:00.911Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__customer-proof-desk__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T11:26:13.419Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__imogen__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:26:27.753Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__credit-card-max__x-brief": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T11:26:39.046Z",
+      "lastResult": "draw"
+    },
+    "recipe-stalk-bot__luma-pages__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T11:26:56.864Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-stalk-bot__luma-pages__projects-manager",
+  "plays": 8,
+  "updated": "2026-09-18T11:26:56.864Z"
+}

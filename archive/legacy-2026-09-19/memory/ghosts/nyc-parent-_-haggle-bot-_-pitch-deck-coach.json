@@ -1,0 +1,50 @@
+{
+  "fp": "nyc parent | haggle bot | pitch deck coach",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "haggle bot",
+      "kit": "sting",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "pitch deck coach",
+      "kit": "last_word",
+      "atk": 6,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "youz00n"
+  ],
+  "matchups": {
+    "recipe-credit-card-max__gtm-loop-closer__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:11:13.830Z",
+      "lastResult": "win"
+    },
+    "recipe-deal-inspector__call-follow-ups__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T22:12:21.546Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-deal-inspector__call-follow-ups__writing-bot",
+  "plays": 2,
+  "updated": "2026-09-18T22:12:21.546Z"
+}

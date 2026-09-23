@@ -1,0 +1,98 @@
+{
+  "fp": "signal prospector | clip bot | outbound prospecting",
+  "seats": [
+    {
+      "name": "signal prospector",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "clip bot",
+      "kit": "wake",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "savanc"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__nyc-parent__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:47:07.851Z",
+      "lastResult": "win"
+    },
+    "recipe-event-request-desk__writing-bot__account-research-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:47:17.359Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__cooper__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:47:25.159Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:47:31.128Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__cooper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:47:39.170Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__wtd__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:47:47.221Z",
+      "lastResult": "win"
+    },
+    "recipe-flora-plant-care-log__video-edit-desk__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:47:54.360Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__credit-card-max__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T21:48:03.027Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__nyc-parent__nyc-parent",
+  "plays": 8,
+  "updated": "2026-09-18T21:48:03.027Z"
+}

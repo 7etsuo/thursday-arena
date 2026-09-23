@@ -1,0 +1,82 @@
+{
+  "fp": "sales call coach | projects manager | researchy",
+  "seats": [
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 6,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "researchy",
+      "kit": "last_word",
+      "atk": 3,
+      "hp": 7,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "thefieldpass"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__copy-humanizer__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -19,
+      "last": "2026-09-18T21:26:04.689Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__gtm-loop-closer__paid-media-report-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -2,
+      "last": "2026-09-18T21:26:16.859Z",
+      "lastResult": "draw"
+    },
+    "recipe-webby__copy-humanizer__gtm-loop-closer": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -2,
+      "last": "2026-09-18T21:26:36.344Z",
+      "lastResult": "draw"
+    },
+    "recipe-nyc-parent__seo-aeo-desk__x-brief": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -17,
+      "last": "2026-09-18T21:26:52.990Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__pipeline-pulse__luma-pages": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -17,
+      "last": "2026-09-18T21:27:01.844Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__the-morning-newspaper__deal-inspector": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -15,
+      "last": "2026-09-18T21:27:38.628Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-webby__copy-humanizer__gtm-loop-closer",
+  "plays": 6,
+  "updated": "2026-09-18T21:27:38.628Z"
+}

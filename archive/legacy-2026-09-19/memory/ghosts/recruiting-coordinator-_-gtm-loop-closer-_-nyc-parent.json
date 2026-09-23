@@ -1,0 +1,58 @@
+{
+  "fp": "recruiting coordinator | gtm loop closer | nyc parent",
+  "seats": [
+    {
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "gtm loop closer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "pwnedfarm"
+  ],
+  "matchups": {
+    "recipe-imogen__deal-hunting__nyc-parent": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:52:03.850Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__flora-plant-care-log__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:52:15.160Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__deal-inspector__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-19T02:53:13.196Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__deal-inspector__meeting-recap-deck",
+  "plays": 3,
+  "updated": "2026-09-19T02:53:13.196Z"
+}

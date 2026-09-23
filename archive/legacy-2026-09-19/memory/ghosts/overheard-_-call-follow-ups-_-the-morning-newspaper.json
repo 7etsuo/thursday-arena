@@ -1,0 +1,50 @@
+{
+  "fp": "overheard | call follow ups | the morning newspaper",
+  "seats": [
+    {
+      "name": "overheard",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "angelogiove"
+  ],
+  "matchups": {
+    "recipe-writing-bot__webby__executive-assistant": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-18T22:15:28.255Z",
+      "lastResult": "draw"
+    },
+    "recipe-customer-call-coach-assistant__hiring-signals__wtd": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -12,
+      "last": "2026-09-18T22:16:02.434Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-customer-call-coach-assistant__hiring-signals__wtd",
+  "plays": 2,
+  "updated": "2026-09-18T22:16:02.434Z"
+}

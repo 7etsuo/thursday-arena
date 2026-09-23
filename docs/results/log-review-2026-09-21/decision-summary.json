@@ -1,0 +1,381 @@
+{
+  "rows": 2751,
+  "frameExactRows": 2686,
+  "predictionSummary": {
+    "all": {
+      "n": 2751,
+      "known": 2703,
+      "covered": 1607,
+      "latest": 1606,
+      "frequency": 816,
+      "latestMass": 0.583787713558706,
+      "frequencyMass": 0.25678024362269497
+    },
+    "later": {
+      "n": 1602,
+      "known": 1554,
+      "covered": 1195,
+      "latest": 1194,
+      "frequency": 661,
+      "latestMass": 0.7453183520599251,
+      "frequencyMass": 0.36276825000657753
+    },
+    "laterTernquest": {
+      "n": 610,
+      "known": 610,
+      "covered": 437,
+      "latest": 436,
+      "frequency": 128,
+      "latestMass": 0.7147540983606557,
+      "frequencyMass": 0.1667726088669795
+    },
+    "laterLosses": {
+      "n": 160,
+      "known": 154,
+      "covered": 77,
+      "latest": 77,
+      "frequency": 23,
+      "latestMass": 0.48125,
+      "frequencyMass": 0.1293712921793692
+    },
+    "first": {
+      "n": 1149,
+      "known": 1149,
+      "covered": 412,
+      "latest": 412,
+      "frequency": 155,
+      "latestMass": 0.35857267188859876,
+      "frequencyMass": 0.10900584307702137
+    }
+  },
+  "seatingRescues": 179,
+  "seatingRescuesInLostMatches": 48,
+  "targetReseatDifferent": 0,
+  "stopChecks": 1012,
+  "stopImprovements": [],
+  "neutralUpgrades": [
+    {
+      "matchId": "b12a3393-14cb-48cf-95b8-25fafac8dfc5",
+      "round": 2,
+      "opponent": "izzat316",
+      "result": "win",
+      "gold": 3,
+      "series": {
+        "you": 1,
+        "them": 0
+      },
+      "baseOffense": 1,
+      "newOffense": 1,
+      "baseNeutral": 0.998263888888889,
+      "newNeutral": 1,
+      "actions": [
+        {
+          "type": "feed",
+          "boardIndex": 0
+        }
+      ]
+    },
+    {
+      "matchId": "24630ccb-957b-4d35-9727-41799ed3ecea",
+      "round": 2,
+      "opponent": "izzat316",
+      "result": "win",
+      "gold": 5,
+      "series": {
+        "you": 1,
+        "them": 0
+      },
+      "baseOffense": 0.99,
+      "newOffense": 0.99,
+      "baseNeutral": 0.9566666666666666,
+      "newNeutral": 0.9833333333333334,
+      "actions": [
+        {
+          "type": "feed",
+          "boardIndex": 0
+        }
+      ]
+    },
+    {
+      "matchId": "3a3903ca-4b91-4eb4-b367-e7dac580dae3",
+      "round": 2,
+      "opponent": "izzat316",
+      "result": "win",
+      "gold": 4,
+      "series": {
+        "you": 1,
+        "them": 0
+      },
+      "baseOffense": 0.9833333333333334,
+      "newOffense": 0.9833333333333334,
+      "baseNeutral": 0.9566666666666668,
+      "newNeutral": 0.9833333333333334,
+      "actions": [
+        {
+          "type": "feed",
+          "boardIndex": 2
+        }
+      ]
+    },
+    {
+      "matchId": "04e6c04a-afc1-43bc-bab1-29c0e43e941d",
+      "round": 2,
+      "opponent": "ryanjosebrosas",
+      "result": "win",
+      "gold": 6,
+      "series": {
+        "you": 1,
+        "them": 0
+      },
+      "baseOffense": 0.9565217391304349,
+      "newOffense": 0.9565217391304349,
+      "baseNeutral": 0.9043478260869566,
+      "newNeutral": 0.9217391304347827,
+      "actions": [
+        {
+          "type": "sell",
+          "boardIndex": 2
+        },
+        {
+          "type": "buy",
+          "shopIndex": 2
+        }
+      ]
+    },
+    {
+      "matchId": "f1fbda02-b379-420c-b3ca-1b45a0ddf99e",
+      "round": 2,
+      "opponent": "ryanjosebrosas",
+      "result": "win",
+      "gold": 4,
+      "series": {
+        "you": 1,
+        "them": 0
+      },
+      "baseOffense": 0.9772727272727273,
+      "newOffense": 0.9772727272727273,
+      "baseNeutral": 0.9379370629370629,
+      "newNeutral": 0.951923076923077,
+      "actions": [
+        {
+          "type": "equip",
+          "boardIndex": 0
+        }
+      ]
+    },
+    {
+      "matchId": "f33aba56-af0f-4468-a55f-768a8edc5339",
+      "round": 2,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "gold": 3,
+      "series": {
+        "you": 1,
+        "them": 0
+      },
+      "baseOffense": 0.9791666666666667,
+      "newOffense": 0.9791666666666667,
+      "baseNeutral": 0.5798611111111116,
+      "newNeutral": 0.9791666666666667,
+      "actions": [
+        {
+          "type": "feed",
+          "boardIndex": 2
+        }
+      ]
+    },
+    {
+      "matchId": "01ebd536-365a-4a23-ad38-9c616566254e",
+      "round": 2,
+      "opponent": "izzat316",
+      "result": "win",
+      "gold": 4,
+      "series": {
+        "you": 1,
+        "them": 0
+      },
+      "baseOffense": 0.9776422764227642,
+      "newOffense": 0.9776422764227642,
+      "baseNeutral": 0.9664634146341462,
+      "newNeutral": 0.9684959349593496,
+      "actions": [
+        {
+          "type": "sell",
+          "boardIndex": 2
+        },
+        {
+          "type": "buy",
+          "shopIndex": 0
+        }
+      ]
+    },
+    {
+      "matchId": "d6f79df2-f9ce-401c-96dd-ba883a8e8d29",
+      "round": 2,
+      "opponent": "izzat316",
+      "result": "draw",
+      "gold": 3,
+      "series": {
+        "you": 0,
+        "them": 1
+      },
+      "baseOffense": 0.9758064516129032,
+      "newOffense": 0.9758064516129032,
+      "baseNeutral": 0.9758064516129032,
+      "newNeutral": 0.9768145161290324,
+      "actions": [
+        {
+          "type": "sell",
+          "boardIndex": 2
+        },
+        {
+          "type": "buy",
+          "shopIndex": 2
+        }
+      ]
+    },
+    {
+      "matchId": "1abdc83b-ff23-44fb-bf93-8c3560427d54",
+      "round": 2,
+      "opponent": "izzat316",
+      "result": "win",
+      "gold": 5,
+      "series": {
+        "you": 1,
+        "them": 0
+      },
+      "baseOffense": 0.962890625,
+      "newOffense": 0.962890625,
+      "baseNeutral": 0.9375,
+      "newNeutral": 0.9404296875,
+      "actions": [
+        {
+          "type": "feed",
+          "boardIndex": 0
+        }
+      ]
+    },
+    {
+      "matchId": "68199ffc-c10e-4a3c-89fb-2392ff2666e7",
+      "round": 2,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "gold": 7,
+      "series": {
+        "you": 1,
+        "them": 0
+      },
+      "baseOffense": 0.9765625,
+      "newOffense": 0.9765625,
+      "baseNeutral": 0.9671874999999999,
+      "newNeutral": 0.9679687499999999,
+      "actions": [
+        {
+          "type": "equip",
+          "boardIndex": 2
+        }
+      ]
+    },
+    {
+      "matchId": "372e40f1-8936-4428-9626-5990cee1a293",
+      "round": 2,
+      "opponent": "izzat316",
+      "result": "draw",
+      "gold": 4,
+      "series": {
+        "you": 0,
+        "them": 1
+      },
+      "baseOffense": 0.9051094890510949,
+      "newOffense": 0.9051094890510949,
+      "baseNeutral": 0.9051094890510949,
+      "newNeutral": 0.9133211678832117,
+      "actions": [
+        {
+          "type": "feed",
+          "boardIndex": 2
+        }
+      ]
+    },
+    {
+      "matchId": "b6276494-c506-4eb0-a606-c57891019571",
+      "round": 2,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "gold": 4,
+      "series": {
+        "you": 1,
+        "them": 0
+      },
+      "baseOffense": 0.9851190476190477,
+      "newOffense": 0.9851190476190477,
+      "baseNeutral": 0.9702380952380953,
+      "newNeutral": 0.9784226190476192,
+      "actions": [
+        {
+          "type": "feed",
+          "boardIndex": 2
+        }
+      ]
+    },
+    {
+      "matchId": "a91878a7-6ce0-4aeb-b298-8fbcc72ba1c5",
+      "round": 2,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "gold": 3,
+      "series": {
+        "you": 1,
+        "them": 0
+      },
+      "baseOffense": 0.9944444444444445,
+      "newOffense": 0.9944444444444445,
+      "baseNeutral": 0.9805555555555555,
+      "newNeutral": 0.9881944444444445,
+      "actions": [
+        {
+          "type": "equip",
+          "boardIndex": 1
+        }
+      ]
+    }
+  ],
+  "hindsightMoves": [
+    {
+      "matchId": "04e6c04a-afc1-43bc-bab1-29c0e43e941d",
+      "round": 2,
+      "opponent": "ryanjosebrosas",
+      "result": "win",
+      "gold": 6,
+      "actual": 0.5,
+      "seatingOnly": 0.5,
+      "afterMove": 1,
+      "actions": [
+        {
+          "type": "sell",
+          "boardIndex": 0
+        },
+        {
+          "type": "buy",
+          "shopIndex": 0
+        }
+      ]
+    },
+    {
+      "matchId": "f33aba56-af0f-4468-a55f-768a8edc5339",
+      "round": 2,
+      "opponent": "ternquest_com",
+      "result": "win",
+      "gold": 3,
+      "actual": 0.5,
+      "seatingOnly": 0.5,
+      "afterMove": 1,
+      "actions": [
+        {
+          "type": "feed",
+          "boardIndex": 2
+        }
+      ]
+    }
+  ]
+}

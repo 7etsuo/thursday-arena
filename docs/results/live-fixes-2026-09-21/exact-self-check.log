@@ -1,0 +1,6 @@
+S3 paired mock: 39 complete trajectories, 2 handle-disjoint folds, 1 seeds × 1 games/fold; budget=Infinity; baseline vs current self-check
+fold 0: held-out 20 trajectories / 11 handles; train 283 boards
+fold 1: held-out 19 trajectories / 10 handles; train 328 boards
+baseline W2 L0 D0 score=1.0000; candidate W2 L0 D0 score=1.0000
+paired delta=0.0000 seed-clustered 95% interval [NaN, NaN] n=2 better=0 worse=0 same=2
+illegal 0/0; fillable-short shops 0/0; 18.2s

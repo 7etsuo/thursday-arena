@@ -1,0 +1,50 @@
+{
+  "fp": "pipeline pulse | outbound prospecting | skippy",
+  "seats": [
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "skippy",
+      "kit": "sidestep",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "jordanj603"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "elo": 48,
+      "last": "2026-09-19T05:48:36.078Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__writing-bot__wtd": {
+      "wins": 1,
+      "losses": 1,
+      "draws": 0,
+      "elo": 0,
+      "last": "2026-09-19T05:51:17.729Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 5,
+  "updated": "2026-09-19T05:55:14.368Z"
+}

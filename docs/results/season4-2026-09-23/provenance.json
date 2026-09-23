@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-09-23",
+  "sources": [
+    "https://thursdayarena.com/rules.md",
+    "https://thursdayarena.com/api/season",
+    "https://thursdayarena.com/api/catalog",
+    "https://thursdayarena.com/api/items"
+  ],
+  "practiceEndpoint": "https://thursdayarena.com/api/arena/practice",
+  "ratedGamesPlayed": 0,
+  "independentBattleFixture": {
+    "file": "test/fixtures/season4-controlled-20260923.json.gz",
+    "battles": 395
+  },
+  "shopFixture": {
+    "file": "test/fixtures/season4-shops-20260923.json.gz",
+    "transitions": 101
+  },
+  "driverFixture": {
+    "file": "test/fixtures/season4-live-practice-20260923.json.gz",
+    "matches": 7,
+    "battles": 17,
+    "wins": 3,
+    "losses": 3,
+    "draws": 1
+  },
+  "publicDiagnostic": {
+    "matches": 49,
+    "players": 12,
+    "rounds": 119,
+    "exactTraceCandidates": 117,
+    "uniqueSeatAssignments": 96,
+    "ambiguousSeatAssignments": 21,
+    "unmatchedHistoricalTraces": 2,
+    "unmatchedWinnersCorrect": 2,
+    "completeInputs": false
+  },
+  "sha256": {
+    "test/fixtures/season4-shops-20260923.json.gz": "5e08b83c9b19735d69df9e682cb362884495d0702703d3f840998a02e980a5f4",
+    "test/fixtures/season4-controlled-20260923.json.gz": "925ebd33faf6803a76e80fc4a3e6b211b9558683f897fda12e5eed8c0ae073df",
+    "test/fixtures/season4-live-practice-20260923.json.gz": "c428a1eb1400a8b575e411231a54108b5931bf68b3992e9eece0ec23b1b0eef3",
+    "data/corpus/s4_opponents_20260923.json": "55cd7820e609e00da648ca9bd25634e7350305ceffeb108ef65c291c6bc303f0",
+    "data/corpus/s4_public_matches_20260923.json.gz": "3aa088f6c4f3723ee4b3daaf4163cc20c38c7487c88f0456109455bd8d8243be"
+  },
+  "finalSourceCheck": {
+    "rules": "96207bb98e723ba1e4c5832507c0ef8934330f877d1e35d4437413f156f9ee88",
+    "catalog": "5f6c3334908309a55720c6c3029fbf457ccc802d97b69895f5f408b721647a43",
+    "items": "cae888e66895da6703be80d8b6c16a22eb8dceca097a2367a53face61f48937c"
+  },
+  "allSourcesUnchangedAtFinalCheck": true
+}

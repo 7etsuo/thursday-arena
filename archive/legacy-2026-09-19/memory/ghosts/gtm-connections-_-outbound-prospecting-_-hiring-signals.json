@@ -1,0 +1,106 @@
+{
+  "fp": "gtm connections | outbound prospecting | hiring signals",
+  "seats": [
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "outbound prospecting",
+      "kit": "mosquito",
+      "atk": 5,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "hiring signals",
+      "kit": "backtap",
+      "atk": 4,
+      "hp": 2,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "edtadros"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__office-ops-desk__product-support-inbox-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:22:22.241Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-loop-closer__company-docs-q-a__signal-prospector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:22:29.278Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__apple-search-ads-review__tradbot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:22:36.248Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__tradbot__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:22:44.951Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:22:52.809Z",
+      "lastResult": "win"
+    },
+    "recipe-gtm-prospecting__x-brief__love": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:23:02.305Z",
+      "lastResult": "win"
+    },
+    "recipe-webby__seo-aeo-desk__deal-inspector": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 3,
+      "last": "2026-09-18T23:23:10.211Z",
+      "lastResult": "win"
+    },
+    "recipe-stills-clips-desk__webby__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T23:23:18.704Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__stills-clips-desk__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 2,
+      "last": "2026-09-18T23:23:25.454Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-webby__seo-aeo-desk__deal-inspector",
+  "plays": 9,
+  "updated": "2026-09-18T23:23:31.379Z"
+}

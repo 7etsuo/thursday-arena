@@ -1,0 +1,114 @@
+{
+  "fp": "wtd | writing bot | x brief",
+  "seats": [
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "writing bot",
+      "kit": "hype",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "x brief",
+      "kit": "echo",
+      "atk": 2,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "petex47"
+  ],
+  "matchups": {
+    "recipe-the-morning-newspaper__paid-media-report-desk__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T05:08:36.420Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__wtd__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T05:08:51.749Z",
+      "lastResult": "win"
+    },
+    "recipe-office-ops-desk__x-brief__writing-bot": {
+      "wins": 0,
+      "losses": 4,
+      "draws": 0,
+      "elo": -61,
+      "last": "2026-09-19T05:14:24.252Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__office-ops-desk__company-docs-q-a": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 17,
+      "last": "2026-09-19T05:15:26.086Z",
+      "lastResult": "win"
+    },
+    "recipe-customer-call-coach-assistant__webby__wtd": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T05:15:33.856Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__writing-bot__webby": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T05:17:41.475Z",
+      "lastResult": "win"
+    },
+    "recipe-luma-pages__credit-card-max__customer-call-coach-assistant": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T05:17:59.663Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__x-brief__office-ops-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T05:18:37.599Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__seo-aeo-desk__ai-search-visibility": {
+      "wins": 1,
+      "losses": 1,
+      "draws": 0,
+      "elo": 0,
+      "last": "2026-09-19T05:19:27.289Z",
+      "lastResult": "loss"
+    },
+    "recipe-gtm-loop-closer__webby__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T05:19:46.923Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-gtm-loop-closer__webby__meeting-recap-deck",
+  "plays": 14,
+  "updated": "2026-09-19T05:20:29.704Z"
+}

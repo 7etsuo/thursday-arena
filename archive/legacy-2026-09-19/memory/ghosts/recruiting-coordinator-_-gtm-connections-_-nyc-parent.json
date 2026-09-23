@@ -1,0 +1,58 @@
+{
+  "fp": "recruiting coordinator | gtm connections | nyc parent",
+  "seats": [
+    {
+      "name": "recruiting coordinator",
+      "kit": "dodo",
+      "atk": 4,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "gtm connections",
+      "kit": "dodo",
+      "atk": 2,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "mr76104919"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__tradbot__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T23:13:21.014Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__product-support-inbox-assistant__meeting-recap-deck": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:13:31.548Z",
+      "lastResult": "win"
+    },
+    "recipe-copy-humanizer__the-morning-newspaper__hiring-signals": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 4,
+      "last": "2026-09-18T23:13:58.214Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-company-docs-q-a__tradbot__alfred",
+  "plays": 3,
+  "updated": "2026-09-18T23:13:58.214Z"
+}

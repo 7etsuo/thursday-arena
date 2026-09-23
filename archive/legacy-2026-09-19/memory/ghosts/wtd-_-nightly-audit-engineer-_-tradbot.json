@@ -1,0 +1,106 @@
+{
+  "fp": "wtd | nightly audit engineer | tradbot",
+  "seats": [
+    {
+      "name": "wtd",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "nightly audit engineer",
+      "kit": "cover",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "tradbot",
+      "kit": "guard",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ajamracing"
+  ],
+  "matchups": {
+    "recipe-nyc-parent__cooper__projects-manager": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:50:48.951Z",
+      "lastResult": "win"
+    },
+    "recipe-cooper__projects-manager__alfred": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:51:02.341Z",
+      "lastResult": "win"
+    },
+    "recipe-the-morning-newspaper__event-request-desk__partnerships-call-coach": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T21:51:13.019Z",
+      "lastResult": "draw"
+    },
+    "recipe-copy-humanizer__credit-card-max__x-brief": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:51:21.636Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__meeting-recap-deck__gtm-loop-closer": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 5,
+      "last": "2026-09-18T21:51:31.624Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__nyc-parent__nyc-parent": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -27,
+      "last": "2026-09-18T21:51:44.765Z",
+      "lastResult": "loss"
+    },
+    "recipe-credit-card-max__x-brief__account-research-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -11,
+      "last": "2026-09-18T21:51:56.873Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__cooper__projects-manager": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": -10,
+      "last": "2026-09-18T21:52:08.715Z",
+      "lastResult": "draw"
+    },
+    "recipe-the-morning-newspaper__projects-manager__the-morning-newspaper": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:52:22.004Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-the-morning-newspaper__projects-manager__the-morning-newspaper",
+  "plays": 9,
+  "updated": "2026-09-18T21:52:22.004Z"
+}

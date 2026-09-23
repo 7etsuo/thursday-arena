@@ -1,0 +1,11 @@
+eval_versions games/seed=10 seeds=101,103,107,109,113 season=3 budget=Infinity mock=current book=cold
+before=/tmp/arena-fixes-20260923/before
+  S3 seed=101: before={"win":7,"loss":2,"draw":1} current={"win":7,"loss":2,"draw":1} score=0.750/0.750 pairedDelta=0.0000 bookRecords=27/26 rounds=27/26 elapsed=44.5s
+  S3 seed=103: before={"win":9,"loss":1,"draw":0} current={"win":9,"loss":1,"draw":0} score=0.900/0.900 pairedDelta=0.0000 bookRecords=24/25 rounds=24/25 elapsed=102.2s
+  S3 seed=107: before={"win":6,"loss":3,"draw":1} current={"win":6,"loss":3,"draw":1} score=0.650/0.650 pairedDelta=0.0000 bookRecords=26/26 rounds=26/26 elapsed=152.8s
+  S3 seed=109: before={"win":6,"loss":4,"draw":0} current={"win":7,"loss":3,"draw":0} score=0.600/0.700 pairedDelta=0.1000 bookRecords=25/25 rounds=25/25 elapsed=205.2s
+  S3 seed=113: before={"win":6,"loss":3,"draw":1} current={"win":7,"loss":2,"draw":1} score=0.650/0.750 pairedDelta=0.1000 bookRecords=25/26 rounds=25/26 elapsed=260.3s
+S3 n=50: before W34 L13 D3 winRate=0.6800 matchScore=0.7100; current W36 L11 D3 winRate=0.7200 matchScore=0.7500
+  paired score delta current-before=0.0400 95% seed-clustered CI [-0.0280, 0.1080] (exploratory match-level CI [-0.0332, 0.1132]) better=4 worse=1 same=45
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /tmp/arena-fixes-20260923/s3-training.csv

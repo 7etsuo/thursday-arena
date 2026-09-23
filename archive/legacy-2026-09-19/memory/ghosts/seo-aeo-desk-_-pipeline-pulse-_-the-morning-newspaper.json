@@ -1,0 +1,82 @@
+{
+  "fp": "seo aeo desk | pipeline pulse | the morning newspaper",
+  "seats": [
+    {
+      "name": "seo aeo desk",
+      "kit": "pin",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "pipeline pulse",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "the morning newspaper",
+      "kit": "flamingo",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "orangepeel"
+  ],
+  "matchups": {
+    "recipe-copy-humanizer__event-request-desk__projects-manager": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 4,
+      "elo": 0,
+      "last": "2026-09-19T05:35:25.924Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__product-support-inbox-assistant__wtd": {
+      "wins": 2,
+      "losses": 0,
+      "draws": 1,
+      "elo": 32,
+      "last": "2026-09-19T05:37:07.198Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__writing-bot__projects-manager": {
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T05:39:59.069Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__writing-bot__office-ops-desk": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 1,
+      "elo": 0,
+      "last": "2026-09-19T05:39:21.013Z",
+      "lastResult": "draw"
+    },
+    "recipe-imogen__cooper__wtd": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T05:41:13.372Z",
+      "lastResult": "loss"
+    },
+    "recipe-the-morning-newspaper__wtd__imogen": {
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T05:42:08.780Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__product-support-inbox-assistant__wtd",
+  "plays": 15,
+  "updated": "2026-09-19T05:42:08.780Z"
+}

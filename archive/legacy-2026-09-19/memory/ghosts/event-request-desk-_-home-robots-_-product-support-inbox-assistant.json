@@ -1,0 +1,66 @@
+{
+  "fp": "event request desk | home robots | product support inbox assistant",
+  "seats": [
+    {
+      "name": "event request desk",
+      "kit": "sidestep",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "home robots",
+      "kit": "first_seat",
+      "atk": 5,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "product support inbox assistant",
+      "kit": "patch",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "ferjgm98"
+  ],
+  "matchups": {
+    "recipe-office-ops-desk__the-morning-newspaper__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:59:14.450Z",
+      "lastResult": "win"
+    },
+    "recipe-tradbot__company-docs-q-a__call-follow-ups": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 7,
+      "last": "2026-09-18T21:59:31.232Z",
+      "lastResult": "win"
+    },
+    "recipe-company-docs-q-a__nyc-parent__luma-pages": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T21:59:40.140Z",
+      "lastResult": "win"
+    },
+    "recipe-imogen__office-ops-desk__paid-media-report-desk": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 6,
+      "last": "2026-09-18T22:00:15.245Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-tradbot__company-docs-q-a__call-follow-ups",
+  "plays": 4,
+  "updated": "2026-09-18T22:00:15.245Z"
+}

@@ -1,0 +1,42 @@
+{
+  "fp": "nyc parent | event producer | call follow ups",
+  "seats": [
+    {
+      "name": "nyc parent",
+      "kit": "bulk",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "call follow ups",
+      "kit": "echo",
+      "atk": 3,
+      "hp": 4,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "corn39933860"
+  ],
+  "matchups": {
+    "recipe-imogen__cooper__wtd": {
+      "wins": 2,
+      "losses": 0,
+      "draws": 2,
+      "elo": 31,
+      "last": "2026-09-19T06:59:41.084Z",
+      "lastResult": "draw"
+    }
+  },
+  "bestRecipeId": "recipe-imogen__cooper__wtd",
+  "plays": 4,
+  "updated": "2026-09-19T06:59:41.084Z"
+}

@@ -1,0 +1,58 @@
+{
+  "fp": "copy humanizer | figma bro | projects manager",
+  "seats": [
+    {
+      "name": "copy humanizer",
+      "kit": "flamingo",
+      "atk": 3,
+      "hp": 6,
+      "honey": false
+    },
+    {
+      "name": "figma bro",
+      "kit": "wake",
+      "atk": 4,
+      "hp": 4,
+      "honey": false
+    },
+    {
+      "name": "projects manager",
+      "kit": "hype",
+      "atk": 3,
+      "hp": 5,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "rodamn"
+  ],
+  "matchups": {
+    "recipe-company-docs-q-a__writing-bot__writing-bot": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-19T02:01:51.692Z",
+      "lastResult": "loss"
+    },
+    "recipe-imogen__writing-bot__office-ops-desk": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -26,
+      "last": "2026-09-19T02:02:32.893Z",
+      "lastResult": "loss"
+    },
+    "recipe-nyc-parent__office-ops-desk__executive-assistant": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -25,
+      "last": "2026-09-19T02:03:43.456Z",
+      "lastResult": "loss"
+    }
+  },
+  "bestRecipeId": "recipe-nyc-parent__office-ops-desk__executive-assistant",
+  "plays": 3,
+  "updated": "2026-09-19T02:03:43.456Z"
+}

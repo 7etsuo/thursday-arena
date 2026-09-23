@@ -1,0 +1,66 @@
+{
+  "fp": "event producer | sales call coach | company docs q a",
+  "seats": [
+    {
+      "name": "event producer",
+      "kit": "spite",
+      "atk": 3,
+      "hp": 3,
+      "honey": false
+    },
+    {
+      "name": "sales call coach",
+      "kit": "peacock",
+      "atk": 6,
+      "hp": 5,
+      "honey": false
+    },
+    {
+      "name": "company docs q a",
+      "kit": "guard",
+      "atk": 2,
+      "hp": 6,
+      "honey": false
+    }
+  ],
+  "handles": [
+    "aurinkern"
+  ],
+  "matchups": {
+    "recipe-imogen__flora-plant-care-log__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T04:45:48.988Z",
+      "lastResult": "win"
+    },
+    "recipe-nyc-parent__company-docs-q-a__company-docs-q-a": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T04:45:57.081Z",
+      "lastResult": "loss"
+    },
+    "recipe-company-docs-q-a__pipeline-pulse__meeting-recap-deck": {
+      "wins": 0,
+      "losses": 1,
+      "draws": 0,
+      "elo": -16,
+      "last": "2026-09-19T04:46:43.421Z",
+      "lastResult": "loss"
+    },
+    "recipe-office-ops-desk__x-brief__writing-bot": {
+      "wins": 1,
+      "losses": 0,
+      "draws": 0,
+      "elo": 16,
+      "last": "2026-09-19T04:46:57.715Z",
+      "lastResult": "win"
+    }
+  },
+  "bestRecipeId": "recipe-office-ops-desk__x-brief__writing-bot",
+  "plays": 4,
+  "updated": "2026-09-19T04:47:03.862Z"
+}
