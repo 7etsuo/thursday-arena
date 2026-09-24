@@ -10,9 +10,9 @@
  * whole-match sample size in docs/HISTORY.md. No network or rated games are used.
  *
  *   node tools/eval_versions.js [--before-tgz PATH | --before-dir PATH]
- *     [--games 50] [--seeds 101,103,...,197] [--season 1|2|3|both]
+ *     [--games 50] [--seeds 101,103,...,197] [--season 1|2|3|4|both]
  *     [--budget Infinity] [--book-mode cold|snapshots] [--late-id] [--csv PATH]
- *     [--planner-options JSON_FILE]
+ *     [--planner-options JSON_FILE] [--sudden-death]
  *
  * The old code is run with its own driver, planner, book, target, shop model and
  * simulator; the arena applies actions and fights using the current rules for
@@ -53,6 +53,7 @@ function parseArgs(argv) {
     else if (a === '--scenarios') o.scenarios = JSON.parse(fs.readFileSync(path.resolve(value()), 'utf8'));
     else if (a === '--freeze-before') o.freezeBefore = true;
     else if (a === '--late-id') o.lateId = true;
+    else if (a === '--sudden-death') o.suddenDeath = true;
     else if (a === '--csv') o.csv = path.resolve(value());
     else if (a === '--planner-options') {
       o.plannerOpts = JSON.parse(fs.readFileSync(path.resolve(value()), 'utf8'));
@@ -124,7 +125,8 @@ async function play(modules, season, seed, opt) {
     if (opt.initialBook || opt.bookMode === 'snapshots') {
       fs.copyFileSync(opt.initialBook || path.join(modules.root, 'memory/book.json'), bookFile);
     }
-    const arena = mock.create({ seed, season, ghosts: opt.scenarios, ghostSequence: !!opt.scenarios });
+    const arena = mock.create({ seed, season, ghosts: opt.scenarios, ghostSequence: !!opt.scenarios,
+      suddenDeath: !!opt.suddenDeath });
     const modelEpoch = Date.UTC(2026, 8, 24);
     let scenarioIndex = 0, modelTime = Date.parse(opt.scenarios?.[0]?.ts);
     if (!Number.isFinite(modelTime)) modelTime = modelEpoch;

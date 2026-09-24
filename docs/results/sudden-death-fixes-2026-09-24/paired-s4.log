@@ -1,0 +1,8 @@
+eval_versions games/seed=10 seeds=271,277 season=4 budget=Infinity mock=current book=cold
+before=/tmp/arena-sudden-fixes-20260924
+  S4 seed=271: before={"win":9,"loss":0,"draw":1} current={"win":9,"loss":0,"draw":1} score=0.950/0.950 pairedDelta=0.0000 bookRecords=22/22 rounds=22/22 elapsed=260.8s
+  S4 seed=277: before={"win":9,"loss":1,"draw":0} current={"win":9,"loss":1,"draw":0} score=0.900/0.900 pairedDelta=0.0000 bookRecords=21/21 rounds=21/21 elapsed=476.3s
+S4 n=20: before W18 L1 D1 winRate=0.9000 matchScore=0.9250; current W18 L1 D1 winRate=0.9000 matchScore=0.9250
+  paired score delta current-before=0.0000 95% seed-clustered CI [0.0000, 0.0000] (exploratory match-level CI [0.0000, 0.0000]) better=0 worse=0 same=20
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /home/tetsuo/grok/thursday-arena/docs/results/sudden-death-fixes-2026-09-24/paired-s4.csv

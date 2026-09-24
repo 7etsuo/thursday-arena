@@ -1,0 +1,948 @@
+{
+  "generatedAt": "2026-09-24",
+  "researchOnly": true,
+  "productionChange": false,
+  "conclusion": "Retain latest-only same-handle targeting. Small uncertainty tails improve forecast Brier and win calibration, but no tested variant improves fixed-board seating on both chronological cohorts; later-cohort seating is worse for the strongest forecast candidates.",
+  "inputs": {
+    "warmup": "/tmp/arena-log-review-20260924-000457/records/data/log/2026-09-23.jsonl",
+    "evaluation": "/tmp/arena-log-review-20260924-133808/records/data/log/2026-09-24.jsonl",
+    "sha256": {
+      "warmup": "69425890b494e7aa6f027b8a51ffd79bec57f0381bd17ac4c73efd38fbfbc500",
+      "evaluation": "3134b7159890c8961b0e4053db4cbf7e568d565fe7598025a093b8d229aed489"
+    }
+  },
+  "reproduction": "node tools/research_s4_uncertainty.js --old-log /tmp/arena-log-review-20260924-000457/records/data/log/2026-09-23.jsonl --new-log /tmp/arena-log-review-20260924-133808/records/data/log/2026-09-24.jsonl --out /tmp/research-s4-uncertainty.json",
+  "baseline": {
+    "originalAuditArtifact": {
+      "shops": 393,
+      "targetCountMatches": 393,
+      "targetWeightMatches": 393,
+      "forecasts": 349,
+      "forecastMatches": 349
+    },
+    "researchRounds0to2": {
+      "holdoutShopsR0to2": 392,
+      "targetCountMatches": 392,
+      "targetWeightMatches": 392,
+      "loggedForecasts": 349,
+      "forecastComponentMatches": 349,
+      "recent1BookMatches": 349
+    }
+  },
+  "method": {
+    "warmup": "September 23 observations are causal warm-up only.",
+    "development": "Earlier September 24 code cohort (432 completed matches).",
+    "laterComparison": "Later September 24 code cohort (177 completed matches).",
+    "primaryComparison": "Hold the logged book blend weight fixed; compare candidate same-handle support with latest-only through the same corrected simulator.",
+    "interval": "5,000 seeded bootstrap resamples clustered by match.",
+    "seating": "For the actually played final board, compare corrected latest-only and candidate best seating against the subsequently observed opponent board.",
+    "safeguards": [
+      "Every target and forecast uses only observations with observedAt earlier than the shop timestamp.",
+      "Captain conditioning uses only the captain visible in the current shop.",
+      "Trajectory conditioning uses only an earlier battle already observed in the same match.",
+      "No arena request, rated game, production memory write, or production strategy edit."
+    ]
+  },
+  "cohorts": {
+    "older432": {
+      "sourceMatches": 432,
+      "forecastRows": 1027,
+      "matchesWithForecastRows": 425,
+      "rounds": {
+        "0": 425,
+        "1": 410,
+        "2": 192
+      },
+      "variants": {
+        "recent1_control": {
+          "description": "latest snapshot only; negative control",
+          "rows": 1027,
+          "brier": {
+            "loggedBaseline": 0.36596975487305616,
+            "correctedLatest": 0.32687272103308224,
+            "candidate": 0.32687272103308224,
+            "deltaVsCorrectedLatest": 0,
+            "matchClusterBootstrap95": [
+              0,
+              0
+            ],
+            "deltaVsLogged": -0.03909703383997408
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.041654924984464756,
+            "candidate": 0.041654924984464756
+          },
+          "certainWinLosses": {
+            "correctedLatest": 3,
+            "candidate": 3,
+            "latestHandles": {
+              "ternquest_com": 3
+            },
+            "candidateHandles": {
+              "ternquest_com": 3
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": 0,
+          "seating": {
+            "changed": 0,
+            "better": 0,
+            "worse": 0,
+            "tied": 0,
+            "realizedPointDelta": 0,
+            "meanDeltaAmongChanged": null
+          }
+        },
+        "tail2_95": {
+          "description": "95% latest, 5% second latest",
+          "rows": 1027,
+          "brier": {
+            "loggedBaseline": 0.36596975487305616,
+            "correctedLatest": 0.32687272103308224,
+            "candidate": 0.3254656939561078,
+            "deltaVsCorrectedLatest": -0.0014070270769744578,
+            "matchClusterBootstrap95": [
+              -0.002531619065788246,
+              -0.00017121535948002423
+            ],
+            "deltaVsLogged": -0.040504060916948526
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.041654924984464756,
+            "candidate": 0.03905437800951052
+          },
+          "certainWinLosses": {
+            "correctedLatest": 3,
+            "candidate": 3,
+            "latestHandles": {
+              "ternquest_com": 3
+            },
+            "candidateHandles": {
+              "ternquest_com": 3
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.005643255424156879,
+          "seating": {
+            "changed": 7,
+            "better": 0,
+            "worse": 0,
+            "tied": 7,
+            "realizedPointDelta": 0,
+            "meanDeltaAmongChanged": 0
+          }
+        },
+        "tail2_90": {
+          "description": "90% latest, 10% second latest",
+          "rows": 1027,
+          "brier": {
+            "loggedBaseline": 0.36596975487305616,
+            "correctedLatest": 0.32687272103308224,
+            "candidate": 0.32451988941797744,
+            "deltaVsCorrectedLatest": -0.0023528316151044614,
+            "matchClusterBootstrap95": [
+              -0.004600746523085143,
+              0.00010676043476432541
+            ],
+            "deltaVsLogged": -0.04144986545507854
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.041654924984464756,
+            "candidate": 0.037360329874419854
+          },
+          "certainWinLosses": {
+            "correctedLatest": 3,
+            "candidate": 3,
+            "latestHandles": {
+              "ternquest_com": 3
+            },
+            "candidateHandles": {
+              "ternquest_com": 3
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.01041036747977787,
+          "seating": {
+            "changed": 9,
+            "better": 0,
+            "worse": 0,
+            "tied": 9,
+            "realizedPointDelta": 0,
+            "meanDeltaAmongChanged": 0
+          }
+        },
+        "tail3_90": {
+          "description": "90% latest, 5% each on next two",
+          "rows": 1027,
+          "brier": {
+            "loggedBaseline": 0.36596975487305616,
+            "correctedLatest": 0.32687272103308224,
+            "candidate": 0.3239982134464905,
+            "deltaVsCorrectedLatest": -0.002874507586591751,
+            "matchClusterBootstrap95": [
+              -0.004936138256917794,
+              -0.0004315921134039445
+            ],
+            "deltaVsLogged": -0.0419715414265658
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.041654924984464756,
+            "candidate": 0.03410104331113183
+          },
+          "certainWinLosses": {
+            "correctedLatest": 3,
+            "candidate": 3,
+            "latestHandles": {
+              "ternquest_com": 3
+            },
+            "candidateHandles": {
+              "ternquest_com": 3
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.008437278717374859,
+          "seating": {
+            "changed": 13,
+            "better": 0,
+            "worse": 0,
+            "tied": 13,
+            "realizedPointDelta": 0,
+            "meanDeltaAmongChanged": 0
+          }
+        },
+        "tail5_90": {
+          "description": "90% latest, remaining 10% equally across up to four older snapshots",
+          "rows": 1027,
+          "brier": {
+            "loggedBaseline": 0.36596975487305616,
+            "correctedLatest": 0.32687272103308224,
+            "candidate": 0.32426324267250717,
+            "deltaVsCorrectedLatest": -0.0026094783605747247,
+            "matchClusterBootstrap95": [
+              -0.004864790805299077,
+              -0.00014804657776857784
+            ],
+            "deltaVsLogged": -0.04170651220054879
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.041654924984464756,
+            "candidate": 0.03362060642062039
+          },
+          "certainWinLosses": {
+            "correctedLatest": 3,
+            "candidate": 3,
+            "latestHandles": {
+              "ternquest_com": 3
+            },
+            "candidateHandles": {
+              "ternquest_com": 3
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.008830280768023299,
+          "seating": {
+            "changed": 22,
+            "better": 1,
+            "worse": 1,
+            "tied": 20,
+            "realizedPointDelta": 0.5,
+            "meanDeltaAmongChanged": 0.022727272727272728
+          }
+        },
+        "tail5_80": {
+          "description": "80% latest, remaining 20% equally across up to four older snapshots",
+          "rows": 1027,
+          "brier": {
+            "loggedBaseline": 0.36596975487305616,
+            "correctedLatest": 0.32687272103308224,
+            "candidate": 0.323582626706035,
+            "deltaVsCorrectedLatest": -0.003290094327047382,
+            "matchClusterBootstrap95": [
+              -0.0078723259042931,
+              0.0015800829444705716
+            ],
+            "deltaVsLogged": -0.04238712816702141
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.041654924984464756,
+            "candidate": 0.04057761416168899
+          },
+          "certainWinLosses": {
+            "correctedLatest": 3,
+            "candidate": 3,
+            "latestHandles": {
+              "ternquest_com": 3
+            },
+            "candidateHandles": {
+              "ternquest_com": 3
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.01571291465756996,
+          "seating": {
+            "changed": 31,
+            "better": 1,
+            "worse": 2,
+            "tied": 28,
+            "realizedPointDelta": 0,
+            "meanDeltaAmongChanged": 0
+          }
+        },
+        "decay5_h05": {
+          "description": "up to five snapshots, half-life 0.5 observation ranks",
+          "rows": 1027,
+          "brier": {
+            "loggedBaseline": 0.36596975487305616,
+            "correctedLatest": 0.32687272103308224,
+            "candidate": 0.32336348370156853,
+            "deltaVsCorrectedLatest": -0.0035092373315133937,
+            "matchClusterBootstrap95": [
+              -0.008711296958344484,
+              0.002279264749168494
+            ],
+            "deltaVsLogged": -0.042606271171487416
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.041654924984464756,
+            "candidate": 0.03611588698403656
+          },
+          "certainWinLosses": {
+            "correctedLatest": 3,
+            "candidate": 3,
+            "latestHandles": {
+              "ternquest_com": 3
+            },
+            "candidateHandles": {
+              "ternquest_com": 3
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.018955449025284867,
+          "seating": {
+            "changed": 27,
+            "better": 0,
+            "worse": 3,
+            "tied": 24,
+            "realizedPointDelta": -2.5,
+            "meanDeltaAmongChanged": -0.09259259259259259
+          }
+        },
+        "recent2": {
+          "description": "two latest snapshots, equal weight",
+          "rows": 1027,
+          "brier": {
+            "loggedBaseline": 0.36596975487305616,
+            "correctedLatest": 0.32687272103308224,
+            "candidate": 0.3335574645113377,
+            "deltaVsCorrectedLatest": 0.0066847434782558455,
+            "matchClusterBootstrap95": [
+              -0.004688495605214646,
+              0.018771506252280835
+            ],
+            "deltaVsLogged": -0.0324122903617182
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.041654924984464756,
+            "candidate": 0.03720037476626402
+          },
+          "certainWinLosses": {
+            "correctedLatest": 3,
+            "candidate": 3,
+            "latestHandles": {
+              "ternquest_com": 3
+            },
+            "candidateHandles": {
+              "ternquest_com": 3
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.01700610265745408,
+          "seating": {
+            "changed": 31,
+            "better": 2,
+            "worse": 5,
+            "tied": 24,
+            "realizedPointDelta": -2,
+            "meanDeltaAmongChanged": -0.06451612903225806
+          }
+        },
+        "decay5_h1": {
+          "description": "up to five snapshots, half-life one observation rank",
+          "rows": 1027,
+          "brier": {
+            "loggedBaseline": 0.36596975487305616,
+            "correctedLatest": 0.32687272103308224,
+            "candidate": 0.32855005364259393,
+            "deltaVsCorrectedLatest": 0.0016773326095121197,
+            "matchClusterBootstrap95": [
+              -0.008710865886268694,
+              0.012698191598176093
+            ],
+            "deltaVsLogged": -0.03741970123046194
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.041654924984464756,
+            "candidate": 0.034979729355228056
+          },
+          "certainWinLosses": {
+            "correctedLatest": 3,
+            "candidate": 3,
+            "latestHandles": {
+              "ternquest_com": 3
+            },
+            "candidateHandles": {
+              "ternquest_com": 3
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.02242563383056034,
+          "seating": {
+            "changed": 46,
+            "better": 2,
+            "worse": 7,
+            "tied": 37,
+            "realizedPointDelta": -3,
+            "meanDeltaAmongChanged": -0.06521739130434782
+          }
+        },
+        "captain5": {
+          "description": "up to five equal snapshots, filtered to known rival captain where available",
+          "rows": 1027,
+          "brier": {
+            "loggedBaseline": 0.36596975487305616,
+            "correctedLatest": 0.32687272103308224,
+            "candidate": 0.377009123570814,
+            "deltaVsCorrectedLatest": 0.05013640253773206,
+            "matchClusterBootstrap95": [
+              0.024144576254250358,
+              0.06878285924133709
+            ],
+            "deltaVsLogged": 0.011039368697758019
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.041654924984464756,
+            "candidate": 0.039778282435035936
+          },
+          "certainWinLosses": {
+            "correctedLatest": 3,
+            "candidate": 3,
+            "latestHandles": {
+              "ternquest_com": 3
+            },
+            "candidateHandles": {
+              "ternquest_com": 3
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.02952389269111171,
+          "seating": {
+            "changed": 104,
+            "better": 7,
+            "worse": 28,
+            "tied": 69,
+            "realizedPointDelta": -15.5,
+            "meanDeltaAmongChanged": -0.14903846153846154
+          }
+        },
+        "trajectory5": {
+          "description": "up to five equal snapshots, weighted by observed prior-round board similarity",
+          "rows": 1027,
+          "brier": {
+            "loggedBaseline": 0.36596975487305616,
+            "correctedLatest": 0.32687272103308224,
+            "candidate": 0.33433831087579796,
+            "deltaVsCorrectedLatest": 0.007465589842715771,
+            "matchClusterBootstrap95": [
+              -0.008045366304475922,
+              0.024780914409367152
+            ],
+            "deltaVsLogged": -0.031631443997258306
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.041654924984464756,
+            "candidate": 0.019208313908256235
+          },
+          "certainWinLosses": {
+            "correctedLatest": 3,
+            "candidate": 3,
+            "latestHandles": {
+              "ternquest_com": 3
+            },
+            "candidateHandles": {
+              "ternquest_com": 3
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.014505089508186799,
+          "seating": {
+            "changed": 69,
+            "better": 5,
+            "worse": 15,
+            "tied": 49,
+            "realizedPointDelta": -6.5,
+            "meanDeltaAmongChanged": -0.09420289855072464
+          }
+        }
+      }
+    },
+    "newer177": {
+      "sourceMatches": 177,
+      "forecastRows": 349,
+      "matchesWithForecastRows": 173,
+      "rounds": {
+        "0": 171,
+        "1": 149,
+        "2": 29
+      },
+      "variants": {
+        "recent1_control": {
+          "description": "latest snapshot only; negative control",
+          "rows": 349,
+          "brier": {
+            "loggedBaseline": 0.20473979298748263,
+            "correctedLatest": 0.20473979298748263,
+            "candidate": 0.20473979298748263,
+            "deltaVsCorrectedLatest": 0,
+            "matchClusterBootstrap95": [
+              0,
+              0
+            ],
+            "deltaVsLogged": 1.5822425033086198e-32
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.07451059263086476,
+            "candidate": 0.07451059263086476
+          },
+          "certainWinLosses": {
+            "correctedLatest": 9,
+            "candidate": 9,
+            "latestHandles": {
+              "sodiumhyrdride": 7,
+              "qsr_cg": 1,
+              "ternquest_com": 1
+            },
+            "candidateHandles": {
+              "sodiumhyrdride": 7,
+              "qsr_cg": 1,
+              "ternquest_com": 1
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": 0,
+          "seating": {
+            "changed": 0,
+            "better": 0,
+            "worse": 0,
+            "tied": 0,
+            "realizedPointDelta": 0,
+            "meanDeltaAmongChanged": null
+          }
+        },
+        "tail2_95": {
+          "description": "95% latest, 5% second latest",
+          "rows": 349,
+          "brier": {
+            "loggedBaseline": 0.20473979298748263,
+            "correctedLatest": 0.20473979298748263,
+            "candidate": 0.20291108879056927,
+            "deltaVsCorrectedLatest": -0.0018287041969133127,
+            "matchClusterBootstrap95": [
+              -0.002965062765312446,
+              -0.00015184713801510424
+            ],
+            "deltaVsLogged": -0.0018287041969133127
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.07451059263086476,
+            "candidate": 0.07257948987658994
+          },
+          "certainWinLosses": {
+            "correctedLatest": 9,
+            "candidate": 6,
+            "latestHandles": {
+              "sodiumhyrdride": 7,
+              "qsr_cg": 1,
+              "ternquest_com": 1
+            },
+            "candidateHandles": {
+              "sodiumhyrdride": 5,
+              "ternquest_com": 1
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.007438986123852867,
+          "seating": {
+            "changed": 6,
+            "better": 0,
+            "worse": 2,
+            "tied": 4,
+            "realizedPointDelta": -1,
+            "meanDeltaAmongChanged": -0.16666666666666666
+          }
+        },
+        "tail2_90": {
+          "description": "90% latest, 10% second latest",
+          "rows": 349,
+          "brier": {
+            "loggedBaseline": 0.20473979298748263,
+            "correctedLatest": 0.20473979298748263,
+            "candidate": 0.20138584583255328,
+            "deltaVsCorrectedLatest": -0.0033539471549293397,
+            "matchClusterBootstrap95": [
+              -0.005621387363339205,
+              -0.0000716218385749061
+            ],
+            "deltaVsLogged": -0.0033539471549293397
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.07451059263086476,
+            "candidate": 0.07064838712231516
+          },
+          "certainWinLosses": {
+            "correctedLatest": 9,
+            "candidate": 6,
+            "latestHandles": {
+              "sodiumhyrdride": 7,
+              "qsr_cg": 1,
+              "ternquest_com": 1
+            },
+            "candidateHandles": {
+              "sodiumhyrdride": 5,
+              "ternquest_com": 1
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.013933490034160004,
+          "seating": {
+            "changed": 7,
+            "better": 0,
+            "worse": 2,
+            "tied": 5,
+            "realizedPointDelta": -1,
+            "meanDeltaAmongChanged": -0.14285714285714285
+          }
+        },
+        "tail3_90": {
+          "description": "90% latest, 5% each on next two",
+          "rows": 349,
+          "brier": {
+            "loggedBaseline": 0.20473979298748263,
+            "correctedLatest": 0.20473979298748263,
+            "candidate": 0.2008944094689452,
+            "deltaVsCorrectedLatest": -0.0038453835185373354,
+            "matchClusterBootstrap95": [
+              -0.005903237824981084,
+              -0.0006518896855671197
+            ],
+            "deltaVsLogged": -0.0038453835185373354
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.07451059263086476,
+            "candidate": 0.07041937444695322
+          },
+          "certainWinLosses": {
+            "correctedLatest": 9,
+            "candidate": 4,
+            "latestHandles": {
+              "sodiumhyrdride": 7,
+              "qsr_cg": 1,
+              "ternquest_com": 1
+            },
+            "candidateHandles": {
+              "sodiumhyrdride": 3,
+              "ternquest_com": 1
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.0170069889744692,
+          "seating": {
+            "changed": 11,
+            "better": 1,
+            "worse": 3,
+            "tied": 7,
+            "realizedPointDelta": -1.5,
+            "meanDeltaAmongChanged": -0.13636363636363635
+          }
+        },
+        "tail5_90": {
+          "description": "90% latest, remaining 10% equally across up to four older snapshots",
+          "rows": 349,
+          "brier": {
+            "loggedBaseline": 0.20473979298748263,
+            "correctedLatest": 0.20473979298748263,
+            "candidate": 0.2010637795439592,
+            "deltaVsCorrectedLatest": -0.003676013443523403,
+            "matchClusterBootstrap95": [
+              -0.005177377819458887,
+              -0.0007541128373495617
+            ],
+            "deltaVsLogged": -0.003676013443523403
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.07451059263086476,
+            "candidate": 0.07037671183919761
+          },
+          "certainWinLosses": {
+            "correctedLatest": 9,
+            "candidate": 2,
+            "latestHandles": {
+              "sodiumhyrdride": 7,
+              "qsr_cg": 1,
+              "ternquest_com": 1
+            },
+            "candidateHandles": {
+              "sodiumhyrdride": 1,
+              "ternquest_com": 1
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.014344819332341765,
+          "seating": {
+            "changed": 13,
+            "better": 1,
+            "worse": 3,
+            "tied": 9,
+            "realizedPointDelta": -1.5,
+            "meanDeltaAmongChanged": -0.11538461538461539
+          }
+        },
+        "tail5_80": {
+          "description": "80% latest, remaining 20% equally across up to four older snapshots",
+          "rows": 349,
+          "brier": {
+            "loggedBaseline": 0.20473979298748263,
+            "correctedLatest": 0.20473979298748263,
+            "candidate": 0.19808163889242794,
+            "deltaVsCorrectedLatest": -0.0066581540950546025,
+            "matchClusterBootstrap95": [
+              -0.009651567579879426,
+              -0.0009751360747644747
+            ],
+            "deltaVsLogged": -0.0066581540950546025
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.07451059263086476,
+            "candidate": 0.06624283104752976
+          },
+          "certainWinLosses": {
+            "correctedLatest": 9,
+            "candidate": 2,
+            "latestHandles": {
+              "sodiumhyrdride": 7,
+              "qsr_cg": 1,
+              "ternquest_com": 1
+            },
+            "candidateHandles": {
+              "sodiumhyrdride": 1,
+              "ternquest_com": 1
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.026765420908885288,
+          "seating": {
+            "changed": 13,
+            "better": 1,
+            "worse": 3,
+            "tied": 9,
+            "realizedPointDelta": -1.5,
+            "meanDeltaAmongChanged": -0.11538461538461539
+          }
+        },
+        "decay5_h05": {
+          "description": "up to five snapshots, half-life 0.5 observation ranks",
+          "rows": 349,
+          "brier": {
+            "loggedBaseline": 0.20473979298748263,
+            "correctedLatest": 0.20473979298748263,
+            "candidate": 0.1976534328624944,
+            "deltaVsCorrectedLatest": -0.007086360124988235,
+            "matchClusterBootstrap95": [
+              -0.011948432398984401,
+              0.0002487550783398513
+            ],
+            "deltaVsLogged": -0.007086360124988235
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.07451059263086476,
+            "candidate": 0.06132407797857528
+          },
+          "certainWinLosses": {
+            "correctedLatest": 9,
+            "candidate": 2,
+            "latestHandles": {
+              "sodiumhyrdride": 7,
+              "qsr_cg": 1,
+              "ternquest_com": 1
+            },
+            "candidateHandles": {
+              "sodiumhyrdride": 1,
+              "ternquest_com": 1
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.03224925671076485,
+          "seating": {
+            "changed": 14,
+            "better": 1,
+            "worse": 3,
+            "tied": 10,
+            "realizedPointDelta": -1.5,
+            "meanDeltaAmongChanged": -0.10714285714285714
+          }
+        },
+        "recent2": {
+          "description": "two latest snapshots, equal weight",
+          "rows": 349,
+          "brier": {
+            "loggedBaseline": 0.20473979298748263,
+            "correctedLatest": 0.20473979298748263,
+            "candidate": 0.20010850676872724,
+            "deltaVsCorrectedLatest": -0.004631286218755362,
+            "matchClusterBootstrap95": [
+              -0.01659771157428788,
+              0.009142379374253553
+            ],
+            "deltaVsLogged": -0.004631286218755362
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.07451059263086476,
+            "candidate": 0.052901302498131186
+          },
+          "certainWinLosses": {
+            "correctedLatest": 9,
+            "candidate": 6,
+            "latestHandles": {
+              "sodiumhyrdride": 7,
+              "qsr_cg": 1,
+              "ternquest_com": 1
+            },
+            "candidateHandles": {
+              "sodiumhyrdride": 5,
+              "ternquest_com": 1
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.031888161628971304,
+          "seating": {
+            "changed": 8,
+            "better": 0,
+            "worse": 2,
+            "tied": 6,
+            "realizedPointDelta": -1,
+            "meanDeltaAmongChanged": -0.125
+          }
+        },
+        "decay5_h1": {
+          "description": "up to five snapshots, half-life one observation rank",
+          "rows": 349,
+          "brier": {
+            "loggedBaseline": 0.20473979298748263,
+            "correctedLatest": 0.20473979298748263,
+            "candidate": 0.19461630475860614,
+            "deltaVsCorrectedLatest": -0.01012348822887644,
+            "matchClusterBootstrap95": [
+              -0.01868330298002631,
+              0.002988016759097491
+            ],
+            "deltaVsLogged": -0.01012348822887644
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.07451059263086476,
+            "candidate": 0.052909819869428644
+          },
+          "certainWinLosses": {
+            "correctedLatest": 9,
+            "candidate": 2,
+            "latestHandles": {
+              "sodiumhyrdride": 7,
+              "qsr_cg": 1,
+              "ternquest_com": 1
+            },
+            "candidateHandles": {
+              "sodiumhyrdride": 1,
+              "ternquest_com": 1
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.05208691866402944,
+          "seating": {
+            "changed": 16,
+            "better": 1,
+            "worse": 3,
+            "tied": 12,
+            "realizedPointDelta": -1.5,
+            "meanDeltaAmongChanged": -0.09375
+          }
+        },
+        "captain5": {
+          "description": "up to five equal snapshots, filtered to known rival captain where available",
+          "rows": 349,
+          "brier": {
+            "loggedBaseline": 0.20473979298748263,
+            "correctedLatest": 0.20473979298748263,
+            "candidate": 0.2014024647190165,
+            "deltaVsCorrectedLatest": -0.003337328268466066,
+            "matchClusterBootstrap95": [
+              -0.018484918070673113,
+              0.022609773676620523
+            ],
+            "deltaVsLogged": -0.003337328268466066
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.07451059263086476,
+            "candidate": 0.0499324807800093
+          },
+          "certainWinLosses": {
+            "correctedLatest": 9,
+            "candidate": 4,
+            "latestHandles": {
+              "sodiumhyrdride": 7,
+              "qsr_cg": 1,
+              "ternquest_com": 1
+            },
+            "candidateHandles": {
+              "sodiumhyrdride": 3,
+              "ternquest_com": 1
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.024328591730345357,
+          "seating": {
+            "changed": 17,
+            "better": 3,
+            "worse": 2,
+            "tied": 12,
+            "realizedPointDelta": 0.5,
+            "meanDeltaAmongChanged": 0.029411764705882353
+          }
+        },
+        "trajectory5": {
+          "description": "up to five equal snapshots, weighted by observed prior-round board similarity",
+          "rows": 349,
+          "brier": {
+            "loggedBaseline": 0.20473979298748263,
+            "correctedLatest": 0.20473979298748263,
+            "candidate": 0.1983210201162443,
+            "deltaVsCorrectedLatest": -0.006418772871238223,
+            "matchClusterBootstrap95": [
+              -0.019729047968119726,
+              0.01573194399190179
+            ],
+            "deltaVsLogged": -0.006418772871238223
+          },
+          "winCalibrationEce": {
+            "correctedLatest": 0.07451059263086476,
+            "candidate": 0.05913475747787031
+          },
+          "certainWinLosses": {
+            "correctedLatest": 9,
+            "candidate": 2,
+            "latestHandles": {
+              "sodiumhyrdride": 7,
+              "qsr_cg": 1,
+              "ternquest_com": 1
+            },
+            "candidateHandles": {
+              "sodiumhyrdride": 1,
+              "ternquest_com": 1
+            }
+          },
+          "sodiumBrierDeltaVsCorrectedLatest": -0.04451613055104668,
+          "seating": {
+            "changed": 15,
+            "better": 1,
+            "worse": 3,
+            "tied": 11,
+            "realizedPointDelta": -1.5,
+            "meanDeltaAmongChanged": -0.1
+          }
+        }
+      }
+    }
+  },
+  "limits": [
+    "Candidate families and the later cohort were inspected during exploratory analysis; intervals are descriptive and have no multiple-comparison correction. The later cohort is chronological evidence, not a pristine preregistered holdout.",
+    "Forecast evaluation fixes the played board and cannot estimate shopping trajectories under a changed target.",
+    "Seating evaluation isolates attack targeting and omits the production defense objective.",
+    "Only rows with a logged pre-battle component forecast are scored: 1,027 rows in 425 of the earlier 432 matches, and 349 rows in 173 of the later 177 matches."
+  ]
+}

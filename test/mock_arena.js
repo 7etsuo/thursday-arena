@@ -13,12 +13,17 @@
  *   - an illegal action throws (the server answers 400 invalid_action);
  *   - start/restart while the phase is shop or battle throws (the loop must never do that);
  *   - the opponent handle is hidden during the round-0 shop, as it is live in 90.5% of R0 shops.
+ *
+ * opts.suddenDeath=true enables the current four-round format; the default preserves
+ * historical three-round benchmarks. A missing fourth ghost board reuses its third
+ * snapshot, recorded in stats.ghostFallbacks so evaluations can report that assumption.
  */
 const fs = require('fs');
 const path = require('path');
 const catalog = require('../lib/catalog');
 const shopModel = require('../lib/shop_model');
 const sim = require('../lib/sim');
+const { addKept, decideSuddenDeath } = require('../lib/match_rules');
 
 const CORPUS = path.join(__dirname, '..', 'data', 'corpus', 'battles.jsonl');
 const S3_CORPUS = path.join(__dirname, '..', 'data', 'corpus', 's3_public_matches.jsonl');
@@ -51,12 +56,14 @@ function loadGhosts(opts = {}) {
     if (!row.handle || !Array.isArray(row.them) || !row.them.length) continue;
     if (!!row.s2 !== wantS2) continue;
     let g = byHandle.get(row.handle);
-    if (!g) byHandle.set(row.handle, (g = [[], [], []]));
-    if (row.round >= 0 && row.round <= 2) g[row.round].push(row.them);
+    if (!g) byHandle.set(row.handle, (g = [[], [], [], []]));
+    if (row.round >= 0 && row.round <= 3) g[row.round].push(row.them);
   }
   const out = [];
   for (const [handle, rounds] of byHandle) {
-    if (rounds.every((r) => r.length)) out.push({ handle, rounds });
+    if (rounds.slice(0, 3).every((r) => r.length)) {
+      out.push({ handle, rounds: rounds[3].length ? rounds : rounds.slice(0, 3) });
+    }
   }
   out.sort((a, b) => (a.handle < b.handle ? -1 : 1)); // stable order -> reproducible picks
   if (!out.length) throw new Error(`mock_arena: no complete ghosts in ${file} (s2=${wantS2})`);
@@ -64,7 +71,7 @@ function loadGhosts(opts = {}) {
   return out;
 }
 
-/** Keep the three recorded boards of one public S3 match together as one opponent trajectory. */
+/** Keep each public S3 match together as one opponent trajectory. */
 function loadS3Ghosts(file) {
   const key = `${file}|s3`;
   if (GHOST_CACHE.has(key)) return GHOST_CACHE.get(key);
@@ -74,13 +81,15 @@ function loadS3Ghosts(file) {
     let row;
     try { row = JSON.parse(line); } catch { continue; }
     const rounds = row.rounds || [];
-    if (rounds.length !== 3 || ![0, 1, 2].every((r) => rounds.some((x) => x.round === r && x.them && x.them.length))) continue;
+    if (![3, 4].includes(rounds.length) || !Array.from({ length: rounds.length }, (_, r) => r)
+      .every((r) => rounds.some((x) => x.round === r && x.them && x.them.length))) continue;
     const handle = row.opponent && row.opponent.x_handle;
     if (!handle) continue;
     out.push({
       handle,
       id: row.id,
-      rounds: [0, 1, 2].map((r) => [rounds.find((x) => x.round === r).them.map((u) => catalog.toSimUnit(u, 3))]),
+      rounds: Array.from({ length: rounds.length }, (_, r) =>
+        [rounds.find((x) => x.round === r).them.map((u) => catalog.toSimUnit(u, 3))]),
     });
   }
   if (!out.length) throw new Error(`mock_arena: no complete S3 ghost trajectories in ${file}`);
@@ -92,11 +101,11 @@ function loadS3Ghosts(file) {
 function loadS4Ghosts(file = path.join(__dirname,'../data/corpus/s4_public_matches_20260923.json.gz')) {
   if (GHOST_CACHE.has(file)) return GHOST_CACHE.get(file);
   const details = JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync(file)));
-  const out = details.filter(d => d.rounds?.length === 3 && d.opponent?.x_handle).map(d => ({
+  const out = details.filter(d => [3, 4].includes(d.rounds?.length) && d.opponent?.x_handle).map(d => ({
     id:d.id,handle:d.opponent.x_handle,
-    rounds:[0,1,2].map(r => [d.rounds.find(x => x.round === r).them.map(u => catalog.toSimUnit(u,4))]),
-    captains:[0,1,2].map(r => s4.combatMetadata(d.rounds.find(x => x.round === r).frames,'them').captain),
-    relics:[0,1,2].map(r => s4.combatMetadata(d.rounds.find(x => x.round === r).frames,'them').relics)
+    rounds:d.rounds.map((_,r) => [d.rounds.find(x => x.round === r).them.map(u => catalog.toSimUnit(u,4))]),
+    captains:d.rounds.map((_,r) => s4.combatMetadata(d.rounds.find(x => x.round === r).frames,'them').captain),
+    relics:d.rounds.map((_,r) => s4.combatMetadata(d.rounds.find(x => x.round === r).frames,'them').relics)
   })).sort((a,b)=>a.id.localeCompare(b.id));
   if (!out.length) throw new Error('No complete Season 4 ghost trajectories');
   GHOST_CACHE.set(file,out); return out;
@@ -119,6 +128,8 @@ function create(opts = {}) {
   };
   const draw = (label) => mulberry32(hash(label))();
   const season = opts.season || 1;
+  // Historical benchmarks retain their three-round format unless explicitly opted in.
+  const suddenDeathEnabled = opts.suddenDeath === true;
   const ghosts = opts.ghosts || loadGhosts({ s4: season === 4, s3: season === 3, s2: season === 2, file: opts.corpus });
 
   let version = 1000;
@@ -128,7 +139,8 @@ function create(opts = {}) {
   let dry = false;
   // `rounds` is what lets a test report the per-round score, which is the quantity the audit
   // reports (audit/strategy.md §3) -- the match win rate alone hides which round loses.
-  const stats = { posts: 0, actions: {}, endShops: [], matches: [], rounds: [], illegal: 0 };
+  const stats = { posts: 0, actions: {}, endShops: [], matches: [], rounds: [], illegal: 0,
+    ghostFallbacks: [] };
   const publicReplays = new Map();
 
   const pick = (arr, label) => arr[Math.floor(draw(label) * arr.length)];
@@ -182,6 +194,9 @@ function create(opts = {}) {
         || pick(captains, `match:${n}:rival-captain`)) : null,
       seats: season >= 2 ? seats : null,
       wins: { you: 0, them: 0 },
+      kept: { you: { hp: 0, atk: 0 }, them: { hp: 0, atk: 0 } },
+      toSuddenDeath: false,
+      suddenDeath: null,
       results: [],
       replayRounds: [],
       eloDelta: null,
@@ -197,6 +212,7 @@ function create(opts = {}) {
       series: { you: 0, them: 0 },
       seats: match.seats,
       season,
+      suddenDeathEnabled,
       rerolls: 0,
       nextUid: 1,
       captain: null,
@@ -219,7 +235,7 @@ function create(opts = {}) {
       S = rollShop({...next,series:{...match.wins},
         rivalCaptain:match.ghost.captains?.[next.round] ?? match.rivalCaptain,
         rivalRelics:match.ghost.relics?.[S.round]?.length ? match.ghost.relics[S.round] : null,
-        relicOffer:s4.RELICS.filter(r=>!S.relics.includes(r)).sort((a,b)=>draw(`match:${match.index}:round:${next.round}:relic:${a}`)-draw(`match:${match.index}:round:${next.round}:relic:${b}`)).slice(0,3)});
+        relicOffer:next.round < 3 ? s4.RELICS.filter(r=>!S.relics.includes(r)).sort((a,b)=>draw(`match:${match.index}:round:${next.round}:relic:${a}`)-draw(`match:${match.index}:round:${next.round}:relic:${b}`)).slice(0,3) : null});
       phase={kind:'shop',round:S.round}; return;
     }
 
@@ -255,12 +271,14 @@ function create(opts = {}) {
       result,
       wins: { ...w },
       eloDelta: match.eloDelta,
+      ...(match.suddenDeath ? { suddenDeath: structuredClone(match.suddenDeath) } : {}),
     });
     if (season >= 3) publicReplays.set(match.id, {
       id: match.id,
       player: { x_handle: 'mockbot' },
       opponent: { kind: match.ai ? 'ai' : 'ghost', x_handle: match.ai ? 'AI' : match.ghost.handle },
       rounds: match.replayRounds,
+      result,
     });
     phase = { kind: 'result' };
   }
@@ -283,10 +301,14 @@ function create(opts = {}) {
   }
 
   function toState() {
-    if (!match) return { phase: { kind: 'idle' }, version, rated: true, season };
+    if (!match) return { phase: { kind: 'idle' }, version, rated: true, season, suddenDeathEnabled };
     const round = phase.round == null ? S.round : phase.round;
     return {
       phase,
+      suddenDeathEnabled,
+      ...(suddenDeathEnabled ? { kept: structuredClone(match.kept),
+        ...(match.toSuddenDeath ? { toSuddenDeath: true } : {}),
+        ...(match.suddenDeath ? { suddenDeath: structuredClone(match.suddenDeath) } : {}) } : {}),
       ...(season >= 4 ? {relics:S.relics,relicOffer:S.relicOffer,rivalRelics:S.rivalRelics} : {}),
       gold: S.gold,
       board: S.board.map((u) => ({
@@ -393,9 +415,18 @@ function create(opts = {}) {
             Infinity
           ),
         });
-        const them = pick(match.ghost.rounds[S.round], `match:${match.index}:round:${S.round}:enemy`);
+        let sourceRound = S.round;
+        if (S.round === 3 && !match.ghost.rounds[3]?.length) {
+          // Older corpora have no fourth board. Reuse the third recorded snapshot,
+          // including its items/relics; this is an explicit benchmark assumption.
+          sourceRound = 2;
+          stats.ghostFallbacks.push({ matchId: match.id, round: 3, sourceRound,
+            reason: 'no recorded fourth-round board' });
+        }
+        const them = pick(match.ghost.rounds[sourceRound], `match:${match.index}:round:${S.round}:enemy`);
         const us = shopModel.simUnits(S);
-        if (season >= 4) S = {...S, rivalRelics:match.ghost.relics?.[S.round] || []};
+        if (season >= 4) S = {...S, rivalRelics:match.ghost.relics?.[sourceRound]
+          ?? (S.round === 3 ? match.ghost.relics?.[2] : null) ?? []};
         const r = sim.simulate(us, them, {
           round: S.round,
           seats: match.seats,
@@ -424,9 +455,18 @@ function create(opts = {}) {
         const w = phase.winner;
         match.results.push(w);
         stats.rounds.push({ matchId: match.id, round: phase.round, winner: w });
-        if (w === 'you') match.wins.you += 1;
-        else if (w === 'them') match.wins.them += 1;
-        const last = phase.round >= 2 || match.wins.you >= 2 || match.wins.them >= 2;
+        if (suddenDeathEnabled) match.kept = addKept(match.kept, phase.frames.at(-1));
+        if (suddenDeathEnabled && phase.round === 3) {
+          match.suddenDeath = decideSuddenDeath(w, match.kept);
+          if (season >= 3) match.replayRounds.at(-1).suddenDeath = structuredClone(match.suddenDeath);
+        }
+        const calledWinner = match.suddenDeath?.winner || w;
+        if (calledWinner === 'you') match.wins.you += 1;
+        else if (calledWinner === 'them') match.wins.them += 1;
+        match.toSuddenDeath = match.toSuddenDeath || suddenDeathEnabled && phase.round === 2
+          && match.wins.you === match.wins.them;
+        const last = phase.round >= 3 || match.wins.you >= 2 || match.wins.them >= 2
+          || phase.round === 2 && !match.toSuddenDeath;
         if (last) finishMatch();
         else nextShop();
         return envelope();

@@ -1,0 +1,13 @@
+eval_versions games/seed=10 seeds=271,277 season=both budget=Infinity mock=current book=cold
+before=/tmp/arena-sudden-fixes-20260924
+  S1 seed=271: before={"win":8,"loss":1,"draw":1} current={"win":8,"loss":1,"draw":1} score=0.850/0.850 pairedDelta=0.0000 bookRecords=24/24 rounds=24/24 elapsed=3.0s
+  S1 seed=277: before={"win":7,"loss":2,"draw":1} current={"win":7,"loss":2,"draw":1} score=0.750/0.750 pairedDelta=0.0000 bookRecords=27/27 rounds=27/27 elapsed=6.3s
+S1 n=20: before W15 L3 D2 winRate=0.7500 matchScore=0.8000; current W15 L3 D2 winRate=0.7500 matchScore=0.8000
+  paired score delta current-before=0.0000 95% seed-clustered CI [0.0000, 0.0000] (exploratory match-level CI [0.0000, 0.0000]) better=0 worse=0 same=20
+  illegal before=0 current=0; fillable short shops before=0 current=0
+  S2 seed=271: before={"win":7,"loss":1,"draw":2} current={"win":7,"loss":1,"draw":2} score=0.800/0.800 pairedDelta=0.0000 bookRecords=20/20 rounds=23/23 elapsed=2.6s
+  S2 seed=277: before={"win":8,"loss":2,"draw":0} current={"win":8,"loss":2,"draw":0} score=0.800/0.800 pairedDelta=0.0000 bookRecords=20/20 rounds=22/22 elapsed=5.4s
+S2 n=20: before W15 L3 D2 winRate=0.7500 matchScore=0.8000; current W15 L3 D2 winRate=0.7500 matchScore=0.8000
+  paired score delta current-before=0.0000 95% seed-clustered CI [0.0000, 0.0000] (exploratory match-level CI [0.0000, 0.0000]) better=0 worse=0 same=20
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /home/tetsuo/grok/thursday-arena/docs/results/sudden-death-fixes-2026-09-24/paired-s1-s2.csv

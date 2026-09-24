@@ -21,9 +21,11 @@ test('MCP S3/S4 tools preserve combat inputs and propose captain/relic drafts', 
   const [clientTransport, serverTransport] = InMemoryTransport.createLinkedPair();
   const client = new Client({ name: 'season3-test', version: '1.0.0' });
   const observe = arena.observe;
+  const getSeasonInfo = arena.getSeasonInfo;
   const chooseCaptain = planner.chooseCaptain;
   const chooseRelic = planner.chooseRelic;
   try {
+    arena.getSeasonInfo = async () => ({number:4,suddenDeath:true});
     await Promise.all([server.connect(serverTransport), client.connect(clientTransport)]);
     const filled = toUnits([{ name: 'Foundry', item: 'foamPad' }], 3)[0];
     assert.equal(filled.crew, 'builders');
@@ -69,6 +71,7 @@ test('MCP S3/S4 tools preserve combat inputs and propose captain/relic drafts', 
     assert.deepEqual(relicPlan.plan.actions,[{type:'pickRelic',relic:relicState.relicOffer[0]}]);
   } finally {
     arena.observe = observe;
+    arena.getSeasonInfo = getSeasonInfo;
     planner.chooseCaptain = chooseCaptain;
     planner.chooseRelic = chooseRelic;
     await client.close();

@@ -6,8 +6,10 @@ feature here was measured and deliberately left out.
 
 ---
 
-**Current compatibility (2026-09-23):** this build supports Seasons 1–4, including fusion,
-relics and all 100 S4 cards. Read [Season 4 notes](docs/SEASON4.md) for behavior and validation
+**Current compatibility (2026-09-24):** this build supports Seasons 1–4, including fusion,
+relics, all 100 S4 cards and the newly enabled sudden-death fourth round. Read
+[the sudden-death fixes](docs/SUDDEN_DEATH_FIXES_2026-09-24.md) and
+[Season 4 notes](docs/SEASON4.md) for behavior and validation
 limits. The supplied S3 log fixes and honest comparison results are in
 [the September 23 report](docs/ADAPTATION_FIXES_2026-09-23.md).
 
@@ -121,7 +123,8 @@ result  ─► public replay board/item enrichment ─► book.record (S3/S4, wi
 
 | module | job |
 |---|---|
-| `lib/sim.js` | the battle model, checked against server traces. Deterministic: seeds 101/202/303 by round. |
+| `lib/sim.js` | the battle model, checked against server traces. Deterministic: seeds 101/202/303/404 by round. |
+| `lib/match_rules.js` | series values for historical/current formats, cumulative surviving HP/ATK and sudden-death adjudication |
 | `lib/season4.js` | pure S4 kit definitions, fusion recipes, captains, relic IDs and combat-caption metadata |
 | `lib/season4_pool.js` | lazy public-board prior for an S4-empty book; never seeds user memory |
 | `lib/catalog.js` | the 279-bot catalog (S1–S4), 27 items, unlock pools, arena-unit → sim-unit |
@@ -137,26 +140,29 @@ result  ─► public replay board/item enrichment ─► book.record (S3/S4, wi
 | `driver/play_loop.js` | turns planner output into server actions, safely. No strategy here. |
 | `driver/play_session.js` | one process: open Chrome, wait for sign-in, dry run, then play |
 | `driver/climb_loop.sh` | batches + rank checks, with a lock and backoff |
-| `test/mock_arena.js` | the same interface as `lib/arena.js` on top of the real shop reducer, the real sim and corpus ghosts — the whole loop runs offline and deterministically |
+| `test/mock_arena.js` | the same interface as `lib/arena.js` on top of the real shop reducer, sim and corpus ghosts; historical three-round default, current format with `suddenDeath:true` |
 
 ### The planner, in detail
 
 - **Value of a board** = its score against a weighted **target** of enemy boards, maximised over seat
-  orders (`sim.bestSeating`). Win 1, draw 0.5, loss 0 — except in the final round, where the value of
-  a draw depends on the series score (at 1-0 a draw wins the match; at 0-1 it loses it).
+  orders (`sim.bestSeating`). The utility reflects the series score and active match format.
+  Sudden-death draws use known cumulative surviving HP/ATK; unknown future totals receive
+  neutral draw value. Historical three-round final utilities remain available to evaluators.
 - **Round 0** (usually 10 gold, empty board, three commons, opponent usually hidden): compare
   current offers with keeping some and rerolling, then fill. The affordability invariant is
   `gold − current reroll cost ≥ 3 × empty seats`. The old one-reroll limit applies to an unmodified
   10-token shop; Scout and Recruiter can allow a second reroll while still filling the board.
 - **Captain draft:** compare the three offered captains through sampled shop continuations and
   simulated fights. It is an estimate over unknown future offers, not a fixed captain ranking.
-- **Rounds 1–2**: a greedy search over feed / equip / buy-into-empty / sell-then-buy / reroll, with a
+- **Later shops, including sudden death**: a greedy search over feed / equip / buy-into-empty / sell-then-buy / reroll, with a
   **two-step look-ahead** (the best few single moves get a follow-up look).
-- **Match-level objective at round 0 only:** predict the current fight and later rounds, then
+- **Match-level objective:** at round 0, and round 2 when sudden death is enabled, predict the current fight and later rounds, then
   combine their outcomes with `matchValue`. S3 spends future income in a bounded sampled shop
   continuation before evaluating later boards. S1/S2 retain the older carry-only approximation;
   `futureMode: 'carry'` selects it for S3 comparisons. Future predictions are blended 50% with
   an even win/loss prior. The rollout is approximate, not an exhaustive game solver.
+  Current continuations include the fourth shop only through branches where the first three
+  rounds end even. They do not assume earlier survival totals stay unchanged through future wins/losses.
 - **Attack and defense:** when recent defensive context exists, purchases and seating maximize
   attacking match points plus estimated defensive exposure times defensive match points. The
   saved board is simulated on the ghost side. Exposure uses the past hour of the public ledger,
@@ -179,7 +185,7 @@ independent of that eviction. The population prior uses the last 100 outgoing ob
 one hour; incoming defenses do not set outgoing queue frequencies. Old books without this sample
 warm up from the latest same-season sightings with equal weights. No previous-season blend is used.
 S3 handle confidence is fitted to recent component forecast errors, with the historical R0 50%
-and R1/R2 75% weights as shrinkage priors. R0 uses a global window; later rounds additionally use
+and later-round 75% weights as shrinkage priors. R0 uses a global window; later rounds additionally use
 up to 32 observations of the named opponent. Samples expire, and confidence can recover after
 errors. The prediction is recorded before battle, and learning waits for its outcome. S1/S2 keep
 the old fixed weights and frequency pool. `populationPolicy: 'frequency'` and `calibrate: false`
@@ -234,8 +240,12 @@ action schemas in [`api/ACTIONS.md`](api/ACTIONS.md).
 - **Food:** apple is a permanent +1/+1; **potato is +2 ATK for this battle only and destroys honey**;
   honey is a flag that summons a 1/1 Drone at the fainted unit's seat and adds no HP. The exclusion
   runs both ways. Neither honey nor potato can be applied twice to the same unit; apple always can.
-- **Series:** at most 3 rounds (index 0–2), ending at 2 round-wins or after round 2. A drawn round
-  still consumes a round, so **1-1 and 0-0 are drawn matches**. Round 2 is always final.
+- **Current series:** the first two round-wins end the match. After round index 2, a higher
+  score also ends it; an even score opens sudden death at index 3. There is one more shop
+  and fight against the same rival, with no third relic draft. A drawn fourth fight is
+  decided by cumulative HP of surviving bots after all fights, then their ATK, then draw.
+  State `kept` records those totals; `suddenDeath` records the final decision. Earlier
+  three-round rules remain the default only for historical mock/evaluator calls.
 - **Battles are deterministic**: the seed is fixed per round. There is no probability to sample.
 - **Hot seat:** from the second exchange onward, units in that seat lose 1 HP directly. This does
   not credit the previous attacker with a knock-out or trigger its `drain` heal.
@@ -298,6 +308,9 @@ Each of these came from a review finding or a live failure. Tests assert them.
   bounds diagnostic runs. Exhaustion returns `max_steps` and a nonzero CLI exit.
 - A failed book save retains its pending observations for retry. A malformed or unreadable existing
   book is refused, never silently replaced by an empty one. Only a missing file starts empty.
+- Round indices 0–3 are accepted consistently in memory and public defense replays. The serialized
+  book is validated before an atomic replacement, so a successful save must be reloadable.
+  Existing fourth-round observations need no reset or removal after installing this update.
 
 ---
 
@@ -324,11 +337,12 @@ No client-side change can conjure a ghost. If the pool is empty at your rating, 
 
 Nothing ships without numbers. In order of cost:
 
-1. `npm test` — 281 offline tests as of the September 24 S4 update. S4 includes 395 complete-input server
+1. `npm test` — 299 tests pass in the current clean-install check; this extends the earlier 281-test September 24 S4 update. S4 includes 395 complete-input server
    fights, 101 shop transitions and seven real-driver practice traces (17 fights), plus memory
    and season-rollover checks. The September 24 update adds 1,190 independent live
    winner checks and 1,188 exact traces, six regressions, and 60 defensive round
-   reconstructions. Two older complete-input traces differ only in tied knockout
+   reconstructions. The later sudden-death update adds 388 exact complete-input live fights,
+   fourth-round seed/tiebreak checks and recording/restart tests. Two older complete-input traces differ only in tied knockout
    order; two incomplete-input public traces also remain unresolved.
    The older coverage includes Season 1/2 winner checks for the full corpus
    (10,748 battles), frame checks for selected recorded traces, the shop-model replay
@@ -422,6 +436,17 @@ are retained in the documented backups and evidence archives. Back up before lar
 ---
 
 ## 11. Recent fixes and known limits
+
+- **September 24 sudden death:** the current match format can enter a fourth shop and fight.
+  Memory validation now accepts round 3, validates serialized saves before replacement, and
+  reopens existing books containing those observations without resetting learning. Planning,
+  draft continuations, defensive replay learning, imports and MCP cover the fourth round.
+  Seed 404 and HP/ATK adjudication were checked with targeted official anonymous practice;
+  automatic extension is evidenced by a supplied rated replay and offline lifecycle tests.
+  Copy-across ignores Taunt, and reboot clears first-life vulnerability. All 388 new complete
+  fights match frames/winners. Current publication and validation details are in
+  [the sudden-death report](docs/SUDDEN_DEATH_FIXES_2026-09-24.md). The repository is public
+  at https://github.com/7etsuo/thursday-arena at the user's explicit request.
 
 - **September 24 S4:** shop relic observations are tagged by round; stale relics no
   longer override learned current-round combinations. Corrected forecasts have a

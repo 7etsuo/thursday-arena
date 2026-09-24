@@ -1,6 +1,9 @@
 # Season 4 support — updated September 24, 2026
 
-This build supports Seasons 1–4. The earlier seasons keep their own rules. Season 4 adds
+This build supports Seasons 1–4, keeping their distinct cards and shop/combat rules.
+The current live match format adds a sudden-death fourth round when three fights leave
+the series even. Historical evaluators retain the earlier format unless opted in.
+Season 4 adds
 100 cards, eight items, eight captains, five seat rules, 15 fusion recipes and 19 relics.
 The bundled catalogs now contain 279 bots and 27 items.
 
@@ -8,6 +11,29 @@ Sources checked on September 23: [official rules](https://thursdayarena.com/rule
 [season](https://thursdayarena.com/api/season), [bot catalog](https://thursdayarena.com/api/catalog)
 and [item catalog](https://thursdayarena.com/api/items). Implementation details were checked with
 anonymous requests to the official practice endpoint. No rated matches were played.
+The [September 24 sudden-death investigation](SUDDEN_DEATH_FIXES_2026-09-24.md)
+also checked the current rules, season endpoint, client schema and targeted practice
+responses, alongside a recorded four-round rated match supplied by the user.
+
+## Current match format
+
+The first side to two wins wins. After the third fight, a higher score also ends the
+match; an even score opens one additional shop and fight against the same rival.
+That fourth fight decides the match. If it draws, compare cumulative HP left on living
+bots after every fight, then their cumulative ATK, then declare a draw if still equal.
+No relic drops after the third fight, so both sides retain their two relics.
+
+The fourth round uses index `3` and battle seed **404**. State `kept` contains
+`{you:{hp,atk},them:{hp,atk}}`; it updates when `battleDone` acknowledges a fight.
+`toSuddenDeath:true` marks the continuation. Final `suddenDeath` contains `winner`,
+`decider` (`fight`, `hp`, `atk` or `draw`) and the cumulative totals. `results` records
+raw fight outcomes; `wins` includes the fourth-round adjudicated winner.
+
+The driver reads the season's sudden-death feature flag. An already active fourth round
+is authoritative even if a feature lookup is stale. It uses match values through round
+3, preserves survival totals for final draw decisions and gives an unseen fourth round
+an explicitly identified third-round board prior. True fourth-round observations replace
+that fallback. This prior is an approximation of the rival's possible new board.
 
 ## Actions and state
 
@@ -52,9 +78,13 @@ searched, future shops are sampled, and later item draw odds/prices remain mock 
 The decision deadline is soft: final verification and bounded draft/freeze work can run beyond
 it. Current offered prices are always observed directly in live play.
 
-The [September 24 fixes and measurements](LIVE_FIXES_2026-09-24.md) supersede the initial
+The earlier [September 24 fixes and measurements](LIVE_FIXES_2026-09-24.md) supersede the initial
 release where noted below. They correct stale opponent relics, combat interactions,
 forecast calibration and defense-metadata refresh.
+The later [sudden-death update](SUDDEN_DEATH_FIXES_2026-09-24.md) extends captain/relic
+continuations and eligible Freezer decisions through the possible fourth shop. Future
+survival tiebreaks remain neutral when preceding fight outcomes have not established
+the totals.
 
 ## Learning and season rollover
 
@@ -69,7 +99,8 @@ book telemetry. A future export of only logs can retain this evidence after book
 Shop `rivalRelics` describes the previous fight. The normalized state tags it with
 `rivalRelicsRound`; planning uses each current-round target entry’s relics unless an
 observation explicitly belongs to the simulated round. Battle replay uses the exact
-revealed relics. Forecasts carry a model version, so obsolete S4 forecast errors no
+revealed relics. The fourth shop is an exception: the third fight's revealed relics
+remain valid because there is no further relic draft. Forecasts carry a model version, so obsolete S4 forecast errors no
 longer calibrate confidence. Their boards, outcomes and receipts remain stored.
 Recent defense metadata is recomputed once per corrected combat model.
 
@@ -89,6 +120,11 @@ the complete old ledger in `previousSeasons["3"]` and starts a separate current 
 driver also reopens its managed history when the season changes. Account mismatches and damaged
 files remain errors. Seasons after 4 are refused before further driver game actions.
 
+Round-3 observations are accepted throughout recording, validation, save/reload, import,
+forecast calibration and public defensive replay learning. Saves validate their serialized
+data before replacing a previous file. Existing books that the prior build rejected only
+because they contained a fourth round can be reopened directly; preserve them unchanged.
+
 ## Server verification
 
 Automated fixtures from the initial release include:
@@ -104,6 +140,21 @@ Automated fixtures from the initial release include:
   1 draw, with 17 exact battles. The final four-game run had 42 shop checks, 69 accepted actions
   and zero rate limits. All files were isolated from live memory. Reports are in
   [the result directory](results/season4-2026-09-23/).
+
+Later September 24 fixtures add 1,190 live fights (all winners and 1,188 exact traces),
+then **388 additional complete-input fights with exact winners and frames** from the
+afternoon archive, including the recorded fourth round. That archive exposed two further
+corrections: Copy-across reads the actual across seat without Taunt redirection, and
+reboot clears vulnerability from the first life. The two older complete-input tied
+knockout-order discrepancies remain documented in the earlier report; their winners
+match and these later results do not erase those limitations.
+
+Targeted anonymous practice established seed 404 using random-target abilities and
+verified HP/ATK/fight/draw adjudication with explicitly supplied test states. Ordinary
+anonymous practice still returned a result after a tied third fight in the probe, so
+it does not demonstrate automatic extension in that endpoint. The supplied rated replay
+and offline lifecycle tests establish the four-round path. Those tests run the real
+driver across three four-round matches and a restart, retaining every observation.
 
 The observed server has details that the short card descriptions do not fully specify. For
 example, pickpocket and attack-swap target the enemy front if their across seat is empty; ability
@@ -130,6 +181,8 @@ The original September 23 release could only be compared with its own learning d
 because the earlier release could not play S4 mechanics.
 Mock learning controls and anonymous AI practice are useful checks, not estimates of the rated
 ladder's win rate or a proof of optimal play.
+The sudden-death compatibility and persistence fixes do not by themselves establish an
+improved rated win rate or prevent all future rating declines.
 
 
 ### Development learning control

@@ -97,7 +97,7 @@ test('frame-exact replay of recorded battles', () => {
 });
 
 test('the per-round seed is fixed, so the same boards always fight the same battle', () => {
-  assert.deepEqual(sim.ROUND_SEEDS, [101, 202, 303]);
+  assert.deepEqual(sim.ROUND_SEEDS, [101, 202, 303, 404]);
   const a = sim.simulate(RECORDED[0].you, RECORDED[0].them, { round: 1 });
   const b = sim.simulate(RECORDED[0].you, RECORDED[0].them, { round: 1 });
   assert.deepEqual(a.frames, b.frames);

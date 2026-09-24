@@ -168,7 +168,7 @@ server.registerTool(
       us: z.array(UNIT),
       them: z.array(UNIT),
       season: z.number().int().min(1).max(4).optional().describe('defaults to the current season, 4'),
-      round: z.number().int().min(0).max(2).optional(),
+      round: z.number().int().min(0).max(3).optional(),
       seats: z.record(z.string(), z.string()).optional().describe('{front,middle,back} season-2 rule ids'),
       ourCaptain: z.string().optional(),
       theirCaptain: z.string().optional(),
@@ -215,7 +215,7 @@ server.registerTool(
     if (!st.phase || st.phase.kind !== 'shop') throw new Error(`phase is ${st.phase && st.phase.kind}, not shop`);
     const season = shopModel.seasonOf(st);
     if (season > 4) throw new Error('Unsupported season');
-    const S = shopModel.normalize(st, { season });
+    const S = shopModel.normalize(st, { season, suddenDeathEnabled:(await arena.getSeasonInfo()).suddenDeath !== false });
     const handle = st.opponentHandle ? String(st.opponentHandle).replace(/^@/, '').toLowerCase() : null;
     if (S.season >= 3 && !S.captain && Array.isArray(S.captainOffer) && S.captainOffer.length) {
       const captain = planner.chooseCaptain(S, { book: book(), handle,
@@ -238,7 +238,7 @@ server.registerTool(
       seats: S.seats,
     });
     const futureTargets = {};
-    for (let round = S.round + 1; round <= 2; round++) {
+    for (let round = S.round + 1; round <= (S.suddenDeathEnabled ? 3 : 2); round++) {
       futureTargets[round] = targetLib.build({ book: book(), season, round, seats: S.seats,
         handle: handle || a.prevHandle || null, prevHandle: a.prevHandle || null, proxy: !handle });
     }
@@ -265,10 +265,11 @@ server.registerTool(
       relics: S.relics,
       rivalRelics: S.rivalRelics,
       rivalRelicsRound: S.rivalRelicsRound,
+      suddenDeathEnabled:S.suddenDeathEnabled, kept:S.kept,
       itemOffer: S.itemOffer,
       target: { ...built.sources, note: built.note, entries: built.entries.length },
       plan,
-      seating: planner.seatingActions(S, built.entries, { round: S.round, seats: S.seats, cache }),
+      seating: planner.seatingActions(S, built.entries, { round: S.round, seats: S.seats, cache, futureTargets }),
     };
   })
 );
@@ -281,7 +282,7 @@ server.registerTool(
       'Offline: what memory/book.json holds for an opponent. With a handle, the boards recorded for (season, handle, round); without one, the round pool across handles.',
     inputSchema: {
       handle: z.string().optional(),
-      round: z.number().int().min(0).max(2),
+      round: z.number().int().min(0).max(3),
       season: z.number().int().min(1).optional(),
       limit: z.number().int().optional(),
     },

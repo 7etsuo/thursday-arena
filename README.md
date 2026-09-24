@@ -8,8 +8,11 @@ The supplied 2026-09-20 records, repair and replay checks are documented in
 **This build supports Seasons 1–4.** Current rules, fusion/relic planning and validation limits
 are in [Season 4 notes](docs/SEASON4.md). [Season 3 notes](docs/SEASON3.md) retain the earlier rules.
 
-The September 24 S4 fixes address stale opponent relics, combat errors and obsolete
-confidence samples. See [the fixes and local comparisons](docs/LIVE_FIXES_2026-09-24.md).
+The latest September 24 update supports the new **sudden-death fourth round**, fixes the
+memory validation crash it exposed, and corrects two further combat discrepancies.
+See [the current fixes and verification](docs/SUDDEN_DEATH_FIXES_2026-09-24.md).
+The earlier same-day [S4 fixes and comparisons](docs/LIVE_FIXES_2026-09-24.md) address
+stale opponent relics, combat errors and obsolete confidence samples.
 
 The earlier learning, planning and simulator fixes for the supplied Season 3 logs are in
 [`docs/ADAPTATION_FIXES_2026-09-23.md`](docs/ADAPTATION_FIXES_2026-09-23.md).
@@ -29,7 +32,7 @@ Node 25, CommonJS, no runtime dependencies beyond `playwright-core` (CDP transpo
 
 ## Repository and installation
 
-This private repository includes the application, tests, research evidence, historical records,
+This [public repository](https://github.com/7etsuo/thursday-arena) includes the application, tests, research evidence, historical records,
 and a snapshot of this workspace's memory and logs. For an existing bot installation, use the
 reviewed package in [Releases](https://github.com/7etsuo/thursday-arena/releases) and follow
 [the installation instructions](docs/INSTALL_SEASON4.txt), preserving that computer's entire
@@ -63,6 +66,7 @@ boundary ->  public_history         learn defensive opponents; report both sides
 | `lib/opponent_model.js` | Bounded recent outgoing observations and calibration of simulator forecasts. |
 | `lib/target.js` | the weighted board set each decision is scored against |
 | `lib/planner.js` | the only thing that decides anything |
+| `lib/match_rules.js` | historical and current series values, cumulative survival totals and sudden-death decisions |
 | `lib/counter_model.js` | contextual payoff matrices and finite-scenario baseline-loss certificates for analysis |
 | `lib/shop_search.js` | optional bounded search over deterministic known-offer combinations; disabled by default |
 | `lib/arena.js` | the rated API over CDP: 409 is a conflict, 429/5xx back off, `--dry` sends no arena POST |
@@ -140,7 +144,10 @@ archive/  legacy-2026-09-19/**                 old data, never read by live code
 
 `test/mock_arena.js` implements the same interface as `lib/arena.js` on top of the real shop
 reducer, the real battle sim and ghosts drawn from the corpus, so the whole loop runs offline and
-deterministically.
+deterministically. It keeps the historical three-round format by default so earlier
+benchmarks remain reproducible. `mock.create({ suddenDeath: true })` enables the current
+format; missing fourth-round ghost boards explicitly fall back to recorded third-round
+snapshots and are reported in `stats.ghostFallbacks`.
 
 The `--old` flag in `tools/eval_matches.js` changes the planning objective within the current
 code; it does not load an earlier code version. The original 1,000-match objective comparison used
@@ -161,8 +168,10 @@ aggregate win-rate gain, while a separate late-ID check confirmed the duplicate-
 - Apple is permanent +1/+1; potato is +2 ATK for this battle only and destroys honey; honey is a
   flag that summons a 1/1 Drone at the fainted seat — and honey fed to a potatoed unit strips the
   potato and its +2 ATK just as potato strips honey. The exclusion runs both ways.
-- A match is at most 3 rounds and a drawn round still consumes one, so 1-1 and 0-0 are drawn
-  matches and round 2's value of a draw depends on the score.
+- A match normally ends at two wins or after its third fight. An even score after three
+  fights now opens a fourth shop and fight against the same rival. If that fight draws,
+  cumulative surviving HP across the match decides, followed by ATK, then a draw.
+  There is no third relic draft. Round indices are 0–3; battle seeds are 101/202/303/404.
 - Each legendary has half the ordinary per-bot offer weight. Season 3 mythics cost 8, have one
   quarter weight, and are limited to one per team. Season 3 also adds crew bonuses, captains, and
   item equipment; see [Season 3 notes](docs/SEASON3.md).
@@ -174,6 +183,6 @@ Current rules are summarized in [`docs/SEASON4.md`](docs/SEASON4.md) and
 [`api/ACTIONS.md`](api/ACTIONS.md). The detailed [`docs/ENGINE_SHOP.md`](docs/ENGINE_SHOP.md) and
 [`docs/ENGINE_BATTLE.md`](docs/ENGINE_BATTLE.md) retain the historical Season 1/2 audit.
 
-The driver keeps one match context when the server reveals an ID in R1 or R2, so each round is
+The driver keeps one match context when the server reveals an ID in a later round, so each round is
 logged and learned once. A repair of a **copied** 2026-09-20 archive book removed 1,072 uniquely
 identified duplicate observation stamps from the earlier driver behavior.

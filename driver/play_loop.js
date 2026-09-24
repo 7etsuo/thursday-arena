@@ -147,6 +147,7 @@ async function run(opts = {}) {
   const t = opts.telemetry || telemetryLib.open({ dir: opts.logDir, codeVersion: telemetryLib.codeVersion() });
   const rng = opts.rng || mulberry32(opts.seed == null ? Date.now() & 0x7fffffff : opts.seed);
   const dry = !!opts.dry;
+  let suddenDeathEnabled = opts.suddenDeathEnabled ?? true;
   const games = opts.games == null ? (opts.once ? 1 : Infinity) : opts.games;
   // Anonymous practice is AI, so a separate total-match limit can stop its verification run.
   // It does not change rated game counts or allow AI boards into the opponent book.
@@ -351,7 +352,10 @@ async function run(opts = {}) {
 
   async function recordResult(st) {
     const w = st.wins || { you: 0, them: 0 };
-    const result = w.you > w.them ? 'win' : w.them > w.you ? 'loss' : 'draw';
+    const decided = st.suddenDeath?.winner;
+    const result = ['you', 'them', 'draw'].includes(decided)
+      ? {you:'win',them:'loss',draw:'draw'}[decided]
+      : w.you > w.them ? 'win' : w.them > w.you ? 'loss' : 'draw';
     const ai = ctx.ai || isAiMatch(st);
     flushPending();
     if (!ai && ctx.s3Rows.length && ctx.handle) {
@@ -372,6 +376,7 @@ async function run(opts = {}) {
       matchId: ctx.matchId, result, wins: w, opponent: ctx.handle, ai,
       opponentKind: st.opponentKind || null, rated: st.rated == null ? null : st.rated,
       eloDelta: st.eloDelta == null ? null : st.eloDelta, rounds: `${w.you}-${w.them}`,
+      ...(st.suddenDeath ? {suddenDeath:st.suddenDeath} : {}),
     });
     if (ai) {
       summary.aiMatches += 1;
@@ -442,7 +447,7 @@ async function run(opts = {}) {
     // per (match, round), so re-entering the same shop does not hand the planner a fresh budget
     const bumpRerolls = () => ctx.rerolls.set(round, (ctx.rerolls.get(round) || 0) + 1);
     const reS = (e) => ({
-      ...shopModel.normalize(e.state, { season: ctx.season }),
+      ...shopModel.normalize(e.state, { season: ctx.season, suddenDeathEnabled }),
       rerolls: ctx.rerolls.get(round) || 0,
     });
     let S = reS(env);
@@ -484,7 +489,8 @@ async function run(opts = {}) {
     // Once per shop, not once per action.
     const built = targetLib.build({
       ...targetOpts, beforeTs: now(), book, season: ctx.season, round: S.round,
-      handle: ctx.handle, prevHandle: ctx.prevHandle, seats: S.seats,
+      handle: ctx.handle, prevHandle: ctx.prevHandle, seats: S.seats, suddenDeathEnabled:S.suddenDeathEnabled,
+      previousOpponent: ctx.s3Rows.find(row => row.round === 2),
       bookWeight: S.round === 0 ? targetOpts.bookWeight0 : targetOpts.bookWeight12,
       recencyHalfLifeMs: targetOpts.recencyHalfLifeMs,
       bookPolicy: targetOpts.bookPolicy,
@@ -493,9 +499,9 @@ async function run(opts = {}) {
     // previous opponent stands in at R0 confidence; from R1 the handle is known and its book
     // boards for the later round are used at full confidence.
     const futureTargets = {};
-    for (let r = S.round + 1; r <= 2; r++) {
+    for (let r = S.round + 1; r <= (S.suddenDeathEnabled ? 3 : 2); r++) {
       futureTargets[r] = targetLib.build({
-        ...targetOpts, beforeTs: now(), book, season: ctx.season, round: r, seats: S.seats, proxy: !ctx.handle,
+        ...targetOpts, beforeTs: now(), book, season: ctx.season, round: r, seats: S.seats, suddenDeathEnabled:S.suddenDeathEnabled, proxy: !ctx.handle,
         handle: ctx.handle || ctx.prevHandle, prevHandle: ctx.prevHandle,
         bookWeight: ctx.handle ? targetOpts.bookWeight12 : targetOpts.bookWeight0,
         recencyHalfLifeMs: targetOpts.recencyHalfLifeMs,
@@ -505,6 +511,7 @@ async function run(opts = {}) {
     event('shop', {
       matchId: ctx.matchId, season: ctx.season, round: S.round, gold: S.gold, food: S.food, offers: S.offers,
       board: S.board, seats: S.seats, series: S.series, handle: ctx.handle,
+      suddenDeathEnabled:S.suddenDeathEnabled, kept:S.kept,
       ...(ctx.season >= 3 ? { captain: S.captain, rivalCaptain: S.rivalCaptain,
         itemOffer: S.itemOffer, freeRerolls: S.freeRerolls, shopCosts: S.shopCosts,
         carry: S.carry, rerolls: S.rerolls } : {}),
@@ -606,7 +613,12 @@ async function run(opts = {}) {
       moves = planner.seatingActions(S, built, {
         round: S.round,
         seats: S.seats,
-        utility: planner.utility(S.round, S.series),
+        utility: planner.utility(S.round, S.series, S),
+        futureTargets,
+        matchLevel: pctx.matchLevel,
+        matchRounds: pctx.matchRounds,
+        futureMode: pctx.futureMode,
+        futureBlend: pctx.futureBlend,
         defenseTarget: pctx.defenseTarget,
         defenseWeight: pctx.defenseWeight,
         defenseObjective: pctx.defenseObjective,
@@ -681,7 +693,11 @@ async function run(opts = {}) {
     const assertSupported = season => {
       if (season > 4) throw new Error(`Season ${season} is not supported by this S1–S4 build; no further game actions sent`);
     };
-    if (arena.getSeason) assertSupported(await arena.getSeason());
+    if (arena.getSeasonInfo) {
+      const info = await arena.getSeasonInfo();
+      assertSupported(info.number);
+      if (opts.suddenDeathEnabled == null && typeof info.suddenDeath === 'boolean') suddenDeathEnabled = info.suddenDeath;
+    } else if (arena.getSeason) assertSupported(await arena.getSeason());
     for (let step = 0; step < maxSteps; step++) {
       if (summary.games >= games) { stop('games_done'); break; }
       if (summary.games + summary.aiMatches >= stopAfterMatches) { stop('matches_done'); break; }
@@ -694,6 +710,9 @@ async function run(opts = {}) {
       const env = await arena.observe();
       const st = (env && env.state) || {};
       assertSupported(shopModel.seasonOf(st));
+      if (st.phase?.round != null && (!Number.isInteger(st.phase.round) || st.phase.round < 0 || st.phase.round > 3)) {
+        throw new Error(`Unsupported game round ${st.phase.round}; no further game actions sent`);
+      }
       const kind = st.phase && st.phase.kind;              // NO `|| 'idle'`: see review R2-01
 
       const known = PHASES.has(kind);
