@@ -1,0 +1,25 @@
+{
+  "archive": {
+    "filename": "thursday-arena-all-logs-20260924-000457.tgz",
+    "bytes": 25026303,
+    "sha256": "5438cd04fcd5d94e2fadef0c378fe3bf9bcd0ec5ea00df33ecdbc89e8dcafda5"
+  },
+  "baselineCommit": "cd32aa8ea484faad42e0755a5b1abc40fe8c8917",
+  "baselineRuntime": "889c4750a726",
+  "currentRuntime": "5073bd7ec189",
+  "node": "v25.9.0",
+  "testCount": 281,
+  "completeLiveFights": 1190,
+  "winnerMatches": 1190,
+  "fullFrameMatches": 1188,
+  "latestSessionFights": 1066,
+  "latestSessionFullFrameMatches": 1066,
+  "preservedMemory": {
+    "memory/book.json": "593bfb43d4f9a1e789bf6d7ee7bb8c22785cfb65c92d4437a54de7407b7711c1",
+    "memory/last_opponent.json": "6fb502143afb5444dcc1fce8aa9db8ebb5704d2427ab9fbd095b6513b3a7a8af"
+  },
+  "publicDefenseEndpoint": "https://thursdayarena.com/api/public/v1/matches/{id}",
+  "defenseFixtureMatches": 25,
+  "defenseRoundReconstructions": 60,
+  "ratedActionsSent": 0
+}

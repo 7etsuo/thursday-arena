@@ -12,6 +12,7 @@
 const fs = require('fs');
 const path = require('path');
 const bookLib = require('../lib/book');
+const opponentModel = require('../lib/opponent_model');
 
 const OURS = path.join(__dirname, '..', 'memory', 'book.json');
 const boardKey = (e) => bookLib.boardKey(e.board, e.captain, e.relics);
@@ -80,6 +81,24 @@ function mergeFiles(other, oursFile = OURS) {
   }
   // Preserve the idempotency receipts when importing learned defensive observations.
   if (theirs.receipts) ours.receipts = { ...theirs.receipts, ...(ours.receipts || {}) };
+  // Recent population and calibration use outgoing observations, not entries.
+  // Import them as well; copying only entries silently discarded that learning.
+  if (theirs.outgoing || ours.outgoing) {
+    const rows = [...(theirs.outgoing || []), ...(ours.outgoing || [])];
+    if (!opponentModel.validate(rows)) throw new Error('invalid outgoing observations; neither file was changed');
+    const season = Math.max(...rows.map(r => r.season), 0), unique = new Map();
+    for (const row of rows.filter(r => r.season === season)) {
+      const key = `${row.season}|${row.matchId}|${row.round}`, old = unique.get(key);
+      // Prefer a current forecast if only one copy has one. Otherwise retain
+      // the destination's copy of the same observation, as with receipts.
+      if (old?.forecast?.version === opponentModel.S4_FORECAST_VERSION &&
+          row.forecast?.version !== opponentModel.S4_FORECAST_VERSION) continue;
+      unique.set(key, row);
+    }
+    const merged = {};
+    for (const row of [...unique.values()].sort((a,b) => a.ts - b.ts)) opponentModel.append(merged, row);
+    ours.outgoing = merged.outgoing || [];
+  }
   const keys = Object.keys(ours.entries).length;
   const boards = Object.values(ours.entries).reduce((s, l) => s + l.length, 0);
   const obs = Object.values(ours.entries).reduce((s, l) => s + l.reduce((a, e) => a + e.n, 0), 0);

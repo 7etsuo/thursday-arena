@@ -1,0 +1,8 @@
+const fs=require('fs');const root='/home/tetsuo/grok/thursday-arena',work=__dirname;
+const [name,seedText,seasonText,gamesText]=process.argv.slice(2),seed=Number(seedText),season=Number(seasonText||4),games=Number(gamesText||20);
+const code=name==='before'?work:root;const modules={name,root:code,loop:require(code+'/driver/play_loop'),planner:require(code+'/lib/planner'),book:require(code+'/lib/book'),telemetry:require(code+'/lib/telemetry')};
+const opt={games,budget:Infinity,bookMode:'cold',...(season===4?{initialBook:work+'/initial.json',scenarios:JSON.parse(fs.readFileSync(work+'/scenarios.json'))}: {})};
+const at=Date.now();require(root+'/tools/eval_versions').play(modules,season,seed,opt).then(result=>{
+ fs.writeFileSync(`${root}/docs/results/live-fixes-2026-09-24/s${season}-${seed}-${name}.json`,JSON.stringify({name,seed,season,seconds:(Date.now()-at)/1000,...result}));
+ console.log(name,seed,season,games,'complete',((Date.now()-at)/1000).toFixed(1));
+}).catch(e=>{console.error(e);process.exitCode=1});

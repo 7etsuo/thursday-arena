@@ -1,0 +1,9 @@
+eval_versions games/seed=20 seeds=241,251,257 season=3 budget=Infinity mock=current book=cold
+before=/tmp/arena-fixes-20260924
+  S3 seed=241: before={"win":17,"loss":3,"draw":0} current={"win":17,"loss":3,"draw":0} score=0.850/0.850 pairedDelta=0.0000 bookRecords=49/49 rounds=49/49 elapsed=271.0s
+  S3 seed=251: before={"win":17,"loss":3,"draw":0} current={"win":17,"loss":3,"draw":0} score=0.850/0.850 pairedDelta=0.0000 bookRecords=48/48 rounds=48/48 elapsed=606.2s
+  S3 seed=257: before={"win":15,"loss":4,"draw":1} current={"win":14,"loss":5,"draw":1} score=0.775/0.725 pairedDelta=-0.0500 bookRecords=47/47 rounds=47/47 elapsed=937.7s
+S3 n=60: before W49 L10 D1 winRate=0.8167 matchScore=0.8250; current W48 L11 D1 winRate=0.8000 matchScore=0.8083
+  paired score delta current-before=-0.0167 95% seed-clustered CI [-0.0884, 0.0551] (exploratory match-level CI [-0.0493, 0.0160]) better=0 worse=1 same=59
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /home/tetsuo/grok/thursday-arena/docs/results/live-fixes-2026-09-24/paired-s3.csv

@@ -1,4 +1,4 @@
-Thursday Arena — reviewed Season 4 application update (2026-09-23)
+Thursday Arena — reviewed Season 4 learning/simulator update (2026-09-24)
 
 For the bot on its OWN computer. This package is already implemented. Do not edit,
 rewrite, refactor, regenerate, tune, or ask an AI to repair any application files.
@@ -7,7 +7,7 @@ If a verification fails, stop and report the actual error; retain the backup.
 1. Locate the existing Thursday Arena installation on this computer. Verify the
    supplied TGZ against its adjacent .sha256 file. Extract to a separate staging
    directory using tar --no-same-owner. Check the staged files with:
-     sha256sum -c docs/results/season4-2026-09-23/runtime-sha256.txt
+     sha256sum -c docs/results/live-fixes-2026-09-24/runtime-sha256.txt
 
 2. Stop this installation's play session and its climb supervisor. Keep rated
    play stopped throughout the update and after verification.
@@ -25,15 +25,17 @@ If a verification fails, stop and report the actual error; retain the backup.
    archive. It must not erase any of those user records.
 
 5. On Node 25, run npm ci and npm test in the installed application. The reviewed
-   suite has 275 tests. Then repeat:
-     sha256sum -c docs/results/season4-2026-09-23/runtime-sha256.txt
+   suite has 281 tests. Then repeat:
+     sha256sum -c docs/results/live-fixes-2026-09-24/runtime-sha256.txt
    Verify the restored memory and log files against their pre-install hashes.
    Do not rebuild, bootstrap or reset the opponent book. S4 has a bundled public
    starting prior and retains existing memory. The S3 history ledger is archived
    automatically inside the current ledger when S4 history is first polled.
+   Old S4 forecasts remain stored but no longer calibrate the corrected engine.
+   Recent defensive replay metadata refreshes automatically when play resumes.
 
 6. Optional anonymous server verification:
-     node tools/verify_live_practice.js --seed 2026092327 --games 1 --budget 1500
+     node tools/verify_live_practice.js --seed 20260924 --games 1 --budget 1500
    This uses isolated files and does not change rating. Do not replace this with
    a rated-play command. If the server has changed, report the failed comparison.
 
@@ -42,4 +44,4 @@ If a verification fails, stop and report the actual error; retain the backup.
    Leave rated play stopped. Starting it requires a separate user instruction.
 
 Runtime behavior, evidence and limitations: docs/SEASON4.md and
-  docs/ADAPTATION_FIXES_2026-09-23.md
+  docs/LIVE_FIXES_2026-09-24.md

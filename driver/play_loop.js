@@ -508,7 +508,7 @@ async function run(opts = {}) {
       ...(ctx.season >= 3 ? { captain: S.captain, rivalCaptain: S.rivalCaptain,
         itemOffer: S.itemOffer, freeRerolls: S.freeRerolls, shopCosts: S.shopCosts,
         carry: S.carry, rerolls: S.rerolls } : {}),
-      ...(ctx.season >= 4 ? { relics: S.relics, rivalRelics: S.rivalRelics } : {}),
+      ...(ctx.season >= 4 ? { relics: S.relics, rivalRelics: S.rivalRelics, rivalRelicsRound: S.rivalRelicsRound } : {}),
       target: { ...built.sources, ...built.model, note: built.note, entries: built.entries.length },
       future: Object.fromEntries(Object.entries(futureTargets).map(([r, f]) => [r, f.note])),
     });
@@ -651,7 +651,7 @@ async function run(opts = {}) {
     summary.actions += 1;
     const forecast = S.season >= 3 ? targetLib.forecast(ourUnits, built, {
       season: S.season, round: S.round, seats: S.seats,
-      ourCaptain: S.captain, theirCaptain: S.rivalCaptain, ourRelics: S.relics, theirRelics: S.rivalRelics,
+      ourCaptain: S.captain, theirCaptain: S.rivalCaptain, ourRelics: S.relics, theirRelics: shopModel.planningRivalRelics(S),
     }) : null;
     env = await arena.act({ type: 'endShop' });
     if (!env.conflict) { ctx.played = true; ctx.forecasts.set(S.round, forecast); }

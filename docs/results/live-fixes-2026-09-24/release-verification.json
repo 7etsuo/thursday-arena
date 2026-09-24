@@ -1,0 +1,27 @@
+{
+  "archiveRuntimeFilesVerified": 102,
+  "memoryAndLiveLogsExcluded": true,
+  "zipReassemblyVerified": true,
+  "artifacts": {
+    "thursday-arena-s4-learning-fixed-20260924-part2.zip": {
+      "bytes": 9984501,
+      "sha256": "ad87771fa93121a934d257292f7b0d4b418ac8f43ad00997f8334bdf624180aa"
+    },
+    "thursday-arena-s4-learning-fixed-20260924-part1.zip": {
+      "bytes": 20974269,
+      "sha256": "09ac44b47a4d213353e27dba9927422cc697e2768da428dc232b7768c53decc8"
+    },
+    "thursday-arena-s4-learning-fixed-20260924-install-prompt.txt": {
+      "bytes": 2155,
+      "sha256": "b971fbee455686da9abfd96c2fd28b6a455977154b1893bc7e0e8a509c00347d"
+    },
+    "thursday-arena-s4-learning-fixed-20260924.tgz.sha256": {
+      "bytes": 112,
+      "sha256": "eebed0f71202829a12c2e50aca8e91c2a41dd7798e0d1cdfdb0c4fca368374dd"
+    },
+    "thursday-arena-s4-learning-fixed-20260924.tgz": {
+      "bytes": 30953272,
+      "sha256": "f0d62045ea7f8bd9c88d17d7aca17ceb74ffa0ab5be0e55f2689d4b23f0847be"
+    }
+  }
+}

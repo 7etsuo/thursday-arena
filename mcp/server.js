@@ -264,6 +264,7 @@ server.registerTool(
       rivalCaptain: S.rivalCaptain,
       relics: S.relics,
       rivalRelics: S.rivalRelics,
+      rivalRelicsRound: S.rivalRelicsRound,
       itemOffer: S.itemOffer,
       target: { ...built.sources, note: built.note, entries: built.entries.length },
       plan,

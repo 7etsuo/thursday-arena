@@ -324,9 +324,12 @@ No client-side change can conjure a ghost. If the pool is empty at your rating, 
 
 Nothing ships without numbers. In order of cost:
 
-1. `npm test` — 275 offline tests as of the S4 release. S4 includes 395 complete-input server
+1. `npm test` — 281 offline tests as of the September 24 S4 update. S4 includes 395 complete-input server
    fights, 101 shop transitions and seven real-driver practice traces (17 fights), plus memory
-   and season-rollover checks. Two incomplete-input public traces remain unresolved.
+   and season-rollover checks. The September 24 update adds 1,190 independent live
+   winner checks and 1,188 exact traces, six regressions, and 60 defensive round
+   reconstructions. Two older complete-input traces differ only in tied knockout
+   order; two incomplete-input public traces also remain unresolved.
    The older coverage includes Season 1/2 winner checks for the full corpus
    (10,748 battles), frame checks for selected recorded traces, the shop-model replay
    against 6,373 real recorded shops, planner property tests over seeded random states, and a 30-match
@@ -419,6 +422,13 @@ are retained in the documented backups and evidence archives. Back up before lar
 ---
 
 ## 11. Recent fixes and known limits
+
+- **September 24 S4:** shop relic observations are tagged by round; stale relics no
+  longer override learned current-round combinations. Corrected forecasts have a
+  version, and old calibration samples stay stored without influencing current
+  confidence. Recent defense metadata refreshes once after the engine update. Book
+  imports preserve outgoing samples. All 1,066 latest-session fights now match
+  frame for frame. See [the fixes and comparisons](docs/LIVE_FIXES_2026-09-24.md).
 
 - **September 23 Season 4:** all new card effects, fusions, relics, captains, items and seats are
   implemented and exercised with official anonymous practice. Opponent memory retains fusion

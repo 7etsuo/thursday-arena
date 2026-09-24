@@ -1,4 +1,4 @@
-# Season 4 support — September 23, 2026
+# Season 4 support — updated September 24, 2026
 
 This build supports Seasons 1–4. The earlier seasons keep their own rules. Season 4 adds
 100 cards, eight items, eight captains, five seat rules, 15 fusion recipes and 19 relics.
@@ -52,6 +52,10 @@ searched, future shops are sampled, and later item draw odds/prices remain mock 
 The decision deadline is soft: final verification and bounded draft/freeze work can run beyond
 it. Current offered prices are always observed directly in live play.
 
+The [September 24 fixes and measurements](LIVE_FIXES_2026-09-24.md) supersede the initial
+release where noted below. They correct stale opponent relics, combat interactions,
+forecast calibration and defense-metadata refresh.
+
 ## Learning and season rollover
 
 The [September 23 adaptation fixes](ADAPTATION_FIXES_2026-09-23.md) apply to both S3 and S4:
@@ -61,6 +65,13 @@ objective. Learning does not alter card rules or permanently rewrite the strateg
 
 Exact learned boards, items, fusion parents, relics and observation IDs are now also written to
 book telemetry. A future export of only logs can retain this evidence after book eviction.
+
+Shop `rivalRelics` describes the previous fight. The normalized state tags it with
+`rivalRelicsRound`; planning uses each current-round target entry’s relics unless an
+observation explicitly belongs to the simulated round. Battle replay uses the exact
+revealed relics. Forecasts carry a model version, so obsolete S4 forecast errors no
+longer calibrate confidence. Their boards, outcomes and receipts remain stored.
+Recent defense metadata is recomputed once per corrected combat model.
 
 Fusion identity and relics survive opponent-book save/reload and participate in board identity
 and simulation cache keys. Completed public replay boards are preferred over frame reconstruction.
@@ -80,7 +91,7 @@ files remain errors. Seasons after 4 are refused before further driver game acti
 
 ## Server verification
 
-Automated fixtures include:
+Automated fixtures from the initial release include:
 
 - **395 complete-input server battles**, comparing every frame and winner. Coverage includes
   all 100 new kits, all 15 fusion recipes, all relics, new captains/items/seats, mixed teams and
@@ -114,7 +125,9 @@ same frames is diagnostic evidence, not an independent prediction test.
 Compatibility tests establish that the new actions run and sampled mechanics match the server.
 They do not establish rated strength. The earlier S3 paired comparisons did not demonstrate a
 reliable win-rate gain; their full counts and uncertainty are in the adaptation report. S4 has
-no valid old-version comparison because the previous release could not play its new mechanics.
+an old/new S4 comparison in the [September 24 report](LIVE_FIXES_2026-09-24.md).
+The original September 23 release could only be compared with its own learning disabled,
+because the earlier release could not play S4 mechanics.
 Mock learning controls and anonymous AI practice are useful checks, not estimates of the rated
 ladder's win rate or a proof of optimal play.
 

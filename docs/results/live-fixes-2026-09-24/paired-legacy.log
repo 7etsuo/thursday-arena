@@ -1,0 +1,15 @@
+eval_versions games/seed=20 seeds=241,251,257 season=both budget=Infinity mock=current book=cold
+before=/tmp/arena-fixes-20260924
+  S1 seed=241: before={"win":15,"loss":5,"draw":0} current={"win":15,"loss":5,"draw":0} score=0.750/0.750 pairedDelta=0.0000 bookRecords=49/49 rounds=49/49 elapsed=14.8s
+  S1 seed=251: before={"win":18,"loss":1,"draw":1} current={"win":18,"loss":1,"draw":1} score=0.925/0.925 pairedDelta=0.0000 bookRecords=47/47 rounds=47/47 elapsed=28.6s
+  S1 seed=257: before={"win":18,"loss":1,"draw":1} current={"win":18,"loss":1,"draw":1} score=0.925/0.925 pairedDelta=0.0000 bookRecords=51/51 rounds=51/51 elapsed=43.9s
+S1 n=60: before W51 L7 D2 winRate=0.8500 matchScore=0.8667; current W51 L7 D2 winRate=0.8500 matchScore=0.8667
+  paired score delta current-before=0.0000 95% seed-clustered CI [0.0000, 0.0000] (exploratory match-level CI [0.0000, 0.0000]) better=0 worse=0 same=60
+  illegal before=0 current=0; fillable short shops before=0 current=0
+  S2 seed=241: before={"win":16,"loss":2,"draw":2} current={"win":16,"loss":2,"draw":2} score=0.850/0.850 pairedDelta=0.0000 bookRecords=49/49 rounds=49/49 elapsed=15.7s
+  S2 seed=251: before={"win":16,"loss":3,"draw":1} current={"win":16,"loss":3,"draw":1} score=0.825/0.825 pairedDelta=0.0000 bookRecords=47/47 rounds=47/47 elapsed=31.5s
+  S2 seed=257: before={"win":15,"loss":5,"draw":0} current={"win":15,"loss":5,"draw":0} score=0.750/0.750 pairedDelta=0.0000 bookRecords=44/44 rounds=46/46 elapsed=44.7s
+S2 n=60: before W47 L10 D3 winRate=0.7833 matchScore=0.8083; current W47 L10 D3 winRate=0.7833 matchScore=0.8083
+  paired score delta current-before=0.0000 95% seed-clustered CI [0.0000, 0.0000] (exploratory match-level CI [0.0000, 0.0000]) better=0 worse=0 same=60
+  illegal before=0 current=0; fillable short shops before=0 current=0
+paired CSV: /home/tetsuo/grok/thursday-arena/docs/results/live-fixes-2026-09-24/paired-legacy.csv

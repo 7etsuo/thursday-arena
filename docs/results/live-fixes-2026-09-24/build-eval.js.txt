@@ -1,0 +1,31 @@
+const fs=require('fs'),root='/home/tetsuo/grok/thursday-arena',src='/tmp/arena-log-review-20260924-000457',out=__dirname;
+const B=require(root+'/lib/book'),history=require(root+'/lib/public_history');
+const events=['2026-09-23','2026-09-24'].flatMap(d=>fs.readFileSync(src+'/records/data/log/'+d+'.jsonl','utf8').trim().split('\n').map(JSON.parse));
+const rows=JSON.parse(fs.readFileSync(src+'/target-rows.json')),byKey=new Map(rows.map(r=>[r.shop.matchKey+':'+r.shop.round,r]));
+const results=events.filter(e=>e.type==='result' && e.session==='fcafefbb-ed90-4760-96df-981b23adf683');
+const start=results.length-100,startTs=byKey.get(results[start].matchKey+':0').shop.ts;
+const book=B.open('/unused',{empty:true});for(const e of events){if(e.ts>=startTs)break;if(e.type==='book'&&e.season===4)book.record({...e,ts:e.observedAt,role:e.source==='defense_replay'?'defense':e.role});}
+fs.writeFileSync(out+'/initial.json',JSON.stringify(book.data()));
+const raw=JSON.parse(fs.readFileSync(src+'/public-history-raw.json'));
+const ledger=raw.map(e=>{const self=e.players.find(p=>p.x_handle==='tetsuoai'),other=e.players.find(p=>p!==self);return{id:e.id,ts:Date.parse(e.played_at),role:self.role,outcome:self.outcome,elo:self.elo_delta,kRatio:self.role==='ghost'&&other.elo_delta?Math.min(1,Math.abs(self.elo_delta/other.elo_delta)):0};});
+const details=new Map(fs.readdirSync(out+'/defenses').map(f=>{const d=JSON.parse(fs.readFileSync(out+'/defenses/'+f));return[d.id,d]}));
+const corrected=new Map([...details].map(([id,d])=>[id,history.replayInputs(d,history.rowOf(raw.find(r=>r.id===id),'tetsuoai',4),'tetsuoai',4)]));
+const scenarios=[],last=new Map();let imputed=0;
+for(const m of events.filter(e=>e.type==='result')){
+ const rs=[0,1,2].map(i=>byKey.get(m.matchKey+':'+i));
+ if(m.ts>=startTs && m.session==='fcafefbb-ed90-4760-96df-981b23adf683'){
+  const used=rs.map((r,i)=>r||last.get(m.opponent+'|'+i));if(!used.every(Boolean)){console.log('excluded missing prior R2',m.opponent,m.matchId);for(let i=0;i<3;i++)if(rs[i])last.set(m.opponent+'|'+i,rs[i]);continue;};
+  const before=Date.parse(rs[0].shop.ts),past=events.filter(e=>e.type==='book'&&e.source==='defense_replay'&&Date.parse(e.ts)<before&&Date.parse(e.observedAt)>=before-3600000);
+  const recent=ledger.filter(e=>e.ts<before&&e.ts>=before-3600000),attacks=recent.filter(e=>e.role==='attacker').length;
+  const exposure=recent.filter(e=>e.role==='ghost').reduce((n,e)=>n+e.kRatio,0)/(attacks+10);
+  const defenseTargets=Object.fromEntries([0,1,2].map(round=>[round,{exposure,entries:past.filter(e=>e.round===round&&e.seats).sort((a,b)=>Date.parse(b.observedAt)-Date.parse(a.observedAt)).slice(0,24).map(e=>{
+   const ld=recent.find(x=>x.id===e.matchId); const series={you:0,them:0};for(const r of details.get(e.matchId).rounds.filter(r=>r.round<round)){if(r.winner==='them')series.you++;if(r.winner==='you')series.them++;}
+   return{board:e.board,seats:e.seats,theirCaptain:e.captain,theirRelics:e.relics,series,weight:ld?.kRatio??.5,matchId:e.matchId};
+  })}]));
+  const currentDefenseTargets=Object.fromEntries([0,1,2].map(round=>[round,{exposure,entries:past.filter(e=>e.round===round).map(e=>({...e,seats:corrected.get(e.matchId)?.find(r=>r.round===round)?.seats})).filter(e=>e.seats).sort((a,b)=>Date.parse(b.observedAt)-Date.parse(a.observedAt)).slice(0,24).map(e=>{const r=corrected.get(e.matchId).find(r=>r.round===round);return{board:e.board,seats:r.seats,theirCaptain:e.captain,theirRelics:e.relics,series:r.series,weight:recent.find(x=>x.id===e.matchId)?.kRatio??.5,matchId:e.matchId};})}]));
+  const defenseObservations=past.map(e=>({...e,ts:Date.parse(e.observedAt),role:'defense'}));
+  scenarios.push({defenseObservations,defenseTargetsByVersion:{before:defenseTargets,current:currentDefenseTargets},id:m.matchId,handle:m.opponent,ts:rs[0].shop.ts,seats:Object.assign({},...rs.filter(Boolean).map(r=>r.shop.seats)),rounds:used.map(r=>[r.learned.board]),captains:used.map(r=>r.battle.rivalCaptain),relics:used.map(r=>r.battle.rivalRelics),defenseTargets,imputedRounds:rs.flatMap((r,i)=>r?[]:[i])});if(!rs[2])imputed++;
+ }
+ for(let i=0;i<3;i++)if(rs[i])last.set(m.opponent+'|'+i,rs[i]);
+}
+fs.writeFileSync(out+'/scenarios.json',JSON.stringify(scenarios));console.log({n:scenarios.length,imputed,from:startTs,bookRows:book.data().outgoing.length,defenseCounts:scenarios.slice(0,2).map(s=>[s.defenseTargets[2].entries.length,s.defenseTargets[2].exposure])});

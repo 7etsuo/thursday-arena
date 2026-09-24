@@ -8,7 +8,10 @@ The supplied 2026-09-20 records, repair and replay checks are documented in
 **This build supports Seasons 1–4.** Current rules, fusion/relic planning and validation limits
 are in [Season 4 notes](docs/SEASON4.md). [Season 3 notes](docs/SEASON3.md) retain the earlier rules.
 
-The latest learning, planning and simulator fixes for the supplied Season 3 logs are in
+The September 24 S4 fixes address stale opponent relics, combat errors and obsolete
+confidence samples. See [the fixes and local comparisons](docs/LIVE_FIXES_2026-09-24.md).
+
+The earlier learning, planning and simulator fixes for the supplied Season 3 logs are in
 [`docs/ADAPTATION_FIXES_2026-09-23.md`](docs/ADAPTATION_FIXES_2026-09-23.md).
 The earlier [counter review](docs/COUNTER_RESEARCH_2026-09-21.md) covers the prior 562-match archive.
 The [mathematical counter model](docs/COUNTER_MODEL.md) and

@@ -1,0 +1,62 @@
+{
+  "n": 100,
+  "counts": {
+    "before": {
+      "win": 64,
+      "draw": 9,
+      "loss": 27
+    },
+    "current": {
+      "win": 73,
+      "draw": 8,
+      "loss": 19
+    }
+  },
+  "matchPoints": {
+    "before": 68.5,
+    "current": 77
+  },
+  "scoreDelta": 0.085,
+  "seedMeans": [
+    0.05,
+    0.05,
+    0.175,
+    -0.075,
+    0.225
+  ],
+  "seedClustered95": [
+    -0.06156386184868355,
+    0.23156386184868355
+  ],
+  "better": 19,
+  "worse": 8,
+  "same": 73,
+  "diagnostics": {
+    "before": {
+      "illegal": 0,
+      "fillableShort": 0,
+      "missingInputs": 0,
+      "emptyGhosts": 0,
+      "rounds": 257
+    },
+    "current": {
+      "illegal": 0,
+      "fillableShort": 0,
+      "missingInputs": 0,
+      "emptyGhosts": 0,
+      "rounds": 249
+    }
+  },
+  "halves": [
+    {
+      "half": 1,
+      "before": 0.61,
+      "current": 0.69
+    },
+    {
+      "half": 2,
+      "before": 0.76,
+      "current": 0.85
+    }
+  ]
+}

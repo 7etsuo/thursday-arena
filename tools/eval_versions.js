@@ -125,8 +125,10 @@ async function play(modules, season, seed, opt) {
       fs.copyFileSync(opt.initialBook || path.join(modules.root, 'memory/book.json'), bookFile);
     }
     const arena = mock.create({ seed, season, ghosts: opt.scenarios, ghostSequence: !!opt.scenarios });
+    const modelEpoch = Date.UTC(2026, 8, 24);
     let scenarioIndex = 0, modelTime = Date.parse(opt.scenarios?.[0]?.ts);
-    const now = () => Number.isFinite(modelTime) ? modelTime : Date.now();
+    if (!Number.isFinite(modelTime)) modelTime = modelEpoch;
+    const now = () => modelTime;
     const starts = [];
     let promoted = false;
     let promoteOnObserve = false;
@@ -145,6 +147,7 @@ async function play(modules, season, seed, opt) {
       const response = await act(action, version);
       if (opt.scenarios?.[scenarioIndex]?.ts) modelTime = Date.parse(opt.scenarios[scenarioIndex].ts) +
         (response.state?.phase?.round ?? 3) * 1000;
+      else modelTime = modelEpoch + scenarioIndex * 30000 + (response.state?.phase?.round ?? 3) * 1000;
       if (opt.lateId) {
         if (action.type === 'start' || action.type === 'restart') {
           promoted = false;
@@ -176,7 +179,7 @@ async function play(modules, season, seed, opt) {
     let bookRecords = 0;
     const record = book.record.bind(book);
     book.record = (row) => { bookRecords++; return opt.freezeBefore && modules.name === 'before' ? null
-      : record(Number.isFinite(modelTime) ? { ...row, ts: now() } : row); };
+      : record(Number.isFinite(modelTime) && row.role !== 'defense' ? { ...row, ts: now() } : row); };
     const telemetry = modules.telemetry.open({ dir: path.join(dir, 'log'), codeVersion: modules.name });
     let battleEvents = 0;
     let missingInputs = 0;
@@ -197,7 +200,11 @@ async function play(modules, season, seed, opt) {
       prevHandle: null, lastOpponentFile: path.join(dir, 'last.json'),
       plannerOpts: modules.name === 'current' ? opt.plannerOpts : undefined,
       targetOpts: modules.name === 'current' ? opt.targetOpts : undefined,
-      history: opt.scenarios ? { poll: async () => ({ skipped: true }), report: () => ({ offline: true }), defenseTarget: (round) =>
+      history: opt.scenarios ? { poll: async () => {
+        for (const row of opt.scenarios[scenarioIndex].defenseObservations || []) book.record(row);
+        return { offline: true };
+      }, report: () => ({ offline: true }), defenseTarget: (round) =>
+        opt.scenarios[scenarioIndex].defenseTargetsByVersion?.[modules.name]?.[round] ||
         opt.scenarios[scenarioIndex].defenseTargets?.[round] || { entries: [] } } : undefined,
     });
     if (out.games !== opt.games || arena.stats.matches.length !== opt.games || starts.length !== opt.games) {

@@ -206,7 +206,7 @@ function create(opts = {}) {
       freeRerolls: 0,
       shopCosts: null,
       itemOffer: null,
-      ...(season >= 4 ? {relics:[],relicOffer:null,rivalRelics:[]} : {}),
+      ...(season >= 4 ? {relics:[],relicOffer:null,rivalRelics:null} : {}),
     });
     phase = { kind: 'shop', round: 0 };
   }
@@ -218,7 +218,7 @@ function create(opts = {}) {
       next.itemOffer = S.itemOffer?.frozen ? S.itemOffer : null;
       S = rollShop({...next,series:{...match.wins},
         rivalCaptain:match.ghost.captains?.[next.round] ?? match.rivalCaptain,
-        rivalRelics:match.ghost.relics?.[next.round] || [],
+        rivalRelics:match.ghost.relics?.[S.round]?.length ? match.ghost.relics[S.round] : null,
         relicOffer:s4.RELICS.filter(r=>!S.relics.includes(r)).sort((a,b)=>draw(`match:${match.index}:round:${next.round}:relic:${a}`)-draw(`match:${match.index}:round:${next.round}:relic:${b}`)).slice(0,3)});
       phase={kind:'shop',round:S.round}; return;
     }
@@ -395,6 +395,7 @@ function create(opts = {}) {
         });
         const them = pick(match.ghost.rounds[S.round], `match:${match.index}:round:${S.round}:enemy`);
         const us = shopModel.simUnits(S);
+        if (season >= 4) S = {...S, rivalRelics:match.ghost.relics?.[S.round] || []};
         const r = sim.simulate(us, them, {
           round: S.round,
           seats: match.seats,
